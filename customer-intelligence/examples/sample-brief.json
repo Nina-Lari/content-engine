@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "brief_id": "brief-2026-03-22-soc2-hipaa-overlap",
+    "created_date": "2026-03-22",
+    "source_call_id": "transcript-2026-03-18-meridiancare",
+    "status": "ready_for_review",
+    "assigned_writer": null,
+    "target_publish_date": null
+  },
+  "keyword": {
+    "primary": "SOC 2 HIPAA control overlap",
+    "secondary": [
+      "SOC 2 and HIPAA compliance",
+      "multi-framework control mapping",
+      "HIPAA SOC 2 crosswalk"
+    ],
+    "long_tail": [
+      "how much overlap between SOC 2 and HIPAA controls",
+      "SOC 2 HIPAA combined compliance",
+      "managing SOC 2 and HIPAA together"
+    ],
+    "search_volume_estimate": "720/mo (primary)",
+    "keyword_difficulty_estimate": "medium",
+    "serp_intent": "informational_with_commercial_signal",
+    "serp_notes": "Current top results are generic framework comparison pages from Vanta and Drata. No one has published a detailed control-level crosswalk with practical mapping guidance. Opportunity to own this with depth."
+  },
+  "audience": {
+    "primary_persona": "vp_of_compliance",
+    "secondary_persona": "grc_analyst",
+    "reader_context": "Managing or about to manage both SOC 2 and HIPAA. Suspects there's significant overlap but can't quantify it or operationalize it. May be duplicating control testing across frameworks. Likely in healthcare, healthtech, or a SaaS company handling PHI.",
+    "reader_sophistication": "high — knows both frameworks but hasn't done formal mapping",
+    "reader_intent": "Wants to understand the specific overlap so they can reduce duplicated compliance effort. Secondarily, wants validation that multi-framework management should be unified."
+  },
+  "angle": {
+    "headline": "The 40% You're Testing Twice: Mapping SOC 2 and HIPAA Control Overlap",
+    "thesis": "Most organizations managing SOC 2 and HIPAA treat them as separate compliance programs — and end up testing 35-45% of their controls twice. A structured crosswalk between SOC 2 Trust Services Criteria and HIPAA Security Rule requirements reveals which controls satisfy both, eliminating hundreds of hours of duplicated audit work.",
+    "hook": "A VP of Compliance at a 2,000-person healthcare company told us: 'We estimated that forty percent of our SOC 2 controls overlap with HIPAA requirements. That's hundreds of controls we're testing twice.' He's not wrong — and the duplication gets worse when you add ISO 27001.",
+    "differentiation": "Competitors publish generic 'SOC 2 vs HIPAA' comparison pages. We'll publish the actual control-level crosswalk with specific mapping (e.g., CC6.1 → 164.312(d)) and practical guidance on how to unify testing."
+  },
+  "outline": {
+    "format": "long_form_guide",
+    "target_word_count": 2200,
+    "sections": [
+      {
+        "heading": "Why SOC 2 and HIPAA Overlap More Than You Think",
+        "type": "h2",
+        "purpose": "Establish the problem and quantify the overlap (35-45% based on our data). Explain why most organizations miss it.",
+        "key_points": [
+          "Both frameworks address access controls, monitoring, incident response, and risk management",
+          "Overlap is obscured because the frameworks use different terminology and structure",
+          "SOC 2 Trust Services Criteria vs. HIPAA Security Rule administrative/technical/physical safeguards — different taxonomy, same operational controls"
+        ],
+        "target_word_count": 450
+      },
+      {
+        "heading": "The SOC 2 to HIPAA Control Crosswalk",
+        "type": "h2",
+        "purpose": "Provide the specific mapping between SOC 2 TSC and HIPAA Security Rule requirements. This is the differentiated asset no competitor has published at this depth.",
+        "key_points": [
+          "CC6.1 (Logical and physical access controls) → 164.312(d) (Person or entity authentication)",
+          "CC6.3 (Role-based access) → 164.312(a)(1) (Access control)",
+          "CC7.2 (Monitoring of system components) → 164.312(b) (Audit controls)",
+          "CC8.1 (Change management) → 164.312(e)(2)(ii) (Encryption mechanism changes)",
+          "Include full mapping table (8-10 key overlaps) with practical notes"
+        ],
+        "target_word_count": 600
+      },
+      {
+        "heading": "How to Unify Your Testing Without Cutting Corners",
+        "type": "h2",
+        "purpose": "Practical guidance on how to consolidate control testing across frameworks. Address the fear that unified testing means weaker evidence.",
+        "key_points": [
+          "Map controls to a single internal control library with framework tags",
+          "Design evidence collection to satisfy the stricter requirement (usually HIPAA for healthcare-specific controls)",
+          "Maintain framework-specific views for auditors who only need to see their scope",
+          "Common mistake: testing at the lowest common denominator instead of the highest common bar"
+        ],
+        "target_word_count": 500
+      },
+      {
+        "heading": "What Changes When You Add ISO 27001",
+        "type": "h2",
+        "purpose": "Extend the crosswalk to ISO 27001 for readers considering a third framework. Show how overlap increases with each framework added (argument for unified approach).",
+        "key_points": [
+          "ISO 27001 Annex A controls overlap with both SOC 2 and HIPAA substantially",
+          "Three-way overlap can reach 55-65% of total controls",
+          "The case for unified compliance grows stronger with each framework",
+          "Practical threshold: at 2+ frameworks, tool-based control mapping pays for itself in the first audit cycle"
+        ],
+        "target_word_count": 400
+      }
+    ]
+  },
+  "value_props_to_weave": [
+    {
+      "prop": "Native multi-framework control mapping",
+      "weave_point": "Section 3 — when discussing how to unify testing, reference that manual crosswalks in spreadsheets are fragile and time-consuming. A platform with native mapping automates this.",
+      "touch": "light — educational context, not pitch"
+    },
+    {
+      "prop": "Automated evidence collection",
+      "weave_point": "Section 3 — when discussing evidence that satisfies multiple frameworks, note that manual evidence collection multiplied across frameworks is the real time sink. Automation addresses this at the collection layer.",
+      "touch": "light — workflow reality, not feature pitch"
+    },
+    {
+      "prop": "Audit Hub with framework-specific views",
+      "weave_point": "Section 3 — when addressing auditor needs for scoped views, mention that unified internal management doesn't mean auditors see everything. Scoped views give each auditor exactly their framework's evidence.",
+      "touch": "minimal — single sentence reference"
+    }
+  ],
+  "originality_nuggets": [
+    {
+      "nugget": "Customer quote from MeridianCare discovery call about 40% overlap and testing twice",
+      "source": "transcript-2026-03-18-meridiancare",
+      "usage": "Opening hook and Section 1 framing"
+    },
+    {
+      "nugget": "Specific control-level crosswalk mapping (CC6.1 → 164.312(d), etc.)",
+      "source": "ComplianceOS product team + framework documentation",
+      "usage": "Section 2 — the core differentiating asset"
+    },
+    {
+      "nugget": "Three-way overlap percentage (55-65%) when adding ISO 27001",
+      "source": "ComplianceOS customer data aggregate",
+      "usage": "Section 4 — forward-looking value of unified approach"
+    }
+  ],
+  "internal_links": [
+    {
+      "anchor_text": "multi-framework compliance management guide",
+      "target": "/resources/guides/multi-framework-compliance",
+      "context": "Section 1 — for readers exploring the broader multi-framework challenge"
+    },
+    {
+      "anchor_text": "case study: how a 500-person healthcare company reduced audit prep by 60%",
+      "target": "/customers/midwesthealth-case-study",
+      "context": "Section 3 — proof point for unified approach outcomes"
+    },
+    {
+      "anchor_text": "ISO 27001 readiness checklist",
+      "target": "/resources/checklists/iso-27001-readiness",
+      "context": "Section 4 — for readers about to add ISO 27001"
+    }
+  ],
+  "seo": {
+    "title_tag": "SOC 2 and HIPAA Control Overlap: The Crosswalk Guide | ComplianceOS",
+    "meta_description": "35-45% of SOC 2 and HIPAA controls overlap. This guide maps the specific crosswalk between Trust Services Criteria and HIPAA Security Rule requirements — so you stop testing controls twice.",
+    "slug": "/resources/guides/soc2-hipaa-control-overlap",
+    "schema_type": "Article",
+    "estimated_reading_time": "9 minutes"
+  }
+}
