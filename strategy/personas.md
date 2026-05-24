@@ -41,6 +41,19 @@ The Dutch partner helps with questions about Dutch but won't (or can't) actually
 4. "I tried Duolingo for 3 months. I can say 'the apple is red' but I can't have an actual conversation."
 5. "Every online course I find is just memorization — fill in the blank, repeat after me. But then I freeze when I actually have to speak."
 
+### Validated Pain Points (From Web Research, May 2026)
+
+These are verbatim quotes from community discussions, competitor sites, and reviews:
+
+| Pain Point | Evidence Quote | Source |
+|------------|----------------|--------|
+| Speaking exam anxiety | "Many internationals have stepped nervously into DUO's exam halls" | DutchReview |
+| Recognition vs. production | "They read, they listen, they understand… but when it's time to talk, they freeze." | Facebook group |
+| Can't find speaking partners | "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected." | Reddit r/learndutch |
+| Even partners switch to English | "Dutch partner won't speak Dutch" | Reddit thread title |
+| Memorization doesn't stick | "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation." | Taalhammer |
+| Course value uncertainty | "Are those €1000 inburgering courses actually worth it? Or scam?" | Reddit thread title |
+
 ### Decision Criteria
 
 1. **Speaking practice** — Does it actually make me speak, or just read and listen?
@@ -111,6 +124,14 @@ They may also want to integrate more genuinely — tired of the expat bubble, wa
 3. "My company gave me a learning budget but I don't want to waste it on something that won't work."
 4. "I'm surrounded by Dutch people at work but we all speak English. I feel like I should learn Dutch but there's no immediate pressure."
 5. "I looked at a few courses but they all seem designed for people with more free time."
+
+### Validated Pain Points (From Web Research, May 2026)
+
+| Pain Point | Evidence Quote | Source |
+|------------|----------------|--------|
+| Underestimating production | "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing." | Dutch-online.com |
+| Vocabulary doesn't stick | "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away." | Taalhammer |
+| Recognition isn't production | "Many learners struggle because they can recognize Dutch vocabulary but cannot use it." | Clozemaster |
 
 ### Decision Criteria
 

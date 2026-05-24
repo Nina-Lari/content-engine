@@ -100,6 +100,32 @@ Most start searching in their first year of arrival. Partner visa holders feel t
 
 ---
 
+## Jobs to Be Done
+
+> Evidence collected from web research (May 2026). See `customer-intelligence/web-research-jtbd.md` for sources.
+
+| Job | Statement | Emotional Dimension |
+|-----|-----------|---------------------|
+| **Pass the exam** | "I need to pass all 5 inburgering exam components to stay in the Netherlands." | Fear of failure, deadline pressure, visa anxiety |
+| **Actually speak Dutch** | "I want to hold conversations in Dutch, not just earn a certificate I'll forget." | Frustration at recognition vs. production gap, desire for integration |
+| **Find speaking practice** | "I need regular, low-stakes conversation practice without scheduling constraints." | Loneliness, frustration at Dutch people switching to English |
+| **Affordable prep** | "I need to prepare without €1,000+ classroom fees or fixed schedules." | Financial stress, resentment at "integration tax" |
+| **Remember long-term** | "I want durable retention, not temporary exam cramming." | Frustration at forgetting, wasted effort |
+
+### Customer Lexicon (Use in Content)
+
+These phrases appear in actual customer discussions:
+
+- "passed all exams" — success metric in reviews
+- "can't speak" / "I understand but can't speak" — recognition vs. production gap
+- "speaking practice" / "speaking partner" — documented need and search term
+- "nervous" / "fear" — exam anxiety
+- "worth it" — value assessment they actively search
+- "forget" / "fade away" — retention problem
+- "recognize but cannot use" — exact positioning language
+
+---
+
 ## Decision Influencers
 
 Since this is B2C, the buyer is the learner. But decisions may be influenced by:

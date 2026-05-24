@@ -64,6 +64,21 @@ The result: you pass the inburgering exam because you can actually use Dutch. No
 
 ---
 
+## Validated Pain Points (From Web Research, May 2026)
+
+> These pain points are documented across community discussions, competitor sites, and reviews. Use them in content with attribution.
+
+| Pain Point | Evidence Quote | Content Angle |
+|------------|----------------|---------------|
+| **Speaking exam anxiety** | "Many internationals have stepped nervously into DUO's exam halls" (DutchReview) | Position unlimited practice as anxiety reducer |
+| **Recognition vs. production gap** | "Many learners struggle because they can recognize Dutch vocabulary but cannot use it" (Clozemaster) | Core positioning — we require production |
+| **Underestimating production skills** | "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing" (Dutch-online.com) | Content angle: production skills are where people fail |
+| **Isolated word memorization fails** | "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation" (Taalhammer) | Context-based learning vs. flashcards |
+| **Finding speaking partners is hard** | "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected" (Reddit) | Unlimited AI speaking practice solves this |
+| **Course value uncertainty** | "Are those €1000 inburgering courses actually worth it? Or scam?" (Reddit thread title) | One-time €399 pricing, clear completion criteria |
+
+---
+
 ## Value Propositions
 
 ### Value Proposition 1: Pass the Exam by Actually Learning Dutch
@@ -110,3 +125,29 @@ The result: you pass the inburgering exam because you can actually use Dutch. No
 - Language learning apps (but we're structured for a specific exam, not general learning)
 - Exam prep (but we focus on production, not cramming)
 - Online courses (but completion requires active output, not passive consumption)
+
+---
+
+## Content Opportunities (From Research)
+
+### High-Intent SEO Topics
+
+These topics surface from actual customer discussions:
+
+1. "inburgering speaking exam tips" — High anxiety, documented pain point
+2. "passed inburgering but can't speak Dutch" — Validates core positioning
+3. "inburgering course worth it" — Comparison content opportunity
+4. "Dutch speaking practice online" — Service-aware search
+5. "how to remember Dutch vocabulary" — Retention pain point
+
+### Comparison Content Angles
+
+1. InburgeringOnline vs. classroom: honest trade-offs
+2. Free resources (Duolingo, YouTube) vs. structured courses
+3. Subscription fatigue vs. one-time pricing
+
+### Thought Leadership Angles
+
+1. "Why you pass the exam but can't order coffee in Dutch"
+2. "The recognition vs. production gap in language learning"
+3. "What 500 days on Duolingo won't teach you about Dutch"

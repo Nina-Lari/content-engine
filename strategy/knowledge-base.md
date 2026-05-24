@@ -169,6 +169,115 @@ Partner visa holder with a Dutch partner. Family gatherings are in Dutch. Cannot
 
 ---
 
+## Jobs to Be Done
+
+> Evidence collected from Reddit, Facebook groups, Trustpilot, YouTube comments, and competitor content (May 2026). See `customer-intelligence/web-research-jtbd.md` for full source documentation.
+
+### JTBD 1: Pass the Inburgering Exam
+
+**Job statement**: "I need to pass all 5 inburgering exam components to stay in the Netherlands."
+
+**Functional outcome**: Certificate obtained, deadline met, visa/residence secured.
+
+**Evidence**:
+- "Within 45 days I passed all exams" (common success metric in reviews)
+- "After 4 months with AI, I passed all exams first try straight 10s" (Reddit success story)
+- Pass rate claims are primary trust signals for courses
+
+**Emotional dimension**: Fear of failure, deadline pressure, visa/residency anxiety.
+
+**Speaking exam is the pain point**: "The spreken examen is often named as one of the hardest exams for internationals because, unlike with reading, listening, or writing, there's almost no chance to edit your work." (DutchReview)
+
+---
+
+### JTBD 2: Actually Speak Dutch (Not Just Pass)
+
+**Job statement**: "I want to hold conversations in Dutch, not just earn a certificate I'll forget."
+
+**Functional outcome**: Real conversational ability that persists beyond the exam.
+
+**Evidence**:
+- "Many learners struggle because they can recognize Dutch vocabulary but cannot use it." (Clozemaster)
+- "They read, they listen, they understand… but when it's time to talk, they freeze." (Facebook group)
+- "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away. You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation." (Taalhammer)
+
+**Emotional dimension**: Frustration at recognition vs. production gap, embarrassment at freezing, desire for genuine integration.
+
+**This is our core positioning**: The "pass but can't speak" problem is documented across competitor sites and community discussions. We're the only course where completion requires production.
+
+---
+
+### JTBD 3: Find Speaking Practice
+
+**Job statement**: "I need regular, low-stakes conversation practice without scheduling constraints or judgment."
+
+**Functional outcome**: Consistent speaking practice that fits irregular schedules.
+
+**Evidence**:
+- "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected." (Reddit r/learndutch)
+- "Hi, I'm looking for a Dutch speaking friend to meet and talk (can pay)" (Facebook group)
+- "Dutch partner won't speak Dutch" (Reddit thread — even native partners switch to English)
+- Speaking partner exchange sites exist but require scheduling and coordination
+
+**Emotional dimension**: Loneliness in learning, frustration at Dutch people switching to English, desire for judgment-free practice space.
+
+**Our answer**: "Unlimited speaking practice" directly addresses this documented pain. No scheduling, no judgment, always available.
+
+---
+
+### JTBD 4: Affordable Prep Without Classroom Constraints
+
+**Job statement**: "I need to prepare for inburgering without €1,000+ classroom fees or fixed schedules."
+
+**Functional outcome**: Exam preparation that fits budget and schedule.
+
+**Evidence**:
+- "Are those €1000 inburgering courses actually worth it? Or scam?" (Reddit thread title)
+- Classroom average: €1,160 for A2. Self-paced: €60-600.
+- Schedule inflexibility is a documented frustration for working professionals
+
+**Emotional dimension**: Financial stress, resentment at "integration tax," desire for value clarity.
+
+**Our answer**: One-time €399 pricing with clear completion criteria addresses both cost and trust.
+
+---
+
+### JTBD 5: Remember What I Learn Long-Term
+
+**Job statement**: "I want durable language retention, not temporary exam cramming."
+
+**Functional outcome**: Dutch that sticks beyond the test date.
+
+**Evidence**:
+- "How quickly isolated words fade away" (Taalhammer)
+- "If you memorize only the dictionary form, you won't recognize it in real conversation" (Clozemaster)
+- Spaced repetition apps acknowledge the problem with phrases like "Cards repeat right before you forget them"
+
+**Emotional dimension**: Frustration at forgetting, wasted effort, desire for "real" learning.
+
+**Our answer**: Production-based completion forces active use, which creates stronger memory traces than recognition-based completion.
+
+---
+
+### Customer Lexicon: Exact Phrases to Use
+
+These phrases appear in actual customer discussions. Use them in content.
+
+| Phrase | Context | Content Usage |
+|--------|---------|---------------|
+| "passed all exams" | Success metric | Proof points, testimonials |
+| "can't speak" / "I understand but can't speak" | Recognition vs. production gap | Core positioning language |
+| "speaking practice" | Documented need | Feature descriptions |
+| "speaking partner" | What people search for | SEO targeting |
+| "nervous" / "fear" | Exam anxiety | Address in messaging |
+| "worth it" | Value assessment | Answer directly in content |
+| "forget" / "fade away" | Retention problem | Problem framing |
+| "isolated words" | Memorization critique | Contrast with context-based |
+| "recognize but cannot use" | Production gap | Exact positioning language |
+| "Dutch partner won't speak Dutch" | Real-world frustration | Validates need for AI practice |
+
+---
+
 ## Buyer Personas
 
 ### Persona 1: Partner Visa Holder (Dutch Partner)
@@ -293,6 +402,29 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 | **Self-study (books/YouTube)** | DIY with free resources | Cheapest option | Requires extreme motivation. No speaking practice. |
 | **Other self-paced online courses** | Various online courses | Flexible, self-paced | Heavy memorization, outdated software, don't teach actual usage |
 
+### What Customers Actually Say (Web Research, May 2026)
+
+**About InburgeringOnline**:
+- Praise: "Within 45 days I passed all exams", "It's truly a 'one-stop shop'", "Worth every penny"
+- Complaints: Billing/subscription issues on Trustpilot, unclear auto-renewal, ignored refund requests
+- Gap: They dominate "pass the exam" but don't own "actually speak Dutch afterward"
+
+**About classroom courses**:
+- Praise: Social experience, networking, human accountability
+- Complaints: €500-2,000 for A2, fixed schedules don't fit work/family, limited actual speaking time per person
+- Gap: Self-motivated learners who don't need peer pressure are underserved
+
+**About Duolingo**:
+- "On Useless Language Learning in DuoLingo Dutch" (actual blog post title)
+- "Duolingo: Pros and cons for inburgering" content exists — competitors acknowledge its limitations
+- Does not prepare for exam format; habit-building yes, exam prep no
+
+**About the market overall**:
+- "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing." (Dutch-online.com)
+- "The spreken examen is often named as one of the hardest exams" (DutchReview)
+- AI conversation practice is emerging (LangBuddy.ai, ChatGPT success stories on Reddit)
+- Reddit r/learndutch validates free/AI alternatives; no paid courses in official sidebar
+
 ### How We Win
 
 We win when someone wants to actually produce Dutch, not just recognize it on a test. They want flexibility (no fixed class times), affordability (vs classroom), and real production practice (vs recognition-based apps). Dutchwithjoost is the only self-paced course where completion requires active vocabulary use in conversation.
@@ -311,3 +443,35 @@ We win when someone wants to actually produce Dutch, not just recognize it on a 
 2. **Practice prepares, conversation proves**: Two-phase lesson structure where structured practice leads to Joost conversation. The conversation is the proof mechanism.
 3. **All exam parts in one**: Covers read, listen, write, speak, and KNM together.
 4. **Unlimited production practice**: No scheduling, no hourly rates, make mistakes without judgment.
+
+### Validated Pain Points (Use in Content)
+
+These pain points are documented across community discussions, competitor sites, and reviews:
+
+| Pain Point | Evidence Quote | Content Angle |
+|------------|----------------|---------------|
+| **Speaking exam anxiety** | "Many internationals have stepped nervously into DUO's exam halls" (DutchReview) | Position unlimited practice as anxiety reducer |
+| **Recognition vs. production gap** | "Many learners struggle because they can recognize Dutch vocabulary but cannot use it" (Clozemaster) | Core positioning — we require production |
+| **Underestimating production skills** | "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing" (Dutch-online.com) | Content angle: production skills are where people fail |
+| **Isolated word memorization fails** | "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation" (Taalhammer) | Context-based learning vs. flashcards |
+| **Finding speaking partners is hard** | "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected" (Reddit) | Unlimited AI speaking practice solves this |
+| **Course value uncertainty** | "Are those €1000 inburgering courses actually worth it? Or scam?" (Reddit thread title) | One-time €399 pricing, clear completion criteria |
+
+### Content Opportunities from Research
+
+**High-intent SEO topics identified**:
+- "inburgering speaking exam tips"
+- "passed inburgering but can't speak Dutch"
+- "inburgering course worth it"
+- "Dutch speaking practice online"
+- "how to remember Dutch vocabulary"
+
+**Comparison content angles**:
+- InburgeringOnline vs. classroom: honest trade-offs
+- Free resources vs. structured courses
+- Subscription fatigue vs. one-time pricing
+
+**Thought leadership angles**:
+- "Why you pass the exam but can't order coffee in Dutch"
+- "The recognition vs. production gap in language learning"
+- "What 500 days on Duolingo won't teach you about Dutch"

@@ -29,6 +29,101 @@ The gap: a self-paced course where completion requires active production, not pa
 
 ---
 
+## Market Popularity & Trust
+
+### Popularity Tiers (What Our ICP Actually Uses)
+
+**Tier 1: Market Leaders — The Default Recommendations**
+
+| Competitor | Category | Trust Signals | Why They're Popular |
+|------------|----------|---------------|---------------------|
+| **InburgeringOnline** | Self-paced | Trustpilot 4.4★ (37+ reviews) | First mover, NT2 teacher founder, dominates SEO, affiliate deals with IAmExpat and DutchReview |
+| **Koentact** | Classroom | Featured in all major expat directories | "Fun" social positioning, field trips with Dutch locals, networking, Amsterdam Jordan location |
+
+**Tier 2: Rising Challengers**
+
+| Competitor | Category | Trust Signals | Why They're Growing |
+|------------|----------|---------------|---------------------|
+| **Inburgering.org** | Self-paced | Claims 40,000+ students, 87% pass rate | Lowest price (€4.99/month), aggressive positioning against InburgeringOnline |
+| **TaalBoost** | Classroom | Listed in expat directories | Cheaper than Koentact (€549 vs €975), same intensive format |
+
+**Tier 3: Niche Players**
+
+| Competitor | Category | Trust Signals | Niche |
+|------------|----------|---------------|-------|
+| **Dutch Ready** | Hybrid | 170+ 5-star Google reviews | Tutoring + e-learning combo |
+| **Language Corner** | Classroom | ExpatGuide listing | Small groups, CEFR-aligned |
+| **University of Groningen** | Online + guided | Academic institution | University credibility |
+
+### Discovery Channels (Where ICP Finds Courses)
+
+| Channel | What's Recommended | Notes |
+|---------|-------------------|-------|
+| **Google "inburgering course"** | InburgeringOnline dominates | SEO is their moat |
+| **IAmExpat.nl** | InburgeringOnline (sponsored), classroom directory | Major expat portal, paid placements |
+| **DutchReview.com** | InburgeringOnline (affiliate), Koentact | Content marketing / affiliate revenue |
+| **Expat.com forums** | InburgeringOnline for online, classroom for accountability | Peer recommendations |
+| **Reddit r/learndutch** | Duolingo, free resources, AI tools (ChatGPT/Gemini) | No paid courses in sidebar — see below |
+| **Reddit r/Netherlands** | Mixed opinions, self-study vs classroom debate | Less commercial, more honest |
+| **Word of mouth** | Koentact for classroom, InburgeringOnline for online | Partner visa holders ask Dutch partners |
+
+### Reddit r/learndutch Insights (56K+ members)
+
+**Official Sidebar Recommendations:**
+- **Duolingo**: Listed as "probably the single best resource available for new and intermediate learners"
+- Free resources dominate: NetInNederland.nl, Kidsweek, Nederlandse Radio, understandingdutch.com
+- **No paid courses mentioned** in official resources — not InburgeringOnline, not classroom schools
+- Nederlands Leren Discord for speaking practice with peers
+
+**Community Sentiment (from recent discussions):**
+
+1. **AI as a learning tool is rising**: A highly upvoted success story (550+ upvotes) shows someone passed all A2 inburgering exams with straight 10s using **ChatGPT and Google Gemini** — no formal class, no paid course. Quote: "After 4 months with AI, I passed all exams first try straight 10s."
+
+2. **Speaking practice is a documented pain point**: Users actively post looking for speaking partners. One user noted they've been "trying to find other beginners to practice speaking with, but it's been harder than I expected."
+
+3. **Self-study without courses is validated**: The community proves you can pass inburgering without expensive courses — but finding speaking practice remains difficult.
+
+4. **Taalify.com** mentioned as a peer speaking practice network (learner-to-learner matching).
+
+**Competitive Implications:**
+- Reddit community validates free/AI alternatives over paid courses
+- Speaking practice gap is real and acknowledged
+- Dutchwithjoost's "unlimited speaking practice" directly addresses the pain point the community discusses
+- AI conversation practice aligns with emerging self-study behavior
+
+### Trust & Review Landscape
+
+| Competitor | Platform | Rating | Volume | Notable Feedback |
+|------------|----------|--------|--------|------------------|
+| **InburgeringOnline** | Trustpilot | 4.4★ | 37+ reviews | Praise: "passed in 45 days". Complaints: billing issues, charged without notification |
+| **Inburgering.org** | Trustpilot | Limited | 1 review | New entrant, trust gap vs. InburgeringOnline |
+| **Dutch Ready** | Google | 5★ | 170+ reviews | Strong for tutoring + materials combo |
+| **Koentact** | Expat directories | Featured | N/A | Reputation built on social experience |
+
+### Competitive Implications for Dutchwithjoost
+
+**The incumbent to beat: InburgeringOnline**
+- Owns SEO rankings for "inburgering course" and related terms
+- Affiliate relationships with major expat media (DutchReview, IAmExpat)
+- Default recommendation in forums as the "online option"
+
+**Their vulnerability:**
+- Trustpilot billing complaints create trust opening
+- "Pass but can't speak" problem is real but not yet widely discussed
+- Production-based completion is genuinely differentiated (no competitor offers this)
+
+**For classroom competitors:**
+- Koentact owns "fun social experience" positioning
+- Our angle: "unlimited speaking practice without the €1,950 price tag or scheduling constraints"
+- Self-motivated learners who don't need peer pressure are underserved by classroom messaging
+
+**Discovery gap:**
+- No competitor owns "Dutch course for people who want to actually speak afterward"
+- SEO opportunity: "inburgering course that teaches real Dutch" or similar intent
+- Content angle: honest comparison content that acknowledges InburgeringOnline works for passing but addresses retention problem
+
+---
+
 ## Competitor 1: InburgeringOnline
 
 ### Company and Product
@@ -249,47 +344,207 @@ The gap: a self-paced course where completion requires active production, not pa
 
 ---
 
-## Competitor 5: Classroom Schools
+## Competitor 5: Dutch Ready
 
-### Direct Dutch Institute (The Hague)
+### Company and Product
 
-- **Website**: directdutch.com
-- **Established**: 1985
-- **Class size**: Max 8 students (in-person), max 6 (online)
+- **Website**: dutchready.com
+- **Product**: Private lessons, e-learning modules, and exam prep materials
+- **Market position**: Hybrid model combining tutoring with self-study materials
+- **Reviews**: 170+ 5-star reviews on Google
 
-| Course | Duration | Price |
-|--------|----------|-------|
-| Regular (per level) | 7 weeks, 2x/week | €645 |
-| Intensive (A0-A2) | 2 weeks, 4x/day | €1,395 |
-| Online (per level) | 7 weeks, 2x/week | €645 |
+### Pricing
 
-**Total cost A0 to A2**: €1,290-€1,935
+| Product | Price | Access |
+|---------|-------|--------|
+| E-learning modules (A0-A2) | Monthly subscription | Per module |
+| A2 Mock Exams Bundle | One-time purchase | Lifetime |
+| Private lessons | €42-60/hour | Per session |
 
-### Volksuniversiteit Amsterdam
+**E-learning subscription model** with longer licenses having lower monthly rates. Bundles available for discounts.
 
-- **Website**: volksuniversiteitamsterdam.nl
-- **Established**: 1913
-- **Formats**: Regular (1x/week), Intensive (2x/week), Super-intensive (3x/week)
+### Features
 
-| Course | Price |
-|--------|-------|
-| Per level (with 20% online discount) | ~€340-425 |
+- Detailed explanations with model answers
+- Dutch text with English translations
+- Inburgering practice exams (all 5 parts)
+- Free pronunciation charts and grammar exercises
+- Private tutoring available alongside self-study
 
-**Total cost A0 to A2**: ~€700-1,300
+### Strengths
+
+1. **Hybrid model** — Combines self-study with optional private lessons
+2. **Free trial materials** — Pronunciation charts, level checklists, sample exercises
+3. **Mock exams** — Specifically for inburgering in DUO format
+4. **Strong reviews** — 170+ 5-star Google reviews
+
+### Weaknesses
+
+1. **Fragmented pricing** — Multiple products to piece together
+2. **Recognition-based** — Same exercise completion model as others
+3. **No conversation-as-proof** — Lessons complete when exercises done
+
+### When They're in the Deal
+
+**Objection**: "Dutch Ready has mock exams and good reviews."
+
+**Response**: "Good materials for exam practice. If you want the flexibility to add private lessons, that's a genuine benefit. Same exercise-based completion model though. Our difference is requiring active production to complete lessons."
+
+---
+
+## Competitor 6: Dutch First (Dutch School Online)
+
+### Company and Product
+
+- **Website**: dutchschool.online
+- **Product**: Self-study courses with optional teacher guidance and virtual classroom
+- **Market position**: Premium self-study with human support
+
+### Pricing
+
+| Plan | Monthly | Total |
+|------|---------|-------|
+| A0-A2 Self-study (1 month) | €159 | €159 |
+| A0-A2 Self-study (3 months) | €149 | €447 |
+| A0-A2 Self-study (6 months) | €139 | €834 |
+| A0-A2 Self-study (9 months) | €129 | €1,161 |
+| A0-A2 Self-study (12 months) | €119 | €1,428 |
+| + Virtual Classroom Bundle | +€860 | 8-16 weeks, 64 lesson hours |
+
+**Virtual Classroom details:**
+- 32 live sessions on Zoom (64 lesson hours)
+- Intensive (4x/week, 8 weeks) or Regular (2x/week, 16 weeks)
+- Expected 4 hours homework per lesson
+
+### Features
+
+- A0-B2 coverage (broader than most)
+- Teacher guidance included in base price
+- Optional live virtual classroom add-on
+- Structured curriculum with books
+
+### Strengths
+
+1. **Teacher guidance included** — Not purely self-study
+2. **Virtual classroom option** — Bridges gap between self-paced and classroom
+3. **B2 coverage** — Can continue beyond A2 if needed
+
+### Weaknesses
+
+1. **Expensive at longer terms** — €1,428/year is premium pricing
+2. **Still recognition-based** — Course completes when exercises done
+3. **Complex pricing tiers** — Many options to navigate
+
+### When They're in the Deal
+
+**Objection**: "Dutch First includes teacher guidance."
+
+**Response**: "Teacher guidance is a real benefit — someone reviews your work and gives feedback. Different from our model where conversation with Joost is the proof mechanism. If human feedback on written work matters to you, Dutch First delivers that. If you want to prove you can produce language in conversation, that's what we require."
+
+---
+
+## Competitor 7: University of Groningen Language Centre
+
+### Company and Product
+
+- **Website**: language-centre.rug.nl
+- **Product**: Online Dutch courses with teacher guidance and group sessions
+- **Market position**: Academic credibility with hybrid online model
+
+### Pricing
+
+| Course | Price | Duration |
+|--------|-------|----------|
+| Online Dutch 0→A1 | €360 | 10 weeks |
+| Online Dutch A1→A2 | €360 | 10 weeks |
+| **Total A0→A2** | **€720** | 20 weeks |
+
+**Discounts:**
+- 50% for UG staff
+- 25% for UG and Hanze students
+- 10% for UMCG and Hanze staff
+
+### Features
+
+- 10 weeks access to self-study module
+- 8 weeks of teacher guidance
+- 3-4 online group sessions for speaking practice
+- Weekly speaking and writing assignments with individual feedback
+- Expected 8-10 hours/week study time
+
+### Strengths
+
+1. **Academic credibility** — University-backed course
+2. **Structured schedule** — Clear weekly expectations
+3. **Teacher feedback** — Individual attention on assignments
+4. **Group speaking sessions** — Some live interaction
+5. **Reasonable price** — €720 for A0→A2 is competitive
+
+### Weaknesses
+
+1. **No DUO reimbursement** — Not recognized for civic integration funding
+2. **Time commitment** — 8-10 hours/week for 20 weeks
+3. **Limited group sessions** — Only 3-4 over the course
+4. **Recognition-based completion** — Still exercise-focused
+
+### When They're in the Deal
+
+**Objection**: "University of Groningen is a legitimate institution."
+
+**Response**: "Academic credibility is real — it's a proper university course. Good balance of self-study with teacher guidance. The trade-off is time commitment (8-10 hours/week, 20 weeks) and you still complete by finishing exercises rather than proving production. If university credentials matter for your situation, RUG delivers that."
+
+---
+
+## Competitor 8: Classroom Schools (Amsterdam & Netherlands)
+
+The in-person Dutch course market in Amsterdam alone has 15+ providers. Average cost to reach A2: ~€1,160 (excluding outliers like Berlitz at €5,600).
+
+### Pricing by School (Current as of May 2026)
+
+| School | Per Level | A1+A2 Total | Format | Notes |
+|--------|-----------|-------------|--------|-------|
+| **Nederlands Leren Amsterdam** | €250 | €500 | 10 weeks, 20h | Cheapest in-person |
+| **NedLes** | €300 | €600 | 10 weeks, 20h | Budget option |
+| **The Language Academy** | €360 | €720 | 6 weeks, 24h | — |
+| **Taalhuis Amsterdam** | €360 | €720 | 12 weeks, 24h | Kids focus but offers adult courses |
+| **Kickstart School** | €360 | €720 | 8 weeks, 24h | — |
+| **Volksuniversiteit** | €410 | €820 | 12 weeks, 30h | Since 1913, 20% online discount |
+| **Babel Language Institute** | €450 | €900 | 10 weeks, 30h | — |
+| **TU Delft** | €430+€85 book | €945 | 7 weeks, 10h/week | Delft Method |
+| **Language Teams** | €499 | €998 | 1 week intensive, 20h | Fast option |
+| **TaalBoost** | €549 | €1,098 | 6 days intensive, 30h | Amsterdam, since 2009 |
+| **Language Corner** | €560 | €1,120 | 2 weeks, 30h | Small groups |
+| **Direct Dutch** | €645 | €1,290 | 7 weeks, 2x/week | The Hague, max 8 students |
+| **Dutch Courses Amsterdam** | €675 | €1,350 | 2 weeks intensive, 35h | — |
+| **Koentact** | €975 | €1,950 | 6 days, 33h + field trip | Fun/social focus |
+| **UvA Talen** | €795 | €1,590 | 8 weeks, 40h | University-affiliated |
+| **Flowently** | €42/hour | ~€2,520 | Flexible | Hourly model |
+| **Berlitz** | €2,800 | €5,600 | 1 week, 40h | Total immersion (outlier) |
+
+### Intensive Week Options (Popular for Busy Professionals)
+
+| School | Duration | Price | Hours |
+|--------|----------|-------|-------|
+| Koentact | 6 days | €975 | 33h + 3h field trip |
+| TaalBoost | 6 days | €549 | 30h |
+| Language Teams | 1 week | €499 | 20h |
+| Direct Dutch | 2 weeks | €1,395 (A0→A2) | 40h/week |
 
 ### Strengths (Be Honest)
 
 1. **Human teachers** — Real instruction, feedback, and relationship
 2. **Peer accountability** — Classmates create social pressure to show up
 3. **Credibility** — Feels like "real" education
-4. **Some speaking practice** — More than self-paced courses (though less than ideal)
+4. **Networking** — Meet other expats, build community
+5. **Field trips** — Some schools (Koentact) include cultural immersion activities
 
 ### Weaknesses (Where We Genuinely Differ)
 
-1. **Expensive** — €1,300-4,000 for A2 level
+1. **Expensive** — €500-2,000 for A2 level (average ~€1,160)
 2. **Fixed schedules** — Must attend at specific times, often during work hours
 3. **Limited speaking time per person** — 8-15 students, 1 teacher = minutes of speaking per session
-4. **Location dependent** — Must travel to class
+4. **Location dependent** — Must travel to class (mostly Amsterdam)
+5. **Same completion model** — Still "done" when you finish the course, not when you can produce
 
 ### Customer Sentiment (Classroom)
 
@@ -298,6 +553,7 @@ The gap: a self-paced course where completion requires active production, not pa
 - "Mistakes are met with gentle correction, not criticism"
 - Bonding and networking opportunities
 - Teachers who "make you feel valued"
+- Structured schedule forces commitment
 
 This highlights what online courses often lack: human connection and peer support.
 
@@ -309,7 +565,7 @@ This highlights what online courses often lack: human connection and peer suppor
 
 ---
 
-## Competitor 6: Private Tutors (iTalki, Preply)
+## Competitor 9: Private Tutors (iTalki, Preply)
 
 ### Pricing
 
@@ -338,7 +594,7 @@ This highlights what online courses often lack: human connection and peer suppor
 
 ---
 
-## Competitor 7: Duolingo
+## Competitor 10: Duolingo
 
 ### Product
 
@@ -368,7 +624,7 @@ This highlights what online courses often lack: human connection and peer suppor
 
 ---
 
-## Competitor 8: Self-Study (Books, YouTube, Free Resources)
+## Competitor 11: Self-Study (Books, YouTube, Free Resources)
 
 ### What It Is
 
@@ -397,16 +653,42 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 
 ## Competitive Pricing Matrix
 
+### Self-Paced Online Courses
+
 | Competitor | Monthly | Annual | Total to A2 | Model |
 |------------|---------|--------|-------------|-------|
 | Inburgering.org | €4.99 | ~€60 | €60-120 | Subscription |
 | InburgeringPrep | €9.99 (free tier) | €79 | €80-120 | Subscription |
 | Dutch Online | €10 | ~€120 | €120+ | Subscription/Lifetime |
 | InburgeringOnline | €14.95-€49.95 | €107-300 | €300-600 | Subscription |
+| Dutch Ready | Varies | — | €200-400 | Subscription + bundles |
 | **Dutchwithjoost** | **—** | **—** | **€399** | **One-time** |
-| Volksuniversiteit | — | — | €700-1,300 | Per course |
-| Direct Dutch | — | — | €1,290-1,935 | Per course |
-| Private tutors | €20-60/hr | — | €2,000-6,000 | Per hour |
+| Dutch First | €119-159 | — | €447-1,428 | Subscription |
+| U of Groningen | — | — | €720 | Per course (20 weeks) |
+
+### In-Person Classroom Courses
+
+| School | Per Level | Total to A2 | Format |
+|--------|-----------|-------------|--------|
+| Nederlands Leren Amsterdam | €250 | €500 | Cheapest in-person |
+| NedLes | €300 | €600 | Budget |
+| Taalhuis / Language Academy | €360 | €720 | Standard |
+| Volksuniversiteit | €410 | €820 | Established (since 1913) |
+| TaalBoost | €549 | €1,098 | Intensive week |
+| Language Corner | €560 | €1,120 | Small groups |
+| Direct Dutch | €645 | €1,290 | The Hague |
+| Dutch Courses Amsterdam | €675 | €1,350 | Intensive |
+| Koentact | €975 | €1,950 | Fun/social focus |
+| UvA Talen | €795 | €1,590 | University-affiliated |
+| **Average (excl. outliers)** | ~€580 | ~€1,160 | — |
+
+### Private Tutoring
+
+| Platform | Hourly Rate | Estimated Total to A2 |
+|----------|-------------|----------------------|
+| Flowently | €42 | ~€2,520 (60 hours) |
+| iTalki / Preply | €20-60 | €2,000-6,000 |
+| Premium tutors | €60+ | €6,000+ |
 
 ---
 
@@ -492,16 +774,44 @@ We lose when the prospect:
 
 ## Sources
 
+### Self-Paced Online Courses
 - https://www.inburgeringonline.nl/en
 - https://inburgering.org
 - https://inburgeringprep.com
 - https://www.dutch-online.com
+- https://www.dutchready.com
+- https://dutchschool.online
+- https://language-centre.rug.nl/en/course-language-centre/online-dutch-0-a1
+
+### Classroom Schools
 - https://directdutch.com
 - https://www.volksuniversiteitamsterdam.nl/en/dutch
+- https://koentact.nl
+- https://taalboost.nl
+- https://languagecorner.amsterdam
+- https://taalhuisamsterdam.nl
+- https://uvatalen.nl
+- https://www.tudelft.nl/en/tpm/itav/education/dutch-courses
+
+### Reviews and Research
 - https://www.trustpilot.com/review/www.inburgeringonline.nl
+- https://www.trustpilot.com/review/inburgering.org
 - https://www.dutchnews.nl/2026/02/enjoying-dutch-integration-exams-mission-impossible/
 - https://dutchreview.com/expat/inburgeringonline-knm-exam-course/
+- https://dutchreview.com/expat/how-to-pass-the-inburgering-exam-the-easy-way/
+- https://dutchreview.com/find-a-business/dutch-language-schools/
 - https://www.expat.com/forum/viewtopic.php?id=894816
+
+### Expat Discovery Channels
+- https://www.iamexpat.nl/education/language-schools/dutch-courses-netherlands
+- https://www.iamexpat.nl/education/language-schools/dutch-courses-netherlands/online
+- https://www.expatguide.nl/dutch-courses/amsterdam/
+- https://www.expatica.com/nl/education/language-learning/learn-dutch-102030/
+
+### Reddit Community
+- https://old.reddit.com/r/learndutch/ (56K+ members)
+- https://old.reddit.com/r/learndutch/comments/1rcs0ff/i_have_nobody_to_share_this_with_but_i_finally/ (AI inburgering success story)
+- Nederlands Leren Discord: https://discord.gg/cG8exmH
 
 ---
 
