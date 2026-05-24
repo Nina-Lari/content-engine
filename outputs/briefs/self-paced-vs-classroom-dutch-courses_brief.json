@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "topic_id": "self-paced-vs-classroom-dutch-courses",
+    "priority_score": 8.1,
+    "stage": "mofu",
+    "format": "comparison",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "self-paced dutch course vs classroom",
+    "variants": [
+      "online dutch course vs classroom",
+      "learn dutch online or in person",
+      "dutch classes vs self study",
+      "inburgering course types",
+      "best way to learn dutch for inburgering"
+    ],
+    "searcher_intent": "Decide between self-paced online learning and classroom instruction. Understand pros/cons of each format. Find the right fit for their learning style and schedule."
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Torn between convenience of online learning and perceived effectiveness of classroom. Unsure which format actually works better for language learning.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Honest comparison without declaring a winner. Both formats have real strengths and weaknesses. The right choice depends on your situation, not the format itself.",
+  "thesis_sentence": "Self-paced courses offer flexibility and affordability while classroom courses offer accountability and structure — but the real question is what you need to succeed, not which format is objectively 'better.'",
+  "outline": [
+    {
+      "section": "The Format Debate (And Why It's the Wrong Question)",
+      "notes": "Reframe the question. People ask 'which is better?' but should ask 'which is better for ME?' Introduce the key variables: learning style, schedule constraints, budget, need for accountability, speaking practice needs.",
+      "word_target": 200,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "What Self-Paced Online Courses Actually Offer",
+      "notes": "Objective description. Learn anytime, anywhere. Progress at your own speed. Typically cheaper. Range from memorization-based (most) to speaking-focused (fewer). Examples of different types within self-paced.",
+      "word_target": 200,
+      "evidence_needed": "Examples of self-paced options"
+    },
+    {
+      "section": "What Classroom Courses Actually Offer",
+      "notes": "Objective description. Human teacher, real-time feedback, peer classmates. Fixed schedule, physical location (or Zoom). Social accountability. Typically more expensive. Range from intensive to evening/weekend.",
+      "word_target": 200,
+      "evidence_needed": "Examples of classroom options"
+    },
+    {
+      "section": "Self-Paced Strengths (When It Works Best)",
+      "notes": "Flexibility — learn at 6am or midnight. Cost — often €200-500 vs €2000+. No commute. Can revisit lessons. Works for irregular schedules, busy professionals, self-motivated learners, people in remote areas.",
+      "word_target": 250,
+      "evidence_needed": "Price comparisons"
+    },
+    {
+      "section": "Self-Paced Weaknesses (The Real Challenges)",
+      "notes": "Requires self-discipline (easy to procrastinate). Limited speaking practice in most courses. No real-time feedback. No peer accountability. Easy to fall behind without external pressure.",
+      "word_target": 200,
+      "evidence_needed": "None — common challenges"
+    },
+    {
+      "section": "Classroom Strengths (When It Works Best)",
+      "notes": "Accountability — you have to show up. Human teacher catches mistakes in real time. Peer motivation. Some speaking practice (though limited per student). Structured progression.",
+      "word_target": 250,
+      "evidence_needed": "None — benefits"
+    },
+    {
+      "section": "Classroom Weaknesses (The Real Challenges)",
+      "notes": "Fixed schedule — miss a class, miss the content. Expensive — €1,500-4,000+. Limited speaking time per student (15 students, 1 teacher = minutes of practice). Must travel to location. Pace set by group, not you.",
+      "word_target": 200,
+      "evidence_needed": "Price ranges, class size math"
+    },
+    {
+      "section": "The Speaking Practice Problem",
+      "notes": "Core insight: both formats typically underserve speaking. Classroom: wait your turn (minutes per week). Traditional self-paced: minimal or none. The exception: self-paced courses built around speaking (like Dutchwithjoost) offer unlimited speaking practice — more than classroom students get.",
+      "word_target": 200,
+      "evidence_needed": "Speaking time comparison"
+    },
+    {
+      "section": "Virtual Classrooms: The Middle Ground",
+      "notes": "Brief mention of virtual classroom option. Live teacher but no commute. Still fixed schedule. Some advantages of both, some disadvantages of both. Hybrid option for some.",
+      "word_target": 150,
+      "evidence_needed": "Virtual classroom pricing"
+    },
+    {
+      "section": "Choose Self-Paced If...",
+      "notes": "Clear criteria: irregular schedule, self-motivated, budget-conscious, want to control pace, value flexibility over accountability.",
+      "word_target": 150,
+      "evidence_needed": "None — synthesis"
+    },
+    {
+      "section": "Choose Classroom If...",
+      "notes": "Clear criteria: need external accountability, thrive with structure, want human teacher relationship, have flexible schedule and budget, struggle with self-discipline.",
+      "word_target": 150,
+      "evidence_needed": "None — synthesis"
+    },
+    {
+      "section": "Questions to Ask Yourself",
+      "notes": "Decision framework. Be honest with yourself: Can you motivate yourself without deadlines? Do you have a fixed schedule or irregular hours? Is budget a constraint? Is speaking practice important? Let reader self-identify.",
+      "word_target": 150,
+      "evidence_needed": "None — framework"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Self-paced courses don't have enough speaking practice",
+      "prop": "Self-paced doesn't have to mean no speaking — some courses (like ours) are built around speaking practice",
+      "proof": "Dutchwithjoost methodology — unlimited speaking practice in self-paced format"
+    },
+    {
+      "pain": "Classroom courses are too expensive",
+      "prop": "Self-paced can give you more practice time for less money",
+      "proof": "€399 self-paced with unlimited speaking vs €2000+ classroom with minutes of speaking per week"
+    },
+    {
+      "pain": "Can't commit to fixed class times",
+      "prop": "Self-paced courses work around your schedule, not the other way around",
+      "proof": "Feature — practice at 6am, midnight, lunch break"
+    }
+  ],
+  "originality_nuggets": [
+    "Reframes from 'which is better' to 'which is better for you'",
+    "Exposes the speaking practice gap in both traditional formats",
+    "Includes virtual classroom as middle-ground option"
+  ],
+  "seo": {
+    "title_tag": "Self-Paced vs Classroom Dutch Courses: Honest Comparison",
+    "meta_description": "Should you learn Dutch online or in a classroom? Compare self-paced and classroom courses for inburgering exam prep — pros, cons, and how to choose.",
+    "url_slug": "self-paced-vs-classroom-dutch-courses"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Is it better to learn Dutch online or in a classroom?",
+    "definition_paragraph": "Self-paced online Dutch courses offer flexibility (learn anytime) and affordability (€200-500) but require self-discipline and often lack speaking practice. Classroom courses offer accountability and human teachers (€1,500-4,000+) but require fixed schedules and have limited speaking time per student. The best choice depends on your learning style: choose self-paced if you're self-motivated with an irregular schedule, choose classroom if you need external accountability and thrive with structure.",
+    "faq_questions": [
+      "Is it better to learn Dutch online or in a classroom?",
+      "Are online Dutch courses effective?",
+      "How much do Dutch classroom courses cost?",
+      "Can I learn Dutch on my own for the inburgering exam?",
+      "What is the difference between self-paced and classroom Dutch courses?"
+    ]
+  }
+}

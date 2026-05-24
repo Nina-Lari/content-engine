@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "topic_id": "dutchwithjoost-vs-inburgeringonline",
+    "priority_score": 9.1,
+    "stage": "bofu",
+    "format": "comparison",
+    "target_word_count": 1800,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "dutchwithjoost vs inburgeringonline",
+    "variants": [
+      "inburgeringonline review",
+      "inburgeringonline alternative",
+      "inburgering course comparison",
+      "is inburgeringonline good",
+      "inburgeringonline vs"
+    ],
+    "searcher_intent": "Decide between these two specific courses. Understand the differences. Find the better fit for their situation."
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Considering InburgeringOnline (it's well-known) but wondering if there's something better. Looking for honest comparison before committing.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "Honest side-by-side comparison. Acknowledge InburgeringOnline's strengths. Be clear about who each course is actually better for. Win by being helpful, not by trashing competitors.",
+  "thesis_sentence": "InburgeringOnline and Dutchwithjoost take fundamentally different approaches to inburgering prep — one optimizes for passing the exam quickly through memorization, the other for actually speaking Dutch. Here's how to decide which is right for you.",
+  "outline": [
+    {
+      "section": "Two Different Philosophies for the Same Goal",
+      "notes": "Set up the fundamental difference. Both courses help you pass the inburgering exam. InburgeringOnline: memorization-first, optimized for exam pass. Dutchwithjoost: speaking-first, optimized for actually using Dutch. Neither is objectively 'better' — they're built for different goals.",
+      "word_target": 200,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "Quick Comparison Table",
+      "notes": "Side-by-side table upfront for scanners: Price, Learning method, Speaking practice, Exam coverage, Flexibility, Best for. Let readers who want quick answer get it immediately.",
+      "word_target": 100,
+      "evidence_needed": "Features of both courses"
+    },
+    {
+      "section": "InburgeringOnline: What It Does Well",
+      "notes": "Be genuinely fair. Strengths: well-established, proven track record, many people have passed using it, structured for exam, video lessons. It works for its purpose — helping people pass the exam through memorization.",
+      "word_target": 200,
+      "evidence_needed": "InburgeringOnline features"
+    },
+    {
+      "section": "InburgeringOnline: Where It Falls Short",
+      "notes": "Honest critique without being mean. Weaknesses: memorization-based (pass and forget), limited speaking practice, speaking is treated as exam component not learning method. People report still not being able to converse after passing.",
+      "word_target": 200,
+      "evidence_needed": "Common feedback patterns (from forums, reviews)"
+    },
+    {
+      "section": "Dutchwithjoost: What It Does Well",
+      "notes": "Our strengths. Speaking as the learning method. All 5 exam parts covered. Unlimited speaking practice anytime. Self-paced. Built because co-founder was frustrated with memorization courses. €399 flat price.",
+      "word_target": 200,
+      "evidence_needed": "Dutchwithjoost features"
+    },
+    {
+      "section": "Dutchwithjoost: Where It Falls Short",
+      "notes": "Be honest about our weaknesses. Requires self-motivation (no peer pressure). No human teacher. Newer with less track record. Not the fastest path if you just want to pass and don't care about speaking.",
+      "word_target": 200,
+      "evidence_needed": "Honest self-assessment"
+    },
+    {
+      "section": "Choose InburgeringOnline If...",
+      "notes": "Clear decision criteria for choosing them. You just want to pass the exam as quickly as possible. Retention/speaking ability after the exam doesn't matter to you. You prefer a well-established option with proven track record.",
+      "word_target": 150,
+      "evidence_needed": "None — synthesis"
+    },
+    {
+      "section": "Choose Dutchwithjoost If...",
+      "notes": "Clear decision criteria for choosing us. You want to actually speak Dutch after passing, not just have the certificate. You're self-motivated and don't need peer pressure. Speaking practice is important to you. You value flexibility.",
+      "word_target": 150,
+      "evidence_needed": "None — synthesis"
+    },
+    {
+      "section": "The Real Question: What's Your Goal?",
+      "notes": "Help reader clarify their own goal. If the goal is certificate → InburgeringOnline may be faster. If the goal is fluency with certificate as byproduct → Dutchwithjoost. Neither is wrong — they're optimized for different outcomes.",
+      "word_target": 200,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "Still Unsure? Try Before You Buy",
+      "notes": "Soft CTA. Dutchwithjoost offers free first lesson to see if the speaking-first approach works for you. No risk to try. Make the decision easy.",
+      "word_target": 100,
+      "evidence_needed": "Free trial info"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Worried about passing the exam but still not being able to speak",
+      "prop": "Speaking as learning method means you learn to actually use Dutch",
+      "proof": "Methodology difference — speak throughout the course, not just at the exam"
+    },
+    {
+      "pain": "Don't know which course actually works",
+      "prop": "Built by someone who went through the same frustration with existing courses",
+      "proof": "Origin story — co-founder built it for her own inburgering journey"
+    },
+    {
+      "pain": "Self-paced courses don't have enough speaking practice",
+      "prop": "Unlimited speaking practice anytime — no scheduling, no hourly rate",
+      "proof": "Feature comparison — InburgeringOnline limited speaking vs. our unlimited"
+    }
+  ],
+  "originality_nuggets": [
+    "Acknowledges InburgeringOnline's genuine strengths (not a hit piece)",
+    "Clear 'choose them if' section — honest about when competitor is better fit",
+    "Frames decision around goals (certificate vs fluency) not features"
+  ],
+  "seo": {
+    "title_tag": "Dutchwithjoost vs InburgeringOnline: Honest Comparison",
+    "meta_description": "Comparing Dutchwithjoost and InburgeringOnline for A2 inburgering exam prep. One focuses on memorization, the other on speaking. Here's how to choose.",
+    "url_slug": "dutchwithjoost-vs-inburgeringonline"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the difference between Dutchwithjoost and InburgeringOnline?",
+    "definition_paragraph": "Dutchwithjoost and InburgeringOnline both prepare you for the A2 inburgering exam but use different approaches. InburgeringOnline uses memorization-based learning with mock exams and video lessons — effective for passing quickly but users often report forgetting Dutch afterward. Dutchwithjoost uses speaking as the primary learning method — you learn to actually use Dutch through practice, with the exam pass as a byproduct of fluency. InburgeringOnline costs €200-500, Dutchwithjoost costs €399.",
+    "faq_questions": [
+      "Is InburgeringOnline good for the inburgering exam?",
+      "What is the difference between Dutchwithjoost and InburgeringOnline?",
+      "Which inburgering course has more speaking practice?",
+      "Is Dutchwithjoost better than InburgeringOnline?",
+      "Which inburgering course is best for actually learning Dutch?"
+    ]
+  }
+}

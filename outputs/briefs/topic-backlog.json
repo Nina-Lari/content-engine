@@ -1,0 +1,208 @@
+{
+  "generated_date": "2026-05-24",
+  "intelligence_sources": ["strategy/icp.md", "strategy/personas.md", "strategy/competitive-landscape.md"],
+  "methodology": "Big 5 Topics (They Ask, You Answer) + Pain-Point SEO",
+  "filter_applied": "BOFU/MOFU priority",
+  "topics": [
+    {
+      "topic_id": "inburgering-course-cost",
+      "title": "How Much Does It Cost to Learn Dutch for the Inburgering Exam? (Complete Pricing Guide)",
+      "category": "cost",
+      "primary_keyword": "inburgering exam cost",
+      "secondary_keywords": ["dutch course price", "inburgering course cost", "cheapest inburgering course", "how much does inburgering cost"],
+      "persona": "Both",
+      "pain_cluster": "price uncertainty",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 9,
+        "mini_volume": 8,
+        "authority_fit": 8,
+        "weighted_total": 8.4
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "best-dutch-course-a2-inburgering",
+      "title": "Best Dutch Course for Passing the A2 Inburgering Exam (2026)",
+      "category": "best_in_class",
+      "primary_keyword": "best dutch course inburgering",
+      "secondary_keywords": ["best inburgering course", "best A2 dutch course", "inburgering exam preparation course", "top dutch courses for inburgering"],
+      "persona": "Both",
+      "pain_cluster": "decision paralysis",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 10,
+        "mini_volume": 8,
+        "authority_fit": 7,
+        "weighted_total": 8.8
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "dutchwithjoost-vs-inburgeringonline",
+      "title": "Dutchwithjoost vs InburgeringOnline: Which Course Is Right for You?",
+      "category": "comparison",
+      "primary_keyword": "dutchwithjoost vs inburgeringonline",
+      "secondary_keywords": ["inburgeringonline review", "inburgeringonline alternative", "inburgering course comparison"],
+      "persona": "Both",
+      "pain_cluster": "competitor evaluation",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 10,
+        "serp_weakness": 9,
+        "business_priority": 10,
+        "mini_volume": 5,
+        "authority_fit": 9,
+        "weighted_total": 9.1
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "self-paced-vs-classroom-dutch-courses",
+      "title": "Self-Paced vs Classroom Dutch Courses: An Honest Comparison",
+      "category": "comparison",
+      "primary_keyword": "self-paced dutch course vs classroom",
+      "secondary_keywords": ["online dutch course vs classroom", "learn dutch online or in person", "dutch classes vs self study", "inburgering course types"],
+      "persona": "Both",
+      "pain_cluster": "learning format decision",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 8.1
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "pass-inburgering-remember-dutch",
+      "title": "How to Pass the Inburgering Exam and Actually Remember Dutch Afterward",
+      "category": "problems",
+      "primary_keyword": "pass inburgering exam",
+      "secondary_keywords": ["remember dutch after inburgering", "inburgering exam tips", "how to prepare for inburgering", "learn dutch not just pass exam"],
+      "persona": "Partner Visa Holder",
+      "pain_cluster": "retention anxiety",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 10,
+        "serp_weakness": 8,
+        "business_priority": 9,
+        "mini_volume": 8,
+        "authority_fit": 9,
+        "weighted_total": 8.7
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "inburgering-speaking-test-guide",
+      "title": "Inburgering Exam Speaking Test: What to Expect and How to Prepare",
+      "category": "jtbd",
+      "primary_keyword": "inburgering speaking exam",
+      "secondary_keywords": ["inburgering spreekexamen", "A2 speaking test netherlands", "how to pass inburgering speaking"],
+      "persona": "Both",
+      "pain_cluster": "speaking fear",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 7,
+        "authority_fit": 9,
+        "weighted_total": 8.1
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "memorizing-vs-practice-learning-dutch",
+      "title": "Memorizing vs Practice: Which Actually Works for Learning Dutch?",
+      "category": "comparison",
+      "primary_keyword": "learn dutch memorization vs practice",
+      "secondary_keywords": ["best way to learn dutch", "dutch learning methods", "how to actually learn dutch"],
+      "persona": "Both",
+      "pain_cluster": "method uncertainty",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 10,
+        "serp_weakness": 8,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 9,
+        "weighted_total": 8.0
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "inburgering-partner-visa-guide",
+      "title": "Inburgering with a Partner Visa: Timeline, Deadlines, and What You Need to Know",
+      "category": "jtbd",
+      "primary_keyword": "inburgering partner visa",
+      "secondary_keywords": ["partner visa netherlands inburgering", "verblijfsvergunning inburgering deadline", "3 year inburgering deadline"],
+      "persona": "Partner Visa Holder",
+      "pain_cluster": "deadline anxiety",
+      "funnel_stage": "TOFU",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 7,
+        "business_priority": 7,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 6.5
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "learn-dutch-busy-schedule",
+      "title": "How to Learn Dutch with a Busy Work Schedule",
+      "category": "jtbd",
+      "primary_keyword": "learn dutch busy schedule",
+      "secondary_keywords": ["learn dutch working full time", "dutch course for busy people", "self-paced dutch learning"],
+      "persona": "Work Visa Holder",
+      "pain_cluster": "time constraints",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.2
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "reasons-learn-dutch-english-bubble",
+      "title": "Thinking of Settling in the Netherlands? Here Are 7 Reasons to Learn Dutch (Even If Everyone Speaks English)",
+      "category": "awareness",
+      "primary_keyword": "reasons to learn dutch",
+      "secondary_keywords": ["why learn dutch in netherlands", "should I learn dutch", "learn dutch expat"],
+      "persona": "Work Visa Holder",
+      "pain_cluster": "motivation gap",
+      "funnel_stage": "TOFU",
+      "priority_score": {
+        "buyer_intent": 4,
+        "differentiator_fit": 5,
+        "serp_weakness": 6,
+        "business_priority": 5,
+        "mini_volume": 7,
+        "authority_fit": 6,
+        "weighted_total": 5.0
+      },
+      "brief_status": "pending"
+    }
+  ]
+}

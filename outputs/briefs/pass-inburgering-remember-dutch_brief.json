@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "topic_id": "pass-inburgering-remember-dutch",
+    "priority_score": 8.7,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "pass inburgering exam",
+    "variants": [
+      "remember dutch after inburgering",
+      "inburgering exam tips",
+      "how to prepare for inburgering",
+      "learn dutch not just pass exam",
+      "inburgering exam preparation",
+      "A2 inburgering exam guide"
+    ],
+    "searcher_intent": "Learn how to prepare for the inburgering exam in a way that leads to actual Dutch ability, not just short-term memorization"
+  },
+  "audience": {
+    "persona": "Partner Visa Holder (primary), Work Visa Holder (secondary)",
+    "industry_focus": null,
+    "pain_summary": "Scared of passing the exam but still not being able to speak Dutch. Heard stories of people who passed but forgot everything. Wants the certificate AND the skill.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "The dirty secret of inburgering prep: most people pass but can't converse 3 months later. Here's why that happens and how to avoid it.",
+  "thesis_sentence": "Most inburgering courses are optimized for passing, not learning — here's how to prepare in a way that gets you the certificate AND the ability to actually use Dutch afterward.",
+  "outline": [
+    {
+      "section": "The Dirty Secret of Inburgering Prep",
+      "notes": "Open with the problem. Many people pass the inburgering exam but still can't have a basic conversation with their Dutch neighbors three months later. They earned a certificate, not a skill. This is not a character flaw — it's how most courses are designed.",
+      "word_target": 200,
+      "evidence_needed": "Anecdotal evidence from forums/communities"
+    },
+    {
+      "section": "Why Memorization Creates Test-Passers, Not Speakers",
+      "notes": "Explain the root cause. Memorization optimizes for recognition (picking the right answer). Speaking requires production (generating language). These are different cognitive skills. You can recognize correct grammar without being able to produce it. Most courses train recognition, not production.",
+      "word_target": 250,
+      "evidence_needed": "Basic language acquisition principles (no academic citations needed, just explain)"
+    },
+    {
+      "section": "The 5 Parts of the Inburgering Exam (And What They Actually Test)",
+      "notes": "Educational overview. Reading, Listening, Writing, Speaking, KNM. What each part tests. Speaking is often feared most but practiced least. KNM is memorizable. The skills-based parts (reading, listening, writing, speaking) benefit from actual ability, not just memorization.",
+      "word_target": 250,
+      "evidence_needed": "DUO exam structure overview"
+    },
+    {
+      "section": "Two Approaches to Preparation",
+      "notes": "Frame the choice. Approach A: Memorize to pass. Study example exams, learn answer patterns, cram before test. Works for passing, but retention fades. Approach B: Learn to use. Practice producing Dutch, build actual skill, pass as byproduct of ability. Slower start, longer retention.",
+      "word_target": 200,
+      "evidence_needed": "None — framework"
+    },
+    {
+      "section": "If You Just Want to Pass (Memorization Strategy)",
+      "notes": "Be fair and helpful. If certificate is truly all you need and you don't care about speaking Dutch afterward, memorization is faster. Here's how: mock exams, pattern recognition, intensive cramming before test. Acknowledge this is a valid choice for some people.",
+      "word_target": 200,
+      "evidence_needed": "Memorization-based course examples"
+    },
+    {
+      "section": "If You Want to Pass AND Remember (Active Practice Strategy)",
+      "notes": "The better path for most readers. Prioritize speaking practice — the skill that's hardest to fake and most useful in real life. Learn by doing, not by reviewing. Make mistakes actively instead of passively consuming content. Practice producing language, not just recognizing it.",
+      "word_target": 300,
+      "evidence_needed": "Speaking-first methodology explanation"
+    },
+    {
+      "section": "Why Speaking Practice Is the Key",
+      "notes": "Deep dive on speaking. It's the hardest part of the exam AND the most useful skill for real life. If you can speak, you can usually read, write, and listen too — speaking forces you to produce, which reinforces everything else. But most courses treat speaking as exam component, not learning method.",
+      "word_target": 250,
+      "evidence_needed": "None — logic/methodology"
+    },
+    {
+      "section": "Practical Tips for Actually Remembering Dutch",
+      "notes": "Actionable advice. 1) Practice producing, not just consuming. 2) Speak out loud, even to yourself. 3) Use spaced repetition naturally (daily practice beats weekend cramming). 4) Make mistakes now so you don't make them on the exam. 5) Choose a course built around active practice.",
+      "word_target": 250,
+      "evidence_needed": "None — practical advice"
+    },
+    {
+      "section": "How to Choose a Course That Builds Real Skill",
+      "notes": "Guidance without being salesy. Ask: Does it include speaking practice? How much? Is it memorization-based or practice-based? Do people report being able to use Dutch after, or just passing? Brief mention of Dutchwithjoost as example of practice-first approach.",
+      "word_target": 200,
+      "evidence_needed": "Questions to ask when evaluating courses"
+    },
+    {
+      "section": "The Real Goal: Feeling at Home",
+      "notes": "Emotional close. The inburgering exam is a legal requirement. But the real reason you're here is to feel at home in the Netherlands — to understand conversations, to connect with people, to not feel like an outsider forever. A certificate alone won't give you that. Actual Dutch ability will.",
+      "word_target": 150,
+      "evidence_needed": "None — emotional resonance"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Worried about passing but still not being able to speak",
+      "prop": "Speaking as learning method means you learn to actually use Dutch throughout the course, not just for the exam",
+      "proof": "Methodology — speaking practice from day one, not as final test"
+    },
+    {
+      "pain": "Frustrated with memorization-based courses",
+      "prop": "Learning by doing creates long-term ability, not just short-term recall",
+      "proof": "Origin story — built because co-founder was frustrated with memorization"
+    },
+    {
+      "pain": "Want to connect with Dutch family, not just get certificate",
+      "prop": "The exam becomes a byproduct of actual fluency, not the goal itself",
+      "proof": "Mission statement — feel at home, participate in conversations"
+    }
+  ],
+  "originality_nuggets": [
+    "Exposes the pass-but-forget problem directly (others don't talk about this)",
+    "Explains cognitive difference between recognition and production",
+    "Respects memorization as valid choice for some (not condescending)"
+  ],
+  "seo": {
+    "title_tag": "How to Pass the Inburgering Exam AND Remember Dutch",
+    "meta_description": "Most people pass the inburgering exam but forget Dutch afterward. Here's how to prepare in a way that gets you the certificate AND actual Dutch ability.",
+    "url_slug": "pass-inburgering-remember-dutch"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How do I prepare for the inburgering exam?",
+    "definition_paragraph": "To prepare for the inburgering exam and actually remember Dutch afterward, focus on active practice rather than memorization. While memorization can help you pass, it leads to forgetting within months. Instead, prioritize speaking practice throughout your preparation — producing language reinforces all other skills (reading, writing, listening). Choose a course built around active practice, not pattern recognition, so you pass the exam as a byproduct of actual ability.",
+    "faq_questions": [
+      "How do I prepare for the inburgering exam?",
+      "How long does it take to prepare for the inburgering exam?",
+      "What is the best way to pass the A2 inburgering exam?",
+      "How do I remember Dutch after passing the inburgering exam?",
+      "Is memorization enough for the inburgering exam?"
+    ]
+  }
+}

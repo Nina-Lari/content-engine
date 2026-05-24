@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "topic_id": "best-dutch-course-a2-inburgering",
+    "priority_score": 8.8,
+    "stage": "bofu",
+    "format": "listicle",
+    "target_word_count": 2500,
+    "estimated_effort": "4-5 hours"
+  },
+  "keyword": {
+    "primary": "best dutch course inburgering",
+    "variants": [
+      "best inburgering course",
+      "best A2 dutch course",
+      "inburgering exam preparation course",
+      "top dutch courses for inburgering",
+      "best way to prepare for inburgering",
+      "inburgering course reviews"
+    ],
+    "searcher_intent": "Find the best course to prepare for and pass the A2 inburgering exam, compare top options, make a confident decision"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Overwhelmed by options. Don't know which course actually works. Worried about wasting money on something that won't help them pass.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "Honest comparison that acknowledges different courses are best for different people. No single 'best' — but clear guidance on who each option is best FOR.",
+  "thesis_sentence": "The best A2 inburgering course depends on your learning style, schedule, and budget — here's an honest breakdown of the top options and who each one is actually designed for.",
+  "outline": [
+    {
+      "section": "There Is No Single 'Best' Course (But There Is a Best Course for YOU)",
+      "notes": "Set expectations. Different people need different things. Someone who needs peer pressure should not take the same course as someone who needs flexibility. Promise honest guidance on finding the right fit.",
+      "word_target": 200,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "How We Evaluated These Courses",
+      "notes": "Transparency on criteria: exam coverage (all 5 parts?), speaking practice (how much?), flexibility (self-paced or scheduled?), price, methodology (memorization vs active learning), who it's best for.",
+      "word_target": 150,
+      "evidence_needed": "None — methodology"
+    },
+    {
+      "section": "Best for Quick Exam Pass: InburgeringOnline",
+      "notes": "Strengths: well-known, structured for exam, proven track record. Weaknesses: memorization-based, limited speaking practice, people report forgetting Dutch after passing. Best for: people who just want the certificate, don't care about retention, want a proven path. Price: €200-500.",
+      "word_target": 300,
+      "evidence_needed": "InburgeringOnline features and pricing"
+    },
+    {
+      "section": "Best for Accountability and Peer Pressure: Classroom Courses (Volksuniversiteit, Direct Dutch)",
+      "notes": "Strengths: human teachers, peer accountability, credibility. Weaknesses: expensive (€1,500-4,000), fixed schedules, limited speaking time per student. Best for: people who struggle with self-discipline, want teacher relationship, have flexible schedules and budget. Name specific schools.",
+      "word_target": 350,
+      "evidence_needed": "2-3 classroom school examples with pricing"
+    },
+    {
+      "section": "Best for Flexibility with Some Structure: Virtual Classroom Courses",
+      "notes": "Strengths: no commute, live instruction, cheaper than in-person. Weaknesses: still fixed schedule, Zoom fatigue, less speaking time. Best for: people who want live teaching but can't travel to class. Middle ground option.",
+      "word_target": 250,
+      "evidence_needed": "1-2 virtual school examples"
+    },
+    {
+      "section": "Best for Actually Speaking Dutch: Dutchwithjoost",
+      "notes": "Our course. Be honest and specific. Strengths: speaking is the learning method (not just exam prep), all 5 exam parts covered, unlimited speaking practice, self-paced, €399. Weaknesses: requires self-motivation, no peer pressure, no human teacher. Best for: self-motivated learners who want to actually use Dutch after passing, irregular schedules, value speaking practice.",
+      "word_target": 350,
+      "evidence_needed": "Dutchwithjoost features, price, methodology"
+    },
+    {
+      "section": "Best for Personalized 1-on-1 Attention: Private Tutors (iTalki, Preply)",
+      "notes": "Strengths: maximum personalization, all speaking time is yours, build relationship. Weaknesses: expensive at scale (€2,000-5,000 total), tutor quality varies, not always structured for inburgering. Best for: people with budget for 1-on-1, want human conversation practice.",
+      "word_target": 250,
+      "evidence_needed": "iTalki/Preply average rates"
+    },
+    {
+      "section": "Best for Zero Budget: Self-Study with Free Resources",
+      "notes": "Strengths: free or nearly free. Weaknesses: no structure, no speaking practice, requires extreme discipline, easy to miss exam requirements. Best for: highly motivated self-starters with some Dutch exposure, tight budget.",
+      "word_target": 200,
+      "evidence_needed": "Free resource examples"
+    },
+    {
+      "section": "What NOT to Use for Inburgering: Duolingo, Babbel",
+      "notes": "Be clear: these are fine for general Dutch but do NOT prepare for the inburgering exam. Duolingo's Dutch is famously impractical. Babbel is more structured but not exam-focused. Use as supplement, not primary prep.",
+      "word_target": 200,
+      "evidence_needed": "None — common knowledge in the community"
+    },
+    {
+      "section": "Comparison Table: All Options at a Glance",
+      "notes": "Visual table: Course, Price, Speaking Practice, Flexibility, Exam Coverage, Best For. Make it scannable for quick decision.",
+      "word_target": 150,
+      "evidence_needed": "Summary of above"
+    },
+    {
+      "section": "How to Choose the Right Course for You",
+      "notes": "Decision tree format. Do you need peer pressure? → Classroom. Is budget tight? → Self-study or self-paced online. Is speaking your priority? → Dutchwithjoost or tutors. Is schedule inflexible? → Self-paced. Make it actionable.",
+      "word_target": 200,
+      "evidence_needed": "None — synthesis"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Courses teach to pass but don't teach to speak",
+      "prop": "Speaking as the learning method means you learn to actually use Dutch",
+      "proof": "Course methodology — speaking practice throughout, not just at the end"
+    },
+    {
+      "pain": "Classroom courses are too expensive and inflexible",
+      "prop": "€399 for complete coverage, fully self-paced",
+      "proof": "Price comparison vs classroom (€1,500-4,000)"
+    },
+    {
+      "pain": "Online courses have no real speaking practice",
+      "prop": "Unlimited AI-powered speaking practice anytime",
+      "proof": "Feature description — speak whenever you want, no scheduling"
+    }
+  ],
+  "originality_nuggets": [
+    "Acknowledges competitors' strengths — honest about when classroom is better",
+    "Clear 'best for' framing instead of fake #1 ranking",
+    "Explains why Duolingo/Babbel don't work for inburgering (common trap)"
+  ],
+  "seo": {
+    "title_tag": "Best Dutch Course for A2 Inburgering Exam (2026)",
+    "meta_description": "Comparing the best Dutch courses for passing the A2 inburgering exam. Honest breakdown of InburgeringOnline, classroom schools, tutors, and self-paced options.",
+    "url_slug": "best-dutch-course-inburgering"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the best Dutch course for the inburgering exam?",
+    "definition_paragraph": "The best Dutch course for the A2 inburgering exam depends on your learning style: InburgeringOnline is best for quick exam pass through memorization (€200-500), classroom courses like Volksuniversiteit are best for peer accountability (€1,500-4,000), Dutchwithjoost is best for actually learning to speak Dutch (€399), and private tutors are best for personalized 1-on-1 attention (€2,000-5,000 total). Duolingo and Babbel are not recommended as primary preparation since they don't cover inburgering exam requirements.",
+    "faq_questions": [
+      "What is the best Dutch course for the inburgering exam?",
+      "Is InburgeringOnline good?",
+      "Can I prepare for inburgering with Duolingo?",
+      "How much does an inburgering course cost?",
+      "What is the difference between online and classroom Dutch courses?"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "topic_id": "inburgering-course-cost",
+    "priority_score": 8.4,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "inburgering exam cost",
+    "variants": [
+      "dutch course price",
+      "inburgering course cost",
+      "cheapest inburgering course",
+      "how much does inburgering cost",
+      "A2 dutch course price",
+      "inburgering exam preparation cost"
+    ],
+    "searcher_intent": "Understand total cost of passing the inburgering exam, compare pricing across different course types, find affordable options"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Confused about true cost of inburgering preparation. Worried about hidden costs. Want to compare options before committing.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "Complete transparency on ALL costs — not just course fees but exam fees, materials, retakes. Most content hides the full picture. We show everything, including where we fit.",
+  "thesis_sentence": "The total cost of passing the inburgering exam ranges from €500 to €5,000+ depending on your learning path — here's exactly what you'll pay for each option and what you get for that money.",
+  "outline": [
+    {
+      "section": "The True Cost of Inburgering (It's More Than Course Fees)",
+      "notes": "Intro that sets up the full cost picture. Many people only consider course fees but forget exam fees, materials, potential retakes. Promise complete transparency.",
+      "word_target": 200,
+      "evidence_needed": "DUO exam fee structure (current official rates)"
+    },
+    {
+      "section": "Exam Fees: What DUO Charges (Everyone Pays This)",
+      "notes": "Break down the official exam costs from DUO. Reading, listening, writing, speaking, KNM. Cost per exam and cost if you need to retake. This is baseline cost everyone pays regardless of how they prepare.",
+      "word_target": 250,
+      "evidence_needed": "Current DUO exam fees (research required)"
+    },
+    {
+      "section": "Option 1: Self-Study (€50-200)",
+      "notes": "Books, YouTube, free resources. Lowest cost but requires extreme self-discipline. No speaking practice. Risk of gaps in exam coverage. Who this is right for: highly motivated self-starters with Dutch exposure already.",
+      "word_target": 200,
+      "evidence_needed": "Typical book/material costs"
+    },
+    {
+      "section": "Option 2: Language Apps — Duolingo, Babbel (€0-150)",
+      "notes": "Free to cheap but don't prepare for inburgering specifically. Duolingo's Dutch is famously impractical. Babbel has more structure but no exam focus. Who this is right for: supplementary habit-building, not primary prep.",
+      "word_target": 200,
+      "evidence_needed": "Duolingo free/premium pricing, Babbel subscription costs"
+    },
+    {
+      "section": "Option 3: Self-Paced Online Courses (€200-500)",
+      "notes": "InburgeringOnline and similar. Structured for the exam, flexible schedule. Typically memorization-based. Limited speaking practice. Who this is right for: people who want structure and flexibility, don't need extensive speaking prep.",
+      "word_target": 250,
+      "evidence_needed": "InburgeringOnline pricing tiers"
+    },
+    {
+      "section": "Option 4: Virtual Classroom Courses (€800-2,000)",
+      "notes": "Online group classes with teacher. Fixed schedules but no commute. Some peer accountability. Limited speaking time per person. Who this is right for: people who want teacher interaction but can't travel to class.",
+      "word_target": 200,
+      "evidence_needed": "2-3 virtual school pricing examples"
+    },
+    {
+      "section": "Option 5: In-Person Classroom Courses (€1,500-4,000+)",
+      "notes": "Traditional Dutch schools. Real teachers, peer accountability, structured curriculum. Expensive and requires fixed schedule. Who this is right for: people who need peer pressure, want human teacher relationship, have flexible schedule.",
+      "word_target": 250,
+      "evidence_needed": "Volksuniversiteit, Direct Dutch pricing"
+    },
+    {
+      "section": "Option 6: Private Tutors (€2,000-5,000+)",
+      "notes": "1-on-1 instruction. Maximum personalization and speaking practice. Very expensive at scale (€20-60/hour x 50-100 hours). Variable quality depending on tutor. Who this is right for: budget is not a constraint, want personalized attention.",
+      "word_target": 200,
+      "evidence_needed": "iTalki/Preply average rates for Dutch tutors"
+    },
+    {
+      "section": "Option 7: Speaking-Focused Self-Paced (€399) — Where Dutchwithjoost Fits",
+      "notes": "Position honestly. €399 for complete course covering all exam parts. Speaking is the learning method. Unlimited practice. Who this is right for: self-motivated learners who want to actually speak Dutch, not just pass.",
+      "word_target": 250,
+      "evidence_needed": "Dutchwithjoost pricing (€399)"
+    },
+    {
+      "section": "Hidden Costs Most People Forget",
+      "notes": "Exam retakes (each part costs money to retake). Travel to exam locations. Time off work for exams. Opportunity cost of longer learning time. Make the case that cheaper isn't always cheaper if it takes longer or requires retakes.",
+      "word_target": 200,
+      "evidence_needed": "Retake fee structure from DUO"
+    },
+    {
+      "section": "Cost Comparison Summary Table",
+      "notes": "Visual table comparing all options: price range, what's included, speaking practice level, flexibility, best for. Make it scannable.",
+      "word_target": 150,
+      "evidence_needed": "Summary of above sections"
+    },
+    {
+      "section": "How to Choose Based on Your Situation",
+      "notes": "Decision framework. If you have €X budget, consider Y. If schedule is constraint, consider Z. If speaking is your priority, consider W. Be honest about when competitors are better fit.",
+      "word_target": 200,
+      "evidence_needed": "None — synthesis"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Expensive classroom courses (€2000+) are out of budget",
+      "prop": "Complete exam coverage for €399",
+      "proof": "Pricing comparison table"
+    },
+    {
+      "pain": "Cheap courses don't include real speaking practice",
+      "prop": "Unlimited speaking practice included at no extra cost",
+      "proof": "Comparison to tutor hourly rates (€40/hr x 50 hours = €2000 vs €399 flat)"
+    },
+    {
+      "pain": "Worried about paying for something that doesn't work",
+      "prop": "Speaking-first methodology builds actual fluency, not just test-passing",
+      "proof": "Origin story — built because co-founder was frustrated with memorization courses"
+    }
+  ],
+  "originality_nuggets": [
+    "Most pricing guides only show course fees. This shows total cost including exams, retakes, materials.",
+    "Honest about when Dutchwithjoost is NOT the right fit (need peer pressure, want human teacher)",
+    "Includes hidden opportunity costs (time, retakes) that change the 'cheapest' calculation"
+  ],
+  "seo": {
+    "title_tag": "Inburgering Exam Cost: Complete 2026 Pricing Guide",
+    "meta_description": "How much does the inburgering exam cost? Full breakdown from €500 to €5,000+ including course fees, exam fees, and hidden costs. Compare all options.",
+    "url_slug": "inburgering-exam-cost"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How much does the inburgering exam cost?",
+    "definition_paragraph": "The total cost of passing the A2 inburgering exam in the Netherlands ranges from approximately €500 (self-study plus exam fees) to €5,000 or more (private tutoring plus exam fees). The main cost components are: DUO exam fees (approximately €40-50 per exam part), course or preparation costs (€0 for self-study to €4,000+ for classroom courses), and potential retake fees if you don't pass on the first attempt.",
+    "faq_questions": [
+      "How much does the inburgering exam cost?",
+      "What is the cheapest way to pass the inburgering exam?",
+      "How much do Dutch courses cost for inburgering?",
+      "Are there free inburgering courses?",
+      "How much does it cost to retake the inburgering exam?"
+    ]
+  }
+}
