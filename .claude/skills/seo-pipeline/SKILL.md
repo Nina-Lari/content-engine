@@ -1,3 +1,8 @@
+---
+name: seo-pipeline
+description: 6-stage SEO content pipeline that takes a brief through enrichment, outlining, writing, editing, internal linking, and publishing.
+---
+
 # SEO Pipeline
 
 6-stage SEO content pipeline orchestrator. Takes a content brief through enrichment, outlining, writing, editing, internal linking, and publishing.

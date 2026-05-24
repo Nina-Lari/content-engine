@@ -1,3 +1,8 @@
+---
+name: research-brief
+description: Produce a prioritized topic backlog and detailed content briefs from customer intelligence.
+---
+
 # Research Brief
 
 Research Agent. Produces a prioritized topic backlog and detailed content briefs from customer intelligence.

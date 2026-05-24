@@ -1,3 +1,8 @@
+---
+name: setup-strategy
+description: Interactive wizard that builds the master knowledge base powering every downstream skill.
+---
+
 # Setup Strategy
 
 Interactive strategy setup wizard. Builds the master knowledge base that powers every downstream skill.

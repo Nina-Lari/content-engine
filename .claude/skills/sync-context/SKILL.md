@@ -1,3 +1,8 @@
+---
+name: sync-context
+description: Read the master knowledge base and update all derived module files. Run after editing strategy/knowledge-base.md.
+---
+
 # Sync Context
 
 Reads the master knowledge base and produces or updates all derived module files. Run this after any edit to `strategy/knowledge-base.md`.

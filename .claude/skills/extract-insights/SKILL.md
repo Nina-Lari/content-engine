@@ -1,3 +1,8 @@
+---
+name: extract-insights
+description: Analyze sales call transcripts and extract structured pain-point SEO intelligence using the Grow & Convert methodology.
+---
+
 # Extract Insights
 
 Grow and Convert Call Analyzer. Takes a sales call transcript and extracts structured pain-point SEO intelligence.

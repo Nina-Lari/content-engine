@@ -1,3 +1,8 @@
+---
+name: linkedin-insights
+description: Extract high-signal insights from call transcripts and intelligence files, then produce LinkedIn post drafts.
+---
+
 # LinkedIn Insights
 
 Extracts high-signal insights from call transcripts and intelligence files, then produces LinkedIn post draft structures.
