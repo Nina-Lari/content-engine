@@ -26,6 +26,30 @@ The gap: a self-paced course where completion requires active production, not pa
 2. **Aggressive price competition** — New entrants pricing at €4.99-€9.99/month undercut InburgeringOnline's €14.95/month.
 3. **"Pass but can't speak" is documented** — Multiple sources confirm learners pass the exam but cannot hold conversations. Validates our core positioning.
 4. **Billing complaints damage trust** — InburgeringOnline has Trustpilot complaints about unclear subscriptions and ignored refunds.
+5. **Normalized non-fluency** — From customer intelligence: "People don't even expect that at A2 you can have a conversation." The expectation of post-exam inability is baked into the market.
+
+### Emotional Reality (From Customer Intelligence)
+
+Understanding the deeper context helps position against alternatives:
+
+**Visa anxiety shapes everything:**
+- "You continuously have to prove your existence... your actions now will determine whether your visa will be renewed."
+- Can't show weakness: taking sick leave, asking for help jeopardizes visa renewal.
+- 5 continuous years required for citizenship. A 2-day gap = start over from zero.
+- Even a car fine can jeopardize citizenship.
+
+**The shame cycle prevents practice:**
+- Can't speak → feel judged → avoid situations → isolate → can't practice → more shame.
+- "You want to avoid the discomfort and so you avoid speaking Dutch completely."
+
+**"Pass but can't speak" feels like fraud:**
+- "If I get my citizenship but I can't speak at all... I would always feel like an outsider. I don't feel I deserve that passport."
+
+**Life narrows without Dutch:**
+- Activities, therapy, career, culture — all require Dutch or are severely limited.
+- "My narrow world became my new world... I totally forgot those things existed."
+
+**Competitive implication:** Courses that promise to "pass the exam" miss what buyers actually want: to feel at home, to access their life, to not feel like a fraud.
 
 ---
 
@@ -194,6 +218,11 @@ The gap: a self-paced course where completion requires active production, not pa
 - Charged weekly for extended periods after purchasing what they believed was one-month subscription
 - Refund requests ignored
 - No advance notification of charges
+
+**From customer intelligence:**
+- "It's basically cards to memorize... It's a cheat sheet to the exam."
+- One user's friend got citizenship through InburgeringOnline but "couldn't even pronounce inburgering" the day he got his passport.
+- Perception: works for passing, not for speaking.
 
 ### When They're in the Deal
 
@@ -725,11 +754,36 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 - Not enough actual speaking practice
 - Difficult to balance with work and family
 
+**Specific competitor complaints (from customer intelligence):**
+
+| Competitor | Price | Complaint |
+|------------|-------|-----------|
+| **Taalthuis** | €300 for A1 | "Very boring grammar rules... two hours a day... no speaking at all. Didn't feel like I retained anything." |
+| **UVA Amsterdam** | €390 for A1→A2 | "The UX was horrible. Difficulty jumps between lessons were insane. Translation grading rejected synonyms." |
+| **InburgeringOnline** | Subscription | "Just a bunch of things to memorize. It's a cheat sheet." |
+| **Taalcafes** | Free | "Everyone comes with different levels. They're not teachers. Just mumbling together." |
+| **Zoom classes** | Expensive | "Zoom is messy with meetings. In a class of 12, the teacher can't give you attention." |
+
 ### What Learners Wish Existed
 - Courses where completion means you can **produce Dutch, not just recognize it** (our positioning)
 - More real production practice, not just exercises
 - Transparent one-time pricing (our model)
 - Confidence from active use, not just content completion
+
+### What Works About Dutchwithjoost (From Co-Founder Testing)
+
+Documented feedback on why the approach works differently:
+
+| Feature | Why It Works | Quote |
+|---------|--------------|-------|
+| **Level-matched responses** | Unlike native speakers who can't calibrate, Joost stays at lesson difficulty | "He's not gonna use C2 level Dutch to reply to you" |
+| **No memorization** | Words in context, not isolated lists | "I really hated spending two hours on one rule memorizing a million words that don't make sense together" |
+| **Words in context** | Learn vocabulary by using it in sentences | "The words that you learn you use... it helps me communicate" |
+| **Guided structure** | No cognitive load of engineering your own lesson | "I don't have to think about what now what do I do now. It's just guided." |
+| **Engaging (time flies)** | Fun keeps you practicing | "I don't see time passing by because I'm having fun, because I'm very engaged" |
+| **Clear progress** | Know you're being consistent | "It's very clear how much effort I'm putting in every day" |
+
+**Contrast with past courses:** Previous courses left her feeling "more lost than in the beginning" with isolated vocabulary that didn't connect.
 
 ---
 

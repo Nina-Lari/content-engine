@@ -57,6 +57,21 @@ Dutchwithjoost exists because one person was fed up with this. Our co-founder ne
 2. Work visa holders face deportation risk if laid off without permanent residence.
 3. Social pressure from Dutch family members and in-laws who speak Dutch at gatherings.
 
+### Emotional Reality (From Customer Intelligence)
+
+The visa situation creates constant low-grade anxiety that shapes every decision:
+
+- **Continuous proving**: "You continuously have to prove your existence almost... your actions now will determine whether [your visa] will be renewed." Every choice is weighed against citizenship prospects.
+- **Can't show weakness**: Taking sick leave, asking for financial help, or any reliance on the government jeopardizes visa renewal. "You have to be better than a Dutch person. You can't fail."
+- **Fragile progress**: 5 continuous years required for citizenship. A 2-day gap in visa status = start over from zero. Even a car fine can jeopardize citizenship.
+- **Not a choice**: For non-EU nationals, citizenship isn't "voluntary" in any meaningful sense. A weak passport limits everything: jobs require work permits, travel requires visas, layoffs mean deportation.
+
+The language barrier compounds this:
+
+- **Shame cycle**: Can't speak Dutch → feel judged when trying → avoid situations → isolate → can't practice → more shame. "You want to avoid the discomfort and so you avoid the situations and then you avoid speaking Dutch completely."
+- **Feeling like a fraud**: "If I get my citizenship but I can't speak at all... I would always feel like an outsider. I don't feel I deserve that passport."
+- **Narrowed world**: Without Dutch, you lose access to activities (yoga, sports, therapy), cultural events (theater, comedy), career advancement, and understanding your own environment. "My narrow world became my new world... I totally forgot that those things existed."
+
 ---
 
 ## Product Capabilities
@@ -259,6 +274,45 @@ Partner visa holder with a Dutch partner. Family gatherings are in Dutch. Cannot
 
 ---
 
+### JTBD 6: Feel at Home in the Netherlands
+
+**Job statement**: "I want to feel like I belong here, not like a permanent outsider."
+
+**Functional outcome**: Participate in Dutch life — understand conversations, access activities, connect with environment.
+
+**Evidence**:
+- **From customer intelligence**: "Not speaking the language makes you always feel like an outsider. You always feel almost rejected... I don't feel home. I cannot really make it completely my home if I don't speak the language."
+- "By learning to express things in [Dutch] would probably bring me closer to understanding their mentality and also integrating into the culture better."
+
+**Emotional dimension**: Feeling rejected, not belonging, missing out on life around you.
+
+**What they lose without Dutch**:
+- Can't do activities (yoga classes specify if teacher speaks English, sports instructions are 90% Dutch)
+- Limited therapy options (English-speaking therapists are hard to find, no English group therapy)
+- Cut off from culture (theater, stand-up comedy, most cultural events are Dutch-only)
+- Can't understand their environment (bills, admin, politics, news)
+
+**This is deeper than passing**: The exam is a milestone, but the real job is feeling at home.
+
+---
+
+### JTBD 7: Protect and Advance My Career
+
+**Job statement**: "I need Dutch to not be held back at work and to protect my job security."
+
+**Functional outcome**: Equal standing with Dutch colleagues, access to opportunities, protection from being first to go.
+
+**Evidence**:
+- **From customer intelligence**: "If you don't speak Dutch, you're treated as an outsider. People switch to Dutch immediately after the meeting so you miss on the bonding with the team... not good for being promoted because you miss on a lot of politics."
+- "In some cases you might even be the first one to be laid off because you are not the closest to your manager."
+- Story of expat who learned Dutch to B1, did job interview in Dutch, and was hired partly because "they were impressed that she learned that so quickly."
+
+**Emotional dimension**: Fear of being marginalized, frustration at invisible ceiling, desire for equal standing.
+
+**Our angle**: Career protection is an underexplored motivation. Beyond citizenship, Dutch protects your livelihood.
+
+---
+
 ### Customer Lexicon: Exact Phrases to Use
 
 These phrases appear in actual customer discussions. Use them in content.
@@ -275,6 +329,14 @@ These phrases appear in actual customer discussions. Use them in content.
 | "isolated words" | Memorization critique | Contrast with context-based |
 | "recognize but cannot use" | Production gap | Exact positioning language |
 | "Dutch partner won't speak Dutch" | Real-world frustration | Validates need for AI practice |
+| "outsider" / "rejected" | Belonging language | Emotional resonance |
+| "feel like a fraud" | Passing without speaking | Validates why speaking matters |
+| "scam" | Course skepticism | Address trust directly |
+| "cheat sheet" | Memorization critique | Contrast with real learning |
+| "ashamed" / "shame" | Emotional barrier | Acknowledge and address |
+| "cut off from life" | What's lost without Dutch | Beyond-exam motivation |
+| "feel at home" | Integration desire | Aspirational language |
+| "deserve the passport" | Earning vs. gaming citizenship | Values-based motivation |
 
 ---
 
@@ -291,6 +353,16 @@ These phrases appear in actual customer discussions. Use them in content.
 | **Motivation** | Wants to participate in family life. Feels isolated at Dutch gatherings. Frustrated with courses that don't teach speaking. |
 | **Decision criteria** | Speaking practice, flexibility, covers all exam parts, reasonable price. |
 | **Objections** | "€399 is expensive" (though cheaper than classes), "Can I really learn alone?", "Is speaking practice effective without a real person?" |
+
+**The Dutch Partner Problem** (from customer intelligence):
+
+Having a Dutch partner does NOT solve the speaking practice problem:
+
+- **Level mismatch**: "Your level of Dutch is native and mine is total beginner... It's hard to find the middle ground. I don't understand a lot of what she's saying and you have to explain so much."
+- **Can't explain why**: "When I ask why is it this way... the native person learned it since they're little so they can't really explain why. They just do it. They're not teachers."
+- **Partner fatigue**: Dutch partners help with questions but won't (and can't) teach systematically.
+
+This validates the need for level-matched practice. Native speakers — even partners who want to help — cannot provide the structured, level-appropriate practice that learning requires.
 
 ### Persona 2: Work Visa Holder (Security Seeker)
 
@@ -428,6 +500,24 @@ Avoid words that imply competitors took shortcuts: "straightforward," "simple," 
 | **Early results** | Fun learning experience, making correct sentences, expressing herself without memorizing exact phrases, increased confidence. |
 | **Status** | Co-founder is actively learning with the course. Real user, real feedback, real iteration. |
 
+### What Works (From Co-Founder Testing)
+
+Documented feedback on why Dutchwithjoost works differently:
+
+**Level-matched responses**: "Joost knows your level... he's not gonna use C2 level Dutch to reply to you." Unlike native speakers who can't calibrate, Joost stays at lesson difficulty.
+
+**No memorization**: "There is no memorizing which I really like because I really hated it so much to spend two hours on one rule with memorizing a million words that don't make sense together."
+
+**Words in context**: "The words that you learn you use... If I'm learning new words and I'm using them in a sentence and I know in which context I'm using them... it helps me communicate."
+
+**Guided structure (low cognitive load)**: "I don't have to think about what now what do I do now. It's just guided... I don't have the cognitive load of trying to engineer my lesson."
+
+**Engaging (time flies)**: "I don't see time passing by with Joost because I'm having fun, because I am very engaged." Compared to gym vs. playing badminton — "still working out but you're having fun doing it."
+
+**Clear progress tracking**: "It's very clear how much effort I'm putting in every day, every session... I can feel that I'm consistent."
+
+**Contrast with past courses**: Previous courses left her feeling "more lost than in the beginning" with isolated vocabulary that didn't connect. Dutchwithjoost ties everything together in usable combinations.
+
 ### Proof to Collect
 
 - Pass rate: "X% of users passed the exam"
@@ -467,10 +557,20 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 - Praise: "Within 45 days I passed all exams", "It's truly a 'one-stop shop'", "Worth every penny"
 - Complaints: Billing/subscription issues on Trustpilot, unclear auto-renewal, ignored refund requests
 - Gap: They dominate "pass the exam" but don't own "actually speak Dutch afterward"
+- **From customer intelligence**: "It's basically cards to memorize... It's a cheat sheet to the exam." One user's friend got citizenship through InburgeringOnline but "couldn't even pronounce inburgering" the day he got his passport.
 
-**About classroom courses**:
+**About Taalthuis** (self-study platform):
+- **From customer intelligence**: €300 for 0 to A1. "Very boring grammar rules that I had to memorize... two hours a day... no speaking at all." User finished A1 but "didn't feel like I retained anything."
+- Gap: Completion without retention. Users are happy to finish, then realize they learned nothing usable.
+
+**About UVA Amsterdam self-study course**:
+- **From customer intelligence**: €390 for A1 to A2. "The UX of the platform was fucking horrible." Difficulty jumps between lessons were "insane" — not incremental. Translation grading rejected synonyms (e.g., "it's okay" marked wrong because expected answer was "it's fine").
+- Gap: Poor UX and rigid grading break learning flow.
+
+**About classroom/Zoom courses**:
 - Praise: Social experience, networking, human accountability
 - Complaints: €500-2,000 for A2, fixed schedules don't fit work/family, limited actual speaking time per person
+- **From customer intelligence**: Skepticism about Zoom quality ("Zoom is already messy with meetings, so learning with other people might be more difficult"). Also: "If you're in a class of 12, the teacher can't give you attention full time. It's impossible."
 - Gap: Self-motivated learners who don't need peer pressure are underserved
 
 **About Duolingo**:
@@ -478,11 +578,16 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 - "Duolingo: Pros and cons for inburgering" content exists — competitors acknowledge its limitations
 - Does not prepare for exam format; habit-building yes, exam prep no
 
+**About language exchange / taalcafes**:
+- **From customer intelligence**: "In taalcafes everyone comes with different levels. They're not teachers. So you're just mumbling together. You don't even know if what you're learning is correct."
+- Gap: Unstructured practice with mismatched levels doesn't work.
+
 **About the market overall**:
 - "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing." (Dutch-online.com)
 - "The spreken examen is often named as one of the hardest exams" (DutchReview)
 - AI conversation practice is emerging (LangBuddy.ai, ChatGPT success stories on Reddit)
 - Reddit r/learndutch validates free/AI alternatives; no paid courses in official sidebar
+- **From customer intelligence**: "Most people complain that even though they take classes and pass the inburgering, they still don't speak... people don't even expect that at A2 you can have a conversation." The expectation of non-fluency after passing is normalized.
 
 ### How We Win
 
@@ -516,6 +621,43 @@ These pain points are documented across community discussions, competitor sites,
 | **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |
 | **Speaking partners don't match your level** | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
 | **Course value uncertainty** | Community discussions (anonymize in content) | One-time €399 pricing, clear completion criteria |
+
+### Deep Pain Points (From Customer Intelligence)
+
+These pain points are documented in customer interviews. Use the insight, not the source.
+
+**The Shame Cycle**:
+
+A self-reinforcing avoidance pattern that keeps expats from practicing:
+
+1. Can't speak Dutch well
+2. Try to speak → feel judged, make Dutch person uncomfortable
+3. Dutch person switches to English or struggles to find words
+4. Feel responsible for their discomfort + ashamed of own inability
+5. Avoid situations where Dutch might be required
+6. Isolate ("don't want to ask people, don't want to go out")
+7. Can't practice → can't improve → cycle continues
+
+"Everyone expects you to just know... it just makes you feel bad. Makes you feel more of a failure, makes you feel ashamed."
+
+**Content angle**: Judgment-free practice breaks the shame cycle. You can make mistakes without making someone uncomfortable.
+
+**Life Without Dutch**:
+
+Concrete limitations documented in customer interviews:
+
+| Domain | What's Lost |
+|--------|-------------|
+| **Activities** | Yoga classes, sports, hobbies — all require checking if teacher speaks English. 90% of instructions are Dutch. Feel like a fool missing instructions. |
+| **Healthcare** | English-speaking therapists are hard to find. Group therapy unavailable in English. Mental health access limited. |
+| **Culture** | Theater, stand-up comedy, most cultural events are Dutch-only. "Very few" English options with "such limited choice." |
+| **Career** | Dutch speakers favored for jobs. Non-Dutch speakers miss team bonding (colleagues switch to Dutch after meetings). First to be laid off. |
+| **Daily admin** | Bills, tax rules, utilities — all in Dutch. Without a Dutch speaker in household, easy to miss important information. |
+| **Understanding environment** | Can't follow politics, news, understand how the country works. "Missing on a lot of my environment." |
+
+"My narrow world became my new world... I totally forgot that those things existed because I'm so used to just not even thinking about it because I know I can't have access to it."
+
+**Content angle**: Dutch isn't just for the exam. It's for accessing your own life.
 
 ### Citation Guidelines
 
@@ -576,3 +718,16 @@ When giving advice (e.g., "What to look for in a Dutch course"), criteria must b
 - "Why you pass the exam but can't order coffee in Dutch"
 - "The recognition vs. production gap in language learning"
 - "What 500 days on Duolingo won't teach you about Dutch"
+
+**New angles from customer intelligence**:
+
+| Topic | Source Insight | Content Angle |
+|-------|----------------|---------------|
+| **The shame cycle** | Documented avoidance pattern: can't speak → feel judged → avoid → isolate → can't practice | "Why expats stop trying to speak Dutch (and how to break the cycle)" |
+| **Life without Dutch** | Concrete losses: therapy, activities, career, culture access | "What you can't do in the Netherlands without Dutch" |
+| **Dutch partner doesn't help** | Level mismatch, can't explain grammar, partner fatigue | "Why your Dutch partner can't teach you Dutch" |
+| **Career protection** | Dutch speakers favored, non-Dutch first to be laid off | "How Dutch protects your career in the Netherlands" |
+| **Visa anxiety depth** | Constant proving, can't be weak, fragile 5-year progress | "The hidden anxiety of building a life on a temporary visa" |
+| **Citizenship ≠ just passing** | "I don't feel I deserve that passport if I don't speak" | "Why passing the exam isn't enough to feel Dutch" |
+| **Normalized non-fluency** | "People don't even expect A2 means conversation" | "The dirty secret of A2: why most people can't speak after passing" |
+| **Taalcafe reality** | Different levels, not teachers, "mumbling together" | "Why language cafes don't work (and what does)" |

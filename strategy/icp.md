@@ -102,7 +102,7 @@ Most start searching in their first year of arrival. Partner visa holders feel t
 
 ## Jobs to Be Done
 
-> Evidence collected from web research (May 2026). See `customer-intelligence/web-research-jtbd.md` for sources.
+> Evidence collected from web research (May 2026) and customer intelligence.
 
 | Job | Statement | Emotional Dimension |
 |-----|-----------|---------------------|
@@ -111,6 +111,8 @@ Most start searching in their first year of arrival. Partner visa holders feel t
 | **Find speaking practice** | "I need regular, low-stakes conversation practice without scheduling constraints." | Loneliness, frustration at Dutch people switching to English |
 | **Affordable prep** | "I need to prepare without €1,000+ classroom fees or fixed schedules." | Financial stress, resentment at "integration tax" |
 | **Remember long-term** | "I want durable retention, not temporary exam cramming." | Frustration at forgetting, wasted effort |
+| **Feel at home** | "I want to feel like I belong here, not like a permanent outsider." | Rejection, isolation, missing out on life |
+| **Protect my career** | "I need Dutch to not be held back at work and to protect my job security." | Fear of marginalization, invisible ceiling |
 
 ### Customer Lexicon (Use in Content)
 
@@ -123,6 +125,13 @@ These phrases appear in actual customer discussions:
 - "worth it" — value assessment they actively search
 - "forget" / "fade away" — retention problem
 - "recognize but cannot use" — exact positioning language
+- "outsider" / "rejected" — belonging language (from customer intelligence)
+- "feel like a fraud" — passing without speaking (from customer intelligence)
+- "scam" / "cheat sheet" — course skepticism (from customer intelligence)
+- "ashamed" / "shame" — emotional barrier to practice
+- "cut off from life" — what's lost without Dutch
+- "feel at home" — integration desire
+- "deserve the passport" — values-based motivation
 
 ---
 

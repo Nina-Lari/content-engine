@@ -26,6 +26,42 @@ This persona has extra motivation beyond the exam deadline. Their partner has Du
 
 The Dutch partner helps with questions about Dutch but won't (or can't) actually teach. They're supportive but not a substitute for structured learning.
 
+### The Dutch Partner Problem (From Customer Intelligence)
+
+Having a Dutch partner does NOT solve the speaking practice problem:
+
+- **Level mismatch**: "Your level of Dutch is native and mine is total beginner... I don't understand a lot of what she's saying and you have to explain so much. It's just impossible to learn."
+- **Can't explain why**: "When I ask why is it this way... the native person learned it since they're little so they can't really explain. They just do it. They're not teachers."
+- **Partner fatigue**: Dutch partners help with questions but won't teach systematically.
+
+This validates the need for level-matched practice. Native speakers cannot provide the structured, level-appropriate practice that learning requires.
+
+### The Shame Cycle (From Customer Intelligence)
+
+A self-reinforcing avoidance pattern that keeps expats from practicing:
+
+1. Can't speak Dutch well → try to speak → feel judged
+2. Dutch person switches to English or struggles to find words
+3. Feel responsible for their discomfort + ashamed of own inability
+4. Avoid situations where Dutch might be required
+5. Isolate → can't practice → cycle continues
+
+"Everyone expects you to just know... it makes you feel more of a failure, makes you feel ashamed."
+
+### Life Without Dutch (From Customer Intelligence)
+
+Beyond the exam, not speaking Dutch limits access to:
+
+| Domain | What's Lost |
+|--------|-------------|
+| Activities | Yoga, sports, hobbies — must check if teacher speaks English. Miss 90% of instructions. |
+| Healthcare | English therapists hard to find. No group therapy in English. |
+| Culture | Theater, comedy, cultural events — mostly Dutch-only. |
+| Career | Dutch speakers favored. Non-Dutch speakers miss team bonding, first to be laid off. |
+| Admin | Bills, taxes, utilities — all in Dutch. Easy to miss important information. |
+
+"My narrow world became my new world... I totally forgot that those things existed."
+
 ### Buying Psychology
 
 - **Core motivation**: Want to participate in family life, not just sit silently at gatherings. Want to feel at home, not like a permanent outsider.
@@ -71,6 +107,7 @@ These pain points are documented across community discussions, competitor sites,
 | "Can I really learn to speak without a real teacher?" | Skeptical about AI/self-paced speaking practice | Explain how the speaking practice works. Show that it's unlimited and judgment-free — they can practice 10x more than in a classroom. |
 | "I prefer learning with other people" | Wants peer pressure and social motivation | Be honest: this isn't for everyone. Classroom courses provide accountability. Dutchwithjoost requires self-motivation but offers flexibility and more speaking time. |
 | "How do I know it works?" | Limited proof points, pre-revenue | Share the origin story. Co-founder built it for her own inburgering journey. Be honest about being early and invite them to be part of building proof. |
+| "My Dutch partner can help me practice" | They have a native speaker at home | The Dutch partner problem: level mismatch makes practice impossible. Native speakers can't explain grammar. Partners help with questions but can't teach systematically. |
 
 ### Content Preferences
 

@@ -77,6 +77,9 @@ The result: you pass the inburgering exam because you can actually use Dutch. No
 | **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |
 | **Course value uncertainty** | Community discussions (anonymize in content) | One-time €399 pricing, clear completion criteria |
 | **Speaking partners don't match your level** | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
+| **The shame cycle** | Customer intelligence (internal use) | Judgment-free practice breaks the avoidance pattern |
+| **Dutch partner can't teach** | Customer intelligence (internal use) | Level-matched practice that native speakers can't provide |
+| **Life access beyond exam** | Customer intelligence (internal use) | Dutch opens activities, healthcare, culture, career |
 
 ### Citation Guidelines for Pain Points
 
@@ -201,3 +204,16 @@ These topics surface from actual customer discussions:
 1. "Why you pass the exam but can't order coffee in Dutch"
 2. "The recognition vs. production gap in language learning"
 3. "What 500 days on Duolingo won't teach you about Dutch"
+
+### New Content Angles (From Customer Intelligence)
+
+| Topic | Source Insight | Content Angle |
+|-------|----------------|---------------|
+| **The shame cycle** | Documented avoidance pattern: can't speak → feel judged → avoid → isolate → can't practice | "Why expats stop trying to speak Dutch (and how to break the cycle)" |
+| **Life without Dutch** | Concrete losses: therapy, activities, career, culture access | "What you can't do in the Netherlands without Dutch" |
+| **Dutch partner doesn't help** | Level mismatch, can't explain grammar, partner fatigue | "Why your Dutch partner can't teach you Dutch" |
+| **Career protection** | Dutch speakers favored, non-Dutch first to be laid off | "How Dutch protects your career in the Netherlands" |
+| **Visa anxiety depth** | Constant proving, can't be weak, fragile 5-year progress | "The hidden anxiety of building a life on a temporary visa" |
+| **Citizenship ≠ just passing** | "I don't feel I deserve that passport if I don't speak" | "Why passing the exam isn't enough to feel Dutch" |
+| **Normalized non-fluency** | "People don't even expect A2 means conversation" | "The dirty secret of A2: why most people can't speak after passing" |
+| **Taalcafe reality** | Different levels, not teachers, "mumbling together" | "Why language cafes don't work (and what does)" |
