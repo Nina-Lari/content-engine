@@ -96,6 +96,14 @@ Six-stage content pipeline that takes a brief through enrichment, outline, writi
 
 **When to use:** After you have a content brief (from /research-brief) and want to produce a finished article.
 
+### /finalize-links
+Resolve internal link placeholders based on the content registry. Converts `INTERNAL_LINK:` placeholders to real URLs for published articles, strips links to unpublished articles (converts to plain text).
+
+**Context consumed:** `outputs/content-registry.yaml`, `outputs/articles/[slug]_linked.md`
+**When to use:**
+- After running /seo-pipeline to get a publishable `_final.mdx` with no broken links
+- After publishing new articles to your blog: update the registry, then run `/finalize-links --all` to propagate working links across all articles
+
 ### /linkedin-insights
 Extract LinkedIn post angles from customer intelligence. Maps insights to persona-specific framing using your positioning themes.
 
@@ -124,6 +132,7 @@ strategy/competitive-landscape.md
 extract-insights reads:  icp + personas + competitive
 research-brief reads:    icp + personas + competitive + customer-intelligence/
 seo-pipeline reads:      varies by stage (see table above)
+finalize-links reads:    content-registry.yaml + _linked.md files
 linkedin-insights reads: personas + positioning
 ```
 

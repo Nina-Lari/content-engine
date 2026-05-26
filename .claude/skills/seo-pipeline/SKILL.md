@@ -210,11 +210,19 @@ Proceed automatically to Stage 6.
 **Context consumed:**
 - The linked article from Stage 5
 - SEO assets YAML from Stage 2
+- `outputs/content-registry.yaml` (for link resolution)
 
 **Workflow:**
 
 1. Read the linked article and SEO assets.
-2. Generate MDX file with frontmatter in this exact format:
+2. Read `outputs/content-registry.yaml` to get article statuses and URL pattern.
+3. Resolve internal link placeholders in the article body:
+   - Find all links in format `[anchor text](INTERNAL_LINK: target-slug)`
+   - For each link, look up `target-slug` in the content registry:
+     - If status is `published`: replace with `[anchor text](/blog/target-slug)` (using the `url_pattern` from registry)
+     - If status is `planned` or `drafted`: replace with just `anchor text` (plain text, no link)
+   - If a target slug is not in the registry: treat as unpublished (convert to plain text)
+4. Generate MDX file with frontmatter in this exact format:
 
 ```yaml
 ---
@@ -234,15 +242,20 @@ faqs:
 ---
 ```
 
-3. Append the article body (from the linked article) as standard markdown after the frontmatter.
-4. Do NOT include JSON-LD scripts in the body. The blog framework generates structured data from frontmatter.
-5. Write the final output file.
+5. Append the resolved article body as standard markdown after the frontmatter.
+6. Do NOT include JSON-LD scripts in the body. The blog framework generates structured data from frontmatter.
+7. Write the final output file.
 
 **Important frontmatter notes:**
 - `published: false` by default. User sets to `true` after adding cover image and final review.
 - `coverImage` and `coverImageAlt` are placeholders. User must replace before publishing.
 - `faqs` must be an array of `{question, answer}` objects. If no FAQs, use `faqs: []`.
 - `author` defaults to "Wesley Lam". Change to "Nina Lari" only if explicitly requested.
+
+**Link resolution notes:**
+- The `_linked.md` file preserves all linking intent with `INTERNAL_LINK:` placeholders.
+- The `_final.mdx` file is always publishable with no broken links.
+- When you publish new articles later, run `/finalize-links --all` to update all `_final.mdx` files with newly-available links.
 
 **Output:** `outputs/articles/[slug]_final.mdx`
 
@@ -270,12 +283,15 @@ Files produced:
 
 Article stats:
   - Word count: [number]
-  - Internal links: [number]
+  - Internal link placeholders: [number]
+  - Links resolved to URLs: [number] (targets already published)
+  - Links converted to plain text: [number] (targets not yet published)
   - FAQ items: [number]
   - Proof points used: [number]
 
 Evidence gaps: [any sections that lacked strong proof points]
 Editorial changes: [count of corrections made in Stage 4]
+Deferred links: [list of target slugs that were converted to plain text -- these will become active when those articles are published and you run /finalize-links --all]
 
 Before publishing:
   - [ ] Add cover image and update coverImage/coverImageAlt in frontmatter
