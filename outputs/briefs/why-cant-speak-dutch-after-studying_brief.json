@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "topic_id": "why-cant-speak-dutch-after-studying",
+    "priority_score": 92,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-4 hours"
+  },
+  "keyword": {
+    "primary": "why can't I speak Dutch after studying",
+    "variants": [
+      "I understand Dutch but can't speak",
+      "passed inburgering but can't speak Dutch",
+      "why can't I speak Dutch",
+      "understand Dutch but freeze when speaking",
+      "recognition vs production Dutch"
+    ],
+    "searcher_intent": "The searcher has been studying Dutch (possibly passed exams) but freezes or struggles when trying to actually speak. They're frustrated and looking for an explanation and solution."
+  },
+  "audience": {
+    "persona": "Partner Visa Holder / Work Visa Holder",
+    "industry_focus": null,
+    "pain_summary": "They can recognize Dutch words, pass exercises, maybe even pass exams — but when it's time to actually speak, they freeze. They understand but can't produce.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "The recognition-production gap: why your brain treats understanding and speaking as completely different skills, and why most Dutch courses only train one of them.",
+  "thesis_sentence": "You can't speak Dutch because you've been training your brain to recognize the language, not produce it — and these are fundamentally different cognitive skills that require different practice.",
+  "outline": [
+    {
+      "section": "The frustrating truth: understanding isn't speaking",
+      "notes": "Open with the relatable experience: you understand Dutch conversations, you pass exercises, but when you open your mouth nothing comes out. Validate the frustration. This isn't a character flaw — it's how the brain works.",
+      "word_target": 250,
+      "evidence_needed": "Customer lexicon: 'I understand but can't speak'. Quote from Facebook: 'They read, they listen, they understand… but when it's time to talk, they freeze.'"
+    },
+    {
+      "section": "Recognition vs. production: why your brain treats them differently",
+      "notes": "Explain the cognitive science. Recognition (reading, listening, multiple choice) uses passive recall — your brain just needs to match a pattern. Production (speaking, writing) requires active recall — generating language from scratch. These use different neural pathways. Train one and you don't automatically get the other.",
+      "word_target": 350,
+      "evidence_needed": "Taalhammer quote: 'You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation.' Clozemaster quote: 'Many learners struggle because they can recognize Dutch vocabulary but cannot use it.'"
+    },
+    {
+      "section": "How most Dutch courses accidentally make this worse",
+      "notes": "Explain how typical course design (watch video, do exercises, check answers) trains recognition. 'Completion' means you finished the exercises — not that you can produce the language. Even AI-scored exercises often just check if you repeated correctly, not if you can generate novel sentences.",
+      "word_target": 300,
+      "evidence_needed": "Dutch-online.com quote: 'Most learners don't fail because they don't know Dutch — they underestimate speaking and writing.' Customer intelligence: 'It's basically cards to memorize... It's a cheat sheet to the exam.'"
+    },
+    {
+      "section": "The 'pass but can't speak' phenomenon",
+      "notes": "Describe how this plays out in real life. People pass all 5 inburgering exams but can't order coffee. The exam tests minimum thresholds, not conversational fluency. If your course optimizes for passing, you get exactly that — passing, not speaking.",
+      "word_target": 250,
+      "evidence_needed": "Customer intelligence: friend got citizenship through InburgeringOnline but 'couldn't even pronounce inburgering' the day he got his passport. DutchReview cites speaking exam as 'one of the hardest exams for internationals'."
+    },
+    {
+      "section": "What production-based learning looks like",
+      "notes": "Describe the alternative approach. Instead of 'complete when you finish exercises', completion requires actually using the vocabulary in conversation. Explain the practice-then-prove model without being salesy. Frame as 'what to look for in a course'.",
+      "word_target": 300,
+      "evidence_needed": "Position as methodology explanation. Mention that production-based completion — where you're not done until you've actively used vocabulary — addresses the recognition gap directly."
+    },
+    {
+      "section": "How to close the gap (regardless of what course you use)",
+      "notes": "Practical advice that works even if they don't buy: (1) Add production practice to whatever you're doing — speak sentences aloud, not just read them. (2) Practice generating, not just recognizing. (3) Find low-stakes speaking practice — AI, language exchange, anything. (4) Measure progress by what you can say, not what you can understand.",
+      "word_target": 350,
+      "evidence_needed": "Actionable steps. Reference the pain point of finding speaking partners: 'I've been trying to find other beginners to practice speaking with, but it's been harder than I expected.'"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "I understand Dutch but can't produce it",
+      "prop": "Production-based completion: you're not done until you've actively used vocabulary in conversation",
+      "proof": "The completion criterion is 90% vocabulary usage in conversation, not exercise completion"
+    },
+    {
+      "pain": "Can't find speaking practice",
+      "prop": "Unlimited speaking practice without scheduling",
+      "proof": "Practice anytime — 6am, midnight, during lunch break"
+    },
+    {
+      "pain": "Feel judged when trying to speak",
+      "prop": "Judgment-free practice space",
+      "proof": "Make mistakes without embarrassment, build confidence before real conversations"
+    }
+  ],
+  "originality_nuggets": [
+    "Customer intelligence: 'People don't even expect that at A2 you can have a conversation' — the market has normalized not being able to speak after passing",
+    "The shame cycle: can't speak → feel judged → avoid situations → isolate → can't practice → more shame",
+    "Dutch partner problem: 'Your level of Dutch is native and mine is total beginner... it's just impossible to learn' — having a Dutch partner doesn't solve the practice problem"
+  ],
+  "seo": {
+    "title_tag": "Why You Can't Speak Dutch After Studying (And How to Fix It)",
+    "meta_description": "Understand Dutch but freeze when speaking? Learn why recognition and production are different skills, and how to close the gap.",
+    "url_slug": "why-cant-speak-dutch-after-studying"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Why can't I speak Dutch even though I understand it?",
+    "definition_paragraph": "The recognition-production gap is the reason you can understand Dutch but freeze when speaking. Your brain uses different cognitive processes for recognizing language (reading, listening, multiple choice) versus producing it (speaking, writing). Most Dutch courses train recognition through exercises and videos, but don't require you to actively generate language — which is why you can pass tests but struggle in real conversations.",
+    "faq_questions": [
+      "Why can I understand Dutch but not speak it?",
+      "Why do I freeze when trying to speak Dutch?",
+      "Can you pass the inburgering exam and still not speak Dutch?",
+      "How do I go from understanding Dutch to speaking it?",
+      "What is the recognition vs production gap in language learning?"
+    ]
+  }
+}

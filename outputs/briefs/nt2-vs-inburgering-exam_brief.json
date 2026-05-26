@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "topic_id": "nt2-vs-inburgering-exam",
+    "priority_score": 7.5,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 1600,
+    "estimated_effort": "3 hours"
+  },
+  "keyword": {
+    "primary": "NT2 vs inburgering",
+    "variants": [
+      "NT2 exam or inburgering",
+      "difference NT2 inburgering",
+      "staatsexamen NT2 inburgering",
+      "which Dutch exam do I need",
+      "NT2 instead of inburgering",
+      "Dutch language certification"
+    ],
+    "searcher_intent": "Understand difference between exam types, know which one they need, determine if NT2 can replace inburgering"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Confused about different Dutch language exams. Heard different names, not sure which applies to their situation or if one can substitute for another.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Clear explanation of the two main Dutch certification paths and when each applies. For most expats with inburgering obligation, the relationship between them matters most.",
+  "thesis_sentence": "The inburgeringsexamen and Staatsexamen NT2 serve different purposes — civic integration vs professional/academic certification — but NT2 can satisfy inburgering language requirements if you pass at the right level.",
+  "outline": [
+    {
+      "section": "Two Exams, Different Purposes",
+      "notes": "Quick framing. Inburgering = civic integration requirement for residence. NT2 = Dutch as a Second Language certification for work/study. Related but distinct.",
+      "word_target": 150,
+      "evidence_needed": "Overview of both systems"
+    },
+    {
+      "section": "What Is the Inburgeringsexamen?",
+      "notes": "Civic integration exam. Required for most non-EU migrants. Tests language (A2 or B1) + KNM (society knowledge) + ONA (labor market). About legal residence, not career.",
+      "word_target": 200,
+      "evidence_needed": "DUO/Government inburgering overview"
+    },
+    {
+      "section": "What Is the Staatsexamen NT2?",
+      "notes": "Dutch as a Second Language state exam. Program I = B1 level, Program II = B2 level. Recognized by universities and employers. Professional/academic credential.",
+      "word_target": 200,
+      "evidence_needed": "NT2 exam description"
+    },
+    {
+      "section": "Key Differences at a Glance",
+      "notes": "Comparison table. Purpose, level tested, what it includes, who needs it, where recognized. Visual summary.",
+      "word_target": 150,
+      "evidence_needed": "Comparison summary"
+    },
+    {
+      "section": "The Critical Question: Can NT2 Replace Inburgering?",
+      "notes": "Yes, partially. NT2 satisfies the LANGUAGE component of inburgering. But you still need KNM and ONA separately. NT2 is language only, inburgering is language + society + employment.",
+      "word_target": 250,
+      "evidence_needed": "DUO exemption rules"
+    },
+    {
+      "section": "Why Take NT2 Instead of Inburgering Language Exams?",
+      "notes": "Reasons: need B2 for university, want credential recognized by employers, already at B1+ level and want to prove it, on B1 route and NT2 satisfies requirement.",
+      "word_target": 200,
+      "evidence_needed": "Use case analysis"
+    },
+    {
+      "section": "Why Take Inburgering Language Exams Instead?",
+      "notes": "Reasons: only need A2, want simplest path to compliance, don't need professional credential, KNM and ONA are required anyway so might as well do all via DUO.",
+      "word_target": 200,
+      "evidence_needed": "Use case analysis"
+    },
+    {
+      "section": "Exam Format Differences",
+      "notes": "Inburgering: computer-based at DUO locations, separated by skill. NT2: paper-based, different timing and format, two programs (I and II). Different test experiences.",
+      "word_target": 200,
+      "evidence_needed": "Exam format details"
+    },
+    {
+      "section": "Choosing Your Path",
+      "notes": "Decision framework. If you have inburgering obligation + need professional credential, consider NT2. If just need to satisfy inburgering, stay in that system. Keep it simple unless you have a specific reason.",
+      "word_target": 150,
+      "evidence_needed": "Decision guidance"
+    },
+    {
+      "section": "Other Dutch Certifications (Brief)",
+      "notes": "Quick mention: CNaVT (for Flemish region), basisexamen inburgering buitenland (abroad before coming to NL). Beyond scope but acknowledge they exist.",
+      "word_target": 100,
+      "evidence_needed": "Brief mentions"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Confused about which exam system to use",
+      "prop": "Clear decision framework based on your goals",
+      "proof": "Specific criteria for when each path makes sense"
+    },
+    {
+      "pain": "Preparing for the wrong exam",
+      "prop": "Understanding the difference saves wasted effort",
+      "proof": "Both ultimately test speaking ability, which is the core skill"
+    }
+  ],
+  "originality_nuggets": [
+    "Clear explanation that NT2 replaces ONLY language component, not full inburgering",
+    "Decision framework for choosing between exam systems",
+    "Format differences that affect test-taking experience"
+  ],
+  "seo": {
+    "title_tag": "NT2 vs Inburgering Exam: What's the Difference? (2026 Guide)",
+    "meta_description": "Confused about NT2 vs inburgering? NT2 is professional/academic certification. Inburgering is civic integration. Here's which you need and when NT2 can replace inburgering language exams.",
+    "url_slug": "nt2-vs-inburgering-exam"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What's the difference between NT2 and inburgering?",
+    "definition_paragraph": "The inburgeringsexamen is a civic integration exam required for most non-EU migrants in the Netherlands, testing language skills (A2 or B1), knowledge of Dutch society (KNM), and orientation to the Dutch labor market (ONA). The Staatsexamen NT2 is a Dutch as a Second Language certification for professional or academic purposes, testing at B1 (Program I) or B2 (Program II) level and recognized by universities and employers. If you have an inburgering obligation, passing NT2 can satisfy the language component but you still need to complete KNM and ONA separately. NT2 is language-only; inburgering is language plus society plus employment orientation.",
+    "faq_questions": [
+      "What's the difference between NT2 and inburgering?",
+      "Can NT2 replace the inburgering exam?",
+      "Do I need NT2 or inburgering?",
+      "Is NT2 harder than inburgering?",
+      "What level is NT2 Program I?"
+    ]
+  }
+}

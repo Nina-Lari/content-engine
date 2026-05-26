@@ -53,9 +53,17 @@ Dutchwithjoost exists because one person was fed up with this. Our co-founder ne
 
 ### Urgency Drivers
 
-1. Partner visa holders have a 3-year deadline to complete all inburgering exam parts.
-2. Work visa holders face deportation risk if laid off without permanent residence.
-3. Social pressure from Dutch family members and in-laws who speak Dutch at gatherings.
+These are visa modifiers and social pressures that add urgency on top of core motivations:
+
+| Driver | Who it affects | What it adds |
+|--------|----------------|--------------|
+| **3-year deadline** | Partner visa holders | Legal pressure, clear timeline |
+| **Deportation risk** | Work visa holders | Security anxiety, "what if I lose my job" |
+| **Family pressure** | Anyone with Dutch family | Social judgment, isolation at gatherings |
+| **Passport vulnerability** | Work visa holders from non-wealthy countries | Existential stakes, compound anxiety |
+| **Career ceiling** | Anyone in Dutch workplace | Professional stagnation, first to be laid off |
+
+Note: Urgency drivers are additive. Someone can have multiple drivers active (e.g., work visa + family pressure + career ceiling).
 
 ### Emotional Reality (From Customer Intelligence)
 
@@ -153,7 +161,7 @@ This is a pedagogical difference, not a scope difference. We cover the same exam
 
 ### ICP Definition
 
-Non-EU nationals living in the Netherlands who need to pass the A2 inburgering exam for permanent residence or Dutch citizenship. They are on partner visa (3-year deadline, mandatory) or work visa (voluntary, seeking security). They have decided the Netherlands is their permanent home and want to break out of the expat/English bubble.
+Non-EU nationals living in the Netherlands who need to pass the A2 inburgering exam for permanent residence or Dutch citizenship. They have decided the Netherlands is their permanent home and want to break out of the expat/English bubble.
 
 They cannot commit to fixed class schedules — irregular work hours, family obligations, or preference for home learning. They are self-motivated enough to study alone. They care about actually using Dutch, not just passing the test. They will research and choose their own course rather than being assigned one.
 
@@ -165,22 +173,25 @@ They cannot commit to fixed class schedules — irregular work hours, family obl
 |-----------|----------|
 | Nationality | Non-EU |
 | Location | Currently in the Netherlands |
-| Visa type | Partner visa or Work visa |
+| Visa type | Partner visa or Work visa (visa type is a modifier, not a segment — see Personas) |
 | Exam requirement | A2 level (pre-2022 BSN or voluntary naturalization) |
 | Timeline | Usually start searching in first year of arrival |
 
 ### Dream Customer
 
-Partner visa holder with a Dutch partner. Family gatherings are in Dutch. Cannot interact with nieces, nephews, or in-laws. Has strong social motivation beyond just the exam — wants to actually participate in family life. Self-motivated, prefers flexible home learning, frustrated with memorization-based courses that don't teach real speaking.
+Someone with strong belonging and family motivations — wants to participate in Dutch life, not just pass an exam. Has a Dutch partner or family connection that creates social pressure beyond the legal requirement. Self-motivated, prefers flexible home learning, frustrated with memorization-based courses that don't teach real speaking. May have tried other courses and been disappointed.
+
+The visa type matters less than the motivation profile: someone with a work visa can have the same belonging/family motivations as a partner visa holder. The dream customer cares about actually using Dutch, not just earning a certificate.
 
 ### Buying Signals
 
-- Recently received inburgering letter
-- In first year of living in Netherlands
-- Complaining about other courses in expat forums
-- Partner visa with Dutch partner (family pressure)
-- Work visa holder worried about job security
+- Recently received inburgering letter (partner visa deadline trigger)
+- Frustrated after a family gathering where they understood nothing
+- Complaining about other courses in expat forums (prior course failure)
+- Work visa holder worried about job security (security motivation)
+- Approaching 5-year permanent residence milestone
 - Searching for "inburgering exam speaking practice" or similar
+- Expressing shame or frustration about not speaking Dutch after years in NL
 
 ---
 
@@ -342,39 +353,89 @@ These phrases appear in actual customer discussions. Use them in content.
 
 ## Buyer Personas
 
-### Persona 1: Partner Visa Holder (Dutch Partner)
+> **See `strategy/personas.md` for full persona documentation.** This section summarizes the layered model.
 
-| Attribute | Description |
-|-----------|-------------|
-| **Situation** | Followed Dutch partner to Netherlands. Non-EU nationality. 3-year deadline to complete inburgering. |
-| **Social pressure** | Dutch in-laws, family gatherings in Dutch, cannot interact with children. Needs real fluency, not just a certificate. |
-| **Support system** | Dutch partner helps with questions but won't teach. Partner may help research courses. |
-| **Schedule** | Often irregular. May be job hunting, caring for family, or adjusting to new country. Needs flexibility. |
-| **Motivation** | Wants to participate in family life. Feels isolated at Dutch gatherings. Frustrated with courses that don't teach speaking. |
-| **Decision criteria** | Speaking practice, flexibility, covers all exam parts, reasonable price. |
-| **Objections** | "€399 is expensive" (though cheaper than classes), "Can I really learn alone?", "Is speaking practice effective without a real person?" |
+### The Layered Model
 
-**The Dutch Partner Problem** (from customer intelligence):
+Visa type is observable and useful for targeting, but it doesn't determine motivation. The actual persona is built from three layers:
+
+```
+Layer 1: Core Motivations (universal — anyone learning Dutch might have these)
+    +
+Layer 2: Visa Modifier (adds specific pressures based on legal situation)
+    +
+Layer 3: Barrier Profile (what's actually blocking them)
+```
+
+A partner visa holder and a work visa holder can share the same core motivations. The visa type adds different pressures on top. The barrier profile determines what product positioning resonates.
+
+### Layer 1: Core Motivations
+
+| Motivation | What it sounds like |
+|------------|---------------------|
+| **Belonging** | "I want to feel at home, not like a permanent guest." |
+| **Family** | "I can't talk to my nieces, my in-laws, participate in family life." |
+| **Identity** | "I don't deserve the passport if I don't speak the language." |
+| **Integration** | "I want access to therapy, culture, hobbies, activities." |
+| **Career** | "I'm treated as an outsider, can't advance." |
+
+Most people have multiple motivations active. These are not visa-specific.
+
+### Layer 2: Visa Modifiers
+
+| Visa Type | What It Adds |
+|-----------|--------------|
+| **Partner visa** | +Legal deadline (3 years), +Family scrutiny (in-laws watching), +Dutch partner support (with limits) |
+| **Work visa** | +Security anxiety (deportation if laid off), +Career ceiling pressure, −Deadline (can procrastinate) |
+| **Passport vulnerability** (sub-modifier) | For work visa holders from non-wealthy countries: existential stakes, compound anxiety, "must be better than a Dutch person" |
+
+The visa doesn't determine motivation — it adds concerns on top.
+
+### Layer 3: Barrier Profiles
+
+| Barrier | Description | Product positioning that resonates |
+|---------|-------------|-----------------------------------|
+| **Shame cycle** | Can't speak → feel judged → avoid → isolate → can't practice | Judgment-free AI practice |
+| **Production gap** | Understands Dutch but freezes when speaking | Speaking-first methodology |
+| **Schedule constraints** | Can't commit to fixed times | Self-paced, 15-min sessions |
+| **Access to practice** | No one to practice with, partner can't help | Unlimited speaking practice built in |
+| **Prior course skepticism** | Spent €600+ on courses that didn't work | Proof it's different, origin story |
+
+### The Dutch Partner Problem
 
 Having a Dutch partner does NOT solve the speaking practice problem:
 
-- **Level mismatch**: "Your level of Dutch is native and mine is total beginner... It's hard to find the middle ground. I don't understand a lot of what she's saying and you have to explain so much."
-- **Can't explain why**: "When I ask why is it this way... the native person learned it since they're little so they can't really explain why. They just do it. They're not teachers."
-- **Partner fatigue**: Dutch partners help with questions but won't (and can't) teach systematically.
+- **Level mismatch**: "Your level of Dutch is native and mine is total beginner... It's hard to find the middle ground."
+- **Can't explain why**: "When I ask why is it this way... the native person learned it since they're little so they can't really explain. They're not teachers."
+- **Partner fatigue**: Dutch partners help with questions but won't teach systematically.
 
-This validates the need for level-matched practice. Native speakers — even partners who want to help — cannot provide the structured, level-appropriate practice that learning requires.
+This validates the need for level-matched practice. Native speakers cannot provide the structured, level-appropriate practice that learning requires.
 
-### Persona 2: Work Visa Holder (Security Seeker)
+### Example Persona Combinations
 
-| Attribute | Description |
-|-----------|-------------|
-| **Situation** | Employed in Netherlands on work visa. Non-EU nationality. No legal requirement to integrate, but wants permanent residence. |
-| **Fear** | Layoff = lose visa = deportation risk. Permanent residence removes this threat entirely. |
-| **Motivation** | Peace of mind and security. Voluntary choice to secure their future in the Netherlands. |
-| **Budget** | May have company learning budget to use. More price-flexible than partner visa holders. |
-| **Schedule** | Working full-time. Needs evening/weekend flexibility. Cannot attend daytime classes. |
-| **Decision criteria** | Effective preparation, fits around work schedule, uses company budget efficiently. |
-| **Objections** | "I'll do it later" (no immediate deadline), "Maybe I should wait until I actually need it." |
+**Pattern A: Partner Visa + Family Pressure**
+- Motivations: Belonging + Family (primary)
+- Visa modifier: Partner visa (+deadline, +family scrutiny)
+- Barriers: Shame cycle, Production gap
+- Trigger: Family gathering where they understood nothing
+
+**Pattern B: Work Visa + Security Focus**
+- Motivations: Career + Security (primary)
+- Visa modifier: Work visa (+security anxiety, −deadline)
+- Barriers: Schedule constraints, Prior skepticism
+- Trigger: Layoff news, approaching 5-year milestone
+
+**Pattern C: Work Visa + Full Motivation Stack**
+- Motivations: Belonging + Family + Identity + Integration + Career (all five)
+- Visa modifier: Work visa + Passport vulnerability
+- Barriers: Shame cycle, Prior failures, Schedule constraints
+- Trigger: Compound pressure — career anxiety + identity crisis + prior failures
+
+**Pattern D: Long-term Resident + Integration Focus**
+- Motivations: Integration + Identity (primary)
+- Visa modifier: Either (deadline may have passed)
+- Barriers: Production gap, possibly resignation
+- Trigger: Realization of what they've been missing
 
 ---
 

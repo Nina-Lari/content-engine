@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "topic_id": "inburgering-exam-failed-what-happens",
+    "priority_score": 8.8,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "inburgering exam failed",
+    "variants": [
+      "what happens if you fail inburgering",
+      "inburgering retake",
+      "failed inburgering exam consequences",
+      "inburgering fine",
+      "inburgering deadline missed",
+      "fail inburgering speaking exam"
+    ],
+    "searcher_intent": "Understand consequences of failing, retake process, fines, and what happens to their visa/status if they don't pass"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Anxious about failing. Worried about fines, visa consequences, and what happens to their life in NL if they can't pass.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Calm, practical guide to what actually happens if you fail. It's not the end of the world. Clear information about retakes, extensions, fines, and how to get back on track.",
+  "thesis_sentence": "Failing an inburgering exam is stressful but not catastrophic — you can retake individual parts, get deadline extensions if you've made progress, and the system has more flexibility than most people realize.",
+  "outline": [
+    {
+      "section": "Failed Your Inburgering Exam? Take a Breath.",
+      "notes": "Reassurance opening. Failing one exam (or part of one) is not the end. Many people retake parts. The system has mechanisms for this.",
+      "word_target": 150,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "What Happens Immediately After Failing",
+      "notes": "Practical next steps. You get your result, you can book a retake after 2 weeks, you only retake the parts you failed (not the whole exam).",
+      "word_target": 200,
+      "evidence_needed": "DUO retake policy"
+    },
+    {
+      "section": "Retake Costs and Timing",
+      "notes": "Each retake costs the same as the first attempt (~€50 per part). No penalty surcharge. 2-week minimum wait between attempts. Can book via DUO.",
+      "word_target": 150,
+      "evidence_needed": "DUO fee structure"
+    },
+    {
+      "section": "The 12-Month Rule: Why Timing Matters",
+      "notes": "Important: exam results expire after 12 months if you haven't passed all parts. If you pass speaking in January but fail writing in December, your speaking result expires. Plan accordingly.",
+      "word_target": 200,
+      "evidence_needed": "DUO result validity rules"
+    },
+    {
+      "section": "Deadline Extensions Based on Progress",
+      "notes": "Key safety net. If you've passed some exams, you get extra time. 0 exams passed = 2 extra years. 1 exam = 1.5 years. 2 exams = 1 year. 3-4 exams = 6 months. The system rewards effort.",
+      "word_target": 250,
+      "evidence_needed": "DUO/Government extension rules"
+    },
+    {
+      "section": "Fines: What They Are and How to Avoid Them",
+      "notes": "If you miss your final deadline, fines up to €1,250 are possible. But this is after extensions and after multiple failures. Most people who engage with the process avoid fines.",
+      "word_target": 200,
+      "evidence_needed": "DUO fines information"
+    },
+    {
+      "section": "What About Your Visa/Residence Permit?",
+      "notes": "Address the big fear. Failing inburgering does not automatically mean deportation. Your residence permit and inburgering are related but separate. Explain the actual relationship.",
+      "word_target": 250,
+      "evidence_needed": "IND/legal guidance"
+    },
+    {
+      "section": "Speaking Exam: The Part Most People Fail",
+      "notes": "Speaking has highest fail rate. Reasons: anxiety, lack of practice, recognition vs production gap. The good news: speaking improves dramatically with practice.",
+      "word_target": 200,
+      "evidence_needed": "Transition to value prop"
+    },
+    {
+      "section": "How to Prepare for a Retake",
+      "notes": "Analyze what went wrong. Was it exam anxiety? Lack of speaking practice? Vocabulary gaps? Different problems need different solutions. Don't just do the same thing again.",
+      "word_target": 200,
+      "evidence_needed": "Practical advice"
+    },
+    {
+      "section": "When to Ask for Help: Extensions and Waivers",
+      "notes": "If circumstances beyond your control are blocking progress (medical issues, family emergencies), you can apply for extensions or even waivers. Don't suffer in silence.",
+      "word_target": 150,
+      "evidence_needed": "Link to exemptions/waivers topic"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Failed speaking exam and don't know how to improve",
+      "prop": "Speaking improves dramatically with actual speaking practice",
+      "proof": "Most courses focus on recognition; practice production to pass"
+    },
+    {
+      "pain": "Anxious about retaking and failing again",
+      "prop": "Unlimited practice means you can build confidence before booking retake",
+      "proof": "Practice until you're ready, not on a fixed schedule"
+    }
+  ],
+  "originality_nuggets": [
+    "Most failure content is fear-mongering. This is practical and reassuring.",
+    "Specific extension rules based on number of exams passed (rarely explained clearly)",
+    "12-month result expiry rule that catches people off guard"
+  ],
+  "seo": {
+    "title_tag": "Failed the Inburgering Exam? What Happens Next (2026 Guide)",
+    "meta_description": "Failed your inburgering exam? Here's exactly what happens: retake process, costs, deadline extensions, and fines. It's not as scary as you think.",
+    "url_slug": "inburgering-exam-failed-what-happens"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What happens if you fail the inburgering exam?",
+    "definition_paragraph": "If you fail the inburgering exam, you can retake the specific parts you failed after a 2-week waiting period. Each retake costs approximately €50 per part with no penalty surcharge. Exam results expire after 12 months, so you need to pass all parts within that window. If you miss your overall 3-year deadline, you may get automatic extensions based on progress: 0 exams passed = 2 extra years, 1 exam = 1.5 years, 2 exams = 1 year, 3-4 exams = 6 months. Fines of up to €1,250 only apply after all extensions are exhausted.",
+    "faq_questions": [
+      "What happens if you fail the inburgering exam?",
+      "How much does it cost to retake the inburgering exam?",
+      "How many times can you retake the inburgering exam?",
+      "Do you get deported if you fail inburgering?",
+      "What is the inburgering fine for not passing?"
+    ]
+  }
+}

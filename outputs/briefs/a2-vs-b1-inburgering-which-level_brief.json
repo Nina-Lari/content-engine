@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "topic_id": "a2-vs-b1-inburgering-which-level",
+    "priority_score": 9.0,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "inburgering A2 or B1",
+    "variants": [
+      "A2 vs B1 Dutch",
+      "which inburgering level do I need",
+      "inburgering B1 requirement",
+      "A2 B1 inburgering difference",
+      "Dutch citizenship B1 requirement",
+      "inburgering level 2026"
+    ],
+    "searcher_intent": "Understand which inburgering level (A2 or B1) applies to their situation, what determines the requirement, and what's changing for citizenship"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Confused about A2 vs B1 requirements. Heard B1 is now required but unsure if it applies to them. Worried about preparing for wrong level.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Clear, definitive guide to who needs A2 vs B1. The January 2022 cutoff, the naturalization changes coming in 2026, and what each level actually means in practice.",
+  "thesis_sentence": "Whether you need A2 or B1 for inburgering depends on when you got your residence permit — here's exactly how to know which level applies to you and what's changing for Dutch citizenship.",
+  "outline": [
+    {
+      "section": "A2 or B1? The Confusion Is Real",
+      "notes": "Acknowledge the confusion. Government changed requirements, citizenship rules are changing, information online is often outdated or contradictory. Promise clarity.",
+      "word_target": 150,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "The Simple Rule: When Did You Get Your Residence Permit?",
+      "notes": "Core rule. Before January 1, 2022 = A2. After January 1, 2022 = B1. This is the primary determinant for inburgering requirements.",
+      "word_target": 200,
+      "evidence_needed": "Government.nl / IND official guidance"
+    },
+    {
+      "section": "What A2 Level Actually Means",
+      "notes": "Practical description. Simple, direct communication about everyday topics. Shopping, family, local geography. Can handle predictable situations.",
+      "word_target": 200,
+      "evidence_needed": "CEFR framework description"
+    },
+    {
+      "section": "What B1 Level Actually Means",
+      "notes": "Practical description. Understand main points of clear standard language. Handle most travel situations. Produce connected text on familiar topics. Describe experiences and opinions.",
+      "word_target": 200,
+      "evidence_needed": "CEFR framework description"
+    },
+    {
+      "section": "How Much Harder Is B1 Than A2?",
+      "notes": "Realistic comparison. B1 exams are longer (reading: 65 min vs 110 min). Expect 6-12 months dedicated study for B1 vs 3-6 months for A2. Vocabulary and grammar expectations higher.",
+      "word_target": 250,
+      "evidence_needed": "DUO exam durations, study time estimates"
+    },
+    {
+      "section": "The Citizenship Wrinkle: B1 May Become Required",
+      "notes": "Important nuance. Passing inburgering at A2 fulfills integration obligation. But naturalization (Dutch passport) may require B1 starting late 2026. If you plan to apply for citizenship, consider aiming for B1 anyway.",
+      "word_target": 250,
+      "evidence_needed": "TheDutchDaily and NLCompass coverage of pending changes"
+    },
+    {
+      "section": "What If You're In Between? (Started A2, Want Citizenship)",
+      "notes": "Practical guidance. If you pass A2 before B1 law changes, you're likely grandfathered. But if citizenship is your goal, consider whether B1 now saves effort later.",
+      "word_target": 200,
+      "evidence_needed": "Legal analysis from expat sources"
+    },
+    {
+      "section": "Can You Choose to Do B1 Even If A2 Is Enough?",
+      "notes": "Yes. You can always aim higher. Some people want B1 for employment reasons even if A2 satisfies their legal requirement.",
+      "word_target": 150,
+      "evidence_needed": "DUO guidance"
+    },
+    {
+      "section": "The NT2 Alternative",
+      "notes": "For B1-route people, NT2 Staatsexamen is an option. NT2 is recognized by universities and employers. Passing NT2 satisfies inburgering language requirement.",
+      "word_target": 200,
+      "evidence_needed": "NT2 exam information"
+    },
+    {
+      "section": "How to Check Your Specific Requirement",
+      "notes": "Practical steps. Check your DUO account, contact your gemeente, look at your PIP (Personal Integration Plan). Don't guess — verify.",
+      "word_target": 150,
+      "evidence_needed": "DUO account guidance"
+    },
+    {
+      "section": "Preparing for Either Level",
+      "notes": "Regardless of level, speaking is what most people struggle with. Recognition-based courses don't build speaking ability. Production-focused learning works for both A2 and B1.",
+      "word_target": 200,
+      "evidence_needed": "Transition to value prop"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Confused about which level applies to them",
+      "prop": "Clear decision framework based on residence permit date",
+      "proof": "Official government guidance cited"
+    },
+    {
+      "pain": "Worried about preparing for wrong level",
+      "prop": "Speaking ability transfers regardless of target level",
+      "proof": "Speaking is the skill, A2/B1 is the benchmark"
+    }
+  ],
+  "originality_nuggets": [
+    "Most guides don't explain the citizenship B1 changes coming in 2026",
+    "Practical advice for people caught between A2 requirement and B1 citizenship goal",
+    "Clear January 2022 cutoff explanation with verification steps"
+  ],
+  "seo": {
+    "title_tag": "Inburgering A2 or B1: Which Level Do You Need? (2026 Guide)",
+    "meta_description": "Confused about A2 vs B1 for inburgering? Your level depends on when you got your residence permit. Plus: what's changing for Dutch citizenship in 2026.",
+    "url_slug": "a2-vs-b1-inburgering-which-level"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Do I need A2 or B1 for inburgering?",
+    "definition_paragraph": "If you received your Dutch residence permit before January 1, 2022, you need A2 level for inburgering. If you received it after January 1, 2022, you need B1 level. This applies to your civic integration (inburgering) obligation. However, Dutch citizenship (naturalization) may require B1 for everyone starting in late 2026, regardless of when you received your permit. A2 covers basic everyday communication; B1 requires understanding main points of clear standard language and producing connected text on familiar topics.",
+    "faq_questions": [
+      "Do I need A2 or B1 for inburgering?",
+      "What's the difference between A2 and B1 Dutch?",
+      "Is B1 required for Dutch citizenship?",
+      "Can I choose to do B1 instead of A2?",
+      "How much harder is B1 than A2?"
+    ]
+  }
+}

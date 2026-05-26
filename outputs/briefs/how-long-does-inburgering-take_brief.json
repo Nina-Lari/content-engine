@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "topic_id": "how-long-does-inburgering-take",
+    "priority_score": 8.3,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "how long does inburgering take",
+    "variants": [
+      "inburgering timeline",
+      "how long to learn Dutch for inburgering",
+      "inburgering 3 months",
+      "realistic inburgering timeline",
+      "how many months inburgering",
+      "pass inburgering fast"
+    ],
+    "searcher_intent": "Understand realistic timeline for completing inburgering, plan study schedule, know what factors affect duration"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Trying to plan their time and budget. Want realistic expectations, not marketing claims. Need to know how to fit studying into busy life.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Honest, realistic timelines based on starting point, study intensity, and target level. No '3 weeks to fluency' nonsense. Practical planning guide.",
+  "thesis_sentence": "Most people pass the inburgering exam in 3-6 months of dedicated study, but your actual timeline depends on your starting point, target level (A2 vs B1), study intensity, and how much speaking practice you get.",
+  "outline": [
+    {
+      "section": "How Long? The Honest Answer",
+      "notes": "Set expectations. Typical range: 3-6 months for A2, 6-12 months for B1. But variation is huge based on individual factors. This guide helps you estimate YOUR timeline.",
+      "word_target": 150,
+      "evidence_needed": "General estimates from reputable sources"
+    },
+    {
+      "section": "The Official Deadline: 3 Years",
+      "notes": "Context. Government gives you 3 years from residence permit. This is deadline, not target. Most people don't need 3 years. But it's good to know the outer bound.",
+      "word_target": 150,
+      "evidence_needed": "DUO deadline rules"
+    },
+    {
+      "section": "Factor 1: Your Starting Point",
+      "notes": "English speaker with some German = faster. No Germanic language background = longer. Any prior Dutch exposure helps. Be honest about where you're starting.",
+      "word_target": 200,
+      "evidence_needed": "Language distance research"
+    },
+    {
+      "section": "Factor 2: A2 vs B1 Target Level",
+      "notes": "A2 = basic communication, 3-6 months intensive. B1 = intermediate fluency, 6-12 months. B1 exams are longer and vocabulary requirements higher.",
+      "word_target": 200,
+      "evidence_needed": "CEFR level estimates"
+    },
+    {
+      "section": "Factor 3: Study Intensity",
+      "notes": "30 min/day = slow progress. 1-2 hours/day = moderate. 3+ hours/day = intensive. Consistency matters more than occasional long sessions. Daily exposure beats weekend cramming.",
+      "word_target": 250,
+      "evidence_needed": "Learning science principles"
+    },
+    {
+      "section": "Factor 4: Speaking Practice Availability",
+      "notes": "Speaking is usually the bottleneck. If you practice speaking daily, you'll be ready faster. If you only read/listen, speaking exam will take longer to prepare for.",
+      "word_target": 200,
+      "evidence_needed": "Transition to value prop"
+    },
+    {
+      "section": "Realistic Timeline: A2 Path",
+      "notes": "3-4 months intensive (2+ hrs/day), 4-6 months moderate (1 hr/day), 6+ months casual. Add time if limited speaking practice.",
+      "word_target": 200,
+      "evidence_needed": "Timeline estimates"
+    },
+    {
+      "section": "Realistic Timeline: B1 Path",
+      "notes": "6-9 months intensive, 9-12 months moderate, 12+ months casual. B1 has higher vocabulary and grammar requirements.",
+      "word_target": 200,
+      "evidence_needed": "Timeline estimates"
+    },
+    {
+      "section": "The Exam Booking Factor",
+      "notes": "Practical reality: exam slots book up. Plan to be ready 2-4 weeks before you want to test. Popular locations fill quickly. Build this into your timeline.",
+      "word_target": 150,
+      "evidence_needed": "DUO booking realities"
+    },
+    {
+      "section": "How to Speed Up Your Timeline",
+      "notes": "More speaking practice, daily consistency over intensity spikes, immersion where possible. Not shortcuts — just efficiency. Most acceleration comes from more speaking.",
+      "word_target": 200,
+      "evidence_needed": "Practical tips"
+    },
+    {
+      "section": "Sample Study Schedules",
+      "notes": "Give concrete examples. Working professional: 45 min morning + 30 min evening. Parent at home: 2x 30-min blocks while kids nap. Make it real.",
+      "word_target": 150,
+      "evidence_needed": "Practical examples"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Limited time to study due to work/family",
+      "prop": "Flexible self-paced learning fits any schedule",
+      "proof": "15 minutes or 2 hours — progress either way"
+    },
+    {
+      "pain": "Speaking is the bottleneck but practice is hard to find",
+      "prop": "Unlimited speaking practice accelerates timeline",
+      "proof": "Speaking daily vs weekly makes months of difference"
+    }
+  ],
+  "originality_nuggets": [
+    "Honest timelines with factors explained, not just 'everyone is different'",
+    "Specific timeline ranges for A2 vs B1 at different intensities",
+    "Practical sample schedules for real life situations"
+  ],
+  "seo": {
+    "title_tag": "How Long Does Inburgering Take? Realistic Timeline Guide",
+    "meta_description": "Realistic inburgering timeline: 3-6 months for A2, 6-12 months for B1. Factors that affect your timeline and how to plan your study schedule.",
+    "url_slug": "how-long-does-inburgering-take"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How long does it take to pass the inburgering exam?",
+    "definition_paragraph": "Most people pass the inburgering exam in 3-6 months for A2 level or 6-12 months for B1 level, assuming moderate study intensity (1-2 hours per day). Your actual timeline depends on: starting point (English speakers with Germanic language exposure are faster), target level (B1 requires significantly more vocabulary and longer exams than A2), study consistency (daily practice beats weekend cramming), and speaking practice availability (speaking is typically the skill that takes longest to develop). The official deadline is 3 years, but most dedicated learners finish much sooner.",
+    "faq_questions": [
+      "How long does it take to pass the inburgering exam?",
+      "Can I pass inburgering in 3 months?",
+      "How many hours a day should I study for inburgering?",
+      "What's the deadline for inburgering?",
+      "Is 6 months enough for B1 Dutch?"
+    ]
+  }
+}

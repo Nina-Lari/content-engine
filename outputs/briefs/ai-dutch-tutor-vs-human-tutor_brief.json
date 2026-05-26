@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "topic_id": "ai-dutch-tutor-vs-human-tutor",
+    "priority_score": 75,
+    "stage": "mofu",
+    "format": "comparison",
+    "target_word_count": 1800,
+    "estimated_effort": "2-4 hours"
+  },
+  "keyword": {
+    "primary": "AI Dutch tutor vs human tutor",
+    "variants": [
+      "AI language tutor vs human",
+      "AI Dutch teacher",
+      "learn Dutch with AI",
+      "ChatGPT Dutch tutor",
+      "AI vs human language tutor"
+    ],
+    "searcher_intent": "The searcher is considering their options for Dutch learning and wants to understand the trade-offs between AI-based practice and human tutoring. They may be budget-conscious or skeptical about AI effectiveness."
+  },
+  "audience": {
+    "persona": "Partner Visa Holder / Work Visa Holder",
+    "industry_focus": null,
+    "pain_summary": "They want speaking practice but are weighing cost, availability, and effectiveness. Human tutors are expensive per hour. AI is available but they're unsure if it actually works.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "An honest comparison that acknowledges the strengths of each approach — positioning AI as complement rather than replacement, while being clear about when AI actually works better.",
+  "thesis_sentence": "AI tutors excel at unlimited, judgment-free practice at any hour; human tutors excel at nuanced feedback and relationship. The best approach often combines both — using AI for daily volume and humans for periodic correction.",
+  "outline": [
+    {
+      "section": "The rise of AI language tutors",
+      "notes": "Set the context: AI conversation tools have exploded. ChatGPT, Gemini, dedicated apps like SpeakPal, Talkio, mydutchai.com. Reddit success stories of people passing inburgering with AI alone. This is no longer experimental — it's a legitimate option.",
+      "word_target": 200,
+      "evidence_needed": "Reddit success story: 'After 4 months with AI, I passed all exams first try straight 10s.' Growing competitor landscape: mydutchai.com, SpeakPal, Talkio AI."
+    },
+    {
+      "section": "Where AI tutors genuinely win",
+      "notes": "Honest assessment of AI advantages. (1) Unlimited practice: no hourly rate, no scheduling. (2) Available 24/7: 6am, midnight, during lunch. (3) Judgment-free: make mistakes without embarrassment. (4) Consistent level-matching: AI can stay at your level without getting bored. (5) Lower total cost.",
+      "word_target": 350,
+      "evidence_needed": "Customer intelligence: 'He's not gonna use C2 level Dutch to reply to you' — AI can calibrate level. The shame cycle: judgment-free practice breaks the avoidance pattern. Preply hourly rates: €20-60/hour."
+    },
+    {
+      "section": "Where human tutors still matter",
+      "notes": "Honest assessment of human advantages. (1) Nuanced feedback: humans catch subtle errors AI misses. (2) Cultural context: real Dutch speakers explain why something sounds weird. (3) Accountability: scheduled sessions create commitment. (4) Relationship: motivation from someone invested in your progress. (5) Handling ambiguity: humans can clarify what you actually meant.",
+      "word_target": 350,
+      "evidence_needed": "Be honest about AI limitations. Human tutors provide accountability that self-paced learners may need. Cultural nuance matters for advanced learners."
+    },
+    {
+      "section": "The Dutch partner problem (and why neither fully solves it)",
+      "notes": "Address a common assumption: having a Dutch partner means you have a tutor. Reality: level mismatch makes practice impossible. Partners can't explain grammar. Partner fatigue is real. Neither AI nor scheduled tutors fully replace this — but AI provides unlimited practice without draining your relationship.",
+      "word_target": 250,
+      "evidence_needed": "Customer intelligence: 'Your level of Dutch is native and mine is total beginner... it's just impossible to learn.' 'When I ask why is it this way... the native person learned it since they're little so they can't really explain.'"
+    },
+    {
+      "section": "Cost comparison: what you actually pay",
+      "notes": "Concrete numbers. Human tutors: €20-60/hour, estimate 50-100 hours to A2 = €1,000-6,000. AI apps: €0-20/month, unlimited hours. AI courses: €100-400 one-time or subscription. Help readers calculate their actual cost based on how much practice they need.",
+      "word_target": 250,
+      "evidence_needed": "Preply/iTalki rates. Compare to structured AI courses. €399 one-time vs €40/hour x 100 hours."
+    },
+    {
+      "section": "The hybrid approach: when to use each",
+      "notes": "Practical recommendation. Daily practice: AI (volume matters, consistency matters). Weekly check-in: human tutor (catch errors AI misses, get accountability). Pre-exam prep: mix both. Frame this as not either/or but portfolio approach.",
+      "word_target": 250,
+      "evidence_needed": "Position as practical advice. Reference how production-based courses use AI for daily practice while still being structured."
+    },
+    {
+      "section": "Questions to ask yourself before choosing",
+      "notes": "Decision framework. (1) How much speaking practice do you need? → If lots, AI wins on volume. (2) Do you need external accountability? → If yes, consider human. (3) What's your budget? → Calculate total hours needed. (4) Are you preparing for a specific exam? → Look for structured options. (5) What's your schedule flexibility? → AI wins for irregular schedules.",
+      "word_target": 150,
+      "evidence_needed": "Help reader self-assess rather than prescribing."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Tutors are expensive",
+      "prop": "Unlimited practice for one-time price",
+      "proof": "€399 total vs €40/hour × 100 hours = €4,000"
+    },
+    {
+      "pain": "Can't schedule regular sessions",
+      "prop": "Available 24/7",
+      "proof": "Practice at 6am, midnight, during lunch break"
+    },
+    {
+      "pain": "Feel judged when speaking",
+      "prop": "Judgment-free practice",
+      "proof": "Make mistakes without embarrassment, build confidence first"
+    },
+    {
+      "pain": "AI doesn't have structure",
+      "prop": "Structured curriculum with AI conversation",
+      "proof": "Production-based completion built into the design"
+    }
+  ],
+  "originality_nuggets": [
+    "Dutch partner problem: having a native speaker at home doesn't solve the practice problem due to level mismatch",
+    "The volume equation: if you need 100 hours of speaking practice, €40/hour is a budget problem that AI solves",
+    "Reddit validation: AI-only learner passed all exams with straight 10s after 4 months"
+  ],
+  "seo": {
+    "title_tag": "AI Dutch Tutor vs Human Tutor: Which Is Better for You?",
+    "meta_description": "Compare AI Dutch tutors and human tutors: cost, availability, effectiveness. Learn when each works best and how to combine them.",
+    "url_slug": "ai-dutch-tutor-vs-human-tutor"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Is an AI tutor or human tutor better for learning Dutch?",
+    "definition_paragraph": "AI Dutch tutors excel at unlimited, judgment-free practice available 24/7 at low cost. Human tutors provide nuanced feedback, cultural context, and accountability through scheduled sessions. For most learners, the best approach combines both: AI for daily volume practice (where consistency matters most) and periodic human sessions for correction and motivation. A learner needing 100 hours of speaking practice would pay €2,000-6,000 for human tutoring versus €0-400 for AI-based options.",
+    "faq_questions": [
+      "Can I learn Dutch with just an AI tutor?",
+      "Are AI language tutors effective?",
+      "How much does a human Dutch tutor cost?",
+      "Should I use ChatGPT to learn Dutch?",
+      "What is the best way to practice Dutch speaking?"
+    ]
+  }
+}

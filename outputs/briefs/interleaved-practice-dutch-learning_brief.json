@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "topic_id": "interleaved-practice-dutch-learning",
+    "priority_score": 78,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 1500,
+    "estimated_effort": "2-3 hours"
+  },
+  "keyword": {
+    "primary": "interleaved practice language learning",
+    "variants": [
+      "interleaved practice Dutch",
+      "interleaving language learning",
+      "mixed practice language learning",
+      "interleaved vs blocked practice",
+      "spaced interleaving Dutch"
+    ],
+    "searcher_intent": "The searcher is interested in learning science and study techniques. They may have heard about interleaving from study skills content and want to understand how it applies to language learning specifically."
+  },
+  "audience": {
+    "persona": "Partner Visa Holder / Work Visa Holder / Self-directed Learner",
+    "industry_focus": null,
+    "pain_summary": "They want to learn Dutch efficiently and are researching evidence-based study methods. They may be frustrated with slow progress or wondering why vocabulary doesn't stick.",
+    "awareness_level": "unaware to problem-aware"
+  },
+  "angle": "A practical guide to interleaved practice for Dutch learning — explaining the science and showing exactly how to apply it, whether using a course or self-studying.",
+  "thesis_sentence": "Interleaved practice — mixing different skills and topics within a study session instead of doing them in blocks — leads to better retention and transfer for Dutch learning, even though it feels harder in the moment.",
+  "outline": [
+    {
+      "section": "What is interleaved practice?",
+      "notes": "Define clearly for AEO. Interleaved practice = mixing different skills or topics within a study session, rather than completing one block before moving to the next. Example: instead of 'all reading, then all listening, then all writing', you do 'read sentence → listen → write → next sentence → read → listen → write'.",
+      "word_target": 200,
+      "evidence_needed": "Science Direct: 'Interleaving enhances multiple language skills, including verb conjugation, tense identification, and language identification.' PMC study: 'interleaved practice improves memory and problem-solving ability'."
+    },
+    {
+      "section": "Interleaved vs. blocked practice: why harder feels better",
+      "notes": "Explain the paradox. Blocked practice (finishing all reading before moving to listening) feels smoother and more productive. Interleaved practice feels harder and slower. But interleaving creates better long-term retention because your brain has to work harder to retrieve and apply knowledge.",
+      "word_target": 250,
+      "evidence_needed": "APA PsycNet: 'Although interleaving did not confer an advantage over blocking under 2 different single-session training schedules, it improved learning when used to practice.' The desirable difficulty principle."
+    },
+    {
+      "section": "How interleaving applies to Dutch learning",
+      "notes": "Specific application to language learning. Instead of: 30 min reading → 30 min listening → 30 min writing. Try: practice each sentence across reading, listening, writing before moving on. This forces your brain to switch contexts and strengthens the memory trace for each vocabulary item.",
+      "word_target": 300,
+      "evidence_needed": "Sloeful: 'Interleaving is a study technique where learners intentionally practice multiple skills or concepts in a single study session.' Medium article on interleaving for language fluency."
+    },
+    {
+      "section": "Example: interleaved practice for a Dutch vocabulary lesson",
+      "notes": "Walk through a concrete example. Learning 'ik heb een afspraak' (I have an appointment). Blocked approach: read it 5 times, then listen 5 times, then write 5 times. Interleaved approach: read and speak it, then listen and repeat, then write it, then move to next phrase. Repeat cycle with review of previous phrases mixed in.",
+      "word_target": 300,
+      "evidence_needed": "Practical example. Reference Dutchwithjoost lesson structure: 'Each unit is practiced three ways: read & speak, listen & speak, then write. This interleaved pattern transfers language into usable memory.'"
+    },
+    {
+      "section": "How to add interleaving to your Dutch study routine",
+      "notes": "Practical advice for self-studiers. (1) Mix skills within sessions, not across days. (2) Include review of previous material — don't just practice new content. (3) Accept that it will feel harder — that's the point. (4) Look for courses that build interleaving into their design.",
+      "word_target": 250,
+      "evidence_needed": "Actionable steps. Carl Hendrick's interleaving guide: 'interleaving works best when the concepts being mixed are related enough to form meaningful connections, yet distinct enough to require discrimination'."
+    },
+    {
+      "section": "When interleaving works best (and when to skip it)",
+      "notes": "Nuance the advice. Interleaving works best for: related skills (reading/listening/writing the same content), similar grammar patterns, vocabulary from the same domain. Less effective for: completely unrelated topics, absolute beginners who need basic pattern recognition first.",
+      "word_target": 200,
+      "evidence_needed": "Science Direct research on when interleaving enhances vs when it doesn't help. Honest about limitations."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Vocabulary doesn't stick",
+      "prop": "Interleaved practice creates stronger memory traces",
+      "proof": "Research shows interleaving improves retention even though it feels harder"
+    },
+    {
+      "pain": "Don't know how to study effectively",
+      "prop": "Evidence-based learning design",
+      "proof": "Lesson structure uses read → listen → write pattern for each sentence unit"
+    },
+    {
+      "pain": "Progress feels slow",
+      "prop": "Difficulty is part of effective learning",
+      "proof": "Desirable difficulty principle: harder practice = better retention"
+    }
+  ],
+  "originality_nuggets": [
+    "Dutchwithjoost lesson design explanation: 'Each unit is practiced three ways in sequence (read → listen → write) before moving on. This interleaving is more effective than batching all reading, then all listening, then all writing.'",
+    "The desirable difficulty paradox: what feels productive (blocked practice) is often less effective than what feels hard (interleaved practice)",
+    "Contrast with typical course design where you 'complete all reading exercises' before unlocking listening"
+  ],
+  "seo": {
+    "title_tag": "Interleaved Practice for Dutch Learning: The Science-Backed Method",
+    "meta_description": "Learn how interleaved practice — mixing skills within study sessions — helps Dutch vocabulary stick better than blocked practice.",
+    "url_slug": "interleaved-practice-dutch-learning"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is interleaved practice in language learning?",
+    "definition_paragraph": "Interleaved practice is a study technique where you mix different skills or topics within a single session instead of completing them in separate blocks. For Dutch learning, this means practicing a sentence by reading, listening, and writing it before moving to the next sentence — rather than doing all reading first, then all listening, then all writing. Research shows interleaved practice leads to better long-term retention because your brain works harder to retrieve and apply knowledge across contexts.",
+    "faq_questions": [
+      "What is interleaved practice?",
+      "Is interleaved practice better than blocked practice?",
+      "How do I use interleaving to learn Dutch?",
+      "Why does interleaved practice feel harder?",
+      "What is the best way to study Dutch vocabulary?"
+    ]
+  }
+}

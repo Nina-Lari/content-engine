@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "topic_id": "fear-of-speaking-dutch",
+    "priority_score": 8.2,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "afraid to speak Dutch",
+    "variants": [
+      "fear of speaking Dutch",
+      "Dutch speaking anxiety",
+      "scared to speak Dutch",
+      "nervous speaking Dutch",
+      "embarrassed to speak Dutch",
+      "no confidence speaking Dutch"
+    ],
+    "searcher_intent": "Find validation that others feel this way, understand why speaking is scary, get practical strategies to build confidence"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Know Dutch in their head but freeze when speaking. Avoid situations requiring Dutch. Feel embarrassed and isolated.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Speaking anxiety in adult language learning is well-documented psychology. Understanding why it happens reduces its power. Practice in low-stakes environments builds confidence that transfers to real situations.",
+  "thesis_sentence": "Fear of speaking Dutch isn't a sign you're bad at Dutch — it's the natural result of learning a language as an adult, and it breaks with deliberate practice in judgment-free environments.",
+  "outline": [
+    {
+      "section": "You Understand Dutch. So Why Can't You Speak It?",
+      "notes": "Relatable opening. You've studied, you can read, you understand. But when you need to speak, you freeze. This gap is incredibly common. It's not just you.",
+      "word_target": 150,
+      "evidence_needed": "None — validation"
+    },
+    {
+      "section": "The Psychology: Why Speaking Is Scarier Than Reading",
+      "notes": "Cambridge research: speaking anxiety is highest in languages learned as an adult. Different brain processes for comprehension vs production. Production requires real-time retrieval under social pressure.",
+      "word_target": 250,
+      "evidence_needed": "Psychology research on language anxiety"
+    },
+    {
+      "section": "The Dutch Speak English — Which Makes It Worse",
+      "notes": "Unique to Netherlands. Dutch people often switch to English to be helpful. This removes practice opportunities AND can feel like rejection of your Dutch. Double problem.",
+      "word_target": 200,
+      "evidence_needed": "Expat experiences"
+    },
+    {
+      "section": "The Perfectionism Trap",
+      "notes": "Overthinking leads to more pauses and mistakes, leading to frustration. Wanting perfect grammar prevents speaking at all. Getting the message across matters more than perfection.",
+      "word_target": 200,
+      "evidence_needed": "Learning psychology"
+    },
+    {
+      "section": "Why Avoidance Makes It Worse",
+      "notes": "The longer you avoid speaking, the bigger the fear grows. Every avoided situation reinforces the anxiety. Breaking the cycle requires action, not more preparation.",
+      "word_target": 150,
+      "evidence_needed": "Anxiety research"
+    },
+    {
+      "section": "Strategy 1: Start in Low-Stakes Environments",
+      "notes": "Practice where mistakes don't matter. With patient friends, with technology, in structured learning. Build confidence before high-stakes situations.",
+      "word_target": 200,
+      "evidence_needed": "Transition to value prop"
+    },
+    {
+      "section": "Strategy 2: Focus on Finishing, Not Perfecting",
+      "notes": "Goal: complete your sentence, get your message across. Self-correct out loud if needed. Progress over perfection.",
+      "word_target": 200,
+      "evidence_needed": "Practical advice from language educators"
+    },
+    {
+      "section": "Strategy 3: Quantity Over Quality at First",
+      "notes": "Speaking badly every day beats speaking perfectly once a week. Fluency comes from volume of practice. Quality improves through quantity.",
+      "word_target": 200,
+      "evidence_needed": "Fluency research"
+    },
+    {
+      "section": "Strategy 4: Insist on Dutch",
+      "notes": "When Dutch people switch to English, politely persist in Dutch. 'Ik wil graag oefenen' works. Most Dutch people respect the effort and will accommodate.",
+      "word_target": 150,
+      "evidence_needed": "Practical tips"
+    },
+    {
+      "section": "The Confidence Breakthrough",
+      "notes": "Confidence doesn't come before speaking — it comes FROM speaking. You can't think your way to confidence. You have to speak your way there.",
+      "word_target": 150,
+      "evidence_needed": "Motivational close"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Freeze when trying to speak Dutch",
+      "prop": "Practice in judgment-free environment builds confidence",
+      "proof": "Low-stakes practice transfers to high-stakes situations"
+    },
+    {
+      "pain": "No one to practice with patiently",
+      "prop": "Unlimited patient speaking practice available anytime",
+      "proof": "Practice as much as needed without scheduling or judgment"
+    },
+    {
+      "pain": "Fear of making mistakes",
+      "prop": "Making mistakes in practice makes real conversations easier",
+      "proof": "Mistakes in safe environments reduce stakes everywhere"
+    }
+  ],
+  "originality_nuggets": [
+    "Psychology research validation that this fear is normal for adult learners",
+    "Dutch-specific angle: English fluency makes practice harder",
+    "Confidence comes FROM speaking, not before — reframe the relationship"
+  ],
+  "seo": {
+    "title_tag": "Afraid to Speak Dutch? Why It Happens and How to Overcome It",
+    "meta_description": "Speaking anxiety is highest in languages learned as an adult. Here's why you freeze when speaking Dutch and practical strategies to build confidence.",
+    "url_slug": "afraid-to-speak-dutch"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Why am I afraid to speak Dutch?",
+    "definition_paragraph": "Fear of speaking Dutch is common because speaking anxiety is highest in languages learned as an adult. Psychology research shows that comprehension and production use different brain processes — understanding Dutch requires recognition, but speaking requires real-time retrieval under social pressure. In the Netherlands, this is made worse because Dutch people often switch to English, removing practice opportunities and making learners feel their Dutch isn't good enough. The solution is deliberate practice in low-stakes environments, focusing on completing sentences rather than perfecting them, and building volume of speaking before worrying about quality.",
+    "faq_questions": [
+      "Why am I afraid to speak Dutch?",
+      "How do I get over Dutch speaking anxiety?",
+      "Why do I freeze when speaking Dutch?",
+      "How do I build confidence speaking Dutch?",
+      "Why do Dutch people switch to English when I try to speak Dutch?"
+    ]
+  }
+}

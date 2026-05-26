@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "topic_id": "inburgering-deadline-extension-exemption",
+    "priority_score": 8.6,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "inburgering deadline extension",
+    "variants": [
+      "inburgering exemption",
+      "inburgering waiver",
+      "extend inburgering deadline",
+      "inburgering medical exemption",
+      "inburgering ontheffing",
+      "inburgering vrijstelling"
+    ],
+    "searcher_intent": "Understand how to get more time if struggling, what exemptions exist, and whether medical/personal circumstances qualify for waivers"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Running out of time or facing circumstances that make completing inburgering difficult. Need to know their options before deadline passes.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Comprehensive guide to all the ways you can get more time or reduce requirements. The difference between extensions, exemptions, and waivers — and how to apply for each.",
+  "thesis_sentence": "If you're struggling to meet your inburgering deadline, you have more options than you think — from automatic progress-based extensions to medical waivers, here's every path to more time or reduced requirements.",
+  "outline": [
+    {
+      "section": "Running Out of Time? You Have Options",
+      "notes": "Reassurance opening. Many people face circumstances that make the 3-year deadline difficult. The system has flexibility built in. Overview of extension, exemption, and waiver options.",
+      "word_target": 150,
+      "evidence_needed": "None — framing"
+    },
+    {
+      "section": "Understanding the Terms: Extension vs Exemption vs Waiver",
+      "notes": "Critical distinction. Verlenging (extension) = more time. Vrijstelling (exemption) = you already qualify via another route. Ontheffing (waiver) = you can't reasonably be expected to meet requirements. Different criteria, different outcomes.",
+      "word_target": 200,
+      "evidence_needed": "Government.nl definitions"
+    },
+    {
+      "section": "Automatic Extensions Based on Progress",
+      "notes": "Built-in safety net. 0 exams passed = 2 extra years. 1 exam = 1.5 years. 2 exams = 1 year. 3-4 exams = 6 months. These are automatic if you've been trying.",
+      "word_target": 200,
+      "evidence_needed": "DUO extension rules"
+    },
+    {
+      "section": "Circumstance-Based Extensions (Verlenging)",
+      "notes": "Beyond automatic extensions. If delay isn't your fault (medical, pregnancy, emergencies), you can apply for more time. Your gemeente decides. Apply BEFORE deadline passes.",
+      "word_target": 250,
+      "evidence_needed": "DUO/Government extension criteria"
+    },
+    {
+      "section": "Exemptions (Vrijstelling): When You Already Qualify",
+      "notes": "Complete exemption because you've already met the standard. Routes: NT2 staatsexamen passed, Dutch high school diploma, 8+ years Dutch education, certain university degrees. Different from waiver.",
+      "word_target": 200,
+      "evidence_needed": "DUO vrijstelling criteria"
+    },
+    {
+      "section": "Medical Waivers (Ontheffing): When You Can't Complete",
+      "notes": "For permanent/long-lasting conditions that prevent completion. Requires DUO-appointed physician assessment. Temporary illness gets extension, not waiver. The bar is high but it exists.",
+      "word_target": 250,
+      "evidence_needed": "DUO medical waiver process"
+    },
+    {
+      "section": "The Medical Assessment Process",
+      "notes": "How it works: apply through DUO, they schedule assessment with their physician, physician evaluates if condition permanently prevents completion. Medical form must be <6 months old.",
+      "word_target": 200,
+      "evidence_needed": "DUO medical assessment"
+    },
+    {
+      "section": "Partial Exemptions: Fewer Exams Instead of None",
+      "notes": "Some conditions may qualify for partial relief — exempt from speaking but not reading, for example. Depends on the specific limitation.",
+      "word_target": 150,
+      "evidence_needed": "DUO partial exemption info"
+    },
+    {
+      "section": "How to Apply: Step by Step",
+      "notes": "Practical application guidance. Where to apply (DUO/gemeente), what documentation needed, timeline expectations. Different processes for different types of relief.",
+      "word_target": 200,
+      "evidence_needed": "DUO application process"
+    },
+    {
+      "section": "What If Your Application Is Denied?",
+      "notes": "Options if rejected. Appeal process exists. Consider if a different type of relief applies. Don't give up after first rejection.",
+      "word_target": 150,
+      "evidence_needed": "Appeal guidance"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Struggling but not sure if situation qualifies for help",
+      "prop": "Understanding all options helps you find the right path",
+      "proof": "Clear explanation of each relief type and criteria"
+    },
+    {
+      "pain": "Worried about running out of time while preparing",
+      "prop": "Progress-based extensions reward effort",
+      "proof": "Even 1 passed exam gives 1.5 extra years"
+    }
+  ],
+  "originality_nuggets": [
+    "Clear distinction between verlenging, vrijstelling, and ontheffing (most content conflates these)",
+    "Specific automatic extension rules based on exam progress",
+    "Medical assessment process explained clearly"
+  ],
+  "seo": {
+    "title_tag": "Inburgering Deadline Extension & Exemptions: Complete Guide",
+    "meta_description": "Need more time for inburgering? Guide to deadline extensions, exemptions, and medical waivers. Plus: automatic extensions based on exam progress.",
+    "url_slug": "inburgering-deadline-extension-exemption"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How do I extend my inburgering deadline?",
+    "definition_paragraph": "You can extend your inburgering deadline in several ways. Automatic extensions apply based on progress: 0 exams passed = 2 extra years, 1 exam = 1.5 years, 2 exams = 1 year, 3-4 exams = 6 months. For circumstances beyond your control (medical issues, pregnancy, emergencies), apply to your gemeente for a verlenging before your deadline. Exemptions (vrijstelling) apply if you already qualify through NT2, Dutch education, or certain degrees. Medical waivers (ontheffing) require assessment by a DUO-appointed physician and apply to permanent conditions that prevent completion.",
+    "faq_questions": [
+      "How do I extend my inburgering deadline?",
+      "What is an inburgering exemption?",
+      "Can I get a medical waiver for inburgering?",
+      "What happens if I miss my inburgering deadline?",
+      "What's the difference between vrijstelling and ontheffing?"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "topic_id": "ona-exam-guide",
+    "priority_score": 8.5,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "4-5 hours"
+  },
+  "keyword": {
+    "primary": "ONA exam inburgering",
+    "variants": [
+      "ONA portfolio",
+      "orientation Dutch labour market exam",
+      "ONA inburgering what is it",
+      "how to pass ONA exam",
+      "ONA final interview",
+      "ONA exemption"
+    ],
+    "searcher_intent": "Understand what the ONA exam is, how it differs from other exams, what to include in portfolio, and how to prepare for the interview"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Confused about ONA because it's portfolio-based, not a test. Don't know what to include. Worried about the final interview.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "ONA is the most misunderstood part of inburgering because it's not an exam at all — it's a portfolio plus interview. This guide demystifies the entire process.",
+  "thesis_sentence": "The ONA (Orientation on the Dutch Labour Market) isn't a test you study for — it's a portfolio you build over time plus a 30-minute interview, and understanding this difference is key to not being caught off guard.",
+  "outline": [
+    {
+      "section": "ONA: The 'Exam' That Isn't an Exam",
+      "notes": "Hook with the key difference. ONA has no multiple choice, no timed writing, no recorded speaking. It's portfolio-based with a final interview. Most people don't realize this until too late.",
+      "word_target": 200,
+      "evidence_needed": "DUO ONA description"
+    },
+    {
+      "section": "What Does ONA Stand For?",
+      "notes": "ONA = Oriëntatie op de Nederlandse Arbeidsmarkt (Orientation on the Dutch Labour Market). The 6th component of inburgering. Required for people under the Wi 2013 legislation.",
+      "word_target": 150,
+      "evidence_needed": "DUO definition"
+    },
+    {
+      "section": "Who Needs to Do ONA?",
+      "notes": "Not everyone. Required if you started under Wi 2013 (before 2022). Check your DUO account or PIP to confirm. Wi 2021 participants have different requirements.",
+      "word_target": 150,
+      "evidence_needed": "DUO/Government guidance"
+    },
+    {
+      "section": "The Two Paths: 64-Hour Course or Portfolio + Interview",
+      "notes": "Option 1: Complete 64 hours of ONA course at approved provider. Option 2: Build portfolio and pass final interview. Most self-study people choose the interview path.",
+      "word_target": 200,
+      "evidence_needed": "DUO ONA options"
+    },
+    {
+      "section": "What Goes in Your ONA Portfolio",
+      "notes": "Required documents: Dutch-format CV, evidence of job search activities (applications, emails, screenshots), networking/event attendance proof, personal action plan, any other engagement evidence.",
+      "word_target": 300,
+      "evidence_needed": "Inburgering Coach portfolio guide"
+    },
+    {
+      "section": "The Final Interview: What to Expect",
+      "notes": "30-minute interview with 2 DUO representatives. They ask about your portfolio documents. 6-week waiting time after submitting. Conducted in Dutch at your level.",
+      "word_target": 250,
+      "evidence_needed": "DUO interview format"
+    },
+    {
+      "section": "Why You Can't Cram for ONA",
+      "notes": "Key insight: ONA requires activities spread over weeks/months. Job applications, networking events, CV development — these take time. Start early or you'll rush at the end.",
+      "word_target": 200,
+      "evidence_needed": "Practical timeline advice"
+    },
+    {
+      "section": "ONA Exemptions: If You Already Work",
+      "notes": "Good news: if you've worked 48+ hours/month for 6+ months in the past year as an employee in NL, you can apply for exemption. Freelancers/ZZP may not qualify.",
+      "word_target": 200,
+      "evidence_needed": "DUO exemption criteria"
+    },
+    {
+      "section": "The €50 Exam Fee",
+      "notes": "ONA costs €50 to take. Lower than language exams. If you fail the interview, you can retake.",
+      "word_target": 100,
+      "evidence_needed": "DUO fee structure"
+    },
+    {
+      "section": "Common ONA Mistakes to Avoid",
+      "notes": "Starting too late, weak portfolio documentation, not practicing interview questions in Dutch, forgetting networking evidence. Practical tips to avoid each.",
+      "word_target": 200,
+      "evidence_needed": "Common experience patterns"
+    },
+    {
+      "section": "ONA Timeline: When to Start",
+      "notes": "Recommended: start building portfolio 6 months before you want to complete ONA. Earlier is better. Activities need to feel organic, not rushed.",
+      "word_target": 150,
+      "evidence_needed": "Practical advice"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "ONA interview is conducted in Dutch and they're not confident",
+      "prop": "Speaking practice builds confidence for any Dutch conversation",
+      "proof": "Interview is conversational, not formal — similar to daily speaking practice"
+    },
+    {
+      "pain": "Overwhelmed by all the different inburgering components",
+      "prop": "Understanding each component clearly reduces anxiety",
+      "proof": "ONA is actually the most flexible component — no time pressure on the 'exam'"
+    }
+  ],
+  "originality_nuggets": [
+    "Most ONA content is buried in official documents. This is a clear walkthrough.",
+    "Specific portfolio contents and interview format details",
+    "Work exemption criteria clearly explained"
+  ],
+  "seo": {
+    "title_tag": "ONA Exam Guide: Portfolio, Interview & How to Pass (2026)",
+    "meta_description": "The ONA exam isn't a test — it's a portfolio plus interview. Complete guide to what goes in your portfolio, what to expect in the interview, and exemptions.",
+    "url_slug": "ona-exam-guide"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the ONA exam for inburgering?",
+    "definition_paragraph": "The ONA (Oriëntatie op de Nederlandse Arbeidsmarkt) is the sixth component of the Dutch inburgering exam, focusing on orientation to the Dutch labour market. Unlike the language and KNM exams, ONA is not a traditional test. Instead, you either complete 64 hours of approved ONA courses, or build a portfolio documenting your job market activities and pass a 30-minute final interview. The portfolio should include a Dutch-format CV, evidence of job search activities, networking attendance, and a personal action plan. If you've worked 48+ hours per month for 6+ months in the Netherlands, you may qualify for exemption.",
+    "faq_questions": [
+      "What is the ONA exam for inburgering?",
+      "What goes in an ONA portfolio?",
+      "How do I pass the ONA interview?",
+      "Can I get an ONA exemption if I work?",
+      "How long does ONA take to complete?"
+    ]
+  }
+}

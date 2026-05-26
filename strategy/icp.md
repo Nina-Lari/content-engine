@@ -14,10 +14,14 @@
 
 ### Visa Status
 
-| Visa Type | Requirement | Timeline Pressure |
-|-----------|-------------|-------------------|
-| **Partner visa** | Must complete inburgering within 3 years | High — legal deadline |
-| **Work visa** | Voluntary — seeking permanent residence | Medium — self-imposed for job security |
+Visa type is a modifier, not a segment. It adds specific pressures on top of core motivations.
+
+| Visa Type | What It Adds | Timeline |
+|-----------|--------------|----------|
+| **Partner visa** | +Legal deadline, +Family scrutiny, +Dutch partner support (with limits) | 3-year deadline |
+| **Work visa** | +Security anxiety (deportation if laid off), +Career ceiling, −Deadline (can procrastinate) | Voluntary |
+
+See `strategy/personas.md` for the full layered model (Core Motivations → Visa Modifier → Barrier Profile).
 
 ### Exam Requirement
 
@@ -58,11 +62,16 @@
 
 ## Dream Customer Profile
 
-Partner visa holder with a Dutch partner. Non-EU nationality. Arrived within the last year. Family gatherings happen in Dutch — cannot interact with in-laws, nieces, nephews. Has strong social motivation beyond just passing the exam: wants to actually participate in family life and feel at home.
+Someone with strong **belonging** and **family** motivations — wants to participate in Dutch life, not just pass an exam. May have a Dutch partner or family connection that creates social pressure beyond the legal requirement. The visa type matters less than the motivation profile: someone with a work visa can have the same belonging/family motivations as a partner visa holder.
 
-Has tried or researched other options and is frustrated. Duolingo didn't prepare them for anything useful. Classroom courses are too expensive or don't fit their schedule. Self-paced online courses all seem to rely on memorization.
+Has tried or researched other options and is frustrated (prior course skepticism barrier). Duolingo didn't prepare them for anything useful. Classroom courses are too expensive or don't fit their schedule. Self-paced online courses all seem to rely on memorization.
 
 They're self-motivated, prefer learning at home on their own schedule, and want something that actually makes them able to speak. Passing the exam should happen naturally because they can use the language, not because they memorized the right answers.
+
+**In terms of the layered model:**
+- **Core motivations**: Belonging + Family (primary), Integration (secondary)
+- **Visa modifier**: Either (both types can be dream customers)
+- **Barrier profile**: Prior course skepticism, Production gap, possibly Shame cycle
 
 ---
 
@@ -82,21 +91,23 @@ They're self-motivated, prefer learning at home on their own schedule, and want 
 
 ### Strong Signals (Actively Looking)
 
-1. Recently received inburgering letter from DUO
+1. Recently received inburgering letter from DUO (partner visa deadline trigger)
 2. Searching for "inburgering exam speaking practice" or similar
-3. Complaining about existing courses in expat forums or Facebook groups
-4. Partner visa holder with Dutch partner and Dutch family
+3. Complaining about existing courses in expat forums (prior course skepticism)
+4. Frustrated after a family gathering where they understood nothing (belonging/family motivation)
+5. Expressing shame or frustration about not speaking Dutch after years in NL (shame cycle barrier)
 
 ### Moderate Signals (Problem Aware)
 
 1. In first year of living in Netherlands
-2. Work visa holder mentioning job security concerns
-3. Posting about feeling isolated in expat bubble
+2. Work visa holder mentioning job security concerns (security motivation)
+3. Posting about feeling isolated in expat bubble (belonging motivation)
 4. Asking for course recommendations in expat communities
+5. Approaching 5-year permanent residence milestone (work visa trigger)
 
 ### Timing
 
-Most start searching in their first year of arrival. Partner visa holders feel the 3-year deadline early. Work visa holders may delay until job security anxiety kicks in.
+Most start searching in their first year of arrival. Partner visa holders feel the 3-year deadline early. Work visa holders may delay until job security anxiety kicks in or they approach the 5-year permanent residence milestone.
 
 ---
 

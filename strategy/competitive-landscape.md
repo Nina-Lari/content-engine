@@ -30,7 +30,7 @@ The gap: a self-paced course where completion requires active production, not pa
 
 ### Emotional Reality (From Customer Intelligence)
 
-Understanding the deeper context helps position against alternatives:
+These insights inform the barrier profiles and motivation layers in `strategy/personas.md`. Understanding the deeper context helps position against alternatives:
 
 **Visa anxiety shapes everything:**
 - "You continuously have to prove your existence... your actions now will determine whether your visa will be renewed."

@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "topic_id": "what-is-production-based-language-learning",
+    "priority_score": 85,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 1600,
+    "estimated_effort": "2-4 hours"
+  },
+  "keyword": {
+    "primary": "production-based language learning",
+    "variants": [
+      "production-based learning",
+      "active production language learning",
+      "output-based language learning",
+      "production vs comprehension language learning",
+      "learning by speaking"
+    ],
+    "searcher_intent": "The searcher is interested in language learning methodology. They may be researching learning science, comparing approaches, or trying to understand why their current method isn't working."
+  },
+  "audience": {
+    "persona": "Partner Visa Holder / Work Visa Holder / Language Learning Enthusiast",
+    "industry_focus": null,
+    "pain_summary": "They've tried various learning methods and sense something is missing. They may have passed tests but can't speak, or they're researching before starting a course.",
+    "awareness_level": "unaware to problem-aware"
+  },
+  "angle": "Own the term 'production-based language learning' with an authoritative explainer that connects learning science research to practical application for Dutch learners.",
+  "thesis_sentence": "Production-based language learning is an approach where you're not done learning until you can actively produce the language — and research shows it leads to better retention and real speaking ability than recognition-based methods.",
+  "outline": [
+    {
+      "section": "What is production-based language learning?",
+      "notes": "Define the term clearly for AEO. Production-based learning = measuring success by what you can produce (speak, write) rather than what you can recognize (read, listen, answer multiple choice). The learner isn't 'done' when they complete exercises — they're done when they can generate language themselves.",
+      "word_target": 250,
+      "evidence_needed": "Cambridge research: 'Production-based training benefits the comprehension and production of grammatical gender in L2 German.' PubMed study: 'producing a language during learning can improve subsequent comprehension'."
+    },
+    {
+      "section": "Production vs. comprehension: the key distinction",
+      "notes": "Explain the two skill categories. Comprehension skills (reading, listening) = pattern matching, passive recognition. Production skills (speaking, writing) = generating language from scratch, active recall. Most courses train comprehension because it's easier to assess and feels like progress.",
+      "word_target": 300,
+      "evidence_needed": "Clozemaster: 'Many learners struggle because they can recognize Dutch vocabulary but cannot use it.' Taalhammer: 'You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation.'"
+    },
+    {
+      "section": "Why production leads to better retention",
+      "notes": "Explain the cognitive science. Active recall (production) creates stronger memory traces than passive recognition. When you generate language, your brain works harder — and that effort is what makes learning stick. This is why flashcard apps use spaced repetition with recall, not just review.",
+      "word_target": 300,
+      "evidence_needed": "ResearchGate study: 'Production Practice During Language Learning Improves Comprehension.' Note: production practice improves comprehension too, but not vice versa."
+    },
+    {
+      "section": "What production-based courses look like",
+      "notes": "Describe the structural difference. Traditional course: watch → read → exercise → complete. Production-based course: practice → attempt production → get feedback → produce successfully → complete. The completion criterion is active use, not passive consumption.",
+      "word_target": 250,
+      "evidence_needed": "Position as methodology. Mention specific completion criteria like 'using vocabulary in conversation' as an example of production-based design."
+    },
+    {
+      "section": "How to apply production-based learning to Dutch",
+      "notes": "Practical application for Dutch learners. (1) Add production to your current routine: speak sentences aloud, don't just read. (2) Look for courses where completion requires speaking, not just clicking. (3) Measure your progress by what you can say, not what you can understand.",
+      "word_target": 300,
+      "evidence_needed": "Practical advice. Reference Dutch-online.com: 'Most learners don't fail because they don't know Dutch — they underestimate speaking and writing.' Frame production skills as what the exam actually tests."
+    },
+    {
+      "section": "Why this matters for the inburgering exam",
+      "notes": "Connect to the specific context. The speaking and writing portions of inburgering require production — you can't multiple-choice your way through them. DutchReview calls the speaking exam 'one of the hardest' because there's no chance to edit. Production-based prep trains the actual skill being tested.",
+      "word_target": 200,
+      "evidence_needed": "DutchReview: 'The spreken examen is often named as one of the hardest exams for internationals because, unlike with reading, listening, or writing, there's almost no chance to edit your work.'"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Passed tests but can't speak",
+      "prop": "Production-based completion: not done until you've produced the language",
+      "proof": "Completion requires 90% vocabulary usage in conversation, not exercise completion"
+    },
+    {
+      "pain": "Vocabulary doesn't stick",
+      "prop": "Active production creates stronger memory traces",
+      "proof": "Research shows production practice improves both production AND comprehension"
+    },
+    {
+      "pain": "Don't know what learning method works",
+      "prop": "Clear methodology with completion criteria",
+      "proof": "You know you've learned when you can use the vocabulary, not when you've clicked through screens"
+    }
+  ],
+  "originality_nuggets": [
+    "Market insight: 'People don't even expect that at A2 you can have a conversation' — the expectation of post-exam inability is baked into the market",
+    "Customer intelligence: 'It's basically cards to memorize... It's a cheat sheet to the exam' — recognition-based courses optimize for passing, not speaking",
+    "The production paradox: production practice improves comprehension, but comprehension practice doesn't improve production"
+  ],
+  "seo": {
+    "title_tag": "What Is Production-Based Language Learning? A Complete Guide",
+    "meta_description": "Production-based learning measures success by speaking ability, not test scores. Learn how it works and why it leads to better language retention.",
+    "url_slug": "what-is-production-based-language-learning"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is production-based language learning?",
+    "definition_paragraph": "Production-based language learning is an approach where success is measured by what you can actively produce (speak, write) rather than what you can passively recognize (read, listen, answer multiple choice). In a production-based course, you're not 'done' when you complete exercises — you're done when you can generate the language yourself. Research shows this approach leads to better long-term retention and real speaking ability because active production creates stronger memory traces than passive recognition.",
+    "faq_questions": [
+      "What is production-based language learning?",
+      "What is the difference between production and comprehension in language learning?",
+      "Why is speaking practice important for language learning?",
+      "Does practicing speaking help with listening and reading?",
+      "How do I know if a language course uses production-based methods?"
+    ]
+  }
+}

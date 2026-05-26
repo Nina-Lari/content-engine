@@ -1,16 +1,122 @@
 {
   "generated_date": "2026-05-24",
-  "updated_date": "2026-05-24",
+  "updated_date": "2026-05-25",
   "intelligence_sources": [
     "strategy/icp.md",
     "strategy/personas.md",
     "strategy/competitive-landscape.md",
-    "customer-intelligence/web-research-jtbd.md"
+    "customer-intelligence/web-research-jtbd.md",
+    "firecrawl SERP research (May 2026)"
   ],
-  "methodology": "Big 5 Topics (They Ask, You Answer) + Pain-Point SEO + JTBD Web Research",
-  "filter_applied": "BOFU/MOFU priority",
-  "notes": "Updated with May 2026 web research from Reddit, Trustpilot, YouTube, and competitor sites. New topics added based on verbatim customer language.",
+  "methodology": "Big 5 Topics (They Ask, You Answer) + Pain-Point SEO + JTBD Web Research + Product Methodology Content",
+  "filter_applied": "BOFU/MOFU priority + Product explainer content",
+  "notes": "Added 5 product-focused briefs explaining Dutchwithjoost methodology: production-based learning, interleaved practice, AI tutoring comparison, and pain-point articles that explain the product through problem-solving. SERP analysis shows low competition for methodology terms.",
   "topics": [
+    {
+      "topic_id": "why-cant-speak-dutch-after-studying",
+      "title": "Why You Can't Speak Dutch After Studying (And How to Fix It)",
+      "category": "jtbd",
+      "primary_keyword": "why can't I speak Dutch after studying",
+      "secondary_keywords": ["I understand Dutch but can't speak", "passed inburgering but can't speak Dutch", "recognition vs production Dutch"],
+      "persona": "Both",
+      "pain_cluster": "Recognition vs. Production Gap",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 10,
+        "serp_weakness": 9,
+        "business_priority": 10,
+        "mini_volume": 7,
+        "authority_fit": 10,
+        "weighted_total": 9.2
+      },
+      "brief_status": "generated",
+      "research_evidence": "SERP analysis: mostly Reddit/Quora/Facebook community posts, no authoritative explainer content. High search intent, directly positions production-based methodology."
+    },
+    {
+      "topic_id": "how-to-practice-dutch-speaking-alone",
+      "title": "How to Practice Dutch Speaking Alone: 5 Methods That Work",
+      "category": "jtbd",
+      "primary_keyword": "how to practice Dutch speaking alone",
+      "secondary_keywords": ["practice Dutch speaking without partner", "Dutch speaking practice at home", "solo Dutch speaking practice"],
+      "persona": "Both",
+      "pain_cluster": "Finding Speaking Partners",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 10,
+        "serp_weakness": 8,
+        "business_priority": 9,
+        "mini_volume": 7,
+        "authority_fit": 9,
+        "weighted_total": 8.8
+      },
+      "brief_status": "generated",
+      "research_evidence": "SERP analysis: Kaiwa blog ranks with methods article, limited Dutch-specific content. Directly showcases unlimited AI practice feature."
+    },
+    {
+      "topic_id": "what-is-production-based-language-learning",
+      "title": "What Is Production-Based Language Learning? A Complete Guide",
+      "category": "deviant",
+      "primary_keyword": "production-based language learning",
+      "secondary_keywords": ["production-based learning", "active production language learning", "output-based language learning"],
+      "persona": "Both",
+      "pain_cluster": "Method Uncertainty",
+      "funnel_stage": "TOFU",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 10,
+        "serp_weakness": 10,
+        "business_priority": 10,
+        "mini_volume": 5,
+        "authority_fit": 10,
+        "weighted_total": 8.5
+      },
+      "brief_status": "generated",
+      "research_evidence": "SERP analysis: only academic papers and project-based learning (different concept). Can own this term with accessible explainer. Defines core methodology."
+    },
+    {
+      "topic_id": "interleaved-practice-dutch-learning",
+      "title": "Interleaved Practice for Dutch Learning: The Science-Backed Method",
+      "category": "deviant",
+      "primary_keyword": "interleaved practice language learning",
+      "secondary_keywords": ["interleaved practice Dutch", "interleaving language learning", "mixed practice language learning"],
+      "persona": "Both",
+      "pain_cluster": "Retention Problem",
+      "funnel_stage": "TOFU",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 9,
+        "serp_weakness": 9,
+        "business_priority": 7,
+        "mini_volume": 5,
+        "authority_fit": 9,
+        "weighted_total": 7.8
+      },
+      "brief_status": "generated",
+      "research_evidence": "SERP analysis: academic content and general learning blogs. No Dutch-specific application content. Explains lesson design methodology."
+    },
+    {
+      "topic_id": "ai-dutch-tutor-vs-human-tutor",
+      "title": "AI Dutch Tutor vs Human Tutor: Which Is Better for You?",
+      "category": "comparison",
+      "primary_keyword": "AI Dutch tutor vs human tutor",
+      "secondary_keywords": ["AI language tutor vs human", "AI Dutch teacher", "learn Dutch with AI", "ChatGPT Dutch tutor"],
+      "persona": "Both",
+      "pain_cluster": "Course Selection",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.5
+      },
+      "brief_status": "generated",
+      "research_evidence": "SERP analysis: growing category with mydutchai.com, SpeakPal, Talkio AI. Reddit success story validates AI approach. Comparison positions against both alternatives."
+    },
     {
       "topic_id": "dutchwithjoost-vs-inburgeringonline",
       "title": "Dutchwithjoost vs InburgeringOnline: Which Course Is Right for You?",

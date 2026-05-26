@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "topic_id": "duo-inburgering-loan-guide",
+    "priority_score": 7.8,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1600,
+    "estimated_effort": "3 hours"
+  },
+  "keyword": {
+    "primary": "DUO inburgering loan",
+    "variants": [
+      "inburgering loan how much",
+      "borrow money for inburgering",
+      "DUO lening inburgering",
+      "inburgering loan repayment",
+      "inburgering loan forgiveness",
+      "can I borrow for Dutch course"
+    ],
+    "searcher_intent": "Understand how the DUO loan works, how much they can borrow, repayment terms, and whether loans are forgiven"
+  },
+  "audience": {
+    "persona": "Both (Partner Visa and Work Visa)",
+    "industry_focus": null,
+    "pain_summary": "Course costs are significant. Want to know if financial help is available and what the obligations are.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Clear guide to DUO inburgering loans: who qualifies, how much, repayment terms, and the critical difference between asylum holder forgiveness and other routes.",
+  "thesis_sentence": "DUO offers loans to help pay for inburgering courses and exams — but the terms differ dramatically between asylum holders (potential forgiveness) and family migrants (must repay), so understanding your category is essential.",
+  "outline": [
+    {
+      "section": "Can You Borrow Money for Inburgering?",
+      "notes": "Yes, DUO offers loans. But terms vary by your immigration status. This matters a lot for your financial planning.",
+      "word_target": 150,
+      "evidence_needed": "DUO loan overview"
+    },
+    {
+      "section": "Who Can Borrow (And Who Can't)",
+      "notes": "Wi 2013 legislation: asylum holders and gezinsmigranten can borrow. Wi 2021: asylum holders can't borrow (municipality pays). Non-asylum 2021: can borrow. Check which law applies to you.",
+      "word_target": 200,
+      "evidence_needed": "DUO eligibility rules"
+    },
+    {
+      "section": "How Much Can You Borrow?",
+      "notes": "Asylum holders (Wi 2013): up to €10,000. Non-asylum: based on household income, general max €1,250 per quarter. DUO decides exact amount after application.",
+      "word_target": 200,
+      "evidence_needed": "DUO loan amounts"
+    },
+    {
+      "section": "What Can the Loan Cover?",
+      "notes": "Course fees, exam fees, books and materials. Must be used for inburgering-related expenses. Not for living costs.",
+      "word_target": 150,
+      "evidence_needed": "DUO covered expenses"
+    },
+    {
+      "section": "The Big Question: Loan Forgiveness",
+      "notes": "Critical difference. Asylum holders (Wi 2013) who pass on time: loan forgiven completely. Gezinsmigranten and others: NO forgiveness, must repay with interest. This is not well understood.",
+      "word_target": 250,
+      "evidence_needed": "DUO forgiveness rules"
+    },
+    {
+      "section": "Repayment Terms If You Must Repay",
+      "notes": "Repayment starts 6 months after completing inburgering. 10 years to repay. Fixed monthly amount via automatic withdrawal. Interest accrues from moment you borrow.",
+      "word_target": 200,
+      "evidence_needed": "DUO repayment structure"
+    },
+    {
+      "section": "Interest Rates",
+      "notes": "Rate set annually by DUO. Fixed for 5-year periods. Not high but does add up over 10 years. Factor this into your decision.",
+      "word_target": 150,
+      "evidence_needed": "DUO interest policy"
+    },
+    {
+      "section": "How to Apply",
+      "notes": "Apply through DUO website. Need DigiD. Processing takes several weeks. Apply early so funds are available when you need them.",
+      "word_target": 150,
+      "evidence_needed": "DUO application process"
+    },
+    {
+      "section": "Using the Loan Calculator",
+      "notes": "DUO has online calculator (inburgeren.nl/en/rekenhulp.jsp). Estimate your amount before applying. Based on household income.",
+      "word_target": 100,
+      "evidence_needed": "DUO calculator"
+    },
+    {
+      "section": "Should You Borrow? Factors to Consider",
+      "notes": "If loan is forgiven (asylum, pass on time): borrow the maximum. If repayment required: compare loan cost vs cheaper course options. €2000 loan with interest vs €399 course — math matters.",
+      "word_target": 200,
+      "evidence_needed": "Decision framework"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Course costs are a barrier",
+      "prop": "Affordable course options reduce need to borrow",
+      "proof": "€399 course vs borrowing €2000+ for classroom"
+    },
+    {
+      "pain": "Worried about taking on debt for inburgering",
+      "prop": "Understanding full cost helps make informed decision",
+      "proof": "Total loan cost with interest vs upfront course cost comparison"
+    }
+  ],
+  "originality_nuggets": [
+    "Clear explanation of forgiveness rules (most content buries this)",
+    "Asylum vs non-asylum loan differences explicitly stated",
+    "Decision framework for whether borrowing makes sense"
+  ],
+  "seo": {
+    "title_tag": "DUO Inburgering Loan: How Much, Repayment & Forgiveness",
+    "meta_description": "Can you borrow money for inburgering? Yes. DUO loans cover course and exam costs. Complete guide to amounts, repayment, and when loans are forgiven.",
+    "url_slug": "duo-inburgering-loan-guide"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How does the DUO inburgering loan work?",
+    "definition_paragraph": "DUO offers loans to help pay for inburgering courses and exam fees. Asylum holders under the Wi 2013 act can borrow up to €10,000, and the loan is forgiven if they pass on time. Non-asylum migrants (gezinsmigranten, partners) can borrow up to €1,250 per quarter based on household income, but must repay the full amount with interest. Repayment begins 6 months after completing inburgering, with 10 years to pay back via automatic monthly withdrawals. Asylum holders under Wi 2021 cannot borrow because municipalities cover their costs directly.",
+    "faq_questions": [
+      "How much can I borrow for inburgering?",
+      "Do I have to repay the DUO inburgering loan?",
+      "Is the inburgering loan forgiven?",
+      "How do I apply for an inburgering loan?",
+      "What does the inburgering loan cover?"
+    ]
+  }
+}
