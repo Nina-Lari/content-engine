@@ -1,6 +1,6 @@
 {
   "generated_date": "2026-05-24",
-  "updated_date": "2026-05-25",
+  "updated_date": "2026-05-26",
   "intelligence_sources": [
     "strategy/icp.md",
     "strategy/personas.md",
@@ -10,8 +10,50 @@
   ],
   "methodology": "Big 5 Topics (They Ask, You Answer) + Pain-Point SEO + JTBD Web Research + Product Methodology Content",
   "filter_applied": "BOFU/MOFU priority + Product explainer content",
-  "notes": "Added 5 product-focused briefs explaining Dutchwithjoost methodology: production-based learning, interleaved practice, AI tutoring comparison, and pain-point articles that explain the product through problem-solving. SERP analysis shows low competition for methodology terms.",
+  "notes": "Added 5 product-focused briefs explaining Dutchwithjoost methodology: production-based learning, interleaved practice, AI tutoring comparison, and pain-point articles that explain the product through problem-solving. SERP analysis shows low competition for methodology terms. May 26: Added comprehensive exam logistics guide and honest 'who is NOT for' BOFU content.",
   "topics": [
+    {
+      "topic_id": "inburgering-exam-complete-guide",
+      "title": "Inburgering Exam Complete Guide: Booking, Timing, Results, and Citizenship Coordination",
+      "category": "jtbd",
+      "primary_keyword": "inburgering exam guide",
+      "secondary_keywords": ["inburgering exam schedule", "inburgering exam booking", "DUO inburgering exam", "inburgering certification timeline"],
+      "persona": "Both",
+      "pain_cluster": "Exam logistics confusion",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 7,
+        "serp_weakness": 9,
+        "business_priority": 9,
+        "mini_volume": 8,
+        "authority_fit": 8,
+        "weighted_total": 8.2
+      },
+      "brief_status": "generated",
+      "research_evidence": "Massive content gap. Existing content covers preparation, nobody owns the logistics bible. High AEO potential — AI assistants will cite definitive procedural guides. Critical for citizenship timing coordination."
+    },
+    {
+      "topic_id": "who-is-dutchwithjoost-not-for",
+      "title": "Who Is Dutchwithjoost NOT For? Honest Guide Before You Buy",
+      "category": "bofu",
+      "primary_keyword": "is dutchwithjoost right for me",
+      "secondary_keywords": ["dutchwithjoost review", "dutchwithjoost worth it", "should I buy dutchwithjoost"],
+      "persona": "Both",
+      "pain_cluster": "Decision paralysis",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 9,
+        "serp_weakness": 10,
+        "business_priority": 9,
+        "mini_volume": 5,
+        "authority_fit": 10,
+        "weighted_total": 9.1
+      },
+      "brief_status": "generated",
+      "research_evidence": "Counter-intuitive trust-builder. Clear disqualifiers (B1, municipality-assigned, zero budget, classroom preference, pass-fast-only). Reduces refund friction, builds credibility with ideal customers."
+    },
     {
       "topic_id": "why-cant-speak-dutch-after-studying",
       "title": "Why You Can't Speak Dutch After Studying (And How to Fix It)",

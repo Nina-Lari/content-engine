@@ -1,207 +1,211 @@
 # Outline: Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)
 
-**Brief:** passed-inburgering-cant-speak-dutch_brief.json
-**Stage:** MOFU Thought Leadership
-**Target word count:** 1800
-**Primary keyword:** passed inburgering but can't speak Dutch
+## Article Metadata
+
+- **Primary keyword**: passed inburgering but can't speak Dutch
+- **Target word count**: 1800
+- **Stage**: MOFU (problem-aware)
+- **Thesis**: Most Dutch courses train you to recognize correct answers, not produce them. This is why you can pass the exam but still freeze when someone asks "Hoe gaat het?"
 
 ---
 
-## Opening (150 words)
+## Opening Section
 
-**AEO directive:** Open with a definition paragraph (40-60 words) that directly answers the featured snippet target: "Why can't I speak Dutch after passing the inburgering exam?"
+**H1**: Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)
 
-**Atomic answer (target featured snippet):**
-Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). Passing the exam proves you can recognize Dutch patterns, not that you can produce them in conversation. This is why expats preparing for the A2 inburgering exam pass the test but freeze when someone asks "Hoe gaat het?"
+**Word target**: 100
 
-**Then:** Establish this is common, documented, and not a personal failure. Use the Facebook group pattern quote (anonymized) and the Taalhammer quote.
+**AEO directive**: Open with 40-60 word atomic answer targeting "Why can't I speak Dutch after passing the inburgering exam?" Mirror the heading language immediately.
 
----
+**Key argument**: Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). The exam tests whether you can recognize Dutch patterns, not whether you can produce them in conversation.
 
-## H2: Why You Can Understand Dutch But Can't Speak It (350 words)
-
-**Key argument:** The gap between understanding and speaking is the difference between recognition and production. Recognition is easier, develops faster. Your passive vocabulary is larger than your active vocabulary. This is documented cognitive science, not opinion.
-
-**AEO directive:** Open with 40-60 word atomic answer defining the recognition vs. production gap. Structure as explanation with clear causal chain.
-
-**Evidence to use:**
-- Seidlitz Education quote: "Comprehension is not enough... Words need to travel from the passive lexicon into the active lexicon"
-- Swain's Output Hypothesis (1985): Production forces syntactic processing that input alone doesn't trigger
-- Hopman & MacDonald (2018): Production learners outperform comprehension learners on BOTH vocabulary AND grammar tests
-- Karpicke & Roediger (2008): "Repeated studying had no effect on delayed recall. Repeated testing produced a large positive effect."
-
-**Key insight to emphasize:** Production practice builds recognition, but recognition practice does NOT build production. This is the one-way street that explains everything.
-
-**Value prop thread:** Most courses measure completion by exercises finished. Exercises train recognition. The gap is structural, not incidental.
+**Proof points**:
+- Taalhammer (citable): "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away. You can memorize fiets, huis, and eten all week, and still stumble when trying to use them in conversation."
+- Community pattern (anonymize): Common complaint that even after passing, people cannot have a conversation. Normalized expectation that A2 does not mean conversational ability.
 
 ---
 
-## H2: Why Most Inburgering Courses Work This Way (300 words)
+## H2: Why You Can Understand Dutch But Can't Speak It
 
-**Key argument:** Recognition-based courses aren't malicious. They're optimized for the wrong outcome. Faster to build, easier to measure, learners feel progress.
+**Word target**: 350
 
-**AEO directive:** Open with 40-60 word atomic answer. State the structural reason, not a judgment.
+**AEO directive**: Open with 40-60 word atomic answer. Include standalone definition paragraph: "Recognition is understanding language when you see or hear it. Production is creating language yourself in speech or writing."
 
-**Evidence to use:**
-- Nina interview on Taalthuis: "Very boring grammar rules... no speaking at all... I didn't feel like I retained anything. I just was happy to finish it."
-- Nina interview on InburgeringOnline: "It's basically cards to memorize. It's a cheat sheet to the exam."
-- Success metric in reviews: "Within 45 days I passed all exams" — speed, not retention
+**Key argument**: The gap between understanding and speaking exists because recognition and production use different cognitive processes. Production practice builds recognition, but recognition practice does not build production. This one-way street explains why courses focused on exercises leave you unable to speak.
 
-**Structural explanation:**
-- Building exercise-based courses is cheaper
-- "80% of exercises completed" is easy to track
-- "Can form sentences using the vocabulary" requires testing actual production
-- Learners feel progress clicking through screens (even if it doesn't stick)
+**Proof points**:
+1. Seidlitz Education (education publisher): "Comprehension is not enough if the students are to demonstrate their knowledge through speaking or writing. Words need to travel from the passive lexicon into the active lexicon so we can retrieve them on-demand. This transfer does not happen on its own."
 
-**Tone:** Factual, not dismissive. These courses do help people pass. The problem is what happens after.
+2. Swain's Output Hypothesis (1985): Comprehensible input alone is insufficient for full language development. Production forces learners from semantic processing (understanding meaning) to syntactic processing (producing correct grammar). Based on Canadian French immersion programs where students with years of input exposure still lacked grammatical competence when speaking.
 
----
+3. Hopman & MacDonald (2018): Production-learning participants outperformed comprehension-learning participants on both vocabulary comprehension AND grammatical comprehension tests. Production practice builds recognition, but recognition practice does not build production.
 
-## H2: Why the Speaking Exam Preparation Isn't Enough (250 words)
+4. Karpicke & Roediger (2008): "Repeated studying after learning had no effect on delayed recall. Repeated testing produced a large positive effect on retention."
 
-**Key argument:** Even courses with speaking components treat it as one more thing to cram for at the end, not as proof throughout.
-
-**AEO directive:** Open with 40-60 word atomic answer. Why is the speaking exam hard? Because it requires production under pressure with no chance to edit.
-
-**Evidence to use:**
-- DutchReview quote: "The spreken examen is often named as one of the hardest exams for internationals because, unlike with reading, listening, or writing, there's almost no chance to edit your work."
-- Dutch-online.com: "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing."
-- Nina interview: "A lot of people struggle with that one. That's one of the most painful exams, is the speaking."
-
-**Structural problem:**
-- Reading module → Listening module → Writing module → Speaking module
-- Speaking comes last, after months of recognition training
-- By then: strong recognition skills, weak production skills
-- Learners memorize phrases for the speaking exam like they memorized vocabulary
-
-**Contrast:** What if speaking practice were woven throughout, not bolted on at the end?
+**Structure**:
+- Passive vs. active vocabulary explanation (under 100 words)
+- Why the gap exists: different cognitive processes (under 100 words)
+- The key insight: production builds recognition, not vice versa (under 100 words)
+- How most courses reinforce the wrong skill (under 100 words)
 
 ---
 
-## H2: How to Actually Learn to Speak Dutch, Not Just Pass the Test (350 words)
+## H2: Why Most Inburgering Courses Work This Way
 
-**Key argument:** The difference is what counts as "done." Choose a course where lessons complete when you can use the vocabulary, not when you finish exercises. Practice producing language daily, not just before the exam.
+**Word target**: 300
 
-**AEO directive:** Open with bolded TL;DR sentence. Structure as explanation of what production-based learning looks like in practice.
+**AEO directive**: State structural limitations factually without sounding dismissive. Frame as optimization choices, not laziness.
 
-**Evidence to use:**
-- Bjork & Bjork (2011): "Desirable difficulties" — harder practice produces better long-term outcomes
-- Nakata (2017): 5+ retrievals needed for durable learning
-- Nina interview: "The words that you learn you use... If I'm learning new words and I'm using them in a sentence, it helps me communicate"
-- Nina interview contrast: "In my past courses, I would just learn words here and there... I keep memorizing shit that doesn't stick"
+**Key argument**: Most inburgering courses focus on recognition exercises because they are easier to build, cheaper to scale, and simpler to measure. Learners feel progress even when learning does not stick. The courses do help people pass. The problem is what happens after.
 
-**Value prop threading (natural, not sales-y):**
-- Finding speaking practice is hard. Community pattern: "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected."
-- Native speakers can't help: Level mismatch, can't explain grammar, switch to English
-- Language cafes: "Everyone comes with different levels. They're not teachers. You're just mumbling together."
-- Structured practice at your level fills the gap
+**Proof points**:
+1. Structural insight: Exercises with clear right answers can be auto-graded. Progress bars fill up as you complete modules. "80% of exercises completed" is easy to track. "Can form sentences using the vocabulary" requires testing actual production.
 
-**Dutchwithjoost mention (brief, woven in):**
-- Describe the approach without heavy selling
-- Lessons complete when vocabulary is used in conversation
-- Speaking practice available whenever you want to practice
-- Covers all exam components in one place
+2. Customer experience (anonymize): Many expats preparing for inburgering describe spending hours on memorization courses, finishing them, but not retaining anything. Success stories mention passing quickly. The gap shows when they try to use Dutch afterward.
+
+**Structure**:
+- Why recognition exercises are the default (under 100 words)
+- Progress measurement favors exercise completion (under 100 words)
+- Courses do help pass the exam; the problem is retention (under 100 words)
+
+**Voice reminder**: Do NOT use dismissive language. State structural limitations factually. "Progress is measured by exercises completed" not "they just track clicks."
 
 ---
 
-## H2: How to Evaluate Any Dutch Course (300 words)
+## H2: Why the Speaking Exam Preparation Isn't Enough
 
-**Key argument:** Practical checklist that applies to any course, including competitors. Build trust through objectivity.
+**Word target**: 250
 
-**AEO directive:** Structure as numbered checklist. Each question should be self-contained for potential FAQ schema extraction.
+**AEO directive**: Explain why the speaking exam reveals the problem rather than solving it.
 
-**Five questions:**
+**Key argument**: The speaking exam is the hardest component because it requires production under pressure. If courses trained production throughout, the speaking exam would feel natural. Instead, speaking is treated as one more section to cram for at the end.
 
-### 1. When is a lesson considered complete?
-- Exercise completion vs. production demonstration
-- "What do I need to do to complete a lesson?" tells you what the course values
+**Proof points**:
+1. DutchReview (citable): "The spreken examen is often named as one of the hardest exams for internationals because, unlike with reading, listening, or writing, there's almost no chance to edit your work."
 
-### 2. How much speaking practice is included?
-- No speaking? Limited sessions? Unlimited?
-- More speaking practice = more speaking ability
+2. Dutch-online.com (citable): "Most learners don't fail because they don't know Dutch. They underestimate speaking and writing."
 
-### 3. When does speaking practice start?
-- Added at the end = treat it as one more thing to cram
-- Integrated throughout = production skills from day one
+3. Course structure pattern: Reading module, listening module, writing module, speaking module. Speaking comes last. By then, learners have built strong recognition skills and weak production skills.
 
-### 4. Does the practice match your level?
-- Speaking with native speakers can be intimidating for beginners
-- Speaking with other beginners means no corrections
-- Level-matched practice is ideal
-
-### 5. Can you practice on your own schedule?
-- Scheduled sessions require coordination
-- Anytime practice fits around work and family
-
-**Closing paragraph:**
-- Different goals need different tools
-- Classroom courses: peer pressure to stay committed
-- Private tutors: personal relationship with teacher
-- Memorization courses: fastest for passing if retention isn't priority
-- Production-based courses: for self-motivated learners who want to pass AND use Dutch afterward
+**Structure**:
+- Why the speaking exam is hardest (under 100 words)
+- This reveals the structural problem (under 100 words)
+- Memorized phrases do not transfer to real conversation (under 100 words)
 
 ---
 
-## SEO Assets (for YAML file)
+## H2: How to Actually Learn to Speak Dutch, Not Just Pass the Test
 
-**title:** Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)
-**description:** Passed your inburgering exam but still can't speak Dutch? Most courses train recognition, not production. Here's why, and how to evaluate any Dutch course.
-**excerpt:** You passed the exam. You studied for months. But when your Dutch neighbor asks "Hoe gaat het?", you freeze. Here's the cognitive science behind the gap, and what actually works.
-**slug:** passed-inburgering-cant-speak-dutch
-**category:** inburgering
-**tags:** inburgering, speaking practice, dutch learning, A2 exam
+**Word target**: 350
 
-**FAQs:**
-1. Why can't I speak Dutch after passing the inburgering exam?
-   - Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). Passing the exam proves you can recognize Dutch patterns, not that you can produce them in conversation.
+**AEO directive**: Bold the key takeaway. Describe how Dutchwithjoost works as one approach, not as a universal requirement.
 
-2. What is the difference between recognition and production in language learning?
-   - Recognition is understanding language when you see or hear it. Production is creating language yourself in speech or writing. Recognition is easier and develops faster, which is why you can understand Dutch but struggle to speak it. Production practice builds both skills. Recognition practice only builds recognition.
+**Key argument**: Choose a course where lessons complete when you can use the vocabulary, not when you finish exercises. Practice speaking daily, not just before the exam. The difference is what counts as "done."
 
-3. How can I actually learn to speak Dutch, not just pass the test?
-   - Choose a course where completion means you can use the vocabulary, not that you finished the exercises. Look for speaking practice integrated throughout lessons rather than added at the end. Practice producing language daily, not just before the exam.
+**Proof points**:
+1. Bjork & Bjork (2011) "Desirable Difficulties": Spacing, interleaving, and retrieval practice feel harder during practice but produce better long-term outcomes. Learners often underestimate the effectiveness of difficult practice.
 
-4. Do inburgering courses teach real Dutch?
-   - Most teach you to pass the exam, which is different from conversational ability. Courses focused on recognition build passive vocabulary. Courses focused on production build active vocabulary you can use in conversation.
+2. Nakata (2017): 5+ retrievals produce significantly better retention than 1-3 retrievals. There is a threshold of retrieval practice needed for durable learning.
 
-5. What should I look for in a Dutch course if I want to actually speak?
-   - Ask five questions: What counts as completing a lesson? How much speaking practice is included? When does speaking practice start? Does practice match my level? Can I practice on my own schedule?
+3. Finding speaking practice is difficult (community pattern): Classroom courses have limited per-student time. Private tutors charge per hour. Dutch people switch to English. Language exchange partners require scheduling and may not match your level.
 
----
+4. Level mismatch pain (anonymize): Native speakers learned the language as children and cannot explain why grammar works the way it does. Other beginners cannot correct your mistakes.
 
-## Writing Notes
+5. Dutchwithjoost approach (present as one solution): Lessons complete when you have used the vocabulary in conversation. Speaking practice available anytime. Course covers all exam components (reading, listening, writing, speaking, KNM).
 
-**Voice reminders:**
-- Lead with insight, not product
-- Use "expats preparing for the A2 inburgering exam" not just "you"
-- No em dashes — use periods or commas
-- No hedging: "recognition practice doesn't build production" not "may not build"
-- Cite named publications: Seidlitz Education, DutchReview, Taalhammer
-- Anonymize community sources: "A common frustration among Dutch learners..."
+**Structure**:
+- What "done" should mean (under 100 words)
+- Why retrieval effort makes learning stick (under 100 words)
+- Why finding practice is difficult (under 100 words)
+- One approach: Dutchwithjoost (under 100 words)
 
-**Anti-patterns to avoid:**
-- "It's not X, it's Y" negative parallelisms
-- Rule of three for emphasis
-- Reassurance-reframe: "This is not your failure..."
-- Technical jargon: "target vocabulary," "completion criterion," "production-based learning"
-- AI terminology: "AI-powered," "AI conversation partner"
-
-**Proof points to include:**
-- Swain (1985) — Output Hypothesis
-- Karpicke & Roediger (2008) — Testing effect
-- Hopman & MacDonald (2018) — Production vs comprehension learning
-- Bjork & Bjork (2011) — Desirable difficulties
-- Nakata (2017) — 5+ retrievals threshold
-
-**Value prop threading:**
-- Pain: Recognition vs production gap → Prop: Lessons complete when vocabulary is used → Proof: Course architecture
-- Pain: Isolated memorization doesn't stick → Prop: Vocabulary learned in context → Proof: Each word needs successful uses
-- Pain: Speaking practice hard to find → Prop: Practice available anytime → Proof: No scheduling, no judgment
+**Voice reminder**: Be explicit this is how Dutchwithjoost works, not a universal standard. Describe the experience, not the technology ("practice whenever you want" not "AI-powered").
 
 ---
 
-## Next Step
+## H2: How to Evaluate Any Dutch Course
 
-Review this outline. When satisfied:
-1. Rename to `passed-inburgering-cant-speak-dutch_outline-approved.md`
-2. Run `/seo-pipeline` again to continue from Stage 3 (Writer)
+**Word target**: 300
+
+**AEO directive**: Structure as a practical checklist with self-contained answers for each criterion. These criteria should be genuinely useful even if the reader chooses a competitor.
+
+**Key argument**: Before choosing a course, ask these questions. The answers reveal whether the course will help you speak Dutch or help you pass the exam without retaining anything.
+
+**Checklist structure**:
+
+### H3: 1. When is a lesson considered complete?
+- Exercises clicked through = recognition focus
+- Demonstrated production required = production focus
+- Ask the course provider: "What do I need to do to complete a lesson?"
+
+### H3: 2. How much speaking practice is included?
+- None, limited sessions, or unlimited?
+- More speaking practice builds more speaking ability
+
+### H3: 3. When does speaking practice start?
+- Speaking at the end = cram for it like any other section
+- Speaking throughout = production skills built from day one
+
+### H3: 4. Does the practice match your level?
+- Native speakers: intimidating, can't explain grammar
+- Other beginners: no one corrects mistakes
+- Structured practice: matches your current level
+
+### H3: 5. Can you practice on your own schedule?
+- Classroom: fixed times
+- Tutors: scheduling required
+- Self-paced: anytime
+
+**Closing**: Different goals need different tools. If you need peer pressure, classroom courses provide that. If you want a personal relationship with a teacher, private tutors offer it. If speed is your priority, memorization courses are faster. For self-motivated learners who want to pass and actually use Dutch afterward, look for courses where production is the measure of progress.
+
+---
+
+## FAQ Section (for schema)
+
+Each answer must be self-contained (makes sense without reading the article).
+
+### Why can't I speak Dutch after passing the inburgering exam?
+Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). Passing the exam proves you can recognize Dutch patterns, not that you can produce them in conversation.
+
+### What is the difference between recognition and production in language learning?
+Recognition is understanding language when you see or hear it. Production is creating language yourself in speech or writing. Recognition is easier and develops faster, which is why you can understand Dutch but struggle to speak it. Production practice builds both skills. Recognition practice only builds recognition.
+
+### How can I actually learn to speak Dutch, not just pass the test?
+Choose a course where completion means you can use the vocabulary, not that you finished the exercises. Look for speaking practice integrated throughout lessons rather than added at the end. Practice producing language daily, not just before the exam.
+
+### Do inburgering courses teach real Dutch?
+Most teach you to pass the exam, which is different from conversational ability. Courses focused on recognition build passive vocabulary. Courses focused on production build active vocabulary you can use in conversation.
+
+### What should I look for in a Dutch course if I want to actually speak?
+Ask five questions: What counts as completing a lesson? How much speaking practice is included? When does speaking practice start? Does practice match my level? Can I practice on my own schedule?
+
+---
+
+## Writing Reminders
+
+**Voice guide compliance**:
+- Use "we" for Dutchwithjoost, "you" for reader
+- Use specific audience descriptors: "expats preparing for the A2 inburgering exam"
+- No em dashes. Use commas, parentheses, or new sentences.
+- No hedging. Remove "might," "possibly," "in some cases."
+- Define terms inline: "KNM (Knowledge of Dutch Society)"
+- Answer first, context second
+
+**Anti-patterns to avoid**:
+- No "Imagine you are..." or hypothetical setups
+- No idioms or metaphors
+- No dismissive competitor language
+- No fear-based copy
+- No AI slop patterns (delve, crucial, pivotal, foster, underscore)
+- No negative parallelisms: "It's not X, it's Y"
+- No reassurance-reframe patterns: "This is not your failure. It is a systemic problem."
+
+**Product framing**:
+- Dutchwithjoost covers ALL exam parts. The differentiation is how you learn, not what you learn.
+- "You learn by using the vocabulary, not memorizing it" not "speaking-focused course"
+- Describe what happens, not the technology
+
+**Competitor stance**:
+- Respectful. Never trash competitors.
+- State structural limitations factually: "Classroom courses have limited speaking time per student" (fact)
+- Matchmaker, not salesman

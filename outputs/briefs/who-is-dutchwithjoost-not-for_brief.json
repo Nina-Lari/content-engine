@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "topic_id": "who-is-dutchwithjoost-not-for",
+    "priority_score": 8.5,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-3 hours"
+  },
+  "keyword": {
+    "primary": "is dutchwithjoost right for me",
+    "variants": [
+      "dutchwithjoost review",
+      "dutchwithjoost worth it",
+      "should I buy dutchwithjoost",
+      "dutchwithjoost for beginners",
+      "dutchwithjoost B1"
+    ],
+    "searcher_intent": "Someone considering Dutchwithjoost who wants honest guidance on whether it's the right fit for their situation before buying."
+  },
+  "audience": {
+    "persona": "Both",
+    "industry_focus": null,
+    "pain_summary": "Decision paralysis when choosing a Dutch course. Tired of marketing fluff. Wants someone to honestly tell them if this will work for their specific situation.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "Radical honesty about who should NOT buy. Counter-intuitive trust-builder: by clearly stating who we're not for, we build credibility with those we ARE for. Reduces refund friction and builds long-term trust.",
+  "thesis_sentence": "Dutchwithjoost is designed for a specific learner — and being honest about who it's NOT for helps you make the right decision (and helps us serve the right people).",
+  "outline": [
+    {
+      "section": "Why We're Writing This (And Why Most Courses Won't)",
+      "notes": "Frame the honesty angle. Most courses want every sale. We'd rather have the right students who succeed. Bad-fit students hurt everyone: they don't get results, leave negative reviews, and take support time from people we can actually help.",
+      "word_target": 200,
+      "evidence_needed": "None — positioning statement"
+    },
+    {
+      "section": "You Need B1 Level (Not A2)",
+      "notes": "Clear disqualifier. Post-2022 BSN holders, recent family migrants, recent highly skilled migrants need B1. We only offer A2 currently. Be direct: if you need B1, we cannot help you yet. Point to alternatives.",
+      "word_target": 250,
+      "evidence_needed": "B1 requirement rules (post-Jan 2022 BSN)"
+    },
+    {
+      "section": "You're Assigned a Course by Your Municipality",
+      "notes": "Refugees and some asylum holders are assigned courses by their municipality. They cannot choose their own course. This is a legal/administrative constraint, not a fit issue.",
+      "word_target": 150,
+      "evidence_needed": "Municipality assignment rules"
+    },
+    {
+      "section": "You Want a Classroom Experience",
+      "notes": "Some people genuinely need in-person peer pressure, a physical teacher relationship, and scheduled class times for accountability. That's valid. We're fully self-paced and AI-driven. If you know you need a classroom, choose a classroom course.",
+      "word_target": 200,
+      "evidence_needed": "None — honest assessment"
+    },
+    {
+      "section": "Your Budget Is Zero",
+      "notes": "We cost €399. If you have no budget at all, free resources exist: Duolingo (limited but free), YouTube, library books. Be honest about what free gets you (and doesn't).",
+      "word_target": 200,
+      "evidence_needed": "Pricing transparency"
+    },
+    {
+      "section": "You Just Want to Pass Fast (And Don't Care About Speaking)",
+      "notes": "If your only goal is passing the exam as quickly as possible and you don't care if you can actually speak Dutch afterward, pure memorization courses may be faster. We're built for people who want to pass AND actually speak. That takes longer but lasts.",
+      "word_target": 250,
+      "evidence_needed": "Production-based learning positioning"
+    },
+    {
+      "section": "Who IS Dutchwithjoost For?",
+      "notes": "After the disqualifiers, pivot to the ideal customer. Partner visa or work visa holder doing A2. Wants to actually speak, not just pass. Values flexibility over classroom. Has €399 budget. Frustrated by recognition-production gap. This is the positive close.",
+      "word_target": 350,
+      "evidence_needed": "ICP summary, value props"
+    },
+    {
+      "section": "Still Not Sure? Here's How to Decide",
+      "notes": "Practical decision framework. Questions to ask yourself. Clear next step for each answer path.",
+      "word_target": 200,
+      "evidence_needed": "Decision criteria from ICP"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Courses overpromise and underdeliver",
+      "prop": "Radical honesty about fit builds trust",
+      "proof": "This article itself is the proof — we're telling you NOT to buy"
+    },
+    {
+      "pain": "Decision paralysis from too many options",
+      "prop": "Clear disqualifiers simplify the decision",
+      "proof": "If you hit a disqualifier, you know immediately"
+    },
+    {
+      "pain": "Fear of wasting money on wrong course",
+      "prop": "Better to know upfront than discover after purchase",
+      "proof": "€399 is significant — we want you confident before buying"
+    }
+  ],
+  "originality_nuggets": [
+    "Counter-intuitive trust-building through disqualification",
+    "Honest acknowledgment that pure memorization is faster if you don't care about speaking",
+    "Clear B1 limitation transparency (most courses hide what they don't offer)",
+    "Decision framework at the end (not just information dump)"
+  ],
+  "seo": {
+    "title_tag": "Is Dutchwithjoost Right for You? Honest Guide (Who Should NOT Buy)",
+    "meta_description": "Before you buy Dutchwithjoost, read this. We're honest about who our course is NOT for — B1 learners, zero budget, classroom seekers. Find out if you're a fit.",
+    "url_slug": "who-is-dutchwithjoost-not-for"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Who should not buy Dutchwithjoost?",
+    "definition_paragraph": "Dutchwithjoost is a self-paced A2 inburgering course focused on production-based learning. It's not for everyone: if you need B1 level, are assigned a course by your municipality, need classroom accountability, have zero budget, or just want to pass fast without learning to speak, other options may fit better.",
+    "faq_questions": [
+      "Does Dutchwithjoost offer B1 level?",
+      "Is Dutchwithjoost good for beginners?",
+      "Can I use Dutchwithjoost if I have a DUO loan?",
+      "Is Dutchwithjoost better than classroom courses?",
+      "How much does Dutchwithjoost cost?"
+    ]
+  },
+  "internal_links": [
+    "best-dutch-course-a2-inburgering",
+    "self-paced-vs-classroom-dutch-courses",
+    "inburgering-course-cost",
+    "inburgering-course-worth-it",
+    "what-is-production-based-language-learning"
+  ],
+  "research_needed": [
+    "Confirm current B1 requirement rules and cutoff date",
+    "Verify municipality assignment rules for refugees",
+    "List of credible free alternatives to mention"
+  ]
+}

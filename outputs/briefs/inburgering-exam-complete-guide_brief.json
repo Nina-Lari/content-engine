@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "topic_id": "inburgering-exam-complete-guide",
+    "priority_score": 9.0,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 3500,
+    "estimated_effort": "4-6 hours"
+  },
+  "keyword": {
+    "primary": "inburgering exam guide",
+    "variants": [
+      "inburgering exam schedule",
+      "inburgering exam booking",
+      "DUO inburgering exam",
+      "inburgering exam how long",
+      "inburgering exam results",
+      "inburgering certification timeline",
+      "inburgering exam sections",
+      "how to book inburgering exam"
+    ],
+    "searcher_intent": "Someone preparing for inburgering who needs to understand the full logistics: what the exam consists of, how to book, timing strategies, what happens after, and how it all connects to their visa/citizenship timeline."
+  },
+  "audience": {
+    "persona": "Both",
+    "industry_focus": null,
+    "pain_summary": "Overwhelmed by fragmented information about exam logistics. Needs a single authoritative source covering everything from booking to certification delivery, especially for coordinating with citizenship applications.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "The only comprehensive logistics bible for the inburgering exam. Not about HOW to prepare (covered elsewhere), but everything about the exam itself: structure, timing, booking, results, certification, DUO reimbursement eligibility, and critically — how to time it all with citizenship applications.",
+  "thesis_sentence": "Understanding inburgering exam logistics — from booking windows to certification delivery — is just as important as language preparation, especially if you're coordinating with a citizenship application timeline.",
+  "outline": [
+    {
+      "section": "The 5 Exam Components: What You're Actually Taking",
+      "notes": "Brief overview of the 5 parts (Lezen, Luisteren, Schrijven, Spreken, KNM). Focus on format and duration of each, not preparation tips. Include exact time allocations per section.",
+      "word_target": 400,
+      "evidence_needed": "Official DUO exam format documentation"
+    },
+    {
+      "section": "Timing Strategy: How to Allocate Your Time in Each Section",
+      "notes": "Practical timing advice. Speaking section: don't re-record for small mistakes (you have ~2 minutes per prompt). Writing: time per question. Reading/listening: pacing. This is the tactical content nobody else provides.",
+      "word_target": 500,
+      "evidence_needed": "Exam timing specifics, community wisdom about re-recording"
+    },
+    {
+      "section": "Booking Your Exam: Lead Times and Scheduling Reality",
+      "notes": "How far in advance you can/should book. Availability varies by location and season. Cannot book for tomorrow. Practical advice on booking windows. Where to go (DUO exam locations).",
+      "word_target": 400,
+      "evidence_needed": "DUO booking system details, location information"
+    },
+    {
+      "section": "What Happens If You Fail: Rebooking and Retake Rules",
+      "notes": "If you know you failed, how long before you can retake? Retake costs. Partial fails vs. full fails. Deadline implications for partner visa holders.",
+      "word_target": 350,
+      "evidence_needed": "DUO retake policies, cost per retake"
+    },
+    {
+      "section": "Results Timeline: When You'll Know",
+      "notes": "How long after each exam do results come? Different timelines for different sections (speaking/writing take longer due to human grading). Where to check results.",
+      "word_target": 300,
+      "evidence_needed": "Official results timeline from DUO"
+    },
+    {
+      "section": "Getting Your Certificate: From Results to Documentation",
+      "notes": "How long after passing all exams do you get certification? What format does it come in? How to access/download it. This is what you submit for citizenship.",
+      "word_target": 300,
+      "evidence_needed": "Certification delivery process"
+    },
+    {
+      "section": "DUO Loan and Reimbursement: Who Qualifies",
+      "notes": "Brief overview (detailed in duo-inburgering-loan-guide). Who can get DUO to pay: asylum holders (forgiveness), others (loan). Link to detailed guide.",
+      "word_target": 250,
+      "evidence_needed": "DUO loan eligibility criteria"
+    },
+    {
+      "section": "Coordinating with Citizenship Applications",
+      "notes": "The critical timing section. Citizenship appointments often must be booked months in advance. You need your inburgering certificate BEFORE submitting dossier. Work backwards from citizenship timeline. Buffer time recommendations.",
+      "word_target": 500,
+      "evidence_needed": "Naturalization timeline requirements, municipality appointment lead times"
+    },
+    {
+      "section": "Deadlines and Extensions: What You Need to Know",
+      "notes": "Brief overview of deadline rules (3-year for partner visa). Link to detailed deadline/extension article. Exemption possibilities.",
+      "word_target": 200,
+      "evidence_needed": "Link to inburgering-deadline-extension-exemption article"
+    },
+    {
+      "section": "Complete Timeline Planner: Working Backwards from Your Goal",
+      "notes": "Practical planning tool. If you want citizenship by [date], here's when you need to: start preparing, book exams, pass all parts, receive certification, book municipality appointment. Visual timeline if possible.",
+      "word_target": 300,
+      "evidence_needed": "Synthesized timeline from all sections above"
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Speaking exam anxiety and unpredictable timing",
+      "prop": "Unlimited AI speaking practice so you've had hundreds of conversations before exam day",
+      "proof": "Frame: 'Walk into DUO confident' positioning"
+    },
+    {
+      "pain": "Uncertainty about preparation timeline",
+      "prop": "Self-paced course that fits around your schedule",
+      "proof": "Can prepare at your own pace, not locked into classroom schedules"
+    }
+  ],
+  "originality_nuggets": [
+    "Specific timing advice for speaking section: don't re-record for small mistakes",
+    "Citizenship coordination timeline — nobody else connects these dots",
+    "Working backwards from citizenship appointment to exam booking",
+    "Buffer time recommendations between certification and dossier submission"
+  ],
+  "seo": {
+    "title_tag": "Inburgering Exam Complete Guide: Booking, Timing, Results (2026)",
+    "meta_description": "Everything about the inburgering exam: 5 sections, timing strategy, how to book, results timeline, certification, and coordinating with Dutch citizenship applications.",
+    "url_slug": "inburgering-exam-complete-guide"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How long does it take to get inburgering exam results?",
+    "definition_paragraph": "The inburgering exam consists of five parts: reading (lezen), listening (luisteren), writing (schrijven), speaking (spreken), and KNM (Kennis Nederlandse Maatschappij). Each part is taken separately at DUO exam locations, and you must pass all five to complete your integration requirement. Results typically arrive within 8 weeks, with your certificate available shortly after.",
+    "faq_questions": [
+      "How far in advance can I book my inburgering exam?",
+      "How long do inburgering exam results take?",
+      "What happens if I fail one part of the inburgering exam?",
+      "How do I get my inburgering certificate?",
+      "Who qualifies for DUO inburgering loan reimbursement?",
+      "How do I time my inburgering exam with my citizenship application?"
+    ]
+  },
+  "internal_links": [
+    "inburgering-speaking-test-guide",
+    "duo-inburgering-loan-guide",
+    "inburgering-deadline-extension-exemption",
+    "ona-exam-guide",
+    "knm-exam-2025-2026-changes"
+  ],
+  "research_needed": [
+    "Official DUO exam booking process and lead times",
+    "Current results timeline for each exam section",
+    "Certification delivery timeline",
+    "Municipality naturalization appointment lead times (varies by city)",
+    "Current retake costs and waiting periods"
+  ]
+}

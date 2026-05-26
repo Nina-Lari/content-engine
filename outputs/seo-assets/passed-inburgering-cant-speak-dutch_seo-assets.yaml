@@ -1,156 +1,23 @@
-# SEO Assets: Why You Pass Inburgering But Can't Speak Dutch
-# Generated: 2026-05-25
-# Stage: Outline (Stage 2) - Refreshed with enriched knowledge base
-
-meta:
-  topic_id: passed-inburgering-cant-speak-dutch
-  primary_keyword: passed inburgering but can't speak Dutch
-  stage: mofu
-  format: thought-leadership
-  target_word_count: 1800
-
-seo:
-  title_tag: "Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)"
-  meta_description: "Passed your inburgering exam but still can't speak Dutch? Most courses train recognition, not production. Here's the cognitive science, and how to evaluate any Dutch course."
-  url_slug: passed-inburgering-cant-speak-dutch
-  canonical_url: null  # Set on publish
-
-frontmatter:
-  title: "Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)"
-  description: "Passed your inburgering exam but still can't speak Dutch? Most courses train recognition, not production. Here's the cognitive science, and how to evaluate any Dutch course."
-  excerpt: "You passed the exam. You studied for months. But when your Dutch neighbor asks 'Hoe gaat het?', you freeze. Here's the cognitive science behind the gap, and what actually works."
-  category: inburgering
-  tags:
-    - inburgering
-    - speaking practice
-    - dutch learning
-    - A2 exam
-    - recognition vs production
-
-og:
-  og_title: "Why You Pass Inburgering But Can't Speak Dutch"
-  og_description: "Most Dutch courses train recognition, not production. That's why you pass the exam but freeze in conversation. Here's the cognitive science."
-  og_type: article
-  og_image: null  # Set on publish
-
-twitter:
-  twitter_card: summary_large_image
-  twitter_title: "Why You Pass Inburgering But Can't Speak Dutch"
-  twitter_description: "Most Dutch courses train recognition, not production. Here's the cognitive science, and what actually works."
-
-structured_data:
-  article_schema:
-    "@type": Article
-    headline: "Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)"
-    description: "Most inburgering courses train recognition (picking correct answers) not production (generating speech). That's why you pass the exam but can't hold a conversation."
-    author:
-      "@type": Person
-      name: Wesley Lam
-    datePublished: null  # Set on publish
-    dateModified: null   # Set on publish
-
-  faq_schema:
-    "@type": FAQPage
-    mainEntity:
-      - "@type": Question
-        name: "Why can't I speak Dutch after passing the inburgering exam?"
-        acceptedAnswer:
-          "@type": Answer
-          text: "Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). Passing the exam proves you can recognize Dutch patterns, not that you can produce them in conversation."
-
-      - "@type": Question
-        name: "What is the difference between recognition and production in language learning?"
-        acceptedAnswer:
-          "@type": Answer
-          text: "Recognition is understanding language when you see or hear it. Production is creating language yourself in speech or writing. Recognition is easier and develops faster, which is why you can understand Dutch but struggle to speak it. Production practice builds both skills. Recognition practice only builds recognition."
-
-      - "@type": Question
-        name: "How can I actually learn to speak Dutch, not just pass the test?"
-        acceptedAnswer:
-          "@type": Answer
-          text: "Choose a course where completion means you can use the vocabulary, not that you finished the exercises. Look for speaking practice integrated throughout lessons rather than added at the end. Practice producing language daily, not just before the exam."
-
-      - "@type": Question
-        name: "Do inburgering courses teach real Dutch?"
-        acceptedAnswer:
-          "@type": Answer
-          text: "Most teach you to pass the exam, which is different from conversational ability. Courses focused on recognition build passive vocabulary. Courses focused on production build active vocabulary you can use in conversation."
-
-      - "@type": Question
-        name: "What should I look for in a Dutch course if I want to actually speak?"
-        acceptedAnswer:
-          "@type": Answer
-          text: "Ask five questions: What counts as completing a lesson? How much speaking practice is included? When does speaking practice start? Does practice match my level? Can I practice on my own schedule?"
-
-aeo:
-  featured_snippet_targets:
-    - query: "Why can't I speak Dutch after passing inburgering"
-      target_section: "Opening"
-      answer_format: atomic_paragraph
-
-    - query: "What is the recognition production gap"
-      target_section: "Why You Can Understand Dutch But Can't Speak It"
-      answer_format: definition
-
-    - query: "How to choose a Dutch course for speaking"
-      target_section: "How to Evaluate Any Dutch Course"
-      answer_format: checklist
-
-  definition_paragraph: |
-    Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). Passing the exam proves you can recognize Dutch patterns, not that you can produce them in conversation. This is why expats preparing for the A2 inburgering exam pass the test but freeze when someone asks "Hoe gaat het?"
-
-internal_linking:
-  link_budget: 5-8  # Based on 1800 word target
-  priority_targets:
-    - slug: dutch-speaking-practice-online
-      anchor_suggestion: "finding Dutch speaking practice"
-      section: "How to Actually Learn to Speak Dutch"
-
-    - slug: inburgering-speaking-test-guide
-      anchor_suggestion: "speaking exam preparation"
-      section: "Why the Speaking Exam Preparation Isn't Enough"
-
-    - slug: inburgering-course-worth-it
-      anchor_suggestion: "evaluating course value"
-      section: "How to Evaluate Any Dutch Course"
-
-  placeholder_links: []
-
-keywords:
-  primary: "passed inburgering but can't speak Dutch"
-  secondary:
-    - "why can't I speak Dutch after passing exam"
-    - "inburgering exam but can't speak"
-    - "recognition vs production language learning"
-    - "learn to speak Dutch not just pass test"
-    - "Dutch speaking practice"
-    - "understand dutch but cant speak"
-    - "memorized dutch forgot everything"
-  semantic_entities:
-    - inburgering exam
-    - A2 Dutch
-    - speaking practice
-    - active vocabulary
-    - passive vocabulary
-    - Swain Output Hypothesis
-    - testing effect
-    - desirable difficulties
-
-proof_points:
-  peer_reviewed:
-    - "Swain (1985) - Output Hypothesis: Production forces syntactic processing that input alone doesn't trigger"
-    - "Karpicke & Roediger (2008) - Testing effect: Repeated studying had no effect on delayed recall. Repeated testing produced large positive effect."
-    - "Hopman & MacDonald (2018) - Production learners outperform comprehension learners on BOTH vocabulary AND grammar tests"
-    - "Bjork & Bjork (2011) - Desirable difficulties: Harder practice produces dramatically better long-term outcomes"
-    - "Nakata (2017) - 5+ retrievals needed for durable learning"
-
-  named_publications:
-    - "Seidlitz Education: 'Words need to travel from passive lexicon into active lexicon'"
-    - "DutchReview: 'The spreken examen is often named as one of the hardest exams'"
-    - "Dutch-online.com: 'Most learners underestimate speaking and writing'"
-    - "Taalhammer: 'You can memorize fiets, huis, and eten all week and still stumble in conversation'"
-
-  customer_intelligence:
-    - "Facebook group pattern: 'They read, they listen, they understand... but when it's time to talk, they freeze'"
-    - "Customer interview: Course described as 'basically a cheat sheet to the exam'"
-    - "Customer interview: Friend got passport but 'couldn't even pronounce inburgering'"
+title: "Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)"
+description: "Passed the inburgering exam but still can't hold a conversation? Most courses train recognition, not production. Here's the cognitive science and how to evaluate any Dutch course."
+excerpt: "You passed the exam. You studied for months. But when your Dutch neighbor asks 'Hoe gaat het?', you freeze. Here's the cognitive science behind the gap, and what actually works."
+slug: passed-inburgering-cant-speak-dutch
+category: inburgering
+tags:
+  - inburgering
+  - speaking practice
+  - dutch learning
+  - A2 exam
+  - recognition vs production
+faqs:
+  - question: "Why can't I speak Dutch after passing the inburgering exam?"
+    answer: "Most inburgering courses train recognition (picking correct answers) rather than production (generating sentences yourself). Passing the exam proves you can recognize Dutch patterns, not that you can produce them in conversation."
+  - question: "What is the difference between recognition and production in language learning?"
+    answer: "Recognition is understanding language when you see or hear it. Production is creating language yourself in speech or writing. Recognition is easier and develops faster, which is why you can understand Dutch but struggle to speak it. Production practice builds both skills. Recognition practice only builds recognition."
+  - question: "How can I actually learn to speak Dutch, not just pass the test?"
+    answer: "Choose a course where completion means you can use the vocabulary, not that you finished the exercises. Look for speaking practice integrated throughout lessons rather than added at the end. Practice producing language daily, not just before the exam."
+  - question: "Do inburgering courses teach real Dutch?"
+    answer: "Most teach you to pass the exam, which is different from conversational ability. Courses focused on recognition build passive vocabulary. Courses focused on production build active vocabulary you can use in conversation."
+  - question: "What should I look for in a Dutch course if I want to actually speak?"
+    answer: "Ask five questions: What counts as completing a lesson? How much speaking practice is included? When does speaking practice start? Does practice match my level? Can I practice on my own schedule?"
+internal_link_targets: []

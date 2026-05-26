@@ -248,6 +248,36 @@ Never present Dutchwithjoost's specific design choices as universal requirements
 
 If describing how the product works, be explicit that it's our approach, not a universal standard.
 
+### Describing the Product Methodology
+
+Dutchwithjoost covers ALL five exam parts (reading, listening, writing, speaking, KNM). The differentiation is *how* you learn, not *what* you learn. Avoid language that makes it sound like we only focus on the speaking exam.
+
+**Wrong framing (sounds like speaking exam only):**
+- "Speaking practice throughout lessons"
+- "Speaking-focused course"
+- "Speaking as the learning method"
+- "Which course has more speaking practice?"
+
+**Right framing (clarifies it's about how you learn all parts):**
+- "You learn by using the vocabulary, not memorizing it"
+- "Lessons complete when you can use the words yourself"
+- "Use each word in sentences as you learn it"
+- "Learn by doing" or "learn-by-using approach"
+- "Which course helps you actually use Dutch?"
+
+**The core distinction:**
+- InburgeringOnline: memorize → recognize on test → pass
+- Dutchwithjoost: use each word → retain → pass because you can actually use Dutch
+
+**In comparison tables, use:**
+| How you learn | Memorize vocabulary and grammar rules | Use each word in sentences as you learn it |
+| What counts as "done" | Finish the exercises | Use the vocabulary yourself |
+
+**Not:**
+| Speaking practice | Limited | Unlimited |
+
+The second framing implies we only care about speaking. The first clarifies we cover all parts but through production (using the language) rather than recognition (memorizing it).
+
 ### Tone Anti-Patterns
 
 - Never talk down to the reader
