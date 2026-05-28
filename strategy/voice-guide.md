@@ -82,10 +82,47 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 
 ## Competitor Stance
 
+> **Detailed guidelines:** See `strategy/competitor-stance-addendum.md` for per-competitor guidelines, language tables, and red lines.
+
+**Core principle:** Describe what each approach does. Acknowledge their strengths. Let readers decide which fits their goals. Never talk down on competitors or imply their approach is lazy, easy, or inferior.
+
 - **Respectful.** Never trash competitors. Never say another solution is bad.
 - **Honest.** Some learners are better served by other options. Say so explicitly.
 - **Acknowledge tradeoffs.** Classroom courses provide accountability we don't. Private tutors provide human connection we don't. Memorization courses are faster for passing. Be clear about what we offer and what we don't.
 - **Matchmaker, not salesman.** Help people find the right solution for their goals.
+
+### Per-Competitor Quick Reference
+
+| Competitor | Name directly? | Key distinction | What to acknowledge |
+|-----------|---------------|-----------------|---------------------|
+| InburgeringOnline | Yes in BOFU | Exam prep focus vs. conversation focus | Track record, comprehensive coverage |
+| Duolingo | Yes | Not designed for inburgering | Habit building, low barrier |
+| Classroom courses | General term OK | Fixed schedule vs. flexible | Human teacher, social environment |
+| ChatGPT/AI | General term OK | Unstructured vs. curriculum | Unlimited practice, free |
+| Free resources | Mention DUO practice exams | Supplement vs. complete solution | Accessibility, official practice exams |
+
+### Language Guide (Do NOT Say vs. Say Instead)
+
+| Do NOT say | Say instead |
+|-----------|-------------|
+| "Just memorization" | "Memorization-based approach" |
+| "Clicking through screens" | "Video lessons and practice exercises" |
+| "Easy to build" | Do not mention |
+| "Cheat sheet to the exam" | Do not say |
+| "They only teach you to pass" | "Their approach focuses on exam preparation" |
+| "Useless for inburgering" | "Not designed for inburgering" |
+| "Random practice" | "Unstructured conversation practice" |
+| "Expensive" (as judgment) | State the price range, let readers judge |
+| "Rigid schedules" | "Fixed schedules" |
+
+### Red Lines (Never Cross)
+
+1. **Never claim competitors don't work.** People pass with every approach.
+2. **Never mock competitor methods.** "Clicking through screens" and "just memorization" are dismissive.
+3. **Never compare track record.** We're newer. Don't mention it.
+4. **Never compare speed.** "Faster" or "slower" claims are unverifiable.
+5. **Never say "we're the only course that..."** It's almost always false and sounds arrogant.
+6. **Never position competitors as the enemy.** The enemy is not speaking Dutch.
 
 Examples:
 - Good: "Classroom courses work well if you need peer pressure to stay motivated. We're built for people who can motivate themselves."
@@ -468,8 +505,27 @@ Before publishing, ask:
 5. Would I recommend a competitor if they're actually a better fit?
 6. Are all claims backed by specific evidence? (Source name + origin + year)
 
+**Factual Accuracy**
+7. Does the content accurately describe what each exam part tests? (See `strategy/factual-accuracy-checklist.md`)
+8. Does it correctly distinguish A2 vs. B1 requirements and which law applies?
+9. Are competitor facts current and verified?
+
 **Language**
-7. Any hedging? ("might," "possibly," "in some cases") Remove it.
-8. Any idioms, analogies, or metaphors? Remove or convert to explicit similes with explanation.
-9. Any em dashes or AI slop patterns? Remove them.
-10. Am I using specific audience descriptors? ("expats preparing for A2" not just "you")
+10. Any hedging? ("might," "possibly," "in some cases") Remove it.
+11. Any idioms, analogies, or metaphors? Remove or convert to explicit similes with explanation.
+12. Any em dashes or AI slop patterns? Remove them.
+13. Am I using specific audience descriptors? ("expats preparing for A2" not just "you")
+14. Any dismissive competitor language? (Check against competitor stance addendum)
+
+---
+
+## Companion Documents
+
+These documents work alongside the voice guide:
+
+| Document | Purpose |
+|----------|---------|
+| `.claude/rules/writing-quality.md` | Anti-slop enforcement, structural patterns, citation standards |
+| `strategy/dutchwithjoost-messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
+| `strategy/competitor-stance-addendum.md` | Per-competitor guidelines, language tables, red lines |
+| `strategy/factual-accuracy-checklist.md` | Verified facts about the exam, Dutchwithjoost, and competitors |

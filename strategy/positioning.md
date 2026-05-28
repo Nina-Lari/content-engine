@@ -2,6 +2,21 @@
 
 > Derived from the master knowledgebase. Every differentiator needs a proof point — if you can't prove it, it's not a differentiator.
 
+> **Companion document:** See `strategy/dutchwithjoost-messaging.md` for approved product descriptions, one-sentence explanations, and claims we can/cannot make.
+
+---
+
+## One-Sentence Descriptions
+
+**Primary (outcome-focused):**
+Dutchwithjoost teaches you Dutch you can actually use in daily life. The A2 inburgering exam becomes straightforward because you've learned the language, not just memorized answers.
+
+**Alternative (method + outcome):**
+Dutchwithjoost teaches Dutch through practical conversations, so you pass the A2 inburgering exam because you've learned the language.
+
+**Alternative (comprehensive):**
+Dutchwithjoost teaches you Dutch you can actually use, covering all five exam parts (reading, listening, writing, speaking, KNM). The exam becomes a natural result of what you've learned.
+
 ---
 
 ## Narrative Arc
@@ -152,6 +167,8 @@ The insight matters more than the source. Readers don't need to know you found s
 
 ## Competitor Mention Guidelines
 
+> **Full guidelines:** See `strategy/competitor-stance-addendum.md` for detailed per-competitor guidelines, language tables, and red lines.
+
 ### When naming competitors
 
 Only name competitors when:
@@ -174,6 +191,17 @@ State structural limitations factually, without implying motive:
 | Self-paced courses | "Progress is measured by exercises completed" | "They just track clicks" |
 | Private tutors | "Sessions are scheduled and priced per hour" | "You're paying for every minute" |
 | Language exchange | "Partner availability varies" | "Partners are unreliable" |
+| Generic AI tools | "No curriculum or exam-specific structure" | "Random" or "useless" |
+
+### ChatGPT/Generic AI Tools
+
+When comparing to ChatGPT and generic AI tools, acknowledge their strengths (unlimited practice, free) but note these limitations:
+
+- **No curriculum:** You have to decide what to practice
+- **No KNM:** Won't teach you Dutch society knowledge
+- **No exam format:** Won't prepare you for the specific exam structure
+- **No inline grammar feedback:** Either ignores mistakes or stops to correct, breaking conversation flow
+- **No pronunciation feedback:** Text-based, cannot hear you speak
 
 ### The matchmaker test
 

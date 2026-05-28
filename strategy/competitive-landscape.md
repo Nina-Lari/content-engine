@@ -2,6 +2,8 @@
 
 > Derived from the master knowledgebase and competitive research (May 2026). Be honest about competitor strengths — dishonest battlecards produce dishonest content.
 
+> **Companion document:** See `strategy/competitor-stance-addendum.md` for detailed guidelines on how to write about specific competitors, including language tables, red lines, and per-competitor framing.
+
 ---
 
 ## Market Overview
@@ -160,16 +162,13 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 
 ### Pricing (Current)
 
-| Subscription | Monthly Price | Commitment | Notes |
-|--------------|---------------|------------|-------|
-| Monthly | €14.95/month | Cancel anytime | Most flexible |
-| 6-Month | €11.95/month | 6-month minimum | Most popular |
-| 12-Month | €8.95/month | 12-month minimum | Best value |
+> **Note:** Verify pricing on their website before publishing. Prices as of May 2026.
 
-**Full Package (all 5 exam parts):**
-- Monthly: €49.95/month
-- 6-Month: €34.95/month
-- 12-Month: €24.95/month (KNM free)
+| Subscription | Monthly Price | Notes |
+|--------------|---------------|-------|
+| Monthly | €24.95 - €34.95/month | Subscription model |
+
+See `strategy/competitor-stance-addendum.md` for verified facts and verification requirements.
 
 **Total cost to complete A2**: €300-600 depending on duration
 

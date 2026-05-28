@@ -2,6 +2,8 @@
 
 > Derived from the master knowledgebase. Defines the Ideal Customer Profile with enough specificity for targeting and qualification.
 
+> **Companion document:** See `strategy/factual-accuracy-checklist.md` for verified facts about who needs to integrate, which exams apply, and requirements by migrant category.
+
 ---
 
 ## Demographics
@@ -25,14 +27,18 @@ See `strategy/personas.md` for the full layered model (Core Motivations → Visa
 
 ### Exam Requirement
 
-**A2 level only.** This includes:
-- Pre-2022 BSN holders (grandfathered into older A2 requirement)
-- Voluntary naturalization candidates (choosing to do inburgering for Dutch citizenship)
-- Expats who received BSN before January 1, 2022 and want to naturalize
+> **Important context:** Two integration laws are currently in effect. Which applies depends on when you became required to integrate. See `strategy/factual-accuracy-checklist.md` for full details.
 
-**Not a fit:**
-- Anyone requiring B1 level (post-2022 mandatory integration, recent family migrants, recent highly skilled migrants)
-- B1 is not currently offered
+**A2 level (primary fit):**
+- People integrating under Wet inburgering 2013 (became required before 1 Jan 2022)
+- Voluntary naturalization candidates (choosing to do inburgering for Dutch citizenship)
+- People on the Z track (self-reliance) under 2021 Act (A2 is optional for them)
+
+**B1 level (not currently served):**
+- People integrating under Wet inburgering 2021 on B1 or Education tracks
+- Recent family migrants and other migrants assigned B1 by municipality
+
+**Key fact for content:** Under the 2021 Act, most people must achieve B1, not A2. Only the Z track has A2 as optional. Do not assume everyone needs A2.
 
 ---
 

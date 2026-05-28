@@ -2,6 +2,10 @@
 
 > Derived from the master knowledgebase. This document uses a layered model: core motivations are universal, visa type adds specific pressures, and barrier profiles describe what's actually blocking someone.
 
+> **Companion documents:**
+> - `strategy/factual-accuracy-checklist.md` — Who needs to integrate, requirements by migrant category, exemptions
+> - `strategy/dutchwithjoost-messaging.md` — How to describe the product when addressing persona pain points
+
 ---
 
 ## The Layered Model

@@ -2,6 +2,16 @@
 
 > This is the single source of truth for all GTM content. Edit this file, then run `/sync-context` to update derived modules.
 
+## Companion Documents
+
+These standalone documents provide specialized guidance that works alongside the derived modules:
+
+| Document | Purpose |
+|----------|---------|
+| `strategy/dutchwithjoost-messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
+| `strategy/competitor-stance-addendum.md` | Per-competitor guidelines, language tables, red lines |
+| `strategy/factual-accuracy-checklist.md` | Verified facts about the exam, Dutchwithjoost, and competitors (from DUO sources) |
+
 ---
 
 ## Company Overview
