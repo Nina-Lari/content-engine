@@ -82,8 +82,6 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 
 ## Competitor Stance
 
-> **Detailed guidelines:** See `strategy/competitor-stance-addendum.md` for per-competitor guidelines, language tables, and red lines.
-
 **Core principle:** Describe what each approach does. Acknowledge their strengths. Let readers decide which fits their goals. Never talk down on competitors or imply their approach is lazy, easy, or inferior.
 
 - **Respectful.** Never trash competitors. Never say another solution is bad.
@@ -517,7 +515,7 @@ Before publishing, ask:
 11. Any idioms, analogies, or metaphors? Remove or convert to explicit similes with explanation.
 12. Any em dashes or AI slop patterns? Remove them.
 13. Am I using specific audience descriptors? ("expats preparing for A2" not just "you")
-14. Any dismissive competitor language? (Check against competitor stance addendum)
+14. Any dismissive competitor language? (Check against competitor stance)
 
 ---
 
@@ -528,6 +526,4 @@ These documents work alongside the voice guide:
 | Document | Purpose |
 |----------|---------|
 | `.claude/rules/writing-quality.md` | Anti-slop enforcement, structural patterns, citation standards |
-| `strategy/product/messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
-| `strategy/competitor-stance-addendum.md` | Per-competitor guidelines, language tables, red lines |
-| `strategy/factual-accuracy-checklist.md` | Verified facts about the exam, Dutchwithjoost, and competitors |
+| `strategy/factual-accuracy-checklist.md` | Verification workflow for exam facts, costs, and deadlines (DUO sources) |

@@ -2,22 +2,20 @@
 
 > Derived from the master knowledgebase and competitive research (May 2026). Be honest about competitor strengths — dishonest battlecards produce dishonest content.
 
-> **Companion document:** See `strategy/competitor-stance-addendum.md` for detailed guidelines on how to write about specific competitors, including language tables, red lines, and per-competitor framing.
-
 ---
 
 ## Market Overview
 
 ### Market Category
 
-Dutch language learning for inburgering exam preparation (A2 level). Positioned as the production-based alternative to recognition-based self-paced courses.
+Dutch language learning for inburgering exam preparation (A2 level). Positioned as the learn-by-using alternative to memorization-based self-paced courses.
 
 ### Competitive Landscape Summary
 
 The Dutch inburgering prep market splits into three tiers:
 
 1. **Classroom courses** (expensive, comprehensive, inflexible) — Real teachers, peer accountability, but €1,300-4,000+ and fixed schedules
-2. **Self-paced online courses** (affordable, flexible, recognition-based) — €60-600, flexible, but completion = finished exercises
+2. **Self-paced online courses** (affordable, flexible, memorization-based) — €60-600, flexible, but completion = finished exercises
 3. **General language apps** (free/cheap, not exam-focused) — Duolingo, Babbel — gamified but don't prepare for inburgering
 
 The gap: a self-paced course where completion requires active production, not passive exercise completion. Other courses are "done" when you click through all the screens. Dutchwithjoost is done when you've used the vocabulary in conversation.
@@ -130,7 +128,7 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 **Their vulnerability:**
 - Trustpilot billing complaints create trust opening
 - "Pass but can't speak" problem is real but not yet widely discussed
-- Production-based completion is genuinely differentiated (no competitor offers this)
+- Learn-by-using completion is genuinely differentiated (no competitor offers this)
 
 **For classroom competitors:**
 - Koentact owns "fun social experience" positioning
@@ -161,8 +159,6 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 | Subscription | Monthly Price | Notes |
 |--------------|---------------|-------|
 | Monthly | €24.95 - €34.95/month | Subscription model |
-
-See `strategy/competitor-stance-addendum.md` for verified facts and verification requirements.
 
 **Total cost to complete A2**: €300-600 depending on duration
 
@@ -195,9 +191,9 @@ See `strategy/competitor-stance-addendum.md` for verified facts and verification
 
 ### Weaknesses (Where We Genuinely Differ)
 
-1. **Recognition-based completion** — Course is "done" when you finish exercises. No requirement to produce the language yourself.
+1. **Memorization-based completion** — Course is "done" when you finish exercises. No requirement to produce the language yourself.
 2. **Subscription complexity** — Billing complaints on Trustpilot about unclear auto-renewal and ignored refund requests.
-3. **Retention problem** — Users report forgetting most Dutch after passing the exam. Result of recognition-based learning.
+3. **Retention problem** — Users report forgetting most Dutch after passing the exam. Result of memorization-based learning.
 4. **Speaking is an exam component, not a proof mechanism** — They teach TO the speaking test. We use conversation to prove you can produce the language.
 
 ### Customer Sentiment
@@ -403,7 +399,7 @@ See `strategy/competitor-stance-addendum.md` for verified facts and verification
 ### Weaknesses
 
 1. **Fragmented pricing** — Multiple products to piece together
-2. **Recognition-based** — Same exercise completion model as others
+2. **Memorization-based** — Same exercise completion model as others
 3. **No conversation-as-proof** — Lessons complete when exercises done
 
 ### When They're in the Deal
@@ -454,7 +450,7 @@ See `strategy/competitor-stance-addendum.md` for verified facts and verification
 ### Weaknesses
 
 1. **Expensive at longer terms** — €1,428/year is premium pricing
-2. **Still recognition-based** — Course completes when exercises done
+2. **Still memorization-based** — Course completes when exercises done
 3. **Complex pricing tiers** — Many options to navigate
 
 ### When They're in the Deal
@@ -507,7 +503,7 @@ See `strategy/competitor-stance-addendum.md` for verified facts and verification
 1. **No DUO reimbursement** — Not recognized for civic integration funding
 2. **Time commitment** — 8-10 hours/week for 20 weeks
 3. **Limited group sessions** — Only 3-4 over the course
-4. **Recognition-based completion** — Still exercise-focused
+4. **Memorization-based completion** — Still exercise-focused
 
 ### When They're in the Deal
 
@@ -564,7 +560,7 @@ The in-person Dutch course market in Amsterdam alone has 15+ providers. Average 
 
 1. **Expensive** — €500-2,000 for A2 level (average ~€1,160)
 2. **Fixed schedules** — Must attend at specific times, often during work hours
-3. **Limited speaking time per person** — 8-15 students, 1 teacher = minutes of speaking per session
+3. **Limited speaking time per person** — 8-15 students, 1 teacher = limited individual speaking time per session
 4. **Location dependent** — Must travel to class (mostly Amsterdam)
 5. **Same completion model** — Still "done" when you finish the course, not when you can produce
 
@@ -719,7 +715,7 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 | Feature | Dutchwithjoost | InburgeringOnline | Inburgering.org | InburgeringPrep | Dutch Online |
 |---------|----------------|-------------------|-----------------|-----------------|--------------|
 | **All exam parts** | Yes | Yes | Yes | Yes | Yes |
-| **Production-based completion** | Yes | No | No | No | No |
+| **Learn-by-using completion** | Yes | No | No | No | No |
 | **Conversation as proof mechanism** | Yes | No | No | No | No |
 | **AI scoring** | Yes | Yes | Yes | Yes | Yes |
 | **Unlimited production practice** | Yes | Limited | Limited | Limited | Limited |
@@ -805,7 +801,7 @@ We lose when the prospect:
 
 ## Positioning Gaps We Own
 
-1. **Active production as completion criterion**: No other self-paced course requires you to use vocabulary in conversation to complete a lesson. All others complete when you finish exercises. We complete when you can produce.
+1. **Learn by using as completion criterion**: No other self-paced course requires you to use vocabulary in conversation to complete a lesson. All others complete when you finish exercises. We complete when you can produce.
 
 2. **Practice prepares, conversation proves**: Two-phase lesson structure where structured practice leads to Joost conversation. The conversation is the proof mechanism, not just another skill.
 
@@ -813,9 +809,23 @@ We lose when the prospect:
 
 4. **One-time pricing clarity**: €399 total vs. confusing subscription math. No surprise charges, no billing complaints.
 
-5. **All exam parts in one**: Covers read, listen, write, speak, and KNM together through a unified production-based pedagogy.
+5. **All exam parts in one**: Covers read, listen, write, speak, and KNM together through a unified learn-by-using pedagogy.
 
 6. **Unlimited production practice**: No scheduling, no hourly rates, make mistakes without judgment.
+
+---
+
+## General Competitive Principles
+
+1. **Never lead with competitor attacks.** Lead with our narrative. Reference competitors only when the prospect raises them or in explicit comparison contexts.
+
+2. **Acknowledge competitor strengths honestly.** Credibility comes from accurate assessment, not dismissal. "InburgeringOnline works well for exam prep" is more persuasive than "InburgeringOnline is just memorization."
+
+3. **Focus on the prospect's specific gap.** The winning competitive motion is almost always about the prospect's unmet need, not a feature-by-feature comparison.
+
+4. **Position around goals, not products.** "If your goal is X, this approach works. If your goal is Y, this other approach works." Let the prospect self-select.
+
+5. **The enemy is not competitors — it's not speaking Dutch.** We're all trying to help people integrate. Different approaches for different needs.
 
 ---
 

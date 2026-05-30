@@ -2,9 +2,7 @@
 
 > Derived from the master knowledgebase. This document uses a layered model: core motivations are universal, visa type adds specific pressures, and barrier profiles describe what's actually blocking someone.
 
-> **Companion documents:**
-> - `strategy/factual-accuracy-checklist.md` — Who needs to integrate, requirements by migrant category, exemptions
-> - `strategy/product/messaging.md` — How to describe the product when addressing persona pain points
+> **Companion document:** `strategy/factual-accuracy-checklist.md` — Who needs to integrate, requirements by migrant category, exemptions
 
 ---
 
@@ -130,7 +128,7 @@ A self-reinforcing avoidance pattern:
 
 > "Shame plays a big role when you don't speak a language. Everyone around you expects you to just know."
 
-**Product positioning that resonates**: Judgment-free AI practice. No human watching you struggle. Can make mistakes privately.
+**Product positioning that resonates**: Judgment-free practice. No human watching you struggle. Can make mistakes privately.
 
 ### Production Gap
 
@@ -143,7 +141,7 @@ Understands Dutch but can't produce it:
 
 > "I did a full A1 course. Didn't feel like I retained anything... no speaking at all."
 
-**Product positioning that resonates**: Speaking-first methodology. Production-based learning. Actually use the vocabulary, don't just recognize it.
+**Product positioning that resonates**: Learn by using the vocabulary, not just seeing it. Lessons complete when you can use the words yourself.
 
 ### Schedule Constraints
 
@@ -169,7 +167,7 @@ No one to practice speaking with:
 
 > "Your level of Dutch is native and mine is total beginner... it's hard to find the middle ground."
 
-**Product positioning that resonates**: Unlimited speaking practice built in. AI adapts to your level. Don't need to find a partner.
+**Product positioning that resonates**: Unlimited speaking practice built in. Joost speaks at your level. Don't need to find a partner.
 
 ### Prior Course Skepticism
 
@@ -326,7 +324,7 @@ These apply across persona combinations:
 | What They Say | What They Mean | How to Address |
 |---------------|----------------|----------------|
 | "€399 is a lot of money" | Need to justify expense, may not realize classroom courses cost 5-10x more | Compare to classroom pricing. Show what's included. |
-| "Can I really learn to speak without a real teacher?" | Skeptical about AI/self-paced speaking practice | Explain how speaking practice works. Unlimited and judgment-free — 10x more practice than classroom. |
+| "Can I really learn to speak without a real teacher?" | Skeptical about self-paced speaking practice | Explain how speaking practice works. Unlimited and judgment-free — more practice than classroom. |
 | "I prefer learning with other people" | Wants peer pressure and social motivation | Be honest: this isn't for everyone. Classroom provides accountability. Dutchwithjoost requires self-motivation but offers flexibility and more speaking time. |
 | "How do I know it works?" | Limited proof points, early stage | Share origin story. Co-founder built it for her own inburgering. Invite them to be part of building proof. |
 | "My Dutch partner can help me practice" | Has native speaker at home | The Dutch Partner Problem: level mismatch makes practice impossible. Partners help with questions but can't teach. |
@@ -375,6 +373,6 @@ These apply across persona combinations:
 
 **For ads**: Visa type is a useful targeting filter because it's observable. But the ad copy should speak to motivations and barriers, not visa status.
 
-**For product positioning**: Match to barrier profiles. Someone with shame cycle barrier needs judgment-free practice messaging. Someone with production gap barrier needs speaking-first methodology messaging.
+**For product positioning**: Match to barrier profiles. Someone with shame cycle barrier needs judgment-free practice messaging. Someone with production gap barrier needs learn-by-using methodology messaging.
 
 **For objection handling**: Identify which barriers are active and address those specifically. Don't use the same script for everyone.

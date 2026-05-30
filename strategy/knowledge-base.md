@@ -8,9 +8,10 @@ These standalone documents provide specialized guidance that works alongside the
 
 | Document | Purpose |
 |----------|---------|
-| `strategy/product/messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
-| `strategy/competitor-stance-addendum.md` | Per-competitor guidelines, language tables, red lines |
-| `strategy/factual-accuracy-checklist.md` | Verified facts about the exam, Dutchwithjoost, and competitors (from DUO sources) |
+| `strategy/factual-accuracy-checklist.md` | Verification workflow: official DUO sources for exam facts, costs, deadlines. Use as a checklist before publishing. |
+| `strategy/product/curriculum.md` | Full curriculum design document. Product architecture reference. |
+
+**Note:** Messaging guidelines, competitor language guides, and claims guardrails are now consolidated into this knowledge base (see Communication Guidelines and Competitive Positioning sections). Run `/sync-context` to propagate these to derived modules.
 
 ---
 
@@ -151,6 +152,50 @@ This is a pedagogical difference, not a scope difference. We cover the same exam
 - **KNM**: Kennis van de Nederlandse Maatschappij — the knowledge of Dutch society exam, one of the inburgering components.
 - **BSN**: Burgerservicenummer — Dutch citizen service number. BSN registration date determines whether A2 or B1 is required.
 
+#### The Two Integration Laws
+
+There are two integration laws currently in effect. Which one applies depends on when someone became required to integrate:
+
+| Law | Applies to | Key differences |
+|-----|-----------|-----------------|
+| **Wet inburgering 2013** | People who became required to integrate before 1 Jan 2022 | Self-study option, A2 standard, ONA requirement |
+| **Wet inburgering 2021** | People who became required to integrate from 1 Jan 2022 onwards | Municipality assigns learning track, B1 often required, MAP instead of ONA |
+
+**2013 Act requirements:**
+- 4 language exams at A2 + KNM
+- ONA (Orientation Dutch Labour Market) — if required to integrate from 1 Jan 2015 onwards
+- PVT (Participation Statement) — if required to integrate from 1 Oct 2017 onwards
+
+**2021 Act learning tracks:**
+
+| Track | Target level | Description |
+|-------|--------------|-------------|
+| B1 track | B1 | For people aiming for work; must take exams at B1 level |
+| Education track (O) | B1 | For young people preparing for MBO/HBO/university |
+| Self-reliance track (Z) | A1 (A2 optional) | For people who find B1 too challenging; ends with municipality interview |
+
+**Key point for content:** Under the 2021 Act, most people must achieve B1, not A2. Only people on the Z track have A2 as optional.
+
+#### ONA vs MAP (Don't Confuse These)
+
+- **ONA (Orientation on the Dutch Labour Market):** Required under 2013 Act (for those integrating from 1 Jan 2015 or later)
+- **MAP (Module Labour Market and Participation):** Required under 2021 Act, taken with municipality (not DUO)
+
+These are different requirements under different laws. Do not conflate them.
+
+#### Exemptions and Dispensations
+
+**Full exemption (no exams required):**
+- Dutch diploma (from NL, Belgium Dutch-language, or Suriname Dutch-language)
+- Serious illness or disability (requires medical documentation)
+- Lived in NL 10+ years, worked 5+ years
+- Reached AOW pension age
+- Completed 600+ hours of course (2013 Act only) plus evidence of exam attempts
+
+**Partial exemption (fewer exams):**
+- Nt2 certificate/diploma (B1 or B2) — exempts language exams, not KNM
+- Worked in NL 6+ months in past year — exempts ONA only (2013 Act)
+
 ### Key Concepts
 
 **Practice prepares, conversation proves**: The core learning loop. Structured practice (read/speak, listen/speak, write) gives you the material. Conversation with Joost proves you can actually use it. Other courses stop at practice. We require production.
@@ -164,6 +209,50 @@ This is a pedagogical difference, not a scope difference. We cover the same exam
 **Spaced repetition built-in**: Practice sessions include review of earlier material. You meet vocabulary multiple times across sessions before relying on it in conversation.
 
 **Confidence before conversation**: Real-world Dutch conversations are high-stakes — you feel judged, you freeze up, you switch to English. Hundreds of low-stakes practice moments with Joost build confidence first.
+
+### Common Factual Errors to Avoid
+
+These errors have appeared in content and must be caught during editing.
+
+#### Error 1: "The exam only tests recognition"
+
+**Wrong:** "The inburgering exam only tests whether you can recognize correct answers."
+
+**Correct:** "The inburgering exam tests both recognition AND production. The speaking and writing exams require you to produce Dutch, not just recognize correct answers."
+
+**Why this matters:** The speaking exam explicitly requires speaking Dutch, and the writing exam requires producing written text.
+
+#### Error 2: Confusing A2 with B1 requirements
+
+**Wrong:** "Everyone must pass the exam at A2 level."
+
+**Correct:** "Under the 2013 Act, the standard requirement is A2. Under the 2021 Act, your required level depends on your learning track (B1 track requires B1; self-reliance track requires A1 with optional A2)."
+
+#### Error 3: Mentioning only A2 when content applies to both A2 and B1
+
+**Wrong:** "This experience is common among expats preparing for the A2 inburgering exam."
+
+**Correct:** "This experience is common among expats preparing for the A2 or B1 inburgering exam."
+
+**Why this matters:** Under the 2021 Act, many people are required to pass at B1 level (not A2). Content about the recognition-production gap, speaking practice, or course selection applies to both levels. Always include "A2 or B1" unless you're specifically discussing A2-only requirements.
+
+#### Error 4: Overstating the speaking exam difficulty
+
+**Wrong:** "The speaking exam is the hardest part."
+
+**Correct:** "Many people find the speaking exam challenging because it requires producing Dutch under time pressure."
+
+**Why:** "Hardest" is a subjective claim. What's hard varies by person. The phrasing "many people find it challenging" is more accurate.
+
+#### Error 5: Misrepresenting exam format
+
+**Wrong:** "The writing exam is on a computer."
+
+**Correct:** "The writing exam at A2 level is done with pen and paper." (Per DUO: "Het examen Schrijven op niveau A2 maakt u met pen en papier.")
+
+#### Error 6: Confusing ONA and MAP
+
+See "ONA vs MAP" in Key Terminology above. These are different requirements under different laws.
 
 ---
 
@@ -557,6 +646,213 @@ Avoid words that imply competitors took shortcuts: "straightforward," "simple," 
 | Seamless | Describe the actual experience | Vague |
 | Master Dutch in X days | Build real Dutch skills | Overpromising |
 
+### Product Descriptions (Approved Versions)
+
+Use these one-sentence descriptions consistently across all content:
+
+**Primary (outcome-focused):**
+Dutchwithjoost teaches you Dutch you can actually use in daily life. The A2 inburgering exam becomes straightforward because you've learned the language, not just memorized answers.
+
+**Alternative (method + outcome):**
+Dutchwithjoost teaches Dutch through practical conversations, so you pass the A2 inburgering exam because you've learned the language.
+
+**Alternative (comprehensive):**
+Dutchwithjoost teaches you Dutch you can actually use, covering all five exam parts (reading, listening, writing, speaking, KNM). The exam becomes a natural result of what you've learned.
+
+### Lesson Description Phrasings
+
+**Approved phrasings (use these):**
+
+- "You practice the vocabulary, then use it in conversation"
+- "Lessons complete when you can have conversations on the topic"
+- "Joost speaks at your level and only uses words you've already practiced"
+- "Each lesson teaches you to handle an everyday situation in Dutch"
+- "The conversation changes based on what you say. It's not repeating a script."
+- "You learn all five exam parts together, not as separate modules"
+- "For each sentence, you read it, listen to it, then write it — all three before moving on"
+- "Practice sessions mix new material with review"
+- "Conversation unlocks after you've practiced the basics"
+- "A word counts as learned when you've used it in conversation, not when you've seen it"
+
+**Avoid these phrasings:**
+
+- "Use each word in sentences before moving on" (too vague, doesn't land)
+- "Production-based learning" (jargon)
+- "Active recall" (jargon)
+- "Spaced repetition" (jargon, unless explaining the method)
+- "Real conversations" (implies human conversation partner)
+- "3 practice sessions to unlock" (too implementation-specific for content)
+- "2 successful uses = learned" (too implementation-specific for content)
+
+**How to describe Joost:**
+
+- "Joost speaks at your level"
+- "Joost only uses words you've already practiced"
+- "You can practice whenever you want, as much as you want"
+- "You can make mistakes without anyone watching or switching to English"
+
+Avoid:
+- "AI tutor" without explanation (sounds cold)
+- "Chatbot" (sounds basic)
+- "Unlimited AI conversations" (sounds like a feature, not a benefit)
+
+### Pain Point to Messaging Map
+
+Use this when threading product messaging into content about specific topics.
+
+#### Speaking Dutch / conversation practice
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I can understand but can't speak" | Lessons complete based on conversation use, not exercises |
+| "Native speakers switch to English" | Joost speaks at your level, doesn't switch |
+| "I'm scared to make mistakes" | Conversation feedback is non-blocking, corrections available but optional |
+| "I don't get enough speaking practice" | Unlimited conversation practice on your schedule |
+| "Speaking practice is expensive" | One price, unlimited practice vs. per-hour tutoring |
+
+#### Pronunciation
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I don't know what I'm doing wrong" | Feedback shows which specific words need work |
+| "I can't hear my own mistakes" | Replay your recording, compare word by word |
+| "Feedback feels arbitrary" | See pronunciation and completeness scores, adjust strictness |
+| "Apps just say 'try again'" | See exactly what to fix, not just pass/fail |
+
+#### Writing Dutch
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "Apps just mark me wrong without helping" | Feedback acknowledges what's correct, guides you to fix one thing |
+| "I learn better when I figure it out myself" | Hints help you discover the answer, not just reveal it |
+| "My Dutch was correct but marked wrong" | Correct Dutch with different words acknowledged, asked to use lesson vocabulary |
+
+#### Exam preparation / inburgering
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I passed but can't actually speak Dutch" | Lessons require conversation use, not just recognition |
+| "I'm worried about the speaking exam" | You practice speaking from lesson 1, not as a separate module |
+| "I don't know if I'm ready" | Lesson completes when you've demonstrated vocabulary use |
+| "Other courses feel like memorization" | Two approaches exist — describe both, let reader choose |
+
+#### Self-study / structure
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I don't know what to study next" | Course guides you step by step |
+| "I forget what I learned" | Practice sessions mix new material with review |
+| "I need accountability" | Clear progress, lessons complete based on demonstrated ability |
+| "ChatGPT doesn't give me structure" | Curriculum covers what you need, conversation practice built in |
+
+#### Learning Dutch as an adult / expat
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "Dutch people speak too fast" | Joost speaks at your level |
+| "My partner can't teach me" | Native speakers can't slow down to match your level |
+| "I don't have time for classes" | Practice whenever you want, any amount |
+| "Classes don't give me enough speaking time" | Unlimited speaking practice vs. time divided among students |
+
+### Quick Reference: Approved vs Prohibited Language
+
+| Prohibited | Approved alternative |
+|------------|---------------------|
+| "Use each word in sentences before moving on" | "Lessons complete when you can have conversations on the topic" |
+| "Production-based learning" | "You learn by using the vocabulary, not just seeing it" |
+| "Memorization courses" (as dismissive) | "Memorization-based courses" (neutral) or describe what they do |
+| "Just exercises" / "clicking through screens" | Describe what their approach does, not how it feels |
+| "Track record" comparisons | Do not mention |
+| "Newer course" | Do not mention |
+| "Faster/slower" | Do not compare speed |
+| "The exam only tests recognition" | "The exam tests both recognition and production" |
+| "Easy to build" (about competitors) | Do not say |
+| "Cheat sheet to the exam" | Do not say |
+| "AI tutor" (without context) | "Joost, a conversation partner who speaks at your level" |
+| "Real conversations" | "Practical conversations" or "everyday conversations" |
+| "AI-powered" / "AI conversation" | Describe what Joost does, not what technology powers it |
+| "Progress = words you can use" | "Progress = situations you can handle in Dutch" |
+| "AI speech recognition" | "Shows which specific words need work" |
+| "Real-time correction" | "Feedback appears beside your message" or describe what happens |
+| "Intelligent feedback" | Describe specifically what the feedback does |
+| "Corrects your grammar" (in conversation) | "Grammar coaching available but doesn't interrupt" |
+
+### Claims Guardrails
+
+#### Claims We Can Make
+
+**Factual claims (verifiable):**
+
+- 43 lessons covering A1 to A2
+- Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM
+- €399 one-time payment, 5-year access
+- Exam Pass Guarantee: complete all lessons, fail the exam, get refunded
+- Practice anytime, on your own schedule
+- Feedback on grammar, comprehension, and pronunciation
+- Pronunciation feedback shows which specific words need work
+- You can replay your own recordings and compare to correct pronunciation
+- Writing feedback guides you to the answer instead of just showing it
+- Conversation feedback is available but doesn't interrupt the flow
+
+**Experience claims (supported by user feedback):**
+
+- You learn vocabulary by using it in conversation
+- You learn sentence structure, grammar, and situational communication together
+- Joost speaks at your level
+- The course is guided. You know what to do next.
+- You can practice speaking as much as you want
+- The conversation changes based on what you say. It's not repeating a script.
+- "The words that you learn, you use" (can attribute to "one learner")
+
+**Outcome claims (careful framing needed):**
+
+Can say:
+- "Prepares you for all 5 parts of the A2 inburgering exam: reading, listening, writing, speaking, and KNM"
+- "You learn all five exam parts together, not as separate modules"
+- "The exam becomes straightforward because you've actually learned the language"
+- "You pass the exam because you can actually use Dutch"
+- "We're confident enough to offer an exam pass guarantee"
+
+#### Claims We Cannot Make
+
+**About the exam:**
+- Do NOT say "the exam only tests recognition" — it tests both recognition AND production
+- Do NOT say "the speaking exam is the hardest" as absolute fact — say "many people find the speaking exam challenging"
+
+**About competitors:**
+- Do NOT say their courses are "easy to make" or "cheaper to scale"
+- Do NOT say they "only" do memorization (implies limitation without evidence)
+- Do NOT mention that we have less track record or are newer
+- Do NOT assume their intentions ("they treat speaking as one more thing to cram")
+
+**About speed:**
+- Do NOT say we are faster or slower than alternatives
+- Do NOT say memorization is "faster for passing" (implies we are slower)
+
+**About completion:**
+- Do NOT say "exercises" or "clicking through screens" as negatives — this talks down on other courses
+- DO describe what each approach does: memorization-based courses teach through memorizing vocabulary and rules; Dutchwithjoost teaches through practicing conversations
+- Be precise: "A lesson completes when you can have conversations on the topic"
+- Do NOT reduce it to just "vocabulary" — you're learning sentence structure, grammar, and situational communication together
+
+**About outcomes:**
+- "You will pass" — guarantee has conditions
+- "Faster than other courses" — depends on the person
+- "You will be fluent" — A2 is not fluency
+- "The exam becomes easy" — use "straightforward" instead
+
+#### Feedback Feature Claims
+
+| Feature | Can say | Cannot say |
+|---------|---------|------------|
+| Pronunciation feedback | "Shows which specific words need work" | "Perfect pronunciation scoring" |
+| Recording playback | "Replay your own recording and compare to correct" | "AI analyzes your speech" |
+| Writing feedback | "Guides you to discover the answer" | "Corrects all grammar mistakes" |
+| Target word feedback | "Acknowledges correct Dutch, asks for specific vocabulary" | "Accepts any correct answer" |
+| Conversation feedback | "Available but not blocking" | "Real-time correction" |
+| Comprehension check | "Shows whether you answered meaningfully" | "Grades your response" |
+| Pattern feedback | "Highlights recurring habits after conversation" | "Tracks all your mistakes" |
+
 ---
 
 ## Proof Points
@@ -801,3 +1097,156 @@ When giving advice (e.g., "What to look for in a Dutch course"), criteria must b
 | **Citizenship ≠ just passing** | "I don't feel I deserve that passport if I don't speak" | "Why passing the exam isn't enough to feel Dutch" |
 | **Normalized non-fluency** | "People don't even expect A2 means conversation" | "The dirty secret of A2: why most people can't speak after passing" |
 | **Taalcafe reality** | Different levels, not teachers, "mumbling together" | "Why language cafes don't work (and what does)" |
+
+### Red Lines (Never Cross)
+
+These are absolute prohibitions when writing about competitors:
+
+1. **Never claim competitors don't work.** People pass with every approach.
+
+2. **Never mock competitor methods.** "Clicking through screens" and "just memorization" are dismissive.
+
+3. **Never compare track record.** We're newer. Don't mention it.
+
+4. **Never compare speed.** "Faster" or "slower" claims are unverifiable.
+
+5. **Never assume competitor intentions.** We don't know why they built their course the way they did.
+
+6. **Never use user complaints as attacks.** Trustpilot complaints are about billing issues, not learning quality. Using them as ammunition is unfair.
+
+7. **Never say "we're the only course that..."** It's almost always false and sounds arrogant.
+
+8. **Never position competitors as the enemy.** The enemy is not speaking Dutch. Competitors are just different approaches to the same goal.
+
+9. **Never imply competitor courses are "easy to build" or that they took shortcuts.** Phrases to avoid:
+   - "easier to build and assess"
+   - "straightforward to create and grade"
+   - "optimize for what's easy to deliver"
+   - "courses favor X because it's easier"
+
+   Instead, simply state what those courses train without explaining *why* they were built that way.
+
+### Per-Competitor Language Guides
+
+#### InburgeringOnline
+
+| Do NOT say | Say instead |
+|------------|-------------|
+| "Just memorization" | "Memorization-based approach" |
+| "Clicking through screens" | "Video lessons and practice exercises" |
+| "Easy to build" | Do not mention |
+| "They focus on quantity over quality" | Do not say (judgmental) |
+| "Cheat sheet to the exam" | Do not say (too harsh) |
+| "They have more track record than us" | Do not mention track record comparison |
+| "We're newer" | Do not mention |
+| "Their approach is faster" | Do not compare speed |
+| "They only teach you to pass" | "Their approach focuses on exam preparation" |
+
+**When to mention:**
+
+| Content type | Mention by name? | How to frame |
+|--------------|------------------|--------------|
+| Comparison article | Yes | Neutral side-by-side |
+| "Best inburgering courses" roundup | Yes | As one option among several |
+| "Why speaking practice matters" | No | Reference "memorization-based courses" generally |
+| Thought leadership | No | Do not mention competitors |
+
+#### Duolingo
+
+| Do NOT say | Say instead |
+|------------|-------------|
+| "Useless for inburgering" | "Not designed for inburgering" |
+| "Just a game" | "Gamified learning app" |
+| "You'll learn nothing useful" | "Focuses on vocabulary basics" |
+| "Waste of time" | "Good for habit building, limited for exam prep" |
+
+#### Classroom Courses
+
+| Do NOT say | Say instead |
+|------------|-------------|
+| "Expensive" | State the price range, let readers judge |
+| "Rigid schedules" | "Fixed schedules" |
+| "You only get 5 minutes of speaking time" | "Speaking time is divided among students" |
+| "Outdated" | Do not say |
+| "You're just a number" | Do not say |
+| "Teachers aren't qualified" | Do not say (often untrue) |
+
+#### Generic AI Tools (ChatGPT, etc.)
+
+| Do NOT say | Say instead |
+|------------|-------------|
+| "Random practice" | "Unstructured conversation practice" |
+| "AI doesn't work" | "AI doesn't follow a curriculum" |
+| "You can't learn from AI" | "AI practice works best alongside structured learning" |
+| "Chatbots are basic" | "General-purpose AI isn't designed for exam prep" |
+
+**Critical warning:** Do NOT include quotes like "I passed all exams with AI alone" in content. This undermines our positioning.
+
+### Handling Common Competitor Questions
+
+**"Is InburgeringOnline good?"**
+Fair answer: "InburgeringOnline works well for exam preparation. They have good reviews and many people have passed using their course. Their approach focuses on memorization and mock exams. If speaking practice is a priority for you, that's where Dutchwithjoost differs."
+
+**"Should I use Duolingo for inburgering?"**
+Fair answer: "Duolingo isn't designed for the inburgering exam. It won't cover KNM and doesn't match the exam format. It can help build a daily habit and learn basic vocabulary. Many people use it alongside other preparation."
+
+**"Are classroom courses worth the money?"**
+Fair answer: "Classroom courses are worth it if you value a social environment, human teacher, and fixed schedule. They typically cost €500-2,000 for A2. Speaking time is divided among students. If you want more individual practice time and flexible scheduling, self-paced options may fit better."
+
+**"Can I just use ChatGPT?"**
+Fair answer: "You can practice conversation with ChatGPT. It won't teach you what you need for the KNM section or follow a curriculum. Some people use AI alongside structured learning. If you want guidance on what to learn and when, a course with a curriculum helps."
+
+### Verified Competitor Facts (Check Before Publishing)
+
+These facts must be verified on competitor websites before publishing. Prices and ratings change.
+
+**InburgeringOnline:**
+
+| Fact | Value | Verification needed? |
+|------|-------|---------------------|
+| Pricing | €24.95 - €34.95/month (subscription) | Check their website before publishing |
+| Trustpilot rating | ~4.4 stars | Check current rating before publishing |
+| Method | Video lessons, practice exercises, mock exams | Verified from website |
+| Coverage | All exam components | Verified |
+| Endorsed by | DutchReview recommends them | Verified |
+
+**Duolingo:**
+
+| Fact | Value |
+|------|-------|
+| Price | Free (with ads) or Plus subscription |
+| Inburgering-specific content | No |
+| KNM coverage | No |
+| Speaking practice | Minimal (repeat-after-me style) |
+| Gamification | Strong (streaks, XP, leaderboards) |
+
+**Classroom Courses:**
+
+| Fact | Typical range |
+|------|---------------|
+| Price | €500 - €2,000 for A2 level |
+| Format | Scheduled group sessions |
+| Class size | 8-15 students typically |
+| Duration | 3-6 months typically |
+| Human teacher | Yes |
+
+**Generic AI Tools:**
+
+| Fact | Value |
+|------|-------|
+| Price | Free or subscription |
+| Curriculum | None (open-ended) |
+| Exam-specific content | None |
+| Conversation ability | Yes (unlimited) |
+| Dutch accuracy | Generally good, occasional errors |
+
+### Quick Reference: Per-Competitor Summary
+
+| Competitor | Name directly? | Key distinction | What to acknowledge |
+|------------|----------------|-----------------|---------------------|
+| InburgeringOnline | Yes in comparison content | Exam prep focus vs. conversation focus | Track record, comprehensive coverage |
+| Duolingo | Yes | Not designed for inburgering | Habit building, low barrier |
+| Classroom courses | General term OK | Fixed schedule vs. flexible | Human teacher, social environment |
+| ChatGPT/AI | General term OK | Unstructured vs. curriculum | Unlimited practice, free |
+| Free resources | Mention DUO practice exams | Supplement vs. complete solution | Accessibility, official practice exams |
+| Babbel/Pimsleur | Only if asked | General Dutch vs. exam prep | Quality for general learning |

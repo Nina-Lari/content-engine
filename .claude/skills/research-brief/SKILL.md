@@ -16,11 +16,10 @@ User invokes `/research-brief`.
 - `strategy/icp.md` -- audience definition and firmographic filters
 - `strategy/personas.md` -- persona pain mapping and messaging
 - `strategy/competitive-landscape.md` -- competitive gaps and positioning opportunities
-- `strategy/product/messaging.md` -- product differentiators, claims we can make, value props
 - `customer-intelligence/insights/*.json` -- all structured insight files
 - `customer-intelligence/transcripts/` -- optional, for additional context mining
 
-Does NOT read: `positioning.md`, `voice-guide.md`, `knowledge-base.md`, `proof-library/`, or detailed product docs (`product/curriculum.md`, `product/feedback-coaching.md`).
+Does NOT read: `positioning.md`, `voice-guide.md`, `knowledge-base.md`, `proof-library/
 
 ## Input
 
@@ -41,7 +40,6 @@ Read these files (skip any that do not exist, but warn):
 1. `strategy/icp.md`
 2. `strategy/personas.md`
 3. `strategy/competitive-landscape.md`
-4. `strategy/product/messaging.md`
 
 ### Step 2: Load intelligence
 
