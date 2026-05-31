@@ -1,0 +1,210 @@
+{
+  "call_meta": {
+    "company": "Anna (individual learner)",
+    "persona": "Former work-visa professional (ex-semiconductor/tech), now self-employed solopreneur and new mother. Career + Family motivations primary, Belonging secondary. Barriers: Production gap, Prior course skepticism, Shame cycle, Schedule constraints (newborn). Not on the inburgering track.",
+    "industry": "Previously semiconductor/tech (large Dutch employer); now social media content creation (solo founder)",
+    "company_size": "Solo (1)",
+    "deal_stage": "discovery",
+    "call_date": null,
+    "participants": ["interviewer", "prospect -- former tech worker, now self-employed new mother"]
+  },
+  "jtbd": [
+    {
+      "job": "Stop being rejected from jobs for not speaking Dutch",
+      "desired_outcome": "Land work that currently requires Dutch; remove the language barrier blocking every application",
+      "current_approach": "Applying and getting denied repeatedly; trying to build her own business instead"
+    },
+    {
+      "job": "Actually speak and understand spoken Dutch, not just do grammar",
+      "desired_outcome": "Produce and comprehend real Dutch, not pass grammar exercises she doesn't understand",
+      "current_approach": "Strong at grammar drills but frozen on speaking and listening; Duolingo gave nothing usable"
+    },
+    {
+      "job": "Be able to talk to and understand her child in Dutch",
+      "desired_outcome": "Communicate with her son as he grows up Dutch-speaking",
+      "current_approach": "None yet -- anticipating the future need"
+    },
+    {
+      "job": "Not be silently excluded at work and socially",
+      "desired_outcome": "Be included by Dutch-speaking colleagues instead of isolated",
+      "current_approach": "Endured silent exclusion on an all-Dutch team until her contract ended"
+    }
+  ],
+  "pains": [
+    {
+      "pain": "Silent exclusion on an all-Dutch team led to isolation and job loss",
+      "trigger": "Hired without a Dutch requirement onto a team of older Dutch colleagues who switched dynamics; employer dropped the Dutch requirement two years ago",
+      "cost": "Felt increasingly isolated; contract not renewed (during pregnancy)",
+      "urgency": "high",
+      "verbatim": null
+    },
+    {
+      "pain": "Repeatedly denied jobs for lack of Dutch despite real effort",
+      "trigger": "Applying for jobs in the Netherlands",
+      "cost": "Believes Dutch would open doors currently closed to her",
+      "urgency": "high",
+      "verbatim": null
+    },
+    {
+      "pain": "Production gap -- can do grammar but can't speak or understand",
+      "trigger": "Trying to actually use Dutch beyond exercises",
+      "cost": "Can complete grammar correctly without comprehending the text; speaking and listening feel impossible",
+      "urgency": "medium",
+      "verbatim": "I can only say: I have a green apple."
+    },
+    {
+      "pain": "Shame and self-blame -- believes she is simply bad at languages",
+      "trigger": "Comparing herself to others who seem to 'just know' the rules",
+      "cost": "Demoralized; assumes others have an intuition she lacks",
+      "urgency": "medium",
+      "verbatim": null
+    },
+    {
+      "pain": "Anger at unrealistic expectations and an illogical language",
+      "trigger": "Dutch people's reactions to her language learning; the het/de rules",
+      "cost": "Feels judged with no acknowledgment of how hard Dutch is",
+      "urgency": "medium",
+      "verbatim": "Even dutch people themselves don't know when to use het or de, how am I supposed to know."
+    },
+    {
+      "pain": "No time to commit -- newborn and sleep deprivation",
+      "trigger": "Four-month-old baby",
+      "cost": "Cannot start now; knows she won't have time soon",
+      "urgency": "low",
+      "verbatim": null
+    },
+    {
+      "pain": "Resentment of subscriptions she can't use or cancel",
+      "trigger": "Three business-tool subscriptions she pays for but doesn't use; cancelling and re-subscribing would cost more",
+      "cost": "Wasted money; wary of taking on another subscription",
+      "urgency": "low",
+      "verbatim": null
+    }
+  ],
+  "workflow_reality": {
+    "current_process": "Self-study via Duolingo with no usable result; previously took an employer-paid classroom course but quit after three classes",
+    "tools_used": ["Duolingo", "employer-provided classroom course"],
+    "brittleness": "Classroom failed on a teacher who made her feel infantilized; Duolingo produced no usable output; now no time at all because of the baby",
+    "workarounds": ["Drilling grammar (her one strength)", "Following brands on Instagram/Facebook to stay reminded they exist for later"]
+  },
+  "alternatives_and_competitors": [
+    {
+      "name": "Duolingo",
+      "type": "adjacent_tool",
+      "sentiment": "negative",
+      "context": "Used it but learned nothing useful -- can only produce a single canned phrase",
+      "known_competitor": true
+    },
+    {
+      "name": "Employer-provided classroom course",
+      "type": "direct_competitor",
+      "sentiment": "negative",
+      "context": "Quit after three classes -- hated the teacher, felt treated like a child; refused to stay even for a certificate",
+      "known_competitor": true
+    },
+    {
+      "name": "Business-tool subscriptions (general)",
+      "type": "status_quo",
+      "sentiment": "negative",
+      "context": "Stuck paying for unused subscriptions -- shapes her wariness of subscription pricing",
+      "known_competitor": false
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I can only say: I have a green apple.",
+      "speaker": "prospect -- new mother, self-employed",
+      "context": "On what Duolingo actually taught her",
+      "themes": ["production gap", "Duolingo", "useless phrases"]
+    },
+    {
+      "text": "Even dutch people themselves don't know when to use het or de, how am I supposed to know.",
+      "speaker": "prospect -- new mother, self-employed",
+      "context": "Venting about how illogical and unfairly expected the language feels",
+      "themes": ["language difficulty", "unrealistic expectations", "frustration"]
+    },
+    {
+      "text": "She feels she is just very bad at it. She thinks other people just have an intuition for it and she does not.",
+      "speaker": "interviewer (paraphrase of prospect)",
+      "context": "Describing her self-blame about language learning",
+      "themes": ["shame", "self-blame", "everyone-assumes-they-are-the-problem"]
+    }
+  ],
+  "lexicon": {
+    "category_terms": ["grammar", "speaking", "listening", "het or de", "certificate"],
+    "value_language": ["open doors to job opportunities", "speak to him in dutch", "understand him"],
+    "deviant_terms": ["silent exclusion", "I have a green apple", "intuition", "treated like a kid"]
+  },
+  "keyword_candidates": [
+    {
+      "keyword": "good at Dutch grammar but can't speak",
+      "type": "jtbd",
+      "source_context": "Can complete grammar correctly without understanding; speaking and listening feel impossible",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 7,
+        "mini_volume": 5,
+        "authority_fit": 8,
+        "weighted_total": 7.3
+      }
+    },
+    {
+      "keyword": "can't get a job in the Netherlands without Dutch",
+      "type": "category",
+      "source_context": "Repeated job denials and silent workplace exclusion tied to language",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 6,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 6,
+        "weighted_total": 6.45
+      }
+    },
+    {
+      "keyword": "why Duolingo doesn't work for learning Dutch",
+      "type": "comparison",
+      "source_context": "Duolingo produced only a single unusable phrase",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 6.4
+      }
+    },
+    {
+      "keyword": "how to learn Dutch with a baby and no time",
+      "type": "jtbd",
+      "source_context": "Newborn and sleep deprivation block any fixed commitment",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 5,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 6.15
+      }
+    },
+    {
+      "keyword": "feeling excluded at work for not speaking Dutch",
+      "type": "long_tail",
+      "source_context": "Silent exclusion on an all-Dutch team",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 6,
+        "serp_weakness": 8,
+        "business_priority": 5,
+        "mini_volume": 4,
+        "authority_fit": 6,
+        "weighted_total": 5.65
+      }
+    }
+  ]
+}

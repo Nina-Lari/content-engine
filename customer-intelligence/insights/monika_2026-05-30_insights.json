@@ -1,0 +1,244 @@
+{
+  "call_meta": {
+    "company": "Monika (individual learner)",
+    "persona": "Polish (EU) freelance illustrator, four years in the Netherlands, settling. Belonging + Career (winning Dutch clients) + Integration motivations. Barriers: Production gap (pronunciation), Prior course skepticism, budget. As an EU national she is outside the inburgering ICP, but she is a strong fit for the broader 'want to actually speak Dutch' market. No legal deadline; timing blocked until around October.",
+    "industry": "Illustration / freelance creative",
+    "company_size": "Solo freelancer (1)",
+    "deal_stage": "discovery",
+    "call_date": null,
+    "participants": ["interviewer", "prospect -- Polish freelance illustrator, 4 years in NL"]
+  },
+  "jtbd": [
+    {
+      "job": "Reach functional Dutch for small talk with clients",
+      "desired_outcome": "Win more Dutch clients by being able to make small talk and do business in Dutch",
+      "current_approach": "Avoids speaking; understands a lot but can't produce it"
+    },
+    {
+      "job": "Integrate and meet non-expat Dutch people",
+      "desired_outcome": "Feel part of the community now that she has decided to settle; build connections beyond the expat circle",
+      "current_approach": "Spends time with Dutch people to absorb vocabulary informally"
+    },
+    {
+      "job": "Handle everyday situations in Dutch",
+      "desired_outcome": "Manage interactions like calling the doctor without freezing",
+      "current_approach": "Struggles -- couldn't pronounce the doctor's surname on a recent call"
+    },
+    {
+      "job": "Overcome the pronunciation block",
+      "desired_outcome": "Produce Dutch sounds she currently can't, despite understanding the words",
+      "current_approach": "No method is working; says her brain can't work around pronunciation"
+    }
+  ],
+  "pains": [
+    {
+      "pain": "Production and pronunciation gap -- understands but can't speak",
+      "trigger": "Real situations like phoning the doctor",
+      "cost": "Can't function in spoken Dutch; embarrassment; pronunciation feels impossible",
+      "urgency": "medium",
+      "verbatim": "My vocabulary is okayish, I understand a lot, but speaking and pronounciation is... NNNO. This is something that my brain just cannot work around."
+    },
+    {
+      "pain": "People instantly switch to English when she tries",
+      "trigger": "Speaking slowly in public",
+      "cost": "No chance to practice; discouragement",
+      "urgency": "medium",
+      "verbatim": null
+    },
+    {
+      "pain": "Course content was mismatched and condescending",
+      "trigger": "Two lessons at the public library",
+      "cost": "Quit after two lessons; content aimed at manual-labor scenarios irrelevant to her",
+      "urgency": "medium",
+      "verbatim": "The sentences they were teaching were like: Hello, my name is Monika, I'm here to clean your room... NOPE."
+    },
+    {
+      "pain": "Duolingo taught useless phrases",
+      "trigger": "Starting with Duolingo",
+      "cost": "Wasted effort on phrases she'd never use",
+      "urgency": "low",
+      "verbatim": "I learned how to say phrases like: my elephant is green. Where am I gonna use this?"
+    },
+    {
+      "pain": "Private tutoring is out of budget",
+      "trigger": "Considered a tutor",
+      "cost": "Ruled out as unaffordable",
+      "urgency": "low",
+      "verbatim": null
+    },
+    {
+      "pain": "Dutch feels illogical and demoralizing",
+      "trigger": "Pronunciation difficulty and grammar inversions",
+      "cost": "Calls Dutch her 'nightmare'; harder than other languages she learned",
+      "urgency": "medium",
+      "verbatim": "This language is NOT logical."
+    },
+    {
+      "pain": "Limited possibilities -- fewer Dutch clients",
+      "trigger": "Settling and wanting Dutch customers",
+      "cost": "Feels her freelance prospects are limited because some clients prefer Dutch",
+      "urgency": "medium",
+      "verbatim": "This is limiting my possibilities."
+    },
+    {
+      "pain": "Too busy to start now",
+      "trigger": "Moving to a new apartment and getting her driving license",
+      "cost": "Can't begin a course before around October",
+      "urgency": "low",
+      "verbatim": null
+    }
+  ],
+  "workflow_reality": {
+    "current_process": "Informal pickup -- spends time with Dutch people to absorb vocabulary; tried Duolingo, YouTube videos, and two library lessons, all abandoned",
+    "tools_used": ["Duolingo", "YouTube basic-Dutch videos", "public library (bibliotheek) lessons"],
+    "brittleness": "Speaking and pronunciation; people switch to English; courses pitched at the wrong level and audience; tutoring unaffordable",
+    "workarounds": ["Spending time with Dutch people to absorb vocabulary informally"]
+  },
+  "alternatives_and_competitors": [
+    {
+      "name": "Duolingo",
+      "type": "adjacent_tool",
+      "sentiment": "negative",
+      "context": "Hated it -- taught useless phrases like 'my elephant is green'",
+      "known_competitor": true
+    },
+    {
+      "name": "YouTube basic-Dutch videos",
+      "type": "adjacent_tool",
+      "sentiment": "neutral",
+      "context": "Tried as a free supplement; no lasting result",
+      "known_competitor": true
+    },
+    {
+      "name": "Public library (bibliotheek) lessons",
+      "type": "status_quo",
+      "sentiment": "negative",
+      "context": "Quit after two lessons -- content aimed at cleaners/construction workers, bad atmosphere",
+      "known_competitor": false
+    },
+    {
+      "name": "Private tutor",
+      "type": "direct_competitor",
+      "sentiment": "negative",
+      "context": "Considered but ruled out as too expensive for her budget",
+      "known_competitor": true
+    }
+  ],
+  "quotes": [
+    {
+      "text": "After 4 years here, my Dutch is still inexistent. I speak 2 languages fluently: English and Polish, and a little Spanish, which was way easier... Dutch is my nightmare, it's soooo difficult to pronounce.",
+      "speaker": "prospect -- Polish freelance illustrator",
+      "context": "Opening lament about how hard Dutch has been compared to other languages",
+      "themes": ["pronunciation", "language difficulty", "long-term stalled"]
+    },
+    {
+      "text": "My vocabulary is okayish, I understand a lot, but speaking and pronounciation is... NNNO. This is something that my brain just cannot work around.",
+      "speaker": "prospect -- Polish freelance illustrator",
+      "context": "Describing the recognition-vs-production gap",
+      "themes": ["production gap", "pronunciation", "self-blame"]
+    },
+    {
+      "text": "I learned how to say phrases like: my elephant is green. Where am I gonna use this?",
+      "speaker": "prospect -- Polish freelance illustrator",
+      "context": "On why Duolingo failed her",
+      "themes": ["Duolingo", "useless phrases", "everyday usefulness"]
+    },
+    {
+      "text": "I just want to feel like part of the community especially now that we decided to settle. I want to speak Dutch and meet people who are not expats. This is limiting my possibilities.",
+      "speaker": "prospect -- Polish freelance illustrator",
+      "context": "Her core motivation -- belonging plus winning Dutch clients",
+      "themes": ["belonging", "settle", "career", "integration"]
+    }
+  ],
+  "lexicon": {
+    "category_terms": ["pronunciation", "grammar inversions", "functional Dutch", "small talk", "vocabulary"],
+    "value_language": ["functional Dutch", "part of the community", "Dutch clients", "Dutch customers", "meet people who are not expats"],
+    "deviant_terms": ["this language is NOT logical", "Dutch is my nightmare", "my brain just cannot work around", "inversions"]
+  },
+  "keyword_candidates": [
+    {
+      "keyword": "understand Dutch but can't speak it",
+      "type": "jtbd",
+      "source_context": "Okay vocabulary and comprehension but speaking and pronunciation feel impossible",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.4
+      }
+    },
+    {
+      "keyword": "learn Dutch for freelancers to get Dutch clients",
+      "type": "long_tail",
+      "source_context": "Wants functional Dutch for small talk to win Dutch customers",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 8,
+        "business_priority": 7,
+        "mini_volume": 4,
+        "authority_fit": 7,
+        "weighted_total": 6.5
+      }
+    },
+    {
+      "keyword": "why is Dutch pronunciation so hard",
+      "type": "category",
+      "source_context": "Couldn't pronounce the doctor's surname; calls Dutch her nightmare to pronounce",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 6,
+        "authority_fit": 7,
+        "weighted_total": 6.45
+      }
+    },
+    {
+      "keyword": "Dutch people switch to English when I try to speak",
+      "type": "category",
+      "source_context": "Speaks slowly in public and people instantly switch to English",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 6.4
+      }
+    },
+    {
+      "keyword": "functional Dutch for everyday situations and small talk",
+      "type": "jtbd",
+      "source_context": "Wants enough Dutch for small talk and everyday interactions like the doctor",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 7,
+        "weighted_total": 6.35
+      }
+    },
+    {
+      "keyword": "learn Dutch without inburgering as an EU citizen",
+      "type": "deviant",
+      "source_context": "EU national with no legal integration requirement but strong personal motivation",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 8,
+        "business_priority": 6,
+        "mini_volume": 4,
+        "authority_fit": 6,
+        "weighted_total": 6.1
+      }
+    }
+  ]
+}

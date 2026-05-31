@@ -26,11 +26,12 @@ A partner visa holder and a work visa holder can share the same core motivations
 
 These are the underlying reasons someone wants to learn Dutch. Most people have multiple motivations active. They are not visa-specific.
 
-### Belonging
+### Belonging / Community
 
-> "I want to feel at home, not like a permanent guest."
+> "I want to feel at home and part of the community here — connected to the Dutch people around me, not a permanent guest or outsider."
 
 - Want to participate in Dutch life, not observe it
+- Want to connect with the Dutch people around them, not stay an outsider
 - Tired of feeling like an outsider
 - Want to understand the mentality, not just the language
 - Often intensifies after 2+ years in Netherlands
@@ -56,7 +57,7 @@ These are the underlying reasons someone wants to learn Dutch. Most people have 
 
 ### Integration
 
-> "I want access to therapy, culture, hobbies, activities."
+> "I want to take part in local life — therapy, culture, hobbies, activities — and actually connect with the people around me."
 
 - Beyond the exam, not speaking Dutch limits access to life
 - English therapists are hard to find, no group therapy in English
@@ -359,7 +360,7 @@ These apply across persona combinations:
 
 | Primary Motivation | Content That Resonates |
 |--------------------|------------------------|
-| **Belonging** | "What it feels like to finally understand" stories, integration narratives |
+| **Belonging / Community** | "What it feels like to finally understand" stories, integration and community-connection narratives |
 | **Family** | Family gathering scenarios, in-law communication, participating in Dutch life |
 | **Identity** | "Earning" citizenship, becoming Dutch, long-term resident perspectives |
 | **Integration** | Access to life content — therapy, culture, activities, career depth |

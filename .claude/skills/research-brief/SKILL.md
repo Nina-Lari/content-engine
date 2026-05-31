@@ -17,6 +17,7 @@ User invokes `/research-brief`.
 - `strategy/personas.md` -- persona pain mapping and messaging
 - `strategy/competitive-landscape.md` -- competitive gaps and positioning opportunities
 - `customer-intelligence/insights/*.json` -- all structured insight files
+- `customer-intelligence/*.md` -- web/market research intelligence (e.g., `web-research-jtbd.md`), excluding `README.md`
 - `customer-intelligence/transcripts/` -- optional, for additional context mining
 
 Does NOT read: `positioning.md`, `voice-guide.md`, `knowledge-base.md`, `proof-library/
@@ -44,8 +45,9 @@ Read these files (skip any that do not exist, but warn):
 ### Step 2: Load intelligence
 
 1. Read all `.json` files in `customer-intelligence/insights/`.
-2. If no insight files exist, check `customer-intelligence/transcripts/` for raw transcripts.
-3. If neither exists, stop and tell the user: "No customer intelligence found. Run /extract-insights on your sales call transcripts first, or drop insight JSON files into customer-intelligence/insights/."
+2. Read any `.md` intelligence files at the root of `customer-intelligence/` (e.g., `web-research-jtbd.md`), excluding `README.md`. These hold web/market research: JTBD evidence, verbatim community quotes, competitor intel, and the customer lexicon. Treat them as a first-class intelligence source alongside the insight JSON, not an afterthought. Their verbatim quotes are for anonymized resonance in content (per the citation standards), not direct attribution.
+3. If insight JSON is thin, check `customer-intelligence/transcripts/` for raw transcripts.
+4. If no insight JSON, no `.md` intelligence, and no transcripts exist, stop and tell the user: "No customer intelligence found. Run /extract-insights on your sales call transcripts first, drop insight JSON into customer-intelligence/insights/, or add a web-research file like customer-intelligence/web-research-jtbd.md."
 
 ### Step 3: Aggregate intelligence
 

@@ -1,0 +1,14 @@
+Monika is an illustrator in the Netherlands. She is polish, been here for 4 years, still does not speak any Dutch. She says: "after 4 years here, my Dutch is still Inexistent. It s very difficult to learn this language…I mean.. I speak 2 languages fluently: english and polish, and a little spanish, which was way easier to learn even the basics but Dutch is my nightmare, it s soooo difficult to pronounce. Yesterday I had a situation in which I had to call my house doctor and I did not know how to pronounce the sirname because it was so difficult."
+"This language is NOT logical."
+
+Her goal is to get to a functional Dutch that allows her to make small talk with clients so she can get more dutch clients, integrate more in the community because she wants more connections with dutch people. She wants to also be able to use it in everyday situations like when she goes to the doctor.
+She mentioned that she tried to speak outside very slow and people would instantly just switch to english.
+She started with Duolingo. she mentioned: 'it was so bad, I hate duolingo. I learned how to say phrases like: my elephant is green. …Where am I gonna use this? like….'
+She also tried watching some youtube videos of people teaching basic dutch.
+She attended two lessons at the bibliotheque. she mentioned it was a disaster.'The level they were teaching us is so strange. if you were a cleaner or you work in construction…it would be great for you.. but for me it was so strange because the sentences they were teaching were like: Hello..my name is monika…I m here to clean your room….NOPE.'. She attended two lessons and quit. She also mentioned that the atmosphere was not the best.
+I asked her if she tried to take a tutor and she mentioned it was too expensive. that those kind of classes are out of reach for her budget.
+She tries to spend as much time as she can with Dutch people to pick up new vocabulary words. "My vocabulary is okayish..I understand a lot, but speaking and pronounciation is …..NNNO. this is something that my brain just cannot work around."
+She also mentioned difficulties understanding the grammar because of the inversions.
+The urgency with Dutch is not there. but she said: "I just want to feel like part of the community especially now that we decided to settle. I want to speak Dutch and meet people who are not expats. This is limiting my possibilities." => limiting possibilities in relation to having Dutch clients.
+"Definitely I could have Dutch customers. Although it has not been a big issue so far but I think sometimes people really prefer speaking Dutch."
+She mentioned she was very busy right now and has too much on her plate because she just moved to new appartment and trying to pass her driving licence … and that she would love to join a course around october. but not before.

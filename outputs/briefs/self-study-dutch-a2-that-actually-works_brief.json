@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "topic_id": "self-study-dutch-a2-that-actually-works",
+    "priority_score": 7.4,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "self-study Dutch A2 course online",
+    "variants": [
+      "self-study inburgering A2",
+      "best self-paced Dutch course A2",
+      "online A2 Dutch course that works",
+      "self study Dutch inburgering",
+      "self-paced Dutch course that teaches speaking"
+    ],
+    "searcher_intent": "Wants a self-paced online A2 course that fits an irregular schedule and actually works, after being burned by memorization-based courses. Looking to vet options before paying again."
+  },
+  "audience": {
+    "persona": "Pattern B / Pattern C: Work Visa, schedule-constrained, prior-course skeptic",
+    "industry_focus": null,
+    "pain_summary": "Affordable self-study options all teach recognition through memorization. The reader has already paid for courses that left them unable to speak and does not want to waste money a third time.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "The self-study category's quiet problem: 'self-study' has come to mean 'click through flashcards alone.' Define what good self-study should actually require (production), correct the common A2-vs-B1 mistake so the reader buys the right level, then give a ten-minute method to vet any online course so the next payment does not buy another cheat sheet.",
+  "thesis_sentence": "Self-study fails not because you study alone, but because most self-study courses mark you 'done' for finishing exercises rather than for producing the language.",
+  "outline": [
+    {
+      "section": "What 'self-study' has come to mean (and why it fails)",
+      "notes": "Open on the redefinition. In this market 'self-study' usually means clicking through screens and flashcards until a progress bar fills. Completion measures activity, not ability. Name the gap between finishing and being able to speak.",
+      "word_target": 300,
+      "evidence_needed": "Self-paced tier description (competitive-landscape): completion equals finished exercises across the category."
+    },
+    {
+      "section": "The 700 euro lesson many learners pay twice",
+      "notes": "Concrete cost story to build trust through specificity. A learner pays for an A1 course, finishes it, retains little, then pays again for A2 and hits the same wall. Stack the real numbers. Anonymize the individual.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized: one learner spent roughly 300 euro on an A1 self-study course ('very boring grammar rules... no speaking at all... didn't feel like I retained anything') and about 390 euro on an A2 course with poor UX and impossible difficulty jumps. Keep course names only where defensible; safer to describe as 'two well-known self-study courses.'"
+    },
+    {
+      "section": "First, check which level you actually need: A2 or B1",
+      "notes": "Factual correction that protects the reader and our credibility. Under the 2021 Integration Act most people must reach B1, not A2. A2 applies to specific situations: voluntary naturalisation, people who became required to integrate before 1 January 2022, and the Z (self-reliance) track where A2 is optional. Tell readers to confirm their requirement with DUO before buying any A2 course.",
+      "word_target": 250,
+      "evidence_needed": "factual-accuracy-checklist.md and DUO (named official source). Do not imply everyone needs A2."
+    },
+    {
+      "section": "How to vet an online A2 course in 10 minutes",
+      "notes": "Actionable checklist the reader can run on any course's free trial or sample. Trial one lesson and ask: did I have to SAY anything, or just click? Are words taught in context or as isolated lists? Is there unlimited speaking practice or just exam-style drills? Does the practice stay at my level? Is the price a clear one-time cost or a subscription that is easy to forget cancelling? Keep criteria fair to competitors.",
+      "word_target": 500,
+      "evidence_needed": "Trustpilot billing complaints about unclear auto-renewal and ignored refunds (InburgeringOnline) for the subscription-clarity criterion. Feature matrix for the production and level-matching criteria."
+    },
+    {
+      "section": "What production-based self-study looks like",
+      "notes": "Show the alternative without it reading as a sales section. A guided lesson where structured practice leads into a conversation with Joost, the lesson is complete only when you use the vocabulary, and it fits any schedule because you control the session length. Feature to benefit to proof.",
+      "word_target": 400,
+      "evidence_needed": "Co-founder testing: 'I don't have the cognitive load of trying to engineer my lesson... it's just guided'; 'I don't see time passing by because I'm having fun'; schedule flexibility for an entrepreneur. NEEDS a learner retention or progress metric from proof-library."
+    },
+    {
+      "section": "Is self-study right for you?",
+      "notes": "Honest fit check to close. Self-study rewards self-motivation and punishes the need for external accountability. If you need classmates to make you show up, a classroom is the better spend. If you are self-driven and want flexibility plus more speaking time, self-study fits. Soft CTA to trial a production-based lesson.",
+      "word_target": 200,
+      "evidence_needed": "Where-we-win / where-we-lose criteria (competitive-landscape) for honest self-selection."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Memorization-based courses did not stick and left nothing usable",
+      "prop": "Learn-by-using: you learn vocabulary by using it in context, and a lesson is done only when you can produce it",
+      "proof": "Co-founder testing contrast: 'I really hated spending two hours on one rule memorizing a million words that don't make sense together' versus 'the words that you learn you use.'"
+    },
+    {
+      "pain": "Irregular schedule makes fixed class times impossible",
+      "prop": "Fully self-paced sessions you control, from fifteen minutes to two hours, anytime",
+      "proof": "Co-founder/tester (self-employed): needs flexibility to fit an entrepreneur's schedule (insights workflow_reality and quotes)."
+    },
+    {
+      "pain": "Subscriptions that keep charging after you thought you cancelled",
+      "prop": "One-time price with no subscription, so there is no auto-renewal to track",
+      "proof": "InburgeringOnline Trustpilot billing complaints (competitive-landscape). Keep this as a vetting criterion, not a hard sell."
+    }
+  ],
+  "originality_nuggets": [
+    "The market leader described from the inside: 'just a bunch of things to memorize... a cheat sheet to the exam.'",
+    "Self-study tools quietly hand the hardest job to the learner: 'the cognitive load of trying to engineer my lesson.' Good self-study removes that, it does not add it.",
+    "Free speaking options are not a substitute for structure: at a taalcafé 'everyone comes with different levels, they're not teachers, you're just mumbling together, you don't even know if what you're learning is correct.'"
+  ],
+  "seo": {
+    "title_tag": "Self-Study Dutch A2: Courses That Actually Work",
+    "meta_description": "Most self-study Dutch A2 courses just make you memorize. How to vet an online inburgering course so you finish able to speak, not just pass.",
+    "url_slug": "self-study-dutch-a2-that-actually-works"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the best self-study Dutch course for A2 inburgering?",
+    "definition_paragraph": "Self-study Dutch A2 courses are online programs you complete at your own pace to prepare for the A2 inburgering exam. Most mark a lesson complete when you finish the exercises, which trains recognition. The ones that build speaking require you to produce the vocabulary yourself before a lesson counts as done, so finishing the course means you can actually hold a conversation.",
+    "faq_questions": [
+      "Can you learn Dutch to A2 by self-study?",
+      "Do I need A2 or B1 for inburgering?",
+      "Why do self-study Dutch courses not teach speaking?",
+      "How much does a self-study Dutch A2 course cost?",
+      "How do I know if an online Dutch course actually teaches speaking?"
+    ]
+  }
+}

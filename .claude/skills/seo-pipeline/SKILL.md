@@ -39,19 +39,25 @@ If no intermediate files exist, start from Stage 1.
 
 **Context consumed:**
 - The content brief JSON (the input)
+- `proof-library/product-design-evidence.md` (PRIMARY proof: product mechanism + early-tester experience)
 - `customer-intelligence/insights/*.json` (structured intelligence)
-- `proof-library/case-studies/` (case studies with metrics)
+- `proof-library/case-studies/` (case studies with metrics, when they exist)
+- `proof-library/research-sources/` (academic backstop -- capped, see citation policy below)
 - `proof-library/` (any other proof assets: use cases, data sheets)
 - `customer-intelligence/transcripts/` (last resort -- only if insights are thin)
 
 **Workflow:**
 
 1. Parse the brief. Extract the outline sections, keyword targets, value props to weave, and evidence needs.
-2. Mine evidence from context sources in priority order:
-   - **First:** `customer-intelligence/insights/` -- structured JSON with quotes, pains, workflow details. Highest signal.
-   - **Second:** `proof-library/case-studies/` -- case studies with quantifiable outcomes. Best for proof points.
-   - **Third:** `proof-library/` other files -- use cases, data sheets, testimonials.
-   - **Last resort:** `customer-intelligence/transcripts/` -- raw transcripts. Only mine these if the above sources do not provide enough evidence for the brief sections.
+2. Mine evidence from context sources in this evidence hierarchy. Exhaust each tier before reaching for the next:
+   - **Tier 1 (lead with this) -- `proof-library/product-design-evidence.md`:** how the course is designed and what counts as a complete lesson. Product-mechanism specificity is proof. This is the most ownable, most credible evidence we have. Most sections should be carried by Tier 1.
+   - **Tier 2 -- experience and customer voice:** early-tester quotes (in product-design-evidence.md, attribute to "one learner") and `customer-intelligence/insights/` (anonymized pains, lexicon, resonance quotes). Use for the human "does it actually work" signal.
+   - **Tier 3 -- `proof-library/case-studies/`:** case studies and outcome metrics. Strongest proof when present; currently empty (flag the gap, do not invent).
+   - **Tier 4 -- named publications:** DutchReview, Taalhammer, Seidlitz Education, Dutch-online.com. Citable by name.
+   - **Tier 5 (capped backstop) -- `proof-library/research-sources/`:** academic research. Use only when a single mechanism claim genuinely needs external authority that Tiers 1-4 cannot supply.
+   - **Last resort -- `customer-intelligence/transcripts/`:** raw transcripts, only if everything above is thin.
+
+   **Citation policy (this is what keeps articles from reading like a literature review):** assign at most **1-2 academic (author-year) citations per article**, and never stack multiple citations on one claim. Academic research validates a *principle* once; it does not carry the article. If a section's only assigned evidence is academic, treat that as an evidence gap and find a Tier 1-2 proof point instead. Record the planned academic-citation count in the enriched doc so Stage 2 can hold the cap.
 3. For each outline section in the brief, map available evidence:
    - Which proof points apply?
    - Which customer quotes support the argument?

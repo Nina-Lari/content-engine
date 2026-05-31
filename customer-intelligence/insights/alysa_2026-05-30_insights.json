@@ -1,0 +1,209 @@
+{
+  "call_meta": {
+    "company": "Alysa (individual learner)",
+    "persona": "Parent / family-track learner on government-funded route. Family + Career + Integration motivations. Barriers: Schedule constraints, level-placement failure. Classroom-preferring, which makes her a partial ICP disqualifier for self-paced learning.",
+    "industry": "Not stated (parent at home, family migrant)",
+    "company_size": "N/A (B2C individual)",
+    "deal_stage": "discovery",
+    "call_date": null,
+    "participants": ["interviewer", "prospect -- parent, government-funded Dutch learner"]
+  },
+  "jtbd": [
+    {
+      "job": "Find a single clear path to learn Dutch from start to finish",
+      "desired_outcome": "A guided A-to-B route she can follow without falling through the cracks between programs",
+      "current_approach": "Piecing together government-subsidized classes, language apps, and previously a mail correspondence course"
+    },
+    {
+      "job": "Fit Dutch learning around childcare and an unpredictable schedule",
+      "desired_outcome": "Make progress despite young children, pregnancy, and vacation gaps",
+      "current_approach": "Tried evening classes twice; dropped out due to childcare and illness during pregnancy"
+    },
+    {
+      "job": "Get placed at the correct level",
+      "desired_outcome": "A course that matches where she actually is, not too basic and not mid-stream",
+      "current_approach": "Subsidized class only offered teenager/middelbare-school level; NL training program couldn't place her"
+    },
+    {
+      "job": "Improve job prospects and family life through Dutch",
+      "desired_outcome": "Access jobs requiring Dutch, connect with her children's friends, handle paperwork more easily",
+      "current_approach": "Getting by in English; relies on extra effort for Dutch paperwork"
+    }
+  ],
+  "pains": [
+    {
+      "pain": "Scheduling and childcare make fixed-time classes impossible to sustain",
+      "trigger": "Having children; being pregnant and too sick to attend; vacation periods",
+      "cost": "Dropped out of classes; little progress over years",
+      "urgency": "medium",
+      "verbatim": "Had children and became more challenging to find time to go to a class. Tried in the evening twice but it's hard with childcare."
+    },
+    {
+      "pain": "No clear path to learn Dutch",
+      "trigger": "Fragmented system with separate trajectories (Ukrainians, students, etc.)",
+      "cost": "Stuck, cannot just follow a route from start to finish",
+      "urgency": "medium",
+      "verbatim": "No clear path to learn dutch. What can I do to just follow this from A to B."
+    },
+    {
+      "pain": "Level-placement failure -- programs don't know where to put her",
+      "trigger": "Enrolling in NL training and a subsidized class",
+      "cost": "Fell through the cracks; offered only a level that didn't fit",
+      "urgency": "medium",
+      "verbatim": "They did not know where to place me and thought I could jump in the middle."
+    },
+    {
+      "pain": "One-shot government funding raises the stakes on getting it right",
+      "trigger": "The government-funded class can only be taken once",
+      "cost": "Afraid to waste the single chance; the class wouldn't start her knowing she'd miss sessions for vacation",
+      "urgency": "medium",
+      "verbatim": "I'm fine starting this class. It's funded by the government and you can do it only one time. I wanna do it right."
+    },
+    {
+      "pain": "Heavy homework load on top of family responsibilities",
+      "trigger": "Government programs assign a lot of homework",
+      "cost": "Harder to keep up alongside childcare",
+      "urgency": "low",
+      "verbatim": "These programs have a lot of homework."
+    },
+    {
+      "pain": "Private tutoring is too expensive",
+      "trigger": "Considered a private tutor as an alternative",
+      "cost": "Ruled out on cost",
+      "urgency": "low",
+      "verbatim": "Drawbacks for that is cost."
+    }
+  ],
+  "workflow_reality": {
+    "current_process": "Relies on government-subsidized classes when one is available at her level; previously used a mail-based correspondence course (booklet plus cassette, returned for correction); has tried language apps and online options when classes don't fit her schedule",
+    "tools_used": ["government-subsidized classes", "NL training program", "mail correspondence course (booklet + cassette)", "language apps"],
+    "brittleness": "Breaks at scheduling (childcare, pregnancy, vacation) and at level placement -- programs can't place her or start her if she'll miss sessions",
+    "workarounds": ["Switching to apps and online when classes don't fit", "Leaning on a friend who is training to become a Dutch teacher"]
+  },
+  "alternatives_and_competitors": [
+    {
+      "name": "Government-subsidized inburgering-style classes",
+      "type": "status_quo",
+      "sentiment": "mixed",
+      "context": "Her main route, but blocked by scheduling and wrong-level placement; one-time funding raises the pressure",
+      "known_competitor": false
+    },
+    {
+      "name": "NL training program",
+      "type": "adjacent_tool",
+      "sentiment": "negative",
+      "context": "Couldn't place her; she fell through the cracks",
+      "known_competitor": false
+    },
+    {
+      "name": "Private tutor",
+      "type": "direct_competitor",
+      "sentiment": "negative",
+      "context": "Considered but ruled out on cost",
+      "known_competitor": true
+    },
+    {
+      "name": "Language apps",
+      "type": "adjacent_tool",
+      "sentiment": "neutral",
+      "context": "Tried when classes didn't fit; treated as a fallback, not a path",
+      "known_competitor": false
+    },
+    {
+      "name": "Mail correspondence course (booklet + cassette)",
+      "type": "status_quo",
+      "sentiment": "neutral",
+      "context": "Historical approach -- mailed work back for correction",
+      "known_competitor": false
+    }
+  ],
+  "quotes": [
+    {
+      "text": "No clear path to learn dutch. What can I do to just follow this from A to B.",
+      "speaker": "prospect -- parent learner",
+      "context": "Describing the fragmented system of separate trajectories",
+      "themes": ["clear path", "structure", "overwhelm"]
+    },
+    {
+      "text": "They did not know where to place me and thought I could jump in the middle.",
+      "speaker": "prospect -- parent learner",
+      "context": "On the NL training program failing to place her at the right level",
+      "themes": ["level placement", "falling through the cracks"]
+    },
+    {
+      "text": "I personally benefit from more an in person class. The interaction with other students... I'm a bit more driven to learn that way.",
+      "speaker": "prospect -- parent learner",
+      "context": "Explaining her learning-style preference",
+      "themes": ["classroom preference", "peer learning", "accountability"]
+    },
+    {
+      "text": "A lot of job opportunities require dutch. With the friends of my children they don't speak much English... Papers and paperwork in dutch takes more effort.",
+      "speaker": "prospect -- parent learner",
+      "context": "Answering what speaking Dutch would change in daily life",
+      "themes": ["career", "family", "integration", "admin"]
+    }
+  ],
+  "lexicon": {
+    "category_terms": ["dutch classes", "trajectories", "private tutor", "homework", "in person class"],
+    "value_language": ["follow this from A to B", "clear path", "do it right", "dedicating space and time"],
+    "deviant_terms": ["fell through the cracks", "jump in the middle", "trajectories", "do it only one time"]
+  },
+  "keyword_candidates": [
+    {
+      "keyword": "Dutch course with flexible schedule no fixed class times",
+      "type": "category",
+      "source_context": "Scheduling and childcare conflicts that broke every classroom attempt",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 7.1
+      }
+    },
+    {
+      "keyword": "how to learn Dutch as a busy parent with young kids",
+      "type": "jtbd",
+      "source_context": "Children, pregnancy, and childcare repeatedly blocking class attendance",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 6.6
+      }
+    },
+    {
+      "keyword": "clear step by step path to learn Dutch",
+      "type": "jtbd",
+      "source_context": "Wanting a single route from A to B instead of fragmented trajectories",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 7,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 6.45
+      }
+    },
+    {
+      "keyword": "Dutch course placed me at the wrong level",
+      "type": "deviant",
+      "source_context": "NL training couldn't place her; subsidized class only offered teenager-level content",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 6,
+        "serp_weakness": 8,
+        "business_priority": 4,
+        "mini_volume": 3,
+        "authority_fit": 5,
+        "weighted_total": 5.35
+      }
+    }
+  ]
+}

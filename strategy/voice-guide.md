@@ -72,11 +72,18 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 - Address the reader as **"you"** — direct and personal
 - **For SEO/AEO content:** Also use specific audience descriptors alongside "you" for stronger semantic signals:
   - "Expats preparing for the A2 inburgering exam"
-  - "Partner visa holders learning Dutch"
+  - "People on a partner visa learning Dutch"
   - "Knowledge workers relocating to the Netherlands"
   - "Mid-career professionals in the Randstad"
 - Avoid third-person distance ("users", "students", "learners") when speaking to them directly
 - Never claim the expat experience directly. That's your partner's voice, not yours.
+
+---
+
+## How to Refer to the People We Serve
+
+- **Avoid "customer" in reader-facing content.** It's impersonal. Use "learners," "people learning Dutch," "expats," or just speak to the reader directly. ("Customer" can stay in internal strategy labels and the `customer-intelligence/` evidence base — this rule is about published content, not internal filing.)
+- **Don't reduce people to a visa label.** Avoid framing anyone as a "partner visa holder" or "work visa holder" as though that's their identity. The visa situation is context that adds pressure (a deadline, a job-security worry), not who someone is. Mention it only when the visa situation is the actual point, and even then put the person first: "someone on a partner visa," not "a partner visa holder." The motivation profile, not the visa type, is who they are.
 
 ---
 
@@ -86,7 +93,7 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 
 - **Respectful.** Never trash competitors. Never say another solution is bad.
 - **Honest.** Some learners are better served by other options. Say so explicitly.
-- **Acknowledge tradeoffs.** Classroom courses provide accountability we don't. Private tutors provide human connection we don't. Memorization courses are faster for passing. Be clear about what we offer and what we don't.
+- **Acknowledge tradeoffs.** Classroom courses provide accountability we don't. Private tutors provide human connection we don't. A memorization-based course can suit someone who learns well that way and just wants to pass. Be clear about what we offer and what we don't. Don't claim memorization is universally faster: for people who hate memorizing or don't retain that way, learning by using the language can be the faster route (see Red Line #4 — speed claims are unverifiable).
 - **Matchmaker, not salesman.** Help people find the right solution for their goals.
 
 ### Per-Competitor Quick Reference
@@ -121,6 +128,7 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 4. **Never compare speed.** "Faster" or "slower" claims are unverifiable.
 5. **Never say "we're the only course that..."** It's almost always false and sounds arrogant.
 6. **Never position competitors as the enemy.** The enemy is not speaking Dutch.
+7. **Never cite a competitor's billing, auto-renewal, refund, or Trustpilot complaints.** Those are about billing, not learning quality, and citing them is unfair and off-brand. A neutral one-time-vs-subscription cost comparison is allowed in BOFU/comparison content only, never framed as a complaint.
 
 Examples:
 - Good: "Classroom courses work well if you need peer pressure to stay motivated. We're built for people who can motivate themselves."
@@ -167,7 +175,7 @@ Based on citation-rate research from Animalz, Grow and Convert, and HubSpot (202
 - One well-structured page with ten independent passages competes for ten different queries.
 
 **Additional Rules**
-- **Your point first, acknowledgment second.** "DutchwithJoost works best for practice-oriented learners. If speed is your priority, memorization courses are faster." Not the reverse.
+- **Your point first, acknowledgment second.** "DutchwithJoost works best for practice-oriented learners. If you learn well by memorizing and just want to pass, a memorization-based course may suit you better." Not the reverse.
 - **Define terms inline.** "The KNM (Knowledge of Dutch Society) exam" on first use. Never assume knowledge in SEO content.
 - **No metaphors, analogies, or idioms.** These confuse AI systems. "Content marketing is a secret sauce" fails. If you must compare, use explicit similes and explain immediately.
 - **No hedging.** "SEO improves visibility" not "SEO might improve visibility." Remove "might," "possibly," "generally speaking," "in some cases."
@@ -212,6 +220,19 @@ Fewer than 13% of websites use structured data. Implementing it puts you ahead o
 - Cite recent statistics (published within three years). AI systems check recency.
 - Primary research (your own data) ranks highest. Named expert quotes rank next. Industry reports third.
 
+### Evidence Balance (Lead With Product, Not Papers)
+
+The strongest proof is how the course works and what learners experience, not academic citations. Order your evidence this way:
+
+1. **Product mechanism** — how a lesson works, what counts as done. The specificity is the proof. ("Lessons complete when you can have conversations on the topic, not when you've finished the exercises.")
+2. **Experience** — what an early learner reports ("one learner").
+3. **Named publications** — DutchReview, Taalhammer, Seidlitz Education, Dutch-online.com.
+4. **Academic research** — a capped backstop.
+
+- **Hard cap: 1-2 academic (author-year) citations per article. Never stack citations on a single claim.** More than that reads like a literature review and violates "no academic stiffness." If you are tempted to cite a third study, cut it and use a product or experience proof point instead.
+- State the point in plain language first; add a citation only as a single anchor for a principle the reader might doubt. Prefer the finding ("speaking practice improves recall more than re-reading") over a parenthetical author-year string.
+- This cap protects AEO, not just voice: answer engines reward specific, self-contained claims and clean definitions, not citation density.
+
 ### Terminology
 
 - Always: "inburgering exam" (not "civic integration test")
@@ -235,6 +256,7 @@ Fewer than 13% of websites use structured data. Implementing it puts you ahead o
 - **Never fake testimonials or manufacture urgency.** Only use urgency if it's real.
 - **Never judge someone's choice as "wrong"** for choosing a different solution.
 - **Never publish factual claims without research.** If uncertain, research first.
+- **Never imply DutchwithJoost is DUO loan-eligible.** We are not on DUO's list of approved inburgering courses, so the course cannot be paid for with a DUO inburgering loan. Do not mention DUO loans in any content about our course. (The DUO loan exists for approved courses and exam costs — leave it out of our content entirely.)
 - **Never editorialize on whether the integration system is fair.** State facts about policy, not opinions on politics.
 - **Never claim the expat experience as your own.** That's your partner's voice.
 
@@ -421,9 +443,9 @@ Use this framework for topic selection and content angles. These are high-intent
 > "Unlike other courses that waste your time with useless memorization, we actually teach you to speak Dutch."
 
 **After** (DutchwithJoost voice):
-> "Memorization courses are faster for passing the exam. We're slower but focused on retention. If your goal is to pass and move on, memorization works. If your goal is to actually communicate in Dutch after the exam, speaking practice works better. Different goals, different tools."
+> "If you learn well by memorizing and just want to pass and move on, a memorization-based course works. If you want to actually communicate in Dutch after the exam — or you're someone who doesn't retain things by memorizing — learning by using the language works better. Different goals, different tools."
 
-**What changed**: Removed judgmental language. Acknowledged competitor strength. Let reader decide based on their goals.
+**What changed**: Removed judgmental language. Acknowledged competitor strength. Framed the choice around the reader's goals and how they learn, not an unverifiable speed claim.
 
 ### Rewrite 4: Removing Em Dashes
 

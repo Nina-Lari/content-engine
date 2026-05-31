@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "topic_id": "dutch-partner-cant-teach-dutch",
+    "priority_score": 8.25,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-3 hours"
+  },
+  "keyword": {
+    "primary": "why your Dutch partner can't teach you Dutch",
+    "variants": [
+      "learning Dutch with a Dutch partner",
+      "Dutch partner won't help me learn Dutch",
+      "Dutch partner switches to English",
+      "my partner is Dutch but I can't learn Dutch",
+      "can my Dutch partner teach me Dutch"
+    ],
+    "searcher_intent": "Has a Dutch partner, assumed that would make learning easy, and it is not working. Wants to understand why and what to do instead, without it becoming a relationship fight."
+  },
+  "audience": {
+    "persona": "Pattern A (Partner Visa + Family), and any Family-motivated learner with a Dutch partner regardless of visa",
+    "industry_focus": null,
+    "pain_summary": "Having a native speaker at home does not produce learning. Level mismatch makes conversation unusable, partners cannot explain grammar, and the dynamic creates fatigue on both sides plus shame for the learner.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Counterintuitive truth told with empathy: a Dutch partner is one of the worst people to learn structured Dutch from, and that is not a sign the relationship or the learner is failing. Validate the frustration, explain the two real reasons, then reframe toward level-matched practice. This owns a SERP that currently has only forum threads and one blog.",
+  "thesis_sentence": "Native speakers cannot teach you Dutch because they never learned the rules consciously and cannot calibrate to your level, so the fix is not trying harder with your partner but structured, level-matched practice.",
+  "outline": [
+    {
+      "section": "If your Dutch partner can't teach you Dutch, you're not failing",
+      "notes": "Open on the reassurance, not a setup paragraph. Name the exact experience: you ask your partner a question, you both get frustrated, they switch to English, you feel worse. Tell the reader this is the norm, not their fault.",
+      "word_target": 250,
+      "evidence_needed": "Community discussions: even Dutch partners often switch to English (validated pain point, anonymize per citation rules)."
+    },
+    {
+      "section": "Why native speakers make poor language teachers",
+      "notes": "Two concrete reasons. One: they learned Dutch as children and absorbed the rules without ever studying them, so they cannot explain why something is the way it is. Two: level mismatch. Their native pace and vocabulary sit far above a beginner's, so most of what they say is not usable as practice. Keep it specific and kind.",
+      "word_target": 400,
+      "evidence_needed": "Anonymized learner quotes (co-founder/tester, usable): 'Your level of Dutch is native and mine is total beginner... it's just impossible to learn'; 'the native person learned it since they're little so they can't really explain. They just do it.'"
+    },
+    {
+      "section": "The hidden cost: fatigue on both sides, and shame",
+      "notes": "Explain the relationship dynamic honestly. Constant explaining exhausts the partner; constantly needing help wears on the learner; the learner starts feeling judged and avoids speaking, which feeds the shame cycle. This is why 'just speak Dutch at home' rarely lasts.",
+      "word_target": 350,
+      "evidence_needed": "The Dutch Partner Problem table (personas.md): level mismatch, can't explain why, partner fatigue. Shame-cycle line: 'Shame plays a big role when you don't speak a language. Everyone around you expects you to just know.'"
+    },
+    {
+      "section": "What actually builds speaking: level-matched practice",
+      "notes": "Pivot to the solution as a category, not a pitch. What to look for in any practice method: it meets you at your level, it lets you make mistakes without an audience, and it can explain the why. Then show one way that does this, using feature to benefit to proof: a guided lesson where Joost replies at the lesson's difficulty so the practice is usable. No pricing here, this is educational content.",
+      "word_target": 450,
+      "evidence_needed": "Co-founder testing: 'He's not gonna use C2 level Dutch to reply to you'; words in context, guided structure. NEEDS a learner outcome or example showing the level-matching in action."
+    },
+    {
+      "section": "How to keep your partner in your corner (without making them your teacher)",
+      "notes": "Practical and warm. Give the partner a role they are actually good at: motivation, real-world context, celebrating small wins, occasional vocabulary checks. Take the teaching pressure off both of you. End with a soft invitation to try structured, level-matched practice.",
+      "word_target": 250,
+      "evidence_needed": "Decision influencers (icp.md): Dutch partner encourages commitment and helps evaluate. Frame the partner as supporter, not instructor."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Level mismatch makes practice with a native speaker impossible to learn from",
+      "prop": "Joost speaks at the lesson's difficulty level, never native speed, so every exchange is usable practice",
+      "proof": "Co-founder testing: 'He's not gonna use C2 level Dutch to reply to you.'"
+    },
+    {
+      "pain": "Partners cannot explain why Dutch works the way it does",
+      "prop": "Structured lessons teach vocabulary and patterns in context with explanations, instead of 'that's just how it is'",
+      "proof": "Co-founder testing on words in context and guided structure. NEEDS a concrete in-product example."
+    },
+    {
+      "pain": "Struggling to speak in front of a person feels shameful and gets avoided",
+      "prop": "Judgment-free practice where you can make mistakes privately before you use Dutch with people",
+      "proof": "Shame-cycle barrier and product positioning (personas.md): no human watching you struggle."
+    }
+  ],
+  "originality_nuggets": [
+    "The reason native speakers can't explain Dutch: 'They learned it since they're little so they can't really explain why it is like that. They just do it.'",
+    "Partner fatigue is mutual, not a sign the learner is lazy. Both people are doing a job neither signed up for.",
+    "A native-speaking partner is closer to a C2 speaker than to a teacher, which is exactly the wrong calibration for a beginner."
+  ],
+  "seo": {
+    "title_tag": "Why Your Dutch Partner Can't Teach You Dutch",
+    "meta_description": "Having a Dutch partner doesn't make Dutch easier to learn. Here's why native speakers can't teach the language, and what builds speaking instead.",
+    "url_slug": "dutch-partner-cant-teach-dutch"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Can your Dutch partner teach you Dutch?",
+    "definition_paragraph": "A native-speaking partner usually cannot teach you Dutch for two reasons. They learned the language as a child and absorbed its rules without studying them, so they cannot explain why it works the way it does. And they speak at a native level far above a beginner's, so most of what they say is too advanced to use as practice. Learning needs input matched to your level, which native conversation rarely provides.",
+    "faq_questions": [
+      "Can my Dutch partner teach me Dutch?",
+      "Why does my Dutch partner switch to English?",
+      "Why is it so hard to learn Dutch from a native speaker?",
+      "How can I practise Dutch if my partner is a native speaker?"
+    ]
+  }
+}

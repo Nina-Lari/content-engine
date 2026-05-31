@@ -264,7 +264,7 @@ These topics surface from actual customer discussions:
 
 1. InburgeringOnline vs. classroom: honest trade-offs
 2. Free resources (Duolingo, YouTube) vs. structured courses
-3. Subscription fatigue vs. one-time pricing
+3. One-time pricing vs. subscription cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack)
 
 ### Thought Leadership Angles
 
@@ -293,7 +293,7 @@ These topics surface from actual customer discussions:
 
 **Factual claims (verifiable):**
 
-- 43 lessons covering A1 to A2
+- 43 lessons taking an absolute beginner from zero through A1 to A2 (a complete 0→A2 course, not a course that assumes you already have A1)
 - Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM
 - €399 one-time payment, 5-year access
 - Exam Pass Guarantee: complete all lessons, fail the exam, get refunded
@@ -342,7 +342,7 @@ Can say:
 **About completion:**
 - Do NOT say "exercises" or "clicking through screens" as negatives — this talks down on other courses
 - DO describe what each approach does: memorization-based courses teach through memorizing vocabulary and rules; Dutchwithjoost teaches through practicing conversations
-- Be precise: "A lesson completes when you can use the vocabulary in conversation"
+- Be precise: "A lesson completes when you can have conversations on the topic"
 - Do NOT reduce it to just "vocabulary" — you're learning sentence structure, grammar, and situational communication together
 
 **About outcomes:**
@@ -350,3 +350,7 @@ Can say:
 - "Faster than other courses" — depends on the person
 - "You will be fluent" — A2 is not fluency
 - "The exam becomes easy" — use "straightforward" instead
+
+**About financing (DUO loan):**
+- Dutchwithjoost is NOT on DUO's list of approved courses, so you cannot pay for it with a DUO inburgering loan.
+- Do NOT mention DUO loans in any content about Dutchwithjoost, and never imply our course is loan-eligible. The DUO loan exists for approved courses and exam costs; we are not on that list, so leave it out of our content entirely.

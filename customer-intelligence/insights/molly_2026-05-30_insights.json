@@ -1,0 +1,230 @@
+{
+  "call_meta": {
+    "company": "Molly (individual learner)",
+    "persona": "American expat in Maastricht, accompanying her partner (a master's student). Belonging + Integration + Career motivations. Barriers: Production gap, Access to practice, Prior course skepticism, Shame. Not on the inburgering track -- her decision to stay in the Netherlands hinges entirely on whether she can find a path to actually speak Dutch. Warm Dutchwithjoost pilot prospect.",
+    "industry": "Not currently working; aspiring founder of a coaching business for autistic people",
+    "company_size": "N/A (B2C individual)",
+    "deal_stage": "evaluation",
+    "call_date": null,
+    "participants": ["co-founder (interviewer)", "founder (notes)", "prospect -- American expat, Maastricht"]
+  },
+  "jtbd": [
+    {
+      "job": "Decide whether to stay in the Netherlands or move to Ireland",
+      "desired_outcome": "A credible path to speak Dutch that makes staying feasible; language is the single deciding factor",
+      "current_approach": "Undecided and leaning toward Ireland because Dutch feels like a dead end for jobs and connection"
+    },
+    {
+      "job": "Learn enough Dutch to get by in daily life",
+      "desired_outcome": "Not having to switch to English in everyday situations like grocery stores; being polite by at least starting in Dutch",
+      "current_approach": "Two-week intensive in-person course (just started); Duolingo before that"
+    },
+    {
+      "job": "Connect with Dutch people and stop feeling excluded",
+      "desired_outcome": "Make Dutch friends, follow conversations, feel part of the community rather than only in the expat bubble",
+      "current_approach": "Joined volunteering groups but felt excluded when others spoke Dutch; failed to make Dutch friends"
+    },
+    {
+      "job": "Build a viable future (a coaching business) in the Netherlands",
+      "desired_outcome": "Job and business prospects that aren't blocked by the language barrier",
+      "current_approach": "Believes the business has no future here without Dutch"
+    }
+  ],
+  "pains": [
+    {
+      "pain": "The language barrier is the sole reason she may leave the country",
+      "trigger": "Failed social connection and fear of no job prospects without Dutch",
+      "cost": "Strongly considering emigrating to Ireland; would settle in the Netherlands if she could speak Dutch",
+      "urgency": "high",
+      "verbatim": "The pain is so big that that is the only reason why they want to move to an english speaking country."
+    },
+    {
+      "pain": "Exclusion and failure to make Dutch friends",
+      "trigger": "Volunteering groups dominated by Dutch speakers who talked among themselves",
+      "cost": "Isolation; ended up only socializing with other expats",
+      "urgency": "high",
+      "verbatim": null
+    },
+    {
+      "pain": "Guilt and disconnection when Dutch people switch to English for her",
+      "trigger": "Attempting to interact in Dutch",
+      "cost": "Feels bad making people switch; feels disconnected when she can't follow what people say",
+      "urgency": "medium",
+      "verbatim": null
+    },
+    {
+      "pain": "Can't ask questions in a large class, so she doesn't actually understand",
+      "trigger": "Group of 12 in the intensive course; teacher moves through grammar and verb conjugation",
+      "cost": "Often doesn't understand the phrases or translations, feels bad asking, so she stays lost",
+      "urgency": "medium",
+      "verbatim": null
+    },
+    {
+      "pain": "Can't retain vocabulary and verb conjugations from the course",
+      "trigger": "Book-based intensive format with heavy memorization",
+      "cost": "Struggles to keep words and conjugations in mind; wishes she had a cheatsheet of words and meanings",
+      "urgency": "medium",
+      "verbatim": null
+    },
+    {
+      "pain": "Self-blame -- assumes she is just bad at it",
+      "trigger": "Duolingo not helping",
+      "cost": "Internalizes the failure rather than blaming the method",
+      "urgency": "medium",
+      "verbatim": null
+    },
+    {
+      "pain": "Intensive format is overwhelming",
+      "trigger": "Three hours of class plus heavy homework",
+      "cost": "Won't take an intensive course again for the next levels",
+      "urgency": "low",
+      "verbatim": null
+    }
+  ],
+  "workflow_reality": {
+    "current_process": "Enrolled in a two-week intensive in-person course (A0 to A1, four days a week, three hours daily, group of 12): read a dialogue from the book, listen to it, then the teacher works through grammar and verb conjugation, followed by substantial homework. Previously tried Duolingo. Now evaluating Dutchwithjoost.",
+    "tools_used": ["two-week intensive in-person course", "Duolingo", "Dutchwithjoost (evaluating)"],
+    "brittleness": "Can't ask questions in a group of 12; translations and phrases go unexplained; heavy homework; content doesn't stick",
+    "workarounds": ["Wishes for a vocabulary cheatsheet", "Chose the course because her boyfriend had taken it before her"]
+  },
+  "alternatives_and_competitors": [
+    {
+      "name": "Two-week intensive in-person course (A0 to A1)",
+      "type": "direct_competitor",
+      "sentiment": "mixed",
+      "context": "Currently enrolled; group of 12 too large to ask questions, content doesn't stick, intensive format overwhelming -- but it is what she's doing right now",
+      "known_competitor": true
+    },
+    {
+      "name": "Duolingo",
+      "type": "adjacent_tool",
+      "sentiment": "negative",
+      "context": "Tried it a couple of times; didn't give phrases usable in everyday life",
+      "known_competitor": true
+    },
+    {
+      "name": "Dutchwithjoost",
+      "type": "direct_competitor",
+      "sentiment": "positive",
+      "context": "Shown the product and liked it; initial worry about grammar coverage was resolved by seeing the grammar feedback; asked to try the first lesson free but hesitant to commit while in her current course and undecided about staying",
+      "known_competitor": false
+    }
+  ],
+  "quotes": [
+    {
+      "text": "So that I don't have to switch to English in grocery stores.",
+      "speaker": "prospect -- American expat",
+      "context": "Describing her near-term goal for learning Dutch",
+      "themes": ["get by", "everyday Dutch", "switching to English"]
+    },
+    {
+      "text": "Sorry my Dutch is not good, can we do English?",
+      "speaker": "prospect -- American expat",
+      "context": "The minimum she wants to be able to say, to feel she is being polite",
+      "themes": ["politeness", "low confidence", "production gap"]
+    },
+    {
+      "text": "It doesn't have to be face to face, I don't need that... but it would be nice if someone is taking the course with me, that I can talk to them, that would keep me away from giving up when it's too difficult.",
+      "speaker": "prospect -- American expat",
+      "context": "Answering how important face-to-face or an accountability buddy is",
+      "themes": ["accountability", "motivation", "self-paced acceptable", "fear of giving up"]
+    },
+    {
+      "text": "If she spoke Dutch fluently, would she consider staying? Yes -- we like everything else and would actually settle here.",
+      "speaker": "interviewer (paraphrase of prospect)",
+      "context": "Establishing that language is the single deciding factor in the stay-or-leave decision",
+      "themes": ["stay-or-leave", "language as deciding factor", "belonging"]
+    }
+  ],
+  "lexicon": {
+    "category_terms": ["intensive course", "grammar", "conjugating verbs", "cheatsheet", "A1", "A2"],
+    "value_language": ["get by", "settle here", "connect", "part of the community", "everyday life"],
+    "deviant_terms": ["switch to English for her", "cheatsheet of the words and their meaning", "accountability buddy", "don't have to switch to English in grocery stores"]
+  },
+  "keyword_candidates": [
+    {
+      "keyword": "Dutchwithjoost vs intensive Dutch course",
+      "type": "comparison",
+      "source_context": "Currently in a two-week intensive and comparing it to Dutchwithjoost after seeing a demo",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 8,
+        "business_priority": 8,
+        "mini_volume": 3,
+        "authority_fit": 8,
+        "weighted_total": 7.35
+      }
+    },
+    {
+      "keyword": "learn enough Dutch to get by in daily life",
+      "type": "jtbd",
+      "source_context": "Wants to stop switching to English in grocery stores and everyday situations",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 6,
+        "authority_fit": 7,
+        "weighted_total": 6.8
+      }
+    },
+    {
+      "keyword": "intensive Dutch course too overwhelming can't keep up",
+      "type": "long_tail",
+      "source_context": "Three hours plus heavy homework; can't retain vocabulary and conjugations",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 4,
+        "authority_fit": 7,
+        "weighted_total": 6.45
+      }
+    },
+    {
+      "keyword": "Dutch course small enough to ask questions",
+      "type": "long_tail",
+      "source_context": "Group of 12 too large; she feels bad asking the teacher to translate",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 4,
+        "authority_fit": 7,
+        "weighted_total": 6.3
+      }
+    },
+    {
+      "keyword": "how to make Dutch friends as an expat",
+      "type": "category",
+      "source_context": "Excluded in volunteering groups; failed to make Dutch friends",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 7,
+        "authority_fit": 6,
+        "weighted_total": 6.25
+      }
+    },
+    {
+      "keyword": "should I leave the Netherlands if I can't learn Dutch",
+      "type": "deviant",
+      "source_context": "Language is the single reason she and her partner are considering Ireland",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 6,
+        "serp_weakness": 9,
+        "business_priority": 5,
+        "mini_volume": 3,
+        "authority_fit": 6,
+        "weighted_total": 5.7
+      }
+    }
+  ]
+}

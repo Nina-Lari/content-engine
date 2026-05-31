@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "topic_id": "duolingo-wont-teach-you-to-speak-dutch",
+    "priority_score": 7.55,
+    "stage": "mofu",
+    "format": "comparison",
+    "target_word_count": 1800,
+    "estimated_effort": "2-4 hours"
+  },
+  "keyword": {
+    "primary": "is Duolingo good for learning Dutch",
+    "variants": [
+      "Duolingo Dutch review",
+      "does Duolingo work for Dutch",
+      "Duolingo for inburgering",
+      "what to use instead of Duolingo for Dutch",
+      "is Duolingo enough to learn Dutch"
+    ],
+    "searcher_intent": "A solution-aware learner trying to decide whether free Duolingo is enough to actually speak Dutch (and sometimes to pass inburgering), often after months on the app with little to show for it. They half-suspect it is not working and want an honest answer plus a better next step."
+  },
+  "audience": {
+    "persona": "Cross-persona beginners who started with Duolingo and stalled. Maps to the Anna, Molly, and Monika profiles: motivated, time-pressured, and quietly blaming themselves.",
+    "industry_focus": null,
+    "pain_summary": "Months on Duolingo leave them able to recite a few impractical phrases but unable to hold a real conversation, so they conclude they are bad at languages.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "An honest review that gives Duolingo real credit for what it does well (free, habit-forming, a little starter vocabulary) and then explains precisely why it leaves you unable to speak: it trains recognition of often-impractical phrases, never production of usable Dutch. The fix is not more Duolingo. It is a method that makes you produce the language in context. Crucially, reframe the failure as the tool's design, not the reader's aptitude.",
+  "thesis_sentence": "Duolingo builds a daily streak and a few hundred words, but because it never makes you produce real Dutch in a real context, you end up able to tap the right tiles without being able to say anything useful, which is exactly why so many learners quit blaming themselves.",
+  "outline": [
+    {
+      "section": "The honest answer: what Duolingo is genuinely good at",
+      "notes": "Lead with fairness, not a competitor attack. Duolingo is free, lowers the barrier to starting, builds a daily habit, and teaches some beginner vocabulary. Set the frame that this article is an honest assessment, not a takedown.",
+      "word_target": 250,
+      "evidence_needed": "Duolingo's documented strengths from the competitive landscape (free, habit-forming, brand recognition). Acknowledge the streak mechanic plainly."
+    },
+    {
+      "section": "Where it breaks: recognition versus production (the green-apple problem)",
+      "notes": "Explain the recognition-vs-production gap in plain language. Tapping the correct tiles is recognition. Speaking unprompted is production. Duolingo measures the first and calls it progress. Use the anonymized learner lexicon about impractical phrases.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized customer lexicon ('able to say only that I have a green apple'; 'phrases like my elephant is green, where am I going to use this'). The community meme about impractical Duolingo Dutch. The recognition-vs-production framing from web research."
+    },
+    {
+      "section": "Why you end up blaming yourself (and why that is the wrong conclusion)",
+      "notes": "Name the self-blame pattern directly: learners assume they are bad at languages when the tool simply never asked them to produce. Move the blame from the person to the method. This is the emotional core and the share-worthy reframe.",
+      "word_target": 300,
+      "evidence_needed": "Anonymized self-blame quotes ('I assumed I was just bad at it'). The cross-interview observation that three separate learners bounced off Duolingo with the same complaint, which makes it a pattern, not a personal failing."
+    },
+    {
+      "section": "What 'usable Dutch' actually asks of you that tile-tapping does not",
+      "notes": "Describe what moves someone from recognizing to speaking: producing words yourself, in context, at your own level, often enough that they stick. Frame this as how Dutchwithjoost was designed, not as a universal law of language learning. Be explicit: 'this is how we built it,' not 'this is what learning requires.'",
+      "word_target": 350,
+      "evidence_needed": "Dutchwithjoost design described honestly: a lesson counts as done when you have used the vocabulary in conversation, not when you finish exercises. Joost replies at the lesson's difficulty level. Words taught in sentences you would actually use."
+    },
+    {
+      "section": "Duolingo plus what? Using the app as a supplement, not a plan",
+      "notes": "Give genuinely useful advice that holds even if the reader does not choose us: keep Duolingo for the habit if they like it, but pair it with something that forces production and speaking. Criteria a reader can apply to any option.",
+      "word_target": 300,
+      "evidence_needed": "Advice criteria that pass the 'would a competitor satisfy these' test: does it make you speak, does it teach words in context, does it match your level. Mention practice that is low-stakes so beginners actually do it."
+    },
+    {
+      "section": "If your goal is inburgering specifically",
+      "notes": "Short, factual: Duolingo does not cover the inburgering exam format or KNM, so it cannot be a primary plan for people on the integration track. Point them toward exam-structured options.",
+      "word_target": 200,
+      "evidence_needed": "Duolingo does not prepare for the five exam components or KNM (competitive landscape). Keep this factual and non-salesy."
+    },
+    {
+      "section": "FAQ",
+      "notes": "Answer the literal questions people type, concisely, for AEO.",
+      "word_target": 250,
+      "evidence_needed": "Direct answers grounded in the body."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Can recite phrases but freezes in real conversation",
+      "prop": "Lessons that are only complete once you have produced the vocabulary in conversation, so speaking is the goal, not a bonus",
+      "proof": "Anonymized tester feedback: 'the words that you learn you use, it helps me communicate.' Contrast with finishing exercises and retaining nothing."
+    },
+    {
+      "pain": "Learned phrases that are useless in daily life",
+      "prop": "Vocabulary taught inside sentences you would actually say, not isolated novelty phrases",
+      "proof": "Customer lexicon contrasting 'my elephant is green' with words used in context that transfer to real situations."
+    },
+    {
+      "pain": "Quit and blamed their own aptitude",
+      "prop": "Guided, level-matched, engaging structure that keeps beginners going without engineering their own lessons",
+      "proof": "Anonymized quote: 'I do not have the cognitive load of trying to engineer my lesson, it is just guided'; 'I do not see time passing by because I am having fun.'"
+    },
+    {
+      "pain": "App will not prepare them for inburgering",
+      "prop": "One course covering all five exam parts and KNM through a single learn-by-using approach",
+      "proof": "Coverage matrix from the competitive landscape; KNM included."
+    }
+  ],
+  "originality_nuggets": [
+    "Three separate learners, interviewed independently, bounced off Duolingo with almost the identical complaint about being able to produce only one canned phrase. Frequency itself is the proof that this is a design problem, not a learner problem. Anonymize all three.",
+    "The 'green apple' / 'my elephant is green' phrasing is real customer language and lands harder than any abstract description of the production gap. Use anonymized.",
+    "The hidden cost of Duolingo is not wasted time, it is the false self-diagnosis: learners conclude they are bad at languages when the tool never once asked them to speak."
+  ],
+  "seo": {
+    "title_tag": "Is Duolingo Good for Learning Dutch? An Honest Review",
+    "meta_description": "Duolingo builds a habit but not speaking ability. Here is why you can recite phrases yet freeze in conversation, and what to pair it with for real Dutch.",
+    "url_slug": "is-duolingo-good-for-learning-dutch"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Is Duolingo good for learning Dutch?",
+    "definition_paragraph": "Duolingo is a useful free tool for building a daily habit and some beginner Dutch vocabulary, but it trains you to recognize phrases rather than produce them, so most learners can complete lessons without being able to hold a basic conversation. It also does not cover the inburgering exam format or KNM, so it works as a supplement, not a complete plan.",
+    "faq_questions": [
+      "Is Duolingo enough to learn Dutch?",
+      "Can you pass the inburgering exam with Duolingo?",
+      "Why can I do Duolingo lessons but not speak Dutch?",
+      "What should I use instead of Duolingo to learn Dutch?",
+      "How long does it take to learn Dutch on Duolingo?"
+    ]
+  }
+}

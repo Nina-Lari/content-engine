@@ -34,9 +34,11 @@ See `strategy/personas.md` for the full layered model (Core Motivations → Visa
 - Voluntary naturalization candidates (choosing to do inburgering for Dutch citizenship)
 - People on the Z track (self-reliance) under 2021 Act (A2 is optional for them)
 
-**B1 level (not currently served):**
+**B1 level (current course is A1–A2, but needing B1 is not an automatic exclusion):**
 - People integrating under Wet inburgering 2021 on B1 or Education tracks
 - Recent family migrants and other migrants assigned B1 by municipality
+
+Needing B1 does not by itself rule someone out. Fit depends on their *current* level, not the level they eventually need. A dedicated Dutchwithjoost B1 course is coming soon. See "B1 Learners: Who Fits and Who Doesn't" below.
 
 **Key fact for content:** Under the 2021 Act, most people must achieve B1, not A2. Only the Z track has A2 as optional. Do not assume everyone needs A2.
 
@@ -66,9 +68,9 @@ See `strategy/personas.md` for the full layered model (Core Motivations → Visa
 
 ---
 
-## Dream Customer Profile
+## Dream Learner Profile
 
-Someone with strong **belonging** and **family** motivations — wants to participate in Dutch life, not just pass an exam. May have a Dutch partner or family connection that creates social pressure beyond the legal requirement. The visa type matters less than the motivation profile: someone with a work visa can have the same belonging/family motivations as a partner visa holder.
+Someone with strong **belonging** and **family** motivations — wants to participate in Dutch life and feel part of the community here, connected to the Dutch people around them, not just pass an exam. May have a Dutch partner or family connection that creates social pressure beyond the legal requirement. The visa situation matters less than the motivation profile: someone on a work visa can have the same belonging/family motivations as someone on a partner visa.
 
 Has tried or researched other options and is frustrated (prior course skepticism barrier). Duolingo didn't prepare them for anything useful. Classroom courses are too expensive or don't fit their schedule. Self-paced online courses all seem to rely on memorization.
 
@@ -76,8 +78,21 @@ They're self-motivated, prefer learning at home on their own schedule, and want 
 
 **In terms of the layered model:**
 - **Core motivations**: Belonging + Family (primary), Integration (secondary)
-- **Visa modifier**: Either (both types can be dream customers)
+- **Visa modifier**: Either (both situations can fit the dream learner)
 - **Barrier profile**: Prior course skepticism, Production gap, possibly Shame cycle
+
+---
+
+## B1 Learners: Who Fits and Who Doesn't
+
+Many people ultimately need B1 (most integrators under the 2021 Act do). That alone does not rule out Dutchwithjoost. What decides fit is where someone is *starting from*, not the level they eventually need. Everyone passes through A1, then A2, before B1 — there is no skipping it.
+
+| Situation | Fit? |
+|-----------|------|
+| Already at A2, comfortable holding basic conversations, needs B1 now | **Not the right next step.** A dedicated Dutchwithjoost B1 course is coming soon; until it ships, they need a B1 course elsewhere. |
+| Starting from zero (or close), will eventually need B1 | **Strong fit.** Because you learn by using the language, what you learn sticks and you can actually speak it — a solid foundation that sets up a later B1 course well, not a detour. |
+
+The old framing ("if you need B1, this isn't for you") was too strict. The level someone eventually needs doesn't decide fit. Their current level does.
 
 ---
 
@@ -86,10 +101,10 @@ They're self-motivated, prefer learning at home on their own schedule, and want 
 | Signal | Why They're Not a Fit |
 |--------|----------------------|
 | Refugee status | Assigned courses by municipality — cannot choose their own |
-| Requires B1 level | Post-2022 BSN, mandatory integration — we don't offer B1 yet |
+| Already at A2 and needs B1 now | Comfortable in basic conversations and needs B1 — our A1–A2 course isn't the right next step (B1 course coming soon). A beginner who will eventually need B1 is still a fit (see "B1 Learners" above). |
 | Wants classroom experience | Needs peer pressure and human teacher relationship |
 | Budget of €0 | Will self-study with free resources |
-| Just wants to pass fast | Memorization courses are faster if retention doesn't matter |
+| Learns well by memorizing, wants to pass fast | Doesn't care about retention — a memorization-based course may suit them. Not universal: people who hate memorizing often learn faster by using the language. |
 
 ---
 

@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "topic_id": "dutch-for-career-netherlands",
+    "priority_score": 6.85,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1900,
+    "estimated_effort": "2-4 hours"
+  },
+  "keyword": {
+    "primary": "can't get a job in the Netherlands without Dutch",
+    "variants": [
+      "do you need Dutch to work in the Netherlands",
+      "jobs that require Dutch Netherlands",
+      "learn Dutch for work Netherlands",
+      "is English enough to work in the Netherlands",
+      "Dutch for career"
+    ],
+    "searcher_intent": "Someone hitting a career wall in the Netherlands. They were told English is enough, but they are being passed over for jobs, excluded inside their team, or unable to win clients, and they are trying to work out how much Dutch they actually need and how to get there without quitting their job for a classroom."
+  },
+  "audience": {
+    "persona": "Cross-persona, Career motivation, which appeared in all five interviews. Spans employees (Anna, Nina), aspiring founders (Molly), and freelancers needing Dutch clients (Monika).",
+    "industry_focus": null,
+    "pain_summary": "'Everyone speaks English' gets you hired but not included; the jobs, promotions, and belonging that need Dutch are gated by being able to speak it, and they cannot see a realistic way to learn while working.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Cut through the 'everyone speaks English' reassurance with the inside-the-team reality: English gets you in the door, but Dutch is what gets you included, promoted, and kept. Then de-escalate the goal. You do not need fluency, you need functional speaking, and that is more reachable than people think, without quitting your job for a fixed-schedule classroom.",
+  "thesis_sentence": "'Everyone speaks English' gets you hired but not included, because the jobs, promotions, and team belonging that actually require Dutch are gated by your ability to speak it rather than to pass a test, and functional speaking is a more reachable and more useful goal than most expats assume.",
+  "outline": [
+    {
+      "section": "The 'everyone speaks English' myth meets the inside-the-team reality",
+      "notes": "Open with the gap between the recruiting pitch and daily life on a team: hired in English, then slowly excluded as colleagues default to Dutch for the real conversations. Name silent exclusion plainly.",
+      "word_target": 320,
+      "evidence_needed": "Anonymized account of silent exclusion on a Dutch-speaking team at a large Dutch tech employer, including the detail that Dutch colleagues resent having to switch to English. Remove the company name; use 'a large Dutch tech employer.'"
+    },
+    {
+      "section": "Where Dutch actually gates your career",
+      "notes": "Concrete list, not vague claims: job listings that filter on Dutch, promotions and informal influence, team bonding and inside jokes, being first cut in a downturn, and client-facing or freelance work where customers prefer Dutch. Tie each to a real consequence.",
+      "word_target": 400,
+      "evidence_needed": "Career barriers from personas (favored for promotion, first to be laid off, missed informal influence). Anonymized: repeatedly denied jobs for lack of Dutch; a freelancer losing potential Dutch clients."
+    },
+    {
+      "section": "How much Dutch do you actually need? (Less than you fear)",
+      "notes": "Reassurance and realism. Most career gains come from functional speaking: small talk, meetings, client niceties, not C2 fluency. Separate the goal of belonging and access from the goal of perfection. This lowers the activation barrier.",
+      "word_target": 340,
+      "evidence_needed": "Anonymized goal language: 'functional Dutch to make small talk with clients'; wanting to stop colleagues switching to English. Be honest that some roles need B1 or higher and note a B1 path is coming."
+    },
+    {
+      "section": "Why grammar and memorization courses don't move your career",
+      "notes": "The career payoff comes from producing Dutch in real workplace moments, which recognition-based courses never train. Connect the production gap directly to the career outcome: you can pass a course and still be silent in the standup.",
+      "word_target": 320,
+      "evidence_needed": "Recognition-vs-production gap; anonymized 'pass but cannot speak' evidence. Keep competitor mentions honest."
+    },
+    {
+      "section": "Learning Dutch around a full-time job or a business",
+      "notes": "Practical: the real blocker for working people is schedule and energy, not desire. Self-paced, speaking-first practice that fits into short sessions. Frame the specifics as how Dutchwithjoost was designed, not universal rules.",
+      "word_target": 300,
+      "evidence_needed": "Schedule-constraint barrier from personas; Dutchwithjoost self-paced design described honestly (15 minutes or longer, learn at home, unlimited practice). No fixed class times."
+    },
+    {
+      "section": "For freelancers and founders: Dutch that wins clients",
+      "notes": "Speak to the self-employed segment: even basic Dutch small talk widens your client base and signals commitment. Lower-stakes than corporate fluency, high return for client-facing work.",
+      "word_target": 220,
+      "evidence_needed": "Anonymized freelancer insight: 'I could definitely have Dutch customers, sometimes people really prefer speaking Dutch.' Connect small-talk ability to client trust."
+    },
+    {
+      "section": "FAQ",
+      "notes": "Answer the literal questions for AEO.",
+      "word_target": 200,
+      "evidence_needed": "Direct answers grounded in the body."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Silent exclusion as colleagues switch to English then default to Dutch for the real talk",
+      "prop": "Practice that builds the production to hold workplace small talk, so colleagues have a reason to stay in Dutch with you",
+      "proof": "Anonymized account of exclusion on a Dutch team; the value of being able to produce, not just understand."
+    },
+    {
+      "pain": "Repeatedly denied jobs for lack of Dutch",
+      "prop": "A speaking-first path to functional Dutch matched to your level, rather than exam cramming you forget",
+      "proof": "Anonymized job-denial experiences; level-matched practice from product testing."
+    },
+    {
+      "pain": "No time to learn while working full time or building a business",
+      "prop": "Self-paced practice that fits short sessions around any schedule, learned at home",
+      "proof": "Schedule-constraint barrier; self-paced design with no fixed class times."
+    },
+    {
+      "pain": "Freelancers losing Dutch clients",
+      "prop": "Everyday, in-context Dutch for small talk that builds client trust",
+      "proof": "Anonymized freelancer quote about Dutch clients preferring Dutch."
+    }
+  ],
+  "originality_nuggets": [
+    "Career was the one motivation present in every single interview, across employees, an aspiring founder, and a freelancer. That universality is the strongest argument that this is a core topic, not a niche one.",
+    "The sharpest detail: a large Dutch employer dropped its Dutch requirement, and the Dutch staff now resent having to switch to English, so the exclusion runs both ways. Anonymize the employer.",
+    "'Silent exclusion' is the precise phrase for what actually happens. It is not hostility, it is being quietly left out of the conversations where belonging and influence are built."
+  ],
+  "seo": {
+    "title_tag": "Do You Need Dutch to Work in the Netherlands?",
+    "meta_description": "English gets you hired but not included. Here is where Dutch really gates your career, how much you actually need, and how to learn it while working.",
+    "url_slug": "dutch-for-your-career-in-the-netherlands"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Do you need Dutch to get a job in the Netherlands?",
+    "definition_paragraph": "You can be hired in the Netherlands in English, but Dutch increasingly decides whether you are included, promoted, and kept. Many roles filter on Dutch, promotions favor Dutch speakers, and teams default to Dutch for the informal conversations where influence is built. You usually do not need fluency for this, functional speaking is often enough to change the outcome.",
+    "faq_questions": [
+      "Can you work in the Netherlands without speaking Dutch?",
+      "How much Dutch do you need to get a job in the Netherlands?",
+      "Why do I keep getting rejected for jobs without Dutch?",
+      "Do freelancers in the Netherlands need to speak Dutch?",
+      "How can I learn Dutch while working full time?"
+    ]
+  }
+}

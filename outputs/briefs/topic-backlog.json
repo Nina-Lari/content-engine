@@ -1,0 +1,587 @@
+{
+  "generated_date": "2026-05-30",
+  "intelligence_sources": [
+    "customer-intelligence/insights/nina_2026-05-28_insights.json",
+    "customer-intelligence/insights/alysa_2026-05-30_insights.json",
+    "customer-intelligence/insights/anna_2026-05-30_insights.json",
+    "customer-intelligence/insights/molly_2026-05-30_insights.json",
+    "customer-intelligence/insights/monika_2026-05-30_insights.json",
+    "customer-intelligence/web-research-jtbd.md"
+  ],
+  "filter_applied": null,
+  "notes": "Rebuilt from 5 insight files (up from 1). The four new discovery interviews (Alysa, Anna, Molly, Monika) enable cross-call frequency weighting, which the prior single-source (nina-only) backlog could not do. SERP weakness for the three net-new top topics was grounded with live Firecrawl searches (NL intent). Existing topics retain their previously live-grounded SERP notes. 'registry_status' flags overlap with outputs/content-registry.yaml so net-new angles are prioritized over already-drafted/planned topics. 'validation' on new topics records how many of the four new interviews support the angle. REVIVED-TOPICS PASS (2026-05-30): regenerated briefs for five user-requested revived topics against the 5-interview corpus (how-to-practice-dutch-speaking-alone, life-without-dutch-netherlands, passed-inburgering-cant-speak-dutch, shame-cycle-speaking-dutch, who-is-dutchwithjoost-not-for); the sixth, dutch-partner-cant-teach-dutch, already had a current brief. passed-inburgering is differentiated from the drafted why-cant-speak article and flagged for human review.",
+  "scoring_weights": {
+    "buyer_intent": 0.35,
+    "differentiator_fit": 0.2,
+    "serp_weakness": 0.15,
+    "business_priority": 0.1,
+    "mini_volume": 0.1,
+    "authority_fit": 0.1
+  },
+  "cross_call_frequency": {
+    "production-gap-understand-but-cant-speak": "5/5 calls (nina, alysa-implied, anna, molly, monika) + heavy web evidence. Dominant, multi-source-validated theme.",
+    "career-jobs-blocked-without-dutch": "5/5 calls. Universal motivation: Anna (denied jobs, silent exclusion), Molly (no business future), Monika (Dutch clients), Alysa (jobs require Dutch), Nina (career ceiling). Strongest under-served topic.",
+    "self-blame-im-bad-at-languages": "3/4 new calls (anna, molly, monika) explicitly self-blamed; Nina named it as a pattern. Distinct from the shame-in-front-of-others cycle.",
+    "duolingo-taught-useless-phrases": "3/4 new calls (anna 'green apple', molly, monika 'my elephant is green'). No course owns the rebuttal.",
+    "classroom-intensive-friction": "4/4 new calls: can't ask in a group of 12 (molly), level-placement failure (alysa), wrong-level/condescending content (monika), class-of-12 attention (nina).",
+    "dutch-people-switch-to-english": "2/4 new (molly, monika) + web. SERP already owned by DutchReview + Dutch-online, so lower priority than frequency alone suggests.",
+    "schedule-life-constraints": "4/4 new: childcare/pregnancy (alysa), newborn (anna), moving/driving-licence (monika), irregular founder hours (nina). Parent sub-angle is net-new.",
+    "subscription-resentment": "1/4 new (anna, 3 unused subscriptions) + web. Validates one-time-pricing positioning; folds into comparison content rather than a standalone topic."
+  },
+  "topics": [
+    {
+      "topic_id": "inburgering-course-that-teaches-speaking",
+      "title": "Inburgering Course That Teaches You to Speak Dutch",
+      "category": "jtbd",
+      "primary_keyword": "inburgering course that teaches you to speak",
+      "persona": "Cross-persona course shopper (Pattern A Partner Visa + Family, Pattern C Work Visa full stack)",
+      "pain_cluster": "memorization-not-production",
+      "registry_status": "drafted (inburgering-course-that-teaches-speaking)",
+      "serp_note": "Top results are government portals (inburgeren.nl, government.nl) and competitor homepages (InburgeringOnline); no content owns the 'actually speak' intent.",
+      "validation": "Production gap reconfirmed across all 5 calls; remains the single strongest topic.",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 10,
+        "serp_weakness": 8,
+        "business_priority": 10,
+        "mini_volume": 5,
+        "authority_fit": 9,
+        "weighted_total": 9.1
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "pass-inburgering-exam-cant-speak",
+      "title": "You Can Pass the Inburgering Exam and Still Not Speak Dutch",
+      "category": "jtbd",
+      "primary_keyword": "pass inburgering exam but can't speak Dutch",
+      "persona": "Cross-persona (all)",
+      "pain_cluster": "pass-but-cant-speak-normalized",
+      "registry_status": "passed-inburgering-cant-speak-dutch is its own PLANNED registry topic, distinct from the drafted why-cant-speak-dutch-after-studying (the recognition-vs-production mechanism piece).",
+      "serp_note": "Differentiated from the drafted mechanism article: this brief is post-exam/post-certificate (identity + path forward) and internal-links to the mechanism piece rather than repeating it. FLAG FOR HUMAN REVIEW: confirm the two stay distinct and don't cannibalize each other.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 10,
+        "serp_weakness": 8,
+        "business_priority": 10,
+        "mini_volume": 6,
+        "authority_fit": 9,
+        "weighted_total": 8.85
+      },
+      "brief_file": "outputs/briefs/passed-inburgering-cant-speak-dutch_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "dutch-partner-cant-teach-dutch",
+      "title": "Why Your Dutch Partner Can't Teach You Dutch",
+      "category": "deviant",
+      "primary_keyword": "why your Dutch partner can't teach you Dutch",
+      "persona": "Pattern A: Partner Visa + Family (any Family-motivated learner with a Dutch partner)",
+      "pain_cluster": "dutch-partner-problem",
+      "registry_status": "net-new",
+      "serp_note": "SERP is forums only (Reddit, Facebook, Quora, Dutch Grammar Forum) plus one IamExpat blog. No course or structured content owns it. Strongest SERP gap in the backlog.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 10,
+        "serp_weakness": 9,
+        "business_priority": 8,
+        "mini_volume": 4,
+        "authority_fit": 9,
+        "weighted_total": 8.25
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "best-dutch-course-a2-inburgering",
+      "title": "Best Dutch Course for A2 Inburgering",
+      "category": "category",
+      "primary_keyword": "best Dutch course for A2 inburgering",
+      "persona": "Cross-persona course shopper",
+      "pain_cluster": "expensive-inflexible-options",
+      "registry_status": "planned (best-dutch-course-a2-inburgering)",
+      "serp_note": "Directories and homepages dominate; commercial intent high. Overlaps the 'teaches speaking' brief, which is the sharper differentiated angle.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 9,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 8.2
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "who-is-dutchwithjoost-not-for",
+      "title": "Who Is Dutchwithjoost NOT For? An Honest Guide",
+      "category": "comparison",
+      "primary_keyword": "is Dutchwithjoost right for me",
+      "persona": "Cross-persona course shopper at the decision stage; prior-course skeptics",
+      "pain_cluster": "prior-course-skepticism / fit-and-trust",
+      "registry_status": "planned (content-registry: Who is Dutchwithjoost Not For). Was missing from this backlog; added during the revived-topics pass.",
+      "serp_note": "Uncontested: no competitor publishes disqualifier content. BOFU trust-builder that pre-qualifies buyers and reduces refunds. Branded/niche query, so low volume but high authority and differentiator fit.",
+      "validation": "ICP disqualifiers reconfirmed; a classroom-preferring parent learner is a clean honest example of a non-fit. PRODUCT-FACT CLAIMS (lesson count, access duration, Exam Pass Guarantee) need verification before writing; the old messaging.md they came from is gone.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 9,
+        "business_priority": 8,
+        "mini_volume": 4,
+        "authority_fit": 9,
+        "weighted_total": 8.05
+      },
+      "brief_file": "outputs/briefs/who-is-dutchwithjoost-not-for_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "dutch-speaking-practice-beginners",
+      "title": "Dutch Speaking Practice for Beginners",
+      "category": "jtbd",
+      "primary_keyword": "Dutch speaking practice for beginners online",
+      "persona": "Pattern D (Long-term resident) and Pattern A; access-to-practice barrier",
+      "pain_cluster": "access-to-practice",
+      "registry_status": "planned (dutch-speaking-practice-online)",
+      "serp_note": "Free grammar sites, Taalthuis free, YouTube, learndutch.org, a conversation app (hilokal); no product owns production-building speaking practice.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 8.05
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "inburgeringonline-review-alternative",
+      "title": "InburgeringOnline Review and Alternative",
+      "category": "comparison",
+      "primary_keyword": "inburgeringonline review",
+      "persona": "Cross-persona course shopper",
+      "pain_cluster": "memorization-not-production",
+      "registry_status": "planned (dutchwithjoost-vs-inburgeringonline)",
+      "brief_file": "outputs/briefs/dutchwithjoost-vs-inburgeringonline_brief.json",
+      "serp_note": "Live SERP (NL): review/alternative/comparison intent owned only by Trustpilot, Reddit threads, and self-serving vendor pages. No neutral editorial comparison ranks. Clear wedge for an honest comparison.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 7.8
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "how-to-practice-dutch-speaking-alone",
+      "title": "How to Practice Dutch Speaking Alone",
+      "category": "jtbd",
+      "primary_keyword": "how to practice Dutch speaking alone",
+      "persona": "Pattern B / Pattern D; access-to-practice barrier",
+      "pain_cluster": "access-to-practice",
+      "registry_status": "planned (content-registry: How to Practice Dutch Speaking Alone). Correction: registry status is planned, not drafted, and no article exists yet.",
+      "serp_note": "Free grammar sites, Taalthuis free, YouTube, learndutch.org, and a peer conversation app; no product owns production-building solo practice. Brief upgraded with multi-interview evidence (people switch to English, taalcafe 'mumbling together').",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.7
+      },
+      "brief_file": "outputs/briefs/how-to-practice-dutch-speaking-alone_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "duolingo-wont-teach-you-to-speak-dutch",
+      "title": "Why Duolingo Won't Teach You to Actually Speak Dutch (and What Will)",
+      "category": "comparison",
+      "primary_keyword": "is Duolingo good for learning Dutch",
+      "persona": "Cross-persona; solution-aware learners deciding if free apps are enough (Anna, Molly, Monika profiles)",
+      "pain_cluster": "duolingo-useless-phrases / production-gap",
+      "registry_status": "net-new",
+      "serp_note": "Live SERP (NL): Reddit threads, an affiliate 'Learn Dutch with AI' pros/cons post, italki and Ling comparison blogs, Facebook. No course owns the production-gap rebuttal ('you can recite phrases but can't hold a conversation'). Moderate SERP weakness, strong differentiator.",
+      "validation": "3/4 new calls bounced off Duolingo with near-identical complaints ('I can only say I have a green apple'; 'my elephant is green'). Exact customer lexicon available.",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 8,
+        "authority_fit": 8,
+        "weighted_total": 7.55
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "self-study-dutch-a2-that-actually-works",
+      "title": "Self-Study Dutch for A2 Inburgering: Courses That Actually Work",
+      "category": "category",
+      "primary_keyword": "self-study Dutch A2 course online",
+      "persona": "Pattern B / Pattern C: Work Visa, schedule-constrained, prior-course skeptic",
+      "pain_cluster": "memorization-not-production",
+      "registry_status": "net-new",
+      "serp_note": "Competitor homepages (InburgeringOnline) plus product pages (nt2.nl). The 'that actually works / not memorization' angle is open.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 7,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 7.4
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "self-paced-vs-classroom-dutch",
+      "title": "Self-Paced vs Classroom Dutch Courses",
+      "category": "comparison",
+      "primary_keyword": "self-paced vs classroom Dutch course",
+      "persona": "Pattern B: Work Visa + Security",
+      "pain_cluster": "expensive-inflexible-options",
+      "registry_status": "planned (self-paced-vs-classroom-dutch-courses)",
+      "validation": "Classroom friction reconfirmed 4/4 new calls (group of 12 too big to ask, level-placement failure, overwhelming intensive format).",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.4
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "not-bad-at-dutch-its-the-method",
+      "title": "You're Not Bad at Languages: Why Dutch Feels Impossible (and What Actually Works)",
+      "category": "deviant",
+      "primary_keyword": "why am I so bad at learning Dutch",
+      "persona": "Cross-persona; self-blame barrier (Anna, Molly, Monika profiles), problem-aware top of funnel",
+      "pain_cluster": "self-blame-im-bad-at-languages",
+      "registry_status": "net-new (distinct from planned fear-of-speaking-dutch, which is the shame-in-front-of-others angle)",
+      "serp_note": "Live SERP (NL): generic 'is Dutch hard to learn' blogs (polyglottist academy, mezzoguild), Reddit, Quora, YouTube. No one reframes the self-blame as a method failure (recognition-only courses set learners up to fail). Open wedge tied directly to production positioning.",
+      "validation": "Strongest emotional pattern in the new intelligence: 3/4 new interviewees blamed themselves ('I'm just very bad at it', 'my brain cannot work around it', 'assumed she was just bad at it'); Nina named it explicitly as a pattern.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 9,
+        "serp_weakness": 8,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.2
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "shame-speaking-dutch-expat",
+      "title": "The Shame of Not Speaking Dutch (and How to Break the Cycle)",
+      "category": "deviant",
+      "primary_keyword": "shame speaking Dutch as an expat",
+      "persona": "Pattern A / Pattern C; shame-cycle barrier",
+      "pain_cluster": "shame-cycle",
+      "registry_status": "adjacent (content-registry: Fear of Speaking Dutch). Scope: the SOCIAL shame cycle (being watched + switch-to-English), distinct from the self-blame piece not-bad-at-dutch-its-the-method. Cross-link, don't merge.",
+      "serp_note": "Very weak SERP for the shame framing; emotionally resonant top-of-funnel angle. New intelligence broadens the 'you're not alone' validation across four interviews.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 8,
+        "serp_weakness": 9,
+        "business_priority": 7,
+        "mini_volume": 4,
+        "authority_fit": 8,
+        "weighted_total": 6.95
+      },
+      "brief_file": "outputs/briefs/shame-cycle-speaking-dutch_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "dutch-for-career-netherlands",
+      "title": "You Can't Get a Job in the Netherlands Without Dutch: What to Do About It",
+      "category": "category",
+      "primary_keyword": "can't get a job in the Netherlands without Dutch",
+      "persona": "Cross-persona; Career motivation (universal across all five interviews)",
+      "pain_cluster": "career-jobs-blocked-without-dutch",
+      "registry_status": "planned (dutch-for-career-netherlands)",
+      "serp_note": "Estimated: expat-portal generic advice (IamExpat, Undutchables, relocation blogs) and Reddit dominate; none connect job access to a speaking-first learning path. Differentiator fit is indirect (DWJ gets you speaking, which unlocks the career), but business priority is the highest in the backlog.",
+      "validation": "5/5 calls. The most consistently cited motivation across every interview: job denial (Anna), no business future (Molly), Dutch clients (Monika), jobs requiring Dutch (Alysa), career ceiling and layoff-first (Nina).",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 6,
+        "serp_weakness": 6,
+        "business_priority": 9,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 6.85
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "learn-dutch-irregular-schedule",
+      "title": "Learning Dutch With an Irregular Schedule (Freelancers and Founders)",
+      "category": "jtbd",
+      "primary_keyword": "learn Dutch with irregular schedule",
+      "persona": "Pattern B / Pattern C: self-employed, irregular hours",
+      "pain_cluster": "expensive-inflexible-options",
+      "registry_status": "net-new",
+      "serp_note": "Classroom and professional course providers dominate; Dutch First owns a 'busy work schedule' article. The self-employed/founder angle is more specific and less covered.",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 5,
+        "authority_fit": 7,
+        "weighted_total": 6.85
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "do-taalcafes-help-learn-dutch",
+      "title": "Do Taalcafés Actually Help You Learn Dutch?",
+      "category": "deviant",
+      "primary_keyword": "do taalcafés work for learning Dutch",
+      "persona": "Pattern D (Integration); access-to-practice barrier across personas",
+      "pain_cluster": "access-to-practice",
+      "registry_status": "net-new",
+      "serp_note": "One DutchNews explainer ranks plus forums and blog guides. None connect taalcafé limitations to structured practice. Differentiated angle open.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 7,
+        "mini_volume": 4,
+        "authority_fit": 8,
+        "weighted_total": 6.85
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "private-tutor-vs-self-paced-dutch",
+      "title": "Private Dutch Tutor vs Self-Paced Course",
+      "category": "comparison",
+      "primary_keyword": "private Dutch tutor vs self-paced course",
+      "persona": "Cross-persona; budget-sensitive but wants speaking practice",
+      "pain_cluster": "expensive-inflexible-options",
+      "registry_status": "net-new",
+      "validation": "Tutor-too-expensive reconfirmed by Alysa and Monika (both ruled it out on cost).",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 4,
+        "authority_fit": 7,
+        "weighted_total": 6.8
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "life-without-dutch-netherlands",
+      "title": "What You Miss Living in the Netherlands Without Dutch",
+      "category": "deviant",
+      "primary_keyword": "life without Dutch in the Netherlands",
+      "persona": "Pattern D: Long-term resident + Integration",
+      "pain_cluster": "life-narrows-integration",
+      "registry_status": "net-new",
+      "serp_note": "No content owns this integration/quality-of-life angle. Brief upgraded from single-source to multi-voice: the belonging/exclusion cost is now validated across four new interviews, plus the new 'language is why people leave the country' escalation.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 9,
+        "business_priority": 7,
+        "mini_volume": 4,
+        "authority_fit": 8,
+        "weighted_total": 6.75
+      },
+      "brief_file": "outputs/briefs/life-without-dutch-netherlands_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "learn-dutch-as-a-busy-parent",
+      "title": "How to Learn Dutch as a Busy Parent (or With a Newborn)",
+      "category": "jtbd",
+      "primary_keyword": "how to learn Dutch as a busy parent",
+      "persona": "Family-motivated parents; schedule-constraint barrier (Alysa, Anna profiles)",
+      "pain_cluster": "schedule-life-constraints",
+      "registry_status": "net-new",
+      "serp_note": "Estimated: generic 'learn a language with kids' and mom-blog content; nothing Dutch-specific that addresses childcare/pregnancy/newborn scheduling. Self-paced, 15-minute differentiator fits this persona cleanly.",
+      "validation": "2/4 new calls are mothers blocked by exactly this: childcare and pregnancy (Alysa), a 4-month-old and sleep deprivation (Anna).",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 6,
+        "authority_fit": 6,
+        "weighted_total": 6.55
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "taalthuis-review",
+      "title": "Taalthuis Review: Honest Look at the Course",
+      "category": "comparison",
+      "primary_keyword": "Taalthuis review",
+      "persona": "Cross-persona course shopper",
+      "pain_cluster": "memorization-not-production",
+      "registry_status": "net-new",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 5,
+        "mini_volume": 4,
+        "authority_fit": 7,
+        "weighted_total": 6.55
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "dutch-switch-to-english",
+      "title": "Why Dutch People Switch to English (and How to Keep Them Speaking Dutch)",
+      "category": "deviant",
+      "primary_keyword": "why do Dutch people switch to English when I speak Dutch",
+      "persona": "Cross-persona; access-to-practice + confidence barrier (Molly, Monika profiles)",
+      "pain_cluster": "dutch-people-switch-to-english",
+      "registry_status": "net-new",
+      "serp_note": "Live SERP (NL): already owned by DutchReview (#1, Leiden professor Felix Ameka) and competitor Dutch-online.com (Utrecht research), plus Quora/Reddit/accidentallydutch. SERP is contested by a named publication and a competitor, so the pure informational query is hard to win. Wedge would be the production/confidence-building action, not the explanation.",
+      "validation": "2/4 new calls (Molly feels bad making people switch; Monika: 'people would instantly just switch to English') + web research.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 5,
+        "business_priority": 7,
+        "mini_volume": 8,
+        "authority_fit": 7,
+        "weighted_total": 6.45
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "uva-talen-dutch-course-review",
+      "title": "UvA Talen Dutch Course Review",
+      "category": "comparison",
+      "primary_keyword": "UvA Talen Dutch course review",
+      "persona": "Cross-persona course shopper",
+      "pain_cluster": "memorization-not-production",
+      "registry_status": "net-new",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 5,
+        "mini_volume": 3,
+        "authority_fit": 7,
+        "weighted_total": 6.4
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "why-dutch-pronunciation-hard",
+      "title": "Why Is Dutch Pronunciation So Hard (and How to Get Past It)",
+      "category": "category",
+      "primary_keyword": "why is Dutch pronunciation so hard",
+      "persona": "Cross-persona; production/pronunciation barrier (Monika profile)",
+      "pain_cluster": "production-gap-pronunciation",
+      "registry_status": "net-new",
+      "serp_note": "Estimated: language-blog and YouTube content on Dutch sounds (g, ui, ij); no course ties pronunciation difficulty to a speak-out-loud practice method.",
+      "validation": "1/4 new calls as a primary block (Monika: couldn't pronounce the doctor's surname; 'Dutch is my nightmare to pronounce'); recurs as a sub-theme in others.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 7,
+        "authority_fit": 6,
+        "weighted_total": 6.1
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "learn-dutch-eu-citizen-no-inburgering",
+      "title": "Learning Dutch When You Don't Have to: EU Citizens Who Want to Belong",
+      "category": "deviant",
+      "primary_keyword": "learn Dutch as an EU citizen without inburgering",
+      "persona": "EU nationals outside the inburgering requirement; Belonging + Career motivation (Monika profile)",
+      "pain_cluster": "belonging-without-legal-deadline",
+      "registry_status": "net-new (note: outside the core inburgering ICP; broader Dutch-learner market)",
+      "serp_note": "Estimated: weak, mostly 'do EU citizens need inburgering' legal explainers; nobody addresses the motivation/belonging angle for exempt residents.",
+      "validation": "1/4 new calls (Monika, Polish/EU, exempt from inburgering but strongly motivated to belong and win Dutch clients).",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 6.05
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "affordable-dutch-course-online",
+      "title": "Affordable Dutch Course Online",
+      "category": "category",
+      "primary_keyword": "affordable Dutch course online",
+      "persona": "Pattern B: budget-sensitive Work Visa",
+      "pain_cluster": "expensive-inflexible-options",
+      "registry_status": "net-new",
+      "serp_note": "Crowded, price-led category SERP. Hard to differentiate on price alone; weakest authority/differentiator fit.",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 5,
+        "serp_weakness": 4,
+        "business_priority": 6,
+        "mini_volume": 7,
+        "authority_fit": 6,
+        "weighted_total": 5.95
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "work-visa-anxiety-netherlands",
+      "title": "Work Visa Anxiety in the Netherlands",
+      "category": "deviant",
+      "primary_keyword": "work visa anxiety Netherlands",
+      "persona": "Pattern C: Work Visa + passport vulnerability",
+      "pain_cluster": "visa-anxiety",
+      "registry_status": "net-new",
+      "serp_note": "Weak SERP but low buyer intent and weak differentiator fit; brand/awareness play, not a purchase driver.",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 6,
+        "serp_weakness": 8,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 7,
+        "weighted_total": 5.95
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "should-i-leave-netherlands-cant-learn-dutch",
+      "title": "Thinking of Leaving the Netherlands Because You Can't Learn Dutch?",
+      "category": "deviant",
+      "primary_keyword": "should I leave the Netherlands if I can't learn Dutch",
+      "persona": "Undecided expats where language is the deciding factor (Molly profile)",
+      "pain_cluster": "language-as-stay-or-leave-decision",
+      "registry_status": "net-new",
+      "serp_note": "Live-adjacent estimate: r/Netherlands threads and relocation blogs; no content reframes the decision around whether a viable speaking path exists. Very weak SERP, but low volume and low buyer intent.",
+      "validation": "1/4 new calls, but an unusually sharp one: Molly says language is the only reason she and her partner are considering Ireland, and she would settle if she could speak.",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 6,
+        "serp_weakness": 8,
+        "business_priority": 5,
+        "mini_volume": 3,
+        "authority_fit": 6,
+        "weighted_total": 5.55
+      },
+      "brief_status": "pending"
+    }
+  ]
+}

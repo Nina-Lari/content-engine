@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "topic_id": "passed-inburgering-cant-speak-dutch",
+    "priority_score": 8.85,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-3 hours",
+    "differentiation_note": "Distinct registry topic from the already-drafted 'Why Can't I Speak Dutch After Studying' (the recognition-vs-production mechanism piece). This one is post-exam / post-certificate: the reader has already passed, or knows someone who did, and is dealing with the identity fallout and the 'what now'. Do NOT re-explain the recognition-vs-production mechanism at length; summarize it and internal-link to the mechanism article. Keep the weight on the emotional reality of holding the certificate without the ability, and on the concrete path forward."
+  },
+  "keyword": {
+    "primary": "passed inburgering but can't speak Dutch",
+    "variants": [
+      "passed inburgering exam can't speak",
+      "got Dutch citizenship can't speak Dutch",
+      "inburgering certificate but can't talk",
+      "passed Dutch exam still can't speak",
+      "inburgering didn't teach me to speak"
+    ],
+    "searcher_intent": "Has the certificate (or is watching a friend who does) and is unsettled that passing didn't equal speaking. Wants two things: reassurance that this is systemic rather than a personal failure, and a real path from a passive certificate to actual conversation."
+  },
+  "audience": {
+    "persona": "Cross-persona, partner-visa and work-visa holders who have completed or nearly completed inburgering; identity and belonging motivations",
+    "industry_focus": null,
+    "pain_summary": "Holds the official proof of integration but freezes in an actual Dutch conversation. Feels like a fraud, possibly that they don't deserve the passport, and suspects the money went to a course that taught passing rather than speaking.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Validate the specific gut-punch of passing and still not being able to speak, show it's by design rather than personal failure, then give a credible path forward. The differentiator from the mechanism article: this piece starts after the exam is already passed and centers the identity cost ('I have the certificate but I feel like a fraud') and the practical conversion of passive recognition into production.",
+  "thesis_sentence": "Passing the inburgering exam does not mean you can speak Dutch, and that gap is built into how the exam and most courses work, not a sign you failed; the certificate was step one, and converting it into real speaking is a separate job you can still do.",
+  "outline": [
+    {
+      "section": "You passed. So why can't you speak?",
+      "notes": "Open on the exact moment, not a setup. You have the certificate, maybe the passport, and you still freeze when a neighbor speaks Dutch to you. Use the friend story: someone who got citizenship through a memorization course and 'couldn't even pronounce inburgering' the day he got his passport. Name that this is common and that the reader is not the problem.",
+      "word_target": 260,
+      "evidence_needed": "Co-founder/tester, anonymized: a friend who got citizenship via a popular memorization course but couldn't pronounce 'inburgering' on the day. Community sentiment that 'pass but can't speak' is widespread."
+    },
+    {
+      "section": "Why passing was never the same as speaking (the short version)",
+      "notes": "Summarize the mechanism in a tight few paragraphs, then point readers to the dedicated article for the full explanation rather than re-teaching it. Core point: the exam and most courses reward recognition and memorized responses; A2 is a low bar that the market has quietly accepted as 'can't really hold a conversation yet'. Keep this section short on purpose.",
+      "word_target": 280,
+      "evidence_needed": "Co-founder/tester: 'people don't even expect that at A2 you can have a conversation.' Internal link to the recognition-vs-production mechanism article (why-cant-speak-dutch-after-studying). Market note: non-fluency after passing is normalized."
+    },
+    {
+      "section": "The part nobody warned you about: feeling like a fraud",
+      "notes": "Go deeper than the practical, because this is the searcher's real wound. Holding the proof of belonging while feeling you don't belong. For some, the passport itself feels unearned without the language. Validate it fully and without melodrama; this is about identity, not exam scores.",
+      "word_target": 320,
+      "evidence_needed": "Co-founder/tester: 'if I get my citizenship but I can't speak at all... I would always feel like an outsider. I don't feel I deserve that passport.' Identity motivation from personas.md."
+    },
+    {
+      "section": "The good news hiding in your frustration",
+      "notes": "Reframe: the work wasn't wasted. Passing means you have a large passive store of Dutch already recognized but not yet produced. The remaining task is conversion, not starting over. This is the hopeful pivot that separates this piece from a complaint.",
+      "word_target": 240,
+      "evidence_needed": "Recognition-vs-production framing: recognition is built, production is the gap to close. General second-language methodology on activating passive vocabulary."
+    },
+    {
+      "section": "How to convert recognition into speaking",
+      "notes": "Concrete path. Output before more input: produce daily, even badly. Use words in context and in conversation, not isolated lists. Practice at your level with something that can hold a conversation and correct you. Thread the structured option here with feature-benefit-proof, no pricing. Link to the solo-practice how-to for tactics.",
+      "word_target": 320,
+      "evidence_needed": "Co-founder/tester: level-matched conversation partner, words in context, 'the words that you learn you use... it helps me communicate.' Internal link to how-to-practice-dutch-speaking-alone. NEEDS a concrete conversion example."
+    },
+    {
+      "section": "If you're not done yet: choose the next course differently",
+      "notes": "For readers who still need B1, or who are advising someone earlier in the process. One practical test: ask what it takes to finish a lesson. If the answer is 'click through the exercises', expect recognition. If it's 'use the words in a conversation', expect speaking. Frame as advice that holds even if they pick a competitor.",
+      "word_target": 200,
+      "evidence_needed": "Completion-criteria contrast (competitive-landscape.md). Keep the advice genuinely useful regardless of which course they choose."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Passed the exam but can't actually hold a conversation",
+      "prop": "A course where a lesson completes only when you've used the vocabulary in conversation, so passing is a by-product of being able to use the language",
+      "proof": "Positioning: completion requires production, not exercise completion. Friend who passed via memorization but couldn't speak. NEEDS a concrete completion example."
+    },
+    {
+      "pain": "Have the certificate but feel like a fraud who doesn't deserve it",
+      "prop": "Building genuine speaking ability so the proof on paper matches what you can actually do",
+      "proof": "Co-founder/tester: 'I don't feel I deserve that passport.' Identity motivation."
+    },
+    {
+      "pain": "Need practice at my level to activate what I already half-know",
+      "prop": "A conversation partner that stays at your level and uses words you've already practiced, so passive vocabulary gets used and becomes active",
+      "proof": "Co-founder/tester: level-matched replies, 'He's not gonna use C2 level Dutch to reply to you.'"
+    }
+  ],
+  "originality_nuggets": [
+    "The friend who 'couldn't even pronounce inburgering' on the day he received his passport: the gap made unforgettable.",
+    "'People don't even expect that at A2 you can have a conversation': the market has normalized the failure, which is why nobody warned you.",
+    "'I don't feel I deserve that passport': the identity cost of holding the certificate without the ability.",
+    "Reframing the wasted-money feeling: a large passive vocabulary is an asset to convert, not a loss to mourn."
+  ],
+  "seo": {
+    "title_tag": "Passed Inburgering but Can't Speak Dutch? Here's Why",
+    "meta_description": "Passed the inburgering exam and still can't hold a Dutch conversation? You're not alone, it's by design, and here's how to convert the certificate into real speaking.",
+    "url_slug": "passed-inburgering-cant-speak-dutch"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Why can't I speak Dutch after passing the inburgering exam?",
+    "definition_paragraph": "Many people pass the inburgering exam and still can't speak Dutch because the exam and most courses reward recognition and memorized responses rather than spontaneous conversation, and A2 is a low enough bar that holding a real conversation isn't required to pass. It isn't a personal failure; it's how the system is built. The good news is that passing means you already recognize a lot of Dutch, so the remaining task is converting that passive knowledge into speech through regular, level-matched conversation practice.",
+    "faq_questions": [
+      "Is it normal to pass inburgering but not be able to speak Dutch?",
+      "Why didn't passing the exam teach me to speak?",
+      "How do I learn to speak Dutch after passing inburgering?",
+      "Can you get Dutch citizenship without really speaking Dutch?"
+    ]
+  }
+}

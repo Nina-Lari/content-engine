@@ -37,6 +37,7 @@ We help people in the Netherlands pass their inburgering exam while actually lea
 
 - **Type**: Web app with PWA for mobile
 - **Format**: Structured self-paced Dutch language course
+- **Levels**: Zero (absolute beginner) to A2 — covers 0→A1, then A1→A2. It does NOT assume you already have A1. Always describe it as a "zero-to-A2" or "0-to-A2" course, never as an "A1-to-A2" course (that wrongly implies it starts at A1).
 - **Coverage**: All parts of A2 inburgering exam (read, listen, write, speak, KNM)
 - **Price**: €399 for full course access
 - **Stage**: Pre-revenue (1 paying customer)
@@ -114,7 +115,7 @@ Each lesson is scenario-based: ordering at a pharmacy, making an appointment, me
 
 1. **Practice phase** — The learner works through the lesson script in small sentence units. Each unit is practiced three ways: read & speak, listen & speak, then write. This interleaved pattern (not "all reading, then all listening, then all writing") transfers language into usable memory. Practice sessions include spaced review of earlier content.
 
-2. **Conversation phase** — After completing 3 practice sessions, the learner unlocks a conversation with Joost. Joost stays in the lesson scenario but creates a new conversation, prompting the learner to use target vocabulary naturally.
+2. **Conversation phase** — After completing 3 practice sessions, the learner unlocks conversation practice with Joost. Joost stays in the lesson scenario but starts a fresh conversation each time, prompting the learner to use the target vocabulary naturally. This is not a single exchange: the learner keeps having conversations with Joost until the completion criterion below is met.
 
 **The completion criterion:**
 
@@ -148,7 +149,7 @@ This is a pedagogical difference, not a scope difference. We cover the same exam
 
 - **Inburgering exam**: The Dutch civic integration exam required for permanent residence or citizenship. We always use "inburgering exam", not "civic integration test".
 - **A2 level**: The CEFR language level required for voluntary naturalization and pre-2022 integration obligations. Basic conversational ability.
-- **B1 level**: Higher CEFR level required for post-2022 mandatory integration. Not currently offered by Dutchwithjoost.
+- **B1 level**: Higher CEFR level required for post-2022 mandatory integration. A dedicated Dutchwithjoost B1 course is coming soon. Until then, our current zero-to-A2 course is still the right foundation for beginners who will eventually need B1 (see Target Market → "B1 learners: who fits and who doesn't"). Needing B1 does not by itself mean the course isn't for you.
 - **KNM**: Kennis van de Nederlandse Maatschappij — the knowledge of Dutch society exam, one of the inburgering components.
 - **BSN**: Burgerservicenummer — Dutch citizen service number. BSN registration date determines whether A2 or B1 is required.
 
@@ -262,9 +263,9 @@ See "ONA vs MAP" in Key Terminology above. These are different requirements unde
 
 Non-EU nationals living in the Netherlands who need to pass the A2 inburgering exam for permanent residence or Dutch citizenship. They have decided the Netherlands is their permanent home and want to break out of the expat/English bubble.
 
-They cannot commit to fixed class schedules — irregular work hours, family obligations, or preference for home learning. They are self-motivated enough to study alone. They care about actually using Dutch, not just passing the test. They will research and choose their own course rather than being assigned one.
+They cannot commit to fixed class schedules — irregular work hours, family obligations, or preference for home learning. They are self-motivated enough to study alone. They care about actually using Dutch, not just passing the test — about integrating and feeling part of the local community and the Dutch people around them, not staying a permanent outsider. They will research and choose their own course rather than being assigned one.
 
-**Exclusions**: Refugees (assigned courses by municipality), anyone requiring B1 level (not offered yet).
+**Exclusions**: Refugees (assigned courses by municipality). B1 is not an automatic exclusion — fit depends on someone's current level, not the level they eventually need (see "B1 learners: who fits and who doesn't" below).
 
 ### Firmographics
 
@@ -276,11 +277,20 @@ They cannot commit to fixed class schedules — irregular work hours, family obl
 | Exam requirement | A2 level (pre-2022 BSN or voluntary naturalization) |
 | Timeline | Usually start searching in first year of arrival |
 
-### Dream Customer
+### Dream Learner
 
 Someone with strong belonging and family motivations — wants to participate in Dutch life, not just pass an exam. Has a Dutch partner or family connection that creates social pressure beyond the legal requirement. Self-motivated, prefers flexible home learning, frustrated with memorization-based courses that don't teach real speaking. May have tried other courses and been disappointed.
 
-The visa type matters less than the motivation profile: someone with a work visa can have the same belonging/family motivations as a partner visa holder. The dream customer cares about actually using Dutch, not just earning a certificate.
+The visa situation matters less than the motivation profile: someone on a work visa can have the same belonging/family motivations as someone on a partner visa. The dream learner cares about actually using Dutch, not just earning a certificate — about feeling part of the community here and connecting with the Dutch people around them, not staying an outsider.
+
+### B1 learners: who fits and who doesn't
+
+Many people ultimately need B1 (most integrators under the 2021 Act do). That alone does not rule out Dutchwithjoost. What decides fit is where someone is starting from, not the level they eventually need. Everyone has to pass through A1, then A2, before B1 — there is no skipping it.
+
+- **Already at A2 and comfortable holding basic conversations, and now needs B1**: Our current zero-to-A2 course is not the right next step for this person. A dedicated Dutchwithjoost B1 course is coming soon; until it ships, they need a B1 course elsewhere.
+- **Starting from zero (or close to it) and will eventually need B1**: Still a strong fit. Because you learn here by using the language, what you learn sticks and you can actually speak it. That makes our zero-to-A2 course a solid foundation that sets up a follow-up B1 course well, not a detour.
+
+The old framing ("if you need B1, this isn't for you") was too strict. The level someone eventually needs doesn't decide fit. Their current level does.
 
 ### Buying Signals
 
@@ -357,12 +367,12 @@ The visa type matters less than the motivation profile: someone with a work visa
 
 **Evidence**:
 - "Are those €1000 inburgering courses actually worth it? Or scam?" (Reddit thread title)
-- Classroom average: €1,160 for A2. Self-paced: €60-600.
+- Classroom average: €1,160 for A2. Self-paced: roughly €60–€300 for the main exam-prep courses (InburgeringOnline lands around €210–€300 to A2).
 - Schedule inflexibility is a documented frustration for working professionals
 
 **Emotional dimension**: Financial stress, resentment at "integration tax," desire for value clarity.
 
-**Our answer**: One-time €399 pricing with clear completion criteria addresses both cost and trust.
+**Our answer**: One-time €399 pricing with clear completion criteria addresses both the cost concern and the desire for value clarity — you know exactly what you pay and exactly what "done" means.
 
 ---
 
@@ -471,10 +481,10 @@ A partner visa holder and a work visa holder can share the same core motivations
 
 | Motivation | What it sounds like |
 |------------|---------------------|
-| **Belonging** | "I want to feel at home, not like a permanent guest." |
+| **Belonging / community** | "I want to feel at home and part of the community here — connected to the Dutch people around me, not a permanent guest or outsider." |
 | **Family** | "I can't talk to my nieces, my in-laws, participate in family life." |
 | **Identity** | "I don't deserve the passport if I don't speak the language." |
-| **Integration** | "I want access to therapy, culture, hobbies, activities." |
+| **Integration** | "I want to take part in local life — therapy, culture, hobbies, activities — and actually connect with the people around me." |
 | **Career** | "I'm treated as an outsider, can't advance." |
 
 Most people have multiple motivations active. These are not visa-specific.
@@ -553,6 +563,11 @@ This validates the need for level-matched practice. Native speakers cannot provi
 ### Perspective
 
 Use "we" (Dutchwithjoost as a company), not "I" (Joost as an individual).
+
+### How to Refer to the People We Serve
+
+- **Avoid "customer" in reader-facing content.** It's impersonal. Use "learners," "people learning Dutch," "expats," or just speak to the reader directly. ("Customer" can stay in internal strategy labels and the `customer-intelligence/` evidence base — this rule is about published content, not internal filing.)
+- **Don't reduce people to a visa label.** Avoid framing anyone as a "partner visa holder" or "work visa holder" as though that's their identity. The visa situation is context that adds pressure (a deadline, a job-security worry), not who someone is. Mention it only when the visa situation is the actual point, and even then put the person first: "someone on a partner visa," not "a partner visa holder." The motivation profile, not the visa type, is who they are.
 
 ### Competitor Stance
 
@@ -783,7 +798,7 @@ Use this when threading product messaging into content about specific topics.
 
 **Factual claims (verifiable):**
 
-- 43 lessons covering A1 to A2
+- 43 lessons taking an absolute beginner from zero through A1 to A2 (a complete 0→A2 course, not a course that assumes you already have A1)
 - Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM
 - €399 one-time payment, 5-year access
 - Exam Pass Guarantee: complete all lessons, fail the exam, get refunded
@@ -840,6 +855,10 @@ Can say:
 - "Faster than other courses" — depends on the person
 - "You will be fluent" — A2 is not fluency
 - "The exam becomes easy" — use "straightforward" instead
+
+**About financing (DUO loan):**
+- Dutchwithjoost is NOT on DUO's list of approved courses, so you cannot pay for it with a DUO inburgering loan.
+- Do NOT mention DUO loans in any content about Dutchwithjoost, and never imply our course is loan-eligible. The DUO loan exists for approved courses and exam costs; we are not on that list, so leave it out of our content entirely.
 
 #### Feedback Feature Claims
 
@@ -921,7 +940,7 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 
 **About InburgeringOnline**:
 - Praise: "Within 45 days I passed all exams", "It's truly a 'one-stop shop'", "Worth every penny"
-- Complaints: Billing/subscription issues on Trustpilot, unclear auto-renewal, ignored refund requests
+- Differentiator vs. them: method, not billing — they own "pass the exam," we own "actually speak Dutch afterward." (They have some billing/subscription complaints online, but those are OFF-LIMITS in content — see Red Lines. Never use them.)
 - Gap: They dominate "pass the exam" but don't own "actually speak Dutch afterward"
 - **From customer intelligence**: "It's basically cards to memorize... It's a cheat sheet to the exam." One user's friend got citizenship through InburgeringOnline but "couldn't even pronounce inburgering" the day he got his passport.
 
@@ -963,9 +982,9 @@ We win when someone wants to actually produce Dutch, not just recognize it on a 
 
 - Learners who need peer pressure and accountability → classroom is better
 - Learners who want a human teacher relationship → private tutor is better
-- Learners who just want to pass fast and don't care about retention → memorization courses are faster
+- Learners who learn well by memorizing, just want to pass fast, and don't care about retention → a memorization-based course may suit them better. This isn't universal: for people who hate memorizing or don't retain that way, learning by using the language can be the faster route, not the slower one. Don't assume memorization is faster for everyone.
 - Budget of €0 → self-study with free resources
-- Need B1 level → we don't offer this yet
+- Already at A2, comfortable in basic conversations, and need B1 now → our zero-to-A2 course isn't the right next step (a B1 course is coming soon). A beginner who will eventually need B1 is still a fit — see "B1 learners: who fits and who doesn't."
 
 ### Positioning Gaps We Own
 
@@ -1043,6 +1062,18 @@ Concrete limitations documented in customer interviews:
 
 The insight matters more than the source. Readers don't need to know you found something on Reddit.
 
+#### Evidence Balance and Citation Cap
+
+Our strongest, most ownable proof is how the course works and what early learners experience, not academic research. Lead with product mechanism and experience; treat papers as a backstop.
+
+Evidence order: (1) product mechanism (how a lesson works, what counts as done), (2) experience (early-tester feedback, "one learner"), (3) named publications, (4) academic research.
+
+**Hard cap: at most 1-2 academic (author-year) citations per article, and never stacked on one claim.** More than that reads like a literature review and violates "no academic stiffness." State the point in plain language first; add a citation only as a single anchor for a principle the reader might doubt. The cap protects AEO too: answer engines reward specific, self-contained claims and clean definitions, not citation density.
+
+> The pipeline's primary proof source is `proof-library/product-design-evidence.md` (the pipeline-readable slice of the Product Capabilities and Proof Points sections). Refresh that file when those sections change. The academic backstop lives in `proof-library/research-sources/`.
+
+> **Sync note:** When generating `voice-guide.md`, carry this Evidence Balance rule and the 1-2 citation cap into the "Numbers and Sources" guidance.
+
 ### Sales and Pricing in Content
 
 **Include pricing in:**
@@ -1078,7 +1109,7 @@ When giving advice (e.g., "What to look for in a Dutch course"), criteria must b
 **Comparison content angles**:
 - InburgeringOnline vs. classroom: honest trade-offs
 - Free resources vs. structured courses
-- Subscription fatigue vs. one-time pricing
+- One-time pricing vs. subscription cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack)
 
 **Thought leadership angles**:
 - "Why you pass the exam but can't order coffee in Dutch"
@@ -1112,7 +1143,7 @@ These are absolute prohibitions when writing about competitors:
 
 5. **Never assume competitor intentions.** We don't know why they built their course the way they did.
 
-6. **Never use user complaints as attacks.** Trustpilot complaints are about billing issues, not learning quality. Using them as ammunition is unfair.
+6. **Never use competitor billing or Trustpilot complaints in any published content — at all.** This covers auto-renewal, surprise charges, refused refunds, and billing-issue reviews. They are about billing, not learning quality, and citing them is unfair and off-brand. This is a hard rule, not a "use carefully." Stating that a competitor uses subscription pricing is allowed only as a neutral cost fact in BOFU/comparison content (see Comparison content angles), never in educational/MOFU content and never framed as a complaint.
 
 7. **Never say "we're the only course that..."** It's almost always false and sounds arrogant.
 
@@ -1204,7 +1235,7 @@ These facts must be verified on competitor websites before publishing. Prices an
 
 | Fact | Value | Verification needed? |
 |------|-------|---------------------|
-| Pricing | €24.95 - €34.95/month (subscription) | Check their website before publishing |
+| Pricing | €24.95/month (12-month plan) to €34.95/month (6-month plan) — roughly €210–€300 total to reach A2 | Check their website before publishing |
 | Trustpilot rating | ~4.4 stars | Check current rating before publishing |
 | Method | Video lessons, practice exercises, mock exams | Verified from website |
 | Coverage | All exam components | Verified |

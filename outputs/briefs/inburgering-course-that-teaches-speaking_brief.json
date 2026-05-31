@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "topic_id": "inburgering-course-that-teaches-speaking",
+    "priority_score": 9.1,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 2200,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "inburgering course that teaches you to speak",
+    "variants": [
+      "Dutch course that teaches speaking",
+      "inburgering course to actually speak Dutch",
+      "Dutch course for expats who want to speak",
+      "best inburgering course for speaking",
+      "Dutch course where you actually learn to talk"
+    ],
+    "searcher_intent": "Shopping for an A2 inburgering course but worried about the documented 'pass but can't speak' problem. Wants to choose a course that builds spoken production, not just exam recall."
+  },
+  "audience": {
+    "persona": "Cross-persona course shopper, primarily Pattern A (Partner Visa + Family) and Pattern C (Work Visa, full motivation stack)",
+    "industry_focus": null,
+    "pain_summary": "Every self-paced course they have tried or seen teaches memorization, so they finish a course and still freeze in a real conversation. They want to end the course able to talk, not just hold a certificate.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "Most products called 'inburgering courses' mark a lesson complete when you finish the exercises, so you can complete the whole thing and still freeze when a Dutch person speaks to you. This guide hands the buyer five questions that judge whether any course builds production, applicable to every option on the market, then shows honestly where the common choices land. It helps the reader even if they pick a competitor.",
+  "thesis_sentence": "A course teaches you to speak only when finishing a lesson requires you to produce the language out loud, not just recognise the correct answer.",
+  "outline": [
+    {
+      "section": "Why people pass inburgering and still can't speak Dutch",
+      "notes": "Open with the insight, not setup. Explain recognition vs production in plain terms: the exam tests production (speaking, writing) but most courses train recognition (clicking, matching, flashcards). State the market's own low bar so the reader feels seen.",
+      "word_target": 350,
+      "evidence_needed": "Named publication on the difficulty of the integration exams (DutchNews 'Enjoying Dutch integration exams: mission impossible', Feb 2026). Anonymized customer line: a learner whose friend passed through a memorization course and could not pronounce 'inburgering' the day he got his passport."
+    },
+    {
+      "section": "What 'teaches you to speak' actually means",
+      "notes": "Define the standard concretely so the rest of the guide has a yardstick. Completion requires production; vocabulary is learned in context and used, not seen; practice is matched to your level. Place the AEO definition paragraph here.",
+      "word_target": 300,
+      "evidence_needed": "Positioning gap: no self-paced competitor uses production as the completion criterion (competitive-landscape feature matrix). Contrast: other courses complete when exercises are finished."
+    },
+    {
+      "section": "5 questions to ask before you buy any inburgering course",
+      "notes": "The buyer checklist, written so it helps the reader regardless of which course they choose. 1) Does finishing a lesson require you to say the words out loud, or just click through? 2) Do you learn vocabulary in context, or as isolated lists to memorize? 3) Is speaking unlimited practice, or just one exam module you drill? 4) Does the practice stay at your level, or throw native-speed Dutch at you? 5) Does it cover all five exam parts (reading, listening, writing, speaking, KNM)? Keep each criterion genuinely useful, not reverse-engineered from one product's feature list.",
+      "word_target": 450,
+      "evidence_needed": "Feature matrix facts (all exam parts, learn-by-using, level-matched, unlimited production). KNM and the five DUO components for the all-in-one criterion."
+    },
+    {
+      "section": "How the common options stack up",
+      "notes": "Honest, goals-based rundown so the reader can self-select. InburgeringOnline: strong for a fast pass, recognized brand, but memorization-based completion and Trustpilot billing complaints. Classroom schools: human teacher, peers, accountability, but roughly 1,160 euro average to A2, fixed times, and limited speaking time per student. Private tutors: best raw speaking practice, but 2,000 to 6,000 euro to A2 and scheduling. Inburgering.org: cheapest at 4.99 euro per month, same memorization model. Dutchwithjoost: learn-by-using completion, one-time 399 euro, conversation with Joost as the proof mechanism. Never lead with attacks; state where each wins. Pricing is allowed here because this is bottom-of-funnel buyer content.",
+      "word_target": 550,
+      "evidence_needed": "Competitive pricing matrix (classroom avg ~1,160 euro; tutors 2,000 to 6,000 euro; Inburgering.org 4.99 euro/month; Dutchwithjoost 399 euro one-time). InburgeringOnline Trustpilot 4.4 stars with billing complaints. Speaking-time math: in a class of 12 the teacher cannot give full attention."
+    },
+    {
+      "section": "What a production-based course feels like to use",
+      "notes": "Show, don't label. Walk through the loop: structured practice leads into a conversation with Joost; the lesson is done when you have used the new vocabulary yourself. Use feature to benefit to proof for each point (level-matched replies, words in context, guided low cognitive load).",
+      "word_target": 350,
+      "evidence_needed": "Co-founder testing quotes (usable, she is co-founder/tester): 'The words that you learn you use... it helps me communicate'; 'He's not gonna use C2 level Dutch to reply to you'; 'I don't have the cognitive load of trying to engineer my lesson... it's just guided.' NEEDS a learner outcome metric or named case study from proof-library (e.g., retention or pass-plus-speak result) to back the production claim."
+    },
+    {
+      "section": "Choosing the right fit for your situation",
+      "notes": "Close goals-first, not product-first. If you need peer accountability and a human teacher relationship, a classroom is the right call. If you want to actually speak on your own schedule and are self-motivated, a production-based self-paced course fits. Let the reader decide. Soft CTA to try a production-based lesson.",
+      "word_target": 250,
+      "evidence_needed": "Where-we-win and where-we-lose criteria from competitive-landscape (honest fit guidance)."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Finished a course and retained nothing usable in conversation",
+      "prop": "Learn-by-using completion: a lesson counts as done only once you have used the new vocabulary in conversation, so finishing means you can produce it",
+      "proof": "Co-founder/tester (self-employed, work visa): 'The words that you learn you use... it helps me communicate.' NEEDS a quantified retention or pass-and-speak outcome from proof-library."
+    },
+    {
+      "pain": "Native-speed practice is impossible to learn from",
+      "prop": "Joost replies at the lesson's difficulty level, so the practice is usable instead of overwhelming",
+      "proof": "Co-founder testing: 'He's not gonna use C2 level Dutch to reply to you.'"
+    },
+    {
+      "pain": "Classroom and per-hour tutoring are expensive and scheduled",
+      "prop": "One-time 399 euro with unlimited practice anytime, versus roughly 1,160 euro average classroom and 2,000 euro-plus tutoring",
+      "proof": "Competitive pricing matrix (competitive-landscape.md)."
+    }
+  ],
+  "originality_nuggets": [
+    "A learner's friend passed the exam through a memorization course and could not pronounce 'inburgering' the day he received his passport.",
+    "The market's own expectation is failure: 'People don't even expect that at A2 you can have a conversation.'",
+    "Classroom speaking time is a math problem nobody states out loud: in a class of 12 with one teacher, your share of speaking time per session is tiny."
+  ],
+  "seo": {
+    "title_tag": "Inburgering Course That Teaches You to Speak Dutch",
+    "meta_description": "Most inburgering courses train exam recall, not speaking. Five questions to find a course that leaves you able to hold a real Dutch conversation.",
+    "url_slug": "inburgering-course-that-teaches-speaking"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Which inburgering course actually teaches you to speak Dutch?",
+    "definition_paragraph": "A course teaches you to speak when completing a lesson requires you to produce Dutch out loud, not just recognise the correct answer. Most self-paced courses mark a lesson complete once you finish the exercises, which trains recognition. Production-based courses are complete only after you have used the new vocabulary in conversation, which is what the exam and real life actually test.",
+    "faq_questions": [
+      "Why can you pass the inburgering exam and still not speak Dutch?",
+      "Does the inburgering exam test speaking?",
+      "Which inburgering courses include real speaking practice?",
+      "Is a classroom course better than a self-paced course for speaking?",
+      "How much does an inburgering course cost?"
+    ]
+  }
+}

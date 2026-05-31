@@ -1,6 +1,10 @@
 # Research Sources: Production-Based Language Learning vs. Memorization
 
-Use these peer-reviewed sources to support claims about why active production (speaking/writing) outperforms passive memorization for language learning.
+> **Role: capped credibility backstop, not the spine of an article.** The primary evidence for any article is `proof-library/product-design-evidence.md` (how the course works) and early-tester experience. Reach for the sources below only when a single mechanism claim genuinely needs outside authority that product and experience evidence cannot supply.
+>
+> **Hard limit: at most 1-2 academic (author-year) citations per article. Never stack citations on one claim.** Six citations in one piece reads like a literature review and breaks the brand voice ("no academic stiffness"). Use a finding to support a point you are already making from product/experience evidence; do not build the argument out of papers.
+
+These are peer-reviewed sources on why active production (speaking/writing) outperforms passive memorization. Use them sparingly, under the limit above.
 
 ---
 
@@ -226,20 +230,19 @@ Use these peer-reviewed sources to support claims about why active production (s
 
 ## How to Use These Sources
 
-### For SEO content:
-- Cite the researcher name and year in-text: "Karpicke and Roediger (2008) found that..."
-- Use quotable statistics in headers and key claims
-- Link to accessible PDFs where available (MIT, UCLA)
+**First, check the limit:** 1-2 academic citations per article, maximum. If product-design-evidence.md and early-tester experience already carry the section, do not add a citation at all.
 
-### For AEO (AI/Answer Engine Optimization):
-- Structure claims as question-answer pairs AI can extract
-- Include specific numbers that can be cited
-- Use the exact citation format so AI can verify sources
+### When a citation earns its place
+- Use it to anchor *one* principle the reader might otherwise doubt (for example, that understanding and speaking are different skills). State the point in plain language first, then add the source as a single anchor.
+- Prefer the finding over the apparatus: "production practice improves speaking more than re-reading does" lands better than a parenthetical author-year string the reader skims past.
+- After the one anchor, return to product and experience evidence. Do not follow one citation with another.
 
-### For credibility:
-- Tier 1 sources (Swain) are foundational theory cited thousands of times
-- Tier 2 sources are peer-reviewed empirical studies with specific findings
-- Tier 3 meta-analyses aggregate multiple studies for stronger claims
+### For AEO (Answer Engine Optimization)
+- AEO rewards specific, self-contained, verifiable claims plus clean definitional first paragraphs and FAQ schema, not citation density. A capped, well-placed citation helps; a wall of them does not.
+
+### What NOT to do
+- Do not open or carry a whole section on stacked citations (Swain... Hopman... Karpicke... Nakata...). That is the literature-review failure mode this file is meant to prevent.
+- Do not present a research finding as a universal requirement the product happens to meet. Describe what Dutchwithjoost does; use research only to validate the underlying principle.
 
 ---
 

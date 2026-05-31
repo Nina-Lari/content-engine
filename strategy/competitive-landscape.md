@@ -15,7 +15,7 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 The Dutch inburgering prep market splits into three tiers:
 
 1. **Classroom courses** (expensive, comprehensive, inflexible) — Real teachers, peer accountability, but €1,300-4,000+ and fixed schedules
-2. **Self-paced online courses** (affordable, flexible, memorization-based) — €60-600, flexible, but completion = finished exercises
+2. **Self-paced online courses** (affordable, flexible, memorization-based) — €60-300, flexible, but completion = finished exercises
 3. **General language apps** (free/cheap, not exam-focused) — Duolingo, Babbel — gamified but don't prepare for inburgering
 
 The gap: a self-paced course where completion requires active production, not passive exercise completion. Other courses are "done" when you click through all the screens. Dutchwithjoost is done when you've used the vocabulary in conversation.
@@ -23,10 +23,9 @@ The gap: a self-paced course where completion requires active production, not pa
 ### Market Alerts (May 2026)
 
 1. **AI scoring is now table stakes** — Every major competitor offers AI-scored writing and speaking. No longer a differentiator.
-2. **Aggressive price competition** — New entrants pricing at €4.99-€9.99/month undercut InburgeringOnline's €14.95/month.
+2. **Aggressive price competition** — New entrants pricing at €4.99-€9.99/month undercut InburgeringOnline's €24.95-€34.95/month.
 3. **"Pass but can't speak" is documented** — Multiple sources confirm learners pass the exam but cannot hold conversations. Validates our core positioning.
-4. **Billing complaints damage trust** — InburgeringOnline has Trustpilot complaints about unclear subscriptions and ignored refunds.
-5. **Normalized non-fluency** — From customer intelligence: "People don't even expect that at A2 you can have a conversation." The expectation of post-exam inability is baked into the market.
+4. **Normalized non-fluency** — From customer intelligence: "People don't even expect that at A2 you can have a conversation." The expectation of post-exam inability is baked into the market.
 
 ### Emotional Reality (From Customer Intelligence)
 
@@ -113,7 +112,7 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 
 | Competitor | Platform | Rating | Volume | Notable Feedback |
 |------------|----------|--------|--------|------------------|
-| **InburgeringOnline** | Trustpilot | 4.4★ | 37+ reviews | Praise: "passed in 45 days". Complaints: billing issues, charged without notification |
+| **InburgeringOnline** | Trustpilot | 4.4★ | 37+ reviews | Praise: "passed in 45 days", "one-stop shop" |
 | **Inburgering.org** | Trustpilot | Limited | 1 review | New entrant, trust gap vs. InburgeringOnline |
 | **Dutch Ready** | Google | 5★ | 170+ reviews | Strong for tutoring + materials combo |
 | **Koentact** | Expat directories | Featured | N/A | Reputation built on social experience |
@@ -126,7 +125,6 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 - Default recommendation in forums as the "online option"
 
 **Their vulnerability:**
-- Trustpilot billing complaints create trust opening
 - "Pass but can't speak" problem is real but not yet widely discussed
 - Learn-by-using completion is genuinely differentiated (no competitor offers this)
 
@@ -156,11 +154,12 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 
 > **Note:** Verify pricing on their website before publishing. Prices as of May 2026.
 
-| Subscription | Monthly Price | Notes |
+| Plan | Monthly Price | Notes |
 |--------------|---------------|-------|
-| Monthly | €24.95 - €34.95/month | Subscription model |
+| 6-month plan | €34.95/month | ~€210 total |
+| 12-month plan | €24.95/month | ~€300 total |
 
-**Total cost to complete A2**: €300-600 depending on duration
+**Total cost to complete A2**: roughly €210-300 depending on plan length
 
 ### Course Content
 
@@ -192,9 +191,8 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 ### Weaknesses (Where We Genuinely Differ)
 
 1. **Memorization-based completion** — Course is "done" when you finish exercises. No requirement to produce the language yourself.
-2. **Subscription complexity** — Billing complaints on Trustpilot about unclear auto-renewal and ignored refund requests.
-3. **Retention problem** — Users report forgetting most Dutch after passing the exam. Result of memorization-based learning.
-4. **Speaking is an exam component, not a proof mechanism** — They teach TO the speaking test. We use conversation to prove you can produce the language.
+2. **Retention problem** — Users report forgetting most Dutch after passing the exam. Result of memorization-based learning.
+3. **Speaking is an exam component, not a proof mechanism** — They teach TO the speaking test. We use conversation to prove you can produce the language.
 
 ### Customer Sentiment
 
@@ -202,11 +200,6 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 - "Within 45 days I passed all exams"
 - "It's truly a 'one-stop shop' when it comes to exam preparation"
 - "Worth every penny"
-
-**Complaints:**
-- Charged weekly for extended periods after purchasing what they believed was one-month subscription
-- Refund requests ignored
-- No advance notification of charges
 
 **From customer intelligence:**
 - "It's basically cards to memorize... It's a cheat sheet to the exam."
@@ -678,7 +671,7 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 | Inburgering.org | €4.99 | ~€60 | €60-120 | Subscription |
 | InburgeringPrep | €9.99 (free tier) | €79 | €80-120 | Subscription |
 | Dutch Online | €10 | ~€120 | €120+ | Subscription/Lifetime |
-| InburgeringOnline | €14.95-€49.95 | €107-300 | €300-600 | Subscription |
+| InburgeringOnline | €24.95-€34.95 | ~€300 | €210-300 | Subscription |
 | Dutch Ready | Varies | — | €200-400 | Subscription + bundles |
 | **Dutchwithjoost** | **—** | **—** | **€399** | **One-time** |
 | Dutch First | €119-159 | — | €447-1,428 | Subscription |
@@ -738,8 +731,6 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 
 ### What Learners Complain About
 - **"Pass but can't speak"** — memorization works for the exam, not for real life
-- Hidden subscription charges, unclear billing
-- Ignored refund requests
 - Not enough actual speaking practice
 - Difficult to balance with work and family
 
@@ -792,9 +783,9 @@ We win when the prospect:
 We lose when the prospect:
 - Needs peer pressure and accountability → classroom
 - Wants a human teacher relationship → private tutor
-- Just wants to pass as fast as possible → memorization courses
+- Learns well by memorizing, wants to pass fast, and doesn't care about retention → a memorization-based course may suit them better. Not universal: for people who hate memorizing or don't retain that way, learning by using the language can be the faster route. Don't assume memorization is faster for everyone.
 - Has €0 budget → self-study or InburgeringPrep free tier
-- Needs B1 level → we don't offer this yet
+- Already at A2, comfortable in basic conversations, and needs B1 now → our zero-to-A2 course isn't the right next step (a dedicated B1 course is coming soon). A beginner who will eventually need B1 is still a fit.
 - Wants the absolute cheapest option → Inburgering.org at €4.99/month
 
 ---
@@ -807,7 +798,7 @@ We lose when the prospect:
 
 3. **"Actually use Dutch after the exam"**: The "pass but can't speak" complaint is documented and real. We position directly against it with a completion standard that requires production.
 
-4. **One-time pricing clarity**: €399 total vs. confusing subscription math. No surprise charges, no billing complaints.
+4. **One-time pricing clarity**: €399 total, paid once — you know exactly what you pay and exactly what "done" means. (Use the one-time-vs-subscription cost contrast in BOFU/comparison content only, never as a billing-complaint attack.)
 
 5. **All exam parts in one**: Covers read, listen, write, speak, and KNM together through a unified learn-by-using pedagogy.
 

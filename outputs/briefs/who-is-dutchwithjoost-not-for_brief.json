@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "topic_id": "who-is-dutchwithjoost-not-for",
+    "priority_score": 8.05,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 1600,
+    "estimated_effort": "2-3 hours",
+    "product_facts_warning": "This is BOFU content that names the product directly, so every product claim must be verified against current product facts before writing. CONFIRMED in the current strategy files: €399 one-time pricing; learn-by-using completion; level-matched conversation; covers all five inburgering exam parts including KNM. NOT CONFIRMED in the current system (the old messaging.md the legacy brief drew on is gone): exact lesson count (legacy said 43), access duration (legacy said 5-year), and an Exam Pass Guarantee. Do NOT assert those numbers or the guarantee until confirmed with the product owner."
+  },
+  "keyword": {
+    "primary": "is Dutchwithjoost right for me",
+    "variants": [
+      "Dutchwithjoost review",
+      "is Dutchwithjoost worth it",
+      "should I buy Dutchwithjoost",
+      "Dutchwithjoost honest review",
+      "who is Dutchwithjoost for"
+    ],
+    "searcher_intent": "A prospective buyer near the decision, often burned by a previous course, who wants an honest read on whether this fits their situation before spending money. They are actively looking for the catch."
+  },
+  "audience": {
+    "persona": "Cross-persona course shopper at the decision stage; prior-course skeptics",
+    "industry_focus": null,
+    "pain_summary": "Researching course options, wary after wasting money before, and tired of marketing that says it's for everyone. Wants a straight answer on fit, including who should walk away.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "A counter-intuitive trust builder: lead with who should NOT buy. Stating the disqualifiers plainly earns credibility with the right buyers and pre-qualifies them, which reduces refunds and bad-fit frustration. The honesty itself is the differentiator in a category full of 'works for everyone' claims.",
+  "thesis_sentence": "Dutchwithjoost works well for self-motivated learners who want to actually speak Dutch, but it is genuinely wrong for several types of learner, and telling you which is more useful than another sales pitch.",
+  "outline": [
+    {
+      "section": "Why we'd rather talk you out of it now",
+      "notes": "Short, disarming opener. We'd rather you know upfront than ask for a refund later. Not everyone is our customer, and a bad fit wastes your time and ours. Set the honest tone that the rest of the piece pays off.",
+      "word_target": 150,
+      "evidence_needed": "None; establishing trust and tone."
+    },
+    {
+      "section": "Who Dutchwithjoost is NOT for",
+      "notes": "The heart of the piece. Clear disqualifiers, each with an honest reason and, where possible, a better alternative for that person. (1) You're on a municipality-assigned track. Refugees and certain integrators must use government-approved providers; check your track first. (2) You're already at A2 and comfortable in basic conversations and need B1 now. The A1 to A2 course isn't your next step; a dedicated B1 course is coming, but until then you need a B1 option elsewhere. Important nuance: if you're a beginner who will eventually need B1, you're still a fit, because everyone passes through A1 and A2 first. (3) You want classroom accountability, a teacher in the room and classmates expecting you. That's a real need we don't serve; go classroom. (4) Your budget is genuinely zero. There are free resources and very cheap subscriptions; use them. (5) You just want to pass as fast as possible and don't care about speaking afterward. A memorization-based course may get you there quicker. Be careful not to write the B1 disqualifier too strictly, the current strategy softened it.",
+      "word_target": 480,
+      "evidence_needed": "ICP disqualifiers and the 'B1 Learners: Who Fits and Who Doesn't' section (icp.md). Classroom benefits (competitive-landscape.md). Use an anonymized real example for the classroom case: a parent learner who said she personally does better with in-person classes and the interaction with other students. Verify the B1 course 'coming soon' status before publishing."
+    },
+    {
+      "section": "Who it IS for",
+      "notes": "The mirror image: the dream learner. Self-motivated, doesn't need external accountability. Wants to actually speak Dutch, not just hold a certificate. Needs flexibility for an irregular schedule or learning at home. Has been burned by memorization courses that didn't stick. Values retention and one-time pricing over the cheapest or fastest option.",
+      "word_target": 320,
+      "evidence_needed": "Dream learner profile (icp.md). Anonymized example: a self-employed expat with an irregular schedule who'd failed several memorization courses and wanted to actually speak."
+    },
+    {
+      "section": "How it's actually different",
+      "notes": "Brief positioning without bashing anyone. Learn-by-using completion: a lesson is done when you've used the vocabulary in conversation, not when you've finished the exercises. Level-matched conversation practice you can do anytime, privately. One-time pricing instead of a subscription to track. All five exam parts, including KNM, through one method. Keep claims to what's confirmed.",
+      "word_target": 300,
+      "evidence_needed": "Positioning gaps and feature matrix (competitive-landscape.md). Confirmed pricing: €399 one-time. Do not assert unverified lesson counts, access duration, or a guarantee."
+    },
+    {
+      "section": "Five questions to ask yourself",
+      "notes": "A self-assessment checklist the reader can answer honestly. Are you self-motivated enough to study without a class pushing you? Do you want to speak after the exam, or just pass it? Does your schedule need to be flexible? Have past courses left you with nothing that stuck? Are you starting at or below A2 right now (even if you'll eventually need B1)? Mostly yes means it's worth a look.",
+      "word_target": 200,
+      "evidence_needed": "Decision criteria (personas.md). Phrase the level question using the corrected current-level logic, not 'must only ever need A2'."
+    },
+    {
+      "section": "Still unsure? Here's a low-pressure next step",
+      "notes": "No urgency tactics, no fake scarcity. Suggest watching how the method works, reading the honest comparison content, or asking a specific question. Reinforce: we'd rather answer a question than process a refund.",
+      "word_target": 150,
+      "evidence_needed": "None; soft CTA. Internal link to the InburgeringOnline comparison and any 'is it worth it' content."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Burned before by a course that turned out to be memorization",
+      "prop": "Lessons complete only when you've used the vocabulary in conversation, so finishing means you can use it",
+      "proof": "Co-founder/tester: 'the words that you learn you use.' NEEDS a concrete completion example."
+    },
+    {
+      "pain": "Tired of subscriptions I forget to cancel and get charged for",
+      "prop": "One-time pricing with no subscription to track",
+      "proof": "Confirmed: €399 one-time (competitive-landscape.md). Resonance: a learner stuck paying for unused subscriptions she couldn't cancel."
+    },
+    {
+      "pain": "My schedule is unpredictable and I can't commit to fixed class times",
+      "prop": "Self-paced practice you can do in 15 minutes or two hours, at home, whenever it fits",
+      "proof": "Co-founder/tester on needing flexibility 'time wise and place wise.'"
+    }
+  ],
+  "originality_nuggets": [
+    "Explicit disqualification content, which competitors almost never publish.",
+    "Honestly recommending classroom courses for people who need accountability, using a real learner who said she does better in person.",
+    "The corrected, more honest B1 stance: needing B1 eventually doesn't disqualify a beginner; only being already-at-A2-and-needing-B1-now does.",
+    "Self-assessment questions that help readers disqualify themselves, which paradoxically builds trust with the ones who stay."
+  ],
+  "seo": {
+    "title_tag": "Who Is Dutchwithjoost NOT For? An Honest Guide",
+    "meta_description": "Thinking about Dutchwithjoost? Here's an honest guide to who it's for, who should walk away, and how to tell which one you are before you buy.",
+    "url_slug": "who-is-dutchwithjoost-not-for"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Who should not use Dutchwithjoost?",
+    "definition_paragraph": "Dutchwithjoost is not the right choice if you're on a municipality-assigned integration track that requires an approved provider, if you're already at A2 and need B1 right now (a B1 course is coming, but the current course is A1 to A2), if you want the accountability of a classroom and a teacher in the room, if your budget is genuinely zero, or if you only want to pass as fast as possible and don't care about speaking afterward. It is a strong fit for self-motivated learners who want to actually speak Dutch, need a flexible schedule, and have been let down by memorization-based courses. Note that a beginner who will eventually need B1 is still a fit, since everyone learns A1 and A2 first.",
+    "faq_questions": [
+      "Is Dutchwithjoost right for me?",
+      "Who should not use Dutchwithjoost?",
+      "Is Dutchwithjoost better than a classroom course?",
+      "Does Dutchwithjoost work if I'll eventually need B1?"
+    ]
+  }
+}

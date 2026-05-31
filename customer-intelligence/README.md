@@ -6,6 +6,8 @@ The customer intelligence layer turns raw sales call transcripts into structured
 
 ## Workflow
 
+> **No transcripts yet?** Start at `interview-kit/`. It has everything to source them: `recruiting.md` (who to find, where, and outreach messages) and `interview-guide.md` (a 30-minute script mapped field-by-field to the `/extract-insights` schema). Running ICP interviews is how you move past single-source intelligence.
+
 ### 1. Drop Transcripts
 
 Place sales call transcripts into `transcripts/` as markdown or plain text files. Name them descriptively:

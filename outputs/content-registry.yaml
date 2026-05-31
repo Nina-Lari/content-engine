@@ -14,106 +14,106 @@ url_pattern: /blog/{slug}
 
 articles:
   # Drafted articles (have _linked.md files)
-  how-to-practice-dutch-speaking-alone:
+  inburgering-course-that-teaches-speaking:
     status: drafted
-    title: "How to Practice Dutch Speaking Alone"
+    title: 'Inburgering Course That Teaches You to Speak Dutch'
+
+  how-to-practice-dutch-speaking-alone:
+    status: planned
+    title: 'How to Practice Dutch Speaking Alone'
 
   dutchwithjoost-vs-inburgeringonline:
-    status: drafted
-    title: "Dutchwithjoost vs InburgeringOnline"
+    status: planned
+    title: 'Dutchwithjoost vs InburgeringOnline'
 
   passed-inburgering-cant-speak-dutch:
-    status: drafted
+    status: planned
     title: "Passed Inburgering but Can't Speak Dutch"
 
   # Planned articles (briefs exist)
   a2-vs-b1-inburgering-which-level:
     status: planned
-    title: "A2 vs B1 Inburgering: Which Level"
+    title: 'A2 vs B1 Inburgering: Which Level'
 
   ai-dutch-tutor-vs-human-tutor:
     status: planned
-    title: "AI Dutch Tutor vs Human Tutor"
+    title: 'AI Dutch Tutor vs Human Tutor'
 
   best-dutch-course-a2-inburgering:
     status: planned
-    title: "Best Dutch Course for A2 Inburgering"
-
-  duo-inburgering-loan-guide:
-    status: planned
-    title: "DUO Inburgering Loan Guide"
+    title: 'Best Dutch Course for A2 Inburgering'
 
   dutch-language-plateau:
     status: planned
-    title: "Dutch Language Plateau"
+    title: 'Dutch Language Plateau'
 
   dutch-speaking-practice-online:
     status: planned
-    title: "Dutch Speaking Practice Online"
+    title: 'Dutch Speaking Practice Online'
 
   fear-of-speaking-dutch:
     status: planned
-    title: "Fear of Speaking Dutch"
+    title: 'Fear of Speaking Dutch'
 
   how-long-does-inburgering-take:
     status: planned
-    title: "How Long Does Inburgering Take"
+    title: 'How Long Does Inburgering Take'
 
   inburgering-course-cost:
     status: planned
-    title: "Inburgering Course Cost"
+    title: 'Inburgering Course Cost'
 
   inburgering-course-worth-it:
     status: planned
-    title: "Is an Inburgering Course Worth It"
+    title: 'Is an Inburgering Course Worth It'
 
   inburgering-deadline-extension-exemption:
     status: planned
-    title: "Inburgering Deadline Extension and Exemption"
+    title: 'Inburgering Deadline Extension and Exemption'
 
   inburgering-exam-complete-guide:
     status: planned
-    title: "Inburgering Exam Complete Guide"
+    title: 'Inburgering Exam Complete Guide'
 
   inburgering-exam-failed-what-happens:
     status: planned
-    title: "Inburgering Exam Failed: What Happens"
+    title: 'Inburgering Exam Failed: What Happens'
 
   inburgering-speaking-test-guide:
     status: planned
-    title: "Inburgering Speaking Test Guide"
+    title: 'Inburgering Speaking Test Guide'
 
   interleaved-practice-dutch-learning:
     status: planned
-    title: "Interleaved Practice for Dutch Learning"
+    title: 'Interleaved Practice for Dutch Learning'
 
   knm-exam-2025-2026-changes:
     status: planned
-    title: "KNM Exam 2025-2026 Changes"
+    title: 'KNM Exam 2025-2026 Changes'
 
   nt2-vs-inburgering-exam:
     status: planned
-    title: "NT2 vs Inburgering Exam"
+    title: 'NT2 vs Inburgering Exam'
 
   ona-exam-guide:
     status: planned
-    title: "ONA Exam Guide"
+    title: 'ONA Exam Guide'
 
   pass-inburgering-remember-dutch:
     status: planned
-    title: "Pass Inburgering and Remember Dutch"
+    title: 'Pass Inburgering and Remember Dutch'
 
   self-paced-vs-classroom-dutch-courses:
     status: planned
-    title: "Self-Paced vs Classroom Dutch Courses"
+    title: 'Self-Paced vs Classroom Dutch Courses'
 
   what-is-production-based-language-learning:
     status: planned
-    title: "What is Production-Based Language Learning"
+    title: 'What is Production-Based Language Learning'
 
   who-is-dutchwithjoost-not-for:
-    status: drafted
-    title: "Who is Dutchwithjoost Not For"
+    status: planned
+    title: 'Who is Dutchwithjoost Not For'
 
   why-cant-speak-dutch-after-studying:
     status: drafted
@@ -122,12 +122,12 @@ articles:
   # Additional slugs referenced in internal links but not yet in briefs
   inburgering-exam-guide:
     status: planned
-    title: "Inburgering Exam Guide"
+    title: 'Inburgering Exam Guide'
 
   knm-exam-guide:
     status: planned
-    title: "KNM Exam Guide"
+    title: 'KNM Exam Guide'
 
   dutch-for-career-netherlands:
     status: planned
-    title: "Dutch for Your Career in the Netherlands"
+    title: 'Dutch for Your Career in the Netherlands'
