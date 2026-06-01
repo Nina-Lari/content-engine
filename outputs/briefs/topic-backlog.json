@@ -51,13 +51,13 @@
       "brief_status": "generated"
     },
     {
-      "topic_id": "pass-inburgering-exam-cant-speak",
+      "topic_id": "passed-inburgering-cant-speak-dutch",
       "title": "You Can Pass the Inburgering Exam and Still Not Speak Dutch",
       "category": "jtbd",
       "primary_keyword": "pass inburgering exam but can't speak Dutch",
       "persona": "Cross-persona (all)",
       "pain_cluster": "pass-but-cant-speak-normalized",
-      "registry_status": "passed-inburgering-cant-speak-dutch is its own PLANNED registry topic, distinct from the drafted why-cant-speak-dutch-after-studying (the recognition-vs-production mechanism piece).",
+      "registry_status": "planned (slug reconciled with content-registry + brief passed-inburgering-cant-speak-dutch_brief.json; distinct from why-cant-speak-dutch-after-studying, the recognition-vs-production mechanism piece).",
       "serp_note": "Differentiated from the drafted mechanism article: this brief is post-exam/post-certificate (identity + path forward) and internal-links to the mechanism piece rather than repeating it. FLAG FOR HUMAN REVIEW: confirm the two stay distinct and don't cannibalize each other.",
       "priority_score": {
         "buyer_intent": 9,
@@ -134,13 +134,13 @@
       "brief_status": "generated"
     },
     {
-      "topic_id": "dutch-speaking-practice-beginners",
+      "topic_id": "dutch-speaking-practice-online",
       "title": "Dutch Speaking Practice for Beginners",
       "category": "jtbd",
       "primary_keyword": "Dutch speaking practice for beginners online",
       "persona": "Pattern D (Long-term resident) and Pattern A; access-to-practice barrier",
       "pain_cluster": "access-to-practice",
-      "registry_status": "planned (dutch-speaking-practice-online)",
+      "registry_status": "planned (slug reconciled with content-registry; articles link to this slug)",
       "serp_note": "Free grammar sites, Taalthuis free, YouTube, learndutch.org, a conversation app (hilokal); no product owns production-building speaking practice.",
       "priority_score": {
         "buyer_intent": 9,
@@ -154,13 +154,13 @@
       "brief_status": "pending"
     },
     {
-      "topic_id": "inburgeringonline-review-alternative",
+      "topic_id": "dutchwithjoost-vs-inburgeringonline",
       "title": "InburgeringOnline Review and Alternative",
       "category": "comparison",
       "primary_keyword": "inburgeringonline review",
       "persona": "Cross-persona course shopper",
       "pain_cluster": "memorization-not-production",
-      "registry_status": "planned (dutchwithjoost-vs-inburgeringonline)",
+      "registry_status": "planned (slug reconciled with content-registry; brief dutchwithjoost-vs-inburgeringonline_brief.json)",
       "brief_file": "outputs/briefs/dutchwithjoost-vs-inburgeringonline_brief.json",
       "serp_note": "Live SERP (NL): review/alternative/comparison intent owned only by Trustpilot, Reddit threads, and self-serving vendor pages. No neutral editorial comparison ranks. Clear wedge for an honest comparison.",
       "priority_score": {
@@ -237,13 +237,13 @@
       "brief_status": "generated"
     },
     {
-      "topic_id": "self-paced-vs-classroom-dutch",
+      "topic_id": "self-paced-vs-classroom-dutch-courses",
       "title": "Self-Paced vs Classroom Dutch Courses",
       "category": "comparison",
       "primary_keyword": "self-paced vs classroom Dutch course",
       "persona": "Pattern B: Work Visa + Security",
       "pain_cluster": "expensive-inflexible-options",
-      "registry_status": "planned (self-paced-vs-classroom-dutch-courses)",
+      "registry_status": "planned (slug reconciled with content-registry; articles link to this slug)",
       "validation": "Classroom friction reconfirmed 4/4 new calls (group of 12 too big to ask, level-placement failure, overwhelming intensive format).",
       "priority_score": {
         "buyer_intent": 8,
@@ -278,13 +278,13 @@
       "brief_status": "generated"
     },
     {
-      "topic_id": "shame-speaking-dutch-expat",
+      "topic_id": "shame-cycle-speaking-dutch",
       "title": "The Shame of Not Speaking Dutch (and How to Break the Cycle)",
       "category": "deviant",
       "primary_keyword": "shame speaking Dutch as an expat",
       "persona": "Pattern A / Pattern C; shame-cycle barrier",
       "pain_cluster": "shame-cycle",
-      "registry_status": "adjacent (content-registry: Fear of Speaking Dutch). Scope: the SOCIAL shame cycle (being watched + switch-to-English), distinct from the self-blame piece not-bad-at-dutch-its-the-method. Cross-link, don't merge.",
+      "registry_status": "planned (canonical shame/fear-of-speaking target; why-cant-speak article links here; brief shame-cycle-speaking-dutch_brief.json). Scope: the SOCIAL shame cycle (being watched + switch-to-English), distinct from the self-blame piece not-bad-at-dutch-its-the-method.",
       "serp_note": "Very weak SERP for the shame framing; emotionally resonant top-of-funnel angle. New intelligence broadens the 'you're not alone' validation across four interviews.",
       "priority_score": {
         "buyer_intent": 6,
@@ -582,6 +582,116 @@
         "weighted_total": 5.55
       },
       "brief_status": "pending"
+    },
+    {
+      "topic_id": "what-is-production-based-language-learning",
+      "title": "What Is Production-Based Language Learning?",
+      "category": "category",
+      "primary_keyword": "production based language learning",
+      "persona": "Production Gap + Prior Course Skepticism; solution-aware, esp. Pattern C (Nina) and Pattern D",
+      "pain_cluster": "memorization-not-production",
+      "registry_status": "planned (existing content-registry entry; committed internal-link target from inburgering-course-that-teaches-speaking and why-cant-speak-dutch-after-studying). Pillar/methodology page the cluster links into.",
+      "serp_note": "Verified 2026-06-01 (firecrawl): SERP is academic (PubMed, Wikipedia, ResearchGate, ScienceDirect) and teacher-focused, and is partly hijacked by 'project-based language learning (PBLL)', a different concept. No learner-facing piece applies production-based learning to Dutch/inburgering, so weak for our niche (7). Head term is academic and ambiguous; lean on variants like 'why memorizing Dutch doesn't stick'. PubMed 'Production Practice During Language Learning Improves...' is a citable proof source.",
+      "validation": "Production gap is the most-cited cross-call pain (Anna, Molly, Monika, Nina). Nina: 'I finished it. But I didn't feel like I retained anything.'",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 10,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 3,
+        "authority_fit": 9,
+        "weighted_total": 6.8
+      },
+      "brief_file": "outputs/briefs/what-is-production-based-language-learning_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "inburgering-course-worth-it",
+      "title": "Is an Inburgering Course Worth It? An Honest Cost-Benefit Look",
+      "category": "comparison",
+      "primary_keyword": "is an inburgering course worth it",
+      "persona": "Cross-persona course shopper; Prior Course Skepticism + cost-conscious (Anna, Nina, Monika)",
+      "pain_cluster": "course-value-uncertainty",
+      "registry_status": "planned (existing content-registry entry; committed internal-link target from who-is-dutchwithjoost-not-for and why-cant-speak-dutch-after-studying). BOFU.",
+      "serp_note": "Verified 2026-06-01 (firecrawl): serp_weakness raised 7->8. Top result is the exact Reddit thread; SERP is UGC (Reddit, Facebook), Trustpilot reviews, personal anecdotes (Medium, YouTube), and vendor self-assessment (dutchfirst.nl). No neutral cost-benefit editorial. Strong wedge confirmed. Guardrail: Trustpilot ranks #2/#9 but we deliberately do not cite billing/review complaints.",
+      "validation": "Anna resents subscriptions she can't use or cancel; Nina spent ~EUR700 across an A1 (EUR300) and A2 (EUR390) course and retained little. Value uncertainty is documented and cross-call.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 8,
+        "serp_weakness": 8,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 8.15
+      },
+      "brief_file": "outputs/briefs/inburgering-course-worth-it_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "inburgering-course-cost",
+      "title": "How Much Does an Inburgering Course Cost? Full Price Breakdown",
+      "category": "category",
+      "primary_keyword": "inburgering course cost",
+      "persona": "Cost-conscious + Schedule Constraints; Pattern A (Alysa), Monika",
+      "pain_cluster": "expensive-inflexible-options",
+      "registry_status": "planned (existing content-registry entry; committed internal-link target from inburgering-course-that-teaches-speaking). BOFU.",
+      "serp_note": "Verified 2026-06-01 (firecrawl): more contested than estimated (serp_weakness held at 6). Official sources rank strongly (inburgeren.nl, government.nl own the funding/loan answer) plus vendor pricing pages (inburgering.org, nlcompass, languagecorner, dutchready). Gap: no neutral total-cost-to-A2-by-format breakdown. Link out to government.nl for the funded route rather than compete on it.",
+      "validation": "Alysa: private tutoring too expensive; Monika: private tutoring out of budget; Alysa: one-shot government funding raises the stakes on getting it right.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 6,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 7,
+        "weighted_total": 6.9
+      },
+      "brief_file": "outputs/briefs/inburgering-course-cost_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "inburgering-speaking-test-guide",
+      "title": "The Inburgering Speaking Exam: A Complete Guide",
+      "category": "jtbd",
+      "primary_keyword": "inburgering speaking exam",
+      "persona": "Inburgering-bound; Production Gap + speaking-exam anxiety; cross-persona",
+      "pain_cluster": "speaking-exam-anxiety",
+      "registry_status": "planned (existing content-registry entry; committed internal-link target from inburgering-course-that-teaches-speaking).",
+      "serp_note": "Verified 2026-06-01 (firecrawl), serp_weakness held at 6. Official (inburgeren.nl), YouTube practice videos, DutchReview, and iamexpat dominate. NEW A2 speaking format since 1 March 2025 (confirmed via inburgeren.nl + iamexpat): multiple-choice removed, now 16 spoken exercises (was 24), ~35 min. Brief must cover the change; verify exact structure on inburgeren.nl. Competitor to beat: iamexpat.nl.",
+      "validation": "Web research Pain Point 1 (Speaking Exam Anxiety): 'stepped nervously into DUO exam halls'; 'tests timed responses to prompts.' Nina: 'People don't even expect that at A2 you can have a conversation.'",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 6.9
+      },
+      "brief_file": "outputs/briefs/inburgering-speaking-test-guide_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "a2-vs-b1-inburgering-which-level",
+      "title": "A2 vs B1 for Inburgering: Which Level Do You Need?",
+      "category": "jtbd",
+      "primary_keyword": "A2 vs B1 inburgering",
+      "persona": "Pattern B (work visa/career, may need B1), Pattern D (integration focus)",
+      "pain_cluster": "level-placement-uncertainty",
+      "registry_status": "planned (existing content-registry entry; committed internal-link target from who-is-dutchwithjoost-not-for).",
+      "serp_note": "Verified 2026-06-01 (firecrawl): serp_weakness lowered 7->5 (contested). Multiple direct 'A2 or B1' pages rank (inburgering.app, nlcompass, dutch-online, DutchReview) plus Reddit/YouTube. Key determinant surfaced: the law plus 2021-Act leerroute decides your level (2013 Act = A2; 2021 Act B1/education tracks = B1; self-reliance Z track = A1, A2 optional), per strategy/factual-accuracy-checklist.md. Differentiate on that clarity plus decision-orientation. Competitors to beat: inburgering.app, nlcompass.",
+      "validation": "Alysa: level-placement failure, programs don't know where to put her. JTBD: 'Get placed at the correct level.' Level confusion is a documented pain.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 5,
+        "serp_weakness": 5,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 5.55
+      },
+      "brief_file": "outputs/briefs/a2-vs-b1-inburgering-which-level_brief.json",
+      "brief_status": "generated"
     }
   ]
 }

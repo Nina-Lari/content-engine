@@ -74,7 +74,7 @@ You try to speak Dutch. You struggle. You feel judged. Dutch people, trying to b
 
 Less practice means the gap widens. A wider gap means more avoidance. More avoidance means less practice. The cycle feeds itself.
 
-This isn't a character flaw. It's a predictable outcome of recognition-only training. If you've never practiced producing Dutch under pressure, of course you freeze when you have to. The [fear of speaking Dutch](INTERNAL_LINK:fear-of-speaking-dutch) isn't irrational. It's a response to being unprepared for what speaking actually requires.
+This isn't a character flaw. It's a predictable outcome of recognition-only training. If you've never practiced producing Dutch under pressure, of course you freeze when you have to. The [fear of speaking Dutch](INTERNAL_LINK:shame-cycle-speaking-dutch) isn't irrational. It's a response to being unprepared for what speaking actually requires.
 
 ## What Production-Based Learning Looks Like
 

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "topic_id": "a2-vs-b1-inburgering-which-level",
+    "priority_score": 5.55,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-3 hours",
+    "guardrails": "Informational. Verify CEFR and inburgering-level requirements against DUO before publishing; cite DUO. No pricing in this MOFU piece. Where relevant, note Dutchwithjoost takes you to A2 and a B1 course is on the way; do not overstate B1 availability."
+  },
+  "serp_analysis": {
+    "analyzed_date": "2026-06-01",
+    "tool": "firecrawl search (country: nl)",
+    "top_results": "Reddit (#1, r/learndutch 'A2 vs B1'), inburgering.app (#2, direct 'A2 or B1' decision page), inburgering.org (#3, levels+costs), dutch-online.com (#4, CEFR for expats), DutchReview (#5), nlcompass (#7, 'A2 or B1 what you must pass'), YouTube ('2013 vs 2021 law').",
+    "gap": "Several direct 'A2 or B1' explainers already rank, but they treat it as a generic CEFR question rather than a law-cohort decision.",
+    "implication": "Contested SERP (serp_weakness lowered to 5). Differentiate on the real determinant: 2013 Act (A2) vs 2021 Act leerroutes (B1 track / education track = B1; self-reliance Z track = A1, A2 optional), plus decision-orientation. Competitors to beat: inburgering.app, nlcompass."
+  },
+  "keyword": {
+    "primary": "A2 vs B1 inburgering",
+    "variants": [
+      "inburgering A2 or B1",
+      "which inburgering level do I need",
+      "A2 or B1 Dutch which level",
+      "do I need B1 for inburgering",
+      "difference between A2 and B1 Dutch"
+    ],
+    "searcher_intent": "Figure out which level they are required to reach and which they should aim for, so they don't over- or under-prepare."
+  },
+  "audience": {
+    "persona": "Pattern B (work visa, career may require B1) and Pattern D (long-term resident, integration focus)",
+    "industry_focus": null,
+    "pain_summary": "Unsure which level applies to their situation, and afraid of being placed wrong or preparing for the wrong target.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "A decision guide, not a CEFR encyclopedia. It answers 'which level do I need' by mapping real situations (naturalization route, work, the new requirements) to A2 or B1, then explains what the jump between them actually feels like in daily life. The differentiator is decision-orientation grounded in real placement confusion.",
+  "thesis_sentence": "Whether you need A2 or B1 depends on your integration route and your goals, and the gap between them is the difference between getting by and genuinely participating, so choose the target before you choose a course.",
+  "outline": [
+    {
+      "section": "A2 vs B1: which one do you need?",
+      "notes": "AEO answer first. Quick decision summary by situation, then detail below.",
+      "word_target": 250,
+      "evidence_needed": "Verify current inburgering level requirements against DUO (requirements have shifted toward B1 for some routes). Cite DUO."
+    },
+    {
+      "section": "What A2 and B1 actually mean on the CEFR",
+      "notes": "Plain-language definitions. A2 = basic everyday exchanges; B1 = independent, can handle most situations and express opinions.",
+      "word_target": 300,
+      "evidence_needed": "CEFR descriptors, stated plainly. Cite the framework."
+    },
+    {
+      "section": "Which law and learning track (leerroute) decide your level",
+      "notes": "The determinant is which law you fall under and, under the 2021 Act, your assigned leerroute. 2013 Act: standard A2. 2021 Act: B1 track and education track require B1; self-reliance (Z) track requires A1 with A2 optional. Establish that first, then layer in naturalization/work/partner specifics. Always: check your own track.",
+      "word_target": 350,
+      "evidence_needed": "Map 2013 Act (A2 standard) vs 2021 Act leerroutes (B1 track / education track = B1; self-reliance Z track = A1, A2 optional); verify current rules and how to tell which applies with DUO and the municipality. Funded/assigned-track framing per house rule. See strategy/factual-accuracy-checklist.md Error 2."
+    },
+    {
+      "section": "What the jump from A2 to B1 feels like",
+      "notes": "Concrete daily-life contrast: A2 gets you through the counter; B1 lets you join the conversation, work, and stop being excluded.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized: exclusion at work and socially; 'I want to meet people who are not expats.' Ground the abstract level in lived stakes."
+    },
+    {
+      "section": "Choosing a course for your target level",
+      "notes": "Match the course to the level you need. What to look for either way. Useful even if they pick a competitor.",
+      "word_target": 300,
+      "evidence_needed": "Dutchwithjoost takes a beginner from zero to A2; a B1 course is on the way. State accurately, no overclaim. A beginner who will eventually need B1 still starts at A1/A2."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "AEO FAQ set below.",
+      "word_target": 200,
+      "evidence_needed": "Definition-first answers; verify level facts against DUO."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Fear of being placed at the wrong level",
+      "prop": "Knowing your required target before you start prevents wasted effort",
+      "proof": "Anonymized: a learner whose programs couldn't place her and who fell through the cracks."
+    },
+    {
+      "pain": "Getting by isn't enough to stop feeling excluded",
+      "prop": "Clarity on A2 vs B1 lets you aim for the level that actually matches your goal",
+      "proof": "Anonymized: 'I want to speak Dutch and meet people who are not expats. This is limiting my possibilities.'"
+    }
+  ],
+  "originality_nuggets": [
+    "Decision-first structure: maps real situations to a level instead of reciting CEFR descriptors, which is all the current SERP offers.",
+    "Makes the A2-to-B1 gap tangible through lived stakes (getting through the counter vs joining the conversation and the workplace), not abstract can-do statements.",
+    "Names the placement-failure pain directly, validating readers who were bounced between levels by programs that couldn't place them."
+  ],
+  "seo": {
+    "title_tag": "A2 vs B1 Inburgering: Which Level Do You Need?",
+    "meta_description": "Whether you need A2 or B1 for inburgering depends on your route and goals. A decision guide to choosing the right target level.",
+    "url_slug": "a2-vs-b1-inburgering-which-level"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Do I need A2 or B1 for inburgering?",
+    "definition_paragraph": "The inburgering level you need depends on which law you fall under and, under the newer law, your assigned learning track. Under the 2013 Act the standard requirement is A2. Under the 2021 Act your required level depends on your leerroute: the B1 track and education track require B1, while the self-reliance (Z) track requires A1 with A2 optional. Check your own track with DUO or your municipality first. A2 covers simple, routine situations; B1 lets you handle most situations independently.",
+    "faq_questions": [
+      "What is the difference between A2 and B1 Dutch?",
+      "Do I need B1 for Dutch citizenship?",
+      "Is A2 enough to pass inburgering?",
+      "How long does it take to go from A2 to B1?"
+    ]
+  }
+}

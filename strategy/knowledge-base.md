@@ -1000,7 +1000,7 @@ These pain points are documented across community discussions, competitor sites,
 | Pain Point | Evidence Source | Content Angle |
 |------------|-----------------|---------------|
 | **Speaking exam anxiety** | DutchReview (named publication, citable) | Position unlimited practice as anxiety reducer |
-| **Recognition vs. production gap** | Seidlitz Education (education publisher, citable) | Core positioning — we require production |
+| **Recognition vs. production gap** | Hopman & MacDonald (2018), "Production Practice During Language Learning Improves Comprehension," Psychological Science (DOI 10.1177/0956797618754486) — peer-reviewed; production-learning participants beat comprehension-learning participants on later comprehension. Also Seidlitz Education. | Core positioning — we require production |
 | **Underestimating production skills** | Dutch-online.com (named publication, citable) | Content angle: production skills are where people fail |
 | **Isolated word memorization fails** | Taalhammer blog (named publication, citable) | Context-based learning vs. flashcards |
 | **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |

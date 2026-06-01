@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "topic_id": "inburgering-course-cost",
+    "priority_score": 6.9,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-3 hours",
+    "guardrails": "BOFU, so price contrast is allowed. Use only verified prices from competitive-landscape.md and recheck each provider live before publishing (prices change). Do NOT cite competitor billing complaints, Trustpilot, or cancellation gripes. For the funded route, frame as 'check your own track first,' not as a DUO-approval claim."
+  },
+  "serp_analysis": {
+    "analyzed_date": "2026-06-01",
+    "tool": "firecrawl search (country: nl)",
+    "top_results": "Official inburgeren.nl (#1) and government.nl (#9, #10, funding/loan) rank strongly; vendor pricing pages (inburgering.org, nlcompass 'B1 EUR350-400', languagecorner, dutchready); Reddit (#2); DutchNews (#8).",
+    "gap": "No neutral total-cost-to-A2-by-format breakdown that ties price to outcome; official pages own funding/loans, vendors show only their own price.",
+    "implication": "Differentiate on cross-format totals and what the money buys. Link out to government.nl for the funded/loan route instead of competing on it. serp_weakness held at 6 (contested)."
+  },
+  "keyword": {
+    "primary": "inburgering course cost",
+    "variants": [
+      "how much does an inburgering course cost",
+      "inburgering course price",
+      "cost to pass inburgering",
+      "how much does inburgering cost in the Netherlands"
+    ],
+    "searcher_intent": "Get a clear, current picture of what it costs to prepare for and pass inburgering across the realistic options, so they can budget and choose."
+  },
+  "audience": {
+    "persona": "Cost-conscious learners with Schedule Constraints; Pattern A (Alysa) and Monika",
+    "industry_focus": null,
+    "pain_summary": "Prices are opaque and scattered, private tutoring is out of reach, and one-shot government funding raises the stakes on choosing right.",
+    "awareness_level": "problem-aware to solution-aware"
+  },
+  "angle": "A current, honest price breakdown by format (free/cheap apps, mid self-paced, classroom, private tutor) with realistic totals to reach A2, not per-month teaser prices. The differentiator is total-cost honesty and tying price to what the money buys, so the reader budgets for an outcome, not just a line item.",
+  "thesis_sentence": "Inburgering preparation can cost anywhere from almost nothing to several thousand euros, and the right number depends less on the sticker price than on what each option leaves you able to do.",
+  "outline": [
+    {
+      "section": "What an inburgering course costs: the short answer",
+      "notes": "AEO answer first: ranges by format with realistic A2 totals. Then the breakdown.",
+      "word_target": 250,
+      "evidence_needed": "Verified totals: self-paced ~EUR60-600; classroom Amsterdam average ~EUR1,160 (outliers higher); private tutoring ~EUR2,000-6,000. Recheck live."
+    },
+    {
+      "section": "Self-paced online courses",
+      "notes": "Cheapest path. Per-month vs total to A2. Flag that low monthly prices add up over the months you actually need.",
+      "word_target": 350,
+      "evidence_needed": "Verified plan prices from competitive-landscape.md (e.g., budget options under EUR150 total; recognized self-paced ~EUR210-300). Present as totals to A2, not teaser monthlies."
+    },
+    {
+      "section": "Classroom schools",
+      "notes": "What the higher price buys (teacher, peers, schedule) and the trade-offs. Useful even if the reader chooses classroom.",
+      "word_target": 300,
+      "evidence_needed": "Amsterdam average ~EUR1,160; note higher social-focused schools. Verify before publish."
+    },
+    {
+      "section": "Private tutors",
+      "notes": "Most speaking time per hour, highest cost. Hourly times typical hours to A2.",
+      "word_target": 250,
+      "evidence_needed": "~EUR20-60/hour over ~100 hours = ~EUR2,000-6,000. Verify hourly ranges."
+    },
+    {
+      "section": "Hidden and one-time costs",
+      "notes": "Exam fees, retakes, materials, the cost of redoing a course that didn't stick. The funded route: check your track first.",
+      "word_target": 300,
+      "evidence_needed": "DUO exam-fee facts (cite DUO; have writer verify current fee). Funded-route framing per house rule."
+    },
+    {
+      "section": "Which cost makes sense for which goal",
+      "notes": "Match budget to outcome. Where a one-time course fits between cheap-but-memorization and expensive-but-human.",
+      "word_target": 250,
+      "evidence_needed": "Dutchwithjoost EUR399 one-time, five-year access, covers all five exam parts. Feature-benefit-proof, no hype."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "AEO FAQ set below.",
+      "word_target": 150,
+      "evidence_needed": "Definition-first answers."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Private tutoring is out of budget",
+      "prop": "A one-time course gives unlimited speaking practice without the per-hour meter",
+      "proof": "Dutchwithjoost is EUR399 once for unlimited conversations vs ~EUR2,000-6,000 for tutoring to A2."
+    },
+    {
+      "pain": "One-shot funding raises the stakes on choosing right",
+      "prop": "Clear scope (all five parts, zero to A2) reduces the risk of paying twice",
+      "proof": "43 lessons covering reading, listening, writing, speaking, and KNM in one place."
+    }
+  ],
+  "originality_nuggets": [
+    "Converts teaser monthly prices into realistic totals-to-A2, which most price pages avoid because the totals are less flattering.",
+    "Ties each price tier to the outcome it buys, so the cheapest option isn't automatically framed as the best value.",
+    "Treats 'redoing a course that didn't stick' as a real line item, grounded in learners who paid for A1 and A2 separately and retained little."
+  ],
+  "seo": {
+    "title_tag": "How Much Does an Inburgering Course Cost?",
+    "meta_description": "A current breakdown of inburgering course costs by format, from free apps to private tutors, with realistic totals to reach A2.",
+    "url_slug": "inburgering-course-cost"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How much does an inburgering course cost?",
+    "definition_paragraph": "Inburgering course costs range from under EUR150 for budget self-paced courses to around EUR1,160 on average for a classroom course to A2, and EUR2,000 to EUR6,000 for private tutoring. Self-paced online courses are the cheapest structured option; prices change, so check each provider before you buy.",
+    "faq_questions": [
+      "How much does it cost to pass the inburgering exam?",
+      "Are there free ways to prepare for inburgering?",
+      "Why are classroom inburgering courses so expensive?",
+      "Does the government pay for my inburgering course?"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "topic_id": "inburgering-speaking-test-guide",
+    "priority_score": 6.9,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours",
+    "guardrails": "Informational. Verify all exam-structure facts against DUO/inburgeren.nl before publishing; cite by name. The A2 speaking exam changed from 1 March 2025: the multiple-choice section was removed, so it is now all spoken, 16 exercises (down from 24), ~35 minutes, computer-based. Cover the change; verify the structure on inburgeren.nl (the detailed breakdown traces to an InburgeringOnline-sponsored article). No pricing in this MOFU piece. Frame product specifics as 'how Dutchwithjoost prepares you,' not as exam requirements."
+  },
+  "serp_analysis": {
+    "analyzed_date": "2026-06-01",
+    "tool": "firecrawl search (country: nl)",
+    "top_results": "Official inburgeren.nl (#1, #9), Reddit ('A2 now 24 questions?'), inburgering.org practice, multiple YouTube practice-question videos, DutchReview, iamexpat ('all about the NEW format').",
+    "gap": "Lots of practice-question drilling and an official/iamexpat format explainer, but none own the production-readiness angle (confidence from having already had the conversations).",
+    "implication": "NEW A2 speaking format live since 1 March 2025: multiple-choice removed, now 16 spoken exercises (was 24), ~35 min. Cover it as a freshness hook; primary source inburgeren.nl. Competitor to beat: iamexpat.nl. serp_weakness held at 6."
+  },
+  "keyword": {
+    "primary": "inburgering speaking exam",
+    "variants": [
+      "inburgering speaking exam tips",
+      "inburgering spreken exam",
+      "how to pass the inburgering speaking exam",
+      "inburgering speaking test format",
+      "A2 speaking exam inburgering"
+    ],
+    "searcher_intent": "Understand what the speaking exam actually involves and how to prepare so they walk in confident, not just informed."
+  },
+  "audience": {
+    "persona": "Inburgering-bound learners with a Production Gap and speaking-exam anxiety; cross-persona",
+    "industry_focus": null,
+    "pain_summary": "The speaking exam is the most feared component; it tests timed spoken responses, and learners who only studied recognition feel unprepared for it.",
+    "awareness_level": "problem-aware to solution-aware"
+  },
+  "angle": "The guide that treats the speaking exam as a production test, not a trivia test, and prepares the reader accordingly. Most existing guides describe the format; this one explains why the format trips up recognition-trained learners and what kind of practice actually builds readiness. Confidence-through-rehearsal is the throughline.",
+  "thesis_sentence": "The inburgering speaking exam tests your ability to produce Dutch under time pressure, so the only preparation that works is having had real conversations before exam day, not more silent review.",
+  "outline": [
+    {
+      "section": "What the inburgering speaking exam is",
+      "notes": "AEO definition answer first. Where it sits among the five exam parts, what it asks you to do at a high level.",
+      "word_target": 300,
+      "evidence_needed": "Verify against DUO: format, that responses are spoken to prompts, timing. Cite DUO."
+    },
+    {
+      "section": "How the exam actually works, step by step",
+      "notes": "Question types, timed responses, the test environment. Demystify it.",
+      "word_target": 400,
+      "evidence_needed": "Per inburgeren.nl: A2 speaking is computer-based, watch short films and answer by speaking, ~35 min. New format from 1 March 2025: multiple-choice removed; now 16 spoken exercises (was 24), grouped Q1-4 video / Q5-8 image / Q9-12 choose-image / Q13-16 three pictures. Verify on inburgeren.nl; detailed breakdown traces to an InburgeringOnline-sponsored iamexpat article. See strategy/factual-accuracy-checklist.md."
+    },
+    {
+      "section": "Why recognition-trained learners struggle here",
+      "notes": "Link to recognition vs production. You can pass reading/listening by recognizing, but speaking forces production under pressure.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized: 'People don't even expect that at A2 you can have a conversation.' Tie to the production-based pillar."
+    },
+    {
+      "section": "How to prepare so you walk in confident",
+      "notes": "Rehearse out loud, simulate timed prompts, practice at your level repeatedly. Useful regardless of which tool/course they use.",
+      "word_target": 400,
+      "evidence_needed": "Advice-section test passes. Web research framing: 'walk into DUO confident because you've already had hundreds of conversations.'"
+    },
+    {
+      "section": "Common mistakes and exam-day tips",
+      "notes": "Freezing, over-translating in your head, staying silent. Practical, calm guidance.",
+      "word_target": 300,
+      "evidence_needed": "Anonymized speaking-anxiety verbatim ('stepped nervously into DUO's exam halls')."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "AEO FAQ set below.",
+      "word_target": 200,
+      "evidence_needed": "Definition-first answers; verify any factual claims against DUO."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Speaking-exam anxiety from never having spoken under pressure",
+      "prop": "Repeated real conversations before exam day turn the test into something you've already rehearsed",
+      "proof": "Dutchwithjoost has you converse with Joost every lesson, so by exam day you've had many real exchanges, not zero."
+    },
+    {
+      "pain": "Only ever practiced recognition, so production feels foreign",
+      "prop": "Production-based practice trains the exact skill the speaking exam measures",
+      "proof": "A lesson completes only after you've spoken the new words yourself."
+    }
+  ],
+  "originality_nuggets": [
+    "Frames the speaking exam as a production test and explains precisely why recognition-trained learners are blindsided by it, a connection generic format guides miss.",
+    "Turns 'exam prep' into 'rehearsal': the claim is that confidence comes from having already had the conversations, not from reviewing more material.",
+    "Connects exam-day freezing to the avoidance cycle, so the fix is reframed as practice, not willpower."
+  ],
+  "seo": {
+    "title_tag": "The Inburgering Speaking Exam: Complete Guide",
+    "meta_description": "What the inburgering speaking exam tests, why it trips up learners who only studied recognition, and how to prepare so you walk in confident.",
+    "url_slug": "inburgering-speaking-test-guide"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the inburgering speaking exam?",
+    "definition_paragraph": "The inburgering speaking exam (spreken) is the spoken component of the A2 civic integration exam, where you respond aloud to prompts under time pressure. It is one of the five exam parts alongside reading, listening, writing, and KNM, and it tests your ability to produce Dutch, not just recognize it.",
+    "faq_questions": [
+      "What does the inburgering speaking exam test?",
+      "How can I prepare for the inburgering speaking exam?",
+      "Why is the speaking exam the hardest part of inburgering?",
+      "Can you fail inburgering on the speaking exam alone?"
+    ]
+  }
+}

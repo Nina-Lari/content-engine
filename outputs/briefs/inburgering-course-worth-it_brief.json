@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "topic_id": "inburgering-course-worth-it",
+    "priority_score": 8.15,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "2-4 hours",
+    "guardrails": "BOFU piece, so cost contrast is allowed. Use only verified prices (see competitive-landscape.md, recheck live before publish). Do NOT cite competitor billing complaints, Trustpilot, or subscription-cancellation gripes (house rule). For the gemeente-funded route, frame as 'check your own track first,' never as a claim about who is or isn't DUO-approved."
+  },
+  "serp_analysis": {
+    "analyzed_date": "2026-06-01",
+    "tool": "firecrawl search (country: nl)",
+    "top_results": "Reddit (#1, the exact 'worth it or scam' query), Trustpilot (#2, #9), Facebook (#3), Medium/YouTube personal pass stories, dutchfirst.nl vendor selector, DutchReview/DutchNews general exam guides.",
+    "gap": "No neutral cost-benefit editorial. The intent is answered only by UGC, reviews, anecdotes, and vendor self-assessment.",
+    "implication": "Own the neutral framework that reframes 'worth it' around outcome. Strong wedge (serp_weakness 8). Guardrail: Trustpilot ranks but we do not cite billing/review complaints (house rule)."
+  },
+  "keyword": {
+    "primary": "is an inburgering course worth it",
+    "variants": [
+      "are inburgering courses worth it",
+      "inburgering course worth the money",
+      "is it worth paying for an inburgering course",
+      "do I need a paid inburgering course"
+    ],
+    "searcher_intent": "Decide whether to spend money on a course at all, and if so what kind. They have likely been burned before or seen the price tags and want an honest answer, not a sales page."
+  },
+  "audience": {
+    "persona": "Cross-persona course shopper with Prior Course Skepticism and cost sensitivity (Anna, Nina, Monika)",
+    "industry_focus": null,
+    "pain_summary": "Worried about wasting money on a course that leaves them with a certificate but no spoken Dutch, the way previous courses or apps did.",
+    "awareness_level": "solution-aware to product-aware"
+  },
+  "angle": "An honest cost-benefit framework that answers 'worth it' by reframing the question: worth it for what outcome? It separates 'worth it to pass' from 'worth it to actually speak,' and gives the reader criteria that hold even if they pick a free or competitor option. The wedge against the SERP (Reddit threads and vendor pages) is neutrality: we tell people when a paid course is NOT worth it.",
+  "thesis_sentence": "A paid inburgering course is worth it only if it buys an outcome you can't get free, so decide what you actually need, passing or speaking, before you decide what to pay.",
+  "outline": [
+    {
+      "section": "Worth it for what? Define the outcome first",
+      "notes": "AEO definition answer up top. Two outcomes: a certificate vs the ability to speak. Cost only makes sense against the outcome.",
+      "word_target": 250,
+      "evidence_needed": "Reddit-style query framing anonymized ('learners often ask whether the EUR1,000 courses are worth it or a scam')."
+    },
+    {
+      "section": "What you are actually paying for at each price point",
+      "notes": "Free/cheap apps, mid self-paced, classroom, private tutor. What each buys. Keep it useful to a reader who will choose a competitor.",
+      "word_target": 400,
+      "evidence_needed": "Verified ranges from competitive-landscape.md: self-paced ~EUR60-600; classroom Amsterdam average ~EUR1,160; private tutoring ~EUR2,000-6,000. Recheck before publish."
+    },
+    {
+      "section": "When a paid course is NOT worth it",
+      "notes": "Genuinely disqualifying cases: budget is zero (free resources exist), gemeente assigns and funds your course, you already learn well by memorizing and only need the certificate.",
+      "word_target": 350,
+      "evidence_needed": "Check-your-track framing for the funded route. Mirror the honest-disqualifier tone of the who-is-not-for article."
+    },
+    {
+      "section": "The hidden cost most people miss: a course you finish but can't use",
+      "notes": "The real waste isn't the price, it's paying and still not speaking. Tie to completion = exercises vs completion = production.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized: a learner who spent ~EUR700 across an A1 and A2 course and still couldn't hold a basic conversation."
+    },
+    {
+      "section": "A simple worth-it test before you buy",
+      "notes": "3-5 questions the reader can apply to any option (does completion require speaking, is practice level-matched, is it one-time or recurring, does it cover all five exam parts).",
+      "word_target": 300,
+      "evidence_needed": "Criteria must pass the advice-section test: a competitor that meets them should satisfy the reader."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "AEO FAQ set below.",
+      "word_target": 200,
+      "evidence_needed": "Definition-first answers."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Fear of paying and ending up with a certificate but no spoken Dutch",
+      "prop": "A course where completion requires speaking de-risks the spend",
+      "proof": "Dutchwithjoost counts a lesson done only after you have used the words in conversation; backed by an exam pass guarantee."
+    },
+    {
+      "pain": "Wariness of recurring charges",
+      "prop": "One-time pricing removes the open-ended commitment",
+      "proof": "EUR399 once, five-year access. State plainly; do not contrast against competitor billing practices."
+    },
+    {
+      "pain": "Already wasted money on courses that didn't work",
+      "prop": "Clear completion criteria tell you what you are buying",
+      "proof": "Anonymized: a learner out ~EUR700 across two courses with little retained."
+    }
+  ],
+  "originality_nuggets": [
+    "Reframes 'worth it' from price to outcome: the article's whole move is that the same euro is worth it or wasted depending on whether you need to pass or to speak.",
+    "Actively lists when NOT to buy (zero budget, gemeente-funded, memorize-and-go), which is the trust wedge the Reddit-and-vendor SERP lacks.",
+    "Names the real cost: not the sticker price but the sunk cost of finishing a course you can't use, grounded in a learner who spent ~EUR700 and still couldn't converse."
+  ],
+  "seo": {
+    "title_tag": "Is an Inburgering Course Worth It? Honest Answer",
+    "meta_description": "Whether a paid inburgering course is worth it depends on one thing: do you need to pass, or to speak? An honest cost-benefit breakdown.",
+    "url_slug": "inburgering-course-worth-it"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Is an inburgering course worth it?",
+    "definition_paragraph": "An inburgering course is worth it if it buys an outcome you can't get for free, such as structured speaking practice that leaves you able to hold a conversation. If you only need the certificate and learn well by memorizing, a cheap option or free resources may be enough; if your municipality funds your course, check your assigned track first.",
+    "faq_questions": [
+      "How much does an inburgering course cost?",
+      "Can I pass inburgering without a paid course?",
+      "Are expensive classroom inburgering courses worth it?",
+      "Is a one-time course better than a monthly subscription?"
+    ]
+  }
+}

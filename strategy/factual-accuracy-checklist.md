@@ -29,6 +29,8 @@ The inburgering exam tests **both recognition AND production**. This is a common
 - You watch short films and answer questions by speaking Dutch
 - Tests your ability to PRODUCE spoken Dutch, not just understand it
 - You must speak AND understand Dutch ("U moet Nederlands spreken en verstaan")
+- **Format change (from 1 March 2025):** the multiple-choice section was removed. The A2 speaking exam is now all spoken: 16 exercises (reduced from 24), still ~35 minutes, computer-based. Structure: Q1-4 respond to a video, Q5-8 two-part question on an image, Q9-12 two-part question choosing between two images, Q13-16 describe three pictures.
+- **Source/caveat:** the change is corroborated by inburgeren.nl (computer-based, ~35 min); the detailed question breakdown traces to an InburgeringOnline-sponsored explainer on iamexpat.nl (Mar 2025). Re-verify the exact structure on inburgeren.nl before publishing.
 
 **Writing (Schrijven):**
 - Done with pen and paper (not computer)

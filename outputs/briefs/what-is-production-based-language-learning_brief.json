@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "topic_id": "what-is-production-based-language-learning",
+    "priority_score": 6.8,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2200,
+    "estimated_effort": "3-4 hours",
+    "role": "Pillar/methodology page. Several cluster articles link into this as the deep explainer of the recognition-vs-production thesis."
+  },
+  "serp_analysis": {
+    "analyzed_date": "2026-06-01",
+    "tool": "firecrawl search (global)",
+    "top_results": "PubMed (#1, #4 'Production Practice During Language Learning Improves...'), Wikipedia 'Language production', ResearchGate, ScienceDirect, plus 'project-based language learning (PBLL)' pages (Columbia, teacheracademy.eu, nysed).",
+    "gap": "Entirely academic/teacher-facing; no learner-facing piece applies production-based learning to adult Dutch/inburgering. The term also collides with 'project-based language learning', a different concept.",
+    "implication": "Weak for our niche (serp_weakness 7) but the head term is academic and ambiguous. Disambiguate explicitly from project-based learning, lean on winnable variants ('why memorizing Dutch doesn't stick', 'active vs passive vocabulary'), and cite the PubMed production-practice study as proof."
+  },
+  "keyword": {
+    "primary": "production based language learning",
+    "variants": [
+      "production vs recognition language learning",
+      "learn vocabulary by using it",
+      "output hypothesis language learning",
+      "why memorizing Dutch doesn't stick",
+      "active vs passive vocabulary"
+    ],
+    "searcher_intent": "Understand why they can understand a language but can't produce it, and what learning approach closes that gap. Solution-aware, looking for a mechanism and a method, not a product pitch."
+  },
+  "audience": {
+    "persona": "Production Gap + Prior Course Skepticism barrier profiles; cross-persona, strongest for Pattern C (Nina) and Pattern D (long-term resident, integration focus)",
+    "industry_focus": null,
+    "pain_summary": "Finished courses and exercises, passed or nearly passed, but still freeze when speaking. They are starting to suspect the method, not their own ability.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "The pillar explainer that names the mechanism behind 'I passed but can't speak': recognition versus production. It grounds an abstract second-language-acquisition concept (Swain's Output Hypothesis, 1985) in the concrete inburgering experience, then gives an operational definition of 'production-based': a lesson is finished when you have used the words in conversation, not when the exercises are done. Critical guardrail: describe production-based learning as a general principle and Dutchwithjoost's specific rules as 'how we designed the course,' never as universal requirements (per specificity rules).",
+  "thesis_sentence": "You cannot speak a language you have only recognized, because production is a separate skill that has to be trained directly, and production-based learning trains it by making you use the words yourself before a lesson counts as done.",
+  "outline": [
+    {
+      "section": "What production-based language learning is",
+      "notes": "Lead with the AEO definition paragraph. Disambiguate up front from 'project-based language learning (PBLL)', a different concept that shares the search term. Define the term plainly, then contrast with recognition-based study in one line.",
+      "word_target": 250,
+      "evidence_needed": "Operational definition: completion gated on producing the language, not finishing exercises. No product mention yet."
+    },
+    {
+      "section": "Recognition vs production: two different skills",
+      "notes": "Concrete examples (see 'appel' / sentence construction). Input-to-meaning vs meaning-to-output. Explain why training one does not transfer to the other.",
+      "word_target": 350,
+      "evidence_needed": "Swain Output Hypothesis (1985) cited by name and year, plus Hopman & MacDonald (2018), 'Production Practice During Language Learning Improves Comprehension' (Psychological Science, DOI 10.1177/0956797618754486) as peer-reviewed support that producing language improves later comprehension. Keep cognitive framing plain, not jargon-heavy."
+    },
+    {
+      "section": "Why recognition-based courses feel productive but leave a gap",
+      "notes": "Completion = finished exercises trains recognition. Re-watching/re-reading feels like progress, builds the skill you already have.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized learner: 'I did it, I finished it. But I didn't feel like I retained anything' (Nina, anonymize to 'one learner who finished an A1 course')."
+    },
+    {
+      "section": "What production-based learning looks like in practice",
+      "notes": "Learn a word by using it; multiple successful uses across different sentences; say it and write it, not just read it. Be explicit this describes how Dutchwithjoost is built, not a universal rulebook.",
+      "word_target": 400,
+      "evidence_needed": "Anonymized: 'The words that you learn you use... it helps me communicate.' Frame product specifics as 'Dutchwithjoost does X,' per specificity rules."
+    },
+    {
+      "section": "How to add production to any study routine",
+      "notes": "Retrieval practice (cover the word, produce it), narrate aloud, level-matched conversation. Must be genuinely useful even if the reader uses a competitor or free tools.",
+      "word_target": 350,
+      "evidence_needed": "Advice-section test: a learner using Duolingo + a tutor should still benefit. No disqualifying criteria."
+    },
+    {
+      "section": "Production-based vs other common approaches",
+      "notes": "Grammar-translation, app drilling, unstructured immersion with a native partner. Where each builds recognition without production.",
+      "word_target": 300,
+      "evidence_needed": "Anonymized: native-partner level mismatch ('your level is native and mine is total beginner... impossible to learn'); apps that teach 'useless phrases.' Anonymize platform names per citation standards where the insight, not the brand, is the point."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "Pull the AEO FAQ set below.",
+      "word_target": 200,
+      "evidence_needed": "Answer each in 2-4 sentences, definition-first."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Memorized vocabulary that never sticks",
+      "prop": "Learning each word by using it in conversation builds the retrieval pathway memorization skips",
+      "proof": "Anonymized learner: 'The words that you learn you use... it helps me communicate.'"
+    },
+    {
+      "pain": "Passed the exam but still can't speak",
+      "prop": "Completion gated on production means you cannot finish a lesson without speaking",
+      "proof": "Dutchwithjoost marks a lesson done only after you have used the new words in a conversation with Joost."
+    },
+    {
+      "pain": "Practice with a native partner is too hard, they speak over your head",
+      "prop": "Level-matched production practice keeps the conversation usable",
+      "proof": "Anonymized: 'He's not gonna use C2-level Dutch to reply to you.'"
+    }
+  ],
+  "originality_nuggets": [
+    "Reframes a dry SLA concept (the Output Hypothesis) through the lived inburgering experience of 'passed but can't speak.' No competitor connects the academic theory to the Dutch civic-integration context.",
+    "Operational definition of 'done': most courses count a lesson finished when the exercises are; production-based learning counts it finished when you have used the words in conversation. That single-variable difference is the whole article.",
+    "Names the comfort trap: recognition feels smooth because it asks almost nothing of you, and that smoothness is exactly why it builds almost nothing you can speak with."
+  ],
+  "seo": {
+    "title_tag": "Production-Based Language Learning, Explained",
+    "meta_description": "Why you understand Dutch but can't speak it, and the learning approach that closes the gap: producing the language, not just recognizing it.",
+    "url_slug": "what-is-production-based-language-learning"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is production-based language learning?",
+    "definition_paragraph": "Production-based language learning is an approach where you learn vocabulary and grammar by producing the language yourself, speaking and writing it, rather than by recognizing it in exercises. A lesson is complete when you can use the material in a real conversation, not when you have finished the drills.",
+    "faq_questions": [
+      "What is the difference between recognition and production in language learning?",
+      "Why can I understand Dutch but not speak it?",
+      "Is production-based learning better than memorization?",
+      "How do I practice language production on my own?"
+    ]
+  }
+}
