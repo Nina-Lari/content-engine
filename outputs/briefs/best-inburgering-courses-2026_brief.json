@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "topic_id": "best-inburgering-courses-2026",
+    "priority_score": 7.95,
+    "stage": "bofu",
+    "format": "listicle",
+    "target_word_count": 2400,
+    "estimated_effort": "4-6 hours",
+    "ai_search_play": "Dual: listicle is the most-cited ChatGPT format (43.8%, citation magnet) AND commercial-comparison intent is largely AIO-free on Google (#8), so this page captures clicks on Google while feeding ChatGPT recommendations. play_type click-capture, format_priority high."
+  },
+  "keyword": {
+    "primary": "best inburgering course 2026",
+    "variants": [
+      "best inburgering course",
+      "best online inburgering course",
+      "best course for inburgering exam",
+      "best inburgering exam prep",
+      "which inburgering course is best"
+    ],
+    "searcher_intent": "BOFU. The reader is actively choosing between named inburgering courses and wants a trustworthy side-by-side so they can buy the right one. They want price, what's included, and which one fits their goal."
+  },
+  "audience": {
+    "persona": "Cross-persona course shopper at the decision stage, comparing real exam-prep options before paying. Spans budget-first buyers, comprehensive-exam-prep buyers, and speak-after-the-exam buyers (Patterns A, B, C).",
+    "industry_focus": null,
+    "pain_summary": "The field is confusing and the prices range from a few euros a month to thousands. Buyers can't tell whether a cheap course is enough, whether an expensive one is worth it, or which one matches what they actually need.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "There is no single best inburgering course; there is a best one for your goal. Most comparison content is either a vendor's self-serving page or a thin directory listing. This is the neutral, honest, goal-based comparison: cheapest pass, most recognized all-in-one exam prep, free to start, in-person social, and the option built for actually speaking afterward. Every price is computed from published plans, and we disclose our own bias up front.",
+  "thesis_sentence": "The best inburgering course depends on one decision: do you want the cheapest route to the certificate, or the route that also leaves you able to speak Dutch?",
+  "outline": [
+    {
+      "section": "Quick answer: the best inburgering course by goal",
+      "notes": "Answer-first verdict-by-use-case paragraph (the primary citation unit). Name each winner with its computed price and one-line reason: cheapest pass = Inburgering.org (~EUR60-120 total); most recognized all-in-one exam prep = InburgeringOnline (~EUR210-300); free to start / budget exam simulator = InburgeringPrep (~EUR80-120); in-person social and structure = Koentact (~EUR975/level); to actually speak after the exam = a production-based course like DutchwithJoost (one-time EUR399, verify live). Disclose bias: we make one of these.",
+      "word_target": 300,
+      "evidence_needed": "All prices computed from published plans (see guardrails). State 'prices as of 2026, verify before relying on them'."
+    },
+    {
+      "section": "First, check your track and funding route",
+      "notes": "Before comparing courses, the reader needs to know what THEY need. Frame as helping them, never as a disclaimer about us. Two things decide the field: (1) which integration law and leerroute applies (2013 Act = A2; 2021 Act B1/education tracks = B1; self-reliance Z track = A1, A2 optional), so confirm your required level; (2) your funding route: if you're paying with the DUO loan, you must choose a Blik op Werk certified school, which narrows the list. Self-paced courses can be excellent supplements or self-funded options even when they are not on the funded-provider list. Link to a2-vs-b1-inburgering-which-level and inburgering-course-cost.",
+      "word_target": 280,
+      "evidence_needed": "strategy/factual-accuracy-checklist.md for tracks/levels and funding. NEVER state 'we are not DUO-approved'; frame as 'check your track and funding route first'."
+    },
+    {
+      "section": "How we compared them (and our bias)",
+      "notes": "State the comparison criteria openly so it reads as advice: price to complete A2, what's included (all 5 exam parts? speaking? writing feedback?), how 'completion' is defined, schedule fit, and whether you can speak afterward. Disclose that we build DutchwithJoost and that the production criterion is one we care about, so the reader can weight it themselves.",
+      "word_target": 200,
+      "evidence_needed": "Comparison best practice (disclose bias up front)."
+    },
+    {
+      "section": "Inburgering.org: cheapest route to the certificate",
+      "notes": "Honest profile. Strengths: lowest price in market, broad level coverage, replicates the DUO exam format closely. Trade-off: it competes on price, with the same memorization model as most self-paced courses, so it's strong for passing and weaker for speaking afterward. Who it's for: budget-first buyers who mainly need the certificate.",
+      "word_target": 230,
+      "evidence_needed": "Computed price: from EUR4.99/month, ~EUR60-120 total to A2. No billing/Trustpilot complaints; assess the method only."
+    },
+    {
+      "section": "InburgeringOnline: the recognized all-in-one exam prep",
+      "notes": "Honest profile. Strengths: the most recognized self-paced option, frequently recommended in expat forums, comprehensive 'one-stop shop' covering all exam components. Trade-off: subscription pricing, and like other exam-prep it trains recognition and exam patterns more than spontaneous speaking. Who it's for: buyers who want the established, comprehensive exam-prep package.",
+      "word_target": 240,
+      "evidence_needed": "Computed price: EUR34.95/mo (6-month, ~EUR210) or EUR24.95/mo (12-month, ~EUR300). One-time-vs-subscription is value framing only, never a billing attack."
+    },
+    {
+      "section": "InburgeringPrep: free to start, cheap exam simulator",
+      "notes": "Honest profile. Strengths: free tier to try, low monthly price, full exam simulator matching DUO format, covers all 5 sections. Trade-off: exam-simulation focus, recognition-based. Who it's for: price-sensitive buyers who want to test-drive before paying.",
+      "word_target": 200,
+      "evidence_needed": "Computed price: Free EUR0; Pro EUR9.99/mo; Pro Annual EUR79/yr; ~EUR80-120 to A2."
+    },
+    {
+      "section": "Koentact (and classroom options): in-person, social, structured",
+      "notes": "Credit the classroom strengths genuinely: real teacher, peer accountability, in-person social energy, networking, field trips. Trade-offs: a group of around 12 is too big to ask your own questions, fixed schedules, and the highest price bracket. Mention TaalBoost as a cheaper intensive alternative. Who it's for: people who learn best with others and want structure.",
+      "word_target": 260,
+      "evidence_needed": "Computed price: Koentact ~EUR975/level; TaalBoost ~EUR549/level. Anonymized: 'in a class of 12 the teacher cannot give full attention'."
+    },
+    {
+      "section": "Dutch Online: self-paced with some live speaking",
+      "notes": "Honest profile. Notable as the self-paced option that adds scheduled live speaking classes, which most self-paced courses lack. Trade-off: live sessions reintroduce scheduling, and the lifetime price isn't published. Who it's for: self-paced buyers who still want some human speaking time.",
+      "word_target": 200,
+      "evidence_needed": "Computed price: from EUR10/month; lifetime one-time (amount not public, say so)."
+    },
+    {
+      "section": "DutchwithJoost: built for speaking after the exam",
+      "notes": "Feature-benefit-proof, honest and bias-disclosed. Feature: a self-paced course where a lesson is complete only once you've used the vocabulary in conversation, with level-matched speaking practice and writing feedback, covering all 5 exam parts. Benefit: you pass having actually practiced speaking, so you can use Dutch afterward, not just recognize it. Proof: methodology + anonymized resonance. Honest about who it's NOT for (classroom-lovers, cheapest-certificate-only buyers, people already at A2 needing B1 now). One-time EUR399 framed as value vs recurring subscriptions and classroom fees, not as a competitor attack.",
+      "word_target": 280,
+      "evidence_needed": "Product facts and EUR399 one-time VERIFIED against live product. Link to how-does-dutchwithjoost-work and who-is-dutchwithjoost-not-for."
+    },
+    {
+      "section": "Side-by-side comparison table",
+      "notes": "Scannable table: course, format, price to A2 (computed), what 'done' means, speaking practice, best for. Tables are clean citation units for AI extraction.",
+      "word_target": 150,
+      "evidence_needed": "All figures consistent with the profiles above."
+    },
+    {
+      "section": "FAQ",
+      "notes": "For humans and featured snippets only (schema had ~zero AI-citation effect). Self-contained answers.",
+      "word_target": 200,
+      "evidence_needed": "Consistent entity language across the cluster."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "I can't tell if a cheap course is enough or if I'm wasting money on an expensive one.",
+      "prop": "A goal-based comparison with real, computed prices so you can match spend to what you actually need (certificate vs speaking).",
+      "proof": "Computed price ranges per course from published plans; classroom vs self-paced spread (EUR60 to EUR4,000+)."
+    },
+    {
+      "pain": "I've passed courses before and still couldn't speak; I don't want to repeat that.",
+      "prop": "A course where completion requires producing the language, so passing and speaking are the same outcome rather than two different ones.",
+      "proof": "Production-based methodology (verify live); anonymized interview: ~EUR700 spent across two memorization courses with little retention."
+    },
+    {
+      "pain": "I'm wary of subscriptions I forget to cancel.",
+      "prop": "One-time pricing with a clear definition of done, so you own it and aren't billed monthly.",
+      "proof": "One-time EUR399 (verify live) contrasted as value with subscription totals; anonymized: a buyer burned by unused subscriptions. Value framing only, not a billing attack."
+    }
+  ],
+  "originality_nuggets": [
+    "The real fork in the inburgering market is not price, it's the definition of 'done': most courses are done when you finish the exercises; a few are done when you can use the language.",
+    "Cheapest and best can be the same answer if your only goal is the certificate, and that's a legitimate goal worth saying out loud.",
+    "Funding route quietly decides your shortlist: the DUO loan limits you to Blik op Werk certified schools, which most buyers discover too late.",
+    "An expensive classroom and a cheap app can fail the same learner for opposite reasons: the class is too big to ask questions, the app never asks you to speak."
+  ],
+  "seo": {
+    "title_tag": "Best Inburgering Course 2026: Honest Comparison",
+    "meta_description": "Inburgering courses compared by goal and real price: cheapest pass, best all-in-one exam prep, classroom, and the one built for actually speaking.",
+    "url_slug": "best-inburgering-course-2026"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the best inburgering course in 2026?",
+    "definition_paragraph": "There is no single best inburgering course; the best one depends on your goal. For the cheapest route to the certificate, Inburgering.org is the lowest-priced option (around EUR60-120 total). For the most recognized all-in-one exam prep, InburgeringOnline is the established choice (around EUR210-300). For a free start and a cheap exam simulator, InburgeringPrep works (around EUR80-120). For in-person social structure, classroom courses like Koentact lead (around EUR975 per level). And to be able to actually speak Dutch after the exam, a production-based course such as DutchwithJoost is built for that (one-time EUR399). Before choosing, confirm your required level and whether you're using DUO loan funding, which limits you to Blik op Werk certified schools.",
+    "faq_questions": [
+      "What is the cheapest inburgering course?",
+      "Which inburgering course is best for actually speaking Dutch?",
+      "Are expensive inburgering courses worth it?",
+      "Can I use the DUO loan for any inburgering course?",
+      "Is a self-paced or classroom inburgering course better?"
+    ]
+  },
+  "ai_search_directives": {
+    "rationale": "Operationalizes the Ahrefs AI-search findings for a BOFU comparison listicle (click-capture on Google, citation magnet on ChatGPT).",
+    "listicle_structure": "One H2 per course with a bolded 'Best for X' verdict line and a consistent mini-spec (price to A2, what's included, best for). Listicles and reviews are the influenceable formats ChatGPT cites most.",
+    "named_entity_sentence": "Name every course as a clear entity with a one-line, quotable description (including DutchwithJoost), so AI tools can lift accurate, attributed lines. Retrieved is not cited (~50% citation rate); clean named lines raise the odds.",
+    "comparison_table_as_citation_unit": "Include a clean side-by-side table; tables are easy for AI to parse and reproduce, and the per-row verdicts double as snippet answers.",
+    "consistent_entity_language": "Use identical course names and the phrase 'production-based learning' across this page and the individual review/vs pages so the AIO daily reshuffle keeps landing on consistent facts.",
+    "youtube_companion": "Publish and embed a short Joost video walking through how to choose an inburgering course by goal; seek YouTube mentions. YouTube had the highest correlation (0.737) with AI brand visibility.",
+    "no_schema_dependency": "No schema markup for AI visibility (zero measured effect); FAQ is for humans and featured snippets."
+  },
+  "guardrails": [
+    "Compute EVERY price from published plans, not loose ranges: Inburgering.org from EUR4.99/mo (~EUR60-120); InburgeringOnline EUR34.95/mo 6-mo (~EUR210) or EUR24.95/mo 12-mo (~EUR300); InburgeringPrep Free / EUR9.99/mo / EUR79/yr (~EUR80-120); Dutch Online from EUR10/mo, lifetime amount not public; Koentact ~EUR975/level; TaalBoost ~EUR549/level; DutchwithJoost one-time EUR399 (verify live).",
+    "DUO framing: never state we are not DUO-approved. Frame as 'check your track and funding route first'; if using the DUO loan, a Blik op Werk certified school is required.",
+    "Never cite competitor billing, Trustpilot, or subscription complaints. The one-time-vs-subscription contrast is value framing only and stays BOFU.",
+    "Disclose our bias up front; criteria must be genuinely useful even if the reader picks a competitor.",
+    "Product facts and price for DutchwithJoost must be verified against the live product before writing.",
+    "Anonymize customer/community sources; no prohibited words; no em-dashes; no semicolons."
+  ]
+}

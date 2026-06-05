@@ -1,0 +1,38 @@
+title: "How Dutchwithjoost Works: A Lesson Walkthrough"
+description: "A walkthrough of how Dutchwithjoost works: the curriculum, the two-phase lesson, the feedback from Joost, and why using the words beats memorizing them."
+excerpt: "Most courses count a lesson done when you finish the exercises. Dutchwithjoost counts it done only when you've used the new words talking to Joost. Here's the whole loop, step by step."
+slug: "how-does-dutchwithjoost-work"
+category: "product"
+tags:
+  - dutchwithjoost
+  - how it works
+  - inburgering
+  - learn dutch
+  - dutch course
+  - speaking practice
+  - a2 dutch
+  - product walkthrough
+
+faqs:
+  - question: "How is Dutchwithjoost different from memorization-based courses?"
+    answer: "Most courses count a lesson finished when you've clicked through the exercises. Dutchwithjoost counts it finished only when you've used the new words in a conversation with Joost. A word counts as learned when you've used it, not when you've seen it, so finishing a lesson means you can produce the language rather than just recognise it."
+  - question: "What happens in a Dutchwithjoost lesson?"
+    answer: "Each lesson runs in two phases. First you work through the new vocabulary in short sentence units, reading, listening, then writing each one before you move on. Then you have a conversation with Joost where you use those words yourself. The lesson is marked complete only after you've used the words in that conversation."
+  - question: "Does Dutchwithjoost cover all the inburgering exam parts?"
+    answer: "Yes. Dutchwithjoost covers all five parts of the inburgering exam: reading, listening, writing, speaking, and KNM (knowledge of Dutch society). They are taught together through one learn-by-using method, so you are not piecing five separate resources together."
+  - question: "Do I need a teacher or a speaking partner to use Dutchwithjoost?"
+    answer: "No. Joost is your speaking partner, and he replies at your level rather than at native speed, so the conversation stays usable. Because it is self-paced and private, you can make mistakes and practice as much as you want without anyone switching to English on you."
+  - question: "Is Dutchwithjoost self-paced, and how long does it take?"
+    answer: "It is fully self-paced, so you practice whenever it suits you. The course runs across 43 lessons that take you from zero to A2, the level you need for the inburgering exam, and you keep access for five years. How long it takes depends on how often you practice."
+
+internal_link_targets:
+  published:
+    - slug: who-is-dutchwithjoost-not-for
+      anchor_hint: "honest fit / who it's not for"
+    - slug: inburgering-course-that-teaches-speaking
+      anchor_hint: "buyer guide: a course that teaches speaking"
+    - slug: why-cant-speak-dutch-after-studying
+      anchor_hint: "the problem it solves: studied but can't speak"
+  deferred_planned:
+    - slug: what-is-production-based-language-learning
+      anchor_hint: "methodology pillar: why using words beats memorizing (renders as plain text until published)"

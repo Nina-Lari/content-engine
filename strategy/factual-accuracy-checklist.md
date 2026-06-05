@@ -2,8 +2,8 @@
 
 > This document contains verified facts to reference when writing or reviewing content. Use it to check claims before publishing. All exam-related facts are sourced from official DUO/inburgeren.nl documentation.
 
-**Last verified:** 2026-05-28
-**Sources:** inburgeren.nl (official DUO website)
+**Last verified:** 2026-06-04
+**Sources:** inburgeren.nl (official DUO website), CBS (Statistiek Wet Inburgering 2024; immigration & naturalisation dossiers), IND (Monitor Naturalisatie en Optie 2018–2024), government.nl, mvvadvies.nl, Nuffic/ROA
 
 ---
 
@@ -337,6 +337,24 @@ Before publishing any content, check:
 
 Understanding who needs to integrate is critical for accurate content. The rules differ significantly by migrant type and which law applies.
 
+### Two tracks: integration obligation (System 1) vs naturalisation (System 2)
+
+These are *separate legal systems*, often confused:
+
+- **System 1 — the integration obligation (`inburgeringsplicht`):** an administrative duty imposed *on arrival* via a DUO letter. Mandatory. Governed by Wi 2013 (A2) or Wi 2021 (B1 default). Applies mainly to non-EU **asylum** and **family/partner** migrants.
+- **System 2 — naturalisation:** a *voluntary* application for Dutch citizenship, made years later (after ~5 years' residence — a bill would raise this to 10). Language floor: **A2**. Open to almost anyone, including people never obligated to integrate.
+
+The same person often does System 1, then System 2. People **exempt** from System 1 (work/study-permit holders and their dependents, EU nationals, Turkish nationals) can still enter System 2 and then need A2 — that is the self-paying voluntary audience.
+
+**The partner distinction (two opposite "partner visas").** Whether a partner must integrate depends on *whom they join*:
+
+| Partner of… | Permit purpose | Integration? | Track |
+|---|---|---|---|
+| A **Dutch citizen / settled (permanent or asylum) resident** | non-temporary (family reunification) | **Obligated** | System 1 (the self-paying `gezinsmigrant`) |
+| A **kennismigrant / Blue Card / ICT / student** | dependent, temporary purpose | **Exempt** | System 2 (needs A2 only if they choose to naturalise) |
+
+Working doesn't change it — the partner of a kennismigrant keeps a temporary-purpose permit and stays exempt. (Verified: government.nl; mvvadvies.nl, June 2026.)
+
 ### The Two Laws
 
 There are two integration laws currently in effect. Which one applies to you depends on when you became required to integrate:
@@ -378,12 +396,15 @@ The following groups do NOT need to integrate:
 |-------|--------|
 | EU/EEA/Swiss citizens | European free movement rules |
 | Dutch citizens | Already citizens |
-| People with certain work permits | Some highly skilled migrant permits exempt |
+| Most work/study permit holders | "Temporary purpose" permits — highly-skilled migrant, EU Blue Card, intra-company transfer, self-employed, students — and their dependents are not obligated |
+| Turkish nationals | Exempt under the EU–Turkey association agreement (obligation + permanent residence) |
 | People aged 67+ (AOW age) | Exempt once you reach pension age |
 | People with Dutch diplomas | Already demonstrated Dutch proficiency |
 | People who lived/worked in NL 10+ years | Already integrated |
 
 **Source:** [inburgeren.nl/en/fewer-or-no-exams](https://www.inburgeren.nl/en/fewer-or-no-exams/)
+
+**Exempt from the obligation ≠ exempt for naturalisation.** Some exemptions (e.g., Turkish nationals, pension age) release you from the *integration obligation* and the *permanent-residence* requirement but NOT from the language condition for *naturalisation* — to become Dutch they must still pass A2. This is a key self-paying A2 demand source for us (verified via mvvadvies.nl / IND, June 2026).
 
 ### Voluntary Integration
 
@@ -548,6 +569,10 @@ To become a Dutch citizen:
 
 **Z track certificate is NOT enough for naturalisation.** You need the full diploma or the advisory statement.
 
+**Turkish nationals:** exempt from the integration obligation and the stronger-residence-permit requirement, but **not** exempt for naturalisation — they must still meet the A2 language condition to become Dutch.
+
+**Regulatory watch (as of mid-2026):** A2 is the current requirement (confirmed on inburgeren.nl). A bill to amend the *Rijkswet op het Nederlanderschap* is in process: the cabinet announced extending the residence requirement from **5 to 10 years** (Sept 2025) and the language level is widely expected to rise toward **B1** (legal commentary calls A2 the route "nu nog" / "for now"). No effective date yet — re-verify before relying on the "A2 / 5-year" framing in content.
+
 **Source:** [inburgeren.nl/en/integration-in-the-netherlands/naturalisation.jsp](https://www.inburgeren.nl/en/integration-in-the-netherlands/naturalisation.jsp)
 
 ---
@@ -564,15 +589,49 @@ To get a permanent residence permit or "humanitarian non-temporary" permit:
 
 ---
 
+## Market Size & Population Data
+
+Verified figures for audience sizing. Use for prioritisation; do not put in content as claims unless cited.
+
+### Integration obligation (System 1) — CBS Statistiek Wet Inburgering 2024 (pub. 2025)
+
+- **97,745** people became obligated under Wi 2021 across 2022–2024. Cohorts: 25.9k (2022), 35.6k (2023), 36.2k (2024).
+- Split: **asylum migrants 64.8k (66%)** — municipality-funded, *not* our audience; **family & other migrants 33k (34%)** ≈ **~11k/year self-paying** ICP (~2.75k/quarter).
+- **Stall:** of the oldest cohort (2022), only **~4%** had met the obligation by end of 2024 → multi-year journeys; the in-progress *stock* dwarfs annual flow.
+
+### Naturalisation (System 2) — IND Monitor Naturalisatie en Optie 2018–2024 (Jul 2025)
+
+- **52,100 naturalisation requests in 2024** (~69% adults ≈ ~36k); up from 26,500 in 2018.
+- Dominated by **ex-asylum** nationalities (Syrians 85.6k, Eritreans 29.1k cumulative 2018–24) — *not* our English-medium audience.
+- **Indians (18.4k, 3rd-largest)** = the highly-skilled, English-speaking sizing signal (a proxy for segment size and a channel cue — not an exclusive target). Estimated addressable **English-speaking voluntary-naturaliser flow ≈ 5–10k/year** *(our estimate, anchored on the nationality mix — not a published figure)*.
+
+### Skilled & study migration (the System-2 pipeline) — CBS / Nuffic / ROA
+
+- **Highly-skilled migrants (kennismigranten):** ~16k arrived in 2024, **down ~26% YoY and ~39% since 2022** (~26k). Cabinet wants stricter rules → declining inflow.
+- **International students:** ~123k in higher ed; ~41k new/year; **~40% stay** one year after graduation (STEM ~40%, social sciences ~19%).
+- **Foreign-born residents (stock):** ~3.0 million (16.8% of the population), 1 Jan 2025.
+
+### Employer-provided Dutch courses (market structure)
+
+- Kennismigranten are inburgering-*exempt*, so there is **no mandated integration course**. Employer language support is a *voluntary perk* — usually a reimbursable **budget** (often via the 30% ruling) or optional **group conversational** classes, **not** A2-exam/naturalisation prep. Take-up is low (the "English bubble" persists). **Partners are not covered.**
+- A controlled budget is a *tailwind* (the learner can expense a chosen course); only employer-mandated placement at a specific school removes self-selection.
+- *No published figure exists for the share of kennismigranten with employer-paid lessons — verify via own signup data.*
+
+**Sources:** CBS (cbs.nl), IND (Monitor Naturalisatie en Optie 2018–2024), Nuffic/ROA, government.nl, mvvadvies.nl.
+
+---
+
 ## Content Implications for Our Target Audience
 
 ### Who is Dutchwithjoost for?
 
 Based on the official requirements, our primary audience is likely:
 
-1. **Family migrants** — came to NL to join a partner/family, required to integrate at A2 (2013 Act) or B1 (2021 Act), paying for their own course
-2. **Voluntary integrators** — want to naturalise or get a stronger residence permit
-3. **Other migrants** — required to integrate but not asylum status holders
+1. **Family migrants joining a Dutch/settled partner (System 1)** — obligated at A2 (2013 Act) or B1 (2021 Act), paying for their own course. For B1-bound beginners, our A2 course is the *foundation* leg (A1→A2→B1), with B1 to follow.
+2. **Voluntary naturalisers (System 2)** — pursuing citizenship; people never obligated to integrate who must still pass A2. Sharpest sub-targets: **(a) the partner of a kennismigrant** (exempt, no employer perk, high motivation); **(b) the naturalisation-moment skilled migrant** (years in, self-driven, often post-first-employer); **(c) the "still-stuck" migrant** who had employer group classes and still can't speak. The skilled-naturaliser pool **skews heavily Indian** — useful for channel choice, but target by profile, not nationality (the partner profile spans nationalities).
+3. **Other migrants** — required to integrate but not asylum status holders.
+
+**Filter all of the above to the English-speaking subset** — the course is English-medium. Note: employer-provided courses rarely cover A2/naturalisation prep, so they seldom remove the self-paying need (see Market Size & Population Data).
 
 ### What NOT to assume
 
@@ -594,5 +653,5 @@ When writing for our audience, keep in mind:
 ---
 
 _Document created: 2026-05-28_
-_Last updated: 2026-05-28_
-_Sources: inburgeren.nl (official DUO website)_
+_Last updated: 2026-06-04_
+_Sources: inburgeren.nl (official DUO website), CBS, IND, government.nl, mvvadvies.nl, Nuffic/ROA_

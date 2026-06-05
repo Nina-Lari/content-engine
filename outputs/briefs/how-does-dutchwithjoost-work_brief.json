@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "topic_id": "how-does-dutchwithjoost-work",
+    "priority_score": 8.35,
+    "stage": "bofu",
+    "format": "product explainer (guide / product tour with screenshots)",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours + screenshot capture (hard dependency, see below)",
+    "role": "Canonical 'how it works' product page. Product-aware conversion asset that evaluators land on after the problem/methodology content. Links OUT to the methodology pillar for the 'why it works' deep dive and to the honest-fit page; does not re-explain the recognition-vs-production theory itself."
+  },
+  "serp_analysis": {
+    "analyzed_date": "2026-06-02",
+    "tool": "none (deliberate)",
+    "decision": "No Firecrawl SERP analysis run. The primary query is branded ('how does Dutchwithjoost work', 'Dutchwithjoost review', 'Dutch with Joost how it works'). That intent is our own owned ground -- no competitor can rank for how our product works -- so SERP-weakness is effectively uncontested (9) and a crawl adds no decision value. The broader informational variant ('how does a learn-by-using / production-based Dutch course work') is already served by the methodology pillar what-is-production-based-language-learning; this page should link there rather than compete for it.",
+    "implication": "Win condition here is not SERP displacement, it is conversion clarity and AEO/answer-engine coverage of 'how does Dutchwithjoost work'. If the team later wants third-party-mention discovery (review sites, Reddit, expat directories mentioning the brand), run a branded Firecrawl pass then; it is not needed to write this brief."
+  },
+  "keyword": {
+    "primary": "how does Dutchwithjoost work",
+    "variants": [
+      "Dutchwithjoost how it works",
+      "Dutch with Joost review",
+      "what is Dutchwithjoost",
+      "how does Dutch with Joost lessons work",
+      "Dutchwithjoost method explained",
+      "is Dutchwithjoost good"
+    ],
+    "searcher_intent": "Already knows the product exists and is deciding whether to buy. Wants to see concretely what the course is, what a lesson actually looks like, how the feedback works, and whether the 'learn by using, not memorizing' claim is real before committing. Looking for a transparent walkthrough, not a sales pitch."
+  },
+  "audience": {
+    "persona": "Product-aware course shopper at the decision stage. Strongest for Pattern C (Work Visa, full motivation stack -- prior-course skeptic who needs proof it is different) and Pattern A (Partner Visa + Family). Barrier profiles in play: Prior Course Skepticism (needs to see the method), Production Gap (wants confirmation it builds speaking), Schedule Constraints (wants confirmation it is self-paced).",
+    "industry_focus": null,
+    "pain_summary": "They have been burned by courses that turned out to be memorization (flashcards, grammar drills, 'a cheat sheet to the exam') and finished them retaining nothing usable. Before paying again, they want to see exactly how this one is structured and why it would end differently.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "A transparent, screen-by-screen walkthrough of the product, organised around its single defining mechanic: a lesson is not finished when you have clicked through the screens, it is finished when you have used the new words in a conversation with Joost. Show the loop (structured practice prepares -> conversation proves), the feedback, and the progress tracking with real screenshots, then explain why that design produces speaking and not just recall. The whole piece earns trust by showing rather than claiming -- it is the antidote to a skeptic who has heard 'this course is different' before. CRITICAL GUARDRAIL: this page describes how Dutchwithjoost is built. Use 'Dutchwithjoost does X', never 'learning requires X' (specificity rule). The 'why it works' generalisation belongs in the linked methodology pillar, not restated as universal law here.",
+  "thesis_sentence": "Dutchwithjoost works by refusing to call a lesson done until you have actually used the new words in conversation, so finishing the course means you can produce Dutch, not just recognise it on a screen.",
+  "screenshot_plan": {
+    "status": "HARD DEPENDENCY -- the user explicitly requested screenshots, and real product UI cannot be fabricated. Enrichment/writer stage must source actual captures from the live product before this article can publish. If captures are unavailable, the article ships as text-only and the screenshot slots are flagged TODO, not invented.",
+    "captures_needed": [
+      "Course / curriculum overview (the map of what is covered: reading, listening, writing, speaking, KNM) -- for the curriculum section.",
+      "Start of a lesson: the structured-practice phase introducing words in context -- for the lesson-walkthrough section.",
+      "The conversation-with-Joost phase (the chat/speaking screen where you use the new words) -- the hero screenshot of the article.",
+      "A feedback moment: Joost's level-matched reply, a grammar tip/correction, and/or AI scoring on a spoken or written answer -- for the feedback section.",
+      "Lesson-complete / progress + session-goal screen (effort tracking, streak/consistency) -- for the progress section.",
+      "Optional: onboarding / level placement screen if one exists -- supports the 'guided, gradual' claim."
+    ],
+    "annotation_note": "Caption each screenshot with the feature->benefit it demonstrates (e.g. 'Joost replies at your level, so the practice stays usable'), not a bare 'screenshot of the app'."
+  },
+  "outline": [
+    {
+      "section": "What Dutchwithjoost is (and the one thing that makes it different)",
+      "notes": "Open with the insight, no throat-clearing. Place the AEO definition paragraph here. Define the product plainly and name the defining mechanic immediately: a lesson is complete only when you have used the new words in conversation, not when you have finished the exercises. One line of contrast with click-through courses. Do not bury the lede in company backstory.",
+      "word_target": 220,
+      "evidence_needed": "Positioning gap: learn-by-using as the completion criterion; no other self-paced course uses it (competitive-landscape feature matrix). VERIFY product facts before asserting: that the course targets A1-A2 inburgering and the lesson is genuinely gated on production."
+    },
+    {
+      "section": "Why it is built this way (and why it is not memorizing)",
+      "notes": "The design rationale + origin story in one move. It was built by the co-founder for her own inburgering, after memorization courses (grammar drills, flashcards, 'a cheat sheet to the exam') left her retaining nothing. State the problem it is engineered against: the documented 'pass but can't speak' outcome. This is where 'it's not memorizing' gets answered head-on -- not as a slogan but as the reason the product exists. Keep the recognition-vs-production theory to two sentences and link to the methodology pillar for the deep dive.",
+      "word_target": 320,
+      "evidence_needed": "Origin story is an approved positioning asset (competitive-landscape: 'Origin story -- built for founder's own inburgering'). Co-founder/tester contrast quote, usable: 'I really hated spending two hours on one rule memorizing a million words that don't make sense together... feeling more lost than in the beginning' and 'I finished it. But I didn't feel like I retained anything.' INTERNAL_LINK to what-is-production-based-language-learning. CONFIRM the co-founder is comfortable being named vs. referred to as 'our co-founder'."
+    },
+    {
+      "section": "What the course covers: the curriculum",
+      "notes": "Map the scope so a buyer knows it is complete. All five DUO areas -- reading, listening, writing, speaking, and KNM (knowledge of Dutch society) -- taught through one learn-by-using method rather than five separate memorization tracks. Emphasise the gradual, incremental build (a deliberate contrast with courses where the difficulty jumps without warning). Screenshot: curriculum overview. Keep this descriptive, not a feature dump -- tie coverage to 'you are not piecing five tools together'.",
+      "word_target": 300,
+      "evidence_needed": "SCREENSHOT: course/curriculum overview. Competitive-landscape feature matrix: KNM included = Yes; all exam parts = Yes. VERIFY before publishing: exact level range (A1-A2), whether ONA is included (not listed in the DWJ feature matrix -- do not claim it without checking), and the real module/lesson structure. The old messaging.md these facts once came from is gone; ground in the live product. Gradual-difficulty claim is tester-evidenced: contrast with a prior course where 'between lesson one and lesson two, the jump of difficulty was insane'."
+    },
+    {
+      "section": "What completing one lesson actually looks like, step by step",
+      "notes": "The heart of the article and where most screenshots live. Walk the two-phase loop concretely: (1) structured practice introduces the new vocabulary in context (you see and use words inside sentences, not as isolated lists); (2) a conversation with Joost where you have to use those words yourself. The lesson is marked done only after you have produced them. Show that it is guided and divided into parts so there is no 'what do I do now' cognitive load. Use feature->benefit->proof for each beat. This section directly answers the user's 'flow of completing a lesson'.",
+      "word_target": 420,
+      "evidence_needed": "SCREENSHOTS: (a) structured-practice phase, (b) conversation-with-Joost phase [hero], (c) lesson-complete state. Positioning: 'Practice prepares, conversation proves' two-phase structure (competitive-landscape positioning gaps). Tester quotes (usable): 'the words that you learn you use... it helps me communicate'; 'it's guided... I don't have to think about what do I do now... you just do it and then you progress naturally'; lesson 'is divided into parts'. VERIFY the exact step sequence against the live product before writing the walkthrough -- describe only what the product actually does."
+    },
+    {
+      "section": "The feedback you get",
+      "notes": "Answer the user's 'feedback you get' explicitly. Three threads: (1) Joost replies at your level -- the calibration a native speaker structurally cannot do; (2) tips that let you infer grammar rules as you go, rather than front-loaded rule memorization; (3) correction/scoring on what you produce (grammar feedback; AI scoring on speaking and writing). Frame the feedback as immediate and private -- you make mistakes with no human watching, which matters for the shame-cycle reader. Feature->benefit->proof throughout.",
+      "word_target": 330,
+      "evidence_needed": "SCREENSHOT: a feedback moment (Joost's level-matched reply, a grammar tip/correction, or an AI score). Tester quotes (usable): 'he's not gonna use C2 level Dutch to reply to you'; 'there are tips... sometimes you do get some rules here and there that you get to infer'. Molly (anonymize to 'a learner evaluating the course'): an initial worry about grammar coverage 'was resolved by seeing the grammar feedback'. Competitive-landscape feature matrix: AI scoring = Yes. VERIFY the exact feedback/scoring mechanics against the live product (AI scoring is table stakes in the market, so describe ours accurately, do not overclaim)."
+    },
+    {
+      "section": "How you see your progress and stay consistent",
+      "notes": "Short but worth its own section -- it answers 'will I actually keep going'. You set a session goal; when you hit it the product tells you and you choose to stop or continue; your effort/consistency is visible day to day. Connect to the engagement design: it is built to feel like play, so practice does not feel like a grind. This supports retention without overpromising outcomes. Screenshot: progress / goal screen.",
+      "word_target": 230,
+      "evidence_needed": "SCREENSHOT: session-goal / progress / effort-tracking screen. Tester quotes (usable): 'it's very clear how much effort I'm putting in every day... I just know I'm making consistent effort... I wasn't able to track that in my past lessons'; the engagement metaphor 'going to the gym for lifting weights versus playing a match of badminton... it feels like play while you're learning' and 'I don't see time passing by because I'm having fun, because I am very engaged'. VERIFY the goal/streak feature exists as described."
+    },
+    {
+      "section": "Why this method produces speaking (not just a pass) -- and who it is not for",
+      "notes": "The payoff + an honesty close. Two sentences on why using words in context builds the retrieval pathway memorization skips, then link to the methodology pillar for the mechanism. Be honest about fit: this rewards self-motivation and is not for someone who wants peer pressure and a human classroom, or who is already at A2 and needs B1 now. Linking to the honest-fit page builds the trust that converts a skeptic. Soft CTA: try the first lesson and watch the loop close yourself. Pricing: at most a single factual line (one-time fee) -- do NOT run competitor cost-contrast on this page; that belongs in BOFU comparison content.",
+      "word_target": 280,
+      "evidence_needed": "INTERNAL_LINKs: what-is-production-based-language-learning (why it works), who-is-dutchwithjoost-not-for (honest fit), inburgering-course-that-teaches-speaking (buyer guide), and one of passed-inburgering-cant-speak-dutch / why-cant-speak-dutch-after-studying (the problem it solves). Where-we-win / where-we-lose criteria (competitive-landscape). CTA: Molly was offered 'the first lesson free' -- if a free first lesson / trial exists, that is the CTA; VERIFY the current offer. PRICING GUARDRAIL: one-time fee may be stated as a fact; the exact figure (EUR399 in current docs) must be verified, and per memory, no DUO-funding/approval claim -- if funding comes up, frame as 'check your track', never 'not DUO-approved'."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "AEO block. Answer each in 2-4 sentences, definition-first.",
+      "word_target": 200,
+      "evidence_needed": "Pull the AEO FAQ set below. Any product-fact answer (exam parts, self-paced, level) must be verified, not assumed."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Finished course after course and retained nothing usable in a real conversation",
+      "prop": "Learn-by-using completion: a lesson is done only once you have used the new vocabulary talking to Joost, so finishing means you can produce it",
+      "proof": "Co-founder/tester (self-employed, work visa): 'the words that you learn you use... it helps me communicate', set against her prior-course experience: 'I finished it. But I didn't feel like I retained anything.' NEEDS a quantified retention or pass-and-speak outcome from proof-library to harden the claim (proof-library is currently empty -- flag)."
+    },
+    {
+      "pain": "Practising with a native speaker is impossible because they talk over your head",
+      "prop": "Joost replies at the lesson's difficulty level, so the conversation stays usable instead of overwhelming",
+      "proof": "Co-founder testing: 'he's not gonna use C2 level Dutch to reply to you.' This is the calibration the Dutch-partner problem proves a native speaker cannot give."
+    },
+    {
+      "pain": "Self-paced courses leave you to figure out what to study, which is exhausting and easy to quit",
+      "prop": "Guided, divided into parts -- the product tells you what to do next, so there is no cognitive load of engineering your own lesson",
+      "proof": "Co-founder testing: 'it's guided... I don't have to think about what do I do now... you just do it and then you progress naturally.'"
+    },
+    {
+      "pain": "No sense of progress, so motivation fades and you stop",
+      "prop": "Session goals plus visible day-to-day effort tracking make consistency tangible",
+      "proof": "Co-founder testing: 'it's very clear how much effort I'm putting in every day... I wasn't able to track that in my past lessons.'"
+    },
+    {
+      "pain": "Studying a language is a boring grind you avoid",
+      "prop": "The lessons are built to feel like play, so you keep practising without forcing it",
+      "proof": "Co-founder testing: 'it feels like play while you're learning and progressing'; 'I don't see time passing by because I am very engaged.'"
+    }
+  ],
+  "originality_nuggets": [
+    "The completion criterion IS the product. Most courses count a lesson finished when the exercises are done; Dutchwithjoost counts it finished only when you have used the new words in conversation. That one-variable difference is the entire explanation of why it produces speaking.",
+    "Joost calibrates to your level -- 'he's not gonna use C2 level Dutch to reply to you' -- which is precisely the thing a native partner structurally cannot do, because they learned the language as a child and can't dial themselves down to your level.",
+    "Engagement is treated as a retention mechanism, not a vanity feature: the gym-vs-badminton feeling ('still effort, but it feels like play') is why a self-paced learner actually keeps showing up, which is the failure point of every other self-paced course.",
+    "It was built by someone who failed the other courses first -- the founder lived the 'pass but can't speak' problem before building the fix, so the design is a list of grievances against memorization courses, turned into product decisions."
+  ],
+  "seo": {
+    "title_tag": "How Dutchwithjoost Works: A Lesson Walkthrough",
+    "meta_description": "A walkthrough of how Dutchwithjoost works: the curriculum, the two-phase lesson, the feedback from Joost, and why using the words beats memorizing them.",
+    "url_slug": "how-does-dutchwithjoost-work"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How does Dutchwithjoost work?",
+    "definition_paragraph": "Dutchwithjoost is a self-paced online Dutch course for the A2 inburgering exam where you learn each word by using it. A lesson runs in two phases: structured practice that introduces the new vocabulary in context, then a conversation with Joost, a speaking partner that replies at your level. The lesson counts as complete only when you have used the new words in that conversation, not when you have clicked through the exercises.",
+    "faq_questions": [
+      "How is Dutchwithjoost different from memorization-based courses?",
+      "What happens in a Dutchwithjoost lesson?",
+      "Does Dutchwithjoost cover all the inburgering exam parts?",
+      "Do I need a teacher or a speaking partner to use Dutchwithjoost?",
+      "Is Dutchwithjoost self-paced, and how long does it take?"
+    ]
+  },
+  "writer_guardrails": [
+    "SCREENSHOTS ARE A HARD DEPENDENCY. Source real captures from the live product (see screenshot_plan). Never fabricate or describe UI you have not verified. If captures are missing, mark slots TODO and ship text-only rather than inventing.",
+    "VERIFY PRODUCT FACTS before writing: level range, exact lesson phases/sequence, exam-part coverage (KNM = yes; ONA unverified -- do not claim), AI-scoring/feedback specifics, the goal/progress feature, access duration, current trial/first-lesson offer, and price. The legacy messaging.md these facts came from no longer exists; ground every claim in the live product or the tester evidence in this brief.",
+    "SPECIFICITY RULE: write 'Dutchwithjoost does X', not 'learning requires X'. Do not present the product's design choices as universal laws -- the generalisation lives in the linked methodology pillar.",
+    "Co-founder/tester quotes are usable. The origin story (founder built it for her own inburgering) is an approved positioning asset; confirm naming preference (named vs 'our co-founder').",
+    "PRICING: one factual line at most; no competitor cost-contrast on this page. DUO: never state 'not DUO-approved' -- if funding/approval arises, frame as 'check your track first' (per project memory).",
+    "Prohibited slop terms apply (seamless, leverage, robust-as-filler, game-changer, etc.). Show features through the loop and the screenshots; do not label them with hype."
+  ]
+}

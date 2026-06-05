@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "topic_id": "best-dutch-courses-speak",
+    "priority_score": 7.95,
+    "stage": "mofu",
+    "format": "listicle",
+    "target_word_count": 2200,
+    "estimated_effort": "3-5 hours",
+    "ai_search_play": "ai-citation (informational best-of). Listicle is the single most-cited ChatGPT page type (43.8%, Ahrefs). Win condition is being the cited and NAMED source, not the #1 organic click."
+  },
+  "keyword": {
+    "primary": "best Dutch course to actually speak",
+    "variants": [
+      "best Dutch course for speaking",
+      "best Dutch course to learn to speak Dutch",
+      "Dutch course that teaches you to speak",
+      "best online Dutch course for conversation",
+      "best Dutch course for expats who want to speak"
+    ],
+    "searcher_intent": "Solution-aware. The reader has usually tried something (an app, a class) and can recognize Dutch but freezes when speaking. They are not asking which course is most popular or cheapest; they want the one that will make them able to hold a conversation."
+  },
+  "audience": {
+    "persona": "Cross-persona shopper with the production-gap barrier: Pattern A (Partner Visa + Family), Pattern C (Work Visa, full motivation stack, prior-course skeptic), Pattern D (long-term resident, integration focus).",
+    "industry_focus": null,
+    "pain_summary": "They understand Dutch but cannot produce it. Most courses they have tried trained recognition (reading, listening, clicking through screens) and called that 'done', leaving them with a certificate-track of progress but no ability to speak.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "Almost every 'best Dutch course' list ranks options by popularity, price, or feature count. This one ranks them by the only variable that predicts whether you will actually speak: does the course make you PRODUCE the language, or only recognize it? We organize options by the learner situation they fit, give honest pros and cons for each (including ones we do not sell), and let the reader self-select.",
+  "thesis_sentence": "The best Dutch course for you is the one whose definition of 'done' is you using the language out loud, not you finishing the screens.",
+  "outline": [
+    {
+      "section": "The question that predicts whether you'll actually speak",
+      "notes": "Open with the insight, not setup. Answer-first definitional paragraph: courses that build speaking share three traits: completion requires output (you produce the words, not just see them), the speaking practice is at your level so you actually do it, and you use words enough times that they stick. Name the categories of options up front so an AI summary has a clean, quotable answer. Reframe the common self-blame ('I'm just bad at languages') as a method problem: recognition-only courses set you up to freeze.",
+      "word_target": 300,
+      "evidence_needed": "Production-gap pattern documented across customer interviews (anonymized: 'a learner who finished a full A1 course said she didn't feel she retained anything, with no speaking at all'). Production-practice research (PubMed 'Production Practice During Language Learning Improves...') referenced via the methodology pillar."
+    },
+    {
+      "section": "How we judged these courses (useful even if you pick another one)",
+      "notes": "State the criteria openly so the list reads as advice, not a setup for one product. Criteria a competitor could also pass: (1) does completion require producing the language; (2) is there speaking practice you will realistically do; (3) is the practice matched to your level; (4) does it build retention, not cramming; (5) does it fit an unpredictable schedule; (6) is the price honest for what you get. This is the advice-section test: a reader who chooses a competitor on these criteria should still feel well served.",
+      "word_target": 220,
+      "evidence_needed": "Decision criteria drawn from persona decision-criteria lists (Patterns A and C)."
+    },
+    {
+      "section": "Best for actually using Dutch day to day: self-paced, production-based",
+      "notes": "Feature-benefit-proof, woven not isolated. Feature: a self-paced course where a lesson is complete only when you have used the vocabulary in conversation, with level-matched speaking practice built in. Benefit: you arrive at real conversations (and the speaking exam) having already had hundreds of them. Proof: methodology + anonymized resonance. Name DutchwithJoost once in a single quotable sentence (the citable unit). Be honest about who it is NOT for (people who want a classroom and peer pressure, or who only need the cheapest certificate). Link to how-does-dutchwithjoost-work and what-is-production-based-language-learning rather than repeating them.",
+      "word_target": 340,
+      "evidence_needed": "Product facts (production-based completion, level-matched practice, all 5 exam parts) VERIFIED against the live product; price stated as one-time EUR399 only if verified live. Anonymized: 'one learner shown the method asked to try the first lesson the same day.'"
+    },
+    {
+      "section": "Best for 1:1 correction with a real person: a private tutor",
+      "notes": "Genuine pros: personalized correction, a human who adapts to you, accountability. Genuine cons: the most expensive per hour, and you still need to find times that fit. Honest note that many learners rule tutors out on cost.",
+      "word_target": 220,
+      "evidence_needed": "Two interviewees ruled out private tutoring purely on cost (anonymized)."
+    },
+    {
+      "section": "Best for social accountability and structure: a classroom course",
+      "notes": "Credit the real strengths: peer pressure, a fixed rhythm, in-person social energy, networking, sometimes field trips. Honest trade-offs: a group of around 12 is too big to ask your own questions, fixed weekly times, and the highest price bracket. Reference computed classroom pricing as context, not attack.",
+      "word_target": 240,
+      "evidence_needed": "Computed classroom pricing (Koentact ~EUR975/level, TaalBoost ~EUR549/level, classroom range EUR1,300-4,000+). Anonymized: 'in a class of 12 the teacher cannot give you full attention'."
+    },
+    {
+      "section": "Best for cheap conversation reps: language exchanges, taalcafes, conversation apps",
+      "notes": "Pros: free or cheap, low-stakes, real humans or AI partners always on. Cons: partners rarely match your level (taalcafes can become beginners 'mumbling together'), and native partners switch to English. Position level-matched practice as the gap these fill imperfectly.",
+      "word_target": 240,
+      "evidence_needed": "Anonymized community resonance ('Sorry my Dutch is not good, can we do English?'); the Dutch Partner Problem (level mismatch, can't explain why). Do not name-cite Reddit/Facebook; use 'many learners report' framing."
+    },
+    {
+      "section": "Best for the cheapest exam pass (if speaking isn't the goal yet)",
+      "notes": "Be fair: self-paced exam-prep courses are good at getting you through the exam cheaply and match the DUO format closely. Honest limit: they train recognition and exam patterns, so passing does not guarantee you can speak afterward. This section keeps the list trustworthy and serves price-first readers without a billing or quality attack.",
+      "word_target": 220,
+      "evidence_needed": "Computed self-paced pricing as ranges only here (no billing/Trustpilot complaints). The 'pass but can't speak afterward' pattern framed as a method limit, not a vendor smear."
+    },
+    {
+      "section": "How to choose for your situation",
+      "notes": "Short decision guide mapping situation to pick: deadline + want to actually speak; budget-first + just need the certificate; love a classroom; no time, irregular hours; understand but freeze. Each line is a quotable, self-contained recommendation (good citation units).",
+      "word_target": 220,
+      "evidence_needed": "Persona patterns A/B/C/D decision criteria."
+    },
+    {
+      "section": "FAQ",
+      "notes": "For humans and featured snippets only (schema markup showed ~zero effect on AI citations). Each answer self-contained and quotable.",
+      "word_target": 200,
+      "evidence_needed": "Answers consistent with the body; entity language kept identical ('production-based learning', 'learn by using the vocabulary')."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "I understand Dutch but freeze when I have to speak.",
+      "prop": "A course where a lesson counts as done only when you have used the new words in conversation, so you practice production from day one instead of only recognition.",
+      "proof": "Production-based methodology (verify live); production-practice research referenced via the methodology pillar; anonymized interview: a learner who finished a full A1 course retained little because there was no speaking."
+    },
+    {
+      "pain": "I have no one to practice speaking with, and my Dutch partner switches to English.",
+      "prop": "Level-matched speaking practice that is always available and judgment-free, so you do not have to find a partner or feel you are burdening one.",
+      "proof": "The Dutch Partner Problem (native speakers can't explain the why and the level gap makes practice impossible); anonymized resonance: 'Sorry my Dutch is not good, can we do English?'"
+    },
+    {
+      "pain": "Every course I tried was memorization that didn't stick; I felt it was a cheat sheet to the exam.",
+      "prop": "Learn-by-using instead of memorize-and-forget: words have to be used multiple times before they count, which is what makes them stick.",
+      "proof": "Methodology pillar (what-is-production-based-language-learning); anonymized interview sentiment that exam-prep courses are 'a bunch of things to memorize'."
+    }
+  ],
+  "originality_nuggets": [
+    "The 'done' test: most courses are done when you click through the screens; the better predictor of whether you'll speak is whether 'done' means you used the words out loud.",
+    "Self-blame is usually misdiagnosed method failure: learners conclude 'I'm bad at languages' when they were trained only to recognize, never to produce.",
+    "The Dutch Partner Problem: a native speaker at home does not solve speaking practice, because they can't explain the why and there's no level-matched middle ground.",
+    "A free conversation source you already have but underuse: low-stakes reps matter more than perfect ones, and the courses that win are the ones you'll actually open on a bad day."
+  ],
+  "seo": {
+    "title_tag": "Best Dutch Course to Actually Speak (2026 Guide)",
+    "meta_description": "Most 'best Dutch course' lists rank by price or popularity. We rank by what makes you actually speak. Honest pros and cons for every option.",
+    "url_slug": "best-dutch-course-to-actually-speak"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the best Dutch course to actually learn to speak?",
+    "definition_paragraph": "The best Dutch course for speaking is one where finishing a lesson requires you to produce the language, not just recognize it. In practice that means three things: completion depends on you using the new words out loud, the speaking practice is matched to your level so you actually do it, and you use each word enough times for it to stick. Self-paced production-based courses (such as DutchwithJoost) are built around that; private tutors and classroom courses can deliver it through a human; apps, taalcafes and language exchanges give cheaper but less level-matched practice; and budget exam-prep courses get you through the test but train recognition more than speaking.",
+    "faq_questions": [
+      "Which Dutch course actually teaches you to speak, not just pass the exam?",
+      "Can you learn to speak Dutch with a self-paced online course?",
+      "Is a private tutor or an online course better for speaking Dutch?",
+      "Why can I understand Dutch but not speak it?",
+      "What is the best Dutch course if my partner is Dutch but can't teach me?"
+    ]
+  },
+  "ai_search_directives": {
+    "rationale": "Operationalizes the Ahrefs AI-search findings for an informational best-of (ai-citation play).",
+    "listicle_structure": "One scannable H2 per option, each opening with a one-line bolded verdict ('Best for X') so the page is easy for an AI to extract and quote. Listicles are the most-cited ChatGPT format (43.8%).",
+    "named_entity_sentence": "Include exactly one self-contained, quotable sentence that names DutchwithJoost and what it does (e.g. 'DutchwithJoost is a self-paced course where a lesson is complete only once you've used the new vocabulary in conversation'), so an AI summary can cite the brand by name. Retrieved is not the same as cited (ChatGPT cites ~50% of what it retrieves); a clean named sentence raises citation odds.",
+    "consistent_entity_language": "Use the exact phrases 'production-based learning' and 'learn by using the vocabulary' here and across the cluster. AIO reshuffles sources every ~2.15 days but keeps meaning stable; consistent phrasing keeps the daily pull landing on us.",
+    "youtube_companion": "Publish a short Joost video ('what actually makes you able to speak Dutch') and embed it; seek YouTube mentions of the brand. YouTube mentions had the highest correlation (0.737) with AI brand visibility of any factor Ahrefs studied.",
+    "no_schema_dependency": "Do not rely on schema markup for AI visibility; it showed ~zero effect. The FAQ block is for human readers and featured snippets only.",
+    "citation_units": "Write the 'How to choose for your situation' lines and each FAQ answer as standalone, copy-pasteable recommendations; these are the chunks most likely to be lifted into an answer."
+  },
+  "guardrails": [
+    "Advice-section rule: criteria must be genuinely useful even if the reader picks a competitor. If a competitor would pass them, good.",
+    "Feature-benefit-proof for every product mention; never isolate into a 'why us' section.",
+    "Product facts (production-based completion, level-matched speaking practice, all 5 exam-part coverage, price) MUST be verified against the live product before writing; the legacy messaging.md is gone.",
+    "Anonymize all customer and community sources per citation standards; no Reddit/Facebook name-drops.",
+    "Pricing allowed (this is buyer-research best-of), but keep it factual and computed from published plans; no billing/Trustpilot complaints.",
+    "No prohibited words; no em-dashes; no semicolons."
+  ]
+}

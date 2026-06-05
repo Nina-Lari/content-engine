@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-05-30",
+  "generated_date": "2026-06-02",
   "intelligence_sources": [
     "customer-intelligence/insights/nina_2026-05-28_insights.json",
     "customer-intelligence/insights/alysa_2026-05-30_insights.json",
@@ -9,7 +9,7 @@
     "customer-intelligence/web-research-jtbd.md"
   ],
   "filter_applied": null,
-  "notes": "Rebuilt from 5 insight files (up from 1). The four new discovery interviews (Alysa, Anna, Molly, Monika) enable cross-call frequency weighting, which the prior single-source (nina-only) backlog could not do. SERP weakness for the three net-new top topics was grounded with live Firecrawl searches (NL intent). Existing topics retain their previously live-grounded SERP notes. 'registry_status' flags overlap with outputs/content-registry.yaml so net-new angles are prioritized over already-drafted/planned topics. 'validation' on new topics records how many of the four new interviews support the angle. REVIVED-TOPICS PASS (2026-05-30): regenerated briefs for five user-requested revived topics against the 5-interview corpus (how-to-practice-dutch-speaking-alone, life-without-dutch-netherlands, passed-inburgering-cant-speak-dutch, shame-cycle-speaking-dutch, who-is-dutchwithjoost-not-for); the sixth, dutch-partner-cant-teach-dutch, already had a current brief. passed-inburgering is differentiated from the drafted why-cant-speak article and flagged for human review.",
+  "notes": "Rebuilt from 5 insight files (up from 1). The four new discovery interviews (Alysa, Anna, Molly, Monika) enable cross-call frequency weighting, which the prior single-source (nina-only) backlog could not do. SERP weakness for the three net-new top topics was grounded with live Firecrawl searches (NL intent). Existing topics retain their previously live-grounded SERP notes. 'registry_status' flags overlap with outputs/content-registry.yaml so net-new angles are prioritized over already-drafted/planned topics. 'validation' on new topics records how many of the four new interviews support the angle. REVIVED-TOPICS PASS (2026-05-30): regenerated briefs for five user-requested revived topics against the 5-interview corpus (how-to-practice-dutch-speaking-alone, life-without-dutch-netherlands, passed-inburgering-cant-speak-dutch, shame-cycle-speaking-dutch, who-is-dutchwithjoost-not-for); the sixth, dutch-partner-cant-teach-dutch, already had a current brief. passed-inburgering is differentiated from the drafted why-cant-speak article and flagged for human review. PRODUCT-EXPLAINER PASS (2026-06-02): added one user-requested topic, how-does-dutchwithjoost-work (score 8.35), the canonical product 'how it works' walkthrough with screenshots. It is the product-tour sibling to the methodology pillar (what-is-production-based-language-learning) and the BOFU buyer guide (inburgering-course-that-teaches-speaking) and links out to both rather than repeating them. No Firecrawl run (branded query, uncontested). Brief carries two hard guardrails: screenshots cannot be fabricated, and product facts must be verified against the live product because the legacy messaging.md is gone.",
   "scoring_weights": {
     "buyer_intent": 0.35,
     "differentiator_fit": 0.2,
@@ -28,7 +28,272 @@
     "schedule-life-constraints": "4/4 new: childcare/pregnancy (alysa), newborn (anna), moving/driving-licence (monika), irregular founder hours (nina). Parent sub-angle is net-new.",
     "subscription-resentment": "1/4 new (anna, 3 unused subscriptions) + web. Validates one-time-pricing positioning; folds into comparison content rather than a standalone topic."
   },
+  "big5_audit": {
+    "framework": "The Big 5 (Marcus Sheridan / Endless Customers): Cost & Price, Problems, Versus & Comparisons, Reviews, Best in Class. Source: impactplus.com/learn/the-big-5-content-topics-for-business. Audited the existing 33-topic backlog + 19 briefs against the 5 high-intent buyer-research topics.",
+    "audit_date": "2026-06-02",
+    "coverage": {
+      "cost_and_price": "PARTIAL. Market-level cost is covered (inburgering-course-cost, inburgering-course-worth-it, affordable-dutch-course-online), but the keystone Big 5 cost article -- our OWN transparent price article -- is MISSING. Marcus calls this the single most important article a business can write.",
+      "problems": "STRONG. ~10 problem/symptom topics already cover the funnel (passed-inburgering-cant-speak, partner-cant-teach, not-bad-at-languages, shame-cycle, switch-to-english, pronunciation-hard, work-visa-anxiety, leaving-NL, life-without-dutch). No urgent gap.",
+      "versus_and_comparisons": "GOOD. self-paced-vs-classroom, tutor-vs-self-paced, duolingo, dutchwithjoost-vs-inburgeringonline. Gaps: only one us-vs-named-competitor, and no competitor-vs-competitor piece (Marcus recommends writing these even when you are not in the matchup).",
+      "reviews": "MODERATE. Three competitor reviews exist (inburgeringonline, taalthuis, uva-talen) but the two highest-traffic players are uncovered: Koentact (classroom market leader) and Inburgering.org (cheapest self-paced, rising challenger).",
+      "best_in_class": "THIN. Only best-dutch-course-a2-inburgering and self-study-dutch-a2. Missing segmented best-of lists (best app to learn Dutch, best course for working professionals) -- and these lists are what now feed AI recommendations."
+    },
+    "guardrails": "Review and cost-gap topics must follow project content rules: never cite competitor billing/Trustpilot/subscription complaints (one-time-vs-subscription cost contrast is BOFU-only, never a billing attack); never state we are not DUO-approved (frame as 'check your track first'); compute any competitor price from actual published plan prices, not loose ranges.",
+    "gap_topics_added": ["how-much-does-dutchwithjoost-cost", "dutchwithjoost-vs-koentact", "best-dutch-course-working-professionals", "inburgeringonline-vs-inburgering-org", "inburgering-org-review", "koentact-review", "how-much-cost-learn-dutch-netherlands", "best-app-to-learn-dutch"]
+  },
+  "ai_search_lens": {
+    "added_date": "2026-06-03",
+    "mode": "additive / non-destructive -- existing 41 topic objects and their priority_score values are unchanged. This block layers an AI-search (GEO/AEO) classification on top and records the four appended AI-search-native topics.",
+    "trigger": "Ahrefs CMO LinkedIn post: 14 studies across 1B+ data points on AI search optimization. Applied here as a FORMAT + INTENT re-weighting of Dutch-learning content -- NOT as new topics about AI search itself (wrong audience for this brand).",
+    "source_findings_applied": {
+      "listicle_dominance": "'Best X' listicles are the single most-cited content format by ChatGPT (43.8% of cited page types) -> elevate listicle/best-of and review formats as citation magnets (format_priority: high).",
+      "influenceable_surface": "Only 32.3% of ChatGPT citations are influenceable (educational pages, reviews, news, blogs); 67% are Wikipedia/homepages/app stores -> concentrate effort on educational explainers and honest reviews, the surfaces we can actually win.",
+      "separate_discovery_layer": "28.3% of ChatGPT's most-cited pages have zero Google organic visibility -> AI is a separate discovery layer, so deep long-tail pain pages can be cited even when they would never rank. mini_volume is de-emphasized for ai-citation plays (existing scores left intact per the non-destructive choice; treat low mini_volume as a weaker negative for citation plays).",
+      "retrieved_vs_cited": "ChatGPT cites only ~50% of the URLs it retrieves -> citation-worthiness (self-contained, quotable, named-entity answers) decides inclusion. Operationalized in each brief's aeo_directives.",
+      "schema_noise": "Schema markup had ~zero measurable impact on AI citations -> do NOT invest in schema for AI visibility. FAQ blocks are kept only for human readers and featured snippets.",
+      "youtube_correlation": "YouTube mentions had the highest correlation (0.737) with AI brand visibility of every factor studied, beating backlinks/DR/page count -> the single biggest lever for Joost. Each brief now carries a youtube_companion directive.",
+      "aio_click_loss": "AI Overviews cut clicks to the #1 result by 58% (up from 34.5% ten months earlier) -> on informational queries, being the cited/named source beats ranking #1.",
+      "informational_only_aio": "99.9% of AI Overviews appear on informational-intent queries; transactional/navigational/branded queries are almost entirely AIO-free (shopping only 3.2%) -> barbell strategy via play_type below.",
+      "mode_vs_aio_divergence": "Google AI Mode and AI Overviews reach the same conclusion 86% of the time but overlap only 13.7% on citations -> breadth of quality cluster content beats over-optimizing a single page.",
+      "aio_volatility": "AIO reshuffles sources every ~2.15 days while semantic similarity stays 0.95 -> keep entity/definition language consistent across the whole cluster so any day's pull can land on us."
+    },
+    "tag_legend": {
+      "play_type": "click-capture = AIO-safe branded/comparison/navigational intent where ranking still wins the click; ai-citation = informational intent that AI will summarize, so the win condition is being cited and named (expect lower CTR).",
+      "format_priority": "high = listicle/best-of or review (the two formats ChatGPT cites most); standard = all other formats.",
+      "youtube_companion": "true = pair the article with a Joost video and seek YouTube mentions of the brand -- the highest-correlation AI-visibility lever."
+    },
+    "topic_tags": {
+      "how-much-does-dutchwithjoost-cost": {"play_type": "click-capture", "format_priority": "standard", "youtube_companion": true},
+      "dutchwithjoost-vs-koentact": {"play_type": "click-capture", "format_priority": "standard", "youtube_companion": true},
+      "best-dutch-course-working-professionals": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "inburgeringonline-vs-inburgering-org": {"play_type": "click-capture", "format_priority": "standard", "youtube_companion": false},
+      "inburgering-org-review": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": false},
+      "koentact-review": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": false},
+      "how-much-cost-learn-dutch-netherlands": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "best-app-to-learn-dutch": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "inburgering-course-that-teaches-speaking": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "passed-inburgering-cant-speak-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "how-does-dutchwithjoost-work": {"play_type": "click-capture", "format_priority": "standard", "youtube_companion": true},
+      "dutch-partner-cant-teach-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "best-dutch-course-a2-inburgering": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "who-is-dutchwithjoost-not-for": {"play_type": "click-capture", "format_priority": "standard", "youtube_companion": true},
+      "dutch-speaking-practice-online": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "dutchwithjoost-vs-inburgeringonline": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": true},
+      "how-to-practice-dutch-speaking-alone": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "duolingo-wont-teach-you-to-speak-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "self-study-dutch-a2-that-actually-works": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "self-paced-vs-classroom-dutch-courses": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "not-bad-at-dutch-its-the-method": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "shame-cycle-speaking-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "dutch-for-career-netherlands": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "learn-dutch-irregular-schedule": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "do-taalcafes-help-learn-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "private-tutor-vs-self-paced-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "life-without-dutch-netherlands": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "learn-dutch-as-a-busy-parent": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "taalthuis-review": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": false},
+      "dutch-switch-to-english": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "uva-talen-dutch-course-review": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": false},
+      "why-dutch-pronunciation-hard": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "learn-dutch-eu-citizen-no-inburgering": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "affordable-dutch-course-online": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "work-visa-anxiety-netherlands": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "should-i-leave-netherlands-cant-learn-dutch": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "what-is-production-based-language-learning": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "inburgering-course-worth-it": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "inburgering-course-cost": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "inburgering-speaking-test-guide": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "a2-vs-b1-inburgering-which-level": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "best-dutch-courses-speak": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "best-inburgering-courses-2026": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": true},
+      "best-ways-practice-speaking-dutch": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "best-free-ways-learn-dutch": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true}
+    },
+    "recommended_next_actions": [
+      "Ship the listicle/best-of + review cluster first -- these are the formats ChatGPT cites most (best-dutch-courses-speak, best-inburgering-courses-2026, best-dutch-course-a2-inburgering, best-app-to-learn-dutch, the competitor reviews). format_priority: high.",
+      "Add a Joost YouTube companion to every format_priority/youtube_companion topic; YouTube presence is the highest-correlation AI brand-visibility lever (0.737).",
+      "On ai-citation (informational) topics, make sure DutchwithJoost is NAMED with one quotable, self-contained sentence so an AI summary can cite it -- ranking matters less than being the named source.",
+      "Keep entity and definition language identical across the cluster (e.g. 'production-based learning', 'learn by using the vocabulary') so the daily AIO reshuffle keeps landing on consistent phrasing.",
+      "Do not spend cycles on schema markup for AI visibility; it showed ~zero effect. Keep FAQ blocks for humans and featured snippets only."
+    ]
+  },
   "topics": [
+    {
+      "topic_id": "how-much-does-dutchwithjoost-cost",
+      "title": "How Much Does Dutchwithjoost Cost? (And What You Actually Get)",
+      "category": "category",
+      "big5_category": "Cost & Price",
+      "primary_keyword": "how much does Dutchwithjoost cost",
+      "persona": "Product-aware course shopper comparing final options (Pattern A Partner Visa, Pattern C Work Visa)",
+      "pain_cluster": "subscription-resentment / pricing-uncertainty",
+      "registry_status": "net-new (no existing brief; keystone Big 5 cost article)",
+      "serp_note": "Branded, uncontested. The transparent-pricing play: state the one-time €399, explain what 'done' means, and educate on why self-paced/classroom/tutor prices differ. One-time-vs-subscription contrast belongs here (BOFU) -- as value framing, never a competitor billing attack.",
+      "validation": "Anna's 3 unused subscriptions + web evidence validate one-time-pricing as a buying trigger. Marcus: the cost article is the #1 Big 5 piece.",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 10,
+        "mini_volume": 4,
+        "authority_fit": 10,
+        "weighted_total": 8.75
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "dutchwithjoost-vs-koentact",
+      "title": "Dutchwithjoost vs Koentact: Self-Paced Online vs Classroom",
+      "category": "comparison",
+      "big5_category": "Versus & Comparisons",
+      "primary_keyword": "Dutchwithjoost vs Koentact",
+      "persona": "Busy professional / parent weighing classroom social experience vs flexible self-paced (Pattern B, Pattern C)",
+      "pain_cluster": "classroom-intensive-friction / schedule-life-constraints",
+      "registry_status": "net-new",
+      "serp_note": "Branded matchup, uncontested. Honest side-by-side: Koentact wins on in-person social experience and networking; we win on flexibility and production-based completion. Disclose our bias up front per comparison best practice.",
+      "validation": "Classroom-intensive-friction surfaced in 4/4 new calls (group-of-12, level placement, condescending content). Koentact is the Tier-1 classroom default.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 9,
+        "serp_weakness": 8,
+        "business_priority": 7,
+        "mini_volume": 3,
+        "authority_fit": 9,
+        "weighted_total": 8.05
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "best-dutch-course-working-professionals",
+      "title": "Best Online Dutch Course for Working Professionals",
+      "category": "category",
+      "big5_category": "Best in Class",
+      "primary_keyword": "best Dutch course for working professionals",
+      "persona": "Career/work-visa persona with irregular hours (Pattern C, founders, freelancers)",
+      "pain_cluster": "career-jobs-blocked-without-dutch / schedule-life-constraints",
+      "registry_status": "net-new (segmented best-of; complements best-dutch-course-a2-inburgering)",
+      "serp_note": "Segmented best-of list. Include competitors honestly (classroom for accountability, tutors for 1:1, self-paced for flexibility) and place ourselves as the flexible production-focused option. These lists feed AI recommendations.",
+      "validation": "Career motivation 5/5 calls; irregular-schedule constraint 4/4 new calls. Strong under-served intersection.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 5,
+        "authority_fit": 8,
+        "weighted_total": 7.55
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "inburgeringonline-vs-inburgering-org",
+      "title": "InburgeringOnline vs Inburgering.org: Which Self-Paced Course?",
+      "category": "comparison",
+      "big5_category": "Versus & Comparisons",
+      "primary_keyword": "InburgeringOnline vs Inburgering.org",
+      "persona": "Self-paced shopper comparing the two market defaults before deciding",
+      "pain_cluster": "course-selection-uncertainty",
+      "registry_status": "net-new (competitor-vs-competitor; we insert as the third option)",
+      "serp_note": "Competitor-vs-competitor matchup we are not in. Marcus explicitly recommends these: be the neutral, honest guide, then note where a production-based option fits. Compute both prices from published plans; no Trustpilot/billing complaints.",
+      "validation": "Both are top self-paced searches; SERP is uncontested by any honest third-party comparison.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 7,
+        "serp_weakness": 8,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 7,
+        "weighted_total": 7.2
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "inburgering-org-review",
+      "title": "Inburgering.org Review: Honest Look at the Cheapest Option",
+      "category": "comparison",
+      "big5_category": "Reviews",
+      "primary_keyword": "Inburgering.org review",
+      "persona": "Budget-conscious self-paced shopper vetting the lowest-price option",
+      "pain_cluster": "course-selection-uncertainty / price-sensitivity",
+      "registry_status": "net-new (review of a course we do not sell)",
+      "serp_note": "Honest, balanced review including who it is and is NOT for. Inburgering.org's SERP/review footprint is thin (1 Trustpilot review) -- our review can own it. Assess the method, not billing complaints. State price from published plans (€4.99/mo).",
+      "validation": "Cheapest-in-market positioning makes this a high-consideration review search for price-sensitive buyers.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 7,
+        "serp_weakness": 8,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 7.1
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "koentact-review",
+      "title": "Koentact Review: Is the Social Classroom Approach Worth It?",
+      "category": "comparison",
+      "big5_category": "Reviews",
+      "primary_keyword": "Koentact review",
+      "persona": "Shopper considering the classroom market leader before committing",
+      "pain_cluster": "classroom-intensive-friction",
+      "registry_status": "net-new (review of a course we do not sell)",
+      "serp_note": "Honest review of the Tier-1 classroom default. Credit the social/networking/field-trip strengths genuinely; note the group-of-12 and schedule trade-offs. Include who it is NOT for. No billing attacks.",
+      "validation": "Koentact is the default classroom recommendation across expat directories; high-consideration review intent.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 6,
+        "mini_volume": 6,
+        "authority_fit": 6,
+        "weighted_total": 7.05
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "how-much-cost-learn-dutch-netherlands",
+      "title": "How Much Does It Cost to Learn Dutch in the Netherlands?",
+      "category": "category",
+      "big5_category": "Cost & Price",
+      "primary_keyword": "cost to learn Dutch in the Netherlands",
+      "persona": "Problem-aware learner scoping options and budget before choosing a format",
+      "pain_cluster": "pricing-uncertainty",
+      "registry_status": "net-new -- CHECK OVERLAP with inburgering-course-cost (this is the broader 'learn Dutch' cost across all formats, not inburgering-specific). Merge if too close.",
+      "serp_note": "Category cost article using the full pricing matrix (self-paced €60-399, classroom €549-975, tutors hourly, university). Educate on ranges and what drives price, then weave one-time value. Compute every figure from published plans.",
+      "validation": "Cost is the first question every buyer has (Big 5). Broadens beyond inburgering-only cost coverage.",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 7,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 6.95
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "best-app-to-learn-dutch",
+      "title": "Best App to Learn Dutch (and Where Apps Stop Working)",
+      "category": "category",
+      "big5_category": "Best in Class",
+      "primary_keyword": "best app to learn Dutch",
+      "persona": "Early-stage TOFU searcher exploring the full field of options",
+      "pain_cluster": "duolingo-taught-useless-phrases",
+      "registry_status": "net-new (high-volume best-of; pairs with the existing Duolingo comparison)",
+      "serp_note": "High-volume superlative search dominated by big publishers, so SERP is competitive. Honest best-of across apps (Duolingo, Babbel, Pimsleur) with the honest limit: apps build recognition, not production. Bridges to course/production content.",
+      "validation": "duolingo-taught-useless-phrases in 3/4 new calls; high search volume for 'best app' superlatives.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 4,
+        "business_priority": 6,
+        "mini_volume": 9,
+        "authority_fit": 7,
+        "weighted_total": 6.1
+      },
+      "brief_status": "pending"
+    },
     {
       "topic_id": "inburgering-course-that-teaches-speaking",
       "title": "Inburgering Course That Teaches You to Speak Dutch",
@@ -69,6 +334,28 @@
         "weighted_total": 8.85
       },
       "brief_file": "outputs/briefs/passed-inburgering-cant-speak-dutch_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "how-does-dutchwithjoost-work",
+      "title": "How Does Dutchwithjoost Work? A Lesson-by-Lesson Walkthrough",
+      "category": "category",
+      "primary_keyword": "how does Dutchwithjoost work",
+      "persona": "Product-aware course shopper at the decision stage; strongest for Pattern C (Work Visa, full motivation stack, prior-course skeptic) and Pattern A (Partner Visa + Family)",
+      "pain_cluster": "prior-course-skepticism / show-me-the-method",
+      "registry_status": "net-new (user-requested 2026-06-02). Canonical product 'how it works' explainer with screenshots. Distinct from the methodology pillar what-is-production-based-language-learning (the concept) and the BOFU buyer guide inburgering-course-that-teaches-speaking (the comparison); this is the product tour and links out to both.",
+      "serp_note": "Branded query on our own owned ground -- no competitor can rank for how our product works, so serp_weakness is effectively uncontested (9). No Firecrawl run (deliberate; adds no decision value for a branded term). Win condition is conversion clarity + AEO coverage, not SERP displacement. Low mini_volume because the head term is branded.",
+      "validation": "Product mechanics are first-hand from the co-founder/tester interview (Nina): two-phase learn-by-using lesson, level-matched Joost replies, guided low-cognitive-load structure, effort tracking, engagement. GUARDRAILS: screenshots are a hard dependency (cannot be fabricated); product facts (level range, exam-part coverage incl. ONA, AI-scoring specifics, access duration, price, trial offer) need verification against the live product -- the legacy messaging.md is gone.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 10,
+        "serp_weakness": 9,
+        "business_priority": 9,
+        "mini_volume": 3,
+        "authority_fit": 10,
+        "weighted_total": 8.35
+      },
+      "brief_file": "outputs/briefs/how-does-dutchwithjoost-work_brief.json",
       "brief_status": "generated"
     },
     {
@@ -692,6 +979,100 @@
       },
       "brief_file": "outputs/briefs/a2-vs-b1-inburgering-which-level_brief.json",
       "brief_status": "generated"
+    },
+    {
+      "topic_id": "best-dutch-courses-speak",
+      "title": "Best Dutch Courses for Expats Who Actually Want to Speak (2026)",
+      "category": "category",
+      "big5_category": "Best in Class",
+      "primary_keyword": "best Dutch course to actually speak",
+      "persona": "Solution-aware cross-persona shopper who has decided memorization/recognition courses failed them and wants production (Pattern A Partner+Family, Pattern C Work Visa full stack, Pattern D long-term resident)",
+      "pain_cluster": "memorization-not-production / access-to-practice",
+      "registry_status": "net-new (AI-search-native, 2026-06-03). Goal-based best-of list ('to actually speak') sitting above the exam-prep-focused best-dutch-course-a2-inburgering; links to it rather than repeating it.",
+      "serp_note": "Listicle is the single most-cited ChatGPT format (43.8%). Build a genuinely useful roundup organized by HOW each option builds speaking (self-paced production-based, 1:1 tutor, classroom social, conversation/AI apps, taalcafe, self-paced exam-prep) -- useful even if the reader picks a competitor (advice-section rule). DutchwithJoost is one honest entry, placed as the self-paced production option. Informational intent -> AI will summarize, so name the brand in one quotable sentence.",
+      "ai_search_note": "play_type ai-citation, format_priority high, youtube_companion true. Pair with a Joost 'what actually builds speaking' video. Win condition is being the cited+named source, not the #1 click.",
+      "validation": "Production gap is the dominant cross-call pain (Anna, Molly, Monika, Nina). Molly was shown the product and wanted to try lesson 1; Nina: other courses are 'a cheat sheet to the exam'.",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 9,
+        "weighted_total": 7.95
+      },
+      "brief_file": "outputs/briefs/best-dutch-courses-speak_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "best-inburgering-courses-2026",
+      "title": "Best Inburgering Courses in 2026 (Honestly Compared)",
+      "category": "comparison",
+      "big5_category": "Best in Class",
+      "primary_keyword": "best inburgering course 2026",
+      "persona": "BOFU course shopper actively comparing inburgering exam-prep options before buying (cross-persona)",
+      "pain_cluster": "course-selection-uncertainty / course-value-uncertainty",
+      "registry_status": "net-new (AI-search-native, 2026-06-03). Best-of + review hybrid covering the real inburgering exam-prep field; complements the individual reviews and vs pages and links to them.",
+      "serp_note": "Listicle format ChatGPT cites most (#1) AND commercial-comparison intent that is largely AIO-free on Google (#8) -- so it is both a ChatGPT citation magnet and a Google click-capture page. Organize by buyer goal (cheapest, most recognized exam prep, to actually speak, social classroom). GUARDRAILS: compute every price from published plans; one-time-vs-subscription is value framing only, never a billing/Trustpilot attack; frame DUO funding as 'check your track and funding route first' (funded route needs a Blik op Werk certified school) -- never state we are not DUO-approved.",
+      "ai_search_note": "play_type click-capture, format_priority high, youtube_companion true. Answer-first verdict-by-use-case paragraph is the citable unit.",
+      "validation": "'Are those EUR1000 inburgering courses actually worth it? Or scam?' (Reddit) shows the comparison demand; Anna's subscription resentment and Nina's ~EUR700 spent across two courses validate value-clarity intent.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 8,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 7.95
+      },
+      "brief_file": "outputs/briefs/best-inburgering-courses-2026_brief.json",
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "best-ways-practice-speaking-dutch",
+      "title": "The Best Ways to Practice Speaking Dutch (When You Have No One to Talk To)",
+      "category": "jtbd",
+      "big5_category": "Best in Class",
+      "primary_keyword": "best ways to practice speaking Dutch",
+      "persona": "Access-to-practice barrier across personas (Pattern D long-term resident, Pattern A partner whose partner switches to English)",
+      "pain_cluster": "access-to-practice",
+      "registry_status": "net-new (AI-search-native, 2026-06-03). Methods listicle; sibling to how-to-practice-dutch-speaking-alone and dutch-speaking-practice-online -- links to them, does not duplicate.",
+      "serp_note": "Listicle citation magnet, informational/TOFU-MOFU. Honest method roundup (tutors, taalcafes, language exchanges, conversation/AI apps, talking to yourself, self-paced production practice) with the trade-offs of each. Plants the production-based method and brand as the always-available, judgment-free, level-matched option.",
+      "ai_search_note": "play_type ai-citation, format_priority high, youtube_companion true. Strong fit for a Joost demo video of level-matched speaking practice.",
+      "validation": "Documented access-to-practice pain: people post looking for speaking partners; Molly: 'Sorry my Dutch is not good, can we do English?'; the Dutch Partner Problem (level mismatch).",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.25
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "best-free-ways-learn-dutch",
+      "title": "Best Free Ways to Learn Dutch (and Where Free Stops Working)",
+      "category": "category",
+      "big5_category": "Best in Class",
+      "primary_keyword": "best free way to learn Dutch",
+      "persona": "Early-stage TOFU searcher exploring the field before spending money",
+      "pain_cluster": "expensive-inflexible-options / duolingo-taught-useless-phrases",
+      "registry_status": "net-new (AI-search-native, 2026-06-03). High-reach TOFU citation magnet; bridges to the paid/production cluster and the Duolingo teardown.",
+      "serp_note": "Listicle citation magnet at the top of funnel (free resources: Duolingo, YouTube, learndutch.org, free taalcafes, library resources, DUO practice). Honest about the ceiling: free tools build recognition and vocabulary but stall at production. Bridges to paid production-based learning as the step up when free stops working.",
+      "ai_search_note": "play_type ai-citation, format_priority high, youtube_companion true. High-volume TOFU surface for brand mentions; name the brand once as the paid step-up.",
+      "validation": "duolingo-taught-useless-phrases in 3/4 new calls ('my elephant is green'); free-resource preference documented in r/learndutch.",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 6,
+        "serp_weakness": 5,
+        "business_priority": 6,
+        "mini_volume": 8,
+        "authority_fit": 7,
+        "weighted_total": 5.8
+      },
+      "brief_status": "pending"
     }
   ]
 }

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "topic_id": "how-much-does-dutchwithjoost-cost",
+    "big5_category": "Cost & Price",
+    "priority_score": 8.75,
+    "stage": "bofu",
+    "format": "guide",
+    "target_word_count": 1900,
+    "estimated_effort": "3-4 hours",
+    "generated_date": "2026-06-02",
+    "guardrails": [
+      "One-time-vs-subscription contrast is value framing for a budget-conscious buyer, NOT a billing-complaint attack. Never reference competitor Trustpilot ratings, billing disputes, or 'hidden charges'. State your own price plainly and let the math speak.",
+      "Compute every competitor figure from published plan prices (see verified table in evidence). Do not invent ranges. If a price is unverified at write time, mark it and re-check the live pricing page.",
+      "Never state or imply Dutchwithjoost is 'not DUO-approved'. If approval/track comes up, frame as 'check which track your DUO letter requires before buying any course'.",
+      "Proof is thin: proof-library/case-studies is empty. Back claims with verified PRODUCT FACTS (price, access period, lesson count, completion standard) and co-founder testing only. Flag any claim that would need a customer metric we do not yet have."
+    ]
+  },
+  "keyword": {
+    "primary": "how much does Dutchwithjoost cost",
+    "variants": [
+      "Dutchwithjoost price",
+      "Dutchwithjoost cost",
+      "Dutchwithjoost pricing",
+      "is Dutchwithjoost worth the price",
+      "Dutchwithjoost one-time payment",
+      "Dutchwithjoost vs subscription Dutch course cost"
+    ],
+    "searcher_intent": "A product-aware buyer near a decision who wants the exact price, what is included, and whether it is good value before they commit. They have likely already priced subscription courses and classroom schools and want to know where Dutchwithjoost sits and why."
+  },
+  "audience": {
+    "persona": "Product-aware course shopper comparing final options (Pattern A Partner Visa + Family, Pattern C Work Visa full stack)",
+    "industry_focus": null,
+    "pain_summary": "Buyers cannot find a clear price and are tired of subscription math that balloons the longer learning takes. One interviewee was paying for three unused language subscriptions. They want to know exactly what they pay and exactly what 'done' means before committing.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "The honest, transparent price article the rest of the market avoids. Lead with the actual number (€399, paid once), explain what 'done' means at that price, then educate the reader on why Dutch-course prices range from ~€60 to €6,000+ and how to get the most value for their budget. The differentiator is not 'cheapest' -- it is 'you know the total and you know the finish line' against a market priced in open-ended monthly subscriptions and per-hour tutoring.",
+  "thesis_sentence": "Dutchwithjoost costs €399 paid once, and the reason that single number matters is that almost every alternative prices your Dutch by the month or by the hour, so your real cost depends on how long you struggle.",
+  "outline": [
+    {
+      "section": "How much does Dutchwithjoost cost? (the direct answer)",
+      "notes": "Answer in the first two sentences for AEO. €399, one-time payment, 5 years of access, 43 lessons covering A1 to A2 and all five exam parts (reading, listening, writing, speaking, KNM). No monthly fee, no renewal. Then one line on what this article covers: what that price includes, why market prices vary, and how to judge value.",
+      "word_target": 220,
+      "evidence_needed": "Verified product facts: €399 one-time, 5-year access, 43 lessons, A1→A2, all 5 exam parts."
+    },
+    {
+      "section": "What you actually get for €399 (and what 'done' means)",
+      "notes": "Feature → benefit → proof. The distinctive thing is the completion standard: a lesson is complete when you have used the vocabulary in conversation with Joost, not when you finish exercises. Tie the price to a defined finish line: you pay once and you know what reaching the end looks like. Link out to how-does-dutchwithjoost-work and what-is-production-based-language-learning rather than re-explaining the method in depth.",
+      "word_target": 320,
+      "evidence_needed": "Completion = production (Positioning Gap #1-2). 43 lessons, all 5 exam parts in one course. Co-founder testing as the only current proof source -- do NOT cite customer metrics we do not have."
+    },
+    {
+      "section": "Why do Dutch course prices vary so much? (€60 to €6,000+)",
+      "notes": "The Big 5 'educate on ranges and variables' section. Explain the four price tiers honestly and what drives each: self-paced subscriptions are cheap per month but open-ended; classroom intensives are a fixed lump but time-bound and group-paced; private tutoring is the most flexible and by far the most expensive; one-time self-paced (us) trades live human time for a fixed total. Help the reader understand value, not just price.",
+      "word_target": 480,
+      "evidence_needed": "Verified pricing table (compute from published plans, May 2026): Self-paced subscriptions -- Inburgering.org €4.99/mo (~€60-120 total), InburgeringPrep free/€9.99-mo/€79-yr (~€80-120), InburgeringOnline €34.95/mo 6mo (~€210) or €24.95/mo 12mo (~€300). Classroom intensives -- TaalBoost €549, Koentact €975, Direct Dutch €1,395. Private tutoring -- iTalki/Preply €20-60/hr (€2,000-6,000 to A2), Flowently €42/hr (~€2,520). Re-verify before publishing."
+    },
+    {
+      "section": "One-time vs subscription: what you really pay over time",
+      "notes": "Value framing, BOFU, NOT an attack. Walk the simple math: a €25-35/month course is cheaper than €399 only if you finish fast; the longer Dutch takes (and for the 'pass but can't speak' crowd it takes longer), the more an open-ended subscription costs. A one-time price removes the meter. Acknowledge honestly: if you are confident you will finish a subscription course quickly, the cheapest monthly option can cost less. Let the reader self-select. No mention of competitor billing practices or reviews.",
+      "word_target": 360,
+      "evidence_needed": "One-time €399 vs monthly math (Positioning Gap #4). Anna interview: paying for 3 unused language subscriptions (anonymize: 'one learner we spoke with'). Verified monthly prices above for the comparison math."
+    },
+    {
+      "section": "Is €399 worth it for you? (who it fits and who it doesn't)",
+      "notes": "Honest fit section per Big 5 reviews/cost guidance. Worth it if: you have stalled on recognition-only tools, you want to actually speak (not just pass), you value a fixed total and a defined finish line, your schedule needs self-paced flexibility. Not the best value if: you only need the cheapest possible exam pass, you want live classroom social energy, or you need a human teacher reviewing written work. Link to who-is-dutchwithjoost-not-for and inburgering-course-worth-it. One line, framed as 'check your track first': confirm which level/track your DUO letter requires before buying any course.",
+      "word_target": 320,
+      "evidence_needed": "Fit/disqualifier logic from who-is-dutchwithjoost-not-for. DUO track framing (never 'not approved'). Honest competitor strengths: classroom = social/accountability, tutor = 1:1 feedback."
+    },
+    {
+      "section": "What to do next",
+      "notes": "Soft BOFU CTA. Point decided buyers to the product/pricing page; point still-comparing readers to the InburgeringOnline comparison and the cost-of-the-market overview. Do not hard-sell; the reader was learning about price, keep the helpful frame.",
+      "word_target": 150,
+      "evidence_needed": "Internal links only; CTA to pricing/product page."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Buyers cannot find a clear price anywhere and feel that silence as a trust problem.",
+      "prop": "A single, stated total: €399, paid once, 5 years of access.",
+      "proof": "Verified product fact (pricing page): €399 one-time, 5-year access, 43 lessons, all 5 exam parts."
+    },
+    {
+      "pain": "Subscription math balloons the longer Dutch takes; one learner was carrying three unused language subscriptions.",
+      "prop": "One-time pricing removes the meter -- your cost does not grow with how long you struggle.",
+      "proof": "Anonymized interview (3 unused subscriptions) + side-by-side monthly math vs €399. BOFU value framing, no billing attack."
+    },
+    {
+      "pain": "Cheap courses feel like a gamble because 'done' is undefined -- you can finish every exercise and still not speak.",
+      "prop": "At €399 the finish line is defined: a lesson completes when you have used the words in conversation, so the price buys a production standard, not just access.",
+      "proof": "Completion-as-production standard (Positioning Gaps #1-3); co-founder testing. Flag: no customer outcome metric available yet."
+    }
+  ],
+  "originality_nuggets": [
+    "The market hides price behind 'starts from €4.99/month', which is the open-ended-meter trick -- the real cost is unknowable until you finish, and the people most likely to stall (the 'passed but can't speak' group) are the ones a meter punishes most.",
+    "Total cost to reach A2 across the market spans roughly €60 to €6,000+ -- a 100x spread for the 'same' outcome -- and the spread is almost entirely about how much live human time you are buying, not course quality.",
+    "Dutchwithjoost is not the cheapest line on the page and should not pretend to be; its cost argument is certainty (fixed total + defined finish line), which is a different axis than price."
+  ],
+  "seo": {
+    "title_tag": "How Much Does Dutchwithjoost Cost? Full Breakdown",
+    "meta_description": "Dutchwithjoost costs €399, paid once, with 5 years of access. Here is exactly what that includes and how it compares to subscription and classroom Dutch courses.",
+    "url_slug": "how-much-does-dutchwithjoost-cost"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How much does Dutchwithjoost cost?",
+    "definition_paragraph": "Dutchwithjoost costs €399 as a one-time payment, with five years of access. That covers all 43 lessons from A1 to A2 and prepares you for all five parts of the inburgering exam: reading, listening, writing, speaking, and KNM. There is no monthly fee and no renewal charge.",
+    "faq_questions": [
+      "How much does Dutchwithjoost cost?",
+      "Is Dutchwithjoost a one-time payment or a subscription?",
+      "How long do I keep access to Dutchwithjoost?",
+      "Is Dutchwithjoost cheaper than a classroom Dutch course?",
+      "Does €399 cover the full inburgering exam preparation?",
+      "Who is Dutchwithjoost not the best value for?"
+    ]
+  },
+  "internal_link_targets": [
+    "how-does-dutchwithjoost-work",
+    "what-is-production-based-language-learning",
+    "who-is-dutchwithjoost-not-for",
+    "inburgering-course-worth-it",
+    "inburgering-course-cost",
+    "dutchwithjoost-vs-inburgeringonline"
+  ]
+}

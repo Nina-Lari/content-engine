@@ -6,6 +6,54 @@
 
 ---
 
+## Exact Customer Profile (ECP)
+
+> The operational, sharpened version of the ICP — built for signup qualification and channel targeting. Use it to decide who counts as a *qualified* signup and who to screen out. The sections below (Demographics, Psychographics, Disqualifiers, Buying Signals) provide the supporting detail.
+
+**Market basis:** Across 2022–2024, ~97.7k people became inburgeringsplichtig under the 2021 Act (CBS Statistiek Wet Inburgering 2024). Two-thirds are asylum migrants on the municipality-funded route — not us. The self-paying segment is ~33k family-and-other migrants (~11k/year, ~2.75k/quarter). Because most new family migrants are routed to B1, the largest self-paying *A2-specific* pool is naturalisation seekers.
+
+**System-2 sizing (CBS/IND):** naturalisation is large but mostly *not* ours — ~52,100 requests in 2024, dominated by ex-asylum nationalities (Syrians, Eritreans). The English-speaking voluntary slice **skews heavily Indian** (3rd-largest naturalising group, ~18.4k over 2018–24) — a sizing/channel cue, not an exclusive target (the partner profile spans nationalities); estimated addressable flow **~5–10k/year**, fed by non-EU skilled migrants (kennismigrant inflow ~16k in 2024, down ~39% since 2022) and stayed international graduates (~123k students, ~40% stay). See `factual-accuracy-checklist.md` → Market Size & Population Data.
+
+**One-line definition:** A non-EU adult in the Netherlands, comfortable studying in English, self-paying to reach A2 Dutch — either as an exam *endpoint* (citizenship, Wi-2013, Z-route) or as the *foundation* stage toward B1 — driven by belonging or family, let down by memorization apps or rigid classrooms, who understands some Dutch but freezes when speaking and wants to learn at home on their own schedule.
+
+**Hard qualifiers (all true = "qualified"):**
+
+1. Non-EU national living in (or committed to relocating to) the Netherlands.
+2. **Comfortable learning in English** — the course is English-medium; this filters every group to its English-speaking subset.
+3. Needs A2 Dutch, as an **exam endpoint** (naturalisation / citizenship, Wi-2013, Z-route) **or the foundation stage** toward B1 (everyone climbs A1→A2→B1, so a zero-start B1-bound beginner is a valid foundation customer, B1 to follow). Permanent-residence level is not a fixed A2 — it follows your own integration level, so don't treat it as a clean A2 trigger.
+4. Self-paying — not arranged or funded by the gemeente.
+5. Self-directed — willing to learn at home, on their own schedule, without a fixed classroom.
+
+**Strong-fit signals (sweet spot):** belonging/family motivation over box-ticking; prior-course skepticism (Duolingo didn't transfer, classroom too rigid or expensive); a concrete trigger or deadline; the production gap (understands but freezes); time-constrained; €399 or Klarna installments is not a dealbreaker. See "Buying Signals" below for the observable versions of these.
+
+**Sharpest acquisition wedge — voluntary naturalisers (with a regulatory caveat).** The cleanest A2-specific demand is **System 2**: people who voluntarily pursue citizenship and must pass the A2 inburgeringsexamen even if never obligated to integrate. Broader than family migrants — it includes everyone exempt from the obligation who later goes for the passport: **work-permit holders (highly-skilled migrants, EU Blue Card, intra-company transferees, self-employed) + dependents, former students who stayed, long-term residents, and Turkish nationals** (exempt from the obligation and from permanent-residence, but **not** for naturalisation).
+
+> *System 1* = integration obligation done to you on arrival (asylum + family/partner; B1 under Wi-2021, A2 under Wi-2013/Z-route). *System 2* = voluntary citizenship years later (A2 floor). People exempt from System 1 who later enter System 2 need A2 from scratch — that is the wedge.
+
+> **Partner trap (two opposite "partner visas"):** partner of a **Dutch/settled resident** = obligated (System 1, the self-paying `gezinsmigrant`); partner of a **kennismigrant / work/study migrant** = exempt (System 2), needs A2 only if they naturalise. The **partner of a kennismigrant** is one of the cleanest profiles: no employer course, exempt, often the more motivated of the couple, self-paying. (Verified: government.nl; mvvadvies.nl.)
+
+- **Employer-provided courses (narrow risk):** kennismigranten are inburgering-exempt → no mandated course; employer language support is a voluntary perk (a budget, often via the 30% ruling, or group conversational classes), rarely A2/naturalisation prep, low take-up. A controlled budget is a tailwind; only employer-mandated school placement removes self-selection. Within this segment, aim at the **partner**, the **naturalisation-moment** migrant, and the **still-stuck** migrant.
+- **English-medium filter:** reachable only in each group's English-comfortable subset (favours internationally-oriented professionals; the highly-skilled-migrant naturaliser is cleanest; Turkish nationals only where English is the study language, not the whole community).
+- **Regulatory watch:** naturalisation is **A2 today (mid-2026)**, but a Rijkswet op het Nederlanderschap bill is in process — residence requirement 5→10 years (announced Sept 2025) and language level expected to rise toward B1 (no effective date yet). If enacted, the A2 wedge shrinks (level) and thins (longer residence delays the step); the A2-as-foundation beginners and the forthcoming B1 course are the hedges.
+- **Wedge order:** (1) English-speaking voluntary naturalisers — partner of a kennismigrant, plus the still-stuck / naturalisation-moment skilled migrant (skews Indian, but target by profile); (2) self-paying family migrants obligated under Wi-2013 (A2 endpoint) or zero-start B1-bound beginners (A2 foundation); (3) Z-route upgraders. Headwinds (kennismigrant inflow falling; naturalisation 5→10 yr / →B1) mean capture this pool now.
+
+**Disqualifiers:** see the Disqualifiers table below. In short: learners not comfortable studying in English (the course is English-medium), refugees / asylum-route learners, B1-funding seekers who need a Blik-op-Werk provider (route them to check their own track first — make no approval claims), no-requirement EU nationals, classroom-wanters, and passive non-producers.
+
+**Signup capture (persona + source — target ≥70% of signups):**
+
+| Field | Options (1-click) | Purpose |
+|-------|-------------------|---------|
+| Source | Google · ChatGPT · word of mouth · paid · other | Channel attribution |
+| Trigger ("why now") | citizenship—belonging · citizenship—passport utility · integration deadline · permanent residence · personal goal | Intent, wedge, speak-vs-pass fit |
+| Status modifier | family/partner migrant w/ Dutch or settled sponsor · partner of a kennismigrant (exempt) · work/study permit · long-term resident · Turkish national · other | System 1 vs System 2; the partner's sponsor decides the track |
+| Core motivation | belonging-family · career · integration · just-pass | Persona tag |
+| Current level | zero · some words · understand-but-can't-speak · conversational | Production-gap fit |
+| Employer course? | none · a budget I control · yes, a specific school | Self-pay screen (only "specific school" dents self-selection) |
+
+Combine (core motivation × status modifier × current level) to get the layered persona tag (see `strategy/personas.md`). A signup is *qualified* only when the five hard qualifiers are met.
+
+---
+
 ## Demographics
 
 ### Nationality and Location
