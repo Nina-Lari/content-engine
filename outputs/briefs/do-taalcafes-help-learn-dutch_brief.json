@@ -5,7 +5,8 @@
     "stage": "mofu",
     "format": "guide",
     "target_word_count": 1600,
-    "estimated_effort": "2-3 hours"
+    "estimated_effort": "2-3 hours",
+    "role": "Cluster spoke for the recognition-vs-production thesis. Links up to the methodology pillar (what-is-production-based-language-learning) for the deep mechanism rather than re-explaining it; this piece owns the free-speaking-practice angle (taalcafés build contact, not structured production)."
   },
   "keyword": {
     "primary": "do taalcafés work for learning Dutch",
@@ -53,7 +54,7 @@
     },
     {
       "section": "What structured, level-matched practice adds",
-      "notes": "Show what the free options are missing, as a category first. Correction so mistakes do not set in, level-matching so the practice is usable, and repetition until you can produce. Then one way that delivers it: unlimited, judgment-free practice with Joost at your level. Feature to benefit to proof. No pricing, this is educational.",
+      "notes": "Show what the free options are missing, as a category first. Correction so mistakes do not set in, level-matching so the practice is usable, and repetition until you can produce. Then one way that delivers it: unlimited, judgment-free practice with Joost at your level. Feature to benefit to proof. No pricing, this is educational. Internal link to the pillar (what-is-production-based-language-learning) on the anchor 'produce'/'production' for why structured production is what builds speaking; keep this section practical.",
       "word_target": 350,
       "evidence_needed": "Co-founder testing: 'He's not gonna use C2 level Dutch to reply to you.' Shame-cycle positioning: judgment-free, no audience. NEEDS a concrete example of correction or level-matching in action."
     },

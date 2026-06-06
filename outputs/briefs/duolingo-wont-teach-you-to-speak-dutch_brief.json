@@ -5,7 +5,8 @@
     "stage": "mofu",
     "format": "comparison",
     "target_word_count": 1800,
-    "estimated_effort": "2-4 hours"
+    "estimated_effort": "2-4 hours",
+    "role": "Cluster spoke for the recognition-vs-production thesis. Links up to the methodology pillar (what-is-production-based-language-learning) for the deep mechanism rather than re-explaining it; this piece owns the Duolingo honest-review angle (recognition of impractical phrases, not production)."
   },
   "keyword": {
     "primary": "is Duolingo good for learning Dutch",
@@ -35,7 +36,7 @@
     },
     {
       "section": "Where it breaks: recognition versus production (the green-apple problem)",
-      "notes": "Explain the recognition-vs-production gap in plain language. Tapping the correct tiles is recognition. Speaking unprompted is production. Duolingo measures the first and calls it progress. Use the anonymized learner lexicon about impractical phrases.",
+      "notes": "Explain the recognition-vs-production gap in plain language. Tapping the correct tiles is recognition. Speaking unprompted is production. Duolingo measures the first and calls it progress. Use the anonymized learner lexicon about impractical phrases. Internal link to the pillar (what-is-production-based-language-learning) on the anchor 'recognition versus production': explain it briefly here, send readers there for the full mechanism.",
       "word_target": 350,
       "evidence_needed": "Anonymized customer lexicon ('able to say only that I have a green apple'; 'phrases like my elephant is green, where am I going to use this'). The community meme about impractical Duolingo Dutch. The recognition-vs-production framing from web research."
     },

@@ -5,7 +5,8 @@
     "stage": "mofu",
     "format": "how-to",
     "target_word_count": 1800,
-    "estimated_effort": "2-3 hours"
+    "estimated_effort": "2-3 hours",
+    "role": "Cluster spoke for the recognition-vs-production thesis. Links up to the methodology pillar (what-is-production-based-language-learning) for the deep mechanism rather than re-explaining it; this piece owns the solo-practice methods angle (techniques ranked by how much they move production). Also a link target from passed-inburgering-cant-speak-dutch."
   },
   "keyword": {
     "primary": "how to practice Dutch speaking alone",
@@ -65,7 +66,7 @@
     },
     {
       "section": "What doesn't work (and why)",
-      "notes": "Be honest about popular advice that trains the wrong thing. 'Just watch Dutch TV' and 'change your phone to Dutch' build recognition, which most learners already have; they don't build production. 'Just talk to your Dutch partner' fails on level mismatch. Naming this protects the reader from spending months on input-only methods and wondering why speaking didn't improve.",
+      "notes": "Be honest about popular advice that trains the wrong thing. 'Just watch Dutch TV' and 'change your phone to Dutch' build recognition, which most learners already have; they don't build production. 'Just talk to your Dutch partner' fails on level mismatch. Naming this protects the reader from spending months on input-only methods and wondering why speaking didn't improve. Internal link to the pillar (what-is-production-based-language-learning) on the anchor 'recognition'/'production' for the full mechanism behind why input-only methods stall speaking.",
       "word_target": 200,
       "evidence_needed": "Recognition vs production gap (validated, multi-source). Dutch partner level-mismatch evidence."
     },

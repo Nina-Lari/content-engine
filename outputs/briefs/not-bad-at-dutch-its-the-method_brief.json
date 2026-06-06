@@ -5,7 +5,8 @@
     "stage": "tofu",
     "format": "guide",
     "target_word_count": 1600,
-    "estimated_effort": "2-3 hours"
+    "estimated_effort": "2-3 hours",
+    "role": "Cluster spoke for the recognition-vs-production thesis. Links up to the methodology pillar (what-is-production-based-language-learning) for the deep mechanism rather than re-explaining it; this piece owns the self-blame reframe ('you're not bad at languages')."
   },
   "keyword": {
     "primary": "why am I so bad at learning Dutch",
@@ -35,7 +36,7 @@
     },
     {
       "section": "You probably understand more than you can say, and that is normal",
-      "notes": "Explain the recognition-vs-production gap simply. Understanding signs, TV, and conversation is recognition. Speaking unprompted is production. They are different skills, and most people are far ahead on one and stuck on the other. This is fixable, not a verdict.",
+      "notes": "Explain the recognition-vs-production gap simply. Understanding signs, TV, and conversation is recognition. Speaking unprompted is production. They are different skills, and most people are far ahead on one and stuck on the other. This is fixable, not a verdict. Internal link to the pillar (what-is-production-based-language-learning) here: summarize the gap in a line or two, send readers there for the full mechanism instead of re-deriving it.",
       "word_target": 300,
       "evidence_needed": "Recognition-vs-production framing from web research and personas. Anonymized quote: 'I understand a lot, but speaking is the part my brain cannot work around.'"
     },

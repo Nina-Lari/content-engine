@@ -80,3 +80,45 @@ articles:
   what-is-production-based-language-learning:
     status: planned
     title: 'What is Production-Based Language Learning'
+
+  # Planned -- brief exists, added during registry reconciliation 2026-06-05
+  # (every brief in outputs/briefs/ now has a registry entry so internal links resolve)
+  best-dutch-courses-speak:
+    status: planned
+    title: 'Best Dutch Course to Actually Speak (2026 Guide)'
+
+  best-inburgering-courses-2026:
+    status: planned
+    title: 'Best Inburgering Course 2026: Honest Comparison'
+
+  do-taalcafes-help-learn-dutch:
+    status: planned
+    title: 'Do Taalcafés Actually Help You Learn Dutch?'
+
+  duolingo-wont-teach-you-to-speak-dutch:
+    status: planned
+    title: 'Is Duolingo Good for Learning Dutch? An Honest Review'
+
+  dutch-partner-cant-teach-dutch:
+    status: planned
+    title: "Why Your Dutch Partner Can't Teach You Dutch"
+
+  how-does-dutchwithjoost-work:
+    status: planned
+    title: 'How Dutchwithjoost Works: A Lesson Walkthrough'
+
+  how-much-does-dutchwithjoost-cost:
+    status: planned
+    title: 'How Much Does Dutchwithjoost Cost? Full Breakdown'
+
+  life-without-dutch-netherlands:
+    status: planned
+    title: "What You're Missing by Not Speaking Dutch"
+
+  not-bad-at-dutch-its-the-method:
+    status: planned
+    title: "Why Am I So Bad at Learning Dutch? (You're Not)"
+
+  self-study-dutch-a2-that-actually-works:
+    status: planned
+    title: 'Self-Study Dutch A2: Courses That Actually Work'

@@ -5,7 +5,8 @@
     "stage": "mofu",
     "format": "guide",
     "target_word_count": 2000,
-    "estimated_effort": "3-4 hours"
+    "estimated_effort": "3-4 hours",
+    "role": "Cluster spoke for the recognition-vs-production thesis. Links up to the methodology pillar (what-is-production-based-language-learning) for the deep mechanism rather than re-explaining it; this piece owns the self-study category angle ('how to vet a course so you finish able to speak')."
   },
   "keyword": {
     "primary": "self-study Dutch A2 course online",
@@ -47,13 +48,13 @@
     },
     {
       "section": "How to vet an online A2 course in 10 minutes",
-      "notes": "Actionable checklist the reader can run on any course's free trial or sample. Trial one lesson and ask: did I have to SAY anything, or just click? Are words taught in context or as isolated lists? Is there unlimited speaking practice or just exam-style drills? Does the practice stay at my level? Is the price a clear one-time cost or a subscription that is easy to forget cancelling? Keep criteria fair to competitors.",
+      "notes": "Actionable checklist the reader can run on any course's free trial or sample. Trial one lesson and ask: did I have to SAY anything, or just click? Are words taught in context or as isolated lists? Is there unlimited speaking practice or just exam-style drills? Does the practice stay at my level? Keep criteria fair to competitors. No pricing/subscription criterion here: this is MOFU, so keep cost contrast out (it belongs in BOFU only).",
       "word_target": 500,
-      "evidence_needed": "Trustpilot billing complaints about unclear auto-renewal and ignored refunds (InburgeringOnline) for the subscription-clarity criterion. Feature matrix for the production and level-matching criteria."
+      "evidence_needed": "Feature matrix for the production and level-matching criteria."
     },
     {
       "section": "What production-based self-study looks like",
-      "notes": "Show the alternative without it reading as a sales section. A guided lesson where structured practice leads into a conversation with Joost, the lesson is complete only when you use the vocabulary, and it fits any schedule because you control the session length. Feature to benefit to proof.",
+      "notes": "Show the alternative without it reading as a sales section. A guided lesson where structured practice leads into a conversation with Joost, the lesson is complete only when you use the vocabulary, and it fits any schedule because you control the session length. Feature to benefit to proof. Internal link to the pillar (what-is-production-based-language-learning) on the term 'production-based'; keep this section to how it works in practice and send readers to the pillar for why it works.",
       "word_target": 400,
       "evidence_needed": "Co-founder testing: 'I don't have the cognitive load of trying to engineer my lesson... it's just guided'; 'I don't see time passing by because I'm having fun'; schedule flexibility for an entrepreneur. NEEDS a learner retention or progress metric from proof-library."
     },
@@ -74,11 +75,6 @@
       "pain": "Irregular schedule makes fixed class times impossible",
       "prop": "Fully self-paced sessions you control, from fifteen minutes to two hours, anytime",
       "proof": "Co-founder/tester (self-employed): needs flexibility to fit an entrepreneur's schedule (insights workflow_reality and quotes)."
-    },
-    {
-      "pain": "Subscriptions that keep charging after you thought you cancelled",
-      "prop": "One-time price with no subscription, so there is no auto-renewal to track",
-      "proof": "InburgeringOnline Trustpilot billing complaints (competitive-landscape). Keep this as a vetting criterion, not a hard sell."
     }
   ],
   "originality_nuggets": [
