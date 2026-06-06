@@ -88,7 +88,7 @@ The result: you pass the inburgering exam because you can actually use Dutch. No
 | **Underestimating production skills** | Dutch-online.com (named publication, citable) | Content angle: production skills are where people fail |
 | **Isolated word memorization fails** | Taalhammer blog (named publication, citable) | Context-based learning vs. flashcards |
 | **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |
-| **Course value uncertainty** | Community discussions (anonymize in content) | One-time €399 pricing, clear completion criteria |
+| **Course value uncertainty** | Community discussions (anonymize in content) | Flexible pricing (one-time €399, or monthly/6-month subscription), clear completion criteria |
 | **Speaking partners don't match your level** | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
 | **The shame cycle** | Customer intelligence (internal use) | Judgment-free practice breaks the avoidance pattern |
 | **Dutch partner can't teach** | Customer intelligence (internal use) | Level-matched practice that native speakers can't provide |
@@ -264,7 +264,7 @@ These topics surface from actual customer discussions:
 
 1. InburgeringOnline vs. classroom: honest trade-offs
 2. Free resources (Duolingo, YouTube) vs. structured courses
-3. One-time pricing vs. subscription cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack)
+3. Pricing model and total cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack). We offer a one-time €399 option AND monthly/6-month subscriptions, so the differentiator is that a one-time, non-recurring option exists at all (most competitors are subscription-only). Because we also run an auto-renewing monthly plan, never contrast on auto-renewal — see Claims Guardrails.
 
 ### Thought Leadership Angles
 
@@ -295,7 +295,7 @@ These topics surface from actual customer discussions:
 
 - 43 lessons taking an absolute beginner from zero through A1 to A2 (a complete 0→A2 course, not a course that assumes you already have A1)
 - Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM
-- €399 one-time payment, 5-year access
+- Three pricing options: one-time €399 for 5-year access; monthly subscription at €49/month (auto-renews until canceled or paused); 6-month subscription at €39/month, €234 total (does not auto-renew)
 - Exam Pass Guarantee: complete all lessons, fail the exam, get refunded
 - Practice anytime, on your own schedule
 - Feedback on grammar, comprehension, and pronunciation

@@ -39,7 +39,7 @@ We help people in the Netherlands pass their inburgering exam while actually lea
 - **Format**: Structured self-paced Dutch language course
 - **Levels**: Zero (absolute beginner) to A2 — covers 0→A1, then A1→A2. It does NOT assume you already have A1. Always describe it as a "zero-to-A2" or "0-to-A2" course, never as an "A1-to-A2" course (that wrongly implies it starts at A1).
 - **Coverage**: All parts of A2 inburgering exam (read, listen, write, speak, KNM)
-- **Price**: €399 for full course access
+- **Price**: Three options for full course access — (1) one-time €399 for 5-year access; (2) monthly subscription at €49/month, auto-renews until canceled or paused; (3) 6-month subscription at €39/month (€234 total), does not auto-renew
 - **Stage**: Pre-revenue (1 paying customer)
 
 ---
@@ -290,7 +290,7 @@ They cannot commit to fixed class schedules — irregular work hours, family obl
 - A concrete trigger or deadline: citizenship window, partner-visa integration deadline, the 5-year permanent-residence milestone.
 - The production gap: understands Dutch but freezes when speaking — the exact pain the Joost conversation addresses.
 - Time-constrained (irregular hours, caregiving, full-time work) and values flexibility.
-- €399 up front or Klarna installments is not a dealbreaker.
+- Paying for a course is not a dealbreaker — whether €399 up front (Klarna installments available), a €49/month subscription, or the €39/month 6-month plan.
 
 **Disqualifiers (screen out of "qualified" — expect wrong-fit, churn, or refund):**
 
@@ -433,7 +433,7 @@ The old framing ("if you need B1, this isn't for you") was too strict. The level
 
 **Emotional dimension**: Financial stress, resentment at "integration tax," desire for value clarity.
 
-**Our answer**: One-time €399 pricing with clear completion criteria addresses both the cost concern and the desire for value clarity — you know exactly what you pay and exactly what "done" means.
+**Our answer**: Transparent pricing with clear completion criteria addresses both the cost concern and the desire for value clarity. A one-time €399 option (5-year access) means you know exactly what you pay, with no recurring charge. For those who prefer lower up-front commitment, a €49/month subscription or a €39/month 6-month plan (€234 total, no auto-renew) is available. In every case, clear completion criteria tell you exactly what "done" means.
 
 ---
 
@@ -784,7 +784,7 @@ Use this when threading product messaging into content about specific topics.
 | "Native speakers switch to English" | Joost speaks at your level, doesn't switch |
 | "I'm scared to make mistakes" | Conversation feedback is non-blocking, corrections available but optional |
 | "I don't get enough speaking practice" | Unlimited conversation practice on your schedule |
-| "Speaking practice is expensive" | One price, unlimited practice vs. per-hour tutoring |
+| "Speaking practice is expensive" | Flat-fee access, unlimited practice vs. per-hour tutoring |
 
 #### Pronunciation
 
@@ -861,7 +861,7 @@ Use this when threading product messaging into content about specific topics.
 
 - 43 lessons taking an absolute beginner from zero through A1 to A2 (a complete 0→A2 course, not a course that assumes you already have A1)
 - Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM
-- €399 one-time payment, 5-year access
+- Three pricing options: one-time €399 for 5-year access; monthly subscription at €49/month (auto-renews until canceled or paused); 6-month subscription at €39/month, €234 total (does not auto-renew)
 - Exam Pass Guarantee: complete all lessons, fail the exam, get refunded
 - Practice anytime, on your own schedule
 - Feedback on grammar, comprehension, and pronunciation
@@ -920,6 +920,7 @@ Can say:
 **About financing (DUO loan):**
 - Dutchwithjoost is NOT on DUO's list of approved courses, so you cannot pay for it with a DUO inburgering loan.
 - Do NOT mention DUO loans in any content about Dutchwithjoost, and never imply our course is loan-eligible. The DUO loan exists for approved courses and exam costs; we are not on that list, so leave it out of our content entirely.
+- Never STATE the DUO non-approval in published content — at all. It is true, but naming it reads as a credibility flag when the product is in fact credible. When a "who is this for / not for" section needs to disqualify learners on a municipality-funded or assigned integration track, frame it as "check your track first — funded tracks usually require an approved provider," never as "we are not DUO-approved." Disqualify the funded learner by telling them to verify their own track, not by disclosing our approval status. And never imply the reverse (that we ARE approved or loan-eligible).
 
 #### Feedback Feature Claims
 
@@ -1066,7 +1067,7 @@ These pain points are documented across community discussions, competitor sites,
 | **Isolated word memorization fails** | Taalhammer blog (named publication, citable) | Context-based learning vs. flashcards |
 | **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |
 | **Speaking partners don't match your level** | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
-| **Course value uncertainty** | Community discussions (anonymize in content) | One-time €399 pricing, clear completion criteria |
+| **Course value uncertainty** | Community discussions (anonymize in content) | Flexible pricing (one-time €399, or monthly/6-month subscription), clear completion criteria |
 
 ### Deep Pain Points (From Customer Intelligence)
 
@@ -1170,7 +1171,7 @@ When giving advice (e.g., "What to look for in a Dutch course"), criteria must b
 **Comparison content angles**:
 - InburgeringOnline vs. classroom: honest trade-offs
 - Free resources vs. structured courses
-- One-time pricing vs. subscription cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack)
+- Pricing model and total cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack). Note: we now offer a one-time €399 option AND monthly/6-month subscriptions, so the differentiator is that a one-time, non-recurring option exists at all (most competitors are subscription-only). Because we also have an auto-renewing monthly plan, never contrast on auto-renewal — see Red Lines.
 
 **Thought leadership angles**:
 - "Why you pass the exam but can't order coffee in Dutch"

@@ -128,7 +128,7 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 4. **Never compare speed.** "Faster" or "slower" claims are unverifiable.
 5. **Never say "we're the only course that..."** It's almost always false and sounds arrogant.
 6. **Never position competitors as the enemy.** The enemy is not speaking Dutch.
-7. **Never cite a competitor's billing, auto-renewal, refund, or Trustpilot complaints.** Those are about billing, not learning quality, and citing them is unfair and off-brand. A neutral one-time-vs-subscription cost comparison is allowed in BOFU/comparison content only, never framed as a complaint.
+7. **Never cite a competitor's billing, auto-renewal, refund, or Trustpilot complaints.** Those are about billing, not learning quality, and citing them is unfair and off-brand. A neutral cost comparison is allowed in BOFU/comparison content only, never framed as a complaint. We now run an auto-renewing monthly plan ourselves, so never contrast on auto-renewal at all.
 
 Examples:
 - Good: "Classroom courses work well if you need peer pressure to stay motivated. We're built for people who can motivate themselves."
@@ -257,6 +257,7 @@ The strongest proof is how the course works and what learners experience, not ac
 - **Never judge someone's choice as "wrong"** for choosing a different solution.
 - **Never publish factual claims without research.** If uncertain, research first.
 - **Never imply DutchwithJoost is DUO loan-eligible.** We are not on DUO's list of approved inburgering courses, so the course cannot be paid for with a DUO inburgering loan. Do not mention DUO loans in any content about our course. (The DUO loan exists for approved courses and exam costs — leave it out of our content entirely.)
+- **Never state our DUO non-approval in published content — at all.** It is true, but naming it reads as a credibility flag when the product is in fact credible. When a "who is this for / not for" section needs to disqualify learners on a municipality-funded or assigned integration track, frame it as **"check your track first — funded tracks usually require an approved provider,"** never as "we are not DUO-approved." Disqualify the funded learner by telling them to verify their own track, not by disclosing our approval status. And never imply the reverse (that we ARE approved or loan-eligible).
 - **Never editorialize on whether the integration system is fair.** State facts about policy, not opinions on politics.
 - **Never claim the expat experience as your own.** That's your partner's voice.
 
@@ -405,7 +406,7 @@ Use this framework for topic selection and content angles. These are high-intent
 | Category | What It Covers | DutchwithJoost Angle |
 |----------|---------------|---------------------|
 | **Category Keywords** | Direct product/service category searches | "best Dutch course for inburgering," "A2 Dutch course online," "speaking-focused Dutch course" |
-| **Cost & Price** | What things cost, what constitutes value | Be specific about €399 pricing. Compare to alternatives. Explain what you get. |
+| **Cost & Price** | What things cost, what constitutes value | Be specific about pricing (one-time €399, or €49/month and €39/month 6-month plans). Compare to alternatives. Explain what you get. |
 | **Problems** | Fears, drawbacks, what could go wrong | "5 Reasons NOT to Buy DutchwithJoost." Who it's not for. Honest limitations. |
 | **Versus & Comparisons** | Honest head-to-head stacking | DutchwithJoost vs InburgeringOnline. When each is better. |
 | **Reviews** | Good, bad, ugly. Fit assessment. | Actual user experiences. Who loved it. Who didn't. Why. |

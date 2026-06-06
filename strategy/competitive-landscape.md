@@ -601,7 +601,7 @@ This highlights what online courses often lack: human connection and peer suppor
 
 **Objection**: "A private tutor gives me personalized speaking practice."
 
-**Response**: "Private tutors are excellent for speaking practice. If budget isn't a concern and you want human conversation, go for it. We're different — unlimited practice for €399 total instead of €40/hour. No scheduling needed. And structured specifically for the inburgering exam, which not all tutors are. If you want both, use us for daily practice and a tutor for occasional human conversation."
+**Response**: "Private tutors are excellent for speaking practice. If budget isn't a concern and you want human conversation, go for it. We're different — unlimited practice for a flat fee (one-time €399, or a monthly/6-month subscription) instead of €40/hour. No scheduling needed. And structured specifically for the inburgering exam, which not all tutors are. If you want both, use us for daily practice and a tutor for occasional human conversation."
 
 ---
 
@@ -673,7 +673,7 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 | Dutch Online | €10 | ~€120 | €120+ | Subscription/Lifetime |
 | InburgeringOnline | €24.95-€34.95 | ~€300 | €210-300 | Subscription |
 | Dutch Ready | Varies | — | €200-400 | Subscription + bundles |
-| **Dutchwithjoost** | **—** | **—** | **€399** | **One-time** |
+| **Dutchwithjoost** | **€39-49** | **—** | **€234-399** | **One-time or subscription** |
 | Dutch First | €119-159 | — | €447-1,428 | Subscription |
 | U of Groningen | — | — | €720 | Per course (20 weeks) |
 
@@ -747,7 +747,7 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 ### What Learners Wish Existed
 - Courses where completion means you can **produce Dutch, not just recognize it** (our positioning)
 - More real production practice, not just exercises
-- Transparent one-time pricing (our model)
+- Transparent pricing with a true one-time option (our model — we also offer monthly/6-month plans)
 - Confidence from active use, not just content completion
 
 ### What Works About Dutchwithjoost (From Co-Founder Testing)
@@ -798,7 +798,7 @@ We lose when the prospect:
 
 3. **"Actually use Dutch after the exam"**: The "pass but can't speak" complaint is documented and real. We position directly against it with a completion standard that requires production.
 
-4. **One-time pricing clarity**: €399 total, paid once — you know exactly what you pay and exactly what "done" means. (Use the one-time-vs-subscription cost contrast in BOFU/comparison content only, never as a billing-complaint attack.)
+4. **Pricing flexibility with a true one-time option**: €399 paid once (no recurring charge), plus a €49/month plan and a €39/month 6-month plan (€234 total, no auto-renew) for lower up-front commitment. Most competitors are subscription-only, so the non-recurring one-time option is the differentiator. (Use cost contrasts in BOFU/comparison content only; because we also run an auto-renewing monthly plan, never contrast on auto-renewal.)
 
 5. **All exam parts in one**: Covers read, listen, write, speak, and KNM together through a unified learn-by-using pedagogy.
 

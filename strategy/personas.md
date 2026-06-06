@@ -324,7 +324,7 @@ These apply across persona combinations:
 
 | What They Say | What They Mean | How to Address |
 |---------------|----------------|----------------|
-| "€399 is a lot of money" | Need to justify expense, may not realize classroom courses cost 5-10x more | Compare to classroom pricing. Show what's included. |
+| "€399 is a lot of money" | Need to justify expense, may not realize classroom courses cost 5-10x more | Compare to classroom pricing. Show what's included. If up-front cost is the blocker, point to the €49/month or €39/month 6-month plan. |
 | "Can I really learn to speak without a real teacher?" | Skeptical about self-paced speaking practice | Explain how speaking practice works. Unlimited and judgment-free — more practice than classroom. |
 | "I prefer learning with other people" | Wants peer pressure and social motivation | Be honest: this isn't for everyone. Classroom provides accountability. Dutchwithjoost requires self-motivation but offers flexibility and more speaking time. |
 | "How do I know it works?" | Limited proof points, early stage | Share origin story. Co-founder built it for her own inburgering. Invite them to be part of building proof. |

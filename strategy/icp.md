@@ -24,7 +24,7 @@
 4. Self-paying — not arranged or funded by the gemeente.
 5. Self-directed — willing to learn at home, on their own schedule, without a fixed classroom.
 
-**Strong-fit signals (sweet spot):** belonging/family motivation over box-ticking; prior-course skepticism (Duolingo didn't transfer, classroom too rigid or expensive); a concrete trigger or deadline; the production gap (understands but freezes); time-constrained; €399 or Klarna installments is not a dealbreaker. See "Buying Signals" below for the observable versions of these.
+**Strong-fit signals (sweet spot):** belonging/family motivation over box-ticking; prior-course skepticism (Duolingo didn't transfer, classroom too rigid or expensive); a concrete trigger or deadline; the production gap (understands but freezes); time-constrained; paying for a course is not a dealbreaker (€399 one-time, a €49/month subscription, or the €39/month 6-month plan; Klarna available). See "Buying Signals" below for the observable versions of these.
 
 **Sharpest acquisition wedge — voluntary naturalisers (with a regulatory caveat).** The cleanest A2-specific demand is **System 2**: people who voluntarily pursue citizenship and must pass the A2 inburgeringsexamen even if never obligated to integrate. Broader than family migrants — it includes everyone exempt from the obligation who later goes for the passport: **work-permit holders (highly-skilled migrants, EU Blue Card, intra-company transferees, self-employed) + dependents, former students who stayed, long-term residents, and Turkish nationals** (exempt from the obligation and from permanent-residence, but **not** for naturalisation).
 
