@@ -101,6 +101,7 @@ We believe real integration is the goal. The exam is a byproduct. We help people
 | Competitor | Name directly? | Key distinction | What to acknowledge |
 |-----------|---------------|-----------------|---------------------|
 | InburgeringOnline | Yes in BOFU | Exam prep focus vs. conversation focus | Track record, comprehensive coverage |
+| AdAppel | Yes in BOFU | Materials + group classes vs. production-as-completion | Trusted in communities, teacher-led materials |
 | Duolingo | Yes | Not designed for inburgering | Habit building, low barrier |
 | Classroom courses | General term OK | Fixed schedule vs. flexible | Human teacher, social environment |
 | ChatGPT/AI | General term OK | Unstructured vs. curriculum | Unlimited practice, free |

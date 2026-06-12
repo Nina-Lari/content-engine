@@ -990,6 +990,7 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 | Competitor | What They Offer | Where They're Strong | Where They're Weak |
 |------------|-----------------|---------------------|-------------------|
 | **InburgeringOnline** | Popular self-paced online course | Well-known, structured, exam-focused | Relies on memorization. Pass and forget. |
+| **AdAppel** | Self-study book, videos, and free resources, plus €399 online A2 group lessons (2x/week, evenings) | Trusted name in inburgering Facebook groups; teacher-led; materials often recommended as "all you need" | Group lessons run at fixed evening times; a materials-and-class model rather than production-as-completion |
 | **Classroom schools** | In-person group classes with teacher | Peer pressure, accountability, human teacher | Expensive, fixed schedule, surprisingly little speaking time |
 | **Virtual classroom schools** | Online group classes via video | More accessible than in-person | Same problems as classroom, even less speaking time |
 | **Private tutors** | 1-on-1 lessons | Maximum speaking practice, personalized | Expensive per hour, not structured for exam content |
@@ -1047,6 +1048,7 @@ We win when someone wants to actually produce Dutch, not just recognize it on a 
 - Learners who learn well by memorizing, just want to pass fast, and don't care about retention → a memorization-based course may suit them better. This isn't universal: for people who hate memorizing or don't retain that way, learning by using the language can be the faster route, not the slower one. Don't assume memorization is faster for everyone.
 - Budget of €0 → self-study with free resources
 - Already at A2, comfortable in basic conversations, and need B1 now → our zero-to-A2 course isn't the right next step (a B1 course is coming soon). A beginner who will eventually need B1 is still a fit — see "B1 learners: who fits and who doesn't."
+- Overwhelmed by work and family and willing to skip the exam → some renew a 5-year residency permit instead of naturalising, dropping the deadline entirely. This is a no-decision alternative, not a competitor: the counter is showing how Dutch fits into a busy life, not adding pressure.
 
 ### Positioning Gaps We Own
 
@@ -1275,6 +1277,24 @@ These are absolute prohibitions when writing about competitors:
 
 **Critical warning:** Do NOT include quotes like "I passed all exams with AI alone" in content. This undermines our positioning.
 
+#### AdAppel
+
+| Do NOT say | Say instead |
+|------------|-------------|
+| "He just promotes in his own Facebook group" | Do not say (judgmental about their distribution) |
+| "Old book-and-video approach" | "Book, video, and group-lesson format" |
+| "Group classes give you no speaking time" | "Speaking time in group lessons is shared among students" |
+| "Just another classroom course" | "Teacher-led group lessons plus self-study materials" |
+| "Their materials are basic" | Do not say (judgmental) |
+
+**When to mention:**
+
+| Content type | Mention by name? | How to frame |
+|--------------|------------------|--------------|
+| Comparison article | Yes | Neutral side-by-side: materials + group classes vs. self-paced production-as-completion |
+| "Best inburgering courses" roundup | Yes | As one option among several |
+| Thought leadership | No | Do not mention competitors |
+
 ### Handling Common Competitor Questions
 
 **"Is InburgeringOnline good?"**
@@ -1333,11 +1353,22 @@ These facts must be verified on competitor websites before publishing. Prices an
 | Conversation ability | Yes (unlimited) |
 | Dutch accuracy | Generally good, occasional errors |
 
+**AdAppel:**
+
+| Fact | Value | Verification needed? |
+|------|-------|---------------------|
+| Website | adappel.nl | Verified (community reference) |
+| Offerings | Self-study book, videos, and free resources, plus online A2 group lessons | Check website before publishing |
+| Group lesson price | €399 for the online A2 group course (2x/week, evenings) — per a June 2026 community post | Verify on website; prices change |
+| Method | Teacher-led materials and group classes | Verify |
+| Distribution | Active and trusted in inburgering Facebook communities | Context note (internal, not for content) |
+
 ### Quick Reference: Per-Competitor Summary
 
 | Competitor | Name directly? | Key distinction | What to acknowledge |
 |------------|----------------|-----------------|---------------------|
 | InburgeringOnline | Yes in comparison content | Exam prep focus vs. conversation focus | Track record, comprehensive coverage |
+| AdAppel | Yes in comparison content | Materials + group classes vs. production-as-completion | Trusted in communities, teacher-led materials |
 | Duolingo | Yes | Not designed for inburgering | Habit building, low barrier |
 | Classroom courses | General term OK | Fixed schedule vs. flexible | Human teacher, social environment |
 | ChatGPT/AI | General term OK | Unstructured vs. curriculum | Unlimited practice, free |

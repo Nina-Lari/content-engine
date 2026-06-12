@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "topic_id": "where-to-start-inburgering-a2",
+    "priority_score": 6.5,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 2200,
+    "estimated_effort": "3-4 hours",
+    "youtube_companion": true,
+    "play_type": "ai-citation"
+  },
+  "keyword": {
+    "primary": "where to start preparing for the inburgering A2 exam",
+    "variants": [
+      "how to start inburgering A2 exam",
+      "inburgering A2 exam for beginners",
+      "how to prepare for inburgering exam from scratch",
+      "inburgering exam where to begin",
+      "A2 inburgering study plan"
+    ],
+    "searcher_intent": "A near-beginner who knows they have to pass the A2 inburgering exam but is staring at five separate parts with no idea what to do first. They want a calm, ordered plan they can start today, especially around a job or family."
+  },
+  "audience": {
+    "persona": "Overwhelmed beginner at the very start of A2 prep, often a full-time worker or parent with little study time (all motivation patterns)",
+    "industry_focus": null,
+    "pain_summary": "They do not know where to begin. The exam has multiple parts, the official information is dense, and every forum reply lists a different resource. The overwhelm itself stops them from starting, and they have limited time and energy to figure it out.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "The orientation guide that turns five intimidating exam parts into one ordered, time-aware roadmap a beginner can start today. Most starter content either dumps the official requirements or sells a course immediately. This sequences the work by difficulty and dependency, and it makes one quiet but important correction to the common community advice: do not leave speaking until last. Leaving production to the end is exactly what causes people to fail the speaking exam after passing everything else. Build a little speaking in from week one.",
+  "thesis_sentence": "You do not need to do everything at once; start by building everyday vocabulary, take the parts in a sensible order from most approachable to hardest, and practice speaking from the beginning instead of saving it for the end.",
+  "outline": [
+    {
+      "section": "What the A2 inburgering exam actually involves",
+      "notes": "Lay out the parts in plain language so the reader sees the whole map: reading (lezen), listening (luisteren), writing (schrijven), speaking (spreken), and KNM (knowledge of Dutch society), noting ONA where relevant. Keep it brief and non-intimidating. This is the orientation the 'I don't know where to start' searcher is missing.",
+      "word_target": 350,
+      "evidence_needed": "VERIFY current exam components and naming against DUO, including whether ONA applies to the reader's situation. Do not state requirements that vary by route as universal (see factual-accuracy-checklist)."
+    },
+    {
+      "section": "Start here: build everyday vocabulary first",
+      "notes": "Vocabulary is the foundation every other part rests on. Advise starting with high-frequency daily words rather than long thematic lists. This is genuinely useful regardless of method. Link to the companion vocabulary article for depth. Set a realistic daily target.",
+      "word_target": 350,
+      "evidence_needed": "Community lexicon ('daily usage words', 'hard to pass without vocabulary') anonymized. Internal-link to how-many-words-pass-a2-inburgering."
+    },
+    {
+      "section": "A sensible order for the five parts",
+      "notes": "Give the ordering: reading and listening tend to be the most approachable entry points and build comprehension; KNM can run alongside; writing and speaking are production-heavy and hardest. Present this as a reasonable default, not a rule. Then make the key correction: weave speaking practice in from the start so it is not a cliff at the end.",
+      "word_target": 450,
+      "evidence_needed": "Community-sourced study order (anonymized: 'reading first, then listening and KNM, writing and speaking last'). Persona production-gap rationale for not deferring speaking. Cross-link to the why-failing-speaking-exam article as the cautionary case."
+    },
+    {
+      "section": "How to fit this around a full-time job or kids",
+      "notes": "Acknowledge the real constraint without platitudes. Offer concrete, course-agnostic tactics drawn from how busy learners actually cope: short daily sessions, study before the household wakes, lunch-break practice, passive immersion (Dutch audio, subtitles) layered onto existing routines. Keep advice honest and broadly applicable. This section connects to the busy-parent and irregular-schedule topics; link, do not duplicate.",
+      "word_target": 400,
+      "evidence_needed": "Anonymized community tactics (micro-habits, early-morning study, lunch sessions). Internal-link to learn-dutch-as-a-busy-parent / learn-dutch-irregular-schedule. NO pricing (TOFU)."
+    },
+    {
+      "section": "Do you need a course, or can you self-study?",
+      "notes": "Honest decision help. Self-study with free and official resources can work for disciplined learners; a structured course removes the 'what do I do next' load and provides speaking practice that is hard to self-generate. Present the trade-off fairly per the advice-section test. Weave the guided-structure value prop as undercurrent, not a pitch. No pricing here; route price-seekers to the dedicated cost article.",
+      "word_target": 400,
+      "evidence_needed": "Competitive-landscape: self-study strengths/weaknesses, what structured courses add. Product mechanism: guided structure removes lesson-planning load ('It's just guided'). Internal-link to a cost/comparison article for price. Keep criteria useful even if reader picks a competitor."
+    },
+    {
+      "section": "Your first week: a starting checklist",
+      "notes": "End with momentum: a concrete, low-pressure first-week plan (set a daily vocab target, pick one reading and one listening resource, say a few sentences out loud each day, schedule a fixed 15-minute slot). The point is to make starting feel possible. AEO-friendly, skimmable.",
+      "word_target": 250,
+      "evidence_needed": "Synthesize from prior sections; nothing new to verify. Keep it action-oriented."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "Self-contained answers: what order to study, how long A2 prep takes, whether you need a course, where the official practice exams are. AEO-targeted.",
+      "word_target": 250,
+      "evidence_needed": "VERIFY typical timeline claims and official DUO practice-exam availability before publishing."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Paralyzed by not knowing what to do first across five exam parts",
+      "prop": "A guided structure removes the cognitive load of planning your own study path",
+      "proof": "Co-founder testing: 'I don't have to think about what do I do now. It's just guided.' (verify against proof-library)"
+    },
+    {
+      "pain": "Leaving speaking until the end and then failing it",
+      "prop": "Building production from the start means speaking is never a cliff at the end",
+      "proof": "Product mechanism: lessons complete on using the words in conversation, so speaking is practiced throughout, not bolted on last"
+    },
+    {
+      "pain": "No time or energy to study after work and family",
+      "prop": "Self-paced, short sessions fit into the margins of a full day",
+      "proof": "Persona schedule-constraint fit: 15 minutes or two hours, on your own schedule, at home"
+    }
+  ],
+  "originality_nuggets": [
+    "The single most useful correction to popular forum advice: the common 'reading first, speaking last' order quietly sets beginners up for the repeat-speaking-failure trap; building a little production from week one is the fix.",
+    "Treat the overwhelm itself as the first obstacle to remove, not just the exam content; a beginner who can start today beats a perfect plan they never begin.",
+    "Frame vocabulary as the dependency that everything else rests on, and high-frequency daily words as the highest-leverage starting point, drawn from how learners who passed describe their own start."
+  ],
+  "seo": {
+    "title_tag": "Where to Start: A2 Inburgering Exam Roadmap",
+    "meta_description": "New to the A2 inburgering exam and not sure where to begin? A calm, step-by-step roadmap for the five parts, built to fit around a full life.",
+    "url_slug": "where-to-start-inburgering-a2"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Where do I start preparing for the A2 inburgering exam?",
+    "definition_paragraph": "Start by building everyday Dutch vocabulary, then take the five exam parts in order from most approachable to hardest: reading and listening first, knowledge of Dutch society (KNM) alongside, and writing and speaking last. Importantly, practice speaking a little from the very beginning rather than saving it for the end, because leaving production until last is the most common reason people fail the speaking exam after passing everything else.",
+    "faq_questions": [
+      "What parts are in the A2 inburgering exam?",
+      "What order should I study the inburgering exam parts in?",
+      "How long does it take to prepare for the A2 inburgering exam?",
+      "Do I need a course to pass the inburgering exam?",
+      "Where can I find official inburgering practice exams?"
+    ]
+  }
+}

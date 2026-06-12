@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "topic_id": "how-many-words-pass-a2-inburgering",
+    "priority_score": 6.3,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 1800,
+    "estimated_effort": "2-4 hours",
+    "youtube_companion": true,
+    "play_type": "ai-citation"
+  },
+  "keyword": {
+    "primary": "how many words do you need to pass the A2 inburgering exam",
+    "variants": [
+      "how many Dutch words for A2",
+      "A2 Dutch vocabulary size",
+      "how many words to pass inburgering",
+      "Dutch vocabulary needed for inburgering exam",
+      "how many words to learn for A2 Dutch"
+    ],
+    "searcher_intent": "A learner, often with a deadline and limited time, who wants a target number so they know how big the job is. Underneath the number question is real anxiety: 'is this achievable in the time I have?'"
+  },
+  "audience": {
+    "persona": "Beginner with low vocabulary and a deadline (e.g. around 100 words known with the exam weeks away); full-time workers and parents across all motivation patterns",
+    "industry_focus": null,
+    "pain_summary": "They have heard you cannot pass without vocabulary and want to know how many words is enough. They may know only a hundred words with a deadline looming, and they need both a realistic target and a way to learn that does not mean drowning in flashcards they will forget.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Answer the number honestly up front (readers came for it), then make the more useful point: the count matters far less than which words and whether you can actually produce them. A smaller set of high-frequency, daily-use words you can speak beats a large passive list you only recognize. This reframes a quantity question into a quality-and-usage question, which is where the reader's real risk lives, and it is exactly the gap that trips people up in the speaking and writing parts.",
+  "thesis_sentence": "A2 needs roughly a low-thousands vocabulary, but the number is the least important part of the answer: passing depends on knowing the right high-frequency everyday words and being able to use them, not on the size of a list you can only recognize.",
+  "outline": [
+    {
+      "section": "The short answer",
+      "notes": "Give the number range immediately for AEO and reader trust, with an honest caveat that estimates vary and the exam does not test a fixed word count. Then pivot to the thesis: the count is a starting frame, not the goal. Open with the answer, no throat-clearing.",
+      "word_target": 250,
+      "evidence_needed": "VERIFY the A2 vocabulary range against CEFR / named language-learning sources before publishing (commonly cited figures exist but must be checked and attributed). Do not state a precise number as fact without a source. Cap academic citations at 1-2."
+    },
+    {
+      "section": "Why the number matters less than you think",
+      "notes": "The core reframe. Two learners with the same word count perform very differently depending on whether those words are high-frequency and whether they can produce them. Recognition (seeing a word and knowing it) is easier than production (recalling and using it), and the exam's speaking and writing parts test production. This connects vocabulary directly to the production gap.",
+      "word_target": 400,
+      "evidence_needed": "Persona production-gap framing. Optional single academic anchor on production vs recognition (the Hopman & MacDonald reference in the knowledge base) used sparingly per the citation cap."
+    },
+    {
+      "section": "Which words to learn first",
+      "notes": "Practical and course-agnostic: prioritize high-frequency daily-life vocabulary (the words the exam scenarios actually use) over thematic breadth. Give categories or examples of daily-use domains. This is the 'daily usage words' insight made actionable, and it is useful no matter what tool the reader uses.",
+      "word_target": 350,
+      "evidence_needed": "Anonymized community advice ('learn the daily usage words', 'set a daily word target'). Keep recommendations applicable to free resources, Anki, or any course, per the advice-section test."
+    },
+    {
+      "section": "How to learn words so they stick (and so you can use them)",
+      "notes": "Method, not just targets. Learn words in context and sentences rather than isolated lists; test yourself by producing, not just recognizing; reuse words in speaking and writing. Weave the learn-by-using value prop as undercurrent here, and follow the specificity rule strictly: describe how OUR course is designed (a word counts when you have used it), not as a universal requirement everyone must meet.",
+      "word_target": 400,
+      "evidence_needed": "Product mechanism: words learned in context, lesson completes on use-in-conversation. Phrase as 'Dutchwithjoost is designed so...' NOT 'effective learning requires...'. proof-library/product-design-evidence.md. NO pricing (MOFU)."
+    },
+    {
+      "section": "If you are short on time before the exam",
+      "notes": "Speak to the deadline reader directly with realistic, honest guidance: focus on the highest-frequency words and the parts where vocabulary pays off fastest, and be candid that cramming a passive list rarely survives the speaking part. Avoid false reassurance. Keep it genuinely helpful.",
+      "word_target": 250,
+      "evidence_needed": "Community deadline case (anonymized, e.g. limited vocabulary weeks before the exam). Do not promise outcomes or timelines you cannot support."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "Self-contained AEO answers: the number question, recognize-vs-use, how many words per day, whether flashcards are enough.",
+      "word_target": 200,
+      "evidence_needed": "Reuse verified figures from the short-answer section; keep answers consistent with the body. No new unverified claims."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Memorized word lists that did not stick and could not be used in conversation",
+      "prop": "Learning words in context and using them means they stay with you and become usable",
+      "proof": "Co-founder testing: 'The words that you learn you use... it helps me communicate' (verify against proof-library)"
+    },
+    {
+      "pain": "A big passive vocabulary that still collapses in the speaking and writing parts",
+      "prop": "A completion standard based on using words turns recognition into production",
+      "proof": "Product mechanism: in our course a word counts once you have used it in conversation (state as our design, not a universal rule)"
+    },
+    {
+      "pain": "Overwhelmed by how many words there seem to be",
+      "prop": "Focusing on high-frequency daily words shrinks the job to what actually appears on the exam",
+      "proof": "Persona lexicon: learners who passed describe targeting 'daily usage words' rather than exhaustive lists"
+    }
+  ],
+  "originality_nuggets": [
+    "Reframe the most-Googled version of the question (a number) into the one that predicts passing (which words, and can you produce them); few competitors resist just quoting a figure.",
+    "Tie vocabulary size directly to the speaking-exam failure pattern: a passive list is the hidden reason a well-prepared reader still fails spreken.",
+    "Make the recognition-vs-production distinction concrete at the word level, which most 'how many words' articles never do."
+  ],
+  "seo": {
+    "title_tag": "How Many Words to Pass the A2 Inburgering Exam?",
+    "meta_description": "How many Dutch words do you need for the A2 inburgering exam? The honest answer, and why which words you learn matters far more than the count.",
+    "url_slug": "how-many-words-pass-a2-inburgering"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How many words do you need to pass the A2 inburgering exam?",
+    "definition_paragraph": "Reaching A2 Dutch generally means a working vocabulary in the low thousands of words, but the inburgering exam does not test a fixed count. What decides whether you pass is knowing the right high-frequency, everyday words and being able to use them in speech and writing, not the raw size of a list you can only recognize.",
+    "faq_questions": [
+      "How many Dutch words do you need for A2?",
+      "Does the inburgering exam test a fixed number of words?",
+      "How many new Dutch words should I learn a day?",
+      "Are flashcards enough to pass the inburgering vocabulary?"
+    ]
+  }
+}

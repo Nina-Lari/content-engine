@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "topic_id": "why-failing-inburgering-speaking-exam",
+    "priority_score": 8.2,
+    "stage": "mofu",
+    "format": "how-to",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours",
+    "youtube_companion": true,
+    "play_type": "ai-citation"
+  },
+  "keyword": {
+    "primary": "why do I keep failing the inburgering speaking exam",
+    "variants": [
+      "keep getting a 5 on inburgering speaking exam",
+      "failed inburgering spreken exam multiple times",
+      "why did I fail the inburgering speaking exam",
+      "inburgering speaking exam retake",
+      "A2 spreken exam keep failing"
+    ],
+    "searcher_intent": "They have already failed the speaking exam at least once, often several times, and want to know what is actually going wrong and what to change before the next attempt. They are frustrated, not curious."
+  },
+  "audience": {
+    "persona": "Repeat speaking-exam failure stuck in the production gap (Pattern A Partner Visa, Pattern D Long-term Resident) and voluntary naturalisation seekers who have passed the other parts",
+    "industry_focus": null,
+    "pain_summary": "They keep getting a 5 on the spreken exam, sometimes three to six times, despite passing reading, listening, writing, and KNM. The grade gives no explanation, results take weeks, and they cannot tell whether the problem is grammar, pronunciation, or nerves. They feel the exam is 'easy' yet they cannot pass it.",
+    "awareness_level": "problem-aware to solution-aware"
+  },
+  "angle": "Reframe repeated failure from 'I am not good enough at Dutch' to 'I have prepared for the wrong skill.' The speaking exam tests live production under time pressure, and most prep trains recognition (reading and listening drills, memorized answers). Someone can know the words cold and still freeze when they have to produce a sentence on the spot. This is a diagnostic piece: name the specific failure patterns behind a repeated 5, then prescribe the one thing that fixes them, which is rehearsing real speech out loud before exam day. It must stay genuinely useful even for a reader who never buys a course.",
+  "thesis_sentence": "If you keep getting a 5 on the spreken exam, the problem is almost never that you do not know enough Dutch; it is that you have practiced recognizing Dutch instead of producing it out loud, and production is the only thing the speaking exam actually measures.",
+  "outline": [
+    {
+      "section": "If you keep getting a 5, you are not bad at Dutch",
+      "notes": "Open on the insight, not setup. Validate the experience directly: passing every other part but failing speaking, sometimes repeatedly, is a documented and common pattern. Name the emotional reality (it feels arbitrary and demoralizing) without wallowing. State the thesis: the gap is production, not knowledge. Anonymize the community evidence per citation standards.",
+      "word_target": 250,
+      "evidence_needed": "Anonymized community pattern ('many learners report getting the same score several times in a row'). Persona production-gap framing. Do NOT cite Facebook or name individuals."
+    },
+    {
+      "section": "What a 5 actually means (and what it does not tell you)",
+      "notes": "Explain the scoring reality plainly: the grade is pass/fail-adjacent with little diagnostic feedback, which is exactly why repeated failure feels mysterious. Set expectations on result wait times and the one-attempt-at-a-time registration constraint so the reader stops blaming themselves for the opacity. Keep it factual and calm.",
+      "word_target": 250,
+      "evidence_needed": "VERIFY against DUO: spreken scoring scale, what a passing score is, typical result timelines, and registration rules (whether you can book a second attempt before results). Flag any unverified claim; do not invent specifics."
+    },
+    {
+      "section": "The four reasons people fail the speaking exam repeatedly",
+      "notes": "The diagnostic core. Cover: (1) Recognition-trained, production-untested: prepped with reading/listening/memorization but rarely spoke out loud. (2) Freezing under time pressure: knows the answer but cannot assemble it fast enough. (3) Grammar breaking down in real time: word order and verb conjugation collapse when speaking unrehearsed. (4) Pronunciation and intelligibility, not vocabulary. For each, describe the symptom so the reader can self-diagnose which one is theirs.",
+      "word_target": 550,
+      "evidence_needed": "Persona barrier profiles (production gap, shame cycle). Community-validated symptoms (anonymized). The 'it's mostly grammar, use short sentences' tactic surfaced by learners is a legitimate exam-strategy note, present it as such."
+    },
+    {
+      "section": "The fix: rehearse speaking before the exam, not just review",
+      "notes": "The prescription. The only reliable fix is producing spoken Dutch repeatedly before exam day so the reflex exists under pressure. Concrete, course-agnostic advice: speak out loud daily even alone; rehearse answering common prompt types within the time limit; get pronunciation feedback from a person or tool; use short, complete sentences as a deliberate strategy. This advice must pass the advice-section test: useful even if they choose a competitor or free resources.",
+      "word_target": 450,
+      "evidence_needed": "Community recommendation that practicing pronunciation with someone helped (anonymized). Persona: level-matched, judgment-free practice. Keep advice genuinely multi-option."
+    },
+    {
+      "section": "How to prepare differently for your next attempt",
+      "notes": "A short, practical pre-attempt plan: simulate the exam format and timing, practice producing not just recognizing, target the specific failure pattern they identified earlier. This is where the learn-by-using value prop is woven in as undercurrent (not a sales section): a method where a lesson is only complete once you have used the words in conversation builds exactly the production reflex the exam tests. Feature to benefit to proof. No pricing.",
+      "word_target": 350,
+      "evidence_needed": "proof-library product mechanism: lesson completes on use-in-conversation; Joost replies at the lesson's level. One early-learner experience point if available. NO price mentions (MOFU)."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "Concise, self-contained answers for AEO. Include the retake question, the exemption question (link to the exemption article), the 'is it graded on grammar' question, and the results-timing question.",
+      "word_target": 250,
+      "evidence_needed": "VERIFY retake limits, exemption existence/criteria, and grammar weighting against DUO before publishing. Internal-link the exemption FAQ answer to the exemption article."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Prepared by reading and memorizing, then froze and failed when asked to speak",
+      "prop": "Learning by using the language builds the reflex to produce Dutch, not just recognize it",
+      "proof": "Product mechanism: a lesson is only complete once you have used the new words in conversation, so production is trained from the start (verify against proof-library/product-design-evidence.md)"
+    },
+    {
+      "pain": "No one to rehearse speaking with at the right level before the exam",
+      "prop": "Unlimited, judgment-free speaking practice at your current level, on your own schedule",
+      "proof": "Joost replies at the lesson's difficulty level rather than native-speed Dutch (co-founder testing: 'He's not gonna use C2 level Dutch to reply to you')"
+    },
+    {
+      "pain": "Practicing in front of people is stressful, so they avoid it and stay unprepared",
+      "prop": "Private practice removes the fear of being judged, so you actually rehearse out loud",
+      "proof": "Persona shame-cycle barrier: judgment-free practice breaks the avoidance loop"
+    }
+  ],
+  "originality_nuggets": [
+    "Repeated failure on a single component (speaking) while passing all others is the clearest real-world signature of the recognition-vs-production gap; most guides treat the speaking exam as a first-timer topic and never address the repeat-failure case.",
+    "Learners themselves have reverse-engineered a tactic of using deliberately short sentences to reduce grammar errors; acknowledging this honestly (it works as a stopgap) builds credibility while pointing to the deeper fix.",
+    "The opacity of the grade plus long result waits manufactures self-blame; naming this explicitly relieves the reader and differentiates from generic 'tips' content."
+  ],
+  "seo": {
+    "title_tag": "Why You Keep Failing the Inburgering Speaking Exam",
+    "meta_description": "Keep getting a 5 on the inburgering spreken exam? Here is what is actually going wrong, why it happens, and how to prepare so you pass next time.",
+    "url_slug": "why-failing-inburgering-speaking-exam"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Why do I keep failing the inburgering speaking exam?",
+    "definition_paragraph": "Most people who repeatedly fail the inburgering speaking exam know enough Dutch to pass; they fail because their preparation trained recognition (reading, listening, and memorizing answers) rather than live production. The spreken exam measures whether you can produce spoken Dutch under time pressure, so the fix is rehearsing real speech out loud before exam day, not more silent review.",
+    "faq_questions": [
+      "Why do I keep getting a 5 on the speaking exam?",
+      "How many times can you retake the inburgering speaking exam?",
+      "Is the inburgering speaking exam graded on grammar?",
+      "Can you get an exemption from the speaking exam?",
+      "How long do inburgering speaking exam results take?"
+    ]
+  }
+}

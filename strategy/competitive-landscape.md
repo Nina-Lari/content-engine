@@ -86,6 +86,7 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 | **IAmExpat.nl** | InburgeringOnline (sponsored), classroom directory | Major expat portal, paid placements |
 | **DutchReview.com** | InburgeringOnline (affiliate), Koentact | Content marketing / affiliate revenue |
 | **Expat.com forums** | InburgeringOnline for online, classroom for accountability | Peer recommendations |
+| **Inburgering Facebook groups** | AdAppel (book/videos + group lessons), InburgeringOnline | Strong community word-of-mouth; one large group is run by Ad Appel himself |
 | **Reddit r/learndutch** | Duolingo, free resources, AI tools (ChatGPT/Gemini) | No paid courses in sidebar — see below |
 | **Reddit r/Netherlands** | Mixed opinions, self-study vs classroom debate | Less commercial, more honest |
 | **Word of mouth** | Koentact for classroom, InburgeringOnline for online | Partner visa holders ask Dutch partners |
@@ -665,6 +666,52 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 
 ---
 
+## Competitor 12: AdAppel
+
+### Company and Product
+
+- **Website**: adappel.nl
+- **Product**: Self-study materials (book, videos, free resources) plus teacher-led online A2 group lessons
+- **Market position**: A trusted, community-embedded name in inburgering Facebook groups
+- **Distribution note (internal)**: One large inburgering Facebook group is managed by Ad Appel himself, who posts course offers directly to members. Verify pricing and schedule on the website before publishing.
+
+### Pricing
+
+> **Note:** From a June 2026 community post. Verify on adappel.nl before publishing; prices change.
+
+| Offering | Price | Notes |
+|----------|-------|-------|
+| Online A2 group lessons | €399 | 2x/week, evenings |
+| Book / videos / free resources | Not public | Self-study materials |
+
+### Features
+
+- Self-study book and video materials
+- Free resources used widely by self-preppers
+- Teacher-led online group lessons (A2), scheduled evenings
+- Strong word-of-mouth in inburgering communities
+
+### Strengths (Be Honest)
+
+1. **Community trust** — Frequently recommended in Facebook groups; members describe the book and videos as "all you need."
+2. **Teacher-led** — A real instructor behind the materials and group lessons.
+3. **Materials plus class option** — Learners can self-study with the materials or join structured group lessons.
+4. **Distribution** — An active presence where ICP learners already gather and ask for recommendations.
+
+### Weaknesses (Where We Genuinely Differ)
+
+1. **Group lessons run at fixed evening times.** This reintroduces scheduling friction for shift workers, parents, and people with irregular hours.
+2. **Shared speaking time.** In a group lesson, speaking time is divided among students.
+3. **Materials-and-class completion.** Progress comes from working through materials and attending lessons, not from a completion standard that requires producing the language in conversation.
+
+### When They're in the Deal
+
+**Objection**: "People in my Facebook group keep recommending AdAppel."
+
+**Response**: "AdAppel is well-trusted in those communities, and the materials and group lessons help a lot of people. The group lessons run at set evening times and speaking time is shared across the class. We're built differently: self-paced so you fit it around work and family, with unlimited speaking practice and lessons that complete only when you can use the words in conversation. If a teacher-led group on a fixed schedule suits you, AdAppel is a solid choice."
+
+---
+
 ## Competitive Pricing Matrix
 
 ### Self-Paced Online Courses
@@ -675,6 +722,7 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 | InburgeringPrep | €9.99 (free tier) | €79 | €80-120 | Subscription |
 | Dutch Online | €10 | ~€120 | €120+ | Subscription/Lifetime |
 | InburgeringOnline | €24.95-€49.95 | ~€300 | €210-300 | Subscription |
+| AdAppel | — | — | €399 (group lessons) | Materials + online group lessons |
 | Dutch Ready | Varies | — | €200-400 | Subscription + bundles |
 | **Dutchwithjoost** | **€39-49** | **—** | **€234-399** | **One-time or subscription** |
 | Dutch First | €119-159 | — | €447-1,428 | Subscription |
@@ -790,6 +838,7 @@ We lose when the prospect:
 - Has €0 budget → self-study or InburgeringPrep free tier
 - Already at A2, comfortable in basic conversations, and needs B1 now → our zero-to-A2 course isn't the right next step (a dedicated B1 course is coming soon). A beginner who will eventually need B1 is still a fit.
 - Wants the absolute cheapest option → Inburgering.org at €4.99/month
+- Is overwhelmed by work and family and willing to skip the exam → some renew a 5-year residency permit instead of naturalising, dropping the deadline entirely. This is a no-decision alternative, not a competitor: the counter is showing how Dutch fits into a busy life, not adding pressure.
 
 ---
 
@@ -827,6 +876,7 @@ We lose when the prospect:
 
 ### Self-Paced Online Courses
 - https://www.inburgeringonline.nl/en
+- https://www.adappel.nl
 - https://inburgering.org
 - https://inburgeringprep.com
 - https://www.dutch-online.com
@@ -866,4 +916,4 @@ We lose when the prospect:
 
 ---
 
-*Last updated: May 2026*
+*Last updated: June 2026*

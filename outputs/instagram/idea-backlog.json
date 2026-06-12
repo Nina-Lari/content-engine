@@ -1,0 +1,109 @@
+{
+  "generated_date": "2026-06-12",
+  "intelligence_sources": [
+    "customer-intelligence/insights/alysa_2026-05-30_insights.json",
+    "customer-intelligence/insights/anna_2026-05-30_insights.json",
+    "customer-intelligence/insights/facebook-groups-inburgering_2026-06-11_insights.json",
+    "customer-intelligence/insights/molly_2026-05-30_insights.json",
+    "customer-intelligence/insights/monika_2026-05-30_insights.json",
+    "customer-intelligence/insights/nina_2026-05-28_insights.json",
+    "outputs/articles/passed-inburgering-cant-speak-dutch",
+    "outputs/articles/how-to-practice-dutch-speaking-alone",
+    "outputs/briefs/why-failing-inburgering-speaking-exam_brief.json",
+    "outputs/briefs/where-to-start-inburgering-a2_brief.json",
+    "outputs/briefs/how-many-words-pass-a2-inburgering_brief.json"
+  ],
+  "packs": [
+    {
+      "pack_id": "switch-to-english",
+      "situation": "When a Dutch person switches to English the moment you try to speak Dutch",
+      "persona": "Belonging-motivated expat stuck in the Shame Cycle (Monika, Molly, Nina)",
+      "priority": "high",
+      "priority_reason": "Deepest, most-repeated emotional pain across the interviews; highly relatable and shareable, strong send potential",
+      "posts": [
+        {"post_id": "switch-to-english-reel", "type": "scenario-reel", "hook": "When they switch to English, say this", "angle": "Learner tries Dutch, the other person flips to English; learner uses one calm line to keep it in Dutch while Joost slows down and stays in Dutch", "source": "barrier: Shame Cycle; monika 'people instantly switch to English'", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-15_scenario-reel_switch-to-english.md"},
+        {"post_id": "switch-to-english-cheatsheet", "type": "cheatsheet", "hook": "5 polite ways to keep them speaking Dutch to you", "angle": "Exact phrases to ask someone to stay in Dutch and slow down, without it being awkward", "source": "monika, molly quotes", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-16_cheatsheet_keep-them-in-dutch.md"},
+        {"post_id": "switch-to-english-quiz", "type": "quiz", "hook": "They just switched to English on you. What now?", "angle": "Three realistic responses; ask 'has this happened to you and what did you actually say?' to pull sentence-length comments", "source": "barrier: Shame Cycle", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-18_quiz_switched-to-english.md"},
+        {"post_id": "switch-to-english-remix", "type": "article-remix", "hook": "Why people keep switching to English on you (and how to break the loop)", "angle": "Pull the shame-cycle angle from the article into a short reel; transform, do not paste", "source": "outputs/articles/passed-inburgering-cant-speak-dutch", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-19_article-remix_why-they-switch.md"}
+      ]
+    },
+    {
+      "pack_id": "a2-speaking-exam",
+      "situation": "The A2 inburgering speaking exam (spreken): why people keep getting a 5",
+      "persona": "Inburgering candidate with exam anxiety + Production Gap (Facebook groups, Nina)",
+      "priority": "high",
+      "priority_reason": "The dominant blocker for the core inburgering buyer; aligns with an existing article/brief; high search intent",
+      "posts": [
+        {"post_id": "a2-speaking-exam-reel", "type": "scenario-reel", "hook": "Why you keep failing the A2 speaking exam", "angle": "Candidate over-complicates an answer and stumbles, then uses short correct sentences and gets through; Joost guides. Frame the exam as 'challenging for many', never 'the hardest'", "source": "facebook 'mostly grammar, short sentences to avoid mistakes'", "on_theme": true, "status": "idea"},
+        {"post_id": "a2-speaking-exam-cheatsheet", "type": "cheatsheet", "hook": "Short Dutch sentences that get you through spreken", "angle": "Safe, simple sentence frames that avoid grammar traps under time pressure", "source": "facebook quote on short sentences", "on_theme": true, "status": "idea"},
+        {"post_id": "a2-speaking-exam-quiz", "type": "quiz", "hook": "Two answers to the same exam question. Which is safer?", "angle": "A long risky answer vs a short clean one; ask 'which would you say, and why?'", "source": "facebook spreken discussion", "on_theme": true, "status": "idea"},
+        {"post_id": "a2-speaking-exam-remix", "type": "article-remix", "hook": "The real reason the speaking exam trips people up", "angle": "Pull one angle from the speaking-exam brief into a reel or carousel", "source": "outputs/briefs/why-failing-inburgering-speaking-exam_brief.json", "on_theme": true, "status": "idea"}
+      ]
+    },
+    {
+      "pack_id": "the-supermarket",
+      "situation": "Getting through the supermarket checkout in Dutch without switching to English",
+      "persona": "Integration-motivated expat with Production Gap (Molly)",
+      "priority": "high",
+      "priority_reason": "Universal daily situation, easy to film, broad top-of-funnel appeal and save value",
+      "posts": [
+        {"post_id": "the-supermarket-reel", "type": "scenario-reel", "hook": "Get through the Dutch checkout without freezing", "angle": "Joost as the cashier runs the usual checkout questions (bonuskaart, pinnen, bonnetje, tasje); shopper answers each one", "source": "molly 'so I don't have to switch to English in grocery stores'", "on_theme": true, "status": "idea"},
+        {"post_id": "the-supermarket-cheatsheet", "type": "cheatsheet", "hook": "8 things the cashier asks (and what to say back)", "angle": "The exact checkout phrases and your one-line answers", "source": "molly; lexicon 'get by'", "on_theme": true, "status": "idea"},
+        {"post_id": "the-supermarket-quiz", "type": "quiz", "hook": "The cashier asks 'Wilt u de bon?' What now?", "angle": "Three answers; ask 'what do you always say at the checkout?'", "source": "molly", "on_theme": true, "status": "idea"},
+        {"post_id": "the-supermarket-remix", "type": "article-remix", "hook": "Rehearse the checkout out loud before you go", "angle": "Off-theme flex: pull the 'practice speaking alone' angle and tie it to rehearsing one real situation", "source": "outputs/articles/how-to-practice-dutch-speaking-alone", "on_theme": false, "status": "idea"}
+      ]
+    },
+    {
+      "pack_id": "the-doctor",
+      "situation": "Calling or visiting the huisarts (doctor) in Dutch without freezing",
+      "persona": "Integration-motivated expat with Production Gap (Monika)",
+      "priority": "medium",
+      "priority_reason": "Concrete, named situation with real stakes; strong save value, slightly narrower than supermarket",
+      "posts": [
+        {"post_id": "the-doctor-reel", "type": "scenario-reel", "hook": "How to call the Dutch doctor without freezing", "angle": "Phone call to the huisarts; Joost as receptionist asks the standard questions; learner books an appointment", "source": "monika 'calling the doctor without freezing'", "on_theme": true, "status": "idea"},
+        {"post_id": "the-doctor-cheatsheet", "type": "cheatsheet", "hook": "Booking a doctor's appointment in Dutch: the exact lines", "angle": "Phrases for making the appointment and describing what is wrong", "source": "monika", "on_theme": true, "status": "idea"},
+        {"post_id": "the-doctor-quiz", "type": "quiz", "hook": "The receptionist asks 'Waar heeft u last van?'", "angle": "What is she asking and how would you answer; ask people to reply with their own answer", "source": "monika", "on_theme": true, "status": "idea"},
+        {"post_id": "the-doctor-remix", "type": "article-remix", "hook": "Why you understand Dutch but freeze when you speak", "angle": "Off-theme flex: production-gap angle, transformed into a short carousel", "source": "outputs/articles/passed-inburgering-cant-speak-dutch", "on_theme": false, "status": "idea"}
+      ]
+    },
+    {
+      "pack_id": "where-to-start-a2",
+      "situation": "Total beginner overwhelmed by the inburgering exam: where do I even start?",
+      "persona": "Work-visa procrastinator / overwhelmed beginner with Schedule Constraints (Facebook groups, Pattern B)",
+      "priority": "medium",
+      "priority_reason": "Strong top-of-funnel beginner magnet; aligns with two existing briefs; slightly less scene-driven for the reel",
+      "posts": [
+        {"post_id": "where-to-start-a2-reel", "type": "scenario-reel", "hook": "Starting Dutch from zero? Do this first", "angle": "Overwhelmed beginner asks Joost 'Waar moet ik beginnen?'; Joost reassures and names one simple first step", "source": "facebook 'beginners don't know where to start and feel alone'", "on_theme": true, "status": "idea"},
+        {"post_id": "where-to-start-a2-cheatsheet", "type": "cheatsheet", "hook": "The 5 inburgering exam parts, explained simply", "angle": "A beginner's map of reading, listening, writing, speaking, KNM (ties to all-parts-in-one differentiator)", "source": "facebook jtbd; positioning differentiator 3", "on_theme": true, "status": "idea"},
+        {"post_id": "where-to-start-a2-quiz", "type": "quiz", "hook": "How many Dutch words do you actually need to pass A2?", "angle": "Multiple choice; ask people to guess and say why before the reveal", "source": "outputs/briefs/how-many-words-pass-a2-inburgering_brief.json; facebook '100 words'", "on_theme": true, "status": "idea"},
+        {"post_id": "where-to-start-a2-remix", "type": "article-remix", "hook": "A simple first-week plan for inburgering from scratch", "angle": "Pull the roadmap from the where-to-start brief into a carousel", "source": "outputs/briefs/where-to-start-inburgering-a2_brief.json", "on_theme": true, "status": "idea"}
+      ]
+    },
+    {
+      "pack_id": "the-school-gate",
+      "situation": "The school gate (schoolplein): small talk with other parents and your child's teacher at drop-off and pickup",
+      "persona": "Family/Belonging-motivated expat mom, partner visa, school-age kids (Alysa, Pattern A) -- Shame Cycle + Access-to-practice barriers",
+      "priority": "high",
+      "priority_reason": "Scene-rich daily mom situation, high save value, and it fills the under-served family-motivated-mom persona the current backlog misses; grounded in a repeated pain (kids' friends and their parents don't speak English)",
+      "posts": [
+        {"post_id": "the-school-gate-reel", "type": "scenario-reel", "hook": "The 30 seconds at the school gate that freeze every expat mom", "angle": "Joost plays a relaxed Dutch parent at pickup; an expat mom does the small talk -- names, ages, which groep, a playdate -- in short correct A1 lines instead of switching to English", "source": "alysa 'with the friends of my children they don't speak much English'; Pattern A family scrutiny", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-22_scenario-reel_school-gate.md"},
+        {"post_id": "the-school-gate-cheatsheet", "type": "cheatsheet", "hook": "What to say at the school gate (parent edition)", "angle": "The exact lines to greet another parent, ask about their kid, and arrange a playdate, plus a few for the juf/meester", "source": "alysa; Family/Belonging motivation", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-23_cheatsheet_school-gate.md"},
+        {"post_id": "the-school-gate-quiz", "type": "quiz", "hook": "The juf says 'Hij heeft lekker gespeeld vandaag.' What now?", "angle": "Three reads of a teacher's pickup line; ask 'what is the juf actually telling you, and how would you reply?' to pull sentence-length comments", "source": "school-gate situation; lexicon", "on_theme": true, "status": "produced", "produced_file": "outputs/instagram/2026-06-25_quiz_school-gate.md"},
+        {"post_id": "the-school-gate-remix", "type": "article-remix", "hook": "You understand the other parents but freeze when it's your turn", "angle": "Off-theme flex: pull the production-gap angle into a short carousel framed for parents; transform, do not paste", "source": "outputs/articles/passed-inburgering-cant-speak-dutch; anna 'I can only say: I have a green apple'", "on_theme": false, "status": "produced", "produced_file": "outputs/instagram/2026-06-26_article-remix_school-gate-production-gap.md"}
+      ]
+    },
+    {
+      "pack_id": "the-baby-clinic",
+      "situation": "The consultatiebureau (baby/child health clinic) visit in Dutch -- and starting to use simple Dutch with your own little one",
+      "persona": "New mom, self-employed, sleep-deprived with a baby/toddler (Anna, the Facebook mom thread) -- Schedule Constraints + Family motivation",
+      "priority": "medium",
+      "priority_reason": "Emotionally unique to the brand (talk to your child as they grow up Dutch-speaking) and a named high-stakes situation every NL parent of a young kid faces; slightly narrower audience than the school gate, hence medium",
+      "posts": [
+        {"post_id": "the-baby-clinic-reel", "type": "scenario-reel", "hook": "Your consultatiebureau visit, but this time in Dutch", "angle": "Joost as the consultatiebureau nurse runs the standard baby-check questions (sleeping, eating, growth); the mom answers each one in short A1 lines instead of freezing", "source": "anna new mother JTBD; facebook mom thread; named NL situation", "on_theme": true, "status": "idea"},
+        {"post_id": "the-baby-clinic-cheatsheet", "type": "cheatsheet", "hook": "Consultatiebureau Dutch: what the nurse asks about your baby", "angle": "The exact questions about sleeping, feeding, and growth with your one-line answers, plus a few easy lines to start using Dutch with your own baby at home", "source": "anna 'talk to my son as he grows up Dutch-speaking'; facebook 'Dutch cartoons/songs with their kids'", "on_theme": true, "status": "idea"},
+        {"post_id": "the-baby-clinic-quiz", "type": "quiz", "hook": "The nurse asks 'Slaapt ze goed door?' -- what is she really asking?", "angle": "Three options; ask 'how is your little one's sleep -- answer in Dutch if you dare' for personal-angle comments, never bare A/B", "source": "consultatiebureau situation; family motivation", "on_theme": true, "status": "idea"},
+        {"post_id": "the-baby-clinic-remix", "type": "article-remix", "hook": "Learn Dutch in the cracks of a parenting day (no extra hour needed)", "angle": "Off-theme flex: micro-habits for moms with no time -- 5am, lunch break, Dutch songs with the kids -- transformed from the practice-alone article and the Facebook thread", "source": "facebook 'micro steps daily', 'no one ever has time'; outputs/articles/how-to-practice-dutch-speaking-alone", "on_theme": false, "status": "idea"}
+      ]
+    }
+  ]
+}

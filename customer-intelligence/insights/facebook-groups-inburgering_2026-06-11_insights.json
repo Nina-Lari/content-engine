@@ -1,0 +1,514 @@
+{
+  "call_meta": {
+    "company": "Facebook community listening -- inburgering & learning Dutch groups",
+    "persona": "Mixed cohort, not a single persona. Dominant patterns: (1) working professionals (several in IT, English-medium workplaces) and parents/caregivers with severe schedule and energy constraints; (2) voluntary naturalisation seekers pursuing A2 for citizenship (System 2 wedge -- partly Indian, matching ICP channel cue); (3) repeat speaking-exam failures stuck in the production gap. Recurring barriers: Schedule constraints (dominant), Production gap, Shame cycle, Access to practice, exam anxiety concentrated on spreken.",
+    "industry": "B2C individuals -- mixed (IT/professional, self-employed/freelance, full-time parents)",
+    "company_size": "N/A (B2C individuals)",
+    "deal_stage": "problem-aware / research -- community discussion, mostly pre-purchase, some actively mid-exam-cycle",
+    "call_date": "2026-06-11",
+    "participants": [
+      "beginner -- A2 candidate, doesn't know where to start",
+      "learner (US) -- passed after ~2 years of self-study, has Dutch friends but doesn't speak Dutch with them",
+      "naturalisation applicant -- passed A2, navigating DUO/citizenship process",
+      "repeat speaking-exam failure -- multiple 5s on spreken",
+      "speaking-exam failure citing accent -- seeking exemption",
+      "beginner from India -- seeking practice partners",
+      "full-time worker -- ~100 words, July deadline, KNM/reading/listening track",
+      "working parent (original mom post) -- full-time job, one child, no local family",
+      "parent in IT -- opted out of exams, taking 5-year residency renewal instead",
+      "mom of 4 -- already holds Dutch passport, still can't speak spontaneously",
+      "Ad Appel -- course provider marketing inside the group (public business)"
+    ]
+  },
+  "jtbd": [
+    {
+      "job": "Find a starting point and a clear study sequence for the A2 exams",
+      "desired_outcome": "Know what to study first and in what order, instead of staring at five exam parts with no map",
+      "current_approach": "Asking the group 'where do I start'; following peer-suggested orders (reading first, then listening/KNM, writing and speaking last); piecing together InburgeringOnline, AdAppel free materials, YouTube, and books"
+    },
+    {
+      "job": "Pass the speaking (spreken) exam after repeated failures",
+      "desired_outcome": "Stop getting a 5; understand what the graders actually want; pass without re-registering for months",
+      "current_approach": "Re-taking the exam repeatedly (some 3-6 times); using short sentences to avoid grammar mistakes; practicing pronunciation with another person; some seeking a speaking-only exemption"
+    },
+    {
+      "job": "Learn Dutch around a full-time job, a child, and no local support system",
+      "desired_outcome": "Make any consistent progress without sacrificing family time, sleep, or the little self-care they have",
+      "current_approach": "Micro-habits stitched into daily life: 5am study before kids wake, lunch-break lessons, calendar-blocked WFH study, Dutch radio/podcasts during workouts, Netflix with Dutch subtitles, practicing with their toddler; some pay for cleaning to buy time; one opted out of exams entirely"
+    },
+    {
+      "job": "Build enough vocabulary to pass, starting from near zero",
+      "desired_outcome": "Acquire the 'daily usage words' the exams test, with a deadline looming",
+      "current_approach": "Daily word targets; 'Welkom in Nederland' book + KNM YouTube videos; reading first as the easiest entry; AI tools (Gemini) for leveled practice texts"
+    },
+    {
+      "job": "Get the speaking reflex / automaticity, not just knowledge of words",
+      "desired_outcome": "Answer in Dutch automatically instead of 'loading like a slow computer'; close the gap between understanding and producing",
+      "current_approach": "Taal Tempo book for speaking reflex; shadowing Dutch radio (repeat everything they say); watching Dutch drama on NPO; finding a taalmaatje or office lunch-in-Dutch group"
+    },
+    {
+      "job": "Navigate the post-exam citizenship / naturalisation process",
+      "desired_outcome": "Know how long the diploma takes to appear at DUO/MijnInburgering and how long naturalisation takes after applying",
+      "current_approach": "Crowdsourcing timelines from peers who already went through it"
+    },
+    {
+      "job": "Find someone to practice speaking with at a matched level",
+      "desired_outcome": "Regular, low-stakes conversation practice with a peer or partner",
+      "current_approach": "Trying to form learner practice groups; taalmaatje meetups; bibliotheek taal classes; office colleagues who volunteer to lunch in Dutch"
+    },
+    {
+      "job": "Decide whether the exam is even worth attempting",
+      "desired_outcome": "A defensible choice between grinding for the exam vs. renewing residency and skipping it",
+      "current_approach": "Some give up on the exam route and renew a 5-year residency permit, keeping Dutch alive informally on Duolingo/Busuu and grammar books"
+    }
+  ],
+  "pains": [
+    {
+      "pain": "The speaking exam is the dominant blocker: repeated failures with no clear feedback",
+      "trigger": "Sitting spreken and getting a 5 (fail) again, sometimes after answering nearly every question correctly",
+      "cost": "3-6 retakes for some; 10-week waits between attempts; only one exam can be registered at a time; no diagnostic of what went wrong",
+      "urgency": "critical",
+      "verbatim": "I got 5 three times in a row and someone commented '6 times failed with 5'. So what I understand from my post is it's a grammar error and there's no option except retake."
+    },
+    {
+      "pain": "Opaque, slow, capacity-strained grading erodes trust in the exam itself",
+      "trigger": "Long result waits and inconsistent outcomes on an exam learners feel is 'easy'",
+      "cost": "10-week waits; belief that examiners were 'impatient and stressed'; can't register a backup attempt as a precaution",
+      "urgency": "high",
+      "verbatim": "it is strange the exam is very easy and they should not expect proficiency from A2 people! seems they had less examiners to check exams maybe... i waited for 10 weeks!"
+    },
+    {
+      "pain": "No energy or motivation to study after a full working day with a child and no local family",
+      "trigger": "Getting home ~18:00, family time until bedtime, then exhaustion; no support system to offload onto",
+      "cost": "Little to no consistent study; guilt; motivation 'wavers' especially when there's no exam deadline",
+      "urgency": "high",
+      "verbatim": "it is quite difficult to have energy and motivation to learn after a full working day... We don't have any family here, so it's only my partner, me, and our kid."
+    },
+    {
+      "pain": "Life load forces people to drop out of the exam route entirely",
+      "trigger": "Two 40h IT jobs, a small child, breastfeeding, 4h broken sleep, no self-care time",
+      "cost": "Decided not to take the exams at all; renewing a 5-year residency permit instead; Dutch kept alive only passively on Duolingo/Busuu",
+      "urgency": "high",
+      "verbatim": "I decided to not take the exams and will take another 5 years residency permit... But for me is impossible... my concentration is very low."
+    },
+    {
+      "pain": "Production gap persists even after years in country, friends, or a passport",
+      "trigger": "Being spoken to in Dutch and freezing; passing the exam but never having spoken before the test",
+      "cost": "Embarrassment ('loading like a slow computer'); feeling fraudulent holding a passport you can't speak the language of; the US learner passed despite Dutch friends because being here didn't transfer",
+      "urgency": "high",
+      "verbatim": "I feel embarrassed when people talk to me in Dutch and I can't manage to spontaneously reply without loading like a slow computer... I have a Dutch passport yet I just do not have the time nor the drive."
+    },
+    {
+      "pain": "Beginners don't know where to start and feel alone in it",
+      "trigger": "Facing five exam parts with no roadmap",
+      "cost": "Paralysis at the outset; the post drew a wave of 'I am in the same situation' replies",
+      "urgency": "medium",
+      "verbatim": "I need to start preparing my exams A2 I don't know where to start and how is the exam, any help please?"
+    },
+    {
+      "pain": "Starting from near-zero vocabulary against a hard deadline",
+      "trigger": "Realising ~100 words known with exams at end of July and a full-time job",
+      "cost": "Cramming risk; reliance on weekend 12-hour blocks; high failure odds without a vocabulary base",
+      "urgency": "high",
+      "verbatim": "I only have knowledge of around a 100 words now and the exams are in july end. How 2 prepare knowing i have a full time job."
+    },
+    {
+      "pain": "Accent/pronunciation seen as the reason for speaking failure, with no relief valve",
+      "trigger": "Failing spreken repeatedly while passing every other part",
+      "cost": "Considering whether a speaking-only exemption even exists; stuck on the one part standing between them and the diploma",
+      "urgency": "high",
+      "verbatim": "Keep failing the A2 speaking exam repeatedly, probably because of my accent. Is there any option to get an exception only for the speaking part?"
+    },
+    {
+      "pain": "No one to practice speaking with at a matched level",
+      "trigger": "Being new in country, no Dutch friends, English-medium workplace",
+      "cost": "Stalled speaking progress; learners resort to forming ad-hoc peer groups or buddy meetups",
+      "urgency": "medium",
+      "verbatim": "If someone is also in the starting phase, we can connect and practice together... in group or more people it's gonna be easy and joyful."
+    },
+    {
+      "pain": "Native partner can't substitute for structured practice",
+      "trigger": "Having a partner/friends at home but the level mismatch makes teaching impossible",
+      "cost": "Practice doesn't happen; the US learner had Dutch friends but they never spoke Dutch together",
+      "urgency": "medium",
+      "verbatim": "I have Dutch friends but we do not speak in Dutch. It wasn't being here that helped me pass."
+    },
+    {
+      "pain": "Self-care, family, and household time compete directly with study time",
+      "trigger": "Finite evening hours split between a child, exercise for a health condition, and chores",
+      "cost": "Forced trade-offs (clean house vs. time with kids); paying for cleaning to claw back hours; chronic tiredness",
+      "urgency": "medium",
+      "verbatim": "I have to choose between keeping a clean house or bonding with my kids. I always choose the latter, and just pay someone to do the cleaning."
+    }
+  ],
+  "workflow_reality": {
+    "current_process": "Most are self-directed and improvising. A common peer-endorsed sequence is reading first (seen as easiest), then listening and KNM, with writing and speaking last. Vocabulary is treated as the foundation, with daily word targets. Busy learners stitch study into the margins of the day: 5am sessions before children wake, lunch-break lessons, calendar-blocked WFH time, and passive immersion (Dutch radio/podcasts during workouts, Netflix with Dutch subtitles, Dutch cartoons/songs with their kids). KNM is prepped via the 'Welkom in Nederland' book plus YouTube videos. Speaking practice, when it happens at all, comes from a taalmaatje, an office lunch-in-Dutch group, pronunciation help from a friend, or shadowing the radio. Some pay InburgeringOnline or join Ad Appel's online group lessons; some give up on the exam and renew residency.",
+    "tools_used": [
+      "InburgeringOnline (subscription) -- praised as 'direct, easy to learn', called 'the best option'",
+      "AdAppel -- free resources, book, videos, and €399 online A2 group lessons (2x/week evenings); founder markets inside the group",
+      "Duolingo and Busuu -- used by exam opt-outs to keep Dutch alive passively",
+      "Gemini / ChatGPT -- generating leveled (B1) practice texts with questions and explanations",
+      "'Welkom in Nederland' book + KNM YouTube videos -- KNM prep",
+      "Taal Tempo (Coutinho) -- speaking reflex / automaticity",
+      "'Klaar met de taal' -- grammar support",
+      "NPO Dutch dramas, BNR radio, Dutch podcasts/music -- passive listening & shadowing",
+      "NOS Journaal in makkelijke taal + Topic Today app -- short-form for busy learners",
+      "Netflix with Dutch subtitles",
+      "Bibliotheek taal class -- free community class",
+      "Taalmaatje / language buddy and office lunch-in-Dutch groups -- peer speaking practice",
+      "DUO / MijnInburgering -- exam registration, results, diploma visibility"
+    ],
+    "brittleness": "Breaks at two points. First, the speaking exam: opaque grading, repeated 5s, 10-week waits, and one-attempt-at-a-time registration trap learners in a retake loop with no diagnostic. Second, time and energy: with full-time work, a child, and no local family, study collapses to scraps or stops entirely, and self-directed learners with no deadline lose motivation. The patched-together stack (apps + YouTube + books + radio) has no coherent path and almost no structured production practice, so understanding grows while speaking does not.",
+    "workarounds": [
+      "Using deliberately short sentences in the speaking exam to minimise grammar errors",
+      "Re-registering for the exam repeatedly (3-6 times for some)",
+      "5am study before children wake; lunch-break lessons; calendar-blocked WFH study",
+      "Passive immersion: Dutch radio/podcasts during workouts, Netflix with Dutch subtitles, Dutch cartoons/songs with the toddler",
+      "Practicing with one's own child (furniture, colors, rhymes) to avoid losing family time",
+      "Paying for house cleaning to reclaim study/family hours",
+      "Forming ad-hoc learner practice groups or meeting a taalmaatje weekly",
+      "Opting out of exams and renewing a 5-year residency permit instead"
+    ]
+  },
+  "alternatives_and_competitors": [
+    {
+      "name": "InburgeringOnline",
+      "type": "direct_competitor",
+      "sentiment": "positive",
+      "context": "Repeatedly recommended; 'I used inburgeringonline website subscription, its really direct easy to learn' and 'Inburgering online is the best option.' Strong default-recommendation gravity in these groups.",
+      "known_competitor": true
+    },
+    {
+      "name": "AdAppel",
+      "type": "direct_competitor",
+      "sentiment": "positive",
+      "context": "NOT in competitive-landscape.md -- new finding to add. Hybrid book/video + €399 online A2 group lessons (2x/week evenings). Heavily recommended by members ('the AdAppel book and videos... is all you need', 'Try to study with Ad Appel'). The group is managed by Ad Appel himself, who markets directly inside it -- a community-owned distribution moat. Note the €399 price collides exactly with Dutchwithjoost's one-time price.",
+      "known_competitor": false
+    },
+    {
+      "name": "Duolingo",
+      "type": "adjacent_tool",
+      "sentiment": "neutral",
+      "context": "Used (with Busuu) by an exam opt-out to keep Dutch alive passively; not treated as exam prep.",
+      "known_competitor": true
+    },
+    {
+      "name": "Busuu",
+      "type": "adjacent_tool",
+      "sentiment": "neutral",
+      "context": "Paired with Duolingo by the exam opt-out for passive maintenance. Not in competitive-landscape.md -- minor new mention.",
+      "known_competitor": false
+    },
+    {
+      "name": "Gemini / ChatGPT (AI tutoring)",
+      "type": "adjacent_tool",
+      "sentiment": "positive",
+      "context": "'Used Gemini to practice, asking for B1 level texts with questions and explanations. Worked eventually, passed all except reading.' DIY AI is now a credible, free self-tutoring path -- and a threat to paid courses.",
+      "known_competitor": false
+    },
+    {
+      "name": "Bibliotheek (library) taal class",
+      "type": "adjacent_tool",
+      "sentiment": "positive",
+      "context": "Recommended to the accent-struggler: 'Join a taal class at your nearest bibliotheek. I am part of one and that helps a lot.' Free community classroom alternative.",
+      "known_competitor": false
+    },
+    {
+      "name": "Taalmaatje / language buddy & office lunch-in-Dutch groups",
+      "type": "status_quo",
+      "sentiment": "positive",
+      "context": "The main free speaking-practice route for busy workers; valued but limited (often an hour a week).",
+      "known_competitor": false
+    },
+    {
+      "name": "Private pronunciation help / tutor",
+      "type": "direct_competitor",
+      "sentiment": "positive",
+      "context": "Recommended for the accent-failure case: 'have someone to just help you with practicing pronunciations, I did it and it helped.'",
+      "known_competitor": true
+    },
+    {
+      "name": "Self-study via books, YouTube, radio, NPO drama, Netflix subtitles",
+      "type": "status_quo",
+      "sentiment": "mixed",
+      "context": "The default fallback stack. 'Welkom in Nederland' + KNM YouTube for KNM; Taal Tempo for speaking reflex; 'Klaar met de taal' for grammar; BNR radio shadowing; NOS in makkelijke taal + Topic Today app for short-form. Flexible and cheap, but no structure and almost no production practice.",
+      "known_competitor": true
+    },
+    {
+      "name": "5-year residency renewal (skip the exam)",
+      "type": "status_quo",
+      "sentiment": "mixed",
+      "context": "The 'do nothing' competitor. Overwhelmed learners abandon naturalisation and renew residency, removing the exam deadline entirely. A real churn/no-decision alternative for the time-starved segment.",
+      "known_competitor": false
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I have Dutch friends but we do not speak in Dutch. It wasn't being here that helped me pass. It was buckling down and get it done.",
+      "speaker": "learner (US) who passed after ~2 years",
+      "context": "Reassuring a beginner; revealing that living in NL and having Dutch friends did not produce speaking ability -- only deliberate study did",
+      "themes": ["production gap", "immersion myth", "self-study grind", "Dutch partner/friend problem"]
+    },
+    {
+      "text": "I got 5 three times in a row and someone commented '6 times failed with 5'. So what I understand from my post is it's a grammar error and there's no option except retake.",
+      "speaker": "repeat speaking-exam failure",
+      "context": "Describing the spreken retake loop and the absence of diagnostic feedback",
+      "themes": ["speaking exam anxiety", "opaque grading", "retake loop", "grammar fixation"]
+    },
+    {
+      "text": "it is strange the exam is very easy and they should not expect proficiency from A2 people! ... i waited for 10 weeks!",
+      "speaker": "speaking-exam failure",
+      "context": "Frustration at slow, seemingly arbitrary grading and inability to register a backup attempt",
+      "themes": ["exam distrust", "long wait times", "registration friction"]
+    },
+    {
+      "text": "It's mostly based on grammar. And short sentences to avoid mistakes.",
+      "speaker": "learner who passed spreken",
+      "context": "Sharing the tactic of gaming the speaking exam with minimal sentences -- passing without really speaking",
+      "themes": ["pass-not-speak", "exam gaming", "production gap"]
+    },
+    {
+      "text": "Keep failing the A2 speaking exam repeatedly, probably because of my accent. Is there any option to get an exception only for the speaking part?",
+      "speaker": "speaking-exam failure citing accent",
+      "context": "Passed every other part; stuck only on speaking; asking whether an exemption exists",
+      "themes": ["speaking exam anxiety", "pronunciation", "exemption seeking"]
+    },
+    {
+      "text": "I only have knowledge of around a 100 words now and the exams are in july end. How 2 prepare knowing i have a full time job.",
+      "speaker": "full-time worker with July deadline",
+      "context": "Near-zero vocabulary against a hard deadline while working full-time",
+      "themes": ["vocabulary gap", "deadline pressure", "time scarcity"]
+    },
+    {
+      "text": "it is quite difficult to have energy and motivation to learn after a full working day... We don't have any family here, so it's only my partner, me, and our kid.",
+      "speaker": "working parent (original mom post)",
+      "context": "The anchor post on balancing work, child, exercise, and Dutch with no local support",
+      "themes": ["schedule constraints", "energy/burnout", "no support system"]
+    },
+    {
+      "text": "I decided to not take the exams and will take another 5 years residency permit... But for me is impossible.",
+      "speaker": "parent in IT, exam opt-out",
+      "context": "Two 40h jobs, small child, 4h broken sleep -- chose residency renewal over naturalisation",
+      "themes": ["exam opt-out", "no-decision churn", "burnout", "English-medium workplace"]
+    },
+    {
+      "text": "I feel embarrassed when people talk to me in Dutch and I can't manage to spontaneously reply without loading like a slow computer... I have a Dutch passport yet I just do not have the time nor the drive.",
+      "speaker": "mom of 4 with a Dutch passport",
+      "context": "Already naturalised but still can't speak spontaneously -- production gap and shame persist past the passport",
+      "themes": ["production gap", "shame cycle", "identity", "post-passport regret"]
+    },
+    {
+      "text": "no one ever 'has time' to learn a language. But if you take these little micro steps daily, you'll start to see small differences that will add up over time.",
+      "speaker": "experienced learner advising the mom post",
+      "context": "Advocating micro-habits (Dutch music, podcasts, Netflix subtitles) woven into daily life",
+      "themes": ["micro-habits", "daily integration", "self-paced", "consistency over intensity"]
+    },
+    {
+      "text": "I recommend Taal Tempo to make you fluent in speaking and also answering automatically. I find that this book really shapes my reflex to speak dutch.",
+      "speaker": "learner advising the mom post",
+      "context": "Pointing to the speaking-reflex/automaticity gap as the thing to train",
+      "themes": ["speaking reflex", "automaticity", "production over recognition"]
+    },
+    {
+      "text": "How many days did it take for your diploma to become digitally visible at DUO? ... How many months after applying for citizenship did you really become naturalized?",
+      "speaker": "naturalisation applicant",
+      "context": "Crowdsourcing the post-exam citizenship process timeline (System 2 voluntary naturaliser)",
+      "themes": ["naturalisation process", "DUO/MijnInburgering", "System 2 wedge"]
+    }
+  ],
+  "lexicon": {
+    "category_terms": [
+      "A2 exams",
+      "inburgering",
+      "spreken",
+      "the speaking exam",
+      "KNM",
+      "Lezen / reading",
+      "naturalization examen",
+      "DUO",
+      "MijnInburgering",
+      "taal class",
+      "taalmaatje",
+      "daily usage words"
+    ],
+    "value_language": [
+      "where to start",
+      "direct, easy to learn",
+      "the best option",
+      "answering automatically",
+      "shapes my reflex to speak dutch",
+      "all you need",
+      "buckling down and get it done",
+      "small steps that add up"
+    ],
+    "deviant_terms": [
+      "got a 5",
+      "5 three times in a row",
+      "6 times failed with 5",
+      "loading like a slow computer",
+      "I am in the same situation",
+      "short sentences to avoid mistakes",
+      "no clear path",
+      "micro steps daily",
+      "I am testament to the fact it is possible",
+      "lunch break Dutch lesson",
+      "no/se self care time"
+    ]
+  },
+  "keyword_candidates": [
+    {
+      "keyword": "how to pass the A2 inburgering speaking exam",
+      "type": "category",
+      "source_context": "Multiple members failing spreken repeatedly (5s), asking what they are doing wrong",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 9,
+        "serp_weakness": 6,
+        "business_priority": 9,
+        "mini_volume": 7,
+        "authority_fit": 8,
+        "weighted_total": 8.25
+      }
+    },
+    {
+      "keyword": "why do I keep getting a 5 on the Dutch speaking exam",
+      "type": "deviant",
+      "source_context": "Exact community lexicon -- 'got a 5', '5 three times in a row', '6 times failed with 5'",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 8,
+        "serp_weakness": 8,
+        "business_priority": 8,
+        "mini_volume": 4,
+        "authority_fit": 7,
+        "weighted_total": 7.85
+      }
+    },
+    {
+      "keyword": "how to learn Dutch when you understand but can't speak",
+      "type": "jtbd",
+      "source_context": "Production gap surfacing across the US learner, the passport-holding mom, and the short-sentence exam tactic",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.5
+      }
+    },
+    {
+      "keyword": "how to practice Dutch speaking with no one to practice with",
+      "type": "jtbd",
+      "source_context": "Beginner from India forming a practice group; taalmaatje and office-lunch workarounds; access-to-practice barrier",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 8,
+        "weighted_total": 7.5
+      }
+    },
+    {
+      "keyword": "how to learn Dutch with a full time job and kids",
+      "type": "jtbd",
+      "source_context": "The mom post and its long comment thread on balancing work, family, and Dutch with no support system",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 8,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 6,
+        "authority_fit": 7,
+        "weighted_total": 7.2
+      }
+    },
+    {
+      "keyword": "learn Dutch in 15 minutes a day for busy professionals",
+      "type": "long_tail",
+      "source_context": "Micro-habit advice -- 5am study, lunch-break lessons, podcasts during workouts, 'micro steps daily'",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 8,
+        "serp_weakness": 6,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 7,
+        "weighted_total": 6.6
+      }
+    },
+    {
+      "keyword": "where to start preparing for the A2 inburgering exam",
+      "type": "category",
+      "source_context": "'I don't know where to start' post that drew a wave of 'same situation' replies; peer-suggested study order",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 6,
+        "serp_weakness": 5,
+        "business_priority": 7,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 6.5
+      }
+    },
+    {
+      "keyword": "how many words do you need to pass the A2 inburgering exam",
+      "type": "long_tail",
+      "source_context": "'100 words' learner and the 'hard to pass without vocabulary' / 'daily usage words' advice",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 5,
+        "authority_fit": 6,
+        "weighted_total": 5.9
+      }
+    },
+    {
+      "keyword": "is it worth taking the inburgering exam or just renewing residency",
+      "type": "deviant",
+      "source_context": "Exam opt-out choosing a 5-year residency renewal over naturalisation due to life load",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 5,
+        "serp_weakness": 8,
+        "business_priority": 6,
+        "mini_volume": 4,
+        "authority_fit": 6,
+        "weighted_total": 5.9
+      }
+    },
+    {
+      "keyword": "can you get an exemption for the inburgering speaking exam",
+      "type": "deviant",
+      "source_context": "Accent-failure learner asking whether a speaking-only exemption exists after passing all other parts",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 5,
+        "serp_weakness": 7,
+        "business_priority": 5,
+        "mini_volume": 4,
+        "authority_fit": 6,
+        "weighted_total": 5.65
+      }
+    },
+    {
+      "keyword": "how long until inburgering diploma shows at DUO after passing",
+      "type": "long_tail",
+      "source_context": "Naturalisation applicant crowdsourcing DUO/MijnInburgering and citizenship timelines",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 3,
+        "serp_weakness": 6,
+        "business_priority": 4,
+        "mini_volume": 5,
+        "authority_fit": 5,
+        "weighted_total": 4.65
+      }
+    }
+  ]
+}

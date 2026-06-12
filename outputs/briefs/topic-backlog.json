@@ -6,10 +6,11 @@
     "customer-intelligence/insights/anna_2026-05-30_insights.json",
     "customer-intelligence/insights/molly_2026-05-30_insights.json",
     "customer-intelligence/insights/monika_2026-05-30_insights.json",
+    "customer-intelligence/insights/facebook-groups-inburgering_2026-06-11_insights.json",
     "customer-intelligence/web-research-jtbd.md"
   ],
   "filter_applied": null,
-  "notes": "Rebuilt from 5 insight files (up from 1). The four new discovery interviews (Alysa, Anna, Molly, Monika) enable cross-call frequency weighting, which the prior single-source (nina-only) backlog could not do. SERP weakness for the three net-new top topics was grounded with live Firecrawl searches (NL intent). Existing topics retain their previously live-grounded SERP notes. 'registry_status' flags overlap with outputs/content-registry.yaml so net-new angles are prioritized over already-drafted/planned topics. 'validation' on new topics records how many of the four new interviews support the angle. REVIVED-TOPICS PASS (2026-05-30): regenerated briefs for five user-requested revived topics against the 5-interview corpus (how-to-practice-dutch-speaking-alone, life-without-dutch-netherlands, passed-inburgering-cant-speak-dutch, shame-cycle-speaking-dutch, who-is-dutchwithjoost-not-for); the sixth, dutch-partner-cant-teach-dutch, already had a current brief. passed-inburgering is differentiated from the drafted why-cant-speak article and flagged for human review. PRODUCT-EXPLAINER PASS (2026-06-02): added one user-requested topic, how-does-dutchwithjoost-work (score 8.35), the canonical product 'how it works' walkthrough with screenshots. It is the product-tour sibling to the methodology pillar (what-is-production-based-language-learning) and the BOFU buyer guide (inburgering-course-that-teaches-speaking) and links out to both rather than repeating them. No Firecrawl run (branded query, uncontested). Brief carries two hard guardrails: screenshots cannot be fabricated, and product facts must be verified against the live product because the legacy messaging.md is gone.",
+  "notes": "Rebuilt from 5 insight files (up from 1). The four new discovery interviews (Alysa, Anna, Molly, Monika) enable cross-call frequency weighting, which the prior single-source (nina-only) backlog could not do. SERP weakness for the three net-new top topics was grounded with live Firecrawl searches (NL intent). Existing topics retain their previously live-grounded SERP notes. 'registry_status' flags overlap with outputs/content-registry.yaml so net-new angles are prioritized over already-drafted/planned topics. 'validation' on new topics records how many of the four new interviews support the angle. REVIVED-TOPICS PASS (2026-05-30): regenerated briefs for five user-requested revived topics against the 5-interview corpus (how-to-practice-dutch-speaking-alone, life-without-dutch-netherlands, passed-inburgering-cant-speak-dutch, shame-cycle-speaking-dutch, who-is-dutchwithjoost-not-for); the sixth, dutch-partner-cant-teach-dutch, already had a current brief. passed-inburgering is differentiated from the drafted why-cant-speak article and flagged for human review. PRODUCT-EXPLAINER PASS (2026-06-02): added one user-requested topic, how-does-dutchwithjoost-work (score 8.35), the canonical product 'how it works' walkthrough with screenshots. It is the product-tour sibling to the methodology pillar (what-is-production-based-language-learning) and the BOFU buyer guide (inburgering-course-that-teaches-speaking) and links out to both rather than repeating them. No Firecrawl run (branded query, uncontested). Brief carries two hard guardrails: screenshots cannot be fabricated, and product facts must be verified against the live product because the legacy messaging.md is gone. COMMUNITY-LISTENING PASS (2026-06-11): added 5 net-new topics from Facebook inburgering/learning-Dutch group listening (facebook-groups-inburgering insights). Deduped against all 45 existing topics + 22 briefs first; skipped the understand-but-cant-speak, practice-alone, and busy-job-plus-kids angles as already covered (the new mom-post evidence should ENRICH the pending learn-dutch-as-a-busy-parent / learn-dutch-irregular-schedule briefs, not get a duplicate). Net-new gaps: the speaking-exam FAILURE-recovery angle (repeated 5s, retake loop -- distinct from the first-timer inburgering-speaking-test-guide), a beginner 'where to start' roadmap, a vocabulary 'how many words' piece, and two lower-priority deviants (skip-exam-renew-residency, speaking-exam exemption). SERP weakness is estimated, not Firecrawl-grounded -- verify before writing. The residency-renewal topic carries a strategic-care flag: do NOT talk readers out of the exam; reframe to 'Dutch fits a busy life' per the master Where-We-Lose note.",
   "scoring_weights": {
     "buyer_intent": 0.35,
     "differentiator_fit": 0.2,
@@ -107,7 +108,12 @@
       "best-dutch-courses-speak": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
       "best-inburgering-courses-2026": {"play_type": "click-capture", "format_priority": "high", "youtube_companion": true},
       "best-ways-practice-speaking-dutch": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
-      "best-free-ways-learn-dutch": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true}
+      "best-free-ways-learn-dutch": {"play_type": "ai-citation", "format_priority": "high", "youtube_companion": true},
+      "why-failing-inburgering-speaking-exam": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "where-to-start-inburgering-a2": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "how-many-words-pass-a2-inburgering": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": true},
+      "inburgering-exam-vs-residency-renewal": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false},
+      "inburgering-speaking-exam-exemption": {"play_type": "ai-citation", "format_priority": "standard", "youtube_companion": false}
     },
     "recommended_next_actions": [
       "Ship the listicle/best-of + review cluster first -- these are the formats ChatGPT cites most (best-dutch-courses-speak, best-inburgering-courses-2026, best-dutch-course-a2-inburgering, best-app-to-learn-dutch, the competitor reviews). format_priority: high.",
@@ -118,6 +124,116 @@
     ]
   },
   "topics": [
+    {
+      "topic_id": "why-failing-inburgering-speaking-exam",
+      "title": "Why You Keep Failing the Inburgering Speaking Exam (and How to Break the Cycle)",
+      "category": "deviant",
+      "big5_category": "Problems",
+      "primary_keyword": "why do I keep failing the inburgering speaking exam",
+      "persona": "Repeat speaking-exam failure stuck in the production gap (Pattern A Partner Visa, Pattern D Long-term Resident) and voluntary naturalisation seekers",
+      "pain_cluster": "speaking-exam-failure / production-gap",
+      "registry_status": "net-new (distinct from inburgering-speaking-test-guide, which is a first-timer how-the-exam-works guide; this is failure-recovery for people who have already failed repeatedly)",
+      "serp_note": "Estimated weak/generic SERP -- the failure-specific long-tail ('got a 5', repeated retakes) is underserved vs the saturated 'speaking exam tips' head term. Firecrawl not run; verify before writing.",
+      "validation": "Facebook community listening (2026-06): multiple members report getting a 5 repeatedly (3-6x), 10-week result waits, one-attempt-at-a-time registration, and the 'short sentences to avoid mistakes' tactic.",
+      "priority_score": {
+        "buyer_intent": 9,
+        "differentiator_fit": 9,
+        "serp_weakness": 7,
+        "business_priority": 9,
+        "mini_volume": 5,
+        "authority_fit": 8,
+        "weighted_total": 8.2
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "where-to-start-inburgering-a2",
+      "title": "Where to Start with the A2 Inburgering Exam: A Beginner's Roadmap",
+      "category": "jtbd",
+      "big5_category": "Problems",
+      "primary_keyword": "where to start preparing for the inburgering A2 exam",
+      "persona": "Overwhelmed beginner at the very start of A2 prep, often a full-time worker or parent (all patterns)",
+      "pain_cluster": "no-clear-path / where-to-start-overwhelm",
+      "registry_status": "net-new (no beginner-roadmap brief exists; distinct from the course-selection topic best-dutch-course-a2-inburgering)",
+      "serp_note": "Estimated moderate SERP -- DUO and competitors have starter pages, but few sequence the five parts by difficulty for a working beginner. Firecrawl not run; verify.",
+      "validation": "Facebook listening: the 'I don't know where to start' post drew a wave of 'same situation' replies; peers recommend reading first, then listening and KNM, with writing and speaking last.",
+      "priority_score": {
+        "buyer_intent": 7,
+        "differentiator_fit": 6,
+        "serp_weakness": 5,
+        "business_priority": 7,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 6.5
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "how-many-words-pass-a2-inburgering",
+      "title": "How Many Dutch Words Do You Actually Need to Pass the A2 Inburgering Exam?",
+      "category": "jtbd",
+      "big5_category": "Problems",
+      "primary_keyword": "how many words do you need to pass the A2 inburgering exam",
+      "persona": "Beginner with low vocabulary and a deadline (e.g. the ~100-words-by-July case); full-time workers and parents (all patterns)",
+      "pain_cluster": "vocabulary-gap / deadline-pressure",
+      "registry_status": "net-new (no vocabulary-strategy brief exists)",
+      "serp_note": "Estimated moderate SERP. Opportunity to own the 'daily usage words' framing and connect vocabulary to production (learn-by-using). Firecrawl not run; verify.",
+      "validation": "Facebook listening: '~100 words now, exams in July'; repeated advice to 'learn the daily usage words' and that it is 'hard to pass exams without vocabulary'.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 7,
+        "serp_weakness": 6,
+        "business_priority": 6,
+        "mini_volume": 6,
+        "authority_fit": 7,
+        "weighted_total": 6.3
+      },
+      "brief_status": "generated"
+    },
+    {
+      "topic_id": "inburgering-exam-vs-residency-renewal",
+      "title": "Inburgering Exam or Just Renew Your Residency? How to Decide When Life Is Full",
+      "category": "deviant",
+      "big5_category": "Problems",
+      "primary_keyword": "is it worth taking the inburgering exam or renewing residency",
+      "persona": "Time-starved worker or parent weighing opting out of naturalisation (Pattern B, C, D); the no-decision segment",
+      "pain_cluster": "exam-opt-out / schedule-life-constraints",
+      "registry_status": "net-new (adjacent to should-i-leave-netherlands-cant-learn-dutch but distinct: this is skip-the-exam-keep-residency, not leaving the country)",
+      "serp_note": "Estimated very weak SERP -- almost no one targets this decision. STRATEGIC CARE: must not talk readers out of the exam; reframe toward 'you do not have to choose between the exam and your sanity' (Dutch-fits-a-busy-life angle), aligned with the master Where-We-Lose note. Firecrawl not run.",
+      "validation": "Facebook listening: a working IT parent explicitly decided NOT to take the exams and to renew a 5-year residency permit instead, citing two 40h jobs, a small child, and 4h sleep.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 5,
+        "serp_weakness": 8,
+        "business_priority": 5,
+        "mini_volume": 4,
+        "authority_fit": 6,
+        "weighted_total": 5.8
+      },
+      "brief_status": "pending"
+    },
+    {
+      "topic_id": "inburgering-speaking-exam-exemption",
+      "title": "Can You Get an Exemption from the Inburgering Speaking Exam?",
+      "category": "deviant",
+      "big5_category": "Problems",
+      "primary_keyword": "can you get an exemption for the inburgering speaking exam",
+      "persona": "Repeat speaking-exam failure who has passed all other parts; accent and pronunciation anxiety (Pattern A, D)",
+      "pain_cluster": "speaking-exam-failure / pronunciation-accent",
+      "registry_status": "net-new (conversion sibling of why-failing-inburgering-speaking-exam)",
+      "serp_note": "Estimated weak SERP. Informational; the honest answer may route some readers to official exemption routes rather than our product, so lower business priority. Verify exemption facts against DUO before writing. Firecrawl not run.",
+      "validation": "Facebook listening: a learner failing only the speaking part 'probably because of my accent' asked whether a speaking-only exemption exists.",
+      "priority_score": {
+        "buyer_intent": 6,
+        "differentiator_fit": 5,
+        "serp_weakness": 7,
+        "business_priority": 5,
+        "mini_volume": 4,
+        "authority_fit": 6,
+        "weighted_total": 5.65
+      },
+      "brief_status": "pending"
+    },
     {
       "topic_id": "how-much-does-dutchwithjoost-cost",
       "title": "How Much Does Dutchwithjoost Cost? (And What You Actually Get)",
