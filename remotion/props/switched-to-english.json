@@ -1,0 +1,14 @@
+{
+  "theme": "When they switch to English",
+  "handle": "@dutchwithjoost",
+  "scenarioImage": "switched-to-english/scenario.png",
+  "scenarioLine": "You ordered in Dutch. The cashier answered you in English.",
+  "questionNl": "Wat doe je nu?",
+  "questionEn": "What do you do now?",
+  "options": [
+    {"key": "A", "text": "Switch to English too. Honestly? A little relieved."},
+    {"key": "B", "text": "\"Mag ik het in het Nederlands proberen?\""},
+    {"key": "C", "text": "Say nothing, then think of the perfect Dutch reply on the bike home."}
+  ],
+  "reveal": "No winner here. Pick whichever one is honestly you. But if C is your reflex and you wish it weren't, B is the smallest way out: one sentence, no confrontation, still in Dutch."
+}

@@ -111,10 +111,10 @@ Extract LinkedIn post angles from customer intelligence. Maps insights to person
 **When to use:** When you want to turn customer intelligence into LinkedIn content angles.
 
 ### /instagram-content
-Plan a backlog of themed post ideas, produce a week of ready-to-run post runbooks from it, then refine any single post until it is right. Four post types: cheatsheets (carousels), multiple-choice quizzes (reason-seeking, not A/B bait), scenario reels (Joost + an invented character speaking Dutch; output as a runbook for ChatGPT images then Kling then ElevenLabs then CapCut), and article remixes. Three modes: `plan` (build and curate the idea backlog of themed situation packs), `batch` (default; produce one loosely-themed week of ~4 posts, pulling from the backlog), and `refine <slug>` (edit in place or regenerate any piece of a single post). Weeks are loosely themed around one situation for topic authority and batching. Built around the 2026 algorithm: sends > saves > sentence-length comments, hook in the first 3 seconds, caption SEO over hashtags, originality over recycled clips.
+Plan a backlog of themed post ideas, produce a week of reviewable post runbooks (+ Remotion render props), refine any single post, and render the finished asset. Four post types: cheatsheets (carousels), multiple-choice quizzes (reason-seeking, not A/B bait), scenario reels (Joost + an invented character speaking Dutch; runbook for ElevenLabs voice + ChatGPT scene image + an image-to-video clip, then assembled by Remotion), and article remixes. **Remotion (the `remotion/` project) is the only editor** — it renders every final reel and carousel from props; CapCut and Canva are not used. Four modes: `plan` (build/curate the idea backlog of themed situation packs), `batch` (default; produce one themed week of ~4 reviewable runbooks + props, renders nothing), `refine <slug>` (edit a single post's content + props), and `render <slug>` (produce the asset with Remotion). **Human gate:** batch produces a Markdown runbook to review; rendering happens only in `render` mode on a post marked `Status: approved` — the same shape as the seo-pipeline outline gate. Weeks are loosely themed around one situation for topic authority and batching. Built around the 2026 algorithm: sends > saves > sentence-length comments, hook in the first 3 seconds, caption SEO over hashtags, originality over recycled clips.
 
-**Context consumed:** `brand/brand-kit.md` (visual + asset identity: Style Block, Joost reference, style-ref filenames, ElevenLabs voices, CapCut, subtitles), `brand/instagram-voice.md` (editorial voice, tone, emotional-accuracy rules, and per-format lessons captured from refine sessions), `strategy/positioning.md`, `strategy/personas.md`, `customer-intelligence/insights/*.json`, and the bundled `instagram-playbook.md`. Remix mode also reads the source article in `outputs/articles/` and its `_brief.json`. Does not read the article `voice-guide.md` (Instagram voice lives in `brand/instagram-voice.md` and the playbook); the global `writing-quality.md` rules still apply.
-**When to use:** When you want a regular Instagram posting cadence (default 4 posts/week + daily Stories). Run `/instagram-content plan` to build an idea backlog, `/instagram-content` to produce the next themed week, then `/instagram-content refine <slug>` on any post you want to shape.
+**Context consumed:** `brand/brand-kit.md` (visual + asset identity: Style Block, Joost reference, style-ref filenames, ElevenLabs voices, subtitles), `brand/brand-colors.json` (the brand palette Remotion renders with), `remotion/README.md` (what Remotion can edit, the props contract, and the render commands), `brand/instagram-voice.md` (editorial voice, tone, emotional-accuracy rules, and per-format lessons captured from refine sessions), `strategy/positioning.md`, `strategy/personas.md`, `customer-intelligence/insights/*.json`, and the bundled `instagram-playbook.md`. Remix mode also reads the source article in `outputs/articles/` and its `_brief.json`. Does not read the article `voice-guide.md` (Instagram voice lives in `brand/instagram-voice.md` and the playbook); the global `writing-quality.md` rules still apply.
+**When to use:** When you want a regular Instagram posting cadence (default 4 posts/week + daily Stories). Run `/instagram-content plan` to build an idea backlog, `/instagram-content` to produce the next themed week of runbooks, review and refine, set `Status: approved`, drop the generated assets into `remotion/public/<slug>/`, then `/instagram-content render <slug>` to produce the final reel or carousel.
 
 ---
 
@@ -184,7 +184,10 @@ Skills detect MCP availability at runtime. If a server is not connected, the ski
 - LinkedIn posts: `outputs/linkedin/{topic-slug}-linkedin.md`
 - Instagram idea backlog: `outputs/instagram/idea-backlog.json`
 - Instagram weekly plan: `outputs/instagram/week-{YYYY-MM-DD}_plan.md`
-- Instagram posts: `outputs/instagram/{YYYY-MM-DD}_{type}_{slug}.md`
+- Instagram post runbooks (review/gate artifact): `outputs/instagram/{YYYY-MM-DD}_{type}_{slug}.md`
+- Instagram render props: `remotion/props/{slug}.json`
+- Instagram post assets (user-dropped): `remotion/public/{slug}/`
+- Instagram rendered output: `remotion/out/{slug}.mp4` (reel) or `remotion/out/{slug}/element-*.png` (carousel)
 
 ### Directory conventions
 - `strategy/` -- your knowledgebase and derived modules (never put outputs here)
@@ -194,12 +197,15 @@ Skills detect MCP availability at runtime. If a server is not connected, the ski
 - `customer-intelligence/examples/` -- sample transcript and outputs (read-only)
 - `proof-library/case-studies/` -- your case studies with quantifiable metrics
 - `outputs/` -- all pipeline outputs land here, organized by type
-- `brand/` -- Instagram identity, maintained by hand and read by `/instagram-content`: `brand-kit.md` (visual + asset identity, Joost reference and style-reference images) and `instagram-voice.md` (editorial voice, tone, and lessons captured from refine sessions).
+- `brand/` -- Instagram identity, maintained by hand and read by `/instagram-content`: `brand-kit.md` (visual + asset identity, Joost reference and style-reference images), `brand-colors.json` (the brand palette Remotion renders with), and `instagram-voice.md` (editorial voice, tone, and lessons captured from refine sessions).
+- `remotion/` -- the only editor for Instagram posts. Props-driven React compositions (cheatsheet, quiz, scenario reel) that render the final carousels and reels. The skill writes `remotion/props/{slug}.json`; the user drops generated assets in `remotion/public/{slug}/`; renders land in `remotion/out/`. See `remotion/README.md`.
 - `motions/` -- future GTM motions added with each newsletter issue
 
 ### The human review gate
 
 The SEO pipeline stops after the outline stage. The outline must be reviewed and renamed to `*-outline-approved.md` before the pipeline continues to writing. This is deliberate -- human judgment belongs at the strategic inflection point between research and execution. Do not skip this step.
+
+`/instagram-content` has the same shape of gate. `batch` produces a Markdown runbook per post and renders nothing. The user reviews the content (above all the Dutch), and only a post marked `Status: approved` may be produced via `render` mode (which Remotion then renders). Do not render during batch, and do not set `Status: approved` on the user's behalf.
 
 ---
 

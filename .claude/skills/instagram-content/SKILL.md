@@ -1,26 +1,33 @@
 ---
 name: instagram-content
-description: Plan a backlog of themed Instagram post ideas, produce a week of ready-to-run post runbooks from it, and refine any single post until it is right. Three modes: plan, batch, refine.
+description: Plan a backlog of themed Instagram post ideas, produce a week of reviewable post runbooks (+ render props), and refine or render any single post. Four modes: plan, batch, refine, render.
 ---
 
 # Instagram Content
 
-Content Agent for Instagram. Three modes that form a pipeline: **plan** builds a curated backlog of themed post ideas, **batch** turns one themed pack into a week of ready-to-run post runbooks, **refine** iterates on a single post. Built around the 2026 algorithm: sends > saves > sentence-comments, hook in the first 3 seconds, caption SEO over hashtags, originality over recycled clips.
+Content Agent for Instagram. Four modes that form a pipeline with a human gate in the middle: **plan** builds a curated backlog of themed post ideas, **batch** turns one themed pack into a week of reviewable post runbooks (+ render props), **refine** iterates on a single post, and **render** produces the finished asset with Remotion — but only after a human approves. Built around the 2026 algorithm: sends > saves > sentence-comments, hook in the first 3 seconds, caption SEO over hashtags, originality over recycled clips.
 
-**Every post is a runbook.** When a post needs assets from another tool (ElevenLabs voice, ChatGPT images, Kling video), the file gives numbered "do this, paste this, attach this" steps with the full prompt already filled in and the exact brand files to attach. The user assembles nothing and decides nothing. See the runbook principle in `instagram-playbook.md`.
+**Remotion is the only editor.** Every final image and reel is produced by the `remotion/` project at the repo root, not by CapCut or Canva. The skill never hand-assembles a video or lays out slides in a design tool. It writes a **props JSON** (`remotion/props/{slug}.json`); the user generates the upstream assets (ElevenLabs voice, ChatGPT illustrations, image-to-video clips) and drops them into `remotion/public/{slug}/`; then one render command turns props + assets into the finished MP4 or PNG slides. Read `remotion/README.md` for the full menu of edits Remotion can apply.
+
+**Every post is a runbook.** Each post file gives numbered "do this, paste this, save it here" steps with the full prompt already filled in and the exact brand files to attach, plus the render command. The user generates assets and approves content; Remotion does all editing. See the runbook principle in `instagram-playbook.md`.
+
+**The human gate (most important).** Running the skill does **not** create or render anything visual. `batch` produces a Markdown runbook per post for the user to read and verify (above all the Dutch). Rendering happens only in `render` mode, and only on a post whose runbook is marked `Status: approved`. This mirrors the seo-pipeline outline gate: human judgment sits between content and production. Do not render during batch. Do not auto-approve.
 
 ## Trigger
 
 User invokes `/instagram-content` with an optional mode and argument:
 
 - `/instagram-content plan [theme hint]` -- **plan mode**. Build or refresh the idea backlog of themed situation packs.
-- `/instagram-content` or `/instagram-content batch [theme hint]` -- **batch mode** (default). Produce one themed week of post runbooks, pulling from the backlog if it exists.
-- `/instagram-content refine <slug-or-path>` -- **refine mode**. Iterate on one existing post.
+- `/instagram-content` or `/instagram-content batch [theme hint]` -- **batch mode** (default). Produce one themed week of reviewable runbooks + render props. Does not render.
+- `/instagram-content refine <slug-or-path>` -- **refine mode**. Iterate on one existing post's content (runbook + props), before rendering.
+- `/instagram-content render <slug-or-path>` -- **render mode**. Produce the finished asset with Remotion. Gated: refuses unless the post is `Status: approved` and its assets are present.
 
 ## Context Consumed
 
-- `.claude/skills/instagram-content/instagram-playbook.md` -- platform mechanics, cadence, theming, runbook principle, per-type rules. Always load first.
-- `brand/brand-kit.md` -- the visual and asset identity for all posts: Style Block, Negative prompt, Joost reference, style-reference filenames, ElevenLabs voices, editor (CapCut), subtitle policy. Inline the relevant pieces into each post's steps.
+- `.claude/skills/instagram-content/instagram-playbook.md` -- platform mechanics, cadence, theming, runbook principle, per-type rules, the gate. Always load first.
+- `remotion/README.md` -- what Remotion can do to the final image/reel, the props contract per composition, and the render commands. Load in batch and render modes.
+- `brand/brand-kit.md` -- the visual and asset identity for all posts: Style Block, Negative prompt, Joost reference, style-reference filenames, ElevenLabs voices, and the logo. Inline the relevant pieces into each post's asset steps. The logo is rendered automatically by Remotion (into the wordmark and reel outro) and is never a user-generated per-post asset — do not add a logo step to runbooks.
+- `brand/brand-colors.json` -- the brand palette Remotion renders with (blue `#0025DB`, gold `#E0BB00`, etc.). The skill does not set colors per post; the compositions read the palette. Referenced so the skill knows the look and keeps captions/overlays on-brand.
 - `brand/instagram-voice.md` -- the editorial voice and tone identity: brand-specific tone, emotional-accuracy rules, and per-format lessons captured from past refine sessions. Apply it to every caption, slide, dialogue, and quiz. This is the file the refine "capture a lesson" prompt writes back to.
 - `strategy/positioning.md` -- value props to thread as undercurrent.
 - `strategy/personas.md` -- who each post targets and their pains.
@@ -30,16 +37,32 @@ User invokes `/instagram-content` with an optional mode and argument:
 
 The brand `.png` files are attached by the user inside ChatGPT, not read by the skill. The skill only names them. Does NOT read `knowledge-base.md`, `icp.md`, `competitive-landscape.md`, `voice-guide.md`. The global `.claude/rules/writing-quality.md` applies to all captions and slides.
 
-If `brand/brand-kit.md` is missing or its asset slots are unfilled, warn that reel and visual steps will contain placeholders, and point to the one-time setup in `brand/SETUP.md`.
+If `brand/brand-kit.md` is missing or its asset slots are unfilled, warn that asset steps will contain placeholders, and point to the one-time setup in `brand/SETUP.md`. If the `remotion/` project is missing, warn that render mode will not work and point to `remotion/README.md`.
 
 ## Output
 
 - `outputs/instagram/idea-backlog.json` -- the curated backlog of themed situation packs (plan mode writes; batch mode reads and updates `status`).
 - `outputs/instagram/week-{YYYY-MM-DD}_plan.md` -- the produced week's overview grid (batch mode).
-- `outputs/instagram/{YYYY-MM-DD}_{type}_{slug}.md` -- one self-contained runbook per post. `type` is `cheatsheet`, `quiz`, `scenario-reel`, or `article-remix`.
-- Create `outputs/instagram/` if it does not exist.
+- `outputs/instagram/{YYYY-MM-DD}_{type}_{slug}.md` -- one reviewable runbook per post. `type` is `cheatsheet`, `quiz`, `scenario-reel`, or `article-remix`. **This is the human-gate artifact.** It carries `Status: draft` until the user approves.
+- `remotion/props/{slug}.json` -- the render props for the post, written by batch alongside the runbook. The contract between the skill and the Remotion composition.
+- `remotion/out/{slug}.mp4` or `remotion/out/{slug}/element-*.png` -- the finished asset, produced only in render mode.
+- Create `outputs/instagram/` if it does not exist. The `remotion/` project and its `props/`, `public/`, `out/` folders already exist.
 
 Each post file carries its own rules block plus the runbook, so plain conversational edits stay on-rails without re-invoking the skill.
+
+---
+
+## The human review gate
+
+The gate sits between `batch` (content) and `render` (production), mirroring the seo-pipeline outline gate:
+
+1. `batch` writes the runbook MD (`Status: draft`) and the props JSON. **No asset is rendered.**
+2. The user reads each runbook, verifies the content — above all the Dutch (correct, A1-level, usable) — and refines anything off (`/instagram-content refine <slug>`).
+3. The user generates the upstream assets named in the runbook (voice, image, clip) and drops them into `remotion/public/{slug}/`.
+4. The user approves by setting `Status: approved` at the top of the runbook.
+5. `render` produces the asset — and refuses if `Status` is not `approved` or assets are missing.
+
+Do not skip the gate. Do not render in batch. Do not set `Status: approved` yourself.
 
 ---
 
@@ -110,9 +133,11 @@ List each pack: situation, priority + reason, persona, and the 4 idea hooks. Tel
 
 ## Batch Mode Workflow
 
+Batch produces **reviewable runbooks + render props. It never renders.**
+
 ### Step 1: Load context
 
-1. Read `instagram-playbook.md`, `brand/brand-kit.md`, and `brand/instagram-voice.md`.
+1. Read `instagram-playbook.md`, `remotion/README.md`, `brand/brand-kit.md`, `brand/brand-colors.json`, and `brand/instagram-voice.md`.
 2. Read `strategy/positioning.md` and `strategy/personas.md` (warn if missing).
 3. Read all `.json` in `customer-intelligence/insights/`. Aggregate `lexicon`, `quotes`, `pains`, `jtbd`, `keyword_candidates`.
 4. Read `outputs/instagram/idea-backlog.json` if it exists.
@@ -141,27 +166,29 @@ Theme: {situation, or "Mixed"}
 Cadence: 4 feed posts (about 2-3 reels + 1-2 carousels) + daily Stories.
 Grounded in: {intelligence sources / pack id}
 
-| Day | Post file | Type | On-theme | Hook | Job |
-|-----|-----------|------|----------|------|-----|
-| Mon | {filename} | scenario-reel | yes | {hook} | reach |
-| Tue | {filename} | cheatsheet | yes | {hook} | saves |
-| Thu | {filename} | quiz | yes | {hook} | comments |
-| Fri | {filename} | article-remix | flex | {hook} | reach + SEO |
+| Day | Post file | Type | On-theme | Hook | Job | Status |
+|-----|-----------|------|----------|------|-----|--------|
+| Mon | {filename} | scenario-reel | yes | {hook} | reach | draft |
+| Tue | {filename} | cheatsheet | yes | {hook} | saves | draft |
+| Thu | {filename} | quiz | yes | {hook} | comments | draft |
+| Fri | {filename} | article-remix | flex | {hook} | reach + SEO | draft |
 
 ## Stories (daily)
 - Reshare each day's feed post to Stories.
 - {2-3 Story quiz-sticker ideas from this week's quiz}
 
-## Next step
-Review each post file. To change one: `/instagram-content refine {slug}`.
-When a post is ready, set `Status: approved` at the top of its file.
+## How to take these live
+1. Review each runbook. Fix content with `/instagram-content refine {slug}`.
+2. Generate the assets each runbook names, into `remotion/public/{slug}/`.
+3. Set `Status: approved` at the top of the runbook.
+4. Render it: `/instagram-content render {slug}` (or the render command in the file).
 ```
 
-### Step 4: Write each post as a runbook
+### Step 4: Write each post as a runbook + props
 
-For every slot, write `outputs/instagram/{date}_{type}_{slug}.md` using the matching template in **Post Runbook Templates** below. Fill every step completely: real Dutch dialogue, real slide text, the full image prompt with the Style Block and Negative prompt inlined from the brand kit, the exact brand files to attach, Kling settings, and CapCut steps. Nothing left as a template for the user to complete.
+For every slot, write `outputs/instagram/{date}_{type}_{slug}.md` using the matching template in **Post Runbook Templates** below, AND write `remotion/props/{slug}.json` with the same content shaped to that composition's props (see `remotion/README.md` for the props contract). Fill every step completely: real Dutch dialogue, real slide text, the full image prompt with the Style Block and Negative prompt inlined from the brand kit, the exact brand files to attach, image-to-video settings, the asset filenames to save under `remotion/public/{slug}/`, and the render command. Nothing left as a template for the user to complete. **Do not render.**
 
-Keep the on-theme posts coherent: the cheatsheet phrases should match the reel's scene, the quiz should test a mistake from that same situation, and the second character can recur across the theme.
+Keep the on-theme posts coherent but **not visually identical**: the cheatsheet phrases should match the reel's scene, the quiz should test a mistake from that same situation, and the second character can recur across the theme. Coherent means same Joost, same style, same situation — not the same opening image. Give each on-theme post a different setting or shot so the profile grid never shows the same picture three times (see the playbook's *Feed-grid differentiation* rule). Only reuse one shot if the user explicitly asks for a matched grid row.
 
 Apply the playbook rules: hook in the first frame, sends/saves CTA, caption line 1 = searchable keyword, quiz prompts that ask for a reason (never A/B bait), scenario reels at Tier 1 (single composition, no lip-sync, subtitle-led) with Joost locked, visuals on-brand across all types, remixes that transform rather than paste.
 
@@ -170,29 +197,45 @@ Apply the **Dutch language standard** to every Dutch line: A1 default (light A2 
 ### Step 5: Update the backlog and report
 
 - Set the `status` of each produced post to `produced` in `idea-backlog.json` (leave the rest of each pack untouched).
-- Report: the theme (or "mixed"), the date range, the 4 posts (day, type, working title), file paths, any gaps, and whether the brand kit had unfilled slots.
-- Reminder: "Review each post. Refine any one with `/instagram-content refine <slug>`. Set `Status: approved` when ready. Queue more posts (or a whole pack) and run `/instagram-content` again for the next week."
+- Report: the theme (or "mixed"), the date range, the 4 posts (day, type, working title), runbook + props file paths, any gaps, and whether the brand kit had unfilled slots.
+- Reminder, in this order: "These are drafts for your review — nothing has been rendered. 1) Read each runbook and verify the content, especially the Dutch. 2) Refine any post with `/instagram-content refine <slug>`. 3) Generate the named assets into `remotion/public/<slug>/`. 4) Set `Status: approved`. 5) Render with `/instagram-content render <slug>`."
 
 ---
 
 ## Refine Mode Workflow
 
-Triggered by `/instagram-content refine <slug-or-path>`.
+Triggered by `/instagram-content refine <slug-or-path>`. Edits content **before** rendering.
 
 1. **Resolve the post.** Find the file in `outputs/instagram/` matching the slug. If none or several match, list the week's posts and ask which.
-2. **Load just what this type needs.** Read `instagram-playbook.md` (focus on this type's section), `brand/brand-kit.md`, and `brand/instagram-voice.md` (apply its tone and captured lessons to every edit). For `article-remix`, also read the source article and its `_brief.json`. Re-read insight fields (`lexicon`, `quotes`, `pains`) only if the user wants fresh grounding. Stay tight to this post.
+2. **Load just what this type needs.** Read `instagram-playbook.md` (focus on this type's section), `brand/brand-kit.md`, `brand/instagram-voice.md` (apply its tone and captured lessons to every edit), and `remotion/README.md` if the edit touches what Remotion renders. For `article-remix`, also read the source article and its `_brief.json`. Re-read insight fields (`lexicon`, `quotes`, `pains`) only if the user wants fresh grounding. Stay tight to this post.
 3. **Iterate.** Support both operations:
    - **Edit in place:** a targeted change ("make slide 3 punchier", "shorten the cover hook", "this quiz is drifting into A/B bait"). Apply directly.
    - **Regenerate a piece:** produce alternatives for one component and let the user pick. Examples: "give me 3 cover hooks", "rewrite the quiz", "two alternative scene-image prompts", "a different caption", "a tighter Dutch dialogue". Show options inline, let the user choose or blend, write the chosen version back.
-   After each change, write the file and confirm what changed. Keep going until satisfied. Every revision must still pass the post's rules block, including the Dutch language standard (A1 default, grammatically correct, usable).
-4. **Capture durable lessons.** When the user's feedback is a *durable editorial rule* and not a one-off tweak to this single post (e.g. "don't force a correct answer on reflex quizzes", "the switch-to-English feeling is frustration, not shame", "keep the humor but drop the shame"), offer to remember it: ask *"Want me to save this as a durable rule in `brand/instagram-voice.md` so future posts follow it?"* If yes, append a one-line principle plus a short italic _(why / source)_ under the matching heading in `brand/instagram-voice.md` (Tone, Emotional accuracy, Quiz design, or a new heading). Keep it brand-level and reusable, never post-specific. All Instagram learnings stay in `brand/instagram-voice.md` — do not write them into `strategy/` files. Skip the offer entirely for purely local edits.
-5. **Close out.** Remind the user they can set `Status: approved`, and point to the next unrefined post if any remain.
+   After each change, write **both** the runbook MD and `remotion/props/{slug}.json` so they stay in sync, then confirm what changed. Keep going until satisfied. Every revision must still pass the post's rules block, including the Dutch language standard (A1 default, grammatically correct, usable).
+4. **Capture durable lessons.** When the user's feedback is a *durable editorial rule* and not a one-off tweak to this single post (e.g. "don't force a correct answer on reflex quizzes", "the switch-to-English feeling is frustration, not shame", "keep the humor but drop the shame"), offer to remember it: ask *"Want me to save this as a durable rule in `brand/instagram-voice.md` so future posts follow it?"* If yes, append a one-line principle plus a short italic _(why / source)_ under the matching heading in `brand/instagram-voice.md` (Tone, Emotional accuracy, Quiz design, or a new heading). Keep it brand-level and reusable, never post-specific. If instead the lesson is about how Remotion *renders* (a visual/production lesson, not editorial), note it belongs in `remotion/README.md` and offer to add it there. All editorial learnings stay in `brand/instagram-voice.md` — do not write them into `strategy/` files. Skip the offer entirely for purely local edits.
+5. **Close out.** Remind the user that content edits do not re-render anything; when the content is right, set `Status: approved`, generate/confirm assets in `remotion/public/<slug>/`, then run `/instagram-content render <slug>`.
+
+---
+
+## Render Mode Workflow
+
+Triggered by `/instagram-content render <slug-or-path>`. This is the gated production step — the **only** place a final asset is produced, and Remotion is the only tool that produces it.
+
+1. **Resolve the post** in `outputs/instagram/` from the slug. If ambiguous, list and ask.
+2. **Check the gate.** Read the runbook header. If `Status` is not `approved`, STOP and tell the user to review and approve first. Do not proceed. Do not edit the Status yourself.
+3. **Check the assets.** Read `remotion/props/{slug}.json` and confirm every asset path it references exists under `remotion/public/{slug}/` (the cover/scenario image for carousels; the clip + every voice mp3 for reels). If any are missing, list exactly which files to generate and where to save them, then stop.
+4. **Render with Remotion** (run from the `remotion/` directory):
+   - Reel: `npx remotion render src/index.ts ScenarioReel out/{slug}.mp4 --props=props/{slug}.json`
+   - Cheatsheet: `npx remotion render src/index.ts Cheatsheet out/{slug} --sequence --image-format=png --props=props/{slug}.json`
+   - Quiz: `npx remotion render src/index.ts Quiz out/{slug} --sequence --image-format=png --props=props/{slug}.json`
+   - Reel durations are auto-detected from the audio/clip — no manual timing.
+5. **Report** the output path (`remotion/out/...`), the duration / slide count, and remind the user they can preview/tweak live with `npm run studio` in `remotion/`, then post. If they want a visual change, point them back to `refine` (content) or `remotion/README.md` (how it renders).
 
 ---
 
 ## Post Runbook Templates
 
-Every file opens with this header:
+Every file opens with this header. `Status` is the gate.
 
 ```markdown
 # {Day} {Date} — {Type}: {Working Title}
@@ -201,56 +244,78 @@ Every file opens with this header:
 > **Theme:** {situation}
 > **Persona:** {target persona}
 > **Positioning thread:** {one value prop woven as undercurrent}
-> **Status:** draft
+> **Render:** {ScenarioReel | Cheatsheet | Quiz} — props: `remotion/props/{slug}.json`
+> **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
 ## Rules for this post (keep edits on-rails)
 - Dutch: A1 default (light A2 only if the scenario needs it), always grammatically correct, usable; register correct by context; flagged for a native check before posting.
+- Remotion renders the final asset. Do not assemble in CapCut/Canva. Crisp Dutch text is rendered, never baked into an AI image.
 - {3-5 more guardrails from the playbook section for this type}
 ```
 
 ### scenario-reel (Tier 1: one composition, no lip-sync, subtitle-led)
 
 ```markdown
-## STEP 1 — Voice (ElevenLabs)
-Use your Joost voice ({voice from brand kit}). For the second character, pick any
-Dutch voice. Render each line separately and note its length in seconds.
+## ASSETS TO GENERATE (save into remotion/public/{slug}/)
 
-  Joost:  "{Dutch}"   (EN: {translation})
-  {B}:    "{Dutch}"   (EN: {translation})
+STEP 1 — Voice (ElevenLabs). Use the Joost voice ({voice from brand kit}); pick one warm
+Dutch voice for the second character. Settings: Stability ~50, Similarity high, Style low,
+slightly slow. Render each line as its own file and save with these exact names (order matters):
+
+  remotion/public/{slug}/{c1}-1.mp3   "{Dutch}"            (EN: {translation})
+  remotion/public/{slug}/{c2}-2.mp3   "{Dutch or English}" (EN: {translation})
   ...
+(Remotion measures each file's length automatically — you do not note durations.)
 
-## STEP 2 — Scene image (ChatGPT)
-Attach these 3 files: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png
-Paste this exact prompt:
+STEP 2 — Scene image (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png,
+brand/joost-reference.png. Paste this exact prompt:
 
-  Create a warm, hand-drawn storybook illustration for a VERTICAL 9:16 video
-  frame: a two-shot of two characters {at the place, doing the scene}.
-  Reference rules: match the STYLE of style-ref-1 and style-ref-2 (do not copy
-  their characters or objects). Reproduce JOOST exactly from joost-reference
-  (same face, hair, glasses, build, clothing). Invent the second character to fit
-  the scene. Keep the bottom third calmer so subtitles can be added later.
-  {Style Block, inlined from brand kit}
-  {Negative prompt, inlined from brand kit}
+  {full scene prompt with Style Block + Negative prompt inlined. Describe each character by
+  POSITION in the frame — e.g. "JOOST behind the counter on the left", "a woman on the right" —
+  not by name (names confuse image models; the name only lives in the dialogue/subtitles). No
+  text in the image.}
 
-(You need 1 image for this reel.)
+Save it anywhere (it is only the start frame for the clip; the render does not use it).
 
-## STEP 3 — Video (Kling, Image-to-Video)
-Upload the Step 2 image as the start frame. Settings: 9:16, 10s, relevance high.
-Paste this motion prompt:
+STEP 3 — Video (image-to-video; Seedance 1 Pro). Upload the Step 2 image as BOTH the begin
+frame AND the end frame — Seedance 1 Pro supports both, and setting end frame = begin frame
+returns the clip to the scene for a clean loop, so you never write "loop" / "return to the start"
+into the prompt. Settings: 9:16, 10s, 720p. SILENT, no lip-sync.
 
-  {motion + camera + ambient only, e.g. "Joost gives a small friendly gesture and
-  warm smile; the customer nods. Subtle natural movement, calm. Camera static with
-  gentle breathing motion. Soft ambient {place} life."}
+Seedance 1 Pro has NO negative-prompt field, so the prompt is the only steering — and a heavy
+"no talking / no lip sync / no mouth movement" list backfires (naming those actions makes the
+model perform them). So the motion prompt LEADS with the positive closed-mouth state for each
+character by position, keeps the motion tiny, then adds ONE short calm clause of don'ts. Paste
+this exact prompt:
 
-Negative prompt: {from brand kit}
-If the dialogue runs past 10s, make a second 10s clip from the same image.
+  Animate this still image with extremely subtle motion only. {Right character}'s mouth and lips
+  remain unchanged and closed for the entire video; {her/his} face stays still. Joost keeps a
+  soft, natural closed-mouth expression — at most a tiny relaxed smile shift, lips closed the
+  entire time. No speech-like mouth movement, no mouth opening, no jaw motion. {Right character},
+  the {woman} on the right, {one tiny body-language gesture}, then returns to the provided
+  end-frame pose. Joost, the baker on the left, gives a small head nod and calmly gestures only
+  toward {one nearby object}. Static camera with very subtle ambient breathing motion. {Warm calm
+  setting} atmosphere. Preserve exact style, character design, composition, and lighting.
 
-## STEP 4 — Assemble (CapCut)
-1. Place the clip(s) in order.
-2. Lay the Step 1 voiceover lines onto the matching moments.
-3. Add the hook text overlay for the first 3 seconds: "{hook line}"
-4. Burn in subtitles per line: Dutch large, English smaller beneath.
-5. Export 9:16.
+(No separate negative prompt — Seedance 1 Pro has none. Do NOT paste a list of mouth/talking
+negatives; it triggers the very talking motion you are trying to avoid. Full recipe:
+brand/brand-kit.md → Motion.)
+
+Save the clip as: remotion/public/{slug}/clip.mp4
+(Generate exactly ONE 10s clip — never a second one. With begin frame = end frame the clip
+already returns to the scene, and Remotion loops it to fill the dialogue, however long, so the
+reel loops cleanly on Instagram.)
+
+## WHAT REMOTION PRODUCES (no CapCut)
+Remotion loops the clip, sequences the voice lines with auto-detected timing, burns in NL/EN
+subtitles, emphasizes the recovery line in gold ("SAY THIS ↓"), adds the 3-second hook overlay,
+the "{switch tag}" tag on the English line, and a branded outro (DWJ logo mark + the one line to
+remember). The DWJ logo is baked into Remotion — no per-post asset to generate. Output: 9:16 MP4
+with audio. Props: remotion/props/{slug}.json (hook text, the lines + flags, outro).
+
+## RENDER (after Status: approved and all assets saved)
+cd remotion && npx remotion render src/index.ts ScenarioReel out/{slug}.mp4 --props=props/{slug}.json
+(or: /instagram-content render {slug})
 
 ## CAPTION (paste into Instagram)
 {line 1: searchable keyword as a hook}
@@ -265,23 +330,33 @@ Keywords woven: {3-6}
 ### cheatsheet
 
 ```markdown
-## COVER IMAGE (ChatGPT)
-Attach: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png
-Paste this exact prompt:
+## ASSETS TO GENERATE (save into remotion/public/{slug}/)
 
-  Create a warm, hand-drawn storybook illustration, VERTICAL 9:16: Joost {at the
-  place, simple friendly action}. Match the STYLE of style-ref-1 and style-ref-2
-  (do not copy their characters or objects). Reproduce JOOST exactly from
-  joost-reference. Leave the top clear for a headline overlay.
-  {Style Block inlined} {Negative prompt inlined}
+COVER IMAGE (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png,
+brand/joost-reference.png. Paste this exact prompt:
 
-Headline to overlay on the cover (in CapCut/Canva): "{5-8 word hook}"
+  Create a warm, hand-drawn storybook illustration, VERTICAL 4:5 (1080×1350, the Instagram feed
+  ratio): Joost {at the place, simple friendly action}. Match the STYLE of style-ref-1 and
+  style-ref-2 (do not copy their characters or objects). Reproduce JOOST exactly from
+  joost-reference. Frame Joost in the UPPER HALF of the image, kept high. The cover crops to a
+  horizontal band across the top and fades the lower part into a solid colour panel that holds the
+  headline, so keep Joost high and leave the lower third empty. {Style Block inlined} {Negative prompt inlined}
+  (No text in the image. The headline is rendered by Remotion.)
 
-## SLIDES (lay out in Canva/CapCut)
-2. {NL phrase} — {EN translation} — _when:_ {situation}
-3. ...
-N (last). Save + send CTA: "Save this for your next trip to the {place}. Send it
-to whoever you're learning with."
+Save it as: remotion/public/{slug}/cover.png
+(No Canva. The phrase slides are rendered by Remotion from props, with crisp Dutch text.)
+
+## WHAT REMOTION PRODUCES
+A branded carousel: cover (your image + the headline/kicker/sub overlaid) + one card per phrase
+(NL hero line, EN translation, a WHEN panel) + a save/send CTA slide. One PNG per slide.
+Props: remotion/props/{slug}.json (cover text, phrases, cta).
+
+The phrases (also written into props):
+1. {NL phrase} ({EN translation}) when: {situation}
+2. ...
+
+## RENDER (after Status: approved and cover.png saved)
+cd remotion && npx remotion render src/index.ts Cheatsheet out/{slug} --sequence --image-format=png --props=props/{slug}.json
 
 ## CAPTION (paste into Instagram)
 {line 1 keyword hook}
@@ -296,27 +371,36 @@ Keywords woven: {3-6}
 ### quiz
 
 ```markdown
-## SCENARIO IMAGE (ChatGPT)
-Attach: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png
-Paste this exact prompt:
+## ASSETS TO GENERATE (save into remotion/public/{slug}/)
 
-  Create a warm, hand-drawn storybook illustration, VERTICAL 9:16: {the quiz
-  scenario, e.g. Joost behind a bakery counter asking a customer}. Match the STYLE
-  of style-ref-1 and style-ref-2. Reproduce JOOST exactly from joost-reference.
-  Leave room for a question overlay.
-  {Style Block inlined} {Negative prompt inlined}
+SCENARIO IMAGE (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png,
+brand/joost-reference.png. Paste this exact prompt:
 
-## THE QUIZ (overlay text)
+  Create a warm, hand-drawn storybook illustration, VERTICAL 4:5 (1080×1350, the Instagram feed
+  ratio): {the quiz scenario, e.g. Joost behind a bakery counter}. Match the STYLE of style-ref-1
+  and style-ref-2. Reproduce JOOST exactly from joost-reference. The question overlay sits CENTRED
+  over a dark scrim covering the whole image, so framing is flexible. Just keep the mid-frame from
+  being too busy behind the large question. {Style Block inlined} {Negative prompt inlined}
+  (No text in the image. The question is rendered by Remotion.)
+
+Save it as: remotion/public/{slug}/scenario.png
+
+## WHAT REMOTION PRODUCES
+Three slides: a scenario cover with the question overlaid, an options slide (A/B/C cards), and a
+reveal slide (reframe or answer + teach). Props: remotion/props/{slug}.json.
+
+The quiz (also written into props):
 - Scenario line: "{real situation}"
-- Question: "{Dutch prompt}"
+- Question: "{Dutch prompt}" (EN: {translation})
 - Options: A) {...}  B) {...}  C) {...}
-- Correct: {letter} — {one-line teach}
+- Correct: {letter, OR omit for a reason-seeking reflex quiz with no right answer}
+- Reveal: {one-line reframe or teach}
+
+## RENDER (after Status: approved and scenario.png saved)
+cd remotion && npx remotion render src/index.ts Quiz out/{slug} --sequence --image-format=png --props=props/{slug}.json
 
 ## ENGAGEMENT PROMPT (overlay / caption — beats the bait filter)
 "{asks for a reason or personal angle, never bare A/B}"
-
-## REVEAL (slide 2 or pinned comment)
-{correct answer + the one-line teach, friendly}
 
 ## CAPTION (paste into Instagram)
 {line 1 keyword hook}
@@ -335,10 +419,11 @@ Keywords woven: {3-6}
 - Article: {path to _final.mdx}
 - Primary keyword (from brief): "{keyword}"
 - Chosen angle: {the ONE idea pulled out, not a summary}
-- Format: {carousel | reel}
+- Format: {carousel → Cheatsheet | reel → ScenarioReel}
 - Originality note: transform, do not paste. No verbatim paragraphs.
 
 ## RUNBOOK
-{Reuse the cheatsheet or scenario-reel runbook above depending on Format, fully
-filled. Caption line 1 = the article's primary keyword.}
+{Reuse the cheatsheet or scenario-reel template above depending on Format, fully filled, including
+the ASSETS / WHAT REMOTION PRODUCES / RENDER sections and the matching remotion/props/{slug}.json.
+Caption line 1 = the article's primary keyword.}
 ```

@@ -26,6 +26,10 @@ Keep it tight — one principle per line. This loads on every run, so an essay b
 
 ---
 
+## Punctuation
+
+- **Never use an em-dash (—) in any post.** Not in slides/props, captions, engagement prompts, or pinned comments. Rewrite as a period, comma, colon, or parentheses. _(Founder preference, June 2026; also enforced globally by `.claude/rules/writing-quality.md`. It kept slipping into rendered slides, so it is restated here as a brand hard rule.)_
+
 ## How to add a lesson
 
 The refine mode of `/instagram-content` offers to write here after a refine session. Add a lesson only when the feedback is a **durable editorial rule**, not a one-off tweak to a single post:

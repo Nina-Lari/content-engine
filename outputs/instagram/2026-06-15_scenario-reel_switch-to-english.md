@@ -4,111 +4,73 @@
 > **Theme:** A Dutch person switches to English the moment you try to speak Dutch
 > **Persona:** Belonging-motivated expat stuck in the Shame Cycle (Monika, Molly, Nina) — "people instantly switch to English when I try"
 > **Positioning thread:** Unlimited, judgment-free practice. You rehearse the recovery line enough times alone that it comes out calm in the real moment.
-> **Status:** draft
+> **Render:** ScenarioReel — props: `remotion/props/switch-to-english.json`
+> **Status:** approved (rendered in the Remotion validation test → `remotion/out/switch-to-english.mp4`, ~22s)
 
 ## Rules for this post (keep edits on-rails)
 
 - Dutch: A1 default (one light-A2 line: the recovery line), always grammatically correct, usable; service register is **u** throughout this scene (bakery = stranger/service); flagged for a native check (Joost) before posting.
-- Tier 1 only: one two-shot composition, no lip-sync, subtitles carry comprehension. Joost is locked from `brand/joost-reference.png`; **Maya** (the learner) is invented here and reused in Friday's reel — keep her design identical.
-- Hook lives in the first 3 seconds as a text overlay. Open on the moment, never a logo.
+- Tier 1 only: one two-shot composition, no lip-sync, subtitles carry comprehension. Joost is locked from `brand/joost-reference.png`; **Roos** (the learner) is invented here and reused if she recurs — keep her design identical.
+- Remotion renders the final asset. Do not assemble in CapCut/Canva. Crisp Dutch text is rendered, never baked into the AI image.
+- Hook lives in the first 3 seconds as a Remotion text overlay. Open on the moment, never a logo.
 - Joost plays the friendly Dutch baker who switches to English to be helpful (the real reflex), then warmly switches back and slows down. He is never mocking. The point is that staying in Dutch is a polite request, not a confrontation.
 - One teaching payload: the recovery line. Subtitles every line (Dutch large, English smaller beneath). Caption line 1 = a searchable phrase; CTA = send/save, not likes.
 
-## STEP 1 — Voice (ElevenLabs)
+## ASSETS TO GENERATE (save into remotion/public/switch-to-english/)
 
-Use your saved Joost voice **Ido** (ElevenLabs voice ID `dLPO5AsXc3FZDbTh1IKa`; see `brand/brand-kit.md` → Voices). For Maya, pick any warm female Dutch voice and keep it for Friday's reel too. Settings: Stability ~50, Similarity high, Style low, speed slightly slow for learners. Render each line **separately** and note its length in seconds.
+STEP 1 — Voice (ElevenLabs). Use the saved Joost voice **Ido** (ElevenLabs voice ID `dLPO5AsXc3FZDbTh1IKa`; see `brand/brand-kit.md` → Voices). For Roos, pick a warm female Dutch voice and keep it if she recurs. Settings: Stability ~50, Similarity high, Style low, slightly slow for learners. Render each line as its own file and save with these exact names (order matters):
 
-Maya: "Hoi, mag ik één bruin brood, alstublieft?" (EN: Hi, may I have a brown bread, please?)
-Joost (in English, the switch): "Of course — a brown bread. That's two euros."
-Maya: "Mag ik het in het Nederlands oefenen?" (EN: Can I practice it in Dutch?)
-Joost: "Natuurlijk! Sorry. Dus, één bruin brood. Dat is twee euro." (EN: Of course! Sorry. So, a brown bread. That's two euros.)
-Maya: "Dank u wel!" (EN: Thank you!)
+    remotion/public/switch-to-english/roos-1.mp3   "Hoi, mag ik een bruin brood, alsjeblieft?"            (EN: Hi, may I have one loaf of brown bread, please?)
+    remotion/public/switch-to-english/joost-2.mp3  "Of course, one loaf of brown bread. That's two euros."          (the switch — said warmly, in English)
+    remotion/public/switch-to-english/roos-3.mp3   "Mag ik het in het Nederlands proberen? Ik wil graag oefenen."                (EN: May I try it in Dutch? I’d like to practice.)
+    remotion/public/switch-to-english/joost-4.mp3  "Natuurlijk! Sorry. Een bruin brood. Dat is twee euro."  (EN: Of course! Sorry. One loaf of brown bread. That’s two euros.)
+    remotion/public/switch-to-english/roos-5.mp3   "Dankjewel!"                                          (EN: Thank you!)
 
-(Joost's second line is the only one in English, said warmly — it is the "switch" the whole reel turns on.)
+(Joost's second line is the only one in English, said warmly — it is the "switch" the whole reel turns on. Remotion measures each file's length automatically; you do not note durations.)
 
-## STEP 2 — Scene image (ChatGPT)
+STEP 2 — Scene image (ChatGPT). Attach: `brand/style-ref-1.png`, `brand/style-ref-2.png`, `brand/joost-reference.png`. Paste this exact prompt:
 
-Attach these 3 files: `brand/style-ref-1.png`, `brand/style-ref-2.png`, `brand/joost-reference.png`
-Paste this exact prompt:
+    Create a warm, hand-drawn storybook illustration for a VERTICAL 9:16 video
+    frame: a two-shot at a cozy Dutch bakery counter. On the LEFT, behind the counter,
+    JOOST stands as the friendly baker, an apron over his clothes, shelves of bread
+    and a small cash register behind him, gesturing warmly. On the RIGHT, a woman in
+    her early 30s with shoulder-length dark hair, a mustard scarf, and a canvas tote
+    bag stands at the counter holding up a finger as she speaks (do not put a name in
+    the image prompt). Warm morning window light. Reference rules: match the
+    STYLE of style-ref-1 and style-ref-2 (do not copy their characters or objects).
+    Reproduce JOOST exactly from joost-reference (same face, hair, stubble, build,
+    clothing) under the apron. Invent Roos to fit the scene and keep her consistent.
+    Keep the bottom third calmer and less detailed (subtitles render there). No text in the image.
 
-Create a warm, hand-drawn storybook illustration for a VERTICAL 9:16 video
-frame: a two-shot at a cozy Dutch bakery counter. On one side, JOOST stands
-behind the counter as the friendly baker, an apron over his clothes, shelves of
-bread and a small cash register behind him, gesturing warmly. On the other side,
-a customer named Maya (invent her: a woman in her early 30s, shoulder-length
-dark hair, a mustard scarf, a canvas tote bag) stands at the counter holding up
-a finger as she speaks. Warm morning window light. Reference rules: match the
-STYLE of style-ref-1 and style-ref-2 (do not copy their characters or objects).
-Reproduce JOOST exactly from joost-reference (same face, hair, stubble, build,
-clothing) under the apron. Invent Maya to fit the scene and keep her consistent.
-Keep the bottom third calmer and less detailed so subtitles can be added later.
+    [Inline the Style Block and Negative prompt from brand/brand-kit.md here.]
 
-Illustration style:
-Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
-gentle pencil-like outlines, subtle paper texture, muted cozy colors, and light
-watercolor washes. The image should feel slightly imperfect and handmade, as if
-sketched with ink and colored by hand.
+Save the result anywhere — it is only the start frame for the clip in Step 3; the render does not use it directly.
 
-Characters:
-Characters should have simple friendly faces. Eyes must be drawn only as small
-solid dark circles or vertical oval dots. No pupils, no sclera, no iris, no
-eyelashes, and no glossy or realistic eyes. Keep facial features minimal: a small
-simple nose, soft blush on the cheeks, and a friendly understated expression. Use
-rounded shapes, soft shadows, natural proportions, and expressive but simple
-gestures. Clothing should have gentle fabric texture and small hand-drawn details.
+STEP 3 — Video (image-to-video; default Seedance 1.5 Pro Fast or Wan 2.6 — cheap, good at gentle 2D motion). Upload the Step 2 image as the start frame. Settings: 9:16, 10s, relevance high. This clip is **silent** and there is **no lip-sync**, so the characters must never look like they are talking. Paste this motion prompt:
 
-Setting and background:
-Cozy, calm, and lived-in. Include simple environmental details that support the
-scene (furniture, plants, books, coffee cups, warm window light, shelves,
-textiles, small everyday objects). Detailed enough to feel atmospheric, not so
-busy that it distracts from the main moment.
+    Gentle ambient motion only. The woman on the right tilts her head slightly and
+    lifts one finger in a small, polite questioning gesture, then lowers her hand,
+    with a soft friendly expression. Joost (the baker on the left) smiles, gives a
+    warm nod, and gestures calmly toward the bread on the shelf. Mouths stay softly
+    closed or lightly smiling, no talking.
+    All movement begins and ends at rest, returning to the starting pose by the end
+    so the clip loops cleanly. Camera static with a subtle breathing motion. Soft
+    ambient bakery atmosphere, warm morning light. Slow and calm, no fast motion.
 
-Mood:
-Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
-relatable.
+Negative prompt (brand-kit negatives + motion negatives): talking, lip sync, mouth movement, moving lips, mouthing words, open mouth, jaw movement, exaggerated mouth animation, fast or jerky motion, morphing faces.
 
-Style keywords:
-Children's book editorial illustration, loose ink linework, watercolor texture,
-soft pastel palette, hand-sketched, slightly whimsical, clean but organic, cozy
-everyday atmosphere.
+Save the clip as: `remotion/public/switch-to-english/clip.mp4`
+(One 10s clip is enough — Remotion loops it to fill the dialogue.)
 
-Negative prompt:
-Avoid realistic eyes, detailed pupils, sclera, iris, eyelashes, glossy eyes,
-anime eyes, photorealism, 3D render, plastic texture, harsh outlines, sharp
-digital gradients, overly perfect vector art, exaggerated cartoon expressions,
-complex facial detail, hyperreal skin texture, dramatic lighting, cinematic
-realism, overly polished digital art, cluttered composition, text in the image,
-inconsistent character design.
+## WHAT REMOTION PRODUCES (no CapCut)
 
-(You need 1 image for this reel.)
+Remotion loops the clip to cover the dialogue, sequences the five voice lines with auto-detected timing, burns in NL/EN subtitles (Dutch large, English beneath), emphasizes the recovery line in gold with a "SAY THIS ↓" badge, adds the 3-second hook overlay ("When they switch to English, say THIS"), shows the "the switch (sound familiar?)" tag on Joost's English line, and ends on a branded blue outro card. Output: 9:16 1080×1920 MP4 with audio, ~22s. Props are in `remotion/props/switch-to-english.json` (hook text, the five lines + flags, outro).
 
-## STEP 3 — Video (Kling, Image-to-Video)
+## RENDER (after Status: approved and all assets saved)
 
-Upload the Step 2 image as the start frame. Settings: 9:16, 10s, relevance/creativity biased HIGH to the image. Paste this motion prompt:
+    cd remotion && npx remotion render src/index.ts ScenarioReel out/switch-to-english.mp4 --props=props/switch-to-english.json
 
-Maya speaks and lifts a finger as if asking a small polite question; Joost the
-baker smiles, nods, and gestures warmly toward the bread. Gentle natural
-movement, calm and friendly. Camera static with a subtle breathing motion. Soft
-ambient bakery atmosphere, warm light, no fast motion.
-
-Negative prompt (paste into Kling):
-
-Avoid realistic eyes, detailed pupils, glossy eyes, photorealism, 3D render,
-plastic texture, harsh outlines, dramatic lighting, cinematic realism, cluttered
-composition, text in the image, inconsistent character design, fast or jerky
-motion, morphing faces.
-
-The five lines run past 10s, so make a **second 10s clip from the same image** (same settings, same prompt) and use it for the back half in CapCut.
-
-## STEP 4 — Assemble (CapCut)
-
-1. Place clip 1, then clip 2, in order.
-2. Lay the Step 1 voiceover lines onto the matching moments (Maya → Joost-in-English → Maya → Joost-in-Dutch → Maya).
-3. Add the hook text overlay for the first 3 seconds: **"When they switch to English, say THIS"**
-4. When Joost answers in English, add a small overlay tag: "← the switch (sound familiar?)".
-5. When Maya says the recovery line, freeze a beat and overlay it big: **"Mag ik het in het Nederlands oefenen?"** with "= Can I practice it in Dutch?" beneath.
-6. Burn in subtitles per line: Dutch large, English smaller beneath. Clean, high contrast.
-7. Export 9:16.
+(or: `/instagram-content render switch-to-english`)
 
 ## CAPTION (paste into Instagram)
 

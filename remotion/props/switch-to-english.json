@@ -1,0 +1,13 @@
+{
+  "clip": "switch-to-english/clip-correct.mp4",
+  "hook": {"l1": "When they switch", "l2": "to English, say", "emphasis": "THIS"},
+  "switchTagText": "the switch (sound familiar?)",
+  "lines": [
+    {"file": "switch-to-english/roos-1.mp3", "speaker": "Roos", "nl": "Hoi, mag ik een bruin brood, alsjeblieft?", "en": "Hi, may I have one loaf of brown bread, please?"},
+    {"file": "switch-to-english/joost-2.mp3", "speaker": "Joost", "english": true, "switchTag": true, "line": "Of course, one loaf of brown bread. That's two euros."},
+    {"file": "switch-to-english/roos-3.mp3", "speaker": "Roos", "recovery": true, "nl": "Mag ik het in het Nederlands proberen? Ik wil graag oefenen.", "en": "May I try it in Dutch? I'd like to practice."},
+    {"file": "switch-to-english/joost-4.mp3", "speaker": "Joost", "nl": "Natuurlijk! Sorry. Een bruin brood. Dat is twee euro.", "en": "Of course! Sorry. One loaf of brown bread. That's two euros."},
+    {"file": "switch-to-english/roos-5.mp3", "speaker": "Roos", "nl": "Dankjewel!", "en": "Thank you!"}
+  ],
+  "outro": {"kicker": "THE ONE LINE TO REMEMBER", "nl": "Mag ik het in het Nederlands oefenen?", "en": "Can I practice it in Dutch?", "cta": "Save it for the next time it happens.", "handle": "@dutchwithjoost"}
+}

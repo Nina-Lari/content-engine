@@ -1,0 +1,26 @@
+{
+  "_note": "DutchwithJoost product palette (from the app + landing-page shadcn theme). Canonical color tokens for the Instagram GRAPHIC/TYPOGRAPHIC layer (headlines, chips, progress dots, CTA buttons, subtitle accents). Illustrations stay in the watercolor Style Block in brand-kit.md — do not recolor Joost or scenes to these values.",
+  "source": "shadcn theme (app + landing page)",
+  "tokens": {
+    "background":            { "hex": "#FCFCFC", "hsl": "0 0% 99%",        "role": "slide background" },
+    "foreground":            { "hex": "#2E2E2E", "hsl": "0 0% 18%",        "role": "body text, EN translations" },
+    "card":                  { "hex": "#FFFFFF", "hsl": "0 0% 100%",       "role": "cards on tinted backgrounds" },
+    "card-foreground":       { "hex": "#09090B", "hsl": "240 10% 3.9%",    "role": "text on cards" },
+    "primary":               { "hex": "#0025DB", "hsl": "230 100% 43%",    "role": "hero NL phrases, wordmark, headlines, links" },
+    "primary-foreground":    { "hex": "#FAFAFA", "hsl": "0 0% 98%",        "role": "text on primary blue" },
+    "secondary":             { "hex": "#E0BB00", "hsl": "50 100% 44%",     "role": "accents: when-pills, active dots, CTA buttons, underlines" },
+    "secondary-foreground":  { "hex": "#18181B", "hsl": "240 5.9% 10%",    "role": "dark text on gold fills" },
+    "muted":                 { "hex": "#F4F4F5", "hsl": "240 4.8% 95.9%",  "role": "soft panels behind context lines" },
+    "muted-foreground":      { "hex": "#71717A", "hsl": "240 3.8% 46.1%",  "role": "labels, captions, footnotes" },
+    "accent":                { "hex": "#F4F4F5", "hsl": "240 4.8% 95.9%",  "role": "subtle highlight surfaces" },
+    "accent-foreground":     { "hex": "#18181B", "hsl": "240 5.9% 10%",    "role": "text on accent surfaces" },
+    "destructive":           { "hex": "#EF4444", "hsl": "0 84.2% 60.2%",   "role": "wrong-answer / error states in quizzes" },
+    "destructive-foreground":{ "hex": "#FAFAFA", "hsl": "0 0% 98%",        "role": "text on destructive" },
+    "border":                { "hex": "#CCCCCC", "hsl": "0 0% 80%",        "role": "hairline dividers" }
+  },
+  "usage_rules": [
+    "Gold (#E0BB00) has low contrast on white. Use it as a FILL with dark text (#18181B) on top, never as small text on a light background.",
+    "Blue (#0025DB) is the brand anchor: hero Dutch phrases, wordmark, headlines.",
+    "Keep illustrations watercolor (Style Block). These tokens are for text/graphics only."
+  ]
+}

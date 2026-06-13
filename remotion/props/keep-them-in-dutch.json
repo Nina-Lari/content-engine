@@ -1,0 +1,14 @@
+{
+  "theme": "Keep them in Dutch",
+  "handle": "@dutchwithjoost",
+  "coverImage": "keep-them-in-dutch/cover.png",
+  "cover": {"kicker": "WHEN THEY SWITCH TO ENGLISH", "title": "Keep them speaking Dutch to you", "sub": "5 polite lines. All safe with strangers."},
+  "phrases": [
+    {"nl": "Mag ik het in het Nederlands proberen?", "en": "Can I try it in Dutch?", "when": "They switch to English to be helpful. The friendliest reset."},
+    {"nl": "U mag gewoon Nederlands tegen me praten.", "en": "You can just speak Dutch to me.", "when": "A shop assistant flips to English out of habit."},
+    {"nl": "Kunt u iets langzamer praten?", "en": "Can you speak a bit slower?", "when": "You understood, you just need it slower."},
+    {"nl": "Ik leer Nederlands. Ik wil graag oefenen.", "en": "I'm learning Dutch. I'd like to practice.", "when": "Say it first, before they switch."},
+    {"nl": "Hoe zegt u dat in het Nederlands?", "en": "How do you say that in Dutch?", "when": "You got stuck on a word. Keeps them teaching you."}
+  ],
+  "cta": {"title": "Save this for the next time it happens.", "sub": "Send it to whoever you're learning Dutch with."}
+}

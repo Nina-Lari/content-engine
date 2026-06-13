@@ -10,13 +10,15 @@ This playbook governs Instagram voice and structure. The global `.claude/rules/w
 
 Every post file the skill writes is a **runbook**: a numbered set of "do this, paste this, attach this" steps. The user should never have to assemble instructions, remember which file to attach, or decide settings. Each step states the exact tool, the exact prompt to paste (already filled, not a template), the exact files to attach, and the exact settings. Captions and comment seeds are paste-ready. Minimal thinking, maximal streamline.
 
-When a step uses another AI tool (ElevenLabs, ChatGPT images, Kling) the post file contains the full prompt inline. Do not point the user at the brand kit to copy a block themselves. Inline it.
+When a step uses another AI tool (ElevenLabs, ChatGPT images, an image-to-video model) the post file contains the full prompt inline. Do not point the user at the brand kit to copy a block themselves. Inline it.
+
+**Remotion is the only editor, and there is a human gate.** The runbook does not end in manual editing. It tells the user which assets to generate and where to save them (`remotion/public/{slug}/`), and the skill writes a props file (`remotion/props/{slug}.json`). The final reel/slides are produced by the `remotion/` project (see `remotion/README.md`), never CapCut or Canva. Critically, `batch` only writes the reviewable runbook + props — it renders nothing. The user reviews the content (above all the Dutch), drops the assets, sets `Status: approved`, and only then does `render` mode produce the asset. Content first, production second.
 
 ---
 
 ## The brand kit
 
-All visual and voice identity lives in `brand/brand-kit.md`: the watercolor Style Block, the Negative prompt, Joost's locked reference, the style reference images, the ElevenLabs voices, the editor (CapCut), and the subtitle policy.
+All visual and voice identity lives in `brand/brand-kit.md`: the watercolor Style Block, the Negative prompt, Joost's locked reference, the style reference images, the ElevenLabs voices, and the subtitle look. Final assembly and slide layout are done by the Remotion project (`remotion/README.md`) using the brand palette in `brand/brand-colors.json`, not a manual editor.
 
 This kit applies to **every visual post, not just reels.** Cheatsheet covers, quiz scenario images, and article-remix visuals all use the same Style Block and the same Joost so the whole feed looks like one brand. When the skill writes any post with an illustrated visual, it inlines the Style Block and Negative prompt into that post's image step and tells the user which brand files to attach.
 
@@ -67,10 +69,20 @@ A week is **loosely themed** around one real-life situation (the bakery, a docto
 
 Why loose theming:
 - **Topic authority:** repeating a situation across a week sharpens the account's identity for the algorithm and for searchers.
-- **Batching:** one situation = one production sitting. The reel's scene image, the cheatsheet cover, and the quiz scenario image come out of the same ChatGPT session and the same setting.
+- **Batching:** one situation = one production sitting. The reel's scene image, the cheatsheet cover, and the quiz scenario image come out of the same ChatGPT session — same Joost, same style references, same palette — but **not the same shot**. Vary the setting or framing per post so the three never open on one identical image (see *Feed-grid differentiation* below).
 - **Within-week funnel:** the reel hooks, the cheatsheet earns the save ("the exact phrases from that scene"), the quiz earns the comment. Posts reference each other and drive profile visits.
 
-Repetition is a feature here, not a bug: organic reach per post is low, so orbiting one situation is how you reach the followers who missed the first post.
+Repetition is a feature here, not a bug: organic reach per post is low, so orbiting one *situation* is how you reach the followers who missed the first post. But that is *topical* repetition. *Visual* repetition works against you: three posts opening on the same image make the profile grid look duplicated and train the scroll to skip the second and third as déjà vu. Keep the topic tight and the opening frames distinct.
+
+### Feed-grid differentiation (don't ship a duplicated grid)
+
+The first frame of the reel and slide 1 of each carousel are what land on the profile grid and in the feed. If the three on-theme posts all open on the same shot, the grid reads as one picture posted three times. Three levers, in order of leverage:
+
+1. **Vary the setting within the situation.** The situation is a *moment* ("they switch to English"), not a *place*. It happens at the bakery, the supermarket checkout, the pharmacy, a café, a doctor's reception. Stage each on-theme post somewhere different. Same Joost, same style references, same palette keep it unmistakably one brand; the changed backdrop gives three distinct tiles and is truer to life.
+2. **Vary the shot when you do reuse a setting.** If two posts share a place, change the camera: wide establishing vs. medium two-shot vs. tight reaction close-up, or switch POV (Joost's side of the counter vs. the customer's). Re-rolling the *same* prompt for a near-identical image is the weakest option — vary the shot, not the seed.
+3. **Lean on the graphic layer.** Remotion already gives each type a distinct cover treatment so the tiles differ even on a shared base image: the reel cover is photo-forward (the scene fills the frame, hook on a scrim), the cheatsheet cover is the bright "guide" tile (an image band over a solid colour panel that holds the headline), and the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker). Keep choosing cover headlines and kickers that read differently at thumbnail size.
+
+When batch writes the three on-theme image prompts, give each a different setting or shot by default. Only collapse them onto one matched shot if the user explicitly asks for a deliberately matched grid row.
 
 The plan-mode backlog is organized as **situation packs** (one pack = one themed week's ideas). But approval status lives on individual posts, so batch composes a week from whatever you queue: a whole pack for a themed week, or posts cherry-picked across packs for a mixed week.
 
@@ -129,18 +141,22 @@ Two characters speaking Dutch through a real situation. Joost is always one of t
 
 | Tier | Work | What the runbook produces |
 |------|------|---------------------------|
-| **1 (default)** | Lowest | Joost sheet (reused) + 1 two-shot scene image, 1-2 silent Kling clips, voiceover + subtitles. No lip-sync. |
-| 2 | Medium | Per-speaker framing + Kling lip-sync when talking mouths are wanted |
+| **1 (default)** | Lowest | Joost sheet (reused) + 1 two-shot scene image, **1** silent image-to-video clip (**Seedance 1 Pro**, begin frame = end frame = the scene image), voiceover + subtitles. No lip-sync; mouths stay still; the clip loops on its own end frame and Remotion loops it to cover the dialogue. |
+| 2 | Medium | Per-speaker framing + model lip-sync (e.g. Kling) when talking mouths are wanted |
 | 3 (hero) | High | 3-5 keyframes, camera variety |
 
 Production flow (output as a 4-step runbook, never a finished video):
 
 1. **Voice (ElevenLabs):** render each Dutch line separately so the user gets per-line durations. Joost uses his locked voice; the second character is any Dutch voice.
-2. **Scene image (ChatGPT / gpt-image-1):** one 9:16 two-shot. Attach the two style references and the Joost reference. Inline the Style Block and Negative prompt. Reproduce Joost exactly, invent the second character, keep the bottom third clear for subtitles, no text in the image.
-3. **Video (Kling, image-to-video):** upload the scene image as the start frame, 9:16, 10s, relevance biased high to the image. The prompt describes motion and camera only (the image carries the style). If dialogue runs past 10s, a second 10s clip from the same image. Silent.
-4. **Assemble (CapCut):** stitch clips, lay the voiceover lines on, add the hook text overlay for the first 3 seconds, burn in Dutch + English subtitles, export 9:16.
+2. **Scene image (ChatGPT / gpt-image-1):** one 9:16 two-shot. Attach the two style references and the Joost reference. Inline the Style Block and Negative prompt. Reproduce Joost exactly and invent the second character, but describe each by **position in the frame** ("Joost behind the counter on the left", "a woman on the right") rather than by name — names confuse image models. Keep the bottom third clear for subtitles, no text in the image.
+3. **Video (image-to-video):** use **Seedance 1 Pro** — the proven model for this style (full recipe and settings live in `brand/brand-kit.md` → Motion). Reserve premium lip-sync models (Kling, Veo, Sora) for Tier 2+, when talking mouths are actually wanted. Upload the scene image as **both the begin frame and the end frame** (Seedance 1 Pro takes both; end frame = begin frame makes the clip return to the scene, so you never write loop wording into the prompt). Settings: 9:16, 10s, 720p. The prompt describes body-language motion and camera only (the image carries the style), referring to characters by position; mouths stay still and never talk (the clip is silent and there is no lip-sync, so any mouth movement just desyncs from the voiceover). Generate exactly **one** 10s clip — never a second one; Remotion loops it to fill the dialogue, however long. Silent.
+4. **Render (Remotion):** the skill writes the props; Remotion loops the clip to cover the dialogue, lays the voice lines on with auto-detected timing (it measures each audio file itself), burns in Dutch + English subtitles, emphasizes the recovery line, adds the 3-second hook overlay and a branded outro, and exports 9:16 with audio. No CapCut.
 
-Why no lip-sync by default: Kling lip-sync targets one face per clip and is tuned for realistic faces, so a single two-shot of two stylized characters confuses it. Dropping lip-sync removes the fragile step and the subtitles carry comprehension anyway. Offer Tier 2 only when asked.
+Why no lip-sync by default: model lip-sync targets one face per clip and is tuned for realistic faces, so a single two-shot of two stylized characters confuses it. Dropping lip-sync removes the fragile step and the subtitles carry comprehension anyway. Offer Tier 2 only when asked.
+
+Keeping mouths shut (the lesson that took testing): the clip is silent and Remotion times the voiceover, so any talking motion just desyncs. The instinct is to stuff a negative prompt with "no talking, no lip sync, no mouth movement, no open mouth" — that **backfires**: naming those actions makes Seedance perform them, and Seedance 1 Pro has no negative-prompt field anyway. What works instead: **lead the main prompt with the positive closed-mouth state**, per character by position ("her mouth and lips remain unchanged and closed for the entire video; her face stays still"; "Joost keeps a soft, natural closed-mouth expression, lips closed the whole time"), then add **one short calm clause** of don'ts only ("No speech-like mouth movement, no mouth opening, no jaw motion") — never a long list. The full proven prompt shape is in `brand/brand-kit.md` → Motion.
+
+Looping: Seedance 1 Pro **exposes both a begin frame and an end frame**, so set both to the scene image — the clip returns to the scene on its own and loops cleanly with no loop wording in the prompt. Remotion then loops that clip automatically to fill the dialogue, so the visual repeats while the voiceover plays once. This gives a tighter native loop seam than the old begin-and-end-at-rest prompting trick.
 
 Dialogue must follow the Dutch language standard above (A1 default, always grammatically correct, usable). Ground scenarios in `jtbd` and `quotes` from insights (situations learners actually named).
 
@@ -148,8 +164,8 @@ Dialogue must follow the Dutch language standard above (A1 default, always gramm
 
 The save-and-send workhorse. People save phrase lists and send them to a partner who is also learning.
 
-- Cover = a hook headline (5-8 words), not a title. Make the cover an **illustrated, on-brand image** (Joost at the {place}) so the feed stays consistent: the runbook gives a ready ChatGPT image prompt with the Style Block inlined and the brand files to attach.
-- Phrase slides = NL phrase, EN translation, and _when to use it_. Ground phrases in the customer `lexicon` and `quotes`. 6-10 slides, one idea each, readable in 2 seconds. (Lay these out in Canva or CapCut; the runbook supplies the text.)
+- Cover = a hook headline (5-8 words), not a title. The cover is an **illustrated, on-brand image** (Joost at the {place}) with the headline overlaid by Remotion (so leave text out of the generated image): the runbook gives a ready ChatGPT image prompt with the Style Block inlined and the brand files to attach.
+- Phrase slides = NL phrase, EN translation, and _when to use it_. Ground phrases in the customer `lexicon` and `quotes`. 6-10 slides, one idea each, readable in 2 seconds. Remotion renders these from the props (crisp Dutch text); the runbook supplies the content.
 - Last slide = an explicit save + send CTA.
 - Caption per the formula. Comment seed = a question that pulls a sentence reply.
 

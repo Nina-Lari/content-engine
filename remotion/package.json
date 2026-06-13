@@ -1,0 +1,24 @@
+{
+  "name": "dwj-remotion",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The only editor for DutchwithJoost Instagram posts. Renders cheatsheets, quizzes, and scenario reels from props. Driven by the /instagram-content skill.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:reel": "remotion render src/index.ts ScenarioReel",
+    "render:carousel": "remotion render src/index.ts Cheatsheet --sequence --image-format=png"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.476",
+    "@remotion/google-fonts": "^4.0.476",
+    "@remotion/media-utils": "^4.0.476",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.476"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}

@@ -42,8 +42,14 @@ Estimated time: ~10 minutes.
   - **Joost one-line description** (from your art, e.g. "cheerful young man, ~32, tousled brown hair, light stubble, mustard sweater"). This is a backup anchor.
   - **Joost ElevenLabs voice** — pick a Dutch-capable voice you like, render a test line, and write its name here. This becomes your permanent Joost voice.
 
-- [ ] **4. Confirm your editor.**
-      The runbooks assume **CapCut** for stitching, voiceover, and subtitles. If you use something else, change the editor line in `brand/brand-kit.md` and tell me so I update the assembly steps.
+- [ ] **4. Set up the editor (Remotion) — one time.**
+      Remotion is the only editor; it renders every reel and carousel from the props the skill writes. Install it once (needs Node.js 18+):
+
+  ```
+  cd remotion && npm install
+  ```
+
+  After that you never touch a manual editor: the skill writes `remotion/props/{slug}.json`, you drop the generated assets into `remotion/public/{slug}/`, and one render command produces the final asset. See `remotion/README.md`. There is no CapCut or Canva step.
 
 ---
 
