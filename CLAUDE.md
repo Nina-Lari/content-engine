@@ -113,7 +113,7 @@ Extract LinkedIn post angles from customer intelligence. Maps insights to person
 ### /instagram-content
 Plan a backlog of themed post ideas, produce a week of ready-to-run post runbooks from it, then refine any single post until it is right. Four post types: cheatsheets (carousels), multiple-choice quizzes (reason-seeking, not A/B bait), scenario reels (Joost + an invented character speaking Dutch; output as a runbook for ChatGPT images then Kling then ElevenLabs then CapCut), and article remixes. Three modes: `plan` (build and curate the idea backlog of themed situation packs), `batch` (default; produce one loosely-themed week of ~4 posts, pulling from the backlog), and `refine <slug>` (edit in place or regenerate any piece of a single post). Weeks are loosely themed around one situation for topic authority and batching. Built around the 2026 algorithm: sends > saves > sentence-length comments, hook in the first 3 seconds, caption SEO over hashtags, originality over recycled clips.
 
-**Context consumed:** `brand/brand-kit.md` (visual + voice identity: Style Block, Joost reference, style-ref filenames, ElevenLabs voices, CapCut, subtitles), `strategy/positioning.md`, `strategy/personas.md`, `customer-intelligence/insights/*.json`, and the bundled `instagram-playbook.md`. Remix mode also reads the source article in `outputs/articles/` and its `_brief.json`. Does not read `voice-guide.md` (Instagram voice lives in the playbook); the global `writing-quality.md` rules still apply.
+**Context consumed:** `brand/brand-kit.md` (visual + asset identity: Style Block, Joost reference, style-ref filenames, ElevenLabs voices, CapCut, subtitles), `brand/instagram-voice.md` (editorial voice, tone, emotional-accuracy rules, and per-format lessons captured from refine sessions), `strategy/positioning.md`, `strategy/personas.md`, `customer-intelligence/insights/*.json`, and the bundled `instagram-playbook.md`. Remix mode also reads the source article in `outputs/articles/` and its `_brief.json`. Does not read the article `voice-guide.md` (Instagram voice lives in `brand/instagram-voice.md` and the playbook); the global `writing-quality.md` rules still apply.
 **When to use:** When you want a regular Instagram posting cadence (default 4 posts/week + daily Stories). Run `/instagram-content plan` to build an idea backlog, `/instagram-content` to produce the next themed week, then `/instagram-content refine <slug>` on any post you want to shape.
 
 ---
@@ -140,7 +140,7 @@ research-brief reads:    icp + personas + competitive + customer-intelligence/
 seo-pipeline reads:      varies by stage (see table above)
 finalize-links reads:    content-registry.yaml + _linked.md files
 linkedin-insights reads: personas + positioning
-instagram-content reads: brand-kit + positioning + personas + customer-intelligence/ + playbook
+instagram-content reads: brand-kit + instagram-voice + positioning + personas + customer-intelligence/ + playbook
 ```
 
 ### The cascade principle
@@ -194,7 +194,7 @@ Skills detect MCP availability at runtime. If a server is not connected, the ski
 - `customer-intelligence/examples/` -- sample transcript and outputs (read-only)
 - `proof-library/case-studies/` -- your case studies with quantifiable metrics
 - `outputs/` -- all pipeline outputs land here, organized by type
-- `brand/` -- Instagram visual and voice identity (`brand-kit.md`, Joost reference and style-reference images). Maintained by hand; read by `/instagram-content`.
+- `brand/` -- Instagram identity, maintained by hand and read by `/instagram-content`: `brand-kit.md` (visual + asset identity, Joost reference and style-reference images) and `instagram-voice.md` (editorial voice, tone, and lessons captured from refine sessions).
 - `motions/` -- future GTM motions added with each newsletter issue
 
 ### The human review gate

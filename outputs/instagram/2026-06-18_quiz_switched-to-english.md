@@ -2,15 +2,15 @@
 
 > **Type:** quiz (single scenario image + reveal)
 > **Theme:** A Dutch person switches to English the moment you try to speak Dutch
-> **Persona:** Belonging-motivated expat stuck in the Shame Cycle (Molly, Nina) — the surrender line "Sorry my Dutch is not good, can we do English?" is a real phrase learners reach for
-> **Positioning thread:** The "right" answer is a small low-stakes move. You get good at it by practicing it where no one is watching.
+> **Persona:** Belonging-motivated expat (Molly, Nina) who freezes the second a Dutch person switches to English — going along with it is the easy reflex; staying in Dutch is the one you have to practice
+> **Positioning thread:** There's no wrong reflex here. Staying in Dutch is just one low-stakes option — and you get comfortable with it by practicing where no one is watching.
 > **Status:** draft
 
 ## Rules for this post (keep edits on-rails)
 - Dutch: A1, always grammatically correct, usable; the question prompt is one short Dutch line with English beneath. Flag for a native check (Joost) before posting.
-- 3 options, one correct, distractors pulled from REAL learner behaviour (the surrender line; silent avoidance). Not a trick question.
+- 3 options, **NO correct answer** — this is a "which one is you?" reflex quiz, by editorial decision. All three are real learner reflexes; none is wrong. Do NOT reintroduce a "Correct: X" line. (This situation is about reflex, not right behaviour.)
 - Engagement prompt must ask for a **reason or personal angle** — never bare "A or B?", never "tag a friend". This beats the 2026 engagement-bait filter.
-- On-brand illustrated scenario image (Joost at the counter). Reveal = correct answer + a one-line teach on slide 2 / pinned comment.
+- On-brand illustrated scenario image (Joost at the counter). Reveal = a gentle reframe (no winner declared) + the one phrase that buys you an exit from English, on slide 2 / pinned comment.
 - Caption line 1 = searchable phrase. Keep it tied to Monday's reel and Tuesday's cheatsheet (same situation, same fix).
 
 ## SCENARIO IMAGE (ChatGPT)
@@ -65,27 +65,27 @@ Paste this exact prompt:
 
 ## THE QUIZ (overlay text)
 - Scenario line: "You ordered in Dutch. The cashier answered you in English."
-- Question (overlay): **"Wat zeg je nu?"** (EN: What do you say now?)
+- Question (overlay): **"Wat doe je nu?"** (EN: What do you do now?)
 - Options:
-  - A) "Sorry, my Dutch is not good. Can we do English?"
+  - A) Switch to English too. Honestly? A little relieved.
   - B) "Mag ik het in het Nederlands proberen?" (Can I try it in Dutch?)
-  - C) Say nothing, switch to English, feel a bit smaller.
-- Correct: **B** — staying in Dutch is a polite request, not a confrontation. Nine times out of ten they switch right back, often slower.
+  - C) Say nothing, switch to English — then think of the perfect Dutch reply on the bike home.
+- **No correct answer** — it's whatever your reflex is, and all three are normal. (B is just the lowest-stakes way to stay in Dutch, if you want one.)
 
 ## ENGAGEMENT PROMPT (overlay / caption — beats the bait filter)
-"Be honest: which one is your reflex — A, B, or C — and what actually makes you freeze in that half-second?"
+"No wrong answer here — which one is actually you, A, B, or C, and what's going through your head in that half-second?"
 
 ## REVEAL (slide 2 or pinned comment)
-The answer is B. Here's the reframe: A and C both hand the conversation away, and they quietly feed the loop where you never get to practice. B costs one sentence and keeps you in the language. You don't have to be good. You have to stay in.
+No winner here — pick whichever one is honestly you. All three are normal. But if C is your reflex and you wish it weren't, B is the smallest possible way out: one sentence, no confrontation, and you're still in Dutch. You don't have to be good. You just get to stay in.
 
 ## CAPTION (paste into Instagram)
-The cashier switched to English on you. What do you actually say?
+The cashier switched to English on you. What do you actually do?
 
-Most of us reach for option A ("Sorry, my Dutch is not good, can we do English?") — and it feels polite, but it ends the only practice you were going to get all day. Option B keeps you in Dutch with zero confrontation: "Mag ik het in het Nederlands proberen?" Say it with a smile and watch how often they switch back.
+There's no right answer here — it's mostly whatever your reflex is. Some of us switch to English and feel a little relieved. Some freeze, go along with it, and then compose the perfect Dutch sentence three hours later on the bike home. And some stay in Dutch with one low-stakes line: "Mag ik het in het Nederlands proberen?" None of them is wrong. That last one is just the only one that keeps the practice you were going to get.
 
-Be honest in the comments: A, B, or C, and what makes you freeze? Read a few replies — you'll see you're not the only one.
+Be honest in the comments: A, B, or C — which one is actually you, and what's going through your head in that half-second? Read a few replies — you'll see you're not the only one.
 
-Save this for your next checkout. Send it to someone who always picks A.
+Save this for your next checkout. Send it to whoever switches to English the second they hear your accent.
 
 Keywords woven: switch to English, what to say in Dutch, practice Dutch speaking, Dutch checkout phrases, inburgering speaking.
 

@@ -20,7 +20,8 @@ User invokes `/instagram-content` with an optional mode and argument:
 ## Context Consumed
 
 - `.claude/skills/instagram-content/instagram-playbook.md` -- platform mechanics, cadence, theming, runbook principle, per-type rules. Always load first.
-- `brand/brand-kit.md` -- the visual and voice identity for all posts: Style Block, Negative prompt, Joost reference, style-reference filenames, ElevenLabs voices, editor (CapCut), subtitle policy. Inline the relevant pieces into each post's steps.
+- `brand/brand-kit.md` -- the visual and asset identity for all posts: Style Block, Negative prompt, Joost reference, style-reference filenames, ElevenLabs voices, editor (CapCut), subtitle policy. Inline the relevant pieces into each post's steps.
+- `brand/instagram-voice.md` -- the editorial voice and tone identity: brand-specific tone, emotional-accuracy rules, and per-format lessons captured from past refine sessions. Apply it to every caption, slide, dialogue, and quiz. This is the file the refine "capture a lesson" prompt writes back to.
 - `strategy/positioning.md` -- value props to thread as undercurrent.
 - `strategy/personas.md` -- who each post targets and their pains.
 - `customer-intelligence/insights/*.json` -- `lexicon` and `quotes` (phrasing for cheatsheets and dialogue), `pains` and `jtbd` (situations, quiz scenarios, angles), `keyword_candidates` (caption SEO).
@@ -48,7 +49,7 @@ Triggered by `/instagram-content plan [theme hint]`. Produces a backlog the user
 
 ### Step 1: Load context
 
-Read `instagram-playbook.md`, `brand/brand-kit.md`, `strategy/positioning.md`, `strategy/personas.md`, all `customer-intelligence/insights/*.json`, and the list of articles in `outputs/articles/`. If a backlog already exists, read it too (to append and dedupe).
+Read `instagram-playbook.md`, `brand/brand-kit.md`, `brand/instagram-voice.md`, `strategy/positioning.md`, `strategy/personas.md`, all `customer-intelligence/insights/*.json`, and the list of articles in `outputs/articles/`. If a backlog already exists, read it too (to append and dedupe).
 
 If no insights and no theme hint, tell the user to run /extract-insights first or pass a theme. Do not invent learner pains.
 
@@ -111,7 +112,7 @@ List each pack: situation, priority + reason, persona, and the 4 idea hooks. Tel
 
 ### Step 1: Load context
 
-1. Read `instagram-playbook.md` and `brand/brand-kit.md`.
+1. Read `instagram-playbook.md`, `brand/brand-kit.md`, and `brand/instagram-voice.md`.
 2. Read `strategy/positioning.md` and `strategy/personas.md` (warn if missing).
 3. Read all `.json` in `customer-intelligence/insights/`. Aggregate `lexicon`, `quotes`, `pains`, `jtbd`, `keyword_candidates`.
 4. Read `outputs/instagram/idea-backlog.json` if it exists.
@@ -179,12 +180,13 @@ Apply the **Dutch language standard** to every Dutch line: A1 default (light A2 
 Triggered by `/instagram-content refine <slug-or-path>`.
 
 1. **Resolve the post.** Find the file in `outputs/instagram/` matching the slug. If none or several match, list the week's posts and ask which.
-2. **Load just what this type needs.** Read `instagram-playbook.md` (focus on this type's section) and `brand/brand-kit.md`. For `article-remix`, also read the source article and its `_brief.json`. Re-read insight fields (`lexicon`, `quotes`, `pains`) only if the user wants fresh grounding. Stay tight to this post.
+2. **Load just what this type needs.** Read `instagram-playbook.md` (focus on this type's section), `brand/brand-kit.md`, and `brand/instagram-voice.md` (apply its tone and captured lessons to every edit). For `article-remix`, also read the source article and its `_brief.json`. Re-read insight fields (`lexicon`, `quotes`, `pains`) only if the user wants fresh grounding. Stay tight to this post.
 3. **Iterate.** Support both operations:
    - **Edit in place:** a targeted change ("make slide 3 punchier", "shorten the cover hook", "this quiz is drifting into A/B bait"). Apply directly.
    - **Regenerate a piece:** produce alternatives for one component and let the user pick. Examples: "give me 3 cover hooks", "rewrite the quiz", "two alternative scene-image prompts", "a different caption", "a tighter Dutch dialogue". Show options inline, let the user choose or blend, write the chosen version back.
    After each change, write the file and confirm what changed. Keep going until satisfied. Every revision must still pass the post's rules block, including the Dutch language standard (A1 default, grammatically correct, usable).
-4. **Close out.** Remind the user they can set `Status: approved`, and point to the next unrefined post if any remain.
+4. **Capture durable lessons.** When the user's feedback is a *durable editorial rule* and not a one-off tweak to this single post (e.g. "don't force a correct answer on reflex quizzes", "the switch-to-English feeling is frustration, not shame", "keep the humor but drop the shame"), offer to remember it: ask *"Want me to save this as a durable rule in `brand/instagram-voice.md` so future posts follow it?"* If yes, append a one-line principle plus a short italic _(why / source)_ under the matching heading in `brand/instagram-voice.md` (Tone, Emotional accuracy, Quiz design, or a new heading). Keep it brand-level and reusable, never post-specific. All Instagram learnings stay in `brand/instagram-voice.md` — do not write them into `strategy/` files. Skip the offer entirely for purely local edits.
+5. **Close out.** Remind the user they can set `Status: approved`, and point to the next unrefined post if any remain.
 
 ---
 
