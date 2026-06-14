@@ -4,7 +4,7 @@
 > **Theme:** A Dutch person switches to English the moment you try to speak Dutch (the reframe: it's kindness and a lost-practice problem, not a verdict on you)
 > **Persona:** Belonging-motivated expat (Nina, Monika) who feels the switch as frustration and wasted effort more than shame — "I'm making the effort and they still switch". The reframe: the switch is kindness, not rejection.
 > **Positioning thread:** The switch is kindness, not a verdict on your Dutch. You turn the lost moment into practice by naming it first, and the nerve to do that comes from low-stakes practice, not one brave day.
-> **Render:** ScenarioReel — props: `remotion/props/why-they-switch.json`
+> **Render:** ScenarioReel — props: `remotion/props/2026-06-15/why-they-switch.json`
 > **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
 ## SOURCE
@@ -22,16 +22,16 @@
 - Caption line 1 = the article's primary keyword. Pull one angle only; never paste paragraphs (Originality Score).
 - This is the emotional close of the week: tactical fix on Mon/Tue/Thu, and today reframes the frustration: the switch is kindness, and most people are glad to help you practice.
 
-## ASSETS TO GENERATE (save into remotion/public/why-they-switch/)
+## ASSETS TO GENERATE (save into remotion/public/2026-06-15/why-they-switch/)
 
 STEP 1 — Voice (ElevenLabs). Joost voice **Ido** (`dLPO5AsXc3FZDbTh1IKa`); use the SAME Roos voice as Monday's reel. Stability ~50, Similarity high, Style low, slightly slow. Render each line separately and save with these exact names (order matters):
 
-    remotion/public/why-they-switch/roos-1.mp3   "Ik doe zo mijn best. En toch schakelt iedereen over op Engels."                          (EN: I try so hard. And still everyone switches to English.)
-    remotion/public/why-they-switch/joost-2.mp3  "Nee, het is niet persoonlijk. Het is een gewoonte. Ze willen aardig zijn en het makkelijker voor je maken."  (EN: No, it's not personal. It's a habit. They want to be nice and make it easier for you.)
-    remotion/public/why-they-switch/roos-3.mp3   "Wat kan ik doen?"                                                                        (EN: What can I do?)
-    remotion/public/why-they-switch/joost-4.mp3  "Zeg het meteen: ik leer Nederlands, praat alsjeblieft Nederlands met me."                (EN: Say it right away: I'm learning Dutch, please speak Dutch with me.)
-    remotion/public/why-they-switch/roos-5.mp3   "Oké. Ik zeg het gewoon."                                                                 (EN: Okay. I'll just say it.)
-    remotion/public/why-they-switch/joost-6.mp3  "De meeste mensen helpen je graag oefenen."                                               (EN: Most people are happy to help you practice.)
+    remotion/public/2026-06-15/why-they-switch/roos-1.mp3   "Ik doe zo mijn best. En toch schakelt iedereen over op Engels."                          (EN: I try so hard. And still everyone switches to English.)
+    remotion/public/2026-06-15/why-they-switch/joost-2.mp3  "Nee, het is niet persoonlijk. Het is een gewoonte. Ze willen aardig zijn en het makkelijker voor je maken."  (EN: No, it's not personal. It's a habit. They want to be nice and make it easier for you.)
+    remotion/public/2026-06-15/why-they-switch/roos-3.mp3   "Wat kan ik doen?"                                                                        (EN: What can I do?)
+    remotion/public/2026-06-15/why-they-switch/joost-4.mp3  "Zeg het meteen: ik leer Nederlands, praat alsjeblieft Nederlands met me."                (EN: Say it right away: I'm learning Dutch, please speak Dutch with me.)
+    remotion/public/2026-06-15/why-they-switch/roos-5.mp3   "Oké. Ik zeg het gewoon."                                                                 (EN: Okay. I'll just say it.)
+    remotion/public/2026-06-15/why-they-switch/joost-6.mp3  "De meeste mensen helpen je graag oefenen."                                               (EN: Most people are happy to help you practice.)
 
 (Remotion measures each file's length automatically; you do not note durations.)
 
@@ -64,18 +64,18 @@ STEP 3 — Video (image-to-video; Seedance 1.5 Pro Fast or Wan 2.6). Upload the 
 
 Negative prompt (brand-kit negatives + motion negatives): talking, lip sync, mouth movement, moving lips, open mouth, jaw movement, fast or jerky motion, morphing faces.
 
-Save the clip as: `remotion/public/why-they-switch/clip.mp4`
+Save the clip as: `remotion/public/2026-06-15/why-they-switch/clip.mp4`
 (Generate exactly ONE 10s clip — never a second one. Remotion loops it to fill the dialogue.)
 
 ## WHAT REMOTION PRODUCES (no CapCut)
 
-Remotion loops the clip, sequences the six voice lines with auto-detected timing, burns in NL/EN subtitles, emphasizes the frame line (Joost's "Zeg het meteen…") in gold with "SAY THIS ↓", adds the 3-second hook ("It's not your accent — it's a HABIT"), and ends on a branded card over the scene with the frame line, then fades back to the scene so the reel loops cleanly. Output: 9:16 MP4 with audio. Props: `remotion/props/why-they-switch.json`.
+Remotion loops the clip, sequences the six voice lines with auto-detected timing, burns in NL/EN subtitles, emphasizes the frame line (Joost's "Zeg het meteen…") in gold with "SAY THIS ↓", adds the 3-second hook ("It's not your accent — it's a HABIT"), and ends on a branded card over the scene with the frame line, then fades back to the scene so the reel loops cleanly. Output: 9:16 MP4 with audio. Props: `remotion/props/2026-06-15/why-they-switch.json`.
 
 ## RENDER (after Status: approved and all assets saved)
 
-    cd remotion && npx remotion render src/index.ts ScenarioReel out/why-they-switch.mp4 --props=props/why-they-switch.json
+    cd remotion && npx remotion render src/index.ts ScenarioReel out/2026-06-15/why-they-switch.mp4 --props=props/2026-06-15/why-they-switch.json
 
-(or: `/instagram-content render why-they-switch`)
+(or: `/instagram-render why-they-switch`)
 
 ## CAPTION (paste into Instagram)
 Passed inburgering but can't speak Dutch? Here's why people still switch to English on you.

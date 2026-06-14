@@ -4,7 +4,7 @@
 > **Theme:** A Dutch person switches to English the moment you try to speak Dutch
 > **Persona:** Belonging-motivated expat stuck in the Shame Cycle (Monika, Molly): "feels bad making people switch", "wants to at least start in Dutch"
 > **Positioning thread:** You learn these by using them, not memorizing them. Each line is short enough to actually say out loud under pressure.
-> **Render:** Cheatsheet (props: `remotion/props/keep-them-in-dutch.json`)
+> **Render:** Cheatsheet (props: `remotion/props/2026-06-15/keep-them-in-dutch.json`)
 > **Status:** approved
 
 ## Rules for this post (keep edits on-rails)
@@ -16,7 +16,7 @@
 - 5 phrase slides, one idea each, readable in 2 seconds: NL phrase, EN translation, and _when to use it_. Last slide = explicit save + send CTA.
 - No A/B/hashtag wall in the caption. Caption line 1 = searchable phrase. Comment seed pulls a sentence reply.
 
-## ASSETS TO GENERATE (save into remotion/public/keep-them-in-dutch/)
+## ASSETS TO GENERATE (save into remotion/public/2026-06-15/keep-them-in-dutch/)
 
 COVER IMAGE (ChatGPT). Attach: `brand/style-ref-1.png`, `brand/style-ref-2.png`, `brand/joost-reference.png`. Paste this exact prompt:
 
@@ -70,12 +70,12 @@ COVER IMAGE (ChatGPT). Attach: `brand/style-ref-1.png`, `brand/style-ref-2.png`,
     realism, overly polished digital art, cluttered composition, text in the image,
     inconsistent character design.
 
-Save it as: `remotion/public/keep-them-in-dutch/cover.png`
+Save it as: `remotion/public/2026-06-15/keep-them-in-dutch/cover.png`
 (No Canva. The phrase slides are rendered by Remotion from props.)
 
 ## WHAT REMOTION PRODUCES
 
-A branded carousel: cover (your image + the headline "Keep them speaking Dutch to you" overlaid) + one card per phrase (NL hero line, EN translation, a WHEN panel) + a save/send CTA slide. One PNG per slide. Props: `remotion/props/keep-them-in-dutch.json`.
+A branded carousel: cover (your image + the headline "Keep them speaking Dutch to you" overlaid) + one card per phrase (NL hero line, EN translation, a WHEN panel) + a save/send CTA slide. One PNG per slide. Props: `remotion/props/2026-06-15/keep-them-in-dutch.json`.
 
 The phrases (also in props):
 
@@ -87,9 +87,9 @@ The phrases (also in props):
 
 ## RENDER (after Status: approved and cover.png saved)
 
-    cd remotion && npx remotion render src/index.ts Cheatsheet out/keep-them-in-dutch --sequence --image-format=png --props=props/keep-them-in-dutch.json
+    cd remotion && npx remotion render src/index.ts Cheatsheet out/2026-06-15/keep-them-in-dutch --sequence --image-format=png --props=props/2026-06-15/keep-them-in-dutch.json
 
-(or: `/instagram-content render keep-them-in-dutch`)
+(or: `/instagram-render keep-them-in-dutch`)
 
 > Register note for the user: all five lines use polite **u**, safe with strangers and shop staff. With a friend or your partner, swap to **je**: "Mag ik het in het Nederlands proberen?" stays the same; "U mag gewoon..." → "Je mag gewoon Nederlands tegen me praten"; "Kunt u..." → "Kun je iets langzamer praten?"; "Hoe zegt u dat..." → "Hoe zeg je dat...".
 

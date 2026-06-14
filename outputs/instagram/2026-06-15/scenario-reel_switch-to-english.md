@@ -4,8 +4,8 @@
 > **Theme:** A Dutch person switches to English the moment you try to speak Dutch
 > **Persona:** Belonging-motivated expat stuck in the Shame Cycle (Monika, Molly, Nina) — "people instantly switch to English when I try"
 > **Positioning thread:** Unlimited, judgment-free practice. You rehearse the recovery line enough times alone that it comes out calm in the real moment.
-> **Render:** ScenarioReel — props: `remotion/props/switch-to-english.json`
-> **Status:** approved (rendered in the Remotion validation test → `remotion/out/switch-to-english.mp4`, ~22s)
+> **Render:** ScenarioReel — props: `remotion/props/2026-06-15/switch-to-english.json`
+> **Status:** approved (rendered in the Remotion validation test → `remotion/out/2026-06-15/switch-to-english.mp4`, ~22s)
 
 ## Rules for this post (keep edits on-rails)
 
@@ -16,15 +16,15 @@
 - Joost plays the friendly Dutch baker who switches to English to be helpful (the real reflex), then warmly switches back and slows down. He is never mocking. The point is that staying in Dutch is a polite request, not a confrontation.
 - One teaching payload: the recovery line. Subtitles every line (Dutch large, English smaller beneath). Caption line 1 = a searchable phrase; CTA = send/save, not likes.
 
-## ASSETS TO GENERATE (save into remotion/public/switch-to-english/)
+## ASSETS TO GENERATE (save into remotion/public/2026-06-15/switch-to-english/)
 
 STEP 1 — Voice (ElevenLabs). Use the saved Joost voice **Ido** (ElevenLabs voice ID `dLPO5AsXc3FZDbTh1IKa`; see `brand/brand-kit.md` → Voices). For Roos, pick a warm female Dutch voice and keep it if she recurs. Settings: Stability ~50, Similarity high, Style low, slightly slow for learners. Render each line as its own file and save with these exact names (order matters):
 
-    remotion/public/switch-to-english/roos-1.mp3   "Hoi, mag ik een bruin brood, alsjeblieft?"            (EN: Hi, may I have one loaf of brown bread, please?)
-    remotion/public/switch-to-english/joost-2.mp3  "Of course, one loaf of brown bread. That's two euros."          (the switch — said warmly, in English)
-    remotion/public/switch-to-english/roos-3.mp3   "Mag ik het in het Nederlands proberen? Ik wil graag oefenen."                (EN: May I try it in Dutch? I’d like to practice.)
-    remotion/public/switch-to-english/joost-4.mp3  "Natuurlijk! Sorry. Een bruin brood. Dat is twee euro."  (EN: Of course! Sorry. One loaf of brown bread. That’s two euros.)
-    remotion/public/switch-to-english/roos-5.mp3   "Dankjewel!"                                          (EN: Thank you!)
+    remotion/public/2026-06-15/switch-to-english/roos-1.mp3   "Hoi, mag ik een bruin brood, alsjeblieft?"            (EN: Hi, may I have one loaf of brown bread, please?)
+    remotion/public/2026-06-15/switch-to-english/joost-2.mp3  "Of course, one loaf of brown bread. That's two euros."          (the switch — said warmly, in English)
+    remotion/public/2026-06-15/switch-to-english/roos-3.mp3   "Mag ik het in het Nederlands proberen? Ik wil graag oefenen."                (EN: May I try it in Dutch? I’d like to practice.)
+    remotion/public/2026-06-15/switch-to-english/joost-4.mp3  "Natuurlijk! Sorry. Een bruin brood. Dat is twee euro."  (EN: Of course! Sorry. One loaf of brown bread. That’s two euros.)
+    remotion/public/2026-06-15/switch-to-english/roos-5.mp3   "Dankjewel!"                                          (EN: Thank you!)
 
 (Joost's second line is the only one in English, said warmly — it is the "switch" the whole reel turns on. Remotion measures each file's length automatically; you do not note durations.)
 
@@ -59,18 +59,18 @@ STEP 3 — Video (image-to-video; default Seedance 1.5 Pro Fast or Wan 2.6 — c
 
 Negative prompt (brand-kit negatives + motion negatives): talking, lip sync, mouth movement, moving lips, mouthing words, open mouth, jaw movement, exaggerated mouth animation, fast or jerky motion, morphing faces.
 
-Save the clip as: `remotion/public/switch-to-english/clip.mp4`
+Save the clip as: `remotion/public/2026-06-15/switch-to-english/clip.mp4`
 (One 10s clip is enough — Remotion loops it to fill the dialogue.)
 
 ## WHAT REMOTION PRODUCES (no CapCut)
 
-Remotion loops the clip to cover the dialogue, sequences the five voice lines with auto-detected timing, burns in NL/EN subtitles (Dutch large, English beneath), emphasizes the recovery line in gold with a "SAY THIS ↓" badge, adds the 3-second hook overlay ("When they switch to English, say THIS"), shows the "the switch (sound familiar?)" tag on Joost's English line, and ends on a branded blue outro card. Output: 9:16 1080×1920 MP4 with audio, ~22s. Props are in `remotion/props/switch-to-english.json` (hook text, the five lines + flags, outro).
+Remotion loops the clip to cover the dialogue, sequences the five voice lines with auto-detected timing, burns in NL/EN subtitles (Dutch large, English beneath), emphasizes the recovery line in gold with a "SAY THIS ↓" badge, adds the 3-second hook overlay ("When they switch to English, say THIS"), shows the "the switch (sound familiar?)" tag on Joost's English line, and ends on a branded blue outro card. Output: 9:16 1080×1920 MP4 with audio, ~22s. Props are in `remotion/props/2026-06-15/switch-to-english.json` (hook text, the five lines + flags, outro).
 
 ## RENDER (after Status: approved and all assets saved)
 
-    cd remotion && npx remotion render src/index.ts ScenarioReel out/switch-to-english.mp4 --props=props/switch-to-english.json
+    cd remotion && npx remotion render src/index.ts ScenarioReel out/2026-06-15/switch-to-english.mp4 --props=props/2026-06-15/switch-to-english.json
 
-(or: `/instagram-content render switch-to-english`)
+(or: `/instagram-render switch-to-english`)
 
 ## CAPTION (paste into Instagram)
 

@@ -6,10 +6,10 @@ Grounded in: `idea-backlog.json` pack `switch-to-english`; insights from Monika,
 
 | Day | Post file | Type | On-theme | Hook | Job |
 |-----|-----------|------|----------|------|-----|
-| Mon | `2026-06-15_scenario-reel_switch-to-english.md` | scenario-reel | yes | When they switch to English, say this | reach |
-| Tue | `2026-06-16_cheatsheet_keep-them-in-dutch.md` | cheatsheet | yes | 5 polite ways to keep them speaking Dutch to you | saves + sends |
-| Thu | `2026-06-18_quiz_switched-to-english.md` | quiz | yes | They just switched to English on you. What now? | sentence-comments |
-| Fri | `2026-06-19_article-remix_why-they-switch.md` | article-remix (reel) | yes | Why people keep switching to English on you | reach + SEO |
+| Mon | `scenario-reel_switch-to-english.md` | scenario-reel | yes | When they switch to English, say this | reach |
+| Tue | `cheatsheet_keep-them-in-dutch.md` | cheatsheet | yes | 5 polite ways to keep them speaking Dutch to you | saves + sends |
+| Thu | `quiz_switched-to-english.md` | quiz | yes | They just switched to English on you. What now? | sentence-comments |
+| Fri | `article-remix_why-they-switch.md` | article-remix (reel) | yes | Why people keep switching to English on you | reach + SEO |
 
 The week is coherent: the reel shows the in-the-moment fix at a bakery counter, the cheatsheet hands over the exact phrases from that scene, the quiz tests a mistake from the same situation, and the Friday remix delivers the emotional reframe (it is not your fault). The invented learner character **Maya** recurs across both reels for visual continuity, so invent her once and reuse her design.
 
@@ -20,6 +20,6 @@ The week is coherent: the reel shows the in-the-moment fix at a bakery counter, 
 
 ## Next step
 Review each post file. To change one: `/instagram-content refine <slug>`.
-When a post is ready, set `Status: approved` at the top of its file.
+When a post is ready, set `Status: approved` at the top of its file, generate its assets into `remotion/public/2026-06-15/<slug>/`, then render it: `/instagram-render <slug>`.
 
 > Brand-kit note: setup complete. The ElevenLabs Joost voice is **Ido** (voice ID `dLPO5AsXc3FZDbTh1IKa`) in `brand/brand-kit.md`, and the three brand images (`joost-reference.png`, `style-ref-1.png`, `style-ref-2.png`) are on disk. Every voice and image step in this week's posts is paste-ready.

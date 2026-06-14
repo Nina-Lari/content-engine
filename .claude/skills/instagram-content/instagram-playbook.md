@@ -12,7 +12,7 @@ Every post file the skill writes is a **runbook**: a numbered set of "do this, p
 
 When a step uses another AI tool (ElevenLabs, ChatGPT images, an image-to-video model) the post file contains the full prompt inline. Do not point the user at the brand kit to copy a block themselves. Inline it.
 
-**Remotion is the only editor, and there is a human gate.** The runbook does not end in manual editing. It tells the user which assets to generate and where to save them (`remotion/public/{slug}/`), and the skill writes a props file (`remotion/props/{slug}.json`). The final reel/slides are produced by the `remotion/` project (see `remotion/README.md`), never CapCut or Canva. Critically, `batch` only writes the reviewable runbook + props — it renders nothing. The user reviews the content (above all the Dutch), drops the assets, sets `Status: approved`, and only then does `render` mode produce the asset. Content first, production second.
+**Remotion is the only editor, and there is a human gate.** The runbook does not end in manual editing. It tells the user which assets to generate and where to save them (`remotion/public/<week>/{slug}/`), and the skill writes a props file (`remotion/props/<week>/{slug}.json`). The final reel/slides are produced by the `remotion/` project (see `remotion/README.md`), never CapCut or Canva. Critically, `batch` only writes the reviewable runbook + props — it renders nothing. The user reviews the content (above all the Dutch), drops the assets, sets `Status: approved`, and only then does the `/instagram-render` skill produce the asset. Content first, production second.
 
 ---
 

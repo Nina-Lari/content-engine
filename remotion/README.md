@@ -1,10 +1,15 @@
 # DWJ Remotion — the editor for every Instagram post
 
 This project is **the only editor** for DutchwithJoost Instagram posts. It replaces
-CapCut (reels) and Canva (carousels). The `/instagram-content` skill reads this file to
-know what it can do to the final image or reel, then drives this project: it writes a
-**props JSON**, you drop the generated assets in `public/`, and one render command produces
-the finished asset.
+CapCut (reels) and Canva (carousels). Two skills drive it: **`/instagram-content`** writes the
+**props JSON** (what the post says), and **`/instagram-render`** runs the render commands here
+(turning props + assets into the finished file). You generate the upstream assets and drop them
+in `public/`, then one render command produces the finished asset.
+
+Files are grouped by **week** — `<week>` is the week-start date `YYYY-MM-DD`:
+`props/<week>/{slug}.json`, `public/<week>/{slug}/`, `out/<week>/{slug}...`. This keeps the
+project tidy as weeks accumulate. Asset paths inside a props JSON are relative to `public/`, so
+they begin with the week segment (e.g. `2026-06-15/keep-them-in-dutch/cover.png`).
 
 Remotion does **not** replace the upstream generators:
 
@@ -47,18 +52,18 @@ asset. Re-rendering never requires re-doing manual edits.
 
 ## The three compositions and their props
 
-Props files live in `props/{slug}.json`. Asset paths are relative to `public/`.
+Props files live in `props/<week>/{slug}.json` (grouped by week-start date). Asset paths are relative to `public/`, so they start with the week segment: `<week>/{slug}/...`.
 
 ### `ScenarioReel` (reel → MP4)
 ```jsonc
 {
-  "clip": "{slug}/clip.mp4",                 // the silent image-to-video clip
+  "clip": "<week>/{slug}/clip.mp4",                 // the silent image-to-video clip
   "hook": {"l1": "...", "l2": "...", "emphasis": "..."},  // 3-second opener; emphasis is gold
   "switchTagText": "...",                    // floating tag text (optional use)
   "lines": [
-    {"file": "{slug}/roos-1.mp3", "speaker": "Roos", "nl": "...", "en": "..."},
-    {"file": "{slug}/joost-2.mp3", "speaker": "Joost", "english": true, "switchTag": true, "line": "..."},
-    {"file": "{slug}/roos-3.mp3", "speaker": "Roos", "recovery": true, "nl": "...", "en": "..."}
+    {"file": "<week>/{slug}/roos-1.mp3", "speaker": "Roos", "nl": "...", "en": "..."},
+    {"file": "<week>/{slug}/joost-2.mp3", "speaker": "Joost", "english": true, "switchTag": true, "line": "..."},
+    {"file": "<week>/{slug}/roos-3.mp3", "speaker": "Roos", "recovery": true, "nl": "...", "en": "..."}
   ],
   "outro": {"kicker": "...", "nl": "...", "en": "...", "cta": "...", "handle": "@dutchwithjoost"}
 }
@@ -71,7 +76,7 @@ teaching line, emphasized in gold. `switchTag` = show the floating tag during th
 {
   "theme": "Bij de bakker",                  // small kicker on each card
   "handle": "@dutchwithjoost",
-  "coverImage": "{slug}/cover.png",          // watercolor cover from ChatGPT
+  "coverImage": "<week>/{slug}/cover.png",          // watercolor cover from ChatGPT
   "cover": {"kicker": "...", "title": "...", "sub": "..."},
   "phrases": [{"nl": "...", "en": "...", "when": "..."}],  // one slide each
   "cta": {"title": "...", "sub": "..."}
@@ -83,7 +88,7 @@ Slides = cover + one per phrase + CTA. 5–8 phrases is the sweet spot.
 ```jsonc
 {
   "theme": "...", "handle": "@dutchwithjoost",
-  "scenarioImage": "{slug}/scenario.png",
+  "scenarioImage": "<week>/{slug}/scenario.png",
   "scenarioLine": "...", "questionNl": "...", "questionEn": "...",
   "options": [{"key": "A", "text": "..."}, {"key": "B", "text": "..."}, {"key": "C", "text": "..."}],
   "correct": "B",          // OMIT entirely for reflex/"which one is you" quizzes
@@ -111,17 +116,18 @@ Instagram feed carousels are 4:5; reels are 9:16. A 9:16 image dropped into a 4:
 
 ## Render commands
 
-Drop assets in `public/{slug}/` first, then:
+`/instagram-render <slug>` resolves the week and runs the right command for you. To run by hand,
+drop assets in `public/<week>/{slug}/` first, then:
 
 ```bash
 # Reel → MP4 (durations are auto-detected; no manual timing)
-npx remotion render src/index.ts ScenarioReel out/{slug}.mp4 --props=props/{slug}.json
+npx remotion render src/index.ts ScenarioReel out/<week>/{slug}.mp4 --props=props/<week>/{slug}.json
 
-# Carousel → PNG slides in out/{slug}/  (element-0.png … element-N.png)
-npx remotion render src/index.ts Cheatsheet out/{slug} --sequence --image-format=png --props=props/{slug}.json
-npx remotion render src/index.ts Quiz      out/{slug} --sequence --image-format=png --props=props/{slug}.json
+# Carousel → PNG slides in out/<week>/{slug}/  (element-0.png … element-N.png)
+npx remotion render src/index.ts Cheatsheet out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
+npx remotion render src/index.ts Quiz      out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
 
-# Preview / tweak props live before rendering
+# Preview / tweak props live before rendering (or: /instagram-render studio <slug>)
 npm run studio
 ```
 
@@ -176,6 +182,6 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
 - `src/components.tsx` — shared brand furniture (the wordmark pill, counter, dots).
 - `src/logo.tsx` — the DWJ logo mark (`LogoMark`), render-safe and color-configurable, drawn into the wordmark and the reel outro.
 - `src/theme.ts` — brand colors (mirror of `brand/brand-colors.json`).
-- `props/` — one JSON per post (the skill writes these).
-- `public/logo.tsx` — the source SVG of the logo (the shape of truth). `src/logo.tsx` mirrors it for rendering; `public/{slug}/` holds the generated per-post assets you drop in.
-- `out/` — rendered MP4s and PNG slide folders.
+- `props/<week>/` — one JSON per post, grouped by week-start date (`/instagram-content` writes these).
+- `public/logo.tsx` — the source SVG of the logo (the shape of truth). `src/logo.tsx` mirrors it for rendering; `public/<week>/{slug}/` holds the generated per-post assets you drop in.
+- `out/<week>/` — rendered MP4s and PNG slide folders, grouped by week.

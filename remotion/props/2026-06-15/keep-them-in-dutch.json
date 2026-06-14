@@ -1,7 +1,7 @@
 {
   "theme": "Keep them in Dutch",
   "handle": "@dutchwithjoost",
-  "coverImage": "keep-them-in-dutch/cover.png",
+  "coverImage": "2026-06-15/keep-them-in-dutch/cover.png",
   "cover": {"kicker": "WHEN THEY SWITCH TO ENGLISH", "title": "Keep them speaking Dutch to you", "sub": "5 polite lines. All safe with strangers."},
   "phrases": [
     {"nl": "Mag ik het in het Nederlands proberen?", "en": "Can I try it in Dutch?", "when": "They switch to English to be helpful. The friendliest reset."},
