@@ -65,7 +65,17 @@ The gated production step. The **only** place a final asset is produced.
    - Quiz: `npx remotion render src/index.ts Quiz out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json`
    - Reel durations are auto-detected from the audio/clip — no manual timing.
    - Create `remotion/out/<week>/` if it does not exist.
-6. **Report** the output path (`remotion/out/<week>/...`), the duration / slide count, and where to go next: preview/tweak live with `/instagram-render studio {slug}`; change the **words** with `/instagram-content refine {slug}`; change the **look** by tuning props or the composition (see `remotion/README.md`). Then post.
+6. **Reels must loop: verify the end frame matches the start frame.** A reel is posted to a feed that loops it forever, so the last frame must return to the same scene as the first or the wrap is a visible jump. This is **not optional** for `ScenarioReel` — always do it; carousels (`Cheatsheet`/`Quiz`) skip this step. Two things make the loop seamless, and you confirm both (full detail in `remotion/README.md` → *Production lessons*):
+   - **The clip begins and ends on the scene image.** The user generates `clip.mp4` with `<slug>/starting-frame.png` as both the begin and end frame, so every loop boundary lands on the same frame. If the wrap shows a hard cut, the clip's end frame is wrong — hand back to the user to regenerate (do not try to fix it in Remotion).
+   - **The end card fully clears before the final frame** (handled in the `EndCard` composition). If the last frame carries a faint endcard ghost, the fade-out is reaching the last frame — fix it in `remotion/src/compositions/ScenarioReel.tsx` and document it in `remotion/README.md`.
+   Confirm by rendering three loop-check stills into `out/<week>/{slug}-stills/` and comparing the last frame to the first:
+   ```
+   npx remotion still src/index.ts ScenarioReel out/<week>/{slug}-stills/reel-firstframe.png --frame=0    --props=props/<week>/{slug}.json
+   npx remotion still src/index.ts ScenarioReel out/<week>/{slug}-stills/reel-lastframe.png  --frame=LAST --props=props/<week>/{slug}.json
+   npx remotion still src/index.ts ScenarioReel out/<week>/{slug}-stills/reel-endcard.png    --frame=HOLD --props=props/<week>/{slug}.json
+   ```
+   `LAST` is `durationInFrames - 1` (the render in step 5 prints the frame count, e.g. `Rendered 960/960` → `--frame=959`); `HOLD` is a frame partway through the outro that shows the full endcard (e.g. ~40 frames before `LAST`). Read `reel-firstframe.png` and `reel-lastframe.png` and confirm the last frame returns to the opening scene. If it does not, fix per the two bullets above and re-render before reporting.
+7. **Report** the output path (`remotion/out/<week>/...`), the duration / slide count, the loop-check result (for reels), and where to go next: preview/tweak live with `/instagram-render studio {slug}`; change the **words** with `/instagram-content refine {slug}`; change the **look** by tuning props or the composition (see `remotion/README.md`). Then post.
 
 ---
 
@@ -108,5 +118,6 @@ There is no separate "edit the output" step — editing is just changing the inp
 
 - Never render a post whose `Status` is not `approved`. Never set `Status` yourself — that is the user's gate.
 - Never proceed with missing assets. List exactly which files to generate and where, then stop.
+- **Every reel must loop.** Its last frame returns to the opening scene (end frame = start frame). After rendering a `ScenarioReel`, always verify with the `reel-firstframe` / `reel-lastframe` stills (workflow step 6) and only consider the render done when they match. The loop is built from the clip's matched begin/end frame plus the end card clearing before the last frame.
 - This skill does not write or edit content or props as an authoring act. If a render exposes a content problem, hand back to `/instagram-content refine`. Studio-level props tuning is the one exception, and only for look (timing/layout), never words.
 - Rendering is deterministic and idempotent. Re-render freely; it overwrites the output in place.

@@ -22,6 +22,7 @@ The split is the human gate. This skill ends at `Status: approved`. `/instagram-
 | Build or curate the idea backlog | `/instagram-content plan` |
 | Produce this week's posts (runbooks + props) | `/instagram-content` (batch) |
 | Fix what a post **says** (Dutch, hook, caption, quiz, slides) | `/instagram-content refine <slug>` |
+| Check the Dutch (grammar + A1/A2 level) on a post or a week | `/instagram-content check [slug]` |
 | Turn an **approved** post into a video / carousel | `/instagram-render <slug>` |
 | Change how a rendered post **looks** (layout, timing, colors) | `/instagram-render studio <slug>` |
 
@@ -39,9 +40,11 @@ Every final image and reel is produced by the `remotion/` project, not CapCut or
 
 - `.claude/skills/instagram-content/instagram-playbook.md` -- platform mechanics, cadence, theming, runbook principle, per-type rules, the gate. Always load first.
 - `remotion/README.md` -- the props contract per composition (so the props you write match what Remotion expects) and what Remotion can do to the final asset. Load in batch (and in refine when the edit touches props shape).
-- `brand/brand-kit.md` -- the visual and asset identity for all posts: Style Block, Negative prompt, Joost reference, style-reference filenames, ElevenLabs voices, and the logo. Inline the relevant pieces into each post's asset steps. The logo is rendered automatically by Remotion (into the wordmark and reel outro) and is never a user-generated per-post asset -- do not add a logo step to runbooks.
+- `brand/brand-kit.md` -- the visual and asset identity for all posts: Style Block, Negative prompt, Joost reference, style-reference filenames, ElevenLabs voices, and the logo. Write the full Style Block and Negative prompt text into every image step verbatim (the actual lines, never a placeholder or a "see brand-kit" pointer). The logo is rendered automatically by Remotion (into the wordmark and reel outro) and is never a user-generated per-post asset -- do not add a logo step to runbooks.
 - `brand/brand-colors.json` -- the brand palette Remotion renders with (blue `#0025DB`, gold `#E0BB00`, etc.). The skill does not set colors per post; the compositions read the palette. Referenced so the skill keeps captions/overlays on-brand.
 - `brand/instagram-voice.md` -- the editorial voice and tone identity: brand-specific tone, emotional-accuracy rules, and per-format lessons captured from past refine sessions. Apply it to every caption, slide, dialogue, and quiz. This is the file the refine "capture a lesson" prompt writes back to.
+- `brand/dutch-grammar.md` -- the "is the Dutch correct?" reference for the Dutch language check: word order, conjugation and the `-t`/kofschip rules, de/het, niet/geen, register (`u` vs `je`), and a 10-point error checklist. Load whenever Dutch is written or checked (batch, refine, check).
+- `brand/dutch-level-guide.md` -- the "is the Dutch easy enough?" reference for the Dutch language check: the A1 target for our audience, the three difficulty axes (vocabulary, grammar, sentence length), red flags, and the rewrite-down-to-A1 ladder. Load alongside `dutch-grammar.md`.
 - `strategy/positioning.md` -- value props to thread as undercurrent.
 - `strategy/personas.md` -- who each post targets and their pains.
 - `customer-intelligence/insights/*.json` -- `lexicon` and `quotes` (phrasing for cheatsheets and dialogue), `pains` and `jtbd` (situations, quiz scenarios, angles), `keyword_candidates` (caption SEO).
@@ -116,12 +119,12 @@ A situation is a real-life moment a learner named (the bakery, the doctor, a wor
 
 ### Step 3: Build situation packs
 
-For each situation, draft one themed week's worth of ideas (a pack):
+For each situation, draft one themed week's worth of ideas (a pack of 7, max 2 reels):
 
-- A **scenario-reel** idea (Joost + an invented character in the situation).
-- A **cheatsheet** idea (the phrases for that situation, grounded in `lexicon`).
-- A **quiz** idea (a real mistake from that situation, with a reason-seeking prompt).
-- A **flex** idea (usually an article-remix tied loosely to the theme, or off-theme for variety).
+- **Two scenario-reel** ideas (Joost + an invented character in the situation), two distinct moments or settings within it, never the same shot.
+- **Two cheatsheet** ideas (the phrases for that situation, grounded in `lexicon`), split by angle, e.g. what to say vs. how to understand the reply.
+- **Two quiz** ideas (two different real mistakes from that situation, each with a reason-seeking prompt).
+- A **flex** idea (usually an article-remix tied loosely to the theme, or off-theme for variety). Run it as a carousel so the week stays at 2 reels.
 
 Each idea is lightweight: type, hook, one-line angle, and source (which insight or article it came from), plus `on_theme`.
 
@@ -147,10 +150,13 @@ Write or merge `outputs/instagram/idea-backlog.json`. Status lives on each post,
       "priority": "high | medium | low",
       "priority_reason": "string -- one line",
       "posts": [
-        {"post_id": "the-bakery-reel",       "type": "scenario-reel", "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-cheatsheet", "type": "cheatsheet",    "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-quiz",       "type": "quiz",          "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-remix",      "type": "article-remix", "hook": "string", "angle": "string", "source": "string", "on_theme": false, "status": "idea"}
+        {"post_id": "the-bakery-reel-1",       "type": "scenario-reel", "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "the-bakery-cheatsheet-1", "type": "cheatsheet",    "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "the-bakery-quiz-1",       "type": "quiz",          "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "the-bakery-reel-2",       "type": "scenario-reel", "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "the-bakery-cheatsheet-2", "type": "cheatsheet",    "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "the-bakery-quiz-2",       "type": "quiz",          "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "the-bakery-remix",        "type": "article-remix", "hook": "string", "angle": "string", "source": "string", "on_theme": false, "status": "idea"}
       ]
     }
   ]
@@ -161,7 +167,7 @@ Post `status` values: `idea` (suggested), `queued` (approved for production), `p
 
 ### Step 6: Report
 
-List each pack: situation, priority + reason, persona, and the 4 idea hooks. Tell the user: "Queue what you want to make by setting a post's `status` to `queued` -- queue a whole pack for a themed week, or cherry-pick posts across packs for a mixed week. Then run `/instagram-content` to produce them. Edit, add, reorder, or delete freely. It's your editorial calendar."
+List each pack: situation, priority + reason, persona, and the 7 idea hooks. Tell the user: "Queue what you want to make by setting a post's `status` to `queued` -- queue a whole pack for a themed week, or cherry-pick posts across packs for a mixed week. Then run `/instagram-content` to produce them. Edit, add, reorder, or delete freely. It's your editorial calendar."
 
 ---
 
@@ -180,14 +186,14 @@ Batch produces **reviewable runbooks + render props. It never renders.**
 
 Status lives on individual posts (`idea | queued | produced`), so a week can be one theme or a mix.
 
-- **If the backlog has queued posts:** collect every post with `status: queued` across all packs. Take up to the cadence count (default 4), highest-priority first. That set is the week.
+- **If the backlog has queued posts:** collect every post with `status: queued` across all packs. Take up to the cadence count (default 7), highest-priority first. That set is the week.
   - If all selected posts belong to one pack/situation, treat it as a **themed week**: keep them coherent (the cheatsheet phrases match the reel's scene, the quiz tests a mistake from that situation, the second character can recur).
   - If they span themes, treat it as a **mixed week**: each post stands alone, no forced cross-references.
 - **If nothing is queued but a backlog exists:** take the highest-priority pack's `idea` posts as a themed week, and note you did so (the user can queue specific posts instead).
 - **If no backlog exists:** invent one themed week on the fly from a recurring situation in the insights, and tell the user they can run `/instagram-content plan` to build a curated backlog.
 - **If a theme hint was passed:** prefer matching posts/pack, or theme the on-the-fly week to it.
 
-Sanity-check the week's type mix before producing: aim for the cadence shape (about 2-3 reels + 1-2 carousels) and **at least 2 reels**. If the queued selection is lopsided (e.g., zero reels, or four of one type), warn the user and suggest a swap, but proceed if they confirm. Honor an explicit count if the user asked for 3 or 5. Assign each post a persona and a positioning thread.
+Sanity-check the week's type mix before producing: aim for the cadence shape (2 reels, 2 cheatsheets, 2 quizzes, 1 flex/remix) and **a maximum of 2 reels** (never more). If the queued selection breaks that (e.g., three or more reels, or all of one type), warn the user and suggest a swap, but proceed if they confirm. Keep at least one reel. Honor an explicit count if the user asked for a different number. Assign each post a persona and a positioning thread.
 
 Pick `<week>` = the week-start date (the date the user is planning from, else today). Every file in this batch uses that same `<week>` value.
 
@@ -199,15 +205,18 @@ Write `outputs/instagram/<week>/_plan.md`:
 # Instagram Week — {start date} to {end date}
 
 Theme: {situation, or "Mixed"}
-Cadence: 4 feed posts (about 2-3 reels + 1-2 carousels) + daily Stories.
+Cadence: 7 feed posts (one per day, max 2 reels) + daily Stories.
 Grounded in: {intelligence sources / pack id}
 
 | Day | Post file | Type | On-theme | Hook | Job | Status |
 |-----|-----------|------|----------|------|-----|--------|
 | Mon | scenario-reel_{slug}.md | scenario-reel | yes | {hook} | reach | draft |
 | Tue | cheatsheet_{slug}.md | cheatsheet | yes | {hook} | saves | draft |
-| Thu | quiz_{slug}.md | quiz | yes | {hook} | comments | draft |
-| Fri | article-remix_{slug}.md | article-remix | flex | {hook} | reach + SEO | draft |
+| Wed | quiz_{slug}.md | quiz | yes | {hook} | comments | draft |
+| Thu | scenario-reel_{slug}.md | scenario-reel | yes | {hook} | reach | draft |
+| Fri | cheatsheet_{slug}.md | cheatsheet | yes | {hook} | saves | draft |
+| Sat | quiz_{slug}.md | quiz | yes | {hook} | comments | draft |
+| Sun | article-remix_{slug}.md | article-remix | flex | {hook} | reach + SEO | draft |
 
 ## Stories (daily)
 - Reshare each day's feed post to Stories.
@@ -222,7 +231,9 @@ Grounded in: {intelligence sources / pack id}
 
 ### Step 4: Write each post as a runbook + props
 
-For every slot, write `outputs/instagram/<week>/{type}_{slug}.md` using the matching template in **Post Runbook Templates** below, AND write `remotion/props/<week>/{slug}.json` with the same content shaped to that composition's props (see `remotion/README.md` for the props contract). Fill every step completely: real Dutch dialogue, real slide text, the full image prompt with the Style Block and Negative prompt inlined from the brand kit, the exact brand files to attach, image-to-video settings, the asset filenames to save under `remotion/public/<week>/{slug}/`, and the render command. Nothing left as a template for the user to complete. **Do not render.**
+For every slot, write `outputs/instagram/<week>/{type}_{slug}.md` using the matching template in **Post Runbook Templates** below, AND write `remotion/props/<week>/{slug}.json` with the same content shaped to that composition's props (see `remotion/README.md` for the props contract). Fill every step completely: real Dutch dialogue, real slide text, the full image prompt with the **complete Style Block and Negative prompt written out verbatim** (the actual lines from `brand/brand-kit.md`, reproduced in full, never a placeholder, a bracket like `[inline the style block here]`, or a "see brand-kit" pointer), the exact brand files to attach, image-to-video settings, the asset filenames to save under `remotion/public/<week>/{slug}/`, and the render command. Nothing left as a template for the user to complete. **Do not render.**
+
+Three hard rules on every post: (1) every image prompt contains the full Style Block + Negative prompt text inline, so the user copy-pastes it with zero edits; (2) no em-dash (—) appears anywhere in the props JSON or in any caption, slide, prompt, engagement prompt, or pinned comment — use a period, comma, colon, or parentheses instead; (3) every caption ends with the standard bio CTA line, verbatim: `Start learning Dutch with Joost: link in bio.`, placed after the save/send or engagement CTA and before the woven keywords.
 
 Asset paths inside the props JSON are relative to `remotion/public/`, so they begin with `<week>/{slug}/` (e.g. `"clip": "<week>/{slug}/clip.mp4"`, `"file": "<week>/{slug}/roos-1.mp3"`, `"coverImage": "<week>/{slug}/cover.png"`).
 
@@ -230,12 +241,13 @@ Keep the on-theme posts coherent but **not visually identical**: the cheatsheet 
 
 Apply the playbook rules: hook in the first frame, sends/saves CTA, caption line 1 = searchable keyword, quiz prompts that ask for a reason (never A/B bait), scenario reels at Tier 1 (single composition, no lip-sync, subtitle-led) with Joost locked, visuals on-brand across all types, remixes that transform rather than paste.
 
-Apply the **Dutch language standard** to every Dutch line: A1 default (light A2 only when the scenario needs it), always grammatically correct (de/het, conjugation, word order, register by context), and usable (passes the "would they say this tomorrow?" test, with English translation). Do a correctness pass over every Dutch line before writing each post out, and flag the post's Dutch for a quick native check.
+Run the **Dutch language check** on every Dutch line before writing the post out (the explicit pass defined in the playbook's *Dutch language standard*; it loads `brand/dutch-grammar.md` for correctness and `brand/dutch-level-guide.md` for level). For each line: correct it against the grammar checklist, score its level against the three difficulty axes, and rewrite anything above A1 down toward A1 (light A2 only when the scene truly needs it, always with the English translation and a one-line reason). The Dutch you write into `remotion/props/<week>/{slug}.json` is the checked, final version, and every line appears in the runbook's **Dutch check** verdict table. Flag the post's Dutch for a quick native check (Joost).
 
 ### Step 5: Update the backlog and report
 
 - Set the `status` of each produced post to `produced` in `idea-backlog.json` (leave the rest of each pack untouched).
-- Report: the theme (or "mixed"), the date range, the `<week>` folder, the 4 posts (day, type, working title), runbook + props file paths, any gaps, and whether the brand kit had unfilled slots.
+- Report: the theme (or "mixed"), the date range, the `<week>` folder, the 7 posts (day, type, working title), runbook + props file paths, any gaps, and whether the brand kit had unfilled slots.
+- Before reporting, verify each runbook: every image prompt contains the full Style Block + Negative prompt text (not a placeholder), every caption ends with `Start learning Dutch with Joost: link in bio.`, and no props JSON or caption text contains an em-dash.
 - Reminder, in this order: "These are drafts for your review -- nothing has been rendered. 1) Read each runbook and verify the content, especially the Dutch. 2) Refine any post with `/instagram-content refine <slug>`. 3) Generate the named assets into `remotion/public/<week>/<slug>/`. 4) Set `Status: approved`. 5) Render with `/instagram-render <slug>`."
 
 ---
@@ -249,15 +261,25 @@ Triggered by `/instagram-content refine <slug-or-path>`. Edits content **before*
 3. **Iterate.** Support both operations:
    - **Edit in place:** a targeted change ("make slide 3 punchier", "shorten the cover hook", "this quiz is drifting into A/B bait"). Apply directly.
    - **Regenerate a piece:** produce alternatives for one component and let the user pick. Examples: "give me 3 cover hooks", "rewrite the quiz", "two alternative scene-image prompts", "a different caption", "a tighter Dutch dialogue". Show options inline, let the user choose or blend, write the chosen version back.
-   After each change, write **both** the runbook MD and `remotion/props/<week>/{slug}.json` so they stay in sync, then confirm what changed. Keep going until satisfied. Every revision must still pass the post's rules block, including the Dutch language standard (A1 default, grammatically correct, usable).
+   After each change, write **both** the runbook MD and `remotion/props/<week>/{slug}.json` so they stay in sync, then confirm what changed. Keep going until satisfied. When a change touches any Dutch, re-run the **Dutch language check** on the changed lines and update the runbook's **Dutch check** verdict table. Every revision must still pass the post's rules block, including the Dutch language standard (A1 default, grammatically correct, usable), the no-em-dash rule (props JSON and every caption/slide/prompt/comment), the full inlined Style Block + Negative prompt in every image step (never a placeholder), and the standard bio CTA line `Start learning Dutch with Joost: link in bio.` in the caption.
 4. **Capture durable lessons.** When the user's feedback is a *durable editorial rule* and not a one-off tweak to this single post (e.g. "don't force a correct answer on reflex quizzes", "the switch-to-English feeling is frustration, not shame", "keep the humor but drop the shame"), offer to remember it: ask *"Want me to save this as a durable rule in `brand/instagram-voice.md` so future posts follow it?"* If yes, append a one-line principle plus a short italic _(why / source)_ under the matching heading in `brand/instagram-voice.md` (Tone, Emotional accuracy, Quiz design, or a new heading). Keep it brand-level and reusable, never post-specific. If instead the lesson is about how Remotion *renders* (a visual/production lesson, not editorial), note it belongs in `remotion/README.md` and offer to add it there. All editorial learnings stay in `brand/instagram-voice.md` -- do not write them into `strategy/` files. Skip the offer entirely for purely local edits.
 5. **Close out.** Remind the user that content edits do not re-render anything; when the content is right, set `Status: approved`, generate/confirm assets in `remotion/public/<week>/<slug>/`, then run `/instagram-render <slug>`. If they already rendered and now want a different look (not different words), point them to `/instagram-render studio <slug>`.
 
 ---
 
+## Check Mode Workflow
+
+Triggered by `/instagram-content check [slug-or-week]`. A standalone run of the **Dutch language check** over posts that already exist, for when you want to re-verify the Dutch without a full refine. It is the same check that batch and refine run inline, exposed on demand. Loads only what the check needs: `brand/dutch-grammar.md`, `brand/dutch-level-guide.md`, and the playbook's *Dutch language standard*. It does not touch visuals, the gate, or anything but the Dutch.
+
+1. **Resolve the scope.** With a slug, check that one post. With a `<week>` (`YYYY-MM-DD`), check every runbook in that week. With no argument, check the most recent week. List what was matched.
+2. **Check every Dutch line.** For each `nl` line in the props and any Dutch in the runbook: confirm correctness against the grammar checklist, score the level against the three difficulty axes, and rewrite anything above A1 down toward A1 (A2 only when the scene needs it, with a reason). Anything above A2 must be rewritten.
+3. **Write back.** Update the runbook's **Dutch check** verdict table, and for any line that changed, the matching `remotion/props/<week>/{slug}.json` so the two stay in sync. **Never change `Status`** (the gate stays the user's). Report per post: lines checked, their levels, and what changed.
+
 ## Post Runbook Templates
 
 Every file opens with this header. `Status` is the gate. `{week}` is the week-start date folder the post lives in.
+
+The image steps below embed the brand **Style Block + Negative prompt verbatim** (copied from `brand/brand-kit.md`) so the produced image prompt is copy-paste-ready with nothing left to fill. Reproduce that text in full in every runbook, never a placeholder. If you ever change those blocks in `brand/brand-kit.md`, update them in these three templates too.
 
 ```markdown
 # {Day} {Date} — {Type}: {Working Title}
@@ -270,9 +292,18 @@ Every file opens with this header. `Status` is the gate. `{week}` is the week-st
 > **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
 ## Rules for this post (keep edits on-rails)
-- Dutch: A1 default (light A2 only if the scenario needs it), always grammatically correct, usable; register correct by context; flagged for a native check before posting.
+- Dutch: A1 default (light A2 only if the scenario needs it), always grammatically correct, usable; register correct by context; every line passes the Dutch language check and appears in the **Dutch check** table below; flagged for a native check before posting.
 - Remotion renders the final asset. Do not assemble in CapCut/Canva. Crisp Dutch text is rendered, never baked into an AI image.
+- No em-dash (—) anywhere in this post: not in the props JSON (nl/en/hook/outro/caption text), the slides, the caption, the engagement prompt, or the pinned comment. Use a period, comma, colon, or parentheses. (Brand hard rule: brand/instagram-voice.md + .claude/rules/writing-quality.md.)
+- Image prompts carry the full Style Block + Negative prompt text inline, verbatim. Copy-paste-ready, never a placeholder.
+- Caption ends with the standard bio CTA line, verbatim: `Start learning Dutch with Joost: link in bio.`
 - {3-5 more guardrails from the playbook section for this type}
+
+## Dutch check
+| # | Dutch line | Level | Correct? | Note |
+|---|-----------|-------|----------|------|
+| 1 | {nl line} | {A1/A2} | yes | {what was checked or rewritten} |
+(One row per Dutch line in the post, filled by the Dutch language check. Anything above A2 is rewritten before approval; an A2 line carries a one-line reason. See the playbook's Dutch language standard.)
 ```
 
 ### scenario-reel (Tier 1: one composition, no lip-sync, subtitle-led)
@@ -290,12 +321,51 @@ slightly slow. Render each line as its own file and save with these exact names 
 (Remotion measures each file's length automatically — you do not note durations.)
 
 STEP 2 — Scene image (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png,
-brand/joost-reference.png. Paste this exact prompt:
+brand/joost-reference.png. Write the scene description for this reel's two-shot, then append the
+Style Block and Negative prompt below it. The pasted prompt must already contain that full text,
+written out verbatim. Never leave a placeholder, a bracket like "[inline the style block here]",
+or a "see brand-kit" pointer: the runbook must be copy-paste-ready. Paste this exact prompt:
 
-  {full scene prompt with Style Block + Negative prompt inlined. Describe each character by
-  POSITION in the frame — e.g. "JOOST behind the counter on the left", "a woman on the right" —
-  not by name (names confuse image models; the name only lives in the dialogue/subtitles). No
-  text in the image.}
+  {Scene description for this reel's 9:16 two-shot. Describe each character by POSITION in the
+  frame, e.g. "JOOST behind the counter on the left", "a woman on the right", not by name (names
+  confuse image models; the name only lives in the dialogue/subtitles). Keep the bottom third
+  calmer and less detailed (subtitles render there). No text in the image.}
+
+  Illustration style:
+  Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
+  gentle pencil-like outlines, subtle paper texture, muted cozy colors, and light
+  watercolor washes. The image should feel slightly imperfect and handmade, as if
+  sketched with ink and colored by hand.
+
+  Characters:
+  Characters should have simple friendly faces. Eyes must be drawn only as small
+  solid dark circles or vertical oval dots. No pupils, no sclera, no iris, no
+  eyelashes, and no glossy or realistic eyes. Keep facial features minimal: a small
+  simple nose, soft blush on the cheeks, and a friendly understated expression. Use
+  rounded shapes, soft shadows, natural proportions, and expressive but simple
+  gestures. Clothing should have gentle fabric texture and small hand-drawn details.
+
+  Setting and background:
+  Cozy, calm, and lived-in. Include simple environmental details that support the
+  scene (furniture, plants, books, coffee cups, warm window light, shelves,
+  textiles, small everyday objects). Detailed enough to feel atmospheric, not so
+  busy that it distracts from the main moment.
+
+  Mood:
+  Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
+  relatable.
+
+  Style keywords:
+  Children's book editorial illustration, loose ink linework, watercolor texture,
+  soft pastel palette, hand-sketched, slightly whimsical, clean but organic, cozy
+  everyday atmosphere.
+
+  Avoid realistic eyes, detailed pupils, sclera, iris, eyelashes, glossy eyes,
+  anime eyes, photorealism, 3D render, plastic texture, harsh outlines, sharp
+  digital gradients, overly perfect vector art, exaggerated cartoon expressions,
+  complex facial detail, hyperreal skin texture, dramatic lighting, cinematic
+  realism, overly polished digital art, cluttered composition, text in the image,
+  inconsistent character design.
 
 Save it anywhere (it is only the start frame for the clip; the render does not use it).
 
@@ -343,6 +413,7 @@ with audio. Props: remotion/props/{week}/{slug}.json (hook text, the lines + fla
 {line 1: searchable keyword as a hook}
 {2-4 lines of value}
 {save/send CTA}
+Start learning Dutch with Joost: link in bio.
 Keywords woven: {3-6}
 
 ## PINNED COMMENT
@@ -355,15 +426,53 @@ Keywords woven: {3-6}
 ## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
 
 COVER IMAGE (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png,
-brand/joost-reference.png. Paste this exact prompt:
+brand/joost-reference.png. The pasted prompt must contain the full Style Block and Negative prompt
+text below, written out verbatim. Never leave a placeholder or a "see brand-kit" pointer: the
+runbook must be copy-paste-ready. Paste this exact prompt:
 
   Create a warm, hand-drawn storybook illustration, VERTICAL 4:5 (1080×1350, the Instagram feed
   ratio): Joost {at the place, simple friendly action}. Match the STYLE of style-ref-1 and
   style-ref-2 (do not copy their characters or objects). Reproduce JOOST exactly from
   joost-reference. Frame Joost in the UPPER HALF of the image, kept high. The cover crops to a
   horizontal band across the top and fades the lower part into a solid colour panel that holds the
-  headline, so keep Joost high and leave the lower third empty. {Style Block inlined} {Negative prompt inlined}
-  (No text in the image. The headline is rendered by Remotion.)
+  headline, so keep Joost high and leave the lower third empty. No text in the image. The headline
+  is rendered by Remotion.
+
+  Illustration style:
+  Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
+  gentle pencil-like outlines, subtle paper texture, muted cozy colors, and light
+  watercolor washes. The image should feel slightly imperfect and handmade, as if
+  sketched with ink and colored by hand.
+
+  Characters:
+  Characters should have simple friendly faces. Eyes must be drawn only as small
+  solid dark circles or vertical oval dots. No pupils, no sclera, no iris, no
+  eyelashes, and no glossy or realistic eyes. Keep facial features minimal: a small
+  simple nose, soft blush on the cheeks, and a friendly understated expression. Use
+  rounded shapes, soft shadows, natural proportions, and expressive but simple
+  gestures. Clothing should have gentle fabric texture and small hand-drawn details.
+
+  Setting and background:
+  Cozy, calm, and lived-in. Include simple environmental details that support the
+  scene (furniture, plants, books, coffee cups, warm window light, shelves,
+  textiles, small everyday objects). Detailed enough to feel atmospheric, not so
+  busy that it distracts from the main moment.
+
+  Mood:
+  Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
+  relatable.
+
+  Style keywords:
+  Children's book editorial illustration, loose ink linework, watercolor texture,
+  soft pastel palette, hand-sketched, slightly whimsical, clean but organic, cozy
+  everyday atmosphere.
+
+  Avoid realistic eyes, detailed pupils, sclera, iris, eyelashes, glossy eyes,
+  anime eyes, photorealism, 3D render, plastic texture, harsh outlines, sharp
+  digital gradients, overly perfect vector art, exaggerated cartoon expressions,
+  complex facial detail, hyperreal skin texture, dramatic lighting, cinematic
+  realism, overly polished digital art, cluttered composition, text in the image,
+  inconsistent character design.
 
 Save it as: remotion/public/{week}/{slug}/cover.png
 (No Canva. The phrase slides are rendered by Remotion from props, with crisp Dutch text.)
@@ -385,6 +494,7 @@ The phrases (also written into props):
 {line 1 keyword hook}
 {value}
 {save/send CTA}
+Start learning Dutch with Joost: link in bio.
 Keywords woven: {3-6}
 
 ## PINNED COMMENT
@@ -397,14 +507,51 @@ Keywords woven: {3-6}
 ## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
 
 SCENARIO IMAGE (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png,
-brand/joost-reference.png. Paste this exact prompt:
+brand/joost-reference.png. The pasted prompt must contain the full Style Block and Negative prompt
+text below, written out verbatim. Never leave a placeholder or a "see brand-kit" pointer: the
+runbook must be copy-paste-ready. Paste this exact prompt:
 
   Create a warm, hand-drawn storybook illustration, VERTICAL 4:5 (1080×1350, the Instagram feed
   ratio): {the quiz scenario, e.g. Joost behind a bakery counter}. Match the STYLE of style-ref-1
   and style-ref-2. Reproduce JOOST exactly from joost-reference. The question overlay sits CENTRED
   over a dark scrim covering the whole image, so framing is flexible. Just keep the mid-frame from
-  being too busy behind the large question. {Style Block inlined} {Negative prompt inlined}
-  (No text in the image. The question is rendered by Remotion.)
+  being too busy behind the large question. No text in the image. The question is rendered by Remotion.
+
+  Illustration style:
+  Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
+  gentle pencil-like outlines, subtle paper texture, muted cozy colors, and light
+  watercolor washes. The image should feel slightly imperfect and handmade, as if
+  sketched with ink and colored by hand.
+
+  Characters:
+  Characters should have simple friendly faces. Eyes must be drawn only as small
+  solid dark circles or vertical oval dots. No pupils, no sclera, no iris, no
+  eyelashes, and no glossy or realistic eyes. Keep facial features minimal: a small
+  simple nose, soft blush on the cheeks, and a friendly understated expression. Use
+  rounded shapes, soft shadows, natural proportions, and expressive but simple
+  gestures. Clothing should have gentle fabric texture and small hand-drawn details.
+
+  Setting and background:
+  Cozy, calm, and lived-in. Include simple environmental details that support the
+  scene (furniture, plants, books, coffee cups, warm window light, shelves,
+  textiles, small everyday objects). Detailed enough to feel atmospheric, not so
+  busy that it distracts from the main moment.
+
+  Mood:
+  Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
+  relatable.
+
+  Style keywords:
+  Children's book editorial illustration, loose ink linework, watercolor texture,
+  soft pastel palette, hand-sketched, slightly whimsical, clean but organic, cozy
+  everyday atmosphere.
+
+  Avoid realistic eyes, detailed pupils, sclera, iris, eyelashes, glossy eyes,
+  anime eyes, photorealism, 3D render, plastic texture, harsh outlines, sharp
+  digital gradients, overly perfect vector art, exaggerated cartoon expressions,
+  complex facial detail, hyperreal skin texture, dramatic lighting, cinematic
+  realism, overly polished digital art, cluttered composition, text in the image,
+  inconsistent character design.
 
 Save it as: remotion/public/{week}/{slug}/scenario.png
 
@@ -430,6 +577,7 @@ The quiz (also written into props):
 {line 1 keyword hook}
 {value}
 {engagement prompt}
+Start learning Dutch with Joost: link in bio.
 Keywords woven: {3-6}
 
 ## PINNED COMMENT
