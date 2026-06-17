@@ -1,0 +1,56 @@
+{
+  "clip": "2026-06-22/table-talk-too-fast/clip.mp4",
+  "hook": {
+    "l1": "When the table talk",
+    "l2": "gets too fast, say",
+    "emphasis": "THIS"
+  },
+  "switchTagText": "the smile-and-nod",
+  "lines": [
+    {
+      "file": "2026-06-22/table-talk-too-fast/joost-1.mp3",
+      "speaker": "Joost",
+      "nl": "Ja, en dan gaan we zaterdag naar het strand!",
+      "en": "Yes, and then we're going to the beach on Saturday!"
+    },
+    {
+      "file": "2026-06-22/table-talk-too-fast/roos-2.mp3",
+      "speaker": "Roos",
+      "switchTag": true,
+      "nl": "Sorry, het gaat een beetje snel voor mij.",
+      "en": "Sorry, it's going a bit fast for me."
+    },
+    {
+      "file": "2026-06-22/table-talk-too-fast/roos-3.mp3",
+      "speaker": "Roos",
+      "recovery": true,
+      "nl": "Kunnen jullie iets langzamer praten?",
+      "en": "Can you speak a bit slower?"
+    },
+    {
+      "file": "2026-06-22/table-talk-too-fast/joost-4.mp3",
+      "speaker": "Joost",
+      "nl": "Natuurlijk, Roos! Sorry, joh.",
+      "en": "Of course, Roos! Sorry!"
+    },
+    {
+      "file": "2026-06-22/table-talk-too-fast/joost-5.mp3",
+      "speaker": "Joost",
+      "nl": "Vertel, hoe gaat het met jou?",
+      "en": "Tell us, how are you doing?"
+    },
+    {
+      "file": "2026-06-22/table-talk-too-fast/roos-6.mp3",
+      "speaker": "Roos",
+      "nl": "Dank je. Nu doe ik mee.",
+      "en": "Thanks. Now I'm joining in."
+    }
+  ],
+  "outro": {
+    "kicker": "THE ONE LINE TO REMEMBER",
+    "nl": "Kunnen jullie iets langzamer praten?",
+    "en": "Can you speak a bit slower?",
+    "cta": "Save it for the next family dinner.",
+    "handle": "@dutchwithjoost"
+  }
+}

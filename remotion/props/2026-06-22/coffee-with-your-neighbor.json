@@ -1,0 +1,15 @@
+{
+  "theme": "Bij de buren",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/coffee-with-your-neighbor/cover.png",
+  "cover": {"kicker": "COFFEE WITH YOUR NEIGHBOR", "title": "6 lines so it's not all in English", "sub": "From 'milk and sugar?' to 'let's do this again.'"},
+  "phrases": [
+    {"nl": "Wil je koffie of thee?", "en": "Would you like coffee or tea?", "when": "You're hosting. The classic Dutch offer."},
+    {"nl": "Melk en suiker?", "en": "Milk and sugar?", "when": "The follow-up nobody teaches you."},
+    {"nl": "Hoe lang woon je al hier?", "en": "How long have you lived here?", "when": "Easy small talk that gets them talking."},
+    {"nl": "Wat doe jij in het weekend?", "en": "What do you do on the weekend?", "when": "Keep it going past the weather."},
+    {"nl": "Gezellig! Doen we dit nog eens?", "en": "So nice! Shall we do this again?", "when": "Turn one coffee into a habit."},
+    {"nl": "Bedankt voor de koffie!", "en": "Thanks for the coffee!", "when": "A warm way to say goodbye."}
+  ],
+  "cta": {"title": "Save this before you invite them in.", "sub": "Send it to whoever waves at the neighbor but never quite talks."}
+}

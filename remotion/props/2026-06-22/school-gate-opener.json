@@ -1,0 +1,14 @@
+{
+  "theme": "Bij het schoolhek",
+  "handle": "@dutchwithjoost",
+  "scenarioImage": "2026-06-22/school-gate-opener/scenario.png",
+  "scenarioLine": "Pick-up time. Another parent turns to you and starts chatting in Dutch.",
+  "questionNl": "Wat zeg jij?",
+  "questionEn": "What do you say?",
+  "options": [
+    {"key": "A", "text": "Je lacht: 'Sorry, my Dutch is not great.' (You smile and switch to English.)"},
+    {"key": "B", "text": "Je zegt: 'Ja, hè? Lekker weer vandaag.' (You agree and add a weather line.)"},
+    {"key": "C", "text": "Je knikt vriendelijk en hoopt dat het stopt. (You nod kindly and hope it ends.)"}
+  ],
+  "reveal": "No right answer here. All three are real. If B feels out of reach, it's the smallest win: one weather line and you're in a Dutch conversation. Most parents will happily carry the rest."
+}

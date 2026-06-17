@@ -1,0 +1,14 @@
+{
+  "theme": "Welke cursus?",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/course-that-gets-you-talking/cover.png",
+  "cover": {"kicker": "BEFORE YOU BUY A DUTCH COURSE", "title": "5 questions that actually matter", "sub": "If your goal is talking, not just passing."},
+  "phrases": [
+    {"nl": "Moet ik echt praten?", "en": "Do I really have to speak?", "when": "If a course only tests recognition, you can finish it and still freeze. Look for one where speaking is required, not optional."},
+    {"nl": "Is het op mijn niveau?", "en": "Is it at my level?", "when": "A native partner or a class of fifteen rarely matches your level. Look for practice that meets you where you are."},
+    {"nl": "Mag ik fouten maken?", "en": "Can I make mistakes safely?", "when": "You need hundreds of low-stakes tries before the real conversation. Judgment-free practice beats a room watching you."},
+    {"nl": "Leer ik alle vijf de delen?", "en": "Do I learn all five parts?", "when": "Reading, listening, writing, speaking, and KNM. One course that covers all five beats stitching apps together."},
+    {"nl": "Past het in mijn week?", "en": "Does it fit my week?", "when": "If you can't show up at a fixed time every Tuesday, self-paced wins. Fifteen minutes still counts."}
+  ],
+  "cta": {"title": "Save this before you pay for a course.", "sub": "Send it to whoever's about to start inburgering."}
+}

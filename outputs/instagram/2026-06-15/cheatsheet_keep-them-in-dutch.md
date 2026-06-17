@@ -100,12 +100,12 @@ How to keep Dutch people speaking Dutch to you (instead of switching to English)
 Most switches aren't judgment. People switch to be kind, or out of pure habit. You can gently steer it back, and you don't need perfect Dutch to do it. Five short lines, all polite enough for a stranger:
 
 1. Mag ik het in het Nederlands proberen?
-2. U mag gewoon Nederlands tegen me praten.
-3. Kunt u iets langzamer praten?
-4. Ik leer Nederlands. Ik wil graag oefenen.
-5. Hoe zegt u dat in het Nederlands?
+2. Je mag gewoon Nederlands met me praten.
+3. Ik oefen graag mijn Nederlands, als dat oké is.
+4. Ik ben Nederlands aan het leren. Ik wil graag oefenen.
+5. Hoe zeg je dat in het Nederlands?
 
-Pick one and use it tomorrow. The point isn't to know them. It's to have said them out loud enough times that they come out calm.
+Pick one and use it tomorrow. The point isn't to memorize them. It's to have said them out loud enough times that they come out calm.
 
 Save this. Send it to whoever keeps getting answered in English.
 

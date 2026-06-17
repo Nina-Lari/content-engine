@@ -1,0 +1,56 @@
+{
+  "clip": "2026-06-22/get-in-on-the-joke/clip.mp4",
+  "hook": {
+    "l1": "Everyone is laughing",
+    "l2": "in Dutch. Say",
+    "emphasis": "THIS"
+  },
+  "switchTagText": "sound familiar?",
+  "lines": [
+    {
+      "file": "2026-06-22/get-in-on-the-joke/joost-1.mp3",
+      "speaker": "Joost",
+      "nl": "Haha, dat is echt grappig!",
+      "en": "Haha, that's really funny!"
+    },
+    {
+      "file": "2026-06-22/get-in-on-the-joke/roos-2.mp3",
+      "speaker": "Roos",
+      "switchTag": true,
+      "nl": "Sorry, ik snap het niet helemaal.",
+      "en": "Sorry, I don't quite get it."
+    },
+    {
+      "file": "2026-06-22/get-in-on-the-joke/roos-3.mp3",
+      "speaker": "Roos",
+      "recovery": true,
+      "nl": "Wat is er zo grappig?",
+      "en": "What's so funny?"
+    },
+    {
+      "file": "2026-06-22/get-in-on-the-joke/joost-4.mp3",
+      "speaker": "Joost",
+      "nl": "O sorry! Ik leg het even uit.",
+      "en": "Oh sorry! Let me explain."
+    },
+    {
+      "file": "2026-06-22/get-in-on-the-joke/joost-5.mp3",
+      "speaker": "Joost",
+      "nl": "Kijk! De hond heeft de worst!",
+      "en": "Look! The dog has the sausage!"
+    },
+    {
+      "file": "2026-06-22/get-in-on-the-joke/roos-6.mp3",
+      "speaker": "Roos",
+      "nl": "Haha, nu snap ik het!",
+      "en": "Haha, now I get it!"
+    }
+  ],
+  "outro": {
+    "kicker": "THE ONE LINE TO REMEMBER",
+    "nl": "Wat is er zo grappig?",
+    "en": "What's so funny?",
+    "cta": "Save it for the next BBQ.",
+    "handle": "@dutchwithjoost"
+  }
+}

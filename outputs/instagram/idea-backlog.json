@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-06-12",
+  "generated_date": "2026-06-15",
   "intelligence_sources": [
     "customer-intelligence/insights/alysa_2026-05-30_insights.json",
     "customer-intelligence/insights/anna_2026-05-30_insights.json",
@@ -7,11 +7,12 @@
     "customer-intelligence/insights/molly_2026-05-30_insights.json",
     "customer-intelligence/insights/monika_2026-05-30_insights.json",
     "customer-intelligence/insights/nina_2026-05-28_insights.json",
-    "outputs/articles/passed-inburgering-cant-speak-dutch",
-    "outputs/articles/how-to-practice-dutch-speaking-alone",
-    "outputs/briefs/why-failing-inburgering-speaking-exam_brief.json",
-    "outputs/briefs/where-to-start-inburgering-a2_brief.json",
-    "outputs/briefs/how-many-words-pass-a2-inburgering_brief.json"
+    "outputs/articles/why-cant-speak-dutch-after-studying_final.mdx",
+    "outputs/articles/what-is-production-based-language-learning_final.mdx",
+    "outputs/articles/best-inburgering-courses-2026_final.mdx",
+    "outputs/articles/who-is-dutchwithjoost-not-for_final.mdx",
+    "outputs/articles/inburgering-course-that-teaches-speaking_final.mdx",
+    "outputs/articles/passed-inburgering-cant-speak-dutch"
   ],
   "packs": [
     {
@@ -60,6 +61,733 @@
           "on_theme": true,
           "status": "produced",
           "produced_file": "outputs/instagram/2026-06-19_article-remix_why-they-switch.md"
+        }
+      ]
+    },
+    {
+      "pack_id": "the-freeze",
+      "theme": "The moment someone speaks Dutch to you and your mind goes blank, even though you understood every word",
+      "settings": ["the doctor's reception", "the supermarket checkout", "the school gate", "the coffee machine at work", "a phone call", "a neighbor at the door"],
+      "persona": "Production-gap learner who understands a lot but cannot produce on the spot (Monika, Anna, Nina, Facebook 'loading like a slow computer')",
+      "priority": "high",
+      "priority_reason": "The most universal moment in the data: understand-but-freeze recurs in five of six sources. Lands the core production-gap differentiator and has very high relatability and send potential.",
+      "posts": [
+        {
+          "post_id": "the-freeze-reel-1",
+          "type": "scenario-reel",
+          "setting": "the doctor's reception",
+          "hook": "When your brain freezes at the doctor's desk, say this",
+          "angle": "The receptionist (Joost) asks a simple question in Dutch, the learner blanks, then uses one short rescue line to buy a second and answer in simple Dutch; Joost waits kindly. Close on 'one line restarts your brain.'",
+          "source": "monika 'my brain just cannot work around', couldn't pronounce the doctor's surname",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "the-freeze-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "the supermarket checkout",
+          "hook": "5 lines for when the cashier talks too fast",
+          "angle": "The exact short phrases to slow the cashier down and answer the standard checkout questions (bonuskaart, pin, zak) without panicking",
+          "source": "molly 'so I don't have to switch to English in grocery stores'; Facebook freeze",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "the-freeze-quiz-1",
+          "type": "quiz",
+          "setting": "the school gate",
+          "hook": "Another parent says hi in Dutch. Your move?",
+          "angle": "Reflex quiz, no forced correct answer: three real reactions when you freeze (smile and switch to English, blurt one word, try a short line). Ask which one is you and what usually happens next.",
+          "source": "Facebook working parent; belonging; barrier: Shame Cycle",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "the-freeze-reel-2",
+          "type": "scenario-reel",
+          "setting": "the coffee machine at work",
+          "hook": "He asked in Dutch. You froze. Here is the reset.",
+          "angle": "A colleague (Joost) makes small talk in Dutch at the coffee machine, the learner freezes, then keeps it going with one calm line; Joost slows down. Close on 'most colleagues are glad you tried.'",
+          "source": "anna silent exclusion at work; Facebook 'loading like a slow computer'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "the-freeze-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "a phone call",
+          "hook": "The phone call you keep avoiding, in 6 lines",
+          "angle": "Phrases to open a call, ask them to repeat or slow down, and book an appointment by phone (where you cannot read lips or point)",
+          "source": "monika doctor phone call; pronunciation block",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "the-freeze-quiz-2",
+          "type": "quiz",
+          "setting": "a neighbor at the door",
+          "hook": "Your neighbor asks something in Dutch at the door. Which reply fits?",
+          "angle": "Correct-answer comprehension quiz: the neighbor says one everyday line, three replies, one fits and two are plausible learner mistakes. Reveal teaches why, then ask what you would really say.",
+          "source": "monika belonging, 'meet people who are not expats'; integration",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "the-freeze-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "You studied for months. Why does your Dutch still freeze?",
+          "angle": "Carousel. Pull ONE idea from the article: freezing is a production-gap problem, not a memory problem. Transform, do not paste. Keeps the week at 2 reels.",
+          "source": "outputs/articles/why-cant-speak-dutch-after-studying_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "real-dutch-not-textbook",
+      "theme": "Reaching for Dutch in a real moment and finding only the useless textbook phrase you were taught (the 'my elephant is green' trap)",
+      "settings": ["the bakery", "the cafe", "the market stall", "the supermarket", "the doctor", "a phone call"],
+      "persona": "Prior-course-skeptic who wants everyday-usable Dutch (Monika 'my elephant is green', Anna 'I have a green apple', library lessons 'I am here to clean your room')",
+      "priority": "medium",
+      "priority_reason": "Dramatizes the production-based positioning ('the words you use') and has strong save potential as phrase lists. Grounded in the loudest, funniest complaint in the data. Slight overlap with the-freeze keeps it at medium.",
+      "posts": [
+        {
+          "post_id": "real-dutch-reel-1",
+          "type": "scenario-reel",
+          "setting": "the bakery",
+          "hook": "Duolingo gave you 'my elephant is green.' Here is what to say instead.",
+          "angle": "The learner walks into the bakery armed only with a silly textbook line; Joost (the baker) gently hands over the real phrase to order. Humor, never shame; close on 'this is the one you will actually use.'",
+          "source": "monika 'my elephant is green'; molly grocery and bakery goal",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "real-dutch-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "the cafe",
+          "hook": "Order coffee like you live here (not like a textbook)",
+          "angle": "The exact 6 lines to order, customize, and pay at a cafe, the ones courses skip",
+          "source": "monika useless phrases; everyday usefulness; lexicon",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "real-dutch-quiz-1",
+          "type": "quiz",
+          "setting": "the market stall",
+          "hook": "Which of these would you actually say at the market?",
+          "angle": "Correct-answer quiz: three phrases, two are textbook-stiff or wrong register, one is natural. Pick the real one and say why the others feel off.",
+          "source": "lexicon everyday terms; production-based positioning",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "real-dutch-reel-2",
+          "type": "scenario-reel",
+          "setting": "the supermarket",
+          "hook": "The phrase the course taught you vs. the one the cashier needs",
+          "angle": "Split moment: the learner's memorized line lands awkwardly, then Joost (the cashier) shows the natural version. Close on 'real Dutch is the Dutch you can use tomorrow.'",
+          "source": "anna 'I can only say: I have a green apple'; molly grocery",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "real-dutch-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "the doctor",
+          "hook": "6 real sentences for the doctor (not 'the apple is red')",
+          "angle": "Describe a symptom, ask for an appointment, and understand the reply, the practical lines a textbook skips",
+          "source": "monika doctor; production gap; everyday usefulness",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "real-dutch-quiz-2",
+          "type": "quiz",
+          "setting": "a phone call",
+          "hook": "You call to cancel an appointment. What do you say first?",
+          "angle": "Correct-answer etiquette quiz: the right polite opener on the phone (register 'u'); distractors are over-literal English-to-Dutch translations. Reveal teaches the natural phrasing.",
+          "source": "monika phone call; register; lexicon",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "real-dutch-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "Why 'my elephant is green' never stuck (and what does)",
+          "angle": "Carousel. Pull ONE idea from the article: recognition vs production, you remember words you use, not words you only see. Transform, do not paste.",
+          "source": "outputs/articles/what-is-production-based-language-learning_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "smile-and-nod",
+      "theme": "Sitting at a Dutch table while the conversation runs too fast, smiling and nodding because you cannot join in",
+      "settings": ["the in-laws' dinner table", "a kid's birthday party", "the Dutch birthday circle", "a garden BBQ", "coffee with a neighbor", "the school gate"],
+      "persona": "Belonging and Family-motivated learner, partner-visa family scrutiny (personas Pattern A 'I just sit there smiling'; Nina belonging; Molly exclusion)",
+      "priority": "high",
+      "priority_reason": "Belonging and family is the most emotionally resonant and shareable pain; the family gathering is a documented buying trigger; 'just smile and nod' is instantly relatable and high-send.",
+      "posts": [
+        {
+          "post_id": "smile-and-nod-reel-1",
+          "type": "scenario-reel",
+          "setting": "the in-laws' dinner table",
+          "hook": "When the table talk gets too fast, say this one line",
+          "angle": "The learner is lost at the in-laws' dinner; one warm line asks them to slow down and include them, and Joost (the father-in-law) happily does. Close on connection, not shame.",
+          "source": "personas Pattern A 'I just sit there smiling'; nina family motivation",
+          "on_theme": true,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/scenario-reel_table-talk-too-fast.md"
+        },
+        {
+          "post_id": "smile-and-nod-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "a kid's birthday party",
+          "hook": "5 lines to join the small talk at a Dutch party",
+          "angle": "Phrases to enter a conversation, ask a question back, and exit politely, so you are not stuck by the snack table",
+          "source": "molly failed to make Dutch friends; belonging",
+          "on_theme": true,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/cheatsheet_join-the-small-talk.md"
+        },
+        {
+          "post_id": "smile-and-nod-quiz-1",
+          "type": "quiz",
+          "setting": "the Dutch birthday circle",
+          "hook": "You walk into the kringverjaardag. What do you say first?",
+          "angle": "Correct-answer culture quiz: the 'gefeliciteerd to everyone' custom; distractors are plausible mistakes (congratulate only the birthday person, stay silent). Reveal teaches the custom warmly.",
+          "source": "KNM and Dutch culture; belonging; integration",
+          "on_theme": true,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/quiz_kringverjaardag.md"
+        },
+        {
+          "post_id": "smile-and-nod-reel-2",
+          "type": "scenario-reel",
+          "setting": "a garden BBQ",
+          "hook": "Everyone is laughing in Dutch. Here is how to get in on it.",
+          "angle": "At a BBQ the learner stands on the edge; Joost (a friend) pulls them in, and one line asks 'what is so funny' to join the group. Warmth and humor; close on belonging.",
+          "source": "nina 'feel at home'; molly exclusion in volunteering groups",
+          "on_theme": true,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/scenario-reel_get-in-on-the-joke.md"
+        },
+        {
+          "post_id": "smile-and-nod-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "coffee with a neighbor",
+          "hook": "6 lines for coffee with your Dutch neighbor",
+          "angle": "Small-talk openers and follow-up questions so the coffee is not all in English",
+          "source": "monika 'meet people who are not expats'; belonging",
+          "on_theme": true,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/cheatsheet_coffee-with-your-neighbor.md"
+        },
+        {
+          "post_id": "smile-and-nod-quiz-2",
+          "type": "quiz",
+          "setting": "the school gate",
+          "hook": "Another parent starts chatting at the gate. Which opener is you?",
+          "angle": "Reflex quiz, no forced correct answer: three openers, ask which one is you and what usually happens next, to pull sentence-length comments.",
+          "source": "Facebook working parent; molly making Dutch friends",
+          "on_theme": true,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/quiz_school-gate-opener.md"
+        },
+        {
+          "post_id": "smile-and-nod-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "How to choose a Dutch course that actually gets you talking",
+          "angle": "Carousel, off-theme for a wider discovery net. Pull ONE idea from the comparison article: what to look for in a course if your goal is real conversation. Transform, do not paste.",
+          "source": "outputs/articles/best-inburgering-courses-2026_final.mdx",
+          "on_theme": false,
+          "status": "produced",
+          "produced_file": "outputs/instagram/2026-06-22/article-remix_course-that-gets-you-talking.md"
+        }
+      ]
+    },
+    {
+      "pack_id": "no-time-15-min",
+      "theme": "Trying to find 15 minutes for Dutch when a full-time job and kids have taken everything",
+      "settings": ["the kitchen at 5am", "lunch break at the desk", "the commute", "the playground", "the sofa with Netflix", "the gym"],
+      "persona": "Schedule-constrained working parent or professional (Facebook mom post and exam opt-outs, Alysa)",
+      "priority": "medium",
+      "priority_reason": "Schedule constraint is the single most dominant barrier in the community data, so it is highly relatable and save and send worthy. Lower differentiator fit and buyer intent keep it at medium.",
+      "posts": [
+        {
+          "post_id": "no-time-reel-1",
+          "type": "scenario-reel",
+          "setting": "the kitchen at 5am",
+          "hook": "The only 15 minutes you have is at 5am. Use it like this.",
+          "angle": "Two early risers (learner and Joost, both up before the house) swap one real Dutch line over morning coffee. Shows a 15-minute habit can be a single real exchange. Calm, no guilt.",
+          "source": "Facebook '5am study before the kids wake'; micro-habits",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "no-time-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "lunch break at the desk",
+          "hook": "A 15-minute Dutch lunch break that actually sticks",
+          "angle": "Six tiny repeatable actions (learn one phrase, say it aloud, use it once today) you can do at your desk without it feeling like homework",
+          "source": "Facebook 'lunch break Dutch lesson'; 'micro steps daily'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "no-time-quiz-1",
+          "type": "quiz",
+          "setting": "the commute",
+          "hook": "Your commute is free time. Which one are you?",
+          "angle": "Reflex quiz, no forced correct answer: which micro-habit fits your commute (podcast, flashcards, saying it aloud). Ask which is you and why, to pull sentence comments.",
+          "source": "Facebook 'radio and podcasts during workouts'; micro-habits",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "no-time-reel-2",
+          "type": "scenario-reel",
+          "setting": "the playground",
+          "hook": "Learning Dutch with your kid at the playground",
+          "angle": "The learner and Joost (another parent) narrate the playground in simple Dutch to their kids. Shows practice woven into family time, not stolen from it. Warm; close on 'practice can be the day you already have.'",
+          "source": "Facebook 'practicing with my toddler'; schedule constraints",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "no-time-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "the sofa with Netflix",
+          "hook": "Turn one episode into a Dutch lesson (6 steps)",
+          "angle": "How to use Dutch subtitles plus one rewind and one phrase you keep, so an evening on the sofa still moves you forward",
+          "source": "Facebook 'Netflix with Dutch subtitles'; passive immersion",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "no-time-quiz-2",
+          "type": "quiz",
+          "setting": "the gym",
+          "hook": "Headphones in at the gym. Which of these actually builds speaking?",
+          "angle": "Correct-answer myth-buster quiz: three habits, one builds speaking (active use), distractors are passive-only. Reveal teaches why output beats input, then ask what you do.",
+          "source": "Facebook 'Taal Tempo shapes my reflex to speak'; production over recognition",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "no-time-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "Self-paced Dutch: who it is really for (and who should skip it)",
+          "angle": "Carousel, honest tone. Pull ONE idea from the article: self-paced needs self-motivation, and if you need a fixed class that is okay. Transform, do not paste.",
+          "source": "outputs/articles/who-is-dutchwithjoost-not-for_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "speaking-exam-freeze",
+      "theme": "Freezing on the A2 speaking exam (spreken) and getting the dreaded 5, even when you understood everything",
+      "settings": ["the exam room", "a mock practice at the kitchen table", "practicing out loud on a walk", "the waiting room before the exam", "a video-call practice with a buddy", "the registration screen"],
+      "persona": "A2 inburgering candidate stuck on spreken (Facebook repeat 5s and accent-exemption seeker, Nina)",
+      "priority": "high",
+      "priority_reason": "Highest buyer-intent keywords in the data (how to pass the A2 speaking exam, why I keep getting a 5). Exam candidates are the warmest buyers and the SEO is strong. Needs care to stay warm and to vary settings around one exam moment.",
+      "posts": [
+        {
+          "post_id": "speaking-exam-reel-1",
+          "type": "scenario-reel",
+          "setting": "the exam room",
+          "hook": "The examiner asks. You freeze. Try this reset.",
+          "angle": "A mock of the spreken moment: the examiner (Joost) asks a question, the candidate blanks, then uses one short structuring line to start answering in simple sentences. Close on 'short and correct beats long and wrong.'",
+          "source": "Facebook '5 three times in a row'; 'short sentences to avoid mistakes'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "speaking-exam-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "a mock practice at the kitchen table",
+          "hook": "5 sentence-starters that save your speaking exam",
+          "angle": "Short, safe frames (Ik denk dat..., Bijvoorbeeld..., Omdat...) that keep you talking under pressure instead of freezing",
+          "source": "Facebook 'short sentences to avoid mistakes'; spreken tactic",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "speaking-exam-quiz-1",
+          "type": "quiz",
+          "setting": "practicing out loud on a walk",
+          "hook": "Which answer would pass the spreken exam?",
+          "angle": "Correct-answer quiz: three answers to an examiner prompt, one is short and correct, distractors are long and error-prone or off-topic. Pick and say why, to pull sentence comments.",
+          "source": "Facebook 'it is mostly grammar, short sentences to avoid mistakes'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "speaking-exam-reel-2",
+          "type": "scenario-reel",
+          "setting": "the waiting room before the exam",
+          "hook": "Nervous before spreken? Do this in the waiting room.",
+          "angle": "Two candidates (learner and Joost) wait; Joost shares one calming pre-exam habit and one warm-up line. Reframes nerves as normal, not failure. Warmth, not shame.",
+          "source": "Facebook exam anxiety, 10-week wait, the retake loop",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "speaking-exam-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "a video-call practice with a buddy",
+          "hook": "6 phrases to practice speaking before someone tests you",
+          "angle": "Buddy-practice prompts and the lines to rehearse, so the exam is not the first time you ever speak Dutch out loud",
+          "source": "Facebook taalmaatje and practice partner; 'first time speaking is the test'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "speaking-exam-quiz-2",
+          "type": "quiz",
+          "setting": "the registration screen",
+          "hook": "You just got a 5 again. What is the real reason?",
+          "angle": "Diagnostic reflex quiz, no single forced correct answer: which is most likely your issue (froze up, sentences too long, pronunciation). Ask which is you and what you will change next time.",
+          "source": "Facebook '6 times failed with 5', no diagnostic feedback",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "speaking-exam-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "Why you keep failing spreken (and what graders actually want)",
+          "angle": "Carousel. Pull ONE idea from the article: you cannot pass a production test with recognition-only practice. Transform, do not paste.",
+          "source": "outputs/articles/inburgering-course-that-teaches-speaking_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "dutch-partner-cant-teach",
+      "theme": "The moment you realize your Dutch partner can't actually teach you Dutch",
+      "settings": ["cooking dinner together", "the couch (a grammar question)", "a restaurant table", "a phone call the partner makes for you", "texting in Dutch", "watching Dutch TV together"],
+      "persona": "Family and Belonging learner with a Dutch partner, Access-to-practice barrier (Nina, personas Pattern A, the Dutch Partner Problem)",
+      "priority": "high",
+      "priority_reason": "The Dutch Partner Problem is documented verbatim and not yet in the backlog; 'tag your Dutch partner' has very high send and tag potential; strong differentiator fit (level-matched practice a native cannot give).",
+      "posts": [
+        {
+          "post_id": "dutch-partner-reel-1",
+          "type": "scenario-reel",
+          "setting": "cooking dinner together",
+          "hook": "Your Dutch partner is not your Dutch teacher",
+          "angle": "Cooking together, the learner asks how to say something; Joost (the partner) rattles it off too fast, catches himself, and slows to one simple line they can repeat. Warmth, not blame; close on 'love is not a lesson plan, but one slow line a day helps.'",
+          "source": "nina 'your level is native and mine is total beginner... impossible to learn'; the Dutch Partner Problem",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-partner-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "the couch (a grammar question)",
+          "hook": "5 questions to ask your partner instead of 'why is it het or de?'",
+          "angle": "Questions a native can actually answer (how do you say X, can you say that slower, which one sounds normal), because 'why' stumps people who learned as children.",
+          "source": "nina 'they just do it, they cannot explain'; anna 'even Dutch people do not know het or de'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-partner-quiz-1",
+          "type": "quiz",
+          "setting": "a restaurant table",
+          "hook": "Your partner always orders for you. Tonight you try. What do you say?",
+          "angle": "Correct-answer quiz: three ways to order, one natural, distractors over-literal or wrong register. Pick and say why; reveal teaches the natural line.",
+          "source": "Dutch partner ordering; molly 'do not have to switch to English'; lexicon",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-partner-reel-2",
+          "type": "scenario-reel",
+          "setting": "a phone call the partner makes for you",
+          "hook": "Stop handing your partner the phone. Try this line first.",
+          "angle": "The learner always asks the partner to make the Dutch call; this time Joost (the partner) coaches one opener and waits while they try. Close on 'they want to help, but the win is yours.'",
+          "source": "monika doctor phone call; nina partner translates; Access-to-practice barrier",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-partner-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "texting in Dutch",
+          "hook": "6 texts to send your partner in Dutch today",
+          "angle": "Tiny everyday texts (what time are you home, can you grab bread, I miss you) that turn the relationship into a low-stakes daily practice channel.",
+          "source": "molly accountability buddy; nina partner support; daily integration",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-partner-quiz-2",
+          "type": "quiz",
+          "setting": "watching Dutch TV together",
+          "hook": "Subtitles on or off when you watch Dutch TV together?",
+          "angle": "Reflex quiz, no forced correct answer: which one is you (Dutch subs, English subs, ask your partner to pause and translate). Ask which is you and whether it actually helps, to pull sentence comments.",
+          "source": "Facebook 'Netflix with Dutch subtitles'; partner translates the TV",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-partner-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "Why living with a native speaker did not make you fluent",
+          "angle": "Carousel. Pull ONE idea: a native partner is not a level-matched teacher; you need structured production practice. Transform, do not paste.",
+          "source": "outputs/articles/why-cant-speak-dutch-after-studying_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "life-without-dutch",
+      "theme": "The things you quietly gave up because they only happen in Dutch",
+      "settings": ["a yoga class", "a sports club sign-up", "the huisarts or therapy", "a cabaret or comedy show", "your kid's swimming lesson", "a museum or theater tour"],
+      "persona": "Integration and Belonging learner, often a long-term resident (Nina 'my narrow world became my new world', Monika, personas Pattern D)",
+      "priority": "high",
+      "priority_reason": "Deeply resonant integration pain documented verbatim; reframes Dutch as access to a fuller life, not just an exam; very save and send worthy; fills the under-served long-term-resident and Integration persona.",
+      "posts": [
+        {
+          "post_id": "life-without-dutch-reel-1",
+          "type": "scenario-reel",
+          "setting": "a yoga class",
+          "hook": "You skip the Dutch yoga class. Here is the one line that lets you stay.",
+          "angle": "The learner almost leaves a Dutch-only yoga class; Joost (the teacher) offers one welcoming line and the learner uses a short line to stay and follow along. Close on 'you do not need perfect Dutch to belong in the room.'",
+          "source": "nina 'miss 90% of sports class instructions'; integration; access blocked",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "life-without-dutch-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "a sports club sign-up",
+          "hook": "5 lines to join a Dutch club (sport, choir, anything)",
+          "angle": "The exact phrases to sign up, ask about times and cost, and say you are still learning, so a Dutch-only hobby stops being off-limits.",
+          "source": "nina activities blocked; molly volunteering exclusion; belonging",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "life-without-dutch-quiz-1",
+          "type": "quiz",
+          "setting": "the huisarts or therapy",
+          "hook": "You finally book therapy in Dutch. What do you say first?",
+          "angle": "Correct-answer quiz: three openers for a first Dutch appointment, one natural and clear, distractors over-formal or unclear. Pick and say why; reveal teaches the natural opener.",
+          "source": "nina 'no group therapy in English'; healthcare access; integration",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "life-without-dutch-reel-2",
+          "type": "scenario-reel",
+          "setting": "a cabaret or comedy show",
+          "hook": "Everyone is laughing at the Dutch joke. Here is how you get in on it.",
+          "angle": "At a cabaret night the learner feels left out; Joost (a friend) leans over with one short explanation, and the learner asks 'wat zei hij?' to join. Warmth; close on belonging, not shame.",
+          "source": "nina 'theater, comedy, mostly Dutch-only'; belonging",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "life-without-dutch-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "your kid's swimming lesson",
+          "hook": "6 lines for the sideline at your kid's Dutch activity",
+          "angle": "Small talk with other parents and the coach on the sideline, so you are part of your kid's world, not watching it from outside.",
+          "source": "Facebook working parent; molly making Dutch friends; family",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "life-without-dutch-quiz-2",
+          "type": "quiz",
+          "setting": "a museum or theater tour",
+          "hook": "Dutch-only tour starts in 5 minutes. Which one are you?",
+          "angle": "Reflex quiz, no forced correct answer: which one is you (skip it, join and nod along, ask for the gist in Dutch). Ask which is you and what you usually do, to pull sentence comments.",
+          "source": "nina culture access; integration; avoidance pattern",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "life-without-dutch-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "How to pick a Dutch course if you want a life here, not just a diploma",
+          "angle": "Carousel, off-theme for a wider reach net. Pull ONE idea from the comparison article: what to look for if your goal is real daily life, not exam cramming. Transform, do not paste.",
+          "source": "outputs/articles/best-inburgering-courses-2026_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "dutch-at-work",
+      "theme": "The Dutch you miss at work: the lunch table, the standup, the corridor joke",
+      "settings": ["the team lunch table", "the Monday standup", "the elevator", "the Friday borrel", "a Teams thread in Dutch", "the corridor (a joke goes past)"],
+      "persona": "Career and Security learner, work-visa professional in an English-medium job (Anna silent exclusion, Nina career, personas Pattern B)",
+      "priority": "high",
+      "priority_reason": "Career is the most under-served persona in the backlog and carries strong buyer intent (jobs require Dutch, exclusion at work); highly relatable for the professional expat segment; clear differentiator (practical spoken Dutch for real workplace moments).",
+      "posts": [
+        {
+          "post_id": "dutch-at-work-reel-1",
+          "type": "scenario-reel",
+          "setting": "the team lunch table",
+          "hook": "The team switches to Dutch at lunch. Here is how you stay at the table.",
+          "angle": "Colleagues drift into Dutch at lunch; the learner uses one short line to follow and add a sentence; Joost (a colleague) happily includes them. Close on 'most colleagues are glad you joined in.'",
+          "source": "anna silent exclusion on an all-Dutch team; nina 'miss team bonding'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-at-work-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "the Monday standup",
+          "hook": "5 lines to give your update in Dutch at standup",
+          "angle": "Short, safe frames to share a status in Dutch (what I did, what is next, where I am stuck), so you can contribute without a speech.",
+          "source": "anna good at grammar but cannot speak; production gap; career",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-at-work-quiz-1",
+          "type": "quiz",
+          "setting": "the elevator",
+          "hook": "A colleague makes small talk in the lift. Which reply keeps it going?",
+          "angle": "Correct-answer quiz: three replies to workplace small talk, one natural, distractors too stiff or a conversation-killer. Pick and say why; reveal teaches the natural reply.",
+          "source": "anna workplace; lexicon small talk; belonging at work",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-at-work-reel-2",
+          "type": "scenario-reel",
+          "setting": "the Friday borrel",
+          "hook": "Friday borrel and everyone is chatting in Dutch. Try this opener.",
+          "angle": "At after-work drinks the learner hovers at the edge; Joost (a colleague) pulls them in and one opener starts a real chat. Warmth; close on connection, not performance.",
+          "source": "anna social exclusion; nina 'miss inside jokes and informal influence'",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-at-work-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "a Teams thread in Dutch",
+          "hook": "6 Dutch phrases for your work chat (so you can reply, not lurk)",
+          "angle": "Quick written replies for a Dutch Teams or Slack thread (agree, ask a question, say you will pick it up), the low-stakes way to start using Dutch at work.",
+          "source": "anna English-medium workplace; Facebook English-medium jobs; written first",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-at-work-quiz-2",
+          "type": "quiz",
+          "setting": "the corridor (a joke goes past)",
+          "hook": "Everyone laughs at something in Dutch in the hallway. Your move?",
+          "angle": "Reflex quiz, no forced correct answer: which one is you (smile and walk on, ask what is funny, pretend you got it). Ask which is you and what usually happens, to pull sentence comments.",
+          "source": "anna 'miss inside jokes'; shame cycle at work",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-at-work-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "You studied Dutch for months. Why can't you join the standup?",
+          "angle": "Carousel. Pull ONE idea: recognition versus production; you can follow the meeting but cannot produce on the spot, and that is a practice gap. Transform, do not paste.",
+          "source": "outputs/articles/what-is-production-based-language-learning_final.mdx",
+          "on_theme": false,
+          "status": "idea"
+        }
+      ]
+    },
+    {
+      "pack_id": "dutch-is-impossible",
+      "theme": "The moments Dutch breaks your brain (de or het, that g, the backwards word order)",
+      "settings": ["the cheese counter (the g)", "the supermarket shelf (de or het)", "ordering a drink (diminutives)", "a text message (word order)", "a station board (compound words)", "making weekend plans (separable verbs)"],
+      "persona": "Prior-course-skeptic and Production-gap learner venting that Dutch feels illogical (Anna 'het or de', Monika 'NOT logical', 'inversions')",
+      "priority": "medium",
+      "priority_reason": "Funny, hugely relatable and shareable, and excellent quiz fuel; lands the 'you are not bad at languages, it is the method' reframe. Lower direct buyer intent and settings that are language features more than places keep it at medium.",
+      "posts": [
+        {
+          "post_id": "dutch-is-impossible-reel-1",
+          "type": "scenario-reel",
+          "setting": "the cheese counter (the g)",
+          "hook": "Scared of the Dutch g? Watch this at the cheese counter.",
+          "angle": "The learner dreads the throat-g ordering 'Gouda'; Joost (the cheesemonger) shows a gentle way to make the sound and cheers the attempt. Humor, never shame; close on 'nobody minds a soft g.'",
+          "source": "monika 'Dutch is my nightmare to pronounce'; pronunciation block",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-is-impossible-cheatsheet-1",
+          "type": "cheatsheet",
+          "setting": "the supermarket shelf (de or het)",
+          "hook": "Stop guessing de or het: 5 rules that actually help",
+          "angle": "A few reliable de/het patterns (diminutives are het, plurals are de, and so on) with everyday examples, so it is less of a coin flip.",
+          "source": "anna 'even Dutch people do not know het or de'; de/het pain",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-is-impossible-quiz-1",
+          "type": "quiz",
+          "setting": "ordering a drink (diminutives)",
+          "hook": "Een bier or een biertje? Which would a Dutch person say?",
+          "angle": "Correct-answer vocabulary quiz: the diminutive 'biertje' is the natural choice; distractors explain why. Pick and say why; reveal teaches the -tje habit warmly.",
+          "source": "monika everyday usefulness; diminutives; lexicon",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-is-impossible-reel-2",
+          "type": "scenario-reel",
+          "setting": "a text message (word order)",
+          "hook": "Why does Dutch put the verb at the end? Here is the trick.",
+          "angle": "The learner scrambles a sentence; Joost (a friend) shows the one word-order rule (verb second, send the rest to the end) with a real example. Close on 'it is a pattern, not chaos.'",
+          "source": "monika 'inversions'; anna grammar; word order",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-is-impossible-cheatsheet-2",
+          "type": "cheatsheet",
+          "setting": "a station board (compound words)",
+          "hook": "6 scary-long Dutch words, broken into pieces you already know",
+          "angle": "Long compound words (snelheidsbeperking, treinvertraging) split into small known parts, so signs and boards stop looking impossible.",
+          "source": "monika 'NOT logical'; compound words; reading",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-is-impossible-quiz-2",
+          "type": "quiz",
+          "setting": "making weekend plans (separable verbs)",
+          "hook": "Which of these would trip you up the most?",
+          "angle": "Reflex quiz, no forced correct answer: de/het, the g, word order, separable verbs. Ask which one breaks your brain and your funniest mistake, to pull sentence comments.",
+          "source": "anna and monika 'this language is NOT logical'; shared frustration",
+          "on_theme": true,
+          "status": "idea"
+        },
+        {
+          "post_id": "dutch-is-impossible-remix",
+          "type": "article-remix",
+          "setting": "n/a (flex)",
+          "hook": "You are not bad at languages. You have been practicing the wrong thing.",
+          "angle": "Carousel. Pull ONE idea: it is not that Dutch is impossible or that you are untalented; recognition is not production. Transform, do not paste.",
+          "source": "outputs/articles/why-cant-speak-dutch-after-studying_final.mdx",
+          "on_theme": false,
+          "status": "idea"
         }
       ]
     }

@@ -1,0 +1,14 @@
+{
+  "theme": "Op het feestje",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/join-the-small-talk/cover.png",
+  "cover": {"kicker": "AT A DUTCH PARTY", "title": "Join the small talk (5 lines)", "sub": "Open it, keep it going, and leave without the awkward exit."},
+  "phrases": [
+    {"nl": "Hoi! Wat een leuk feest, hè?", "en": "Hi! What a nice party, right?", "when": "Break the ice with whoever is standing next to you."},
+    {"nl": "Hoe ken jij de jarige?", "en": "How do you know the birthday person?", "when": "The easiest question to ask anyone at a Dutch birthday."},
+    {"nl": "Woon jij hier in de buurt?", "en": "Do you live nearby?", "when": "Simple small talk that keeps the chat going."},
+    {"nl": "Wat leuk! En wat doe jij?", "en": "Nice! And what do you do?", "when": "Show interest, then turn the question back to them."},
+    {"nl": "Leuk je te spreken! Tot straks.", "en": "Nice talking to you! See you later.", "when": "A warm way to leave a chat without the awkward shuffle."}
+  ],
+  "cta": {"title": "Save this before the next party.", "sub": "Send it to whoever always ends up by the snack table."}
+}
