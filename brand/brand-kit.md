@@ -119,7 +119,11 @@ Setting and background:
 Cozy, calm, and lived-in. Include simple environmental details that support the
 scene (furniture, plants, books, coffee cups, warm window light, shelves,
 textiles, small everyday objects). Detailed enough to feel atmospheric, not so
-busy that it distracts from the main moment.
+busy that it distracts from the main moment. The setting is the Netherlands: when
+the scene is outdoors, the architecture and nature are Dutch (brick terraced or
+canal houses with large windows and gabled facades, bicycles, tiled pavements, a
+flat landscape, a soft grey-blue Dutch sky), never Mediterranean or southern
+European (no terracotta roofs, whitewashed stone, stucco walls, or palm trees).
 
 Mood:
 Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
@@ -144,13 +148,30 @@ inconsistent character design.
 
 ---
 
+## Setting and locale (the Netherlands)
+
+Every scene is set in the Netherlands. The `/instagram-content` skill bakes this into the scene description it writes for each image, and the Style Block above reinforces it. The default failure mode is a generic sunny "southern European" look, so steer toward Dutch specifics:
+
+- **Outdoors (most important):** Dutch architecture and streetscape, not Mediterranean. Brick terraced houses or canal houses with tall large windows and stepped or bell gables, bicycles and bike racks, tiled pavements, a Dutch café terras with simple chairs, a flat landscape, a soft grey-blue sky. Avoid terracotta roofs, whitewashed stone, warm stucco, cobbled hill-town lanes, and palm trees.
+- **Indoors:** Dutch domestic cues are a plus (a tall window, a houseplant on the sill, plain Dutch furniture), but interiors are less locale-sensitive than streets.
+- When a runbook names a setting (the bakery, a terras, the gemeente, the huisarts), picture the Dutch version of it. Write the Dutch cues straight into the scene description line of the image prompt, not just the Style Block.
+
 ## Reference logic (how the three attachments are used)
 
 When a runbook tells you to attach the references, ChatGPT uses them with different rules:
 
 - **Style references** (`style-ref-1`, `style-ref-2`): match the feeling, softness, line quality, and color warmth. Do not copy their characters, composition, or objects.
 - **Joost reference** (`joost-reference`): reproduce Joost exactly. Same face, hair, stubble, build, clothing.
-- **Second character**: not in any reference. Invent to fit the scene, keep identical across that one reel's images.
+- **Second character**: by default invented to fit the scene and kept identical within one post. For a post with **several images** (a comic, a multi-panel scene), words alone are not enough to keep them identical: give the character its own reference sheet and anchor the scene (see the next section).
+
+## Keeping a character and the background consistent across a multi-image post
+
+Text prompts drift. A post with several images (a comic strip, a multi-panel scene) re-invents the background and the second character on every generation. Joost stays put because his reference sheet is attached; an invented character and the setting have no anchor. Use both fixes together:
+
+1. **Give the recurring character its own reference sheet**, exactly like Joost's (the one-time setup below works for any character: define the new person first, concretely and distinct from Joost, then run it). Save it as `brand/<name>-reference.png` and attach it to every image the character appears in.
+2. **Anchor the location with one approved image.** Generate ONE establishing image (the setting with both characters) and approve it. For every other image in the post, ATTACH that approved image and prompt: "keep the exact same setting and the same characters, change only the pose and expression to X." An approved image locks the background and the characters far more reliably than re-describing them in words.
+
+The anchor image is the single most powerful move: one approved scene, then each later panel is a pose variation of it. The reference sheet is the belt-and-suspenders for faces, and lets the character recur in future posts.
 
 ---
 

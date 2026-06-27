@@ -156,7 +156,7 @@ You mostly live in two places: **reading runbooks** in `outputs/instagram/<week>
 1. **Two skills, one line:** words → `/instagram-content`, pixels → `/instagram-render`.
 2. **You are the gate.** Nothing renders until you set `Status: approved`. The skills will not approve on your behalf.
 3. **You generate the raw assets.** The runbook gives you the exact prompts and filenames; you run ElevenLabs / ChatGPT / Seedance and drop the files in `remotion/public/<week>/<slug>/`.
-4. **Remotion is the only editor.** Every final image and video is rendered from the spec. No CapCut, no Canva. Crisp Dutch text is always rendered, never baked into an AI image.
+4. **Remotion is the only editor.** Every final image and video is rendered from the spec. No CapCut, no Canva. Crisp Dutch text is always rendered, never baked into an AI image. This holds even for the comic-strip format (`ComicStory`): you generate each panel as a **full scene with no speech bubble and no text in it**, and Remotion draws the comic speech bubble, its tail, and the Dutch line on top at render time, so the words stay crisp and editable and you can nudge a bubble onto the right mouth in `studio`.
 5. **The Dutch is the product.** Every post runs through the **Dutch language check** (grammar + A1/A2 level) and shows a per-line verdict table, but you still review it before approving: A1 by default, grammatically correct, and something a learner would actually say tomorrow. The standard lives in `brand/dutch-grammar.md` and `brand/dutch-level-guide.md`.
 ```
 

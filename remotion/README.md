@@ -36,7 +36,7 @@ Use this list when writing a runbook — it is the menu of edits available.
 - A branded outro card (blue, the DWJ logo mark in gold, the one line to remember, save/send CTA).
 - Export 9:16 1080×1920 H.264 with the voice track muxed in.
 
-**Carousels (`Cheatsheet`, `Quiz`, `ConceptGuide`, `VocabScene` → PNG slides):**
+**Carousels (`Cheatsheet`, `Quiz`, `ConceptGuide`, `VocabScene`, `ComicStory` → PNG slides):**
 - Composite a watercolor cover image with a branded headline, kicker, and gradient scrim. **Each type uses a distinct cover treatment** so the tiles differ on the feed grid even on a shared base image: the cheatsheet cover is the bright "guide" tile (image band over a solid cream panel that holds the headline); the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker + faint "?" watermark). The reel's first frame is the photo-forward tile. See the playbook's *Feed-grid differentiation* rule.
 - Render crisp, correctly-spelled Dutch text every time (the thing AI image-gen garbles).
 - Phrase cards: NL hero line, EN translation, a "WHEN" context panel, a faint number watermark, progress dots, the `NN / NN` counter.
@@ -46,6 +46,7 @@ Use this list when writing a runbook — it is the menu of edits available.
 - The DWJ logo mark in the wordmark pill on every slide (cover, phrase cards, CTA, quiz slides).
 - **`ConceptGuide`** (particles, mistakes, small words, idioms): a cover with a gold variant marker (LITTLE WORD / COMMON MISTAKE / DUTCH IDIOM / SOUND MORE DUTCH), an optional "what is it" intro slide, then one teaching card per concept (a hero term, an optional literal/gloss line, a meaning, one or two NL/EN example pairs, and a gold-underline "when to use it" note), then the CTA. One flexible composition, four post types, chosen by `variant`.
 - **`VocabScene`** (labeled vocabulary scenes): a full-bleed, label-free illustration with crisp NL/EN label chips and arrows composited on top from authored `x/y` positions, an optional recap list slide, then the CTA. The Dutch is rendered here, never baked into the image.
+- **`ComicStory`** (a funny story that lands one lesson): a true comic strip where **each story beat is its own full-bleed illustration** (a panel), with the spoken Dutch rendered crisply in a real comic-book **speech bubble** drawn on top (a white outlined balloon with a tail pointing at the speaker, holding the NL line + EN gloss), plus a comic caption box for the narration, never baked into the image. After the panels come one or more text **lesson** slides (a headline + right/wrong lines with red ✗ / green ✓ chips + a "remember this" note), then the CTA. This is the multi-panel format the other carousels are not: `Cheatsheet`/`ConceptGuide` illustrate only the cover.
 
 **Everything is data-driven and deterministic:** the same props always render the same
 asset. Re-rendering never requires re-doing manual edits.
@@ -72,6 +73,27 @@ Props files live in `props/<week>/{slug}.json` (grouped by week-start date). Ass
 ```
 Line flags: `english` = spoken in English, shown without a translation. `recovery` = the
 teaching line, emphasized in gold. `switchTag` = show the floating tag during this line.
+
+### `IdiomReel` (reel → MP4; the funny idiom format)
+```jsonc
+{
+  "clip": "<week>/{slug}/clip.mp4",                 // the conversation clip — ONE clip, looped
+  "literalImage": "<week>/{slug}/literal.png",      // full-frame "what I pictured" still (the gag)
+  "literalLabel": "WHAT I PICTURED",
+  "literalCaption": "a real monkey... out of his sleeve?!",
+  "hook": {"l1": "...", "l2": "...", "emphasis": "..."},  // 3-second opener; emphasis is gold
+  "lines": [
+    {"file": "<week>/{slug}/joost-1.mp3", "speaker": "Joost", "nl": "...", "en": "..."},
+    {"file": "<week>/{slug}/maya-2.mp3", "speaker": "Maya", "imagine": true, "nl": "...", "en": "..."},
+    {"file": "<week>/{slug}/joost-4.mp3", "speaker": "Joost", "recovery": true, "nl": "...", "en": "..."}
+  ],
+  "outro": {"kicker": "WHAT IT REALLY MEANS", "nl": "<the idiom>", "literal": "lit. \"...\"", "en": "<the meaning>", "cta": "...", "handle": "@dutchwithjoost"}
+}
+```
+Same subtitle-led, single-looped-clip backbone as `ScenarioReel`, plus the cutaway. Line flags: `imagine` =
+during this line, cut away full-frame to `literalImage` (framed as a daydream with the `literalLabel` badge +
+`literalCaption`); `recovery` = the reveal/meaning line, emphasized in gold ("WHAT IT MEANS"); `english` =
+spoken in English, no translation. One idiom per reel. Drop a 9:16 conversation `clip.mp4` and a 9:16 `literal.png`.
 
 ### `Cheatsheet` (carousel → PNG per slide)
 ```jsonc
@@ -142,6 +164,42 @@ its arrow targets (omit `point` for a chip with no arrow). Author the positions 
 generated image (Studio is the fastest way). Slides = poster + recap (if `true`) + CTA. 8–12 labels is the
 sweet spot; keep them clear of the top title band.
 
+### `ComicStory` (carousel → PNG per slide; a funny story + one lesson)
+```jsonc
+{
+  "theme": "Ik heb het warm",                 // small kicker (unused on most slides; reserved)
+  "handle": "@dutchwithjoost",
+  "cover": {
+    "image": "<week>/{slug}/cover.png",        // 4:5, figures in the upper half (cover crops the top band)
+    "marker": "COMMON MISTAKE",                // gold cover pill
+    "kicker": "A SUMMER STORY", "title": "...", "sub": "..."
+  },
+  "panels": [                                  // ONE full-bleed illustration per story beat
+    {
+      "image": "<week>/{slug}/panel-1.png", "speaker": "Tom",   // speaker is optional, not drawn (the tail shows who talks)
+      "nl": "...", "en": "...", "caption": "narrator line",
+      "bubble": {"x": 0.62, "y": 0.30, "w": 0.5, "tail": {"x": 0.34, "y": 0.40}}  // bubble centre + tail target, 0-1 fractions
+    }
+  ],
+  "lessons": [                                 // text slides after the panels (no image)
+    {"kicker": "The fix", "title": "...", "lines": [
+      {"nl": "Ik ben heet.", "en": "I'm hot (as in sexy).", "kind": "wrong"},   // red ✗
+      {"nl": "Ik heb het warm.", "en": "I feel hot.", "kind": "right"}          // green ✓
+    ], "note": "remember-this subhead"}
+  ],
+  "cta": {"title": "...", "sub": "..."}
+}
+```
+Slides = cover + one per panel + one per lesson + CTA. Each `panels[]` entry is its own full-bleed 4:5 drawing;
+Remotion draws the comic **speech bubble** on top at `bubble.x/y` (its centre) with a short tail pointing toward
+`bubble.tail.x/y`, all 0-1 fractions, plus a caption box at the bottom. The tail is **auto-capped to a short stub**
+(it can never run down onto a face) and the bubble is **auto-clamped** to stay clear of the top wordmark/counter
+and the side margins. So `bubble.tail` only needs to point at the speaker's SIDE (Tom-left vs Joost-right), not the
+exact mouth, and `bubble.x/y` can be approximate. Generate the art with the characters in the lower two-thirds and
+a calm, empty top third (the bubble lane), and **no bubbles or text drawn in**; tweak `bubble` coords in Studio if
+you want. `lessons[].lines[].kind` is `wrong` (red ✗, NL in red), `right` (green ✓),
+or `plain` (gold dot). 3 to 5 panels and 1 to 2 lessons is the sweet spot.
+
 ### article-remix
 Not its own composition. Pick `Cheatsheet` (carousel) or `ScenarioReel` (reel) and fill
 its props with article-derived content.
@@ -158,7 +216,9 @@ Generate each dropped image at the **same aspect as the composition that renders
 | `Quiz` | 1080×1350 (4:5) | `scenario.png` at **4:5**, full-bleed |
 | `ConceptGuide` | 1080×1350 (4:5) | `cover.png` at **4:5**, Joost in the upper half (same as the cheatsheet cover) |
 | `VocabScene` | 1080×1350 (4:5) | `scene.png` at **4:5**, full-bleed, **no text in the image** (labels are rendered) |
+| `ComicStory` | 1080×1350 (4:5) | `cover.png` + one `panel-N.png` per beat, each **full-bleed 4:5**, a calm area left for the speech bubble, **no bubbles or text in the image** |
 | `ScenarioReel` | 1080×1920 (9:16) | the scene image and the Seedance clip at **9:16** |
+| `IdiomReel` | 1080×1920 (9:16) | the conversation scene + clip at **9:16**, and the literal-imagination image at **9:16** full-bleed |
 
 Instagram feed carousels are 4:5; reels are 9:16. A 9:16 image dropped into a 4:5 carousel only shows its vertical top band. That is what cut Joost's head on the first cheatsheet cover.
 
@@ -170,12 +230,14 @@ drop assets in `public/<week>/{slug}/` first, then:
 ```bash
 # Reel → MP4 in out/<week>/{slug}/ (its own folder, like a carousel; durations auto-detected, no manual timing)
 npx remotion render src/index.ts ScenarioReel out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json
+npx remotion render src/index.ts IdiomReel    out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json
 
 # Carousel → PNG slides in out/<week>/{slug}/  (element-0.png … element-N.png)
 npx remotion render src/index.ts Cheatsheet   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
 npx remotion render src/index.ts Quiz         out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
 npx remotion render src/index.ts ConceptGuide out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
 npx remotion render src/index.ts VocabScene   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
+npx remotion render src/index.ts ComicStory   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
 
 # Preview / tweak props live before rendering (or: /instagram-render studio <slug>)
 npm run studio
@@ -217,6 +279,12 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   `reel-lastframe.png` (the true final frame, to check it returns to the scene and matches frame 0).
 - **Natural gaps matter.** A 0.35s gap between turns reads as conversation; back-to-back audio
   feels robotic. Tunable via `pacing` in props.
+- **`IdiomReel` is `ScenarioReel` plus a cutaway.** It reuses the looped-clip + subtitle + hook +
+  loop-safe outro backbone, and adds the literal-imagination gag: the line flagged `imagine: true` cuts
+  full-frame to `literalImage`, framed with a gold daydream border, a "WHAT I PICTURED" badge, and a short
+  white flash at each edge, then returns to the conversation. The cutaway is mid-reel, so the loop seam
+  (first frame = last frame = the conversation scene) is unaffected. The whole format lives or dies on a
+  funny, drawable literal image, so brief the gag hard.
 - **Crisp Dutch is the whole point.** Never bake Dutch text into an AI image — render it here,
   where spelling and diacritics (één, alstublieft) are exact.
 - **The cheatsheet cover anchors the image to the top, not the center.** The cover band is the
@@ -243,6 +311,9 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   read as distinct tiles on the feed grid, the way the cheatsheet and quiz covers do. The card body is
   shared and adapts to which fields are present (a long idiom term auto-shrinks so it never overflows).
   Keep each card to one concept; 4–8 cards per post.
+- **`ComicStory` bubble tail is a short stub, and the bubble is clamped off the furniture.** The tail does NOT draw all the way to `bubble.tail` (the mouth): if it did, it ran long and overlapped the character's face. Instead the apex sits a fixed stub-length (~74px) past the bubble edge along the direction of the mouth, so it points at the speaker without reaching them. The bubble's height is estimated from its text (`estBubbleHeight`) and its centre is clamped so the top always clears the wordmark/counter row (`TOP_SAFE`) and the sides stay within the margins, no matter how high or wide `bubble.x/y/w` is set. So `bubble.tail` only needs to indicate *direction* (which side the speaker is on); exact mouth precision is not required. June 2026.
+- **`ComicStory` is the only multi-panel carousel.** Every other carousel illustrates just the cover; ComicStory takes one full-bleed drawing per story beat (`panels[]`) and draws a real comic-book **speech bubble** on top of each, so a story is told "in pictures" while the Dutch stays editable and correctly spelled. The bubble is an opaque white balloon (dark comic outline) at `bubble.x/y`; its tail is a triangle from the bubble centre to `bubble.tail.x/y`, drawn UNDER the balloon so only the part pointing at the speaker shows. That trick needs no text measurement and points in any direction. Generate panels with a calm area for the bubble and **no bubbles/text drawn in**, then nudge the coords in Studio so each tail lands on the right mouth. The closing `lessons[]` slides are text only (red ✗ / green ✓ right-vs-wrong lines), so the takeaway never depends on an illustration. Built for the heatwave "ik ben heet" story, June 2026.
+- **`ComicStory` panels reserve a top "bubble lane", and the art must respect it.** The first heatwave render put the bubbles on top of the characters' faces: the panel art filled the whole frame with heads in the upper-middle, leaving nowhere clean for a bubble. Two things fixed it together. (1) **Prompt:** frame both characters in the **lower two-thirds** (seated, waist-up, heads below the one-third line) and keep the **entire top third** a calm, empty background (sky/awning/wall). Drop any "full-bleed, fills the whole frame, no empty bands" wording, which directly fights leaving negative space and makes the image model crowd the top. (2) **Composition:** the top third is now a soft **light scrim** ("bubble lane") and panel bubbles default to `y ≈ 0.21` (centred, `x ≈ 0.5`) with the tail pointing down to the speaker's mouth (`tail.y ≈ 0.5`). The light scrim replaced the old dark top scrim; the bottom scrim stays for the caption box / dots / handle. Net: the bubble always reads on a clean band instead of a face. Prompt-framing is best-effort (image models comply with "subject low, top empty" better than with "leave space," but not perfectly), so the reserved lane is the safety net. After regenerating low-framed art, fine-tune each `bubble.tail.x/y` in Studio so the tail lands on the right mouth.
 - **`VocabScene` labels are rendered, never drawn by the image model.** The illustration is generated with
   NO text and breathing room around each object; Remotion overlays the crisp NL/EN chips and arrows from
   `x/y` props. That keeps Dutch spelling and articles exact (the whole point) and lets you nudge a label in

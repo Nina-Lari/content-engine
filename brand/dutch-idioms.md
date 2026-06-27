@@ -1,12 +1,15 @@
 # Dutch Idioms & Expressions — the grounding bank for `idiom` posts
 
 The source bank for the **`idiom`** Instagram post type. An idiom is the hardest thing to learn and the
-most satisfying to "get", because the literal words hide the meaning. One post teaches a **set** of related
-idioms (one card each) or goes deep on **one**. Each card carries four things, and the rendered
-`ConceptGuide` carousel (variant: `idiom`) is built around them:
+most satisfying to "get", because the literal words hide the meaning. **As of June 2026, idioms are reels,
+not carousels: one idiom per reel, one idiom per week, played for laughs.** A Dutch speaker uses the idiom
+in normal conversation, the learner pictures it LITERALLY (a timed cutaway to the literal illustration),
+brief confusion, then the real meaning lands. It renders via the **`IdiomReel`** composition. Each idiom
+still carries the same four things, which now feed the dialogue, the literal-imagination cutaway, and the
+outro card:
 
-1. **the idiom** (NL), 2. the **literal** translation (the funny part), 3. the **real meaning**,
-4. a short **example** in use (NL + EN).
+1. **the idiom** (NL), 2. the **literal** translation (the funny part, and the cutaway image), 3. the
+**real meaning** (the gold reveal line + outro), 4. a short **example** in use (the conversation that sets it up).
 
 > **The A1 carve-out lives here most of all.** `dutch-level-guide.md` flags idioms as above A1 by design
 > (it even names `de kat uit de boom kijken` as a red flag). That is fine for this type, under the
@@ -76,13 +79,20 @@ signal real fluency, so learners save them. Lead with the literal, reveal the me
 
 ## How an `idiom` post uses this bank
 
-- **A set per post** (5 to 6 cards) grouped by a theme (animals, body, food, everyday), or **one idiom
-  deep** (literal → meaning → two examples → when you'd say it).
-- Card order on each slide: idiom (hero) → literal (the funny line) → meaning → one example pair.
-- Lead the cover with the most surprising literal of the set ("now the monkey comes out of the sleeve").
-- Keep the meaning line and the example simple and glossed. The idiom is the only above-A1 element.
-- Caption line 1 = a searchable keyword ("Dutch idioms", "Dutch expressions and meanings").
-- Pin a comment that pulls a reply ("which one is your favourite?" or "which made no sense at first?").
+- **One idiom per reel, one per week.** Pick a single idiom with a strong, funny, *visual* literal (the
+  monkey out of the sleeve, the raining pipe stems). The more drawable the literal, the better the cutaway gag.
+- **The beat sheet:** a Dutch speaker uses the idiom naturally in a short conversation, the learner pictures
+  it LITERALLY (the timed cutaway to the literal illustration, framed as a daydream), brief confusion, then
+  the real meaning lands (spoken by the Dutch speaker, or by us in the outro). The sequence can vary; keep
+  the literal-imagination as the visual punchline.
+- The four bank fields map to the reel: the **idiom** is the line the Dutch speaker says; the **literal** is
+  the cutaway image (and the funny outro gloss); the **meaning** is the gold reveal line + the outro; the
+  **example** is the conversation that gives it context.
+- Keep everything around the idiom A1 and glossed. The idiom is the only above-A1 element (sanctioned exception).
+- Caption line 1 = a searchable keyword ("Dutch idioms", "Dutch idioms explained").
+- Pin a comment that pulls a reply ("which Dutch idiom made no sense the first time you heard it?").
+- Keep one recurring learner character across the series, and log each idiom in the backlog `reference_log`
+  so the weekly series never repeats one.
 
 ---
 

@@ -1,0 +1,24 @@
+{
+  "variant": "small-words",
+  "theme": "Hittegolf",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/dutch-words-for-the-heatwave/cover.png",
+  "cover": {
+    "kicker": "Hittegolf",
+    "title": "Dutch for 40 degrees",
+    "sub": "What everyone is saying while the country melts"
+  },
+  "intro": null,
+  "cards": [
+    {"term": "snikheet", "meaning": "sweltering, boiling hot", "examples": [{"nl": "Het is snikheet vandaag.", "en": "It's sweltering today."}], "note": "The word every Dutch person says in a heatwave."},
+    {"term": "een tropische dag", "meaning": "a \"tropical day\": 30 degrees or more", "examples": [{"nl": "Morgen wordt het een tropische dag.", "en": "Tomorrow will be a tropical day."}], "note": "The official Dutch weather word for 30+."},
+    {"term": "een tropennacht", "meaning": "a \"tropical night\" that stays above 20 degrees", "examples": [{"nl": "Wat een tropennacht!", "en": "What a tropical night!"}], "note": "Why nobody slept last night."},
+    {"term": "bloedheet", "meaning": "boiling hot (literally \"blood-hot\")", "examples": [{"nl": "Het is bloedheet buiten.", "en": "It's boiling outside."}], "note": "Stronger than warm."},
+    {"term": "om te smelten", "meaning": "hot enough to melt", "examples": [{"nl": "Het is om te smelten.", "en": "It's hot enough to melt."}], "note": "A fun way to say it's way too hot."},
+    {"term": "lekker weer, hè?", "meaning": "nice weather, eh? (said at ANY temperature)", "examples": [{"nl": "40 graden? Lekker weer, hè?", "en": "40 degrees? Nice weather, eh?"}], "note": "A Dutch person will say this while melting."}
+  ],
+  "cta": {
+    "title": "Save these for the next hot day",
+    "sub": "Send it to whoever keeps saying it's snikheet."
+  }
+}

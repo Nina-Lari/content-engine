@@ -75,10 +75,13 @@ The **carousel menu** (any of the five non-reel slots can be one of these):
 | `particle` | `ConceptGuide` | `brand/modal-particles.md` | evergreen |
 | `small-words` | `ConceptGuide` | `brand/sound-more-dutch.md` | evergreen |
 | `mistake` | `ConceptGuide` | `brand/common-mistakes.md` | evergreen |
-| `idiom` | `ConceptGuide` | `brand/dutch-idioms.md` | evergreen |
 | `knm-quiz` | `Quiz` | `brand/knm-facts.md` | evergreen |
 
-Keep the week coherent: the 2 reels plus at least one or two on-theme carousels carry the moment; the remaining slots can be **evergreen reference posts** (a particle, an idiom, a KNM quiz, a vocab scene) that stand alone and are useful any week. A week can be mostly on-theme or a healthy mix. Batch proposes a balance and you confirm it.
+(`idiom` used to live here as a `ConceptGuide` carousel. As of June 2026 it is an **`idiom-reel`** that renders via `IdiomReel`, see *Idiom reel* below. It is a reel, so it takes a reel slot, not a carousel slot.)
+
+One of the two reels can instead be an **`idiom-reel`** (the funny idiom format, detailed below): one idiom per week, taking a reel slot, so a week that uses it runs as one scenario-reel + one idiom-reel + five carousels. Idioms are no longer a carousel.
+
+Keep the week coherent: the 2 reels plus at least one or two on-theme carousels carry the moment; the remaining slots can be **evergreen reference posts** (a particle, a KNM quiz, a vocab scene) that stand alone and are useful any week. A week can be mostly on-theme or a healthy mix. Batch proposes a balance and you confirm it.
 
 Suggested posting: one post every day, Mon through Sun. Floor when busy: drop an evergreen carousel first, then a quiz, but keep at least one reel. Never drop to zero.
 
@@ -241,9 +244,9 @@ Transform an existing article into a native Instagram artifact. **Never paste pa
 - Choose a format: carousel or reel. Then follow that type's rules and brand-kit visuals.
 - Reuse the article's primary keyword (from its `_brief.json`) as caption line 1 for SEO continuity.
 
-### Concept-guide carousels (particle, small-words, mistake, idiom)
+### Concept-guide carousels (particle, small-words, mistake)
 
-All four are **evergreen** teaching carousels rendered by the one `ConceptGuide` composition (the post `type` sets the `variant`, which sets the gold cover marker). They are not tied to the week's moment; they ride a themed week as standalone value. Shared rules:
+All three are **evergreen** teaching carousels rendered by the one `ConceptGuide` composition (the post `type` sets the `variant`, which sets the gold cover marker). They are not tied to the week's moment; they ride a themed week as standalone value. (Idioms were a fourth variant here; as of June 2026 they are their own **idiom reel**, see below.) Shared rules:
 
 - **Cover** = a hook headline (5-8 words) over a Joost illustration, the same cover treatment as the cheatsheet (Joost in the upper half, 4:5, headline rendered by Remotion, no text in the generated image). The runbook gives a ready ChatGPT prompt with the full Style Block + Negative prompt inline.
 - **Intro slide (optional)** = "what is it / what's the difference"; used by `particle` and `mistake`, skipped for `small-words` and `idiom` where the cards speak for themselves.
@@ -257,7 +260,15 @@ All four are **evergreen** teaching carousels rendered by the one `ConceptGuide`
 
 **Mistake** — one confusable pair or common error (`niet` vs `geen`, `kennen` vs `weten`, word order), from `brand/common-mistakes.md`. Teaching, not a quiz: the intro states the one-line difference, then a card per side (the rule + examples) and a "quick test" card. Show the contrast with `✅` / `❌`. Cover marker: COMMON MISTAKE.
 
-**Idiom** — a set of 5-6 related idioms (animals, food, body) or one idiom deep, from `brand/dutch-idioms.md`. Each card: idiom + literal translation (the funny line) + real meaning + one example. Lead the cover with the most surprising literal. Cover marker: DUTCH IDIOM.
+### Idiom reel (renders via `IdiomReel`)
+
+The funny idiom format, a **reel**, not a carousel. **One idiom per reel, one per week.** A Dutch speaker uses an idiom naturally in a short conversation; the learner pictures it LITERALLY (a timed cutaway to a full-frame literal illustration, framed as a daydream with a "WHAT I PICTURED" badge); brief confusion; then the real meaning lands (spoken by the Dutch speaker, or by us in the outro). Pulled from `brand/dutch-idioms.md`, one idiom deep. The sequence can vary; the literal-imagination is the visual punchline.
+
+- Pick an idiom with a **strong, drawable literal** (the monkey out of the sleeve, raining pipe stems). The more visual the literal, the better the gag.
+- The idiom is the sanctioned above-A1 payload, always glossed (literal + meaning). Everything around it (the reactions, the explanation) stays A1.
+- Assets: a 9:16 conversation clip (the two-shot, looped, like a scenario reel) AND a 9:16 full-frame literal image for the cutaway. In props, mark the learner's confused line `imagine: true` to trigger the cutaway, and the meaning line `recovery: true` for the gold reveal.
+- The outro card shows the idiom, its literal, and its real meaning. Caption line 1 = a searchable keyword ("Dutch idioms"). Comment seed pulls a reply ("which idiom made no sense at first?").
+- Keep one recurring learner character across the series so it reads as a running bit. Log each idiom in the backlog `reference_log` so the series never repeats one.
 
 ### Vocab scene
 

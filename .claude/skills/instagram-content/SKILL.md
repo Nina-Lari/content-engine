@@ -62,7 +62,7 @@ This skill writes only authoring artifacts. The finished asset is produced later
 
 - `outputs/instagram/idea-backlog.json` -- the curated backlog of themed packs (one pack = one theme, staged across settings). **One persistent file at the top of the folder** (plan mode writes; batch mode reads and updates `status`).
 - `outputs/instagram/<week>/_plan.md` -- the produced week's overview grid (batch mode). `<week>` is the week-start date `YYYY-MM-DD`.
-- `outputs/instagram/<week>/{type}_{slug}.md` -- one reviewable runbook per post. `type` is `scenario-reel`, `cheatsheet`, `quiz`, `article-remix`, `particle`, `small-words`, `mistake`, `idiom`, `vocab-scene`, or `knm-quiz`. **This is the human-gate artifact.** It carries `Status: draft` until the user approves. (The week folder carries the date, so the filename no longer repeats it.)
+- `outputs/instagram/<week>/{type}_{slug}.md` -- one reviewable runbook per post. `type` is `scenario-reel`, `idiom-reel`, `cheatsheet`, `quiz`, `article-remix`, `particle`, `small-words`, `mistake`, `vocab-scene`, or `knm-quiz`. **This is the human-gate artifact.** It carries `Status: draft` until the user approves. (The week folder carries the date, so the filename no longer repeats it.)
 - `remotion/props/<week>/{slug}.json` -- the render props for the post, written by batch alongside the runbook. The contract between this skill and the Remotion composition.
 - `remotion/public/<week>/{slug}/` -- the asset-drop folder, **created empty by batch** so the user has a ready target for the voice/image/clip files the runbook names. The user fills it; this skill never writes assets into it.
 
@@ -201,7 +201,7 @@ Status lives on individual posts (`idea | queued | produced`), so a week can be 
 - **If no backlog exists:** name a theme on the fly from a recurring moment in the insights, spread it across the week's settings, derive one post per setting (2 reels max), and tell the user they can run `/instagram-content plan` to build a curated backlog.
 - **If a theme hint was passed:** prefer matching posts/pack, or theme the on-the-fly week to it.
 
-Sanity-check the week's shape before producing: **2 reels (the theme anchor) + 5 carousels chosen from the full menu** (`cheatsheet`, `quiz`, `article-remix`, `vocab-scene`, `particle`, `small-words`, `mistake`, `idiom`, `knm-quiz`), with **a maximum of 2 reels** (never more) and **at least one reel**. Fill the on-theme slots from the queued pack / insights; fill the rest with **evergreen reference posts drawn from their banks** (load only the banks you need: `modal-particles.md`, `common-mistakes.md`, `sound-more-dutch.md`, `dutch-idioms.md`, `vocab-scenes.md`, `knm-facts.md`). Keep the week coherent: the reels plus one or two on-theme carousels carry the moment, the rest stand alone (a vocab scene staged in the theme's setting counts as on-theme). **Avoid repeats** by checking the backlog's `reference_log` (don't reuse a particle, idiom, KNM indicator, small-word set, mistake, or scene already produced). If a queued selection breaks the shape (three or more reels, or all of one type), warn and suggest a swap, but proceed if confirmed. Honor an explicit count if the user asked for a different number. Assign each post a persona and a positioning thread (evergreen posts get a light positioning thread, not a forced moment).
+Sanity-check the week's shape before producing: **2 reels (the theme anchor) + 5 carousels chosen from the full menu** (`cheatsheet`, `quiz`, `article-remix`, `vocab-scene`, `particle`, `small-words`, `mistake`, `knm-quiz`), with **a maximum of 2 reels** (never more) and **at least one reel**. One of the two reels may be an **`idiom-reel`** (the funny idiom format, one idiom per week, renders via `IdiomReel`) instead of a second scenario-reel. Fill the on-theme slots from the queued pack / insights; fill the rest with **evergreen reference posts drawn from their banks** (load only the banks you need: `modal-particles.md`, `common-mistakes.md`, `sound-more-dutch.md`, `dutch-idioms.md`, `vocab-scenes.md`, `knm-facts.md`). Keep the week coherent: the reels plus one or two on-theme carousels carry the moment, the rest stand alone (a vocab scene staged in the theme's setting counts as on-theme). **Avoid repeats** by checking the backlog's `reference_log` (don't reuse a particle, idiom, KNM indicator, small-word set, mistake, or scene already produced). If a queued selection breaks the shape (three or more reels, or all of one type), warn and suggest a swap, but proceed if confirmed. Honor an explicit count if the user asked for a different number. Assign each post a persona and a positioning thread (evergreen posts get a light positioning thread, not a forced moment).
 
 Pick `<week>` = the week-start date (the date the user is planning from, else today). Every file in this batch uses that same `<week>` value.
 
@@ -309,12 +309,12 @@ The image steps below embed the brand **Style Block + Negative prompt verbatim**
 ```markdown
 # {Day} {Date} — {Type}: {Working Title}
 
-> **Type:** {scenario-reel | cheatsheet | quiz | article-remix | particle | small-words | mistake | idiom | vocab-scene | knm-quiz}
+> **Type:** {scenario-reel | idiom-reel | cheatsheet | quiz | article-remix | particle | small-words | mistake | vocab-scene | knm-quiz}
 > **Theme:** {the recurring moment, e.g. "the moment they switch to English on you"}
 > **Setting:** {the concrete place this post is staged in, e.g. the bakery; "n/a" for the flex/remix}
 > **Persona:** {target persona}
 > **Positioning thread:** {one value prop woven as undercurrent}
-> **Render:** {ScenarioReel | Cheatsheet | Quiz | ConceptGuide | VocabScene} — props: `remotion/props/{week}/{slug}.json` — run `/instagram-render {slug}`
+> **Render:** {ScenarioReel | IdiomReel | Cheatsheet | Quiz | ConceptGuide | VocabScene} — props: `remotion/props/{week}/{slug}.json` — run `/instagram-render {slug}`
 > **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
 ## Rules for this post (keep edits on-rails)
@@ -379,7 +379,11 @@ or a "see brand-kit" pointer: the runbook must be copy-paste-ready. Paste this e
   Cozy, calm, and lived-in. Include simple environmental details that support the
   scene (furniture, plants, books, coffee cups, warm window light, shelves,
   textiles, small everyday objects). Detailed enough to feel atmospheric, not so
-  busy that it distracts from the main moment.
+  busy that it distracts from the main moment. The setting is the Netherlands: when
+  the scene is outdoors, the architecture and nature are Dutch (brick terraced or
+  canal houses with large windows and gabled facades, bicycles, tiled pavements, a
+  flat landscape, a soft grey-blue Dutch sky), never Mediterranean or southern
+  European (no terracotta roofs, whitewashed stone, stucco walls, or palm trees).
 
   Mood:
   Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
@@ -486,7 +490,11 @@ runbook must be copy-paste-ready. Paste this exact prompt:
   Cozy, calm, and lived-in. Include simple environmental details that support the
   scene (furniture, plants, books, coffee cups, warm window light, shelves,
   textiles, small everyday objects). Detailed enough to feel atmospheric, not so
-  busy that it distracts from the main moment.
+  busy that it distracts from the main moment. The setting is the Netherlands: when
+  the scene is outdoors, the architecture and nature are Dutch (brick terraced or
+  canal houses with large windows and gabled facades, bicycles, tiled pavements, a
+  flat landscape, a soft grey-blue Dutch sky), never Mediterranean or southern
+  European (no terracotta roofs, whitewashed stone, stucco walls, or palm trees).
 
   Mood:
   Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
@@ -565,7 +573,11 @@ runbook must be copy-paste-ready. Paste this exact prompt:
   Cozy, calm, and lived-in. Include simple environmental details that support the
   scene (furniture, plants, books, coffee cups, warm window light, shelves,
   textiles, small everyday objects). Detailed enough to feel atmospheric, not so
-  busy that it distracts from the main moment.
+  busy that it distracts from the main moment. The setting is the Netherlands: when
+  the scene is outdoors, the architecture and nature are Dutch (brick terraced or
+  canal houses with large windows and gabled facades, bicycles, tiled pavements, a
+  flat landscape, a soft grey-blue Dutch sky), never Mediterranean or southern
+  European (no terracotta roofs, whitewashed stone, stucco walls, or palm trees).
 
   Mood:
   Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
@@ -630,9 +642,9 @@ the ASSETS / WHAT REMOTION PRODUCES / RENDER sections and the matching remotion/
 Caption line 1 = the article's primary keyword.}
 ```
 
-### concept-guide (particle | small-words | mistake | idiom — renders via `ConceptGuide`)
+### concept-guide (particle | small-words | mistake — renders via `ConceptGuide`)
 
-One template, four variants: the post `type` sets the `variant` and the bank. **Read the bank for this type and build the cards from it, never from memory:** particle → `brand/modal-particles.md`, small-words → `brand/sound-more-dutch.md`, mistake → `brand/common-mistakes.md`, idiom → `brand/dutch-idioms.md`.
+One template, three variants: the post `type` sets the `variant` and the bank. **Read the bank for this type and build the cards from it, never from memory:** particle → `brand/modal-particles.md`, small-words → `brand/sound-more-dutch.md`, mistake → `brand/common-mistakes.md`. (Idioms are no longer a concept-guide variant; they render as an `idiom-reel`, see the template below.)
 
 ```markdown
 ## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
@@ -653,8 +665,8 @@ optional intro slide + one card per concept + a save/send CTA slide. One PNG per
 remotion/props/{week}/{slug}.json (variant, theme, cover, intro?, cards, cta).
 
 The content (also written into props), pulled from the bank:
-- variant: {particle | small-words | mistake | idiom}
-- intro (use for particle + mistake; set to `null` for small-words + idiom, do not omit it, props merge over defaults): {title} / {body} / {points[]}
+- variant: {particle | small-words | mistake}
+- intro (use for particle + mistake; set to `null` for small-words, do not omit it, props merge over defaults): {title} / {body} / {points[]}
 - cards (4-8), each: {term} (required) + {sub}? (the idiom's literal line, or a short gloss) + {meaning}? +
   {examples}? (1-2 nl/en pairs) + {note}? (the "when to use it" line)
   1. {term} — {sub?} — {meaning?} — ex: {nl} ({en}) — note: {note?}
@@ -673,6 +685,62 @@ Keywords woven: {3-6}
 
 ## PINNED COMMENT
 "{question that pulls a sentence reply, e.g. which little word trips you up most?}"
+```
+
+### idiom-reel (renders via `IdiomReel`)
+
+The funny idiom format: **one idiom per reel, one per week**, from `brand/dutch-idioms.md`. A Dutch speaker uses the idiom naturally; the learner pictures it LITERALLY (a timed cutaway to a full-frame literal image, framed as a daydream); brief confusion; then the meaning lands (by the Dutch speaker, or by us in the outro). Built on the scenario-reel backbone (looped conversation clip, subtitles, hook, loop-safe outro) plus the literal cutaway. The sequence can vary; the literal-imagination is the visual punchline. Keep one recurring learner character across the series.
+
+```markdown
+## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
+
+STEP 1 — Voice (ElevenLabs). The conversation lines, one mp3 each, exact names in order. Joost voice for the
+Dutch speaker; one warm recurring learner voice for the series. Same settings as the scenario-reel.
+
+  remotion/public/{week}/{slug}/{c1}-1.mp3   "{the idiom, said naturally}"   (EN: {gloss})
+  remotion/public/{week}/{slug}/{c2}-2.mp3   "{the literal reaction}"        (EN: {gloss})   <- imagine: true
+  remotion/public/{week}/{slug}/{c1}-3.mp3   "{a beat / clearing it up}"     (EN: {gloss})
+  remotion/public/{week}/{slug}/{c1}-4.mp3   "{the real meaning}"            (EN: {gloss})   <- recovery: true
+
+STEP 2 — Conversation scene image (ChatGPT). The 9:16 two-shot (the Dutch speaker + the learner, at the
+setting). **Paste the scenario-reel STEP 2 prompt verbatim** (the full Style Block + Negative prompt inline,
+exactly as written there), changing only the scene description line. Save as `starting-frame.png` (the begin =
+end frame for the loop).
+
+STEP 3 — Video (image-to-video; Seedance 1 Pro). **Paste the scenario-reel STEP 3 motion prompt verbatim**
+(closed mouths, tiny motion, begin frame = end frame). Save as `clip.mp4`.
+
+STEP 4 — Literal-imagination image (ChatGPT). The gag, shown full-frame as the cutaway: the idiom drawn
+LITERALLY (e.g. a monkey climbing out of a sweater sleeve), VERTICAL 9:16, full-bleed. Attach the same brand
+refs and **reproduce the full Style Block + Negative prompt inline** (same text as STEP 2), changing only the
+scene line to the literal image. No text in the image. Save as `literal.png`.
+
+## WHAT REMOTION PRODUCES (IdiomReel)
+Loops the conversation clip, sequences the voice lines with auto-timing, burns in NL/EN subtitles, CUTS AWAY
+to `literal.png` at the line flagged `imagine: true` (gold daydream frame + "WHAT I PICTURED" badge +
+`literalCaption`), emphasizes the meaning line (`recovery: true`) in gold, and shows the idiom + literal +
+meaning on the branded outro. Output: 9:16 MP4 with audio. Props: remotion/props/{week}/{slug}.json (clip,
+literalImage, literalLabel, literalCaption, hook, lines, outro).
+
+The dialogue + idiom (also written into props), from the bank:
+- hook: {l1} / {l2} / {emphasis} — the literal gag in the first 3 seconds
+- lines: the Dutch speaker uses the idiom, then the learner's literal reaction (`imagine: true`), a beat, then
+  the meaning (`recovery: true`). The idiom is the sanctioned above-A1 element; everything else A1 and glossed.
+- outro: {kicker} / {the idiom, nl} / {literal} / {meaning, en} / {cta} / {handle}
+
+## RENDER (after Status: approved and all assets saved)
+/instagram-render {slug}
+(or, manually: cd remotion && npx remotion render src/index.ts IdiomReel out/{week}/{slug}/{slug}.mp4 --props=props/{week}/{slug}.json)
+
+## CAPTION (paste into Instagram)
+{line 1 keyword hook, e.g. "Dutch idioms, taken literally"}
+{2-4 lines of value; always gloss the idiom (literal + meaning) so it never sits untranslated}
+{save/send CTA}
+Start learning Dutch with Joost: link in bio.
+Keywords woven: {3-6}
+
+## PINNED COMMENT
+"{question that pulls a sentence reply, e.g. which Dutch idiom made no sense the first time you heard it?}"
 ```
 
 ### vocab-scene (renders via `VocabScene`)
@@ -711,7 +779,11 @@ this exact prompt (the scene description, then the full Style Block and Negative
   Cozy, calm, and lived-in. Include simple environmental details that support the
   scene (furniture, plants, books, coffee cups, warm window light, shelves,
   textiles, small everyday objects). Detailed enough to feel atmospheric, not so
-  busy that it distracts from the main moment.
+  busy that it distracts from the main moment. The setting is the Netherlands: when
+  the scene is outdoors, the architecture and nature are Dutch (brick terraced or
+  canal houses with large windows and gabled facades, bicycles, tiled pavements, a
+  flat landscape, a soft grey-blue Dutch sky), never Mediterranean or southern
+  European (no terracotta roofs, whitewashed stone, stucco walls, or palm trees).
 
   Mood:
   Warm, approachable, educational, calm, friendly, slightly whimsical, human, and

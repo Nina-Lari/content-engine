@@ -1,0 +1,37 @@
+{
+  "theme": "Ik heb het warm",
+  "handle": "@dutchwithjoost",
+  "cover": {
+    "image": "2026-06-22/dont-say-ik-ben-heet/cover.png",
+    "marker": "COMMON MISTAKE",
+    "kicker": "A SUMMER STORY",
+    "title": "He said 'ik ben heet'",
+    "sub": "It did not mean what he thought."
+  },
+  "panels": [
+    {"image": "2026-06-22/dont-say-ik-ben-heet/panel-1.png", "speaker": "Tom", "nl": "Pfoe, ik ben heet!", "en": "Phew, I'm hot!", "caption": "He means he feels hot. But a Dutch ear hears: I am hot, as in attractive.", "bubble": {"x": 0.5, "y": 0.21, "w": 0.6, "tail": {"x": 0.32, "y": 0.52}}},
+    {"image": "2026-06-22/dont-say-ik-ben-heet/panel-2.png", "speaker": "Joost", "nl": "Je zelfvertrouwen is inspirerend.", "en": "Your confidence is inspiring.", "caption": "Joost thinks his friend just announced he's irresistible.", "bubble": {"x": 0.5, "y": 0.21, "w": 0.62, "tail": {"x": 0.68, "y": 0.52}}},
+    {"image": "2026-06-22/dont-say-ik-ben-heet/panel-3.png", "speaker": "Tom", "nl": "Wat? Wat zei ik?", "en": "What? What did I say?", "caption": "He just told the whole terras he's gorgeous.", "bubble": {"x": 0.5, "y": 0.21, "w": 0.56, "tail": {"x": 0.32, "y": 0.52}}}
+  ],
+  "lessons": [
+    {
+      "kicker": "The fix",
+      "title": "Don't say 'ik ben heet'",
+      "lines": [
+        {"nl": "Ik ben heet.", "en": "I'm hot (as in sexy).", "kind": "wrong"},
+        {"nl": "Ik heb het warm.", "en": "I feel hot.", "kind": "right"}
+      ],
+      "note": "Your body? Always hebben + het. (Cold = ik heb het koud.)"
+    },
+    {
+      "kicker": "warm of heet?",
+      "title": "Two words for hot",
+      "lines": [
+        {"nl": "Het is warm vandaag.", "en": "It is hot today. (the weather, and how you feel)", "kind": "plain"},
+        {"nl": "Pas op, de koffie is heet.", "en": "Careful, the coffee is scorching. (things that can burn you)", "kind": "plain"}
+      ],
+      "note": "Both translate as 'hot'. Use warm for the weather and yourself, heet only for things that can burn you (coffee, a pan, the oven)."
+    }
+  ],
+  "cta": {"title": "Save it before the next hot day", "sub": "Send it to a friend who would say it."}
+}

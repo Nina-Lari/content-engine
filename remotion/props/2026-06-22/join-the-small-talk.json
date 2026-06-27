@@ -1,22 +1,22 @@
 {
-  "theme": "Op een feestje",
+  "theme": "Op een feestje of borrel",
   "handle": "@dutchwithjoost",
   "coverImage": "2026-06-22/join-the-small-talk/cover.png",
   "cover": {
-    "kicker": "Op een feestje",
+    "kicker": "Op een feestje of borrel",
     "title": "Join the small talk",
-    "sub": "6 lines for when you're stuck by the snacks"
+    "sub": "6 lines for any event with strangers"
   },
   "phrases": [
-    {"nl": "Hoi, ik ben Maya. En jij?", "en": "Hi, I'm Maya. And you?", "when": "Opening with someone new."},
-    {"nl": "Van wie is dit feestje?", "en": "Whose party is this?", "when": "An easy first question."},
-    {"nl": "Ken jij hier veel mensen?", "en": "Do you know many people here?", "when": "Finding common ground."},
-    {"nl": "Wat leuk! Vertel eens.", "en": "How nice! Tell me more.", "when": "Keeping it going after they answer."},
-    {"nl": "Sorry, hoe heet je?", "en": "Sorry, what's your name?", "when": "You missed their name. Everyone does."},
-    {"nl": "Ik ga even wat drinken halen.", "en": "I'm going to grab a drink.", "when": "A friendly way to step away."}
+    {"nl": "Hoi, ik ben [naam]. En jij?", "en": "Hi, I'm [your name]. And you?", "when": "Walking up and opening. The first line is the hard part."},
+    {"nl": "Ken je hier veel mensen?", "en": "Do you know many people here?", "when": "An easy way in that works at any event."},
+    {"nl": "Sorry, kun je dat herhalen?", "en": "Sorry, can you say that again?", "when": "They said something and it went by too fast."},
+    {"nl": "Mijn Nederlands is nog niet zo goed.", "en": "My Dutch isn't that good yet.", "when": "Takes the pressure off and keeps you in Dutch."},
+    {"nl": "Wat leuk! Vertel eens.", "en": "How nice! Tell me more.", "when": "Keep them talking. You barely have to say a thing."},
+    {"nl": "Ik ga even wat drinken halen.", "en": "I'm going to grab a drink.", "when": "An easy, friendly way to step away."}
   ],
   "cta": {
-    "title": "Save these before the next party",
-    "sub": "Send them to whoever you always go with."
+    "title": "Save this before you go",
+    "sub": "Send it to the friend you always go with."
   }
 }

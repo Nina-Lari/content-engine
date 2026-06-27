@@ -1,0 +1,21 @@
+{
+  "clip": "2026-06-29/aap-uit-de-mouw/clip.mp4",
+  "literalImage": "2026-06-29/aap-uit-de-mouw/literal.png",
+  "literalLabel": "WHAT I PICTURED",
+  "literalCaption": "a real monkey... out of his sleeve?!",
+  "hook": {"l1": "He said a MONKEY", "l2": "is coming out of", "emphasis": "HIS SLEEVE??"},
+  "lines": [
+    {"file": "2026-06-29/aap-uit-de-mouw/joost-1.mp3", "speaker": "Joost", "nl": "Aha! Nu komt de aap uit de mouw.", "en": "Aha! Now the monkey comes out of the sleeve."},
+    {"file": "2026-06-29/aap-uit-de-mouw/maya-2.mp3", "speaker": "Maya", "imagine": true, "nl": "Een aap? Uit je mouw?", "en": "A monkey? Out of your sleeve?"},
+    {"file": "2026-06-29/aap-uit-de-mouw/joost-3.mp3", "speaker": "Joost", "nl": "Haha, nee joh. Geen echte aap.", "en": "Haha, no. Not a real monkey."},
+    {"file": "2026-06-29/aap-uit-de-mouw/joost-4.mp3", "speaker": "Joost", "recovery": true, "nl": "Het betekent: nu weten we de waarheid.", "en": "It means: now we know the truth."}
+  ],
+  "outro": {
+    "kicker": "WHAT IT REALLY MEANS",
+    "nl": "nu komt de aap uit de mouw",
+    "literal": "lit. \"now the monkey comes out of the sleeve\"",
+    "en": "now the hidden truth comes out",
+    "cta": "Save it for the next one you hear.",
+    "handle": "@dutchwithjoost"
+  }
+}

@@ -1,7 +1,7 @@
 # Instagram Week, June 22 to June 28, 2026
 
 Theme: Smiling and nodding at a Dutch table while the conversation runs too fast, because you can't join in.
-Settings this week: the in-laws' dinner table, a kid's birthday party, the kringverjaardag (birthday circle), a garden BBQ, coffee with a neighbor (the living room). The school gate sat out this week so the grid could carry more post types.
+Settings this week: the in-laws' dinner table, any social event with strangers (the small-talk cheatsheet), the kringverjaardag (birthday circle), a garden BBQ, coffee with a neighbor (the living room). The school gate sat out this week so the grid could carry more post types.
 Cadence: 7 feed posts (one per day, 2 reels) + daily Stories.
 Variety note: rebalanced off the old 2-cheatsheet + 2-quiz shape. This week runs 1 cheatsheet, 1 quiz, plus a small-words guide, a labeled vocab scene, and an idiom guide. Five different carousel types, five different tiles.
 Grounded in: idea-backlog pack `smile-and-nod`; insights monika ("meet people who are not expats"), nina (belonging, "feel at home"), molly (couldn't make Dutch friends), facebook-groups (working parent, "with the friends of my children they don't speak much English"); personas Pattern A ("I just sit there smiling because I can't follow the conversation"); positioning (learn by using, judgment-free practice). Evergreen posts pulled from `brand/sound-more-dutch.md`, `brand/vocab-scenes.md` (In de woonkamer), `brand/dutch-idioms.md` (everyday set), and the kringverjaardag custom verified against `brand/knm-facts.md`.
@@ -9,7 +9,7 @@ Grounded in: idea-backlog pack `smile-and-nod`; insights monika ("meet people wh
 | Day | Post file | Type | Setting / topic | On-theme | Hook | Job | Status |
 |-----|-----------|------|-----------------|----------|------|-----|--------|
 | Mon | scenario-reel_table-talk-too-fast.md | scenario-reel | the in-laws' dinner table | yes | One line gets you back into the table talk | reach | draft |
-| Tue | cheatsheet_join-the-small-talk.md | cheatsheet | a kid's birthday party | yes | The first line is the hard part. Start there. | saves | draft |
+| Tue | cheatsheet_join-the-small-talk.md | cheatsheet | any event (party/BBQ/borrel) | yes | The first line is the hard part. Start there. | saves | draft |
 | Wed | quiz_kringverjaardag.md | quiz | the kringverjaardag | yes | You walk in, there's a circle of chairs. Who do you congratulate? | comments | draft |
 | Thu | scenario-reel_get-in-on-the-joke.md | scenario-reel | a garden BBQ | yes | Everyone laughed and you missed it. One question fixes it. | reach | draft |
 | Fri | small-words_little-words-to-join-in.md | small-words (ConceptGuide) | small-words: nou / hè / joh / even / toch / hoor | evergreen | Six tiny words Dutch people drop into every chat | saves | draft |
