@@ -36,6 +36,19 @@ Use this list when writing a runbook — it is the menu of edits available.
 - A branded outro card (blue, the DWJ logo mark in gold, the one line to remember, save/send CTA).
 - Export 9:16 1080×1920 H.264 with the voice track muxed in.
 
+**Stills idiom reels (`IdiomShots` → MP4):** an idiom reel built from STILLS, no Seedance clip.
+- A wide two-shot, a Remotion push-in to a close-up of the confused character, then a pull-back. The "camera move" is a scale + cross-dissolve between the wide and close stills toward a focus point.
+- The literal-imagination image (e.g. the ape out of a sleeve) pops in a thought bubble above her during her line, then vanishes on the next line.
+- The speaker switches to a gesture frame (hand up, mouth open) on a flagged line and holds it; only he changes because the rest of the frame is identical.
+- A 3-second hook overlay and a branded outro card; per-line subtitles; durations auto-measured from the voice files. Export 9:16 1080×1920. No paid image-to-video.
+
+**Spoken carousels (`PhraseReel` → MP4):** the cheap "talking carousel" — a still image with pronunciation audio, and NO image-to-video clip.
+- Hold each useful sentence on screen for exactly the length of its voice clip (durations auto-measured at render, like the reel). Nothing is hand-timed.
+- One watercolor backdrop behind every card, with a slow Ken Burns push, so a still never reads as frozen.
+- Per sentence: a big Dutch hero line, the English revealed a beat later, an optional gold context pill, all on a high-contrast plate, with a pulsing "listen" badge.
+- A "SOUND ON" cue on the cover (the format lives on audio), a cover title card, progress dots + counter, and a branded blue CTA outro.
+- Export 9:16 1080×1920 H.264 with the voice track muxed in. Marginal cost over a silent carousel is the TTS only — no Seedance clip.
+
 **Carousels (`Cheatsheet`, `Quiz`, `ConceptGuide`, `VocabScene`, `ComicStory` → PNG slides):**
 - Composite a watercolor cover image with a branded headline, kicker, and gradient scrim. **Each type uses a distinct cover treatment** so the tiles differ on the feed grid even on a shared base image: the cheatsheet cover is the bright "guide" tile (image band over a solid cream panel that holds the headline); the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker + faint "?" watermark). The reel's first frame is the photo-forward tile. See the playbook's *Feed-grid differentiation* rule.
 - Render crisp, correctly-spelled Dutch text every time (the thing AI image-gen garbles).
@@ -72,7 +85,10 @@ Props files live in `props/<week>/{slug}.json` (grouped by week-start date). Ass
 }
 ```
 Line flags: `english` = spoken in English, shown without a translation. `recovery` = the
-teaching line, emphasized in gold. `switchTag` = show the floating tag during this line.
+teaching line, emphasized in gold. `switchTag` = show the floating tag during this line (leave it
+off and set `switchTagText` to "" to omit the tag entirely). When the reel has 3+ distinct
+`speaker` values, a speaker NAME tag is shown on every line so the viewer knows who is talking
+(see *Production lessons*). Subtitles are always centred.
 
 ### `IdiomReel` (reel → MP4; the funny idiom format)
 ```jsonc
@@ -94,6 +110,42 @@ Same subtitle-led, single-looped-clip backbone as `ScenarioReel`, plus the cutaw
 during this line, cut away full-frame to `literalImage` (framed as a daydream with the `literalLabel` badge +
 `literalCaption`); `recovery` = the reveal/meaning line, emphasized in gold ("WHAT IT MEANS"); `english` =
 spoken in English, no translation. One idiom per reel. Drop a 9:16 conversation `clip.mp4` and a 9:16 `literal.png`.
+
+### `IdiomShots` (stills idiom reel → MP4; no Seedance)
+```jsonc
+{
+  "shotWide": "<week>/{slug}/wide.png",                  // the two-shot, both standing
+  "shotWideGesture": "<week>/{slug}/wide-gesture.png",   // optional: same shot, speaker gesturing (hand up, mouth open)
+  "shotClose": "<week>/{slug}/close.png",                // close-up of the confused character, headroom above for the bubble
+  "apeImage": "<week>/{slug}/ape.png",                   // the literal-imagination still (square, centred subject, plain bg)
+  "focus": {"x": 0.66, "y": 0.4},                        // where she is in the wide (the push-in target), 0-1 fractions
+  "hook": {"l1": "...", "l2": "...", "emphasis": "..."}, // 3-second opener; emphasis is gold
+  "outro": {"kicker": "WHAT IT REALLY MEANS", "nl": "<idiom>", "literal": "lit. ...", "en": "<meaning>", "cta": "...", "handle": "@dutchwithjoost"},
+  "lines": [
+    {"file": "<week>/{slug}/joost-1.mp3", "speaker": "Joost", "nl": "...", "en": "..."},
+    {"file": "<week>/{slug}/roos-2.mp3", "speaker": "Roos", "close": true, "imagine": true, "nl": "...", "en": "..."},
+    {"file": "<week>/{slug}/joost-3.mp3", "speaker": "Joost", "nl": "...", "en": "..."},
+    {"file": "<week>/{slug}/joost-4.mp3", "speaker": "Joost", "recovery": true, "gesture": true, "nl": "...", "en": "..."}
+  ]
+}
+```
+The idiom reel told as a SHOT SEQUENCE built from stills instead of a Seedance clip. Line flags: `close` = show the close-up + push-in during this line; `imagine` = pop the ape bubble over the close-up; `recovery` = the meaning line (gold "WHAT IT MEANS"); `gesture` = from this line on, switch the wide to `shotWideGesture` and hold it (one dissolve, no toggling). `focus` aims the push-in at her. Durations auto-measured from the voice files. It is a reel (MP4) but ends on the outro card, so it **skips the loop-check**. No image-to-video clip — this is the Seedance-free way to make an idiom reel. The gesture/close frames must be made by **attaching `wide.png` and changing only the subject**, so the cross-dissolves animate just that person.
+
+### `PhraseReel` (spoken carousel → MP4; the cheap "talking carousel")
+```jsonc
+{
+  "theme": "Bij de bakker",                       // small kicker on each phrase card
+  "handle": "@dutchwithjoost",
+  "coverImage": "<week>/{slug}/cover.png",         // ONE full-bleed 9:16 watercolor backdrop, behind every card
+  "cover": {"kicker": "HEAR IT OUT LOUD", "title": "...", "sub": "..."},  // opening title card
+  "phrases": [
+    {"file": "<week>/{slug}/phrase-1.mp3", "nl": "Mag ik een bruin brood?", "en": "Can I have a brown bread?", "when": "Ordering bread"}
+  ],
+  "outro": {"title": "...", "sub": "..."},          // closing CTA card (solid blue)
+  "pacing": {"cover": 2.8, "leadIn": 0.3, "gap": 0.5, "tail": 0.6, "outro": 4.0}  // all optional; defaults in PhraseReel.tsx
+}
+```
+One spoken card per `phrases[]` entry, each holding for its `file`'s real audio length (measured at render time, exactly like `ScenarioReel` — you never note durations). `when` is optional (the small gold context pill). The audio files are short single-sentence mp3s you make by hand in ElevenLabs (Joost's voice) and drop in as `phrase-1.mp3 … phrase-N.mp3`. Slides = cover title card + one per phrase + CTA. 4–8 phrases is the sweet spot. It is a reel (MP4) but ends on the CTA card, so it **does NOT need the loop-check**. There is no image-to-video clip — that is what makes it the cheap sibling of `ScenarioReel`.
 
 ### `Cheatsheet` (carousel → PNG per slide)
 ```jsonc
@@ -219,6 +271,8 @@ Generate each dropped image at the **same aspect as the composition that renders
 | `ComicStory` | 1080×1350 (4:5) | `cover.png` + one `panel-N.png` per beat, each **full-bleed 4:5**, a calm area left for the speech bubble, **no bubbles or text in the image** |
 | `ScenarioReel` | 1080×1920 (9:16) | the scene image and the Seedance clip at **9:16** |
 | `IdiomReel` | 1080×1920 (9:16) | the conversation scene + clip at **9:16**, and the literal-imagination image at **9:16** full-bleed |
+| `IdiomShots` | 1080×1920 (9:16) | `wide.png` + `wide-gesture.png` + `close.png` at **9:16** (gesture + close made by attaching `wide.png` and changing only the subject), and `ape.png` at **1:1** with a centred subject on a plain background |
+| `PhraseReel` | 1080×1920 (9:16) | `cover.png` at **9:16**, full-bleed; subject framed upper/centre, a calmer bottom (the cover title sits there). The phrase plate dims the centre, so it need not be empty. No text in the image. |
 
 Instagram feed carousels are 4:5; reels are 9:16. A 9:16 image dropped into a 4:5 carousel only shows its vertical top band. That is what cut Joost's head on the first cheatsheet cover.
 
@@ -231,6 +285,8 @@ drop assets in `public/<week>/{slug}/` first, then:
 # Reel → MP4 in out/<week>/{slug}/ (its own folder, like a carousel; durations auto-detected, no manual timing)
 npx remotion render src/index.ts ScenarioReel out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json
 npx remotion render src/index.ts IdiomReel    out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json
+npx remotion render src/index.ts PhraseReel   out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json   # spoken carousel (no loop-check)
+npx remotion render src/index.ts IdiomShots   out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json   # stills idiom reel (no loop-check)
 
 # Carousel → PNG slides in out/<week>/{slug}/  (element-0.png … element-N.png)
 npx remotion render src/index.ts Cheatsheet   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
@@ -264,6 +320,16 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   the same lesson — it now sits on a scrim panel.
 - **The recovery line must be visually louder than the rest.** Gold + "SAY THIS ↓" makes the
   one teaching payload unmissable in a fast scroll.
+- **3+ speakers: the subtitle layer names the speaker; the clip never can.** A scenario reel loops
+  a silent, no-lip-sync clip, so it cannot show who is talking, and any beat-specific reaction
+  desyncs against the measured voice timing. With two speakers of different genders, voice + the
+  subtitle is enough. With **3+ speakers (especially two of the same gender), it is not** — a viewer
+  cannot map a voice to a face. `ScenarioReel` handles this: when a reel has more than two distinct
+  `speaker` values it automatically shows a speaker NAME tag on every line, which is the signal that
+  tells the viewer who is talking. Cast same-gender voices to sound clearly different, and keep the clip
+  to CONSTANT calm behavior (everyone's mouth closed, some a little more active than others), never a
+  timed reaction. **Subtitles are always centred** (brand rule, June 2026): they are never side-aligned
+  to the speaker, the name tag alone carries the who. Built for the table-talk-too-fast reel.
 - **Loop seam is clean when the clip starts and ends on the scene image.** Seedance 1 Pro takes
   both a begin frame and an end frame; setting both to the scene image makes every loop boundary
   land on the same frame, so the hard cut is invisible. (Before we used the end frame, the wrap
@@ -279,6 +345,13 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   `reel-lastframe.png` (the true final frame, to check it returns to the scene and matches frame 0).
 - **Natural gaps matter.** A 0.35s gap between turns reads as conversation; back-to-back audio
   feels robotic. Tunable via `pacing` in props.
+- **The outro end card needs time to read.** It holds for `pacing.outro` seconds (default 4.2s in
+  `timeline.ts`): it has four text rows (kicker, the Dutch line, the English, the CTA), so a short hold
+  reads as "it disappeared too fast." The fade-out runs over the last 30→10 frames and clamps to 0 ten
+  frames before the end, so the reel still ends on pure scene and loops cleanly. Lengthen the hold by
+  raising `pacing.outro` (per-post via props, or the default here), not by moving the fade later.
+- **Subtitle vertical position is `paddingBottom: 200` in the `Plate`** (June 2026, lowered from 250 so
+  the speech sits a touch closer to the bottom). Change it there; it applies to every reel line.
 - **`IdiomReel` is `ScenarioReel` plus a cutaway.** It reuses the looped-clip + subtitle + hook +
   loop-safe outro backbone, and adds the literal-imagination gag: the line flagged `imagine: true` cuts
   full-frame to `literalImage`, framed with a gold daydream border, a "WHAT I PICTURED" badge, and a short
@@ -319,12 +392,53 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   `x/y` props. That keeps Dutch spelling and articles exact (the whole point) and lets you nudge a label in
   Studio without regenerating the art. If a chip sits awkwardly, move its `x/y`; if an arrow streaks across
   the frame, the label was placed too far from its object.
+- **Place VocabScene labels against a coordinate grid, not by eye.** The label `x/y` and `point` are
+  fractions of the 1080×1350 canvas, and the scene is `objectFit: cover` at exactly that size, so fractions
+  map 1:1 to the image. Guessing from a downscaled preview is unreliable on a busy scene. The fast, accurate
+  way: temporarily render the scene under a 0.05 grid (a throwaway composition that draws labelled gridlines
+  over the `<Img>`), read each object's centre off the grid for its `point`, and place each chip in a
+  genuinely EMPTY region (no person, no other object, no other chip). Two gotchas: the title scrim (zIndex 3)
+  washes out anything above ~y0.22, so keep chips below it and let only the arrow reach up; and the bottom
+  "swipe →" hint lives at the bottom-right, so keep the last chip out of that corner. June 2026.
+- **For SMALL objects (a coffee cup, a knife), the 0.05 grid is too coarse — zoom in and drop marker dots.**
+  A cup is ~0.08 wide; eyeballing it off a full-frame grid put the `point` on the table *above* the cup four
+  times in a row, because at preview scale the bare table and the cup blur together. The reliable fix: in the
+  throwaway composition, scale the `<Img>` ~2.8× centred on the object (`transform: scale(K)` with the offset
+  maths so a fraction still maps to a screen position), then render 4–6 bright candidate dots at nearby `(x,y)`
+  values *labelled with their coordinates*. Pick the one sitting dead-centre on the object. Then **verify against
+  the rendered poster, not just the scene**: copy the rendered `element-0.png` into `public/` and zoom the same
+  way — the real arrow+dot can read differently (the cup's saucer vs its bulb is a 0.03 difference in y). June 2026.
+- **VocabScene arrow tails get a white casing, not bare brand-blue.** `brand.blue` (#0025DB) is dark and
+  disappears into the warm watercolour (shadows, dark coffee, jeans), so a tail can blend into the scene and you
+  lose what it points at. Each tail is drawn as two stacked `<line>`s — a wider white casing (`strokeWidth 7`,
+  opacity 0.9) under the blue core (`strokeWidth 3.5`) — and the target dot gets a white ring under the gold/blue
+  dot. The white halo makes both read on dark, warm, AND light areas. This is a brand-level change in
+  `VocabScene.tsx`, so every vocab-scene post gets it. June 2026.
+- **`PhraseReel` is the cheap "talking carousel": a still + audio, no clip.** It reuses `ScenarioReel`'s exact
+  auto-duration engine (`calculateMetadata` reads each sentence's mp3 length, `computePhraseTimeline` lays them
+  out) but drops the expensive image-to-video step — there is no Seedance clip, just one watercolor backdrop and
+  one short voice clip per sentence, so its marginal cost over a silent cheatsheet is the TTS alone. Unlike
+  `ScenarioReel`/`IdiomReel` it ends on a terminal blue CTA card (not a return to the scene), so it is a reel in
+  format but **skips the loop-check** — its first and last frames are deliberately different. Legibility over the
+  watercolor uses the same dark-plate lesson as the reel subtitles; emojis are drawn as inline SVG (the speaker
+  glyph), never as font emoji, which do not render reliably in headless Chromium. Built June 2026 to give
+  carousels pronounceable audio without paying for a reel clip.
+- **`IdiomShots` is the Seedance-free idiom reel: a shot sequence built from stills.** It tells the idiom beat
+  as a wide two-shot → push-in to the confused character's close-up → pull-back, with the ape in a thought
+  bubble over her and a single held gesture for the speaker. The "camera" is a scale + cross-dissolve between
+  the `wide` and `close` stills toward `focus`; the speaker's gesture and her close-up come from extra frames
+  made by **attaching `wide.png` and changing only that one person**, so the cross-dissolve animates just an
+  arm/mouth and never the background. Two rules carry the whole format: (1) the pose/gesture/close frames must
+  be near-identical to the base except the one change, or the dissolve reads as a jump; (2) leave headroom
+  above her in the close-up for the bubble. The reusable engine is `FrameClip` in `FrameAnim.tsx` (stills →
+  mimicked motion). Like `PhraseReel`, it ends on the outro card and **skips the loop-check**. Built June 2026
+  to make idiom reels (and, later, any reel) without paying for image-to-video.
 
 ---
 
 ## Folders
 
-- `src/compositions/` — the three compositions.
+- `src/compositions/` — the post compositions (reels, carousels, and the spoken `PhraseReel`).
 - `src/components.tsx` — shared brand furniture (the wordmark pill, counter, dots).
 - `src/logo.tsx` — the DWJ logo mark (`LogoMark`), render-safe and color-configurable, drawn into the wordmark and the reel outro.
 - `src/theme.ts` — brand colors (mirror of `brand/brand-colors.json`).

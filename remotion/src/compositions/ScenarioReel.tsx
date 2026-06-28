@@ -70,8 +70,9 @@ const Plate: React.FC<{children: React.ReactNode}> = ({children}) => {
   const frame = useCurrentFrame();
   const o = interpolate(frame, [0, 7], [0, 1], {extrapolateRight: 'clamp'});
   const y = interpolate(frame, [0, 7], [26, 0], {extrapolateRight: 'clamp'});
+  // The subtitle is ALWAYS centred (brand rule, June 2026): never side-aligned to the speaker.
   return (
-    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 250}}>
+    <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 200, paddingLeft: 70, paddingRight: 70}}>
       <div style={{opacity: o, transform: `translateY(${y}px)`, maxWidth: 920, background: 'rgba(17,17,20,0.74)', borderRadius: 30, padding: '30px 44px', textAlign: 'center'}}>
         {children}
       </div>
@@ -79,19 +80,35 @@ const Plate: React.FC<{children: React.ReactNode}> = ({children}) => {
   );
 };
 
-const Subtitle: React.FC<{line: ReelLine}> = ({line}) => {
+// A small name tag above the line, so the viewer always knows WHO is speaking. The looped,
+// no-lip-sync clip can never show this, so the subtitle layer carries it. Shown automatically
+// when a reel has 3+ speakers (where voice + gender alone is ambiguous); 2-speaker reels are
+// unchanged. Pair it with `side` to also sit the line on the speaker's side of the frame.
+const SpeakerTag: React.FC<{name: string}> = ({name}) => (
+  <span style={{display: 'inline-block', background: brand.blue, color: brand.white, fontFamily: body, fontWeight: 800, fontSize: 26, letterSpacing: 2, padding: '6px 18px', borderRadius: 999, textTransform: 'uppercase'}}>{name}</span>
+);
+
+const Subtitle: React.FC<{line: ReelLine; showName: boolean}> = ({line, showName}) => {
+  const tagRow =
+    showName || line.recovery ? (
+      <div style={{display: 'flex', gap: 12, justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', marginBottom: 16}}>
+        {showName ? <SpeakerTag name={line.speaker} /> : null}
+        {line.recovery ? (
+          <span style={{display: 'inline-block', background: brand.gold, color: brand.goldText, fontFamily: body, fontWeight: 800, fontSize: 24, letterSpacing: 2, padding: '8px 18px', borderRadius: 999}}>SAY THIS ↓</span>
+        ) : null}
+      </div>
+    ) : null;
   if (line.english) {
     return (
       <Plate>
+        {tagRow}
         <div style={{fontFamily: body, fontWeight: 600, fontSize: 54, lineHeight: 1.15, color: brand.white}}>{line.line}</div>
       </Plate>
     );
   }
   return (
     <Plate>
-      {line.recovery ? (
-        <div style={{display: 'inline-block', background: brand.gold, color: brand.goldText, fontFamily: body, fontWeight: 800, fontSize: 24, letterSpacing: 2, padding: '8px 18px', borderRadius: 999, marginBottom: 18}}>SAY THIS ↓</div>
-      ) : null}
+      {tagRow}
       <div style={{fontFamily: display, fontWeight: 600, fontSize: line.recovery ? 70 : 62, lineHeight: 1.1, color: line.recovery ? brand.gold : brand.white}}>{line.nl}</div>
       <div style={{fontFamily: body, fontWeight: 500, fontSize: 38, color: 'rgba(255,255,255,0.86)', marginTop: 12}}>{line.en}</div>
     </Plate>
@@ -104,8 +121,8 @@ const Hook: React.FC<{hook: ReelProps['hook']}> = ({hook}) => {
   return (
     <AbsoluteFill style={{alignItems: 'center', paddingTop: 150, opacity: fade}}>
       <div style={{maxWidth: 940, textAlign: 'center', background: 'rgba(0,0,0,0.42)', borderRadius: 36, padding: '38px 52px'}}>
-        <div style={{fontFamily: display, fontWeight: 600, fontSize: 70, lineHeight: 1.08, color: brand.white}}>{hook.l1}</div>
-        <div style={{fontFamily: display, fontWeight: 600, fontSize: 70, lineHeight: 1.08, color: brand.white}}>{hook.l2}</div>
+        {hook.l1 ? <div style={{fontFamily: display, fontWeight: 600, fontSize: 70, lineHeight: 1.08, color: brand.white}}>{hook.l1}</div> : null}
+        {hook.l2 ? <div style={{fontFamily: display, fontWeight: 600, fontSize: 70, lineHeight: 1.08, color: brand.white}}>{hook.l2}</div> : null}
         <div style={{fontFamily: display, fontWeight: 600, fontSize: 104, lineHeight: 1.05, color: brand.gold}}>{hook.emphasis}</div>
       </div>
     </AbsoluteFill>
@@ -127,7 +144,7 @@ const EndCard: React.FC<{outro: ReelProps['outro']; frames: number}> = ({outro, 
   // Finish the fade-out 8 frames early and clamp at 0, so the final frames are
   // pure scene (no faint endcard ghost). This makes the reel's last frame match
   // its first frame, so the Instagram loop is scene → scene with nothing left over.
-  const fadeOut = interpolate(frame, [frames - 24, frames - 8], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const fadeOut = interpolate(frame, [frames - 30, frames - 10], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const o = Math.min(fadeIn, fadeOut);
   const y = interpolate(frame, [0, 12], [40, 0], {extrapolateRight: 'clamp'});
   return (
@@ -150,6 +167,9 @@ export const ScenarioReel: React.FC<ReelProps> = (props) => {
   const {starts, outroStart, totalSeconds} = computeTimeline(durations, pacing);
   const clipFrames = Math.max(1, sec(clipSeconds));
   const endCardFrames = sec(totalSeconds) - sec(outroStart);
+  // Show speaker name tags only when there are 3+ speakers, where voice alone is ambiguous
+  // (e.g. two female voices). Two-speaker reels stay clean and unchanged.
+  const showNames = new Set(props.lines.map((l) => l.speaker)).size > 2;
 
   return (
     <AbsoluteFill style={{backgroundColor: '#000'}}>
@@ -166,7 +186,7 @@ export const ScenarioReel: React.FC<ReelProps> = (props) => {
             <Audio src={staticFile(l.file)} />
           </Sequence>
           <Sequence from={sec(starts[i])} durationInFrames={sec(durations[i] + 0.2)} name={`subtitle ${i + 1}`}>
-            <Subtitle line={l} />
+            <Subtitle line={l} showName={showNames} />
           </Sequence>
           {l.switchTag ? (
             <Sequence from={sec(starts[i])} durationInFrames={sec(durations[i] + 0.2)} name={`switch tag ${i + 1}`}>

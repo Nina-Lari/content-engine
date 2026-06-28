@@ -66,6 +66,8 @@ put them in anyway.) Instead the single motion prompt:
    character design, composition, and lighting" (this stands in for the image-style negatives —
    there is no negative field).
 
+**Avoid positive conversational cues, not only the negative list.** The bigger trap than a "no talking" list is describing the act of speaking at all. Words like *talking, telling a story, a lively story, chatting, mid-conversation, mid-story, explaining, animated and talking* make the model animate the mouth even when the same prompt says "mouth closed." Describe only physical body language (a hand raised, a slow nod, a lean, a sip, a blink), never the act of speaking. This applies to the **begin-frame still** too: if the scene image is drawn with an open mouth mid-sentence, the clip continues from there and the mouth keeps moving, so generate the still with every character's mouth closed (a gentle closed-mouth smile). For a multi-speaker scene, the on-screen speaker name tags say who is talking, so the clip never needs to show anyone speaking.
+
 In the motion prompt it is fine to name a character alongside their position ("Maya, the woman on
 the right") — that is the video model, not the image model. The *image* prompt still avoids names
 (see Reference logic). Heavier models with their own lip-sync (Kling, Veo, Sora) are only for

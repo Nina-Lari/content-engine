@@ -4,7 +4,7 @@ export const FPS = 30;
 export const sec = (s: number) => Math.round(s * FPS);
 
 export type Pacing = {leadIn: number; gap: number; tail: number; outro: number};
-export const DEFAULT_PACING: Pacing = {leadIn: 0.4, gap: 0.35, tail: 0.6, outro: 2.8};
+export const DEFAULT_PACING: Pacing = {leadIn: 0.4, gap: 0.35, tail: 0.6, outro: 4.2};
 
 export function computeTimeline(durations: number[], pacing: Pacing) {
   const starts: number[] = [];

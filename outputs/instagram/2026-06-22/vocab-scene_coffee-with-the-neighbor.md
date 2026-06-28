@@ -32,16 +32,18 @@
 | 8   | de plant     | A1    | yes      | de-word (plant).                   |
 | 9   | de kast      | A1    | yes      | de-word (cupboard).                |
 | 10  | de klok      | A1    | yes      | de-word (clock).                   |
+| 11  | het kopje    | A1    | yes      | het-word (diminutive of kop); the coffee cup. |
+| 12  | het vloerkleed | A1/A2 | yes    | het-word (the rug / area rug); concrete household item, glossed. |
 
 ## Voice check
 
-Checked caption, title, pinned comment. Clean: caption opens on the concrete moment (neighbor over, blanking on the word for the couch) and closes on a concrete action (name five things tonight). No tricolon, no antithesis, no grand frame.
+Checked caption, title, pinned comment. Rewrote the caption to sound like a person, not a brand explaining a method: cut the learning-science line ("easier to remember than a word list"), which read as AI. Now opens on a warm concrete hook (the room you are sitting in) and the words, with one human, concrete tip (de or het is the hard part, no rule, learn the article with the word: het raam but de tafel). Closes on a concrete action. English A1 and literal. No antithesis, tricolon, or grand frame.
 
 ## ASSETS TO GENERATE (save into remotion/public/2026-06-22/coffee-with-the-neighbor/)
 
 SCENE IMAGE (ChatGPT). Generate the scene with NO text and breathing room around each object (the labels are added by Remotion). Attach: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png. Paste this exact prompt:
 
-Create a warm, hand-drawn storybook illustration, VERTICAL 4:5 (1080x1350): a cosy, lived-in Dutch living room with Joost sitting on the couch with two coffee cups on the table, as if a neighbor just dropped by. Show the everyday objects to be labelled clearly separated, each with calm empty space around it: the couch, the table, a chair, a lamp, the television, the window, the curtains, a houseplant, a cupboard, and a wall clock. Spread them around the room so each has room for a small label beside it. Match the STYLE of style-ref-1 and style-ref-2 (do not copy their objects). Reproduce JOOST exactly from joost-reference. IMPORTANT: no text, no letters, no numbers, and no labels anywhere in the image. Every word is added later by Remotion.
+Create a warm, hand-drawn storybook illustration, VERTICAL 4:5 (1080x1350): a cosy, lived-in Dutch living room with Joost sitting on the couch with two coffee cups on the table, as if a neighbor just dropped by. Show the everyday objects to be labelled clearly separated, each with calm empty space around it: the couch, the table, a chair, a lamp, the television, the window, the curtains, a houseplant, a cupboard, a wall clock, the two coffee cups on the table, and a floor rug under the table. Spread them around the room so each has room for a small label beside it. Match the STYLE of style-ref-1 and style-ref-2 (do not copy their objects). Reproduce JOOST exactly from joost-reference. IMPORTANT: no text, no letters, no numbers, and no labels anywhere in the image. Every word is added later by Remotion.
 
 Illustration style:
 Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
@@ -97,6 +99,8 @@ The labels (also written into props), from the bank:
 8. de plant (the plant)
 9. de kast (the cupboard)
 10. de klok (the clock)
+11. het kopje (the cup)
+12. het vloerkleed (the rug)
 
 ## RENDER (after Status: approved and scene.png saved)
 
@@ -105,11 +109,12 @@ The labels (also written into props), from the bank:
 
 ## CAPTION (paste into Instagram)
 
-Dutch living room vocabulary, the words for your own home
-Your neighbor is over for coffee, you want to keep it in Dutch, and you blank on the word for the thing you are sitting on. Here is your own living room, labelled: de bank, de tafel, het raam, and the rest. You see this room every night, so these are the words that actually stick.
-Walk around your living room tonight and say five of them out loud. Save this for your next coffee, and send it to whoever is learning with you.
+Dutch living room vocabulary
+The words for the room you are probably sitting in right now: the couch, the table, the lamp, the window. Twelve of them, all labelled on the picture in Dutch.
+The tricky part is the de or het in front of each word. Het raam (window) but de tafel (table). There is no rule, so learn the article together with the word.
+Save this and name five things around you out loud in Dutch. Send it to someone who is learning too.
 Start learning Dutch with Joost: link in bio.
-Keywords woven: Dutch living room vocabulary, Dutch household words, Dutch vocabulary for beginners, learn Dutch at home, Dutch for expats
+Keywords woven: Dutch living room vocabulary, Dutch household words, learn Dutch vocabulary, de or het, Dutch for beginners, Dutch for expats
 
 ## PINNED COMMENT
 

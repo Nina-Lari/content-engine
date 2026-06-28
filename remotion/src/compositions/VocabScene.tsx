@@ -68,8 +68,12 @@ const Poster: React.FC<{p: VocabSceneProps}> = ({p}) => (
       {p.labels.map((l, i) =>
         l.point ? (
           <g key={i}>
-            <line x1={l.x * W} y1={l.y * H} x2={l.point.x * W} y2={l.point.y * H} stroke={brand.blue} strokeWidth={3} strokeLinecap="round" opacity={0.6} />
-            <circle cx={l.point.x * W} cy={l.point.y * H} r={8} fill={brand.gold} stroke={brand.blue} strokeWidth={2} />
+            {/* white casing under the core so the tail reads on dark, warm, AND light areas of the scene */}
+            <line x1={l.x * W} y1={l.y * H} x2={l.point.x * W} y2={l.point.y * H} stroke={brand.white} strokeWidth={7} strokeLinecap="round" opacity={0.9} />
+            <line x1={l.x * W} y1={l.y * H} x2={l.point.x * W} y2={l.point.y * H} stroke={brand.blue} strokeWidth={3.5} strokeLinecap="round" opacity={0.95} />
+            {/* target dot: white ring + gold core so the endpoint pops against the watercolor */}
+            <circle cx={l.point.x * W} cy={l.point.y * H} r={10} fill={brand.white} opacity={0.92} />
+            <circle cx={l.point.x * W} cy={l.point.y * H} r={6.5} fill={brand.gold} stroke={brand.blue} strokeWidth={1.5} />
           </g>
         ) : null
       )}

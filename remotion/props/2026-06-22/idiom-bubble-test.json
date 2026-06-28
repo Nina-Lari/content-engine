@@ -1,0 +1,15 @@
+{
+  "clip": "2026-06-22/table-talk-too-fast/clip.mp4",
+  "literalImage": "2026-06-22/coffee-with-the-neighbor/scene.png",
+  "literalLabel": "WHAT I PICTURED",
+  "literalCaption": "a real monkey... out of his sleeve?!",
+  "imagineStyle": "bubble",
+  "hook": {"l1": "A monkey is about", "l2": "to climb out of", "emphasis": "HIS SLEEVE??"},
+  "lines": [
+    {"file": "2026-06-22/table-talk-too-fast/joost-1.mp3", "speaker": "Joost", "nl": "Aha, nu komt de aap uit de mouw!", "en": "Aha, now the monkey comes out of the sleeve!"},
+    {"file": "2026-06-22/table-talk-too-fast/sanne-2.mp3", "speaker": "Sanne", "imagine": true, "nl": "Een aap? Uit je mouw?", "en": "A monkey? Out of your sleeve?"},
+    {"file": "2026-06-22/table-talk-too-fast/maya-3.mp3", "speaker": "Joost", "nl": "Haha, nee. Geen echte aap.", "en": "Haha, no. Not a real monkey."},
+    {"file": "2026-06-22/table-talk-too-fast/joost-4.mp3", "speaker": "Sanne", "recovery": true, "nl": "Het betekent: nu komt de waarheid.", "en": "It means: now the truth comes out."}
+  ],
+  "outro": {"kicker": "WHAT IT REALLY MEANS", "nl": "nu komt de aap uit de mouw", "literal": "lit. now the monkey comes out of the sleeve", "en": "now the hidden truth comes out", "cta": "Save it for the next one you hear.", "handle": "@dutchwithjoost"}
+}

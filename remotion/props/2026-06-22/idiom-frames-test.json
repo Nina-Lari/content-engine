@@ -1,0 +1,11 @@
+{
+  "frames": [
+    {"src": "2026-06-22/idiom-frames-test/pose-1.png", "hold": 1.1},
+    {"src": "2026-06-22/idiom-frames-test/pose-2.png", "hold": 0.8},
+    {"src": "2026-06-22/idiom-frames-test/pose-3.png", "hold": 0.8},
+    {"src": "2026-06-22/idiom-frames-test/pose-4.png", "hold": 1.6}
+  ],
+  "xfade": 0.28,
+  "kenBurns": 0.04,
+  "subtitle": {"nl": "Een aap? Uit je mouw?", "en": "A monkey? Out of your sleeve?"}
+}

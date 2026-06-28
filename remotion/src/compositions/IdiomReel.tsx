@@ -23,9 +23,10 @@ export type IdiomLine = {
 
 export type IdiomReelProps = {
   clip: string; // the conversation clip — ONE clip, looped (like ScenarioReel)
-  literalImage: string; // full-frame "what I pictured" still — the visual gag
+  literalImage: string; // the "what I pictured" still — the visual gag
   literalLabel: string; // badge over the cutaway, e.g. "WHAT I PICTURED"
-  literalCaption: string; // the literal gloss under the badge
+  literalCaption: string; // the literal gloss under the badge (cutaway mode only)
+  imagineStyle?: 'cutaway' | 'bubble'; // how the imagination shows: full-frame cutaway (default) or a thought bubble over the conversation
   hook: {l1: string; l2: string; emphasis: string};
   lines: IdiomLine[];
   outro: {kicker: string; nl: string; literal: string; en: string; cta: string; handle: string};
@@ -153,6 +154,44 @@ const Cutaway: React.FC<{image: string; label: string; caption: string; frames: 
   );
 };
 
+// The imagination as a THOUGHT BUBBLE over the conversation (an alternative to the
+// full-frame Cutaway, chosen with imagineStyle: 'bubble'). A balloon pops up holding the
+// literal image, the picture "rises out" inside it over the first second, then the whole
+// bubble pops away on the next line. The conversation stays visible behind it. Built for
+// "de aap komt uit de mouw" — the ape climbing out of the sleeve.
+export const ThoughtBubble: React.FC<{image: string; frames: number}> = ({image, frames}) => {
+  const frame = useCurrentFrame();
+  const D = 560;
+  // pop in with a slight overshoot, hold, then pop out before the next line
+  const scaleIn = interpolate(frame, [0, 7, 12], [0, 1.08, 1], {extrapolateRight: 'clamp'});
+  const outF = interpolate(frame, [frames - 8, frames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const scale = scaleIn * outF;
+  const op = interpolate(frame, [0, 4, frames - 6, frames], [0, 1, 1, 0], {extrapolateRight: 'clamp'});
+  // the picture "comes out": rises and grows a touch inside the bubble over the first second
+  const rise = interpolate(frame, [4, 32], [54, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const inScale = interpolate(frame, [4, 32], [0.95, 1.07], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const dot = (i: number) => interpolate(frame, [7 + i * 3, 13 + i * 3], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return (
+    <AbsoluteFill style={{justifyContent: 'flex-start', alignItems: 'center', paddingTop: 120}}>
+      <div style={{position: 'relative', width: D, opacity: op}}>
+        {/* the balloon: a white-ringed, dark-outlined circle holding the rising picture */}
+        <div style={{position: 'relative', width: D, height: D, transform: `scale(${scale})`, transformOrigin: 'center bottom'}}>
+          <div style={{position: 'absolute', inset: 24, borderRadius: '50%', overflow: 'hidden', background: '#fff'}}>
+            <Img src={staticFile(image)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `translateY(${rise}px) scale(${inScale})`}} />
+          </div>
+          <div style={{position: 'absolute', inset: 0, borderRadius: '50%', border: '12px solid #fff', boxShadow: `0 0 0 7px ${brand.goldText}, 0 20px 60px rgba(0,0,0,0.45)`}} />
+        </div>
+        {/* trailing thought dots, pointing down toward the thinker */}
+        <div style={{position: 'absolute', top: D - 8, left: '50%', transform: `translateX(-50%) scale(${scale})`, transformOrigin: 'top center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12}}>
+          {[0, 1, 2].map((i) => (
+            <div key={i} style={{width: 44 - i * 12, height: 44 - i * 12, borderRadius: '50%', background: '#fff', boxShadow: `0 0 0 5px ${brand.goldText}`, transform: `scale(${dot(i)})`}} />
+          ))}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 // End CTA as a card OVER the scene. Fades in, holds, then fades fully out BEFORE the
 // last frame, so the reel ends on the conversation scene and loops cleanly (scene →
 // scene, never a hard cut). Same loop-safe fade as ScenarioReel. (See README.)
@@ -198,8 +237,12 @@ export const IdiomReel: React.FC<IdiomReelProps> = (props) => {
             <Audio src={staticFile(l.file)} />
           </Sequence>
           {l.imagine ? (
-            <Sequence from={sec(starts[i])} durationInFrames={sec(durations[i] + 0.2)} name={`cutaway ${i + 1}`}>
-              <Cutaway image={props.literalImage} label={props.literalLabel} caption={props.literalCaption} frames={sec(durations[i] + 0.2)} />
+            <Sequence from={sec(starts[i])} durationInFrames={sec(durations[i] + 0.2)} name={`imagine ${i + 1}`}>
+              {props.imagineStyle === 'bubble' ? (
+                <ThoughtBubble image={props.literalImage} frames={sec(durations[i] + 0.2)} />
+              ) : (
+                <Cutaway image={props.literalImage} label={props.literalLabel} caption={props.literalCaption} frames={sec(durations[i] + 0.2)} />
+              )}
             </Sequence>
           ) : null}
           <Sequence from={sec(starts[i])} durationInFrames={sec(durations[i] + 0.2)} name={`subtitle ${i + 1}`}>

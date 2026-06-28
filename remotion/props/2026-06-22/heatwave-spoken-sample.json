@@ -1,0 +1,22 @@
+{
+  "theme": "Hittegolf",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/table-talk-too-fast/starting-frame.png",
+  "cover": {
+    "kicker": "HEAR IT OUT LOUD",
+    "title": "Dutch for 40 degrees",
+    "sub": "Six words you'll hear all heatwave. Say them out loud."
+  },
+  "phrases": [
+    {"file": "2026-06-22/heatwave-spoken-sample/phrase-1.wav", "nl": "Het is snikheet vandaag.", "en": "It's sweltering today.", "when": "snikheet = boiling hot"},
+    {"file": "2026-06-22/heatwave-spoken-sample/phrase-2.wav", "nl": "Morgen wordt het een tropische dag.", "en": "Tomorrow will be a tropical day.", "when": "30 degrees or more"},
+    {"file": "2026-06-22/heatwave-spoken-sample/phrase-3.wav", "nl": "Wat een tropennacht!", "en": "What a tropical night!", "when": "stays above 20 degrees"},
+    {"file": "2026-06-22/heatwave-spoken-sample/phrase-4.wav", "nl": "Het is bloedheet buiten.", "en": "It's boiling hot outside.", "when": "literally blood-hot"},
+    {"file": "2026-06-22/heatwave-spoken-sample/phrase-5.wav", "nl": "Het is om te smelten.", "en": "It's hot enough to melt.", "when": "while melting"},
+    {"file": "2026-06-22/heatwave-spoken-sample/phrase-6.wav", "nl": "40 graden? Lekker weer, hè?", "en": "40 degrees? Nice weather, eh?", "when": "said at ANY temperature"}
+  ],
+  "outro": {
+    "title": "Which one will you use first?",
+    "sub": "Save it for the next hot day."
+  }
+}

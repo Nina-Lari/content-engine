@@ -45,7 +45,7 @@ Every final image and reel is produced by the `remotion/` project, not CapCut or
 - `brand/instagram-voice.md` -- the editorial voice and tone identity: brand-specific tone, emotional-accuracy rules, and per-format lessons captured from past refine sessions. Apply it to every caption, slide, dialogue, and quiz. This is the file the refine "capture a lesson" prompt writes back to.
 - `brand/dutch-grammar.md` -- the "is the Dutch correct?" reference for the Dutch language check: word order, conjugation and the `-t`/kofschip rules, de/het, niet/geen, register (`u` vs `je`), and a 10-point error checklist. Load whenever Dutch is written or checked (batch, refine, check).
 - `brand/dutch-level-guide.md` -- the "is the Dutch easy enough?" reference for the Dutch language check: the A1 target for our audience, the three difficulty axes (vocabulary, grammar, sentence length), red flags, the rewrite-down-to-A1 ladder, and the *Sanctioned exceptions* rule (which types may teach above A1). Load alongside `dutch-grammar.md`.
-- **The grounding banks for the language/knowledge post types** -- `brand/modal-particles.md` (particle), `brand/common-mistakes.md` (mistake), `brand/sound-more-dutch.md` (small-words), `brand/dutch-idioms.md` (idiom), `brand/vocab-scenes.md` (vocab-scene), `brand/knm-facts.md` (knm-quiz). **Load only the bank(s) for the types in the week being produced.** Each holds the verified, on-level source content for its type; never invent a particle sense, an idiom meaning, a civic fact, or a scene's words from memory, pull them from the bank. These are the new-type equivalent of `lexicon`/`quotes` for cheatsheets.
+- **The grounding banks for the language/knowledge post types** -- `brand/modal-particles.md` (particle), `brand/common-mistakes.md` (mistake), `brand/sound-more-dutch.md` (small-words), `brand/dutch-idioms.md` (idiom), `brand/vocab-scenes.md` (vocab-scene), `brand/knm-facts.md` (knm-quiz), `brand/spoken-carousels.md` (spoken-carousel). **Load only the bank(s) for the types in the week being produced** (the `spoken-carousels.md` bank loads every week, since that slot is standing). Each holds the verified, on-level source content for its type; never invent a particle sense, an idiom meaning, a civic fact, a scene's words, or a spoken-carousel's sentences from memory, pull them from the bank. These are the new-type equivalent of `lexicon`/`quotes` for cheatsheets.
 - `strategy/positioning.md` -- value props to thread as undercurrent.
 - `strategy/personas.md` -- who each post targets and their pains.
 - `customer-intelligence/insights/*.json` -- `lexicon` and `quotes` (phrasing for cheatsheets and dialogue), `pains` and `jtbd` (situations, quiz scenarios, angles), `keyword_candidates` (caption SEO).
@@ -201,7 +201,7 @@ Status lives on individual posts (`idea | queued | produced`), so a week can be 
 - **If no backlog exists:** name a theme on the fly from a recurring moment in the insights, spread it across the week's settings, derive one post per setting (2 reels max), and tell the user they can run `/instagram-content plan` to build a curated backlog.
 - **If a theme hint was passed:** prefer matching posts/pack, or theme the on-the-fly week to it.
 
-Sanity-check the week's shape before producing: **2 reels (the theme anchor) + 5 carousels chosen from the full menu** (`cheatsheet`, `quiz`, `article-remix`, `vocab-scene`, `particle`, `small-words`, `mistake`, `knm-quiz`), with **a maximum of 2 reels** (never more) and **at least one reel**. One of the two reels may be an **`idiom-reel`** (the funny idiom format, one idiom per week, renders via `IdiomReel`) instead of a second scenario-reel. Fill the on-theme slots from the queued pack / insights; fill the rest with **evergreen reference posts drawn from their banks** (load only the banks you need: `modal-particles.md`, `common-mistakes.md`, `sound-more-dutch.md`, `dutch-idioms.md`, `vocab-scenes.md`, `knm-facts.md`). Keep the week coherent: the reels plus one or two on-theme carousels carry the moment, the rest stand alone (a vocab scene staged in the theme's setting counts as on-theme). **Avoid repeats** by checking the backlog's `reference_log` (don't reuse a particle, idiom, KNM indicator, small-word set, mistake, or scene already produced). If a queued selection breaks the shape (three or more reels, or all of one type), warn and suggest a swap, but proceed if confirmed. Honor an explicit count if the user asked for a different number. Assign each post a persona and a positioning thread (evergreen posts get a light positioning thread, not a forced moment).
+Sanity-check the week's shape before producing: **2 reels (the theme anchor) + 1 spoken-carousel (a standing weekly slot) + 5 carousels chosen from the full menu** (`cheatsheet`, `quiz`, `article-remix`, `vocab-scene`, `particle`, `small-words`, `mistake`, `knm-quiz`), with **a maximum of 2 reels** (never more) and **at least one reel**. The **`spoken-carousel`** is its **own standing category, separate from the carousels**: useful sentences pronounced out loud, rendered to an MP4 via `PhraseReel`. Produce **one every week**, its sentence-set drawn from `brand/spoken-carousels.md`. It does NOT count toward the 2-reel cap (no image-to-video clip, so it costs like a carousel). That makes the default week 8 posts; on a busy week trim to 7 by dropping one evergreen carousel, keeping the reels and the spoken-carousel. One of the two reels may be an **`idiom-reel`** (the funny idiom format, one idiom per week, renders via `IdiomReel`) instead of a second scenario-reel. Fill the on-theme slots from the queued pack / insights; fill the rest with **evergreen reference posts drawn from their banks** (load only the banks you need: `modal-particles.md`, `common-mistakes.md`, `sound-more-dutch.md`, `dutch-idioms.md`, `vocab-scenes.md`, `knm-facts.md`). Keep the week coherent: the reels plus one or two on-theme carousels carry the moment, the rest stand alone (a vocab scene staged in the theme's setting counts as on-theme). **Avoid repeats** by checking the backlog's `reference_log` (don't reuse a particle, idiom, KNM indicator, small-word set, mistake, or scene already produced). If a queued selection breaks the shape (three or more reels, or all of one type), warn and suggest a swap, but proceed if confirmed. Honor an explicit count if the user asked for a different number. Assign each post a persona and a positioning thread (evergreen posts get a light positioning thread, not a forced moment).
 
 Pick `<week>` = the week-start date (the date the user is planning from, else today). Every file in this batch uses that same `<week>` value.
 
@@ -214,7 +214,7 @@ Write `outputs/instagram/<week>/_plan.md`:
 
 Theme: {the recurring moment/tension, e.g. "the moment they switch to English on you", or "Mixed"}
 Settings this week: {the distinct setting per on-theme post, e.g. bakery, supermarket, pharmacy, café, doctor, phone}
-Cadence: 7 feed posts (one per day, max 2 reels) + daily Stories.
+Cadence: 8 feed posts (the 7-day grid + the standing spoken-carousel, max 2 reels) + daily Stories.
 Grounded in: {intelligence sources / pack id}
 
 | Day | Post file | Type | Setting / topic | On-theme | Hook | Job | Status |
@@ -226,8 +226,9 @@ Grounded in: {intelligence sources / pack id}
 | Fri | {type}_{slug}.md | {chosen carousel type} | {setting or bank topic} | yes / evergreen | {hook} | saves | draft |
 | Sat | {type}_{slug}.md | {chosen carousel type} | {setting or bank topic} | yes / evergreen | {hook} | comments | draft |
 | Sun | {type}_{slug}.md | {chosen carousel type} | {flex or bank topic} | flex / evergreen | {hook} | reach + SEO | draft |
+| +1 | spoken-carousel_{slug}.md | spoken-carousel | {setting or bank topic} | yes / evergreen | {hook} | listen + saves | draft |
 
-(Reels are fixed on Mon + Thu. The five carousel slots are the types confirmed from the menu: cheatsheet, quiz, article-remix, vocab-scene, particle, small-words, mistake, idiom, knm-quiz. "Setting / topic" holds the setting for on-theme posts or the bank topic for evergreen ones, e.g. `particle: toch`, `knm-quiz: zorgverzekering`.)
+(Reels are fixed on Mon + Thu; the spoken-carousel is the standing +1 (post it as a second midweek post). The five carousel slots are the types confirmed from the menu: cheatsheet, quiz, article-remix, vocab-scene, particle, small-words, mistake, knm-quiz (idiom is now an `idiom-reel`, not a carousel). The spoken-carousel's sentence-set comes from `brand/spoken-carousels.md`. "Setting / topic" holds the setting for on-theme posts or the bank topic for evergreen ones, e.g. `particle: toch`, `knm-quiz: zorgverzekering`, `spoken-carousel: bakery`.)
 
 ## Stories (daily)
 - Reshare each day's feed post to Stories.
@@ -270,7 +271,7 @@ Run the **Voice check** on the English before writing the post out (the editoria
 
 - Set the `status` of each produced post to `produced` in `idea-backlog.json` (leave the rest of each pack untouched).
 - For each **evergreen reference post** produced (particle, small-words, mistake, idiom, vocab-scene, knm-quiz), append its specific topic to the backlog's `reference_log` so future weeks do not repeat it. `reference_log` is a flat object keyed by type, e.g. `{"particle": ["nog", "toch"], "idiom": ["animal idioms"], "knm-quiz": ["zorgverzekering eigen risico"], "vocab-scene": ["de keuken"]}`. Create it if it does not exist.
-- Report: the theme (or "mixed"), the date range, the `<week>` folder, the 7 posts (day, type, working title), runbook + props file paths, any gaps, and whether the brand kit had unfilled slots.
+- Report: the theme (or "mixed"), the date range, the `<week>` folder, the 8 posts (day, type, working title), runbook + props file paths, any gaps, and whether the brand kit had unfilled slots.
 - Before reporting, verify each runbook: every image prompt contains the full Style Block + Negative prompt text (not a placeholder), every caption ends with `Start learning Dutch with Joost: link in bio.`, and no props JSON or caption text contains an em-dash. Verify the **Voice check** ran: each English free-prose surface (caption, cover hook, slide subheads, engagement prompt, reel hook/outro, pinned comment) reads aloud like one person talking with no stacked AI-slop sentence shapes, and the runbook carries its one-line **Voice check** note.
 - Reminder, in this order: "These are drafts for your review -- nothing has been rendered. 1) Read each runbook and verify the content, especially the Dutch. 2) Refine any post with `/instagram-content refine <slug>`. 3) Generate the named assets into `remotion/public/<week>/<slug>/` (already created for you, just drop the files in). 4) Set `Status: approved`. 5) Render with `/instagram-render <slug>`."
 
@@ -309,12 +310,12 @@ The image steps below embed the brand **Style Block + Negative prompt verbatim**
 ```markdown
 # {Day} {Date} — {Type}: {Working Title}
 
-> **Type:** {scenario-reel | idiom-reel | cheatsheet | quiz | article-remix | particle | small-words | mistake | vocab-scene | knm-quiz}
+> **Type:** {scenario-reel | idiom-reel | cheatsheet | quiz | article-remix | particle | small-words | mistake | vocab-scene | knm-quiz | spoken-carousel}
 > **Theme:** {the recurring moment, e.g. "the moment they switch to English on you"}
 > **Setting:** {the concrete place this post is staged in, e.g. the bakery; "n/a" for the flex/remix}
 > **Persona:** {target persona}
 > **Positioning thread:** {one value prop woven as undercurrent}
-> **Render:** {ScenarioReel | IdiomReel | Cheatsheet | Quiz | ConceptGuide | VocabScene} — props: `remotion/props/{week}/{slug}.json` — run `/instagram-render {slug}`
+> **Render:** {ScenarioReel | IdiomReel | IdiomShots | PhraseReel | Cheatsheet | Quiz | ConceptGuide | VocabScene} — props: `remotion/props/{week}/{slug}.json` — run `/instagram-render {slug}`
 > **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
 ## Rules for this post (keep edits on-rails)
@@ -539,6 +540,108 @@ Keywords woven: {3-6}
 "{sentence-pulling question}"
 ```
 
+### spoken-carousel (renders via `PhraseReel` to an MP4 — a "talking carousel")
+
+A carousel of useful sentences turned into a short 9:16 video so each sentence is **pronounced out loud**. The cheap sibling of a scenario reel: ONE still backdrop + one short voice clip per sentence, and **no image-to-video clip** (no Seedance), so it costs like a carousel. Pick it when the value is *hearing* the Dutch. 4–8 phrases (the cheatsheet sweet spot). Audio is made by hand in ElevenLabs and dropped in.
+
+```markdown
+## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
+
+STEP 1 — Voice each phrase (ElevenLabs). Use the Joost voice ({voice from brand kit}).
+Settings: Stability ~50, Similarity high, Style low, slightly slow (learners repeat after him).
+Render EACH phrase as its own file, in order, with these exact names:
+
+  remotion/public/{week}/{slug}/phrase-1.mp3   "{Dutch phrase 1}"   (EN: {translation})
+  remotion/public/{week}/{slug}/phrase-2.mp3   "{Dutch phrase 2}"   (EN: {translation})
+  ...one mp3 per phrase, numbered in order...
+(One sentence per file. Remotion measures each file's length automatically — you never note
+durations. Just the clean sentence, a touch slow; no trailing silence needed.)
+
+STEP 2 — Backdrop image (ChatGPT). ONE full-bleed 9:16 watercolor scene that sits behind every
+card. Attach: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png. The pasted
+prompt must contain the full Style Block and Negative prompt below, written out verbatim. Never
+leave a placeholder or a "see brand-kit" pointer: the runbook must be copy-paste-ready. Paste this
+exact prompt:
+
+  Create a warm, hand-drawn storybook illustration, VERTICAL 9:16 (1080×1920, full-bleed): Joost
+  {at the place, simple friendly action}. Match the STYLE of style-ref-1 and style-ref-2 (do not
+  copy their characters or objects). Reproduce JOOST exactly from joost-reference. Frame Joost in
+  the UPPER or CENTRE of the frame and keep the BOTTOM third calmer and less busy (the cover title
+  is rendered there). The centre is dimmed by a text plate at render time, so it need not be empty.
+  No text in the image. All Dutch is rendered by Remotion.
+
+  Illustration style:
+  Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
+  gentle pencil-like outlines, subtle paper texture, muted cozy colors, and light
+  watercolor washes. The image should feel slightly imperfect and handmade, as if
+  sketched with ink and colored by hand.
+
+  Characters:
+  Characters should have simple friendly faces. Eyes must be drawn only as small
+  solid dark circles or vertical oval dots. No pupils, no sclera, no iris, no
+  eyelashes, and no glossy or realistic eyes. Keep facial features minimal: a small
+  simple nose, soft blush on the cheeks, and a friendly understated expression. Use
+  rounded shapes, soft shadows, natural proportions, and expressive but simple
+  gestures. Clothing should have gentle fabric texture and small hand-drawn details.
+
+  Setting and background:
+  Cozy, calm, and lived-in. Include simple environmental details that support the
+  scene (furniture, plants, books, coffee cups, warm window light, shelves,
+  textiles, small everyday objects). Detailed enough to feel atmospheric, not so
+  busy that it distracts from the main moment. The setting is the Netherlands: when
+  the scene is outdoors, the architecture and nature are Dutch (brick terraced or
+  canal houses with large windows and gabled facades, bicycles, tiled pavements, a
+  flat landscape, a soft grey-blue Dutch sky), never Mediterranean or southern
+  European (no terracotta roofs, whitewashed stone, stucco walls, or palm trees).
+
+  Mood:
+  Warm, approachable, educational, calm, friendly, slightly whimsical, human, and
+  relatable.
+
+  Style keywords:
+  Children's book editorial illustration, loose ink linework, watercolor texture,
+  soft pastel palette, hand-sketched, slightly whimsical, clean but organic, cozy
+  everyday atmosphere.
+
+  Avoid realistic eyes, detailed pupils, sclera, iris, eyelashes, glossy eyes,
+  anime eyes, photorealism, 3D render, plastic texture, harsh outlines, sharp
+  digital gradients, overly perfect vector art, exaggerated cartoon expressions,
+  complex facial detail, hyperreal skin texture, dramatic lighting, cinematic
+  realism, overly polished digital art, cluttered composition, text in the image,
+  inconsistent character design.
+
+Save it as: remotion/public/{week}/{slug}/cover.png
+(No Canva. The phrase cards and all Dutch text are rendered by Remotion, correctly spelled.)
+
+## WHAT REMOTION PRODUCES (PhraseReel → MP4; no CapCut, no Seedance)
+A 9:16 MP4 "talking carousel": a cover title card (with a SOUND ON cue), then one card per phrase
+that holds for exactly the length of its voice clip — big NL hero line, the EN beneath (revealed a
+beat later), an optional gold WHEN pill, a pulsing listen badge, progress dots + counter — over the
+slowly zooming backdrop, then a branded blue CTA outro. Durations are auto-measured from the mp3s;
+the DWJ logo is baked in. Output: 9:16 1080×1920 MP4 with the voice track muxed in. It ends on the
+CTA card, so it skips the reel loop-check.
+Props: remotion/props/{week}/{slug}.json (theme, cover {kicker,title,sub}, phrases [each: file, nl,
+en, when], outro {title, sub}).
+
+The phrases (also written into props, one voiced mp3 each):
+1. {NL phrase} ({EN translation}) when: {situation}  → phrase-1.mp3
+2. ...
+
+## RENDER (after Status: approved and all assets saved)
+/instagram-render {slug}
+(or, manually: cd remotion && npx remotion render src/index.ts PhraseReel out/{week}/{slug}/{slug}.mp4 --props=props/{week}/{slug}.json)
+
+## CAPTION (paste into Instagram)
+{line 1: searchable keyword hook, e.g. "How to order at a Dutch bakery (say it out loud)"}
+{value: turn the sound on and repeat each line after Joost}
+{save/send CTA}
+Start learning Dutch with Joost: link in bio.
+Keywords woven: {3-6}
+
+## PINNED COMMENT
+"{question that pulls a sentence reply}"
+```
+
 ### quiz
 
 ```markdown
@@ -691,6 +794,8 @@ Keywords woven: {3-6}
 
 The funny idiom format: **one idiom per reel, one per week**, from `brand/dutch-idioms.md`. A Dutch speaker uses the idiom naturally; the learner pictures it LITERALLY (a timed cutaway to a full-frame literal image, framed as a daydream); brief confusion; then the meaning lands (by the Dutch speaker, or by us in the outro). Built on the scenario-reel backbone (looped conversation clip, subtitles, hook, loop-safe outro) plus the literal cutaway. The sequence can vary; the literal-imagination is the visual punchline. Keep one recurring learner character across the series.
 
+**Two ways to make this.** The **clip version** here uses a Seedance conversation clip + a full-frame literal cutaway. The **stills version** below (`idiom-reel — stills version`, renders via `IdiomShots`) uses NO Seedance: a wide two-shot, a push-in to the confused learner with the idiom in a thought bubble, and a held gesture. Prefer the stills version to avoid the image-to-video cost and get the zoom + bubble + gesture treatment; use the clip version when you specifically want live motion in the scene.
+
 ```markdown
 ## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
 
@@ -741,6 +846,70 @@ Keywords woven: {3-6}
 
 ## PINNED COMMENT
 "{question that pulls a sentence reply, e.g. which Dutch idiom made no sense the first time you heard it?}"
+```
+
+### idiom-reel — stills version (renders via `IdiomShots`, no Seedance)
+
+The **Seedance-free** idiom reel, and the preferred one when you want the camera move. Instead of a looped clip it is a SHOT SEQUENCE of stills: a wide two-shot (Dutch speaker + learner) → a push-in to a close-up of the confused learner with the idiom in a **thought bubble** above her → a pull-back to the two-shot, where the speaker **switches to a gesture** (hand up, mouth open) on the meaning line and holds it. Same hook + branded outro as the clip version. Costs like a carousel (a few stills, no image-to-video). The whole format lives on **consistency**: every extra frame is made by attaching the wide shot and changing only one thing, so the cross-dissolves animate just that.
+
+```markdown
+## ASSETS TO GENERATE (save into remotion/public/{week}/{slug}/)
+
+STEP 1 — Voice (ElevenLabs). Four lines, one mp3 each, exact names in order. Joost for the Dutch speaker, one
+warm recurring learner voice. Same settings as the scenario-reel.
+
+  remotion/public/{week}/{slug}/{c1}-1.mp3   "{the idiom, said naturally}"   (EN: {gloss})
+  remotion/public/{week}/{slug}/{c2}-2.mp3   "{the literal reaction}"        (EN: {gloss})   <- close + imagine
+  remotion/public/{week}/{slug}/{c1}-3.mp3   "{a beat / clearing it up}"     (EN: {gloss})
+  remotion/public/{week}/{slug}/{c1}-4.mp3   "{the real meaning}"            (EN: {gloss})   <- recovery + gesture
+
+STEP 2 — Wide two-shot (ChatGPT). The 9:16 two-shot: the Dutch speaker and the learner STANDING, talking,
+looking at each other, the learner clearly on ONE side (note which). **Paste the scenario-reel STEP 2 prompt
+verbatim** (the full Style Block + Negative prompt inline), changing only the scene description line to this
+two-shot. Both mouths closed, no text. Save as `wide.png` — this is the ANCHOR for the next three steps.
+
+STEP 3 — Wide gesture frame (ChatGPT). ATTACH `wide.png` and prompt: "keep EVERYTHING identical (the learner,
+the room, framing, lighting, colours); change ONLY the Dutch speaker: raise his nearer hand into an open
+'let me explain' gesture (palm up, ~chest height) and open his mouth slightly as if mid-word." Style is
+inherited from the attached image, so no full block needed. Save as `wide-gesture.png`.
+
+STEP 4 — Close-up of the learner (ChatGPT). ATTACH `wide.png` and prompt: "a close-up portrait of the SAME
+learner (same face, hair, clothes), facing the camera, filling the frame chest-up, a puzzled CONFUSED look
+(eyebrows up, head tilted, lips closed). Leave clear EMPTY SPACE above her head for a thought bubble. Same
+style, no text." Save as `close.png`.
+
+STEP 5 — Literal-imagination image (ChatGPT). The idiom drawn LITERALLY for the bubble (e.g. a small monkey
+climbing out of a sleeve), roughly SQUARE (1:1), the subject CENTERED on a plain soft background (no scene, no
+clutter). **Reproduce the full Style Block + Negative prompt inline** (same text as STEP 2). No text. Save as
+`ape.png`.
+
+## WHAT REMOTION PRODUCES (IdiomShots, no Seedance)
+A stills shot-sequence: a 3-second hook, the wide two-shot, a push-in (scale + cross-dissolve toward `focus`)
+to the learner's close-up with the ape in a thought bubble (line flagged `close` + `imagine`), a pull-back to
+the wide, the speaker switching to `wide-gesture.png` and holding it (line flagged `gesture`), then the branded
+outro card. Per-line NL/EN subtitles; durations auto-measured. Output: 9:16 MP4. Props:
+remotion/props/{week}/{slug}.json (shotWide, shotWideGesture, shotClose, apeImage, focus, hook, outro, lines).
+
+The dialogue + idiom (also written into props), from `brand/dutch-idioms.md`:
+- focus: {x, y} — the learner's position in the wide shot (the push-in target), 0-1 fractions
+- hook: {l1} / {l2} / {emphasis} — the literal gag in the first 3 seconds
+- lines: speaker uses the idiom; learner's literal reaction (`close: true, imagine: true`); a beat; the meaning
+  (`recovery: true, gesture: true`). The idiom is the sanctioned above-A1 element; the rest A1 and glossed.
+- outro: {kicker} / {idiom, nl} / {literal} / {meaning, en} / {cta} / {handle}
+
+## RENDER (after Status: approved and all assets saved)
+/instagram-render {slug}
+(or, manually: cd remotion && npx remotion render src/index.ts IdiomShots out/{week}/{slug}/{slug}.mp4 --props=props/{week}/{slug}.json)
+
+## CAPTION (paste into Instagram)
+{line 1 keyword hook, e.g. "Dutch idioms, taken literally"}
+{2-4 lines of value; always gloss the idiom (literal + meaning) so it never sits untranslated}
+{save/send CTA}
+Start learning Dutch with Joost: link in bio.
+Keywords woven: {3-6}
+
+## PINNED COMMENT
+"{question that pulls a sentence reply}"
 ```
 
 ### vocab-scene (renders via `VocabScene`)

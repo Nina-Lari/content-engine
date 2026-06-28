@@ -1,28 +1,33 @@
 {
   "clip": "2026-06-22/table-talk-too-fast/clip.mp4",
   "hook": {
-    "l1": "Sunday dinner at the in-laws.",
-    "l2": "An hour of smiling and nodding.",
-    "emphasis": "One line, and you're back in the talk."
+    "l1": "Talk too fast to follow?",
+    "l2": "",
+    "emphasis": "One line lets you join."
   },
-  "switchTagText": "smiling and nodding...",
+  "switchTagText": "",
   "lines": [
     {
       "file": "2026-06-22/table-talk-too-fast/joost-1.mp3",
       "speaker": "Joost",
       "nl": "Zaterdag gaan we naar mijn zus. En zondag komt opa ook!",
-      "en": "Saturday we're going to my sister's. And Sunday grandpa's coming too!",
-      "switchTag": true
+      "en": "Saturday we're going to my sister's. And Sunday grandpa's coming too!"
     },
     {
-      "file": "2026-06-22/table-talk-too-fast/maya-2.mp3",
+      "file": "2026-06-22/table-talk-too-fast/sanne-2.mp3",
+      "speaker": "Sanne",
+      "nl": "Oh, leuk! Hoe laat?",
+      "en": "Oh, nice! What time?"
+    },
+    {
+      "file": "2026-06-22/table-talk-too-fast/maya-3.mp3",
       "speaker": "Maya",
       "recovery": true,
       "nl": "Mag het iets langzamer? Ik wil graag meepraten.",
       "en": "Can it be a bit slower? I'd like to join in."
     },
     {
-      "file": "2026-06-22/table-talk-too-fast/joost-3.mp3",
+      "file": "2026-06-22/table-talk-too-fast/joost-4.mp3",
       "speaker": "Joost",
       "nl": "Natuurlijk. Geen probleem!",
       "en": "Of course. No problem!"
@@ -32,7 +37,7 @@
     "kicker": "The one line to remember",
     "nl": "Mag het iets langzamer?",
     "en": "Can it be a bit slower?",
-    "cta": "Save this for the next family dinner.",
+    "cta": "Save it for the next time the talk runs away.",
     "handle": "@dutchwithjoost"
   }
 }

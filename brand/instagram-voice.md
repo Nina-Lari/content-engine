@@ -52,6 +52,12 @@ The full catalogue of AI sentence-shape tells lives in `.claude/rules/writing-qu
 
 ---
 
+## Characters
+
+- Alternate the second character's gender across reels: a woman (Maya) in one, a man (Tom) in the next, so the recurring cast is inclusive and Joost is not always helping a woman. Keep each one consistent from their reference sheet (`brand/maya-reference.png`, `brand/tom-reference.png`). _(Founder preference, June 2026: inclusivity across the series.)_
+
+---
+
 ## Punctuation
 
 - **Never use an em-dash (—) in any post.** Not in slides/props, captions, engagement prompts, or pinned comments. Rewrite as a period, comma, colon, or parentheses. _(Founder preference, June 2026; also enforced globally by `.claude/rules/writing-quality.md`. It kept slipping into rendered slides, so it is restated here as a brand hard rule.)_

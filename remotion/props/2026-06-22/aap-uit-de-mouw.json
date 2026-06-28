@@ -1,0 +1,15 @@
+{
+  "shotWide": "2026-06-22/aap-uit-de-mouw/wide.png",
+  "shotWideGesture": "2026-06-22/aap-uit-de-mouw/wide-gesture.png",
+  "shotClose": "2026-06-22/aap-uit-de-mouw/close.png",
+  "apeImage": "2026-06-22/aap-uit-de-mouw/ape.png",
+  "focus": {"x": 0.66, "y": 0.4},
+  "hook": {"l1": "A monkey is about", "l2": "to climb out of", "emphasis": "HIS SLEEVE??"},
+  "outro": {"kicker": "WHAT IT REALLY MEANS", "nl": "nu komt de aap uit de mouw", "literal": "lit. now the monkey comes out of the sleeve", "en": "now the hidden truth comes out", "cta": "Save it for the next one you hear.", "handle": "@dutchwithjoost"},
+  "lines": [
+    {"file": "2026-06-22/aap-uit-de-mouw/joost-1.mp3", "speaker": "Joost", "nl": "Aha, nu komt de aap uit de mouw!", "en": "Aha, now the monkey comes out of the sleeve!"},
+    {"file": "2026-06-22/aap-uit-de-mouw/roos-2.mp3", "speaker": "Roos", "close": true, "imagine": true, "nl": "Een aap? Uit je mouw?", "en": "A monkey? Out of your sleeve?"},
+    {"file": "2026-06-22/aap-uit-de-mouw/joost-3.mp3", "speaker": "Joost", "nl": "Haha, nee. Geen echte aap.", "en": "Haha, no. Not a real monkey."},
+    {"file": "2026-06-22/aap-uit-de-mouw/joost-4.mp3", "speaker": "Joost", "recovery": true, "gesture": true, "nl": "Het betekent: nu komt de waarheid.", "en": "It means: now the truth comes out."}
+  ]
+}

@@ -1,7 +1,4 @@
-# Coffee with the neighbor (In de woonkamer)
-
-> Ready to post. Type: vocab-scene. Week: 2026-06-22.
-> Rendered: `remotion/out/2026-06-22/coffee-with-the-neighbor/` (3 PNG slides)
+# Coffee with the neighbor (In de woonkamer) — vocab-scene — remotion/out/2026-06-22/coffee-with-the-neighbor/ (3 slides: element-0..2.png)
 
 ## Caption (paste into Instagram)
 
@@ -14,6 +11,7 @@ Start learning Dutch with Joost: link in bio.
 
 "Which thing in your living room do you still not know in Dutch?"
 
-## Keywords (reference, do not paste)
+---
 
+### Keywords (reference, do not paste)
 Dutch living room vocabulary, Dutch household words, Dutch vocabulary for beginners, learn Dutch at home, Dutch for expats

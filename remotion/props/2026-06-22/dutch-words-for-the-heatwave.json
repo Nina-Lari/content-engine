@@ -1,24 +1,22 @@
 {
-  "variant": "small-words",
   "theme": "Hittegolf",
   "handle": "@dutchwithjoost",
   "coverImage": "2026-06-22/dutch-words-for-the-heatwave/cover.png",
   "cover": {
-    "kicker": "Hittegolf",
+    "kicker": "HEAR IT OUT LOUD",
     "title": "Dutch for 40 degrees",
-    "sub": "What everyone is saying while the country melts"
+    "sub": "Four lines you'll actually hear this heatwave. Say them out loud with Joost."
   },
-  "intro": null,
-  "cards": [
-    {"term": "snikheet", "meaning": "sweltering, boiling hot", "examples": [{"nl": "Het is snikheet vandaag.", "en": "It's sweltering today."}], "note": "The word every Dutch person says in a heatwave."},
-    {"term": "een tropische dag", "meaning": "a \"tropical day\": 30 degrees or more", "examples": [{"nl": "Morgen wordt het een tropische dag.", "en": "Tomorrow will be a tropical day."}], "note": "The official Dutch weather word for 30+."},
-    {"term": "een tropennacht", "meaning": "a \"tropical night\" that stays above 20 degrees", "examples": [{"nl": "Wat een tropennacht!", "en": "What a tropical night!"}], "note": "Why nobody slept last night."},
-    {"term": "bloedheet", "meaning": "boiling hot (literally \"blood-hot\")", "examples": [{"nl": "Het is bloedheet buiten.", "en": "It's boiling outside."}], "note": "Stronger than warm."},
-    {"term": "om te smelten", "meaning": "hot enough to melt", "examples": [{"nl": "Het is om te smelten.", "en": "It's hot enough to melt."}], "note": "A fun way to say it's way too hot."},
-    {"term": "lekker weer, hè?", "meaning": "nice weather, eh? (said at ANY temperature)", "examples": [{"nl": "40 graden? Lekker weer, hè?", "en": "40 degrees? Nice weather, eh?"}], "note": "A Dutch person will say this while melting."}
+  "phrases": [
+    {"file": "2026-06-22/dutch-words-for-the-heatwave/phrase-1.mp3", "nl": "Het is snikheet vandaag.", "en": "It's sweltering today.", "when": "snikheet = boiling hot"},
+    {"file": "2026-06-22/dutch-words-for-the-heatwave/phrase-2.mp3", "nl": "Het is bloedheet buiten.", "en": "It's boiling hot outside.", "when": "bloedheet = literally blood-hot"},
+    {"file": "2026-06-22/dutch-words-for-the-heatwave/phrase-3.mp3", "nl": "Ik heb het zo warm.", "en": "I'm so hot.", "when": "not 'ik ben warm'"},
+    {"file": "2026-06-22/dutch-words-for-the-heatwave/phrase-4.mp3", "nl": "40 graden? Lekker weer, hè?", "en": "40 degrees? Nice weather, eh?", "when": "said at any temperature"}
   ],
-  "cta": {
-    "title": "Save these for the next hot day",
-    "sub": "Send it to whoever keeps saying it's snikheet."
-  }
+  "outro": {
+    "title": "Which one will you say first?",
+    "sub": "Save it, and send it to whoever keeps saying it's snikheet."
+  },
+  "recap": true,
+  "recapTitle": "Save all four"
 }

@@ -15,8 +15,8 @@
 - Image prompt carries the full Style Block + Negative prompt text inline, verbatim. Copy-paste-ready, never a placeholder.
 - Caption ends with the standard bio CTA line, verbatim: `Start learning Dutch with Joost: link in bio.`
 - Caption, hook, and outro pass the **Voice check**: no stacked AI-slop sentence shapes; reads aloud like one person talking.
-- Close on connection: people love retelling a joke. The feeling is wanting in, not embarrassment. Do not pin the missed joke on her Dutch.
-- Keep Maya consistent with Monday's reel (same learner, same design). Joost is a friend here, not the father-in-law.
+- Close on connection: people love retelling a joke. The feeling is wanting in, not embarrassment. Do not pin the missed joke on his Dutch.
+- Second character is Tom (a man), alternating with Maya in Monday's reel so the recurring cast is inclusive. Keep Tom consistent with his reference (`brand/tom-reference.png`). Joost is a friend here, not the father-in-law.
 
 ## Dutch check
 | # | Dutch line | Level | Correct? | Note |
@@ -31,16 +31,16 @@ Checked caption, hook, outro, pinned comment. Clean: hook opens on the BBQ momen
 
 ## ASSETS TO GENERATE (save into remotion/public/2026-06-22/get-in-on-the-joke/)
 
-STEP 1. Voice (ElevenLabs). Joost uses the Ido voice (ElevenLabs voice ID `dLPO5AsXc3FZDbTh1IKa`). Pick one warm Dutch voice for Maya (keep her consistent with the Monday reel's feel). Settings: Stability ~50, Similarity high, Style low, speed slightly slow. Render each line as its own file and save with these exact names (order matters):
+STEP 1. Voice (ElevenLabs). Joost uses the Ido voice (ElevenLabs voice ID `dLPO5AsXc3FZDbTh1IKa`). Pick one warm Dutch male voice for Tom (a man, our recurring male learner). Settings: Stability ~50, Similarity high, Style low, speed slightly slow. Render each line as its own file and save with these exact names (order matters):
 
   remotion/public/2026-06-22/get-in-on-the-joke/joost-1.mp3   "Haha, en de hele tent valt zo om!"   (EN: Haha, and the whole tent just falls over!)
-  remotion/public/2026-06-22/get-in-on-the-joke/maya-2.mp3    "Wacht, wat is er zo grappig?"        (EN: Wait, what's so funny?)
+  remotion/public/2026-06-22/get-in-on-the-joke/tom-2.mp3     "Wacht, wat is er zo grappig?"        (EN: Wait, what's so funny?)
   remotion/public/2026-06-22/get-in-on-the-joke/joost-3.mp3   "Ik leg het uit. Je gaat lachen, echt!"   (EN: I'll explain. You're going to laugh, really!)
 (Remotion measures each file's length automatically. You do not note durations.)
 
-STEP 2. Scene image (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png. Paste this exact prompt:
+STEP 2. Scene image (ChatGPT). Attach: brand/style-ref-1.png, brand/style-ref-2.png, brand/joost-reference.png, brand/tom-reference.png. Paste this exact prompt:
 
-  A relaxed Dutch back-garden BBQ on a warm summer evening, a 9:16 vertical two-shot. JOOST stands on the LEFT among a small group of friends, mid-laugh, holding a drink, clearly enjoying a story. A woman in her early thirties with shoulder-length dark hair and a mustard-and-grey knit stands just on the RIGHT, half a step out of the circle, smiling a beat too late, a plate in one hand. Behind them: a smoking BBQ, string lights, garden chairs, a wooden fence with plants, other guests suggested softly out of focus. Keep the bottom third of the frame calmer and less detailed (subtitles render there). No text anywhere in the image.
+  A relaxed Dutch back-garden BBQ on a warm summer evening, a 9:16 vertical two-shot. JOOST stands on the LEFT among a small group of friends, mid-laugh, holding a drink, clearly enjoying a story. A man in his early thirties with short dark curly hair and warm light-brown skin, in a short-sleeved olive-green shirt, stands just on the RIGHT, half a step out of the circle, smiling a beat too late, a plate in one hand. Reproduce the man on the right exactly from tom-reference. Behind them: a smoking BBQ, string lights, garden chairs, a wooden fence with plants, other guests suggested softly out of focus. Keep the bottom third of the frame calmer and less detailed (subtitles render there). No text anywhere in the image.
 
   Illustration style:
   Warm, hand-drawn storybook illustration in a soft watercolor-and-ink style. Use
@@ -82,7 +82,7 @@ Save it as the clip's anchor frame: remotion/public/2026-06-22/get-in-on-the-jok
 
 STEP 3. Video (image-to-video; Seedance 1 Pro). Upload the Step 2 image as BOTH the begin frame AND the end frame. Settings: 9:16, 10s, 720p. SILENT, no lip-sync. Seedance 1 Pro has NO negative-prompt field, so the prompt leads with the positive closed-mouth state. Paste this exact prompt:
 
-  Animate this still image with extremely subtle motion only. Joost, the man on the left, keeps a soft, natural closed-mouth smile, lips closed the whole time, shoulders shaking very slightly with a quiet laugh, then returns to the provided end-frame pose. Maya, the woman on the right, keeps her mouth and lips unchanged and closed for the entire video; her face stays still with a small late smile, she tilts her head a touch toward the group. No speech-like mouth movement, no mouth opening, no jaw motion. Static camera with very subtle ambient breathing motion. String lights glow faintly, a thin wisp of BBQ smoke drifts. Warm summer-evening garden atmosphere. Preserve exact style, character design, composition, and lighting.
+  Animate this still image with extremely subtle motion only. Joost, the man on the left, keeps a soft, natural closed-mouth smile, lips closed the whole time, shoulders shaking very slightly with a quiet laugh, then returns to the provided end-frame pose. Tom, the man on the right, keeps his mouth and lips unchanged and closed for the entire video; his face stays still with a small late smile, he tilts his head a touch toward the group. No speech-like mouth movement, no mouth opening, no jaw motion. Static camera with very subtle ambient breathing motion. String lights glow faintly, a thin wisp of BBQ smoke drifts. Warm summer-evening garden atmosphere. Preserve exact style, character design, composition, and lighting.
 
 (No separate negative prompt. Full recipe: brand/brand-kit.md → Motion.)
 

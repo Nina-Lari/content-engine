@@ -4,6 +4,9 @@ import {Cheatsheet, cheatsheetDefaults, calcCheatsheet} from './compositions/Che
 import {Quiz, quizDefaults, calcQuiz} from './compositions/Quiz';
 import {ScenarioReel, reelDefaults, calcReel} from './compositions/ScenarioReel';
 import {IdiomReel, idiomReelDefaults, calcIdiomReel} from './compositions/IdiomReel';
+import {PhraseReel, phraseReelDefaults, calcPhraseReel} from './compositions/PhraseReel';
+import {FrameAnim, frameAnimDefaults, calcFrameAnim} from './compositions/FrameAnim';
+import {IdiomShots, idiomShotsDefaults, calcIdiomShots} from './compositions/IdiomShots';
 import {ConceptGuide, conceptGuideDefaults, calcConceptGuide} from './compositions/ConceptGuide';
 import {VocabScene, vocabSceneDefaults, calcVocabScene} from './compositions/VocabScene';
 import {ComicStory, comicStoryDefaults, calcComicStory} from './compositions/ComicStory';
@@ -48,6 +51,36 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={idiomReelDefaults}
         calculateMetadata={calcIdiomReel}
         durationInFrames={300}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="PhraseReel"
+        component={PhraseReel}
+        defaultProps={phraseReelDefaults}
+        calculateMetadata={calcPhraseReel}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="IdiomShots"
+        component={IdiomShots}
+        defaultProps={idiomShotsDefaults}
+        calculateMetadata={calcIdiomShots}
+        durationInFrames={420}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="FrameAnim"
+        component={FrameAnim}
+        defaultProps={frameAnimDefaults}
+        calculateMetadata={calcFrameAnim}
+        durationInFrames={120}
         fps={30}
         width={1080}
         height={1920}

@@ -47,11 +47,11 @@ Other hard rules:
 
 ## Cadence
 
-Default target: **7 feed posts per week (one per day), with a maximum of 2 reels + daily Stories.** This is a daily posting cadence: a post every day for momentum and reach, with reels capped at 2 a week. Reels are the heaviest format to produce, so they are capped and the rest of the week leans on carousels and quizzes. Drop a post before ever missing a day, but keep at least one reel.
+Default target: **8 feed posts per week, with a maximum of 2 reels + daily Stories.** That is the 7-day daily grid (a post every day for momentum and reach) plus the standing spoken-carousel as a +1, with reels capped at 2 a week. Reels are the heaviest format to produce, so they are capped and the rest of the week leans on carousels and quizzes. Drop a post before ever missing a day, but keep at least one reel.
 
 The deeper rule, not the number: **sustainable daily consistency with no more than 2 reels a week** (reels are the discovery engine but the most work, so they are capped and the carousel and quiz formats carry the daily volume). Consistency beats volume, a missed day hurts less than a weak post, and the cadence is a dial set to the user's available time.
 
-Default 7-post themed week the batch produces: **2 reels (fixed) + 5 carousels chosen from the full menu.** The 2 reels carry the theme; the 5 carousel slots are picked per week from any carousel type, and batch **proposes them for you to confirm before it builds anything** (see the lineup checkpoint in the skill's batch flow).
+Default 8-post themed week the batch produces: **2 reels (fixed) + 1 spoken-carousel (fixed) + 5 carousels chosen from the full menu.** The 2 reels carry the theme; the **spoken-carousel is a standing weekly slot** (its own category, see *Spoken carousel* below); the 5 carousel slots are picked per week from any carousel type. Batch **proposes the whole lineup for you to confirm before it builds anything** (see the lineup checkpoint in the skill's batch flow). (Busy week? Trim to 7 by dropping one evergreen carousel, but keep the reels and the spoken-carousel.)
 
 | Day | Slot | Type | Format | On-theme? | Job |
 |-----|------|------|--------|-----------|-----|
@@ -62,9 +62,10 @@ Default 7-post themed week the batch produces: **2 reels (fixed) + 5 carousels c
 | Fri | 5 | carousel (your pick) | Carousel | yes / evergreen | Saves + sends |
 | Sat | 6 | carousel (your pick) | Carousel | yes / evergreen | Sentence-comments |
 | Sun | 7 | carousel (your pick) | Carousel | flex / evergreen | Reach + SEO |
+| +1 | 8 | spoken-carousel | MP4 (spoken) | yes / evergreen | Listen + saves (a 2nd midweek post) |
 | Daily | — | Stories | Stories | — | Reshare the day's post + a quiz sticker |
 
-The **carousel menu** (any of the five non-reel slots can be one of these):
+The **carousel menu** (any of the five carousel slots can be one of these; the spoken-carousel is its own standing slot, not in this menu):
 
 | Type | Composition | Grounded in | On-theme or evergreen |
 |------|-------------|-------------|-----------------------|
@@ -79,11 +80,13 @@ The **carousel menu** (any of the five non-reel slots can be one of these):
 
 (`idiom` used to live here as a `ConceptGuide` carousel. As of June 2026 it is an **`idiom-reel`** that renders via `IdiomReel`, see *Idiom reel* below. It is a reel, so it takes a reel slot, not a carousel slot.)
 
-One of the two reels can instead be an **`idiom-reel`** (the funny idiom format, detailed below): one idiom per week, taking a reel slot, so a week that uses it runs as one scenario-reel + one idiom-reel + five carousels. Idioms are no longer a carousel.
+One of the two reels can instead be an **`idiom-reel`** (the funny idiom format, detailed below): one idiom per week, taking a reel slot, so a week that uses it runs as one scenario-reel + one idiom-reel + one spoken-carousel + five carousels. Idioms are no longer a carousel.
+
+**Spoken carousel (the talking carousel), a standing weekly slot.** Every week also includes **one** `spoken-carousel`: a 9:16 MP4 that pronounces a set of useful sentences out loud (cover → one card per sentence → a summary slide → CTA), rendered via `PhraseReel`. It is its **own category, separate from the carousels** (it teaches *listening and saying it back*, not reading), and it does **not** count toward the 2-reel cap because it has no image-to-video clip, so it costs like a carousel. Pick its sentence-set from `brand/spoken-carousels.md`; the props contract is in `remotion/README.md`.
 
 Keep the week coherent: the 2 reels plus at least one or two on-theme carousels carry the moment; the remaining slots can be **evergreen reference posts** (a particle, a KNM quiz, a vocab scene) that stand alone and are useful any week. A week can be mostly on-theme or a healthy mix. Batch proposes a balance and you confirm it.
 
-Suggested posting: one post every day, Mon through Sun. Floor when busy: drop an evergreen carousel first, then a quiz, but keep at least one reel. Never drop to zero.
+Suggested posting: one post every day, Mon through Sun, plus the standing spoken-carousel as a +1 (8 posts). Floor when busy: drop an evergreen carousel first, then a quiz, but keep at least one reel and the spoken-carousel. Never drop to zero.
 
 ## Weekly theming (theme packs)
 
